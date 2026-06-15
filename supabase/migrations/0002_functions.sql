@@ -77,7 +77,10 @@ $$;
 
 -- ---------------------------------------------------------------------------
 -- get_topic_cards — cards in a topic (summary first, then by search_boost/quality).
+-- (drop+recreate: the return type gained content_category, which CREATE OR
+--  REPLACE cannot do in place.)
 -- ---------------------------------------------------------------------------
+drop function if exists get_topic_cards(text, text, boolean);
 create or replace function get_topic_cards(
   p_topic_id text,
   p_locale text default 'ru',
@@ -86,6 +89,7 @@ create or replace function get_topic_cards(
 returns table (
   card_id          text,
   card_type        text,
+  content_category text,
   status           text,
   visibility       text,
   title            text,
@@ -104,7 +108,7 @@ stable
 as $$
   with loc as (select kb_effective_locale(p_locale) as locale)
   select
-    c.card_id, c.card_type, c.status, c.visibility,
+    c.card_id, c.card_type, c.content_category, c.status, c.visibility,
     coalesce(ct.title, cte.title),
     coalesce(ct.short_body, cte.short_body),
     coalesce(ct.body, cte.body),

@@ -6,7 +6,9 @@
   "description": "Atomically deploy a new version of the kb_dataset_uy_v3_deep data into Supabase Postgres.",
   "scripts": {
     "migrate": "node migrate.mjs",
-    "deploy": "node deploy.mjs"
+    "deploy": "node deploy.mjs",
+    "smoke": "node smoke.mjs",
+    "issue-token": "node issue-token.mjs"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

@@ -102,6 +102,7 @@ const cardRow = (c) => ({
   card_id: c.card_id,
   topic_id: c.topic_id,
   card_type: c.card_type,
+  content_category: c.content_category ?? null, // editorial category (advice/checklist/warning/...) — v5.9+
   status: c.status,
   visibility: c.visibility,
   confidence: c.confidence ?? null,
@@ -311,7 +312,7 @@ try {
   await insertRows(client, 'keywords', ['keyword_id'], keywordRows);
 
   const cardCols = [
-    'card_id', 'topic_id', 'card_type', 'status', 'visibility', 'confidence', 'staleness_risk',
+    'card_id', 'topic_id', 'card_type', 'content_category', 'status', 'visibility', 'confidence', 'staleness_risk',
     'needs_review', 'sensitivity_tags', 'sensitivity_level', 'quality_score', 'confidence_score',
     'alignment_score', 'last_confirmed_date', 'stale_after_days', 'requires_periodic_check', 'search_boost',
     'first_seen_message_date', 'last_updated_from_message_date', 'source_stats', 'version',

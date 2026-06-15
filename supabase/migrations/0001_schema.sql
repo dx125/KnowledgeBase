@@ -56,7 +56,8 @@ create table if not exists keywords (
 create table if not exists cards (
   card_id                 text primary key,
   topic_id                text not null references topics(topic_id),
-  card_type               text not null,          -- 'summary' | 'how_to'
+  card_type               text not null,          -- 'summary' | 'how_to' | 'public_overview'
+  content_category        text,                   -- editorial category: advice | checklist | warning | overview | instruction | community_experience | reference
   status                  text not null,          -- active | needs_review | needs_expert_review
   visibility              text not null,          -- 'public' | 'internal'
   confidence              text,
@@ -76,6 +77,10 @@ create table if not exists cards (
   source_stats            jsonb,
   version                 text          -- dataset card schema version, semver string (v5.10+); was int pre-v5.10
 );
+
+-- Idempotent upgrade for databases created before content_category existed, so
+-- the column is present before 0002's get_topic_cards references it.
+alter table cards add column if not exists content_category text;
 
 create index if not exists idx_cards_topic      on cards(topic_id);
 create index if not exists idx_cards_visibility  on cards(visibility, status);
