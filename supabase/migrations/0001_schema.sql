@@ -74,7 +74,7 @@ create table if not exists cards (
   first_seen_message_date timestamptz,
   last_updated_from_message_date timestamptz,
   source_stats            jsonb,
-  version                 int
+  version                 text          -- dataset card schema version, semver string (v5.10+); was int pre-v5.10
 );
 
 create index if not exists idx_cards_topic      on cards(topic_id);

@@ -123,11 +123,14 @@ const cardRow = (c) => ({
 });
 const cardRows = cards.map(cardRow);
 
+// Link arrays may contain duplicate ids within a single card (v5.10 had 29 cards
+// with a repeated keyword_id); dedup so we don't violate the composite PKs.
+const uniq = (a) => [...new Set(a ?? [])];
 const cardSubtopicRows = cards.flatMap((c) =>
-  (c.subtopic_ids ?? []).map((subtopic_id) => ({ card_id: c.card_id, subtopic_id })),
+  uniq(c.subtopic_ids).map((subtopic_id) => ({ card_id: c.card_id, subtopic_id })),
 );
 const cardKeywordRows = cards.flatMap((c) =>
-  (c.keyword_ids ?? []).map((keyword_id) => ({ card_id: c.card_id, keyword_id })),
+  uniq(c.keyword_ids).map((keyword_id) => ({ card_id: c.card_id, keyword_id })),
 );
 
 // --- Translations -------------------------------------------------------------
@@ -243,10 +246,10 @@ for (const locale of LOCALES) {
 }
 
 const cardGlossaryRows = cards.flatMap((c) =>
-  (c.glossary_term_ids ?? []).filter((id) => termSet.has(id)).map((term_id) => ({ card_id: c.card_id, term_id })),
+  uniq(c.glossary_term_ids).filter((id) => termSet.has(id)).map((term_id) => ({ card_id: c.card_id, term_id })),
 );
 const cardEntityRows = cards.flatMap((c) =>
-  (c.entity_ids ?? []).filter((id) => entSet.has(id)).map((entity_id) => ({ card_id: c.card_id, entity_id })),
+  uniq(c.entity_ids).filter((id) => entSet.has(id)).map((entity_id) => ({ card_id: c.card_id, entity_id })),
 );
 
 const translationCount = topicTrRows.length + subtopicTrRows.length + keywordTrRows.length + cardTrRows.length;

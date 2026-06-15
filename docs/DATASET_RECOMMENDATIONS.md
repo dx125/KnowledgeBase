@@ -1,4 +1,4 @@
-# Dataset recommendations — `kb_dataset_uy` (v5.4 → v5.5)
+# Dataset recommendations — `kb_dataset_uy` (v5.4 → v5.10)
 
 Feedback from a downstream consumer of the dataset. **No application knowledge is
 required to act on any of this** — every recommendation and every check below refers
@@ -6,6 +6,23 @@ only to the dataset's own files (`kb_cards.json`, `locale_*.json`, `glossary.jso
 `entity_index.json`, `resources.json`, and the reports).
 
 Locales referenced throughout: `ru`, `en`, `es`, `de`.
+
+## Status update (v5.8 → v5.10)
+
+The v5.8/v5.9 "article rebuild" dropped two ranking signals that v5.7 had shipped, and v5.10
+restored them. For the record, and to keep them from regressing again:
+
+- **v5.9 regression — `semantic_alignment.alignment_score` and per-card `search_boost`
+  disappeared** from every base card. v5.9's `search_weight` (a global field-weight config
+  `{title,keywords,subtopics,body,linked_context}`) is **not** a substitute for the per-card
+  `search_boost` scalar. **✅ Restored in v5.10** (alignment 0.640–0.905; boost 0.269–2.147),
+  plus a top-level `alignment_score` alias and propagation into the search-index docs. Good —
+  and the new schema/validation gate that fails if these fields vanish is exactly right.
+- **NEW v5.10 — R7 (duplicate `keyword_id`s within a card).** See R7 below.
+- **NEW v5.10 — `version` field changed type** from integer to a semver string (`"5.8.0"`,
+  `"5.9.0"`). Not wrong per se, but it's an unannounced type change on an existing field; see
+  the new R-gate item 9 (stable scalar types). A consumer storing it in a typed column has to
+  migrate. Please call out field-type changes in the patch notes.
 
 ## Status update (v5.5 → v5.7)
 
@@ -161,6 +178,26 @@ no free-text chat fragments.
 
 ---
 
+### R7 — De-duplicate ids within card link arrays (NEW in v5.10)
+
+**What:** In v5.10, **29 base cards repeat a `keyword_id` inside their own `keyword_ids`
+array** (31 duplicate entries total; e.g. `kw.curated.schet` listed twice on
+`card.bank_accounts_cards.overview.overview`). `subtopic_ids`, `glossary_term_ids` and
+`entity_ids` were clean.
+
+**Why it matters:** A consumer that treats `(card_id, keyword_id)` as a unique link (a natural
+primary key) gets a duplicate-key error on import. We worked around it by de-duping on our
+side, but the arrays shouldn't carry duplicates.
+
+**Recommendation:** De-duplicate every per-card id array (`keyword_ids`, `subtopic_ids`,
+`glossary_term_ids`, `entity_ids`, and the relation arrays on candidate cards) before emitting,
+and add the uniqueness check to the validation gate (R-gate item 8).
+
+**Verify:** For every card, each id array has no repeated values
+(`len(arr) == len(set(arr))`).
+
+---
+
 ### R4 — Consolidate `confidence_score` (minor)
 
 **What:** `confidence_score` now exists both at the top level and nested under
@@ -205,6 +242,14 @@ For every card in `kb_cards.json`:
    (overview or summary).
 7. **`confidence_score` equality.** Where both top-level and nested
    `evidence_strength.confidence_score` exist, they are identical (v5.5 already checks this).
+8. **No duplicate ids in card link arrays.** For every card, each of `keyword_ids`,
+   `subtopic_ids`, `glossary_term_ids`, `entity_ids` (and candidate relation arrays) has no
+   repeated value — they are natural composite keys downstream (see R7, regressed in v5.10).
+9. **Stable scalar field types + ranking-signal presence.** Existing fields keep their JSON
+   scalar type across releases (e.g. `version` was an integer through v5.9, became a string in
+   v5.10 — flag such changes in the patch notes); and `semantic_alignment.alignment_score`,
+   `search_boost`, `confidence_score` are present on every base card (the v5.9 regression that
+   v5.10's new gate now guards).
 
 Each check should fail the build with the offending ids listed (the current reports already
 do most of this; (1) and (5) are the ones to guard most strictly).
