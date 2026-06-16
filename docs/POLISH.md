@@ -15,7 +15,7 @@ Work in this order. P0 is operational; P1 are ~5-line wins; P2 is the one real f
 | C | P1 | Prefer top-level `confidence_score` | tiny |
 | D | P1 | Control synonym over-expansion (use `origin` field) | small |
 | H | P1 | Use `semantic_alignment.alignment_score` as a ranking/quality signal | small |
-| A | P2 | Related glossary / resources / entities panel | feature |
+| ~~A~~ | ✅ done | Related glossary / resources / entities panel — fully shipped (resources in v6.3) | — |
 | I | **TODO** | Accent-insensitive search (`unaccent`) | small |
 | F | — | Body templating (dataset-side; regressed in v5.7 — see note) | n/a |
 
@@ -119,13 +119,12 @@ than precision for your use.
 
 ## A (P2) — Related glossary / resources / entities panel
 
-> **Status (v6.3): glossary + entities SHIPPED; resources now UNBLOCKED — the open follow-up.**
-> The glossary/entity panel is live in `get_card` + the web app. The **resource** half was gated
-> because every resource was `visibility=internal`; **v6.3 made 22 resources public with verified
-> URLs** (UTE, OSE, ANTEL, BROU, DGI, …), so surfacing official org links per card is now
-> actionable. Scope: `resources` + `resource_translations` + `card_resources` tables, ingest
-> `visibility='public'` resources in `deploy.mjs`, add a `resources` block to `get_card` (public
-> only), and a web panel row. Use `name_i18n_key`/`description_i18n_key` → `locale_<L>.resources`.
+> **Status: ✅ FULLY SHIPPED (v6.3).** Glossary, entities **and resources** all live in
+> `get_card` + the web panel. The resource half was gated until v6.3 made 22 resources public
+> with verified URLs; it now ingests `visibility='public'` resources (`resources` /
+> `resource_translations` / `card_resources` tables in `0001`, a public-only `resources` block in
+> `get_card`, and an "Official resources" panel row that links each org by `url`). Internal
+> resources are intentionally never ingested. **Finding A is complete.**
 
 v5.4/v5.5 populated `glossary_term_ids`, `resource_ids` and `entity_ids` on cards (v5.5:
 **457/457** coverage), plus localized glossary/resource/entity text in the locale files. This

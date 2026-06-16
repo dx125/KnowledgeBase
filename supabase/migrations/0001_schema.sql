@@ -222,6 +222,28 @@ create table if not exists card_entities (
   primary key (card_id, entity_id)
 );
 
+-- Resources: official organizations / sites linked to cards (card-detail panel).
+-- Only public, URL-verified resources are ingested (v6.3+: 22 public orgs); internal
+-- unverified resources are intentionally left out of this path.
+create table if not exists resources (
+  resource_id text primary key,
+  type        text,
+  url         text,
+  visibility  text
+);
+create table if not exists resource_translations (
+  resource_id text references resources(resource_id) on delete cascade,
+  locale      text not null,
+  name        text,
+  description text,
+  primary key (resource_id, locale)
+);
+create table if not exists card_resources (
+  card_id     text references cards(card_id) on delete cascade,
+  resource_id text references resources(resource_id) on delete cascade,
+  primary key (card_id, resource_id)
+);
+
 -- ---------------------------------------------------------------------------
 -- Row-Level Security: knowledge base is reachable only via the API role.
 -- RLS on, no anon/authenticated grants. service_role bypasses RLS for the
@@ -235,7 +257,8 @@ begin
     'topic_translations','subtopic_translations','keyword_translations','card_translations',
     'search_aliases',
     'glossary_terms','glossary_translations','entities','entity_translations',
-    'card_glossary_terms','card_entities'
+    'card_glossary_terms','card_entities',
+    'resources','resource_translations','card_resources'
   ] loop
     execute format('alter table %I enable row level security;', t);
     execute format('grant select on %I to service_role;', t);

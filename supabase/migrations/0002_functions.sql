@@ -286,6 +286,19 @@ as $$
       left join entity_translations et  on et.entity_id = ce.entity_id and et.locale = (select locale from loc)
       left join entity_translations ete on ete.entity_id = ce.entity_id and ete.locale = 'en'
       where ce.card_id = c.card_id and coalesce(et.name, ete.name, e.name) is not null
+    ),
+    -- Public official resources (organizations / sites) with verified URLs.
+    'resources', (
+      select coalesce(jsonb_agg(jsonb_build_object(
+        'name',        coalesce(rt.name, rte.name),
+        'url',         r.url,
+        'type',        r.type,
+        'description', coalesce(rt.description, rte.description)) order by cr.resource_id), '[]'::jsonb)
+      from card_resources cr
+      join resources r on r.resource_id = cr.resource_id and r.visibility = 'public'
+      left join resource_translations rt  on rt.resource_id = cr.resource_id and rt.locale = (select locale from loc)
+      left join resource_translations rte on rte.resource_id = cr.resource_id and rte.locale = 'en'
+      where cr.card_id = c.card_id and coalesce(rt.name, rte.name) is not null
     )
   )
   from cards c

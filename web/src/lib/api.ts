@@ -115,10 +115,17 @@ export interface EntityRef {
   name: string | null;
   type: string | null;
 }
+export interface ResourceRef {
+  name: string | null;
+  url: string | null;
+  type: string | null;
+  description: string | null;
+}
 export interface CardDetail {
   card_id: string;
   glossary: GlossaryTerm[];
   entities: EntityRef[];
+  resources?: ResourceRef[];
 }
 
 // --- Profile -----------------------------------------------------------------

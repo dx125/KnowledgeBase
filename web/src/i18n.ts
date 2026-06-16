@@ -59,7 +59,8 @@ type StringKey =
   | 'relatedInfo'
   | 'noRelated'
   | 'entitiesLabel'
-  | 'glossaryLabel';
+  | 'glossaryLabel'
+  | 'resourcesLabel';
 
 type Dict = Record<StringKey, string>;
 
@@ -111,6 +112,7 @@ const en: Dict = {
   noRelated: 'No related terms.',
   entitiesLabel: 'Organizations',
   glossaryLabel: 'Terms',
+  resourcesLabel: 'Official resources',
 };
 
 const ru: Dict = {
@@ -161,6 +163,7 @@ const ru: Dict = {
   noRelated: 'Нет связанных терминов.',
   entitiesLabel: 'Организации',
   glossaryLabel: 'Термины',
+  resourcesLabel: 'Официальные ресурсы',
 };
 
 const es: Dict = {
@@ -211,6 +214,7 @@ const es: Dict = {
   noRelated: 'Sin términos relacionados.',
   entitiesLabel: 'Organizaciones',
   glossaryLabel: 'Términos',
+  resourcesLabel: 'Recursos oficiales',
 };
 
 const de: Dict = {
@@ -261,6 +265,7 @@ const de: Dict = {
   noRelated: 'Keine verwandten Begriffe.',
   entitiesLabel: 'Organisationen',
   glossaryLabel: 'Begriffe',
+  resourcesLabel: 'Offizielle Ressourcen',
 };
 
 const DICTS: Record<Locale, Dict> = { en, ru, es, de };

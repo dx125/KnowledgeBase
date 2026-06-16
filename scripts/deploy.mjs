@@ -54,6 +54,7 @@ const FILES = [
   'kb_cards.json',
   'glossary.json',
   'entity_index.json',
+  'resources.json',
   ...LOCALES.map((l) => `locale_${l}.json`),
 ];
 const raw = Object.fromEntries(FILES.map((f) => [f, readFileSync(join(DATASET_DIR, f), 'utf-8')]));
@@ -62,6 +63,7 @@ const sourceHash = createHash('sha256').update(FILES.map((f) => raw[f]).join('\n
 const kb = JSON.parse(raw['kb_cards.json']);
 const glossary = JSON.parse(raw['glossary.json']);
 const entityIndex = JSON.parse(raw['entity_index.json']);
+const resourcesFile = JSON.parse(raw['resources.json']);
 const locales = Object.fromEntries(LOCALES.map((l) => [l, JSON.parse(raw[`locale_${l}.json`])]));
 const cards = kb.cards;
 
@@ -253,6 +255,33 @@ const cardEntityRows = cards.flatMap((c) =>
   uniq(c.entity_ids).filter((id) => entSet.has(id)).map((entity_id) => ({ card_id: c.card_id, entity_id })),
 );
 
+// --- Public resources: official orgs/sites with verified URLs (card panel) -----
+// Only public resources are ingested (v6.3+); internal/unverified ones are skipped
+// so they can never surface. Each resource carries explicit name/description i18n keys.
+const publicResources = (resourcesFile.resources ?? []).filter((r) => r.visibility === 'public');
+const resSet = new Set(publicResources.map((r) => r.resource_id));
+const resourceRows = publicResources.map((r) => ({
+  resource_id: r.resource_id,
+  type: r.type ?? null,
+  url: r.url ?? null,
+  visibility: r.visibility ?? null,
+}));
+const resourceTrRows = [];
+for (const locale of LOCALES) {
+  const L = locales[locale];
+  for (const r of publicResources) {
+    resourceTrRows.push({
+      resource_id: r.resource_id,
+      locale,
+      name: r.name_i18n_key ? L.resources?.[r.name_i18n_key] ?? null : null,
+      description: r.description_i18n_key ? L.resources?.[r.description_i18n_key] ?? null : null,
+    });
+  }
+}
+const cardResourceRows = cards.flatMap((c) =>
+  uniq(c.resource_ids).filter((id) => resSet.has(id)).map((resource_id) => ({ card_id: c.card_id, resource_id })),
+);
+
 const translationCount = topicTrRows.length + subtopicTrRows.length + keywordTrRows.length + cardTrRows.length;
 const publicActive = cards.filter((c) => c.visibility === 'public' && c.status === 'active').length;
 
@@ -261,8 +290,8 @@ console.log(
   `Built: ${topicRows.length} topics · ${cardRows.length} cards (${publicActive} public+active) · ` +
     `${subtopicRows.length} subtopics · ${keywordRows.length} keywords · ` +
     `${translationCount} translations · ${aliasRows.length} alias rows · ` +
-    `${glossaryRows.length} glossary · ${entityRows.length} entities · ` +
-    `${cardGlossaryRows.length + cardEntityRows.length} card links`,
+    `${glossaryRows.length} glossary · ${entityRows.length} entities · ${resourceRows.length} resources · ` +
+    `${cardGlossaryRows.length + cardEntityRows.length + cardResourceRows.length} card links`,
 );
 
 if (DRY_RUN) {
@@ -286,11 +315,12 @@ async function insertRows(client, table, columns, rows, chunk = 500) {
 
 // Children first, then parents.
 const DELETE_ORDER = [
-  'card_glossary_terms', 'card_entities',
+  'card_glossary_terms', 'card_entities', 'card_resources',
   'card_translations', 'card_keywords', 'card_subtopics', 'cards',
   'topic_translations', 'subtopic_translations', 'keyword_translations',
   'subtopics', 'keywords', 'topics', 'search_aliases',
-  'glossary_translations', 'entity_translations', 'glossary_terms', 'entities',
+  'glossary_translations', 'entity_translations', 'resource_translations',
+  'glossary_terms', 'entities', 'resources',
 ];
 
 // --- Deploy ------------------------------------------------------------------
@@ -333,10 +363,13 @@ try {
   // Related context (glossary terms + entities) — masters before card links.
   await insertRows(client, 'glossary_terms', ['term_id', 'origin', 'status'], glossaryRows);
   await insertRows(client, 'entities', ['entity_id', 'type', 'visibility', 'name'], entityRows);
+  await insertRows(client, 'resources', ['resource_id', 'type', 'url', 'visibility'], resourceRows);
   await insertRows(client, 'glossary_translations', ['term_id', 'locale', 'term', 'definition'], glossaryTrRows);
   await insertRows(client, 'entity_translations', ['entity_id', 'locale', 'name', 'description'], entityTrRows);
+  await insertRows(client, 'resource_translations', ['resource_id', 'locale', 'name', 'description'], resourceTrRows);
   await insertRows(client, 'card_glossary_terms', ['card_id', 'term_id'], cardGlossaryRows);
   await insertRows(client, 'card_entities', ['card_id', 'entity_id'], cardEntityRows);
+  await insertRows(client, 'card_resources', ['card_id', 'resource_id'], cardResourceRows);
 
   await client.query(
     `insert into kb_data_versions (version_label, source_hash, topic_count, card_count, translation_count, notes)

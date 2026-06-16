@@ -51,14 +51,16 @@ export function CardItem({ card, locale }: { card: CardView; locale: string }) {
       try {
         setRelated(await getCard(card.card_id, locale));
       } catch {
-        setRelated({ card_id: card.card_id, glossary: [], entities: [] });
+        setRelated({ card_id: card.card_id, glossary: [], entities: [], resources: [] });
       }
       setRelatedLoading(false);
     }
     setRelatedOpen((v) => !v);
   }
 
-  const hasRelated = Boolean((related?.glossary?.length ?? 0) || (related?.entities?.length ?? 0));
+  const hasRelated = Boolean(
+    (related?.glossary?.length ?? 0) || (related?.entities?.length ?? 0) || (related?.resources?.length ?? 0),
+  );
 
   return (
     <article
@@ -139,6 +141,32 @@ export function CardItem({ card, locale }: { card: CardView; locale: string }) {
             <p className="text-xs text-slate-400">{t(locale, 'noRelated')}</p>
           ) : (
             <div className="space-y-3">
+              {(related!.resources?.length ?? 0) > 0 && (
+                <div>
+                  <h4 className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
+                    {t(locale, 'resourcesLabel')}
+                  </h4>
+                  <ul className="space-y-1">
+                    {related!.resources!.map((r, i) => (
+                      <li key={i} className="text-xs leading-relaxed">
+                        {r.url ? (
+                          <a
+                            href={r.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-medium text-indigo-600 hover:text-indigo-800 hover:underline"
+                          >
+                            {r.name}
+                          </a>
+                        ) : (
+                          <span className="font-medium text-slate-800">{r.name}</span>
+                        )}
+                        {r.description && <span className="text-slate-600"> — {r.description}</span>}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
               {related!.entities.length > 0 && (
                 <div>
                   <h4 className="mb-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
