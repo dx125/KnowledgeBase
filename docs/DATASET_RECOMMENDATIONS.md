@@ -1,4 +1,4 @@
-# Dataset recommendations — `kb_dataset_uy` (v5.4 → v6.3)
+# Dataset recommendations — `kb_dataset_uy` (v5.4 → v6.5)
 
 Feedback from a downstream consumer of the dataset. **No application knowledge is
 required to act on any of this** — every recommendation and every check below refers
@@ -6,6 +6,19 @@ only to the dataset's own files (`kb_cards.json`, `locale_*.json`, `glossary.jso
 `entity_index.json`, `resources.json`, and the reports).
 
 Locales referenced throughout: `ru`, `en`, `es`, `de`.
+
+## Status update (v6.4 → v6.5)
+
+- **R8 (localize EN/ES/DE card text): ✅ RESOLVED in v6.5.** v6.4 shipped only the RU editorial
+  layer; EN/ES/DE card title/short_body/body/search were untranslated Russian (or English
+  placeholders), so the app's language switch changed the UI but not the article text. v6.5
+  rebuilt all non-RU card fields plus glossary definitions and resource descriptions as real
+  translations, added a hard localization gate (no Cyrillic outside a loanword whitelist, no
+  placeholders, `en`/`es`/`de` mutually distinct), and rebuilt the per-language search indexes.
+  Verified on `kb_dataset_uy_v6_5_localized` and live after the v6.5.2 deploy — see
+  [DATASET_LOCALIZATION_REPORT.md](DATASET_LOCALIZATION_REPORT.md). Thank you.
+- **Minor:** `kb_cards.json` `schema_version` still reads `6.4.2` on the v6.5.2 release — bump it
+  per release (cosmetic; harmless to a text-typed consumer; see R-gate item 9).
 
 ## Status update (v6.1 → v6.3)
 
