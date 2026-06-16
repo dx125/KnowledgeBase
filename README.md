@@ -24,7 +24,7 @@ from community chats).
 ```
 KnowledgeBase/
 ├─ supabase/
-│  ├─ migrations/         # 0001 schema · 0002 RPCs · 0003 versions · 0004 lock-down · 0005 auth/profiles · 0006 version-text · 0007 app-tokens
+│  ├─ migrations/         # 0001 schema · 0002 RPCs · 0003 versions · 0004 lock-down · 0005 auth/profiles · 0006 version-text · 0007/0008 (app-tokens, then dropped)
 │  └─ functions/kb/       # public HTTP API (Edge Function)
 ├─ scripts/               # one-click atomic data deploy (dataset → Supabase)
 └─ web/                   # React app (auth + calls the API)
@@ -86,20 +86,18 @@ Postgres connection. User accounts and the per-user `default_locale` live in
 
 Base URL: `https://<project-ref>.supabase.co/functions/v1/kb`
 
-**Auth:** every endpoint except `GET /` requires authentication, via either of:
+**Auth:** every endpoint except `GET /` requires a signed-in user. Send the project
+anon key plus a user access token (from Supabase Auth):
 
-1. **Per-app token** (machine-to-machine, e.g. a mobile app) — issue with
-   `npm run issue-token -- --name "<app>"`, then send it on every request:
-   ```
-   Authorization: Bearer kb_live_…      # or:  X-API-Key: kb_live_…
-   ```
-   See [docs/MOBILE_INTEGRATION.md](docs/MOBILE_INTEGRATION.md) for the full walkthrough.
-2. **End-user login** (Supabase Auth email+password; used by the web app) — send the
-   user's access token: `Authorization: Bearer <user jwt>`.
+```
+apikey: <anon key>
+Authorization: Bearer <user access token>
+```
 
-No valid token/JWT → `401`. (The function does its own authz; it's deployed with
-`verify_jwt = false` — see `supabase/config.toml` — so an app needs only its own token,
-no anon key.)
+The anon key alone (no user) is rejected with `401`. For a server-to-server
+integration (e.g. a mobile app's own backend), the backend signs in as a dedicated
+service-account user and calls the API the same way — see
+[docs/MOBILE_INTEGRATION.md](docs/MOBILE_INTEGRATION.md).
 
 **Locale** (`locale` query param, optional): resolution order is
 explicit `?locale=` → the user's stored `default_locale` → `ru`. An invalid value
@@ -111,8 +109,8 @@ internal/unreviewed cards; default (omitted) returns only public + active.
 | Method & path | Purpose | Params / body |
 |---|---|---|
 | `GET /` | API descriptor (open, no auth) | — |
-| `GET /me` | current principal (user or app) + `default_locale` | — |
-| `PUT /me` | set the user's default locale (end users only) | body `{ "default_locale": "es" }` |
+| `GET /me` | current user + `default_locale` | — |
+| `PUT /me` | set the user's default locale | body `{ "default_locale": "es" }` |
 | `GET /topics` | topics with ≥1 card in scope, most content first | `locale`, `internal` |
 | `GET /topics/:topicId/cards` | cards in a topic (landing first); filter by `category` | `locale`, `internal`, `category` |
 | `GET /search` | ranked, synonym-expanded search; omit `topic` for everything | `q`, `locale`, `topic`, `limit` (≤100, def 20), `offset`, `internal` |
@@ -123,7 +121,7 @@ Example (search; `locale` omitted → uses the user's stored default):
 
 ```bash
 curl "$BASE/search?q=cedula%20renovar&limit=5" \
-  -H "Authorization: Bearer $APP_TOKEN"    # or a user JWT
+  -H "apikey: $ANON" -H "Authorization: Bearer $USER_TOKEN"
 ```
 
 ```jsonc
@@ -162,7 +160,7 @@ In your Supabase project, run the migration files **in order**. Either:
 **A. Dashboard (simplest)** — open SQL Editor and paste, in order:
 `0001_schema.sql` → `0002_functions.sql` → `0003_data_versions.sql` →
 `0004_lock_down_direct_access.sql` → `0005_profiles_auth.sql` →
-`0006_card_version_text.sql` → `0007_app_tokens.sql`
+`0006_card_version_text.sql` → `0007_app_tokens.sql` → `0008_drop_app_tokens.sql`
 (all under `supabase/migrations/`). Or just run `npm run migrate` from `scripts/`.
 
 **B. Supabase CLI**

@@ -6,31 +6,28 @@
 // the DB with the service_role key (injected by Supabase, never shipped to
 // clients) and delegates to the SQL RPCs defined in the migrations.
 //
-// Authorization — two ways to authenticate (everything except GET / requires it)
-// ------------------------------------------------------------------------------
-//   1. Per-app token (machine-to-machine, e.g. a mobile app). Send the token in
-//      `X-API-Key: <token>` OR `Authorization: Bearer <token>` (tokens start with
-//      "kb_"). Issued out-of-band via scripts/issue-token.mjs; only its hash is
-//      stored. The token's row sets the app's default locale and whether it may
-//      see internal/unreviewed cards.
-//   2. End-user login (Supabase Auth email+password). Send the user's access
-//      token in `Authorization: Bearer <jwt>`. Used by the web app.
-// No valid token/JWT → 401.
+// Authorization
+// -------------
+// Every data endpoint requires a logged-in user (Supabase Auth email+password).
+// The caller sends the project anon key plus a user access token:
+//     apikey: <anon key>
+//     Authorization: Bearer <user access token>
+// The anon key alone (no user) is rejected with 401. Only `GET /` is open.
 //
-// This function is deployed with verify_jwt = false (see supabase/config.toml):
-// the Supabase gateway does NOT pre-check a JWT, so an app can authenticate with
-// only its own token. All authorization is enforced here.
+// For a server-to-server integration (e.g. a mobile app's own backend), the
+// backend signs in as a dedicated Supabase "service account" user, obtains a
+// JWT, and calls these endpoints the same way. See docs/MOBILE_INTEGRATION.md.
 //
 // Locale resolution (per request)
 // -------------------------------
 //   1. explicit ?locale=  (ru|en|es|de; anything else → en)
-//   2. the caller's default locale (user profile, or the app token's locale)
+//   2. the user's stored profile.default_locale
 //   3. 'ru' (project default)
 //
 // Routes (base = /functions/v1/kb):
 //   GET  /                       → API descriptor (open)
-//   GET  /me                     → current principal (user or app) + default_locale
-//   PUT  /me  {default_locale}   → update default locale (end users only)
+//   GET  /me                     → current user + default_locale
+//   PUT  /me  {default_locale}   → update default locale
 //   GET  /topics                 → list topics
 //   GET  /topics/:topicId/cards  → cards in a topic (?category= to filter, e.g. advice)
 //   GET  /search                 → ranked search (?q, ?topic, ?limit, ?offset)
@@ -49,11 +46,10 @@ const db = createClient(SUPABASE_URL, SERVICE_ROLE_KEY, {
 
 const SUPPORTED_LOCALES = ['ru', 'en', 'es', 'de'];
 const DEFAULT_LOCALE = 'ru';
-const APP_TOKEN_PREFIX = 'kb_'; // per-app tokens look like kb_live_<random>
 
 const CORS = {
   'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type, x-api-key',
+  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
   'Access-Control-Allow-Methods': 'GET, PUT, OPTIONS',
 };
 
@@ -74,65 +70,11 @@ function isLocale(l: string | null | undefined): l is string {
   return !!l && SUPPORTED_LOCALES.includes(l.toLowerCase());
 }
 
-/** Resolve the effective locale for a request: explicit → caller default → 'ru'. */
-function resolveLocale(param: string | null, callerLocale: string | null): string {
+/** Resolve the effective locale for a request: explicit → profile default → 'ru'. */
+function resolveLocale(param: string | null, profileLocale: string | null): string {
   if (param) return isLocale(param) ? param.toLowerCase() : 'en';
-  if (isLocale(callerLocale)) return callerLocale!.toLowerCase();
+  if (isLocale(profileLocale)) return profileLocale!.toLowerCase();
   return DEFAULT_LOCALE;
-}
-
-async function sha256Hex(s: string): Promise<string> {
-  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
-  return [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, '0')).join('');
-}
-
-type Principal =
-  | { kind: 'app'; id: string; name: string; defaultLocale: string; allowInternal: boolean }
-  | { kind: 'user'; id: string; email: string | null; defaultLocale: string | null; allowInternal: boolean };
-
-/** Authenticate a request via app token (preferred) or end-user JWT. null = anonymous. */
-async function authenticate(req: Request): Promise<Principal | null> {
-  const apiKeyHeader = (req.headers.get('X-API-Key') ?? '').trim();
-  const bearer = (req.headers.get('Authorization') ?? '').replace(/^Bearer\s+/i, '').trim();
-
-  // 1) Per-app token: X-API-Key, or an Authorization bearer that looks like a token.
-  const appToken = apiKeyHeader || (bearer.startsWith(APP_TOKEN_PREFIX) ? bearer : '');
-  if (appToken) {
-    const hash = await sha256Hex(appToken);
-    const { data } = await db.rpc('kb_authenticate_client', { p_token_hash: hash });
-    const client = (data ?? [])[0];
-    if (!client) return null;
-    // Best-effort "last seen"; never block the request on it.
-    db.rpc('kb_touch_client', { p_client_id: client.client_id }).then(() => {}).catch(() => {});
-    return {
-      kind: 'app',
-      id: client.client_id,
-      name: client.name,
-      defaultLocale: client.default_locale,
-      allowInternal: client.allow_internal,
-    };
-  }
-
-  // 2) End-user JWT.
-  if (bearer) {
-    const { data: userData } = await db.auth.getUser(bearer);
-    const user = userData?.user ?? null;
-    if (!user) return null;
-    const { data: profile } = await db
-      .from('profiles')
-      .select('default_locale')
-      .eq('id', user.id)
-      .maybeSingle();
-    return {
-      kind: 'user',
-      id: user.id,
-      email: user.email ?? null,
-      defaultLocale: profile?.default_locale ?? null,
-      allowInternal: true, // any signed-in user may opt into internal cards
-    };
-  }
-
-  return null;
 }
 
 Deno.serve(async (req) => {
@@ -147,11 +89,11 @@ Deno.serve(async (req) => {
     return json({
       name: 'uruguay-knowledge-base-api',
       version: 1,
-      auth: 'Per-app token in `X-API-Key` or `Authorization: Bearer kb_…`, or an end-user JWT in `Authorization: Bearer <jwt>`. Required on all routes except GET /.',
+      auth: 'anon key (apikey header) + Bearer <user access token> required on all routes except GET /',
       default_locale: DEFAULT_LOCALE,
       supported_locales: SUPPORTED_LOCALES,
       endpoints: {
-        me: 'GET /me · PUT /me {default_locale} (end users only)',
+        me: 'GET /me · PUT /me {default_locale}',
         topics: 'GET /topics?locale&internal',
         topic_cards: 'GET /topics/:topicId/cards?locale&internal&category',
         search: 'GET /search?q&locale&topic&limit&offset&internal',
@@ -161,26 +103,33 @@ Deno.serve(async (req) => {
     });
   }
 
-  // --- Authenticate (app token or end-user JWT) ------------------------------
-  const principal = await authenticate(req);
-  if (!principal) return json({ error: 'unauthorized', message: 'A valid app token or user login is required.' }, 401);
+  // --- Require an authenticated user for everything else ---------------------
+  const token = (req.headers.get('Authorization') ?? '').replace(/^Bearer\s+/i, '').trim();
+  const { data: userData } = await db.auth.getUser(token);
+  const user = userData?.user ?? null;
+  if (!user) return json({ error: 'unauthorized', message: 'Sign in required.' }, 401);
 
   try {
+    // Load the user's stored default locale (lazily; row may not exist yet).
+    const { data: profile } = await db
+      .from('profiles')
+      .select('default_locale')
+      .eq('id', user.id)
+      .maybeSingle();
+    const profileLocale: string | null = profile?.default_locale ?? null;
     const localeParam = url.searchParams.get('locale');
-    const locale = resolveLocale(localeParam, principal.defaultLocale);
+    const locale = resolveLocale(localeParam, profileLocale);
 
     // GET /me · PUT /me
     if (segments.length === 1 && segments[0] === 'me') {
       if (req.method === 'GET') {
-        if (principal.kind === 'app') {
-          return json({ principal: 'app', app: principal.name, default_locale: principal.defaultLocale, allow_internal: principal.allowInternal });
-        }
-        return json({ principal: 'user', user_id: principal.id, email: principal.email, default_locale: principal.defaultLocale ?? DEFAULT_LOCALE });
+        return json({
+          user_id: user.id,
+          email: user.email,
+          default_locale: profileLocale ?? DEFAULT_LOCALE,
+        });
       }
       if (req.method === 'PUT') {
-        if (principal.kind !== 'user') {
-          return json({ error: 'forbidden', message: 'Only end-user sessions can change a stored default locale. Set an app token\'s locale at issuance, or pass ?locale= per request.' }, 403);
-        }
         let body: { default_locale?: string };
         try {
           body = await req.json();
@@ -189,15 +138,18 @@ Deno.serve(async (req) => {
         }
         const next = body?.default_locale?.toLowerCase();
         if (!isLocale(next)) {
-          return json({ error: 'bad_request', message: `default_locale must be one of ${SUPPORTED_LOCALES.join(', ')}.` }, 400);
+          return json(
+            { error: 'bad_request', message: `default_locale must be one of ${SUPPORTED_LOCALES.join(', ')}.` },
+            400,
+          );
         }
         const { data: updated, error } = await db
           .from('profiles')
-          .upsert({ id: principal.id, default_locale: next }, { onConflict: 'id' })
+          .upsert({ id: user.id, default_locale: next }, { onConflict: 'id' })
           .select('default_locale')
           .single();
         if (error) throw error;
-        return json({ principal: 'user', user_id: principal.id, email: principal.email, default_locale: updated.default_locale });
+        return json({ user_id: user.id, email: user.email, default_locale: updated.default_locale });
       }
       return json({ error: 'method_not_allowed' }, 405);
     }
@@ -205,13 +157,17 @@ Deno.serve(async (req) => {
     // All remaining routes are GET-only.
     if (req.method !== 'GET') return json({ error: 'method_not_allowed' }, 405);
 
-    // Internal/unreviewed cards: only when requested AND the principal is allowed.
-    const wantInternal = ['1', 'true', 'yes'].includes((url.searchParams.get('internal') ?? '').toLowerCase());
-    const includeInternal = wantInternal && principal.allowInternal;
+    // Signed-in users may opt into internal/unreviewed cards (?internal=1).
+    const includeInternal = ['1', 'true', 'yes'].includes(
+      (url.searchParams.get('internal') ?? '').toLowerCase(),
+    );
 
     // GET /topics
     if (segments.length === 1 && segments[0] === 'topics') {
-      const { data, error } = await db.rpc('list_topics', { p_locale: locale, p_include_internal: includeInternal });
+      const { data, error } = await db.rpc('list_topics', {
+        p_locale: locale,
+        p_include_internal: includeInternal,
+      });
       if (error) throw error;
       return json({ locale, include_internal: includeInternal, count: data?.length ?? 0, topics: data ?? [] });
     }

@@ -8,7 +8,7 @@
     "migrate": "node migrate.mjs",
     "deploy": "node deploy.mjs",
     "smoke": "node smoke.mjs",
-    "issue-token": "node issue-token.mjs"
+    "provision-app-user": "node provision-app-user.mjs"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

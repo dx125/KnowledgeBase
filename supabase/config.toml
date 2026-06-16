@@ -1,7 +1,7 @@
 project_id = "bzqpqncoeilhzukohynz"
 
-# The kb function does its own authorization (per-app token or end-user JWT), so
-# the gateway must NOT pre-require a Supabase JWT. This lets an external app
-# authenticate with only its per-app token. See supabase/functions/kb/index.ts.
+# The kb function uses standard Supabase auth: the gateway verifies the JWT
+# (anon key / user access token) and the function additionally requires a real
+# signed-in user for every route except GET /. See supabase/functions/kb/index.ts.
 [functions.kb]
-verify_jwt = false
+verify_jwt = true

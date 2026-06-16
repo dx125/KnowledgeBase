@@ -1,82 +1,98 @@
 # Mobile / external app integration — KB API
 
-How an external application (e.g. a mobile app) authenticates with a **per-app token**
-and renders a **list of the most important rent advices**. No Supabase SDK and no end-user
-login are required — the app holds one long-lived token and makes plain HTTPS calls.
+How an external application integrates the KB API to show, as a first feature, a **list of the
+most important rent advices**. The mobile app talks to **its own backend**; that backend calls
+the KB API **server-to-server** using standard Supabase auth (**anon key + a user JWT**). The
+KB credentials never ship to the device.
 
 - **Base URL:** `https://bzqpqncoeilhzukohynz.supabase.co/functions/v1/kb`
-- **Auth:** one per-app token, sent on every request (except `GET /`).
+- **Auth:** `apikey: <anon key>` + `Authorization: Bearer <user access token>` on every request
+  (except `GET /`). The anon key is public and safe to hold; the JWT comes from a dedicated
+  **service-account** user whose password lives only on the app backend.
 - **Format:** JSON. **Locales:** `ru` (default), `en`, `es`, `de`; unknown → `en`.
 
+```
+  mobile app  ──►  app backend (trusted)  ──►  KB API (Edge Function)  ──►  Postgres
+                   • holds service-account
+                     email+password (secret)
+                     and the anon key
+                   • signs in → JWT, refreshes
+                   • calls KB API with anon + JWT
+```
+
+Why this shape: the anon key is a public client key (fine to embed anywhere), but it is **not**
+sufficient on its own — every data route requires a real signed-in user. Keeping the
+service-account credentials on the backend means the device never carries anything that can be
+extracted to call the API directly.
+
 ---
 
-## 1. Authentication — per-app token (do this first)
+## 1. Provision a service-account user (operator, one-time per app)
 
-The API accepts a **per-application token** so a mobile app never has to implement user
-sign-up/login. The token is issued once, server-side, and identifies the app. It carries:
-a default locale, whether the app may see internal/unreviewed cards (`allow_internal`, default
-**false** = public content only), and an optional expiry (default: **permanent**).
-
-### 1.1 Issue a token (backend operator, one-time)
-
-From `scripts/` (needs `DATABASE_URL` in `.env`):
+Create one dedicated Supabase user per integrating app. From `scripts/` (needs
+`VITE_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` and `DATABASE_URL` in `.env` — the
+service_role secret is in Dashboard → Project Settings → API):
 
 ```bash
-npm run issue-token -- --name "uy-mobile-ios" --locale ru
-# options: --locale ru|en|es|de   --internal   --expires YYYY-MM-DD
-npm run issue-token -- --list                 # list issued apps (no secrets)
-npm run issue-token -- --revoke <client_id>   # disable a token immediately
+npm run provision-app-user -- --email app-ios@kb.local --locale ru
+# --password "<pw>"  to set your own; otherwise a strong one is generated
+# --locale ru|en|es|de  sets the app's default locale (stored on its profile)
 ```
 
-It prints the raw token **once**:
+It prints the credentials **once**:
 
 ```
-TOKEN:  kb_live_oF6xy3iuN9ddw_izCGgKfgrX-IanBVueLmsfWLxFTm8
+email:          app-ios@kb.local
+password:       9b1f…(generated)
+user_id:        7c2e…
+default_locale: ru
 ```
 
-Only the SHA-256 **hash** is stored (`api_clients.token_hash`); the raw token is never
-persisted. If it leaks or is lost, `--revoke` it and issue a new one.
+The script creates the user with **email pre-confirmed** (via the admin API), so the backend
+can log in immediately even though end-user "Confirm email" is enabled. Hand the email+password
+to the app backend over a secure channel and store them as backend secrets.
 
-### 1.2 Send the token from the app
-
-Send it on **every** request (except `GET /`), either header works:
-
-```
-Authorization: Bearer kb_live_oF6xy3iuN9ddw_izCGgKfgrX-IanBVueLmsfWLxFTm8
-```
-or
-```
-X-API-Key: kb_live_oF6xy3iuN9ddw_izCGgKfgrX-IanBVueLmsfWLxFTm8
-```
-
-That's the whole auth story — **no `apikey`/anon key, no JWT, no login screen.** The KB
-function authenticates the token itself (the Supabase gateway's JWT check is disabled for it).
-
-### 1.3 Security notes
-- Treat the token like a password. Don't commit it; inject it at build/runtime (e.g. CI
-  secret → secure config). On mobile, store at rest in the Keychain (iOS) / Keystore (Android).
-- A token embedded in a shipped binary is **extractable** by a determined user. Mitigations:
-  keep `allow_internal=false` (public content only — the default), set an `--expires` and
-  rotate, and `--revoke` + reissue if abused. For per-end-user entitlements, use the end-user
-  login flow instead (see §6).
-- Rotation: issue the new token, ship it, then revoke the old one (overlap = zero downtime).
+> Manual alternative: Dashboard → Authentication → Users → **Add user** (tick "Auto Confirm
+> User"), then set its locale with `PUT /me` once, or leave it `ru` and pass `?locale=` per call.
+> To **revoke** an app's access, delete or ban that user in the same screen.
 
 ---
 
-## 2. The endpoint for "rent advice"
+## 2. The app backend: sign in, then call the KB API
+
+### 2.1 Get a JWT (Supabase Auth password grant)
+
+```
+POST {SUPABASE_URL}/auth/v1/token?grant_type=password
+apikey: <anon key>
+content-type: application/json
+
+{ "email": "app-ios@kb.local", "password": "<secret>" }
+```
+
+Response includes `access_token` (a JWT, ~1 h TTL), `expires_in`, and a `refresh_token`.
+Cache the access token; when it nears expiry, refresh without re-sending the password:
+
+```
+POST {SUPABASE_URL}/auth/v1/token?grant_type=refresh_token
+apikey: <anon key>
+content-type: application/json
+
+{ "refresh_token": "<refresh_token>" }
+```
+
+### 2.2 Call the KB API
+
+```
+GET {BASE}/topics/topic.real_estate_rent/cards?category=advice&locale=ru
+apikey: <anon key>
+Authorization: Bearer <access_token>
+```
 
 Cards are grouped by **topic** and tagged with an editorial **`content_category`**
 (`advice`, `checklist`, `warning`, `overview`, `instruction`, `community_experience`,
-`reference`). "Rent advice" = the **`advice`** cards in the rent topic, already returned
+`reference`). "Rent advice" = the **`advice`** cards in the rent topic, returned
 **most-important-first** (editorial boost + quality ordering).
-
-```
-GET /topics/topic.real_estate_rent/cards?category=advice&locale=ru
-```
-
-- `topic.real_estate_rent` — the rent/housing topic id (see §5 to discover topics dynamically).
-- `category=advice` — keep only advice cards (omit to get the full topic, overview-first).
-- `locale=ru` — optional; falls back to the token's default locale, then `ru`.
 
 ### Example response (trimmed)
 
@@ -106,69 +122,71 @@ GET /topics/topic.real_estate_rent/cards?category=advice&locale=ru
 }
 ```
 
-Render each card as a list row: **`title`** + `short_body` (one-line preview); open the full
-`body` on tap. To show richer detail (related glossary terms, organizations) fetch the single
-card (§5, `GET /cards/:id`).
+The mobile app fetches this list **from its own backend** (which proxies/reshapes the KB
+response); it does not call the KB API directly.
 
 ---
 
-## 3. Minimal client code
+## 3. Backend reference implementation (Node / TypeScript)
 
-### Swift (iOS)
-
-```swift
-struct Card: Decodable {
-    let cardId: String, title: String?, shortBody: String?, body: String?
-    let contentCategory: String?
-    enum CodingKeys: String, CodingKey {
-        case cardId = "card_id", title, shortBody = "short_body", body
-        case contentCategory = "content_category"
-    }
-}
-struct TopicCards: Decodable { let cards: [Card] }
-
-let base = "https://bzqpqncoeilhzukohynz.supabase.co/functions/v1/kb"
-let token = Secrets.kbApiToken  // from Keychain / build config — never hard-code
-
-func fetchRentAdvice() async throws -> [Card] {
-    var req = URLRequest(url: URL(string: "\(base)/topics/topic.real_estate_rent/cards?category=advice&locale=ru")!)
-    req.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
-    let (data, resp) = try await URLSession.shared.data(for: req)
-    guard (resp as? HTTPURLResponse)?.statusCode == 200 else { throw URLError(.userAuthenticationRequired) }
-    return try JSONDecoder().decode(TopicCards.self, from: data).cards
-}
-```
-
-### Kotlin (Android)
-
-```kotlin
-val base = "https://bzqpqncoeilhzukohynz.supabase.co/functions/v1/kb"
-val token = BuildConfig.KB_API_TOKEN  // injected secret, stored in Keystore at runtime
-
-suspend fun fetchRentAdvice(): JSONArray = withContext(Dispatchers.IO) {
-    val url = URL("$base/topics/topic.real_estate_rent/cards?category=advice&locale=ru")
-    (url.openConnection() as HttpURLConnection).run {
-        setRequestProperty("Authorization", "Bearer $token")
-        check(responseCode == 200) { "KB API error $responseCode" }
-        JSONObject(inputStream.bufferedReader().readText()).getJSONArray("cards")
-    }
-}
-```
-
-### React Native / TypeScript
+A tiny client that caches the JWT and refreshes it on demand. Use `@supabase/supabase-js`
+or plain `fetch` — this uses `fetch` so it has no dependencies.
 
 ```ts
-const BASE = 'https://bzqpqncoeilhzukohynz.supabase.co/functions/v1/kb';
-const TOKEN = Config.KB_API_TOKEN; // react-native-config / secure store
+const SUPABASE_URL = process.env.SUPABASE_URL!;          // https://<ref>.supabase.co
+const ANON = process.env.SUPABASE_ANON_KEY!;             // public anon key
+const EMAIL = process.env.KB_SERVICE_EMAIL!;             // service-account creds (secrets)
+const PASSWORD = process.env.KB_SERVICE_PASSWORD!;
+const BASE = `${SUPABASE_URL}/functions/v1/kb`;
 
-export async function fetchRentAdvice(locale = 'ru') {
-  const res = await fetch(
-    `${BASE}/topics/topic.real_estate_rent/cards?category=advice&locale=${locale}`,
-    { headers: { Authorization: `Bearer ${TOKEN}` } },
-  );
-  if (!res.ok) throw new Error(`KB API ${res.status}`);
-  return (await res.json()).cards as Array<{ card_id: string; title: string; short_body: string; body: string }>;
+let session: { access_token: string; refresh_token: string; exp: number } | null = null;
+
+async function auth(path: string, body: unknown) {
+  const r = await fetch(`${SUPABASE_URL}/auth/v1/token?grant_type=${path}`, {
+    method: 'POST',
+    headers: { apikey: ANON, 'content-type': 'application/json' },
+    body: JSON.stringify(body),
+  });
+  if (!r.ok) throw new Error(`auth ${path} failed: ${r.status}`);
+  const j = await r.json();
+  session = { access_token: j.access_token, refresh_token: j.refresh_token, exp: Date.now() + j.expires_in * 1000 };
 }
+
+async function token(): Promise<string> {
+  if (!session) await auth('password', { email: EMAIL, password: PASSWORD });
+  else if (Date.now() > session.exp - 60_000) {
+    try { await auth('refresh_token', { refresh_token: session.refresh_token }); }
+    catch { await auth('password', { email: EMAIL, password: PASSWORD }); } // refresh expired → re-login
+  }
+  return session!.access_token;
+}
+
+async function kb(path: string) {
+  const r = await fetch(`${BASE}${path}`, {
+    headers: { apikey: ANON, Authorization: `Bearer ${await token()}` },
+  });
+  if (r.status === 401) { session = null; throw new Error('KB auth rejected'); }
+  if (!r.ok) throw new Error(`KB ${path} -> ${r.status}`);
+  return r.json();
+}
+
+// The endpoint your mobile app calls:
+export async function getRentAdvice(locale = 'ru') {
+  const data = await kb(`/topics/topic.real_estate_rent/cards?category=advice&locale=${locale}`);
+  return data.cards as Array<{ card_id: string; title: string; short_body: string; body: string }>;
+}
+```
+
+With `@supabase/supabase-js` the auth+refresh is handled for you:
+
+```ts
+import { createClient } from '@supabase/supabase-js';
+const sb = createClient(SUPABASE_URL, ANON);
+await sb.auth.signInWithPassword({ email: EMAIL, password: PASSWORD });
+const { data: { session } } = await sb.auth.getSession();   // auto-refreshes
+const res = await fetch(`${BASE}/topics/topic.real_estate_rent/cards?category=advice`, {
+  headers: { apikey: ANON, Authorization: `Bearer ${session!.access_token}` },
+});
 ```
 
 ---
@@ -176,26 +194,30 @@ export async function fetchRentAdvice(locale = 'ru') {
 ## 4. Quick test with curl
 
 ```bash
-BASE="https://bzqpqncoeilhzukohynz.supabase.co/functions/v1/kb"
-TOK="kb_live_…"   # your issued token
+URL="https://bzqpqncoeilhzukohynz.supabase.co"; ANON="<anon key>"; BASE="$URL/functions/v1/kb"
+TOKEN=$(curl -s "$URL/auth/v1/token?grant_type=password" \
+  -H "apikey: $ANON" -H "content-type: application/json" \
+  -d '{"email":"app-ios@kb.local","password":"<secret>"}' | jq -r .access_token)
 
-curl -s "$BASE/"                                                   # open descriptor, no auth
-curl -s -H "Authorization: Bearer $TOK" \
+curl -s -H "apikey: $ANON" -H "Authorization: Bearer $TOKEN" \
   "$BASE/topics/topic.real_estate_rent/cards?category=advice&locale=ru"
-curl -s -o /dev/null -w "%{http_code}\n" "$BASE/topics"            # → 401 (no token)
+
+curl -s -o /dev/null -w "%{http_code}\n" -H "apikey: $ANON" -H "Authorization: Bearer $ANON" \
+  "$BASE/topics"     # → 401 (anon key is not a user)
 ```
 
 ---
 
 ## 5. Full endpoint reference
 
-All routes are under the base URL and require the token (except `GET /`). Locale resolution:
-`?locale=` → token default → `ru`.
+All routes are under the base URL and require `apikey` + a user `Bearer` JWT (except `GET /`).
+Locale resolution: `?locale=` → the user's stored default → `ru`.
 
 | Method & path | Purpose | Key params |
 |---|---|---|
-| `GET /` | API descriptor | — (open, no auth) |
-| `GET /me` | Echo the calling app (name, default locale, `allow_internal`) | — |
+| `GET /` | API descriptor | — (open; still needs `apikey`+`Bearer <anon>` to pass the gateway) |
+| `GET /me` | Echo the service-account user + default locale | — |
+| `PUT /me` | Set the user's default locale | body `{ "default_locale": "es" }` |
 | `GET /topics` | List topics with a public card | `locale`, `internal` |
 | `GET /topics/:topicId/cards` | Cards in a topic, importance-ordered | `locale`, `category`, `internal` |
 | `GET /search` | Ranked, synonym-expanded search | `q`, `locale`, `topic`, `limit` (≤100), `offset` |
@@ -205,26 +227,25 @@ All routes are under the base URL and require the token (except `GET /`). Locale
 Notes:
 - **`category`** values: `advice`, `checklist`, `warning`, `overview`, `instruction`,
   `community_experience`, `reference`. Omit to get the whole topic (overview/summary first).
-- **`internal=1`** is honored only if the token was issued with `--internal`
-  (`allow_internal=true`); otherwise it's ignored and only public+active cards are returned.
-- Discover topic ids dynamically via `GET /topics` instead of hard-coding
+- Discover topic ids dynamically via `GET /topics` rather than hard-coding
   `topic.real_estate_rent`, so new topics appear without an app update.
-- `PUT /me` (change stored default locale) is **end-user only** — app tokens get `403`. Set an
-  app's locale at issuance (`--locale`) or pass `?locale=` per request.
+- **`internal=1`** includes internal/unreviewed cards; the service account may use it, so only
+  enable it on backend routes you intend to expose. Default returns public+active only.
 
 ### Errors
-JSON body `{ "error": "...", "message": "..." }` with status: `401` (missing/invalid/revoked
-token), `403` (action not allowed for an app token), `400` (bad input), `404` (no such
-card/route), `500` (server). Treat `401` as "token revoked/expired" → surface a clear message;
-there's no refresh flow for app tokens (reissue server-side).
+JSON `{ "error": "...", "message": "..." }`. Statuses: `401` (no/expired/invalid JWT — refresh
+or re-login and retry once), `400` (bad input), `404` (no such card/route), `405`, `500`.
+A `401` on a previously-working token means it expired → run the refresh flow (§2.1).
 
 ---
 
-## 6. When to use end-user login instead
-
-Per-app tokens are for app-wide, read-only access to public knowledge. Use the **end-user**
-flow (Supabase Auth email+password; `Authorization: Bearer <user-jwt>`) when you need
-per-user state — a user's saved default locale via `PUT /me`, or per-user entitlements to
-internal content. Both auth methods hit the same endpoints; the app-token path simply skips
-the login UI. The web app (`web/`) is the reference for the end-user flow.
+## 6. Security checklist
+- The **anon key** is public; embedding it anywhere is fine. It alone cannot read data (→ 401).
+- The **service-account email+password** are secrets — keep them in the backend's secret store
+  (env/secret manager), never in the mobile binary, repo, or logs.
+- Use a **distinct service-account user per app** so you can revoke one without affecting others
+  (delete/ban the user in the Dashboard).
+- Never expose `service_role` or the Postgres `DATABASE_URL` to any app backend — those stay
+  with the KB operator (the Edge Function holds `service_role`; clients never get it).
+- Rotate by provisioning a new user, switching the backend's secrets, then deleting the old user.
 ```
