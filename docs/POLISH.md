@@ -119,6 +119,14 @@ than precision for your use.
 
 ## A (P2) — Related glossary / resources / entities panel
 
+> **Status (v6.3): glossary + entities SHIPPED; resources now UNBLOCKED — the open follow-up.**
+> The glossary/entity panel is live in `get_card` + the web app. The **resource** half was gated
+> because every resource was `visibility=internal`; **v6.3 made 22 resources public with verified
+> URLs** (UTE, OSE, ANTEL, BROU, DGI, …), so surfacing official org links per card is now
+> actionable. Scope: `resources` + `resource_translations` + `card_resources` tables, ingest
+> `visibility='public'` resources in `deploy.mjs`, add a `resources` block to `get_card` (public
+> only), and a web panel row. Use `name_i18n_key`/`description_i18n_key` → `locale_<L>.resources`.
+
 v5.4/v5.5 populated `glossary_term_ids`, `resource_ids` and `entity_ids` on cards (v5.5:
 **457/457** coverage), plus localized glossary/resource/entity text in the locale files. This
 unlocks a card-detail "related context" panel (previously impossible — the link

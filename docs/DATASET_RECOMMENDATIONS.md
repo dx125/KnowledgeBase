@@ -1,4 +1,4 @@
-# Dataset recommendations — `kb_dataset_uy` (v5.4 → v6.2)
+# Dataset recommendations — `kb_dataset_uy` (v5.4 → v6.3)
 
 Feedback from a downstream consumer of the dataset. **No application knowledge is
 required to act on any of this** — every recommendation and every check below refers
@@ -7,10 +7,23 @@ only to the dataset's own files (`kb_cards.json`, `locale_*.json`, `glossary.jso
 
 Locales referenced throughout: `ru`, `en`, `es`, `de`.
 
-## Status update (v6.1 → v6.2.1)
+## Status update (v6.1 → v6.3)
 
-The v6.x "reader-ready" rebuild resolves the two longest-standing recommendations. Verified
-against `kb_dataset_uy_v6_2_reference_ready`:
+The v6.x rebuild resolves the three longest-standing recommendations (R1, R2, R3). Verified
+against `kb_dataset_uy_v6_3_deep_reference` (and v6.2 before it):
+
+- **R3 (publicly-verified resources): ✅ RESOLVED in v6.3.** **22 public resources, all with
+  verified homepage URLs** (e.g. UTE, OSE, ANTEL, BROU, DGI), up from **0 public** in v6.2; 8
+  remain internal. All 120 public cards link to resources, and `name_i18n_key` resolves in
+  `locale_<L>.resources`. A consumer can now surface official organization links per card.
+- **v6.3 continued R1:** all public RU bodies rebuilt again as topic-specific articles, deeper
+  and more consistent (min **501** chars, avg **727**; was 380 / 658 in v6.2); generic
+  boilerplate/universal-checklist cards removed. `schema_version` = `v6.3-deep-reference`.
+- **Minor (v6.3):** the per-card `version` field still reads `"6.2.0"` even though
+  `schema_version` is `v6.3-deep-reference` — cosmetic, but please bump it with each release
+  (harmless to a text-typed consumer; see R-gate item 9).
+
+Earlier, against `kb_dataset_uy_v6_2_reference_ready`:
 
 - **R1 (deepen / de-templatize public bodies): ✅ RESOLVED in v6.2.** Public bodies are
   rewritten as practical reference articles (avg **658** chars; min 380, max 3522), **0
@@ -138,7 +151,7 @@ matches the intended set; spot-checked auto terms have sensible, non-overlapping
 
 ---
 
-### R3 — Improve resource/entity link coverage and resolve orphans
+### R3 — Improve resource/entity link coverage and resolve orphans — ✅ RESOLVED in v6.3
 
 **What:** Glossary links are broad (454/457 base cards), but **resource and entity links
 cover only 319/457 base cards** (and 84/181 public cards). A few vocabulary records have no
@@ -148,11 +161,11 @@ related cards at all: 2 glossary terms, 1 resource, 1 entity (per `validation_re
 "concrete" navigational context; cards without them offer thinner related context. Orphan
 records add weight without being reachable.
 
-**Status (v5.5): applied.** Resource and entity links now cover 457/457 base cards and
-181/181 public cards; no orphans. **Open follow-up:** all 31 resources are now
-`visibility=internal` with no verified URLs, so a consumer has **no publicly verified
-resources** to surface. Please review/verify a subset and mark them `visibility=public`
-(with a verified `url`) so public cards can show at least basic official links.
+**Status (v5.5): applied** — resource/entity links cover all base + public cards, no orphans.
+**Open follow-up RESOLVED in v6.3:** **22 resources are now `visibility=public` with verified
+homepage `url`s** (UTE, OSE, ANTEL, BROU, DGI, …; 8 stay internal). All public cards link to
+resources and `name_i18n_key`/`description_i18n_key` resolve in `locale_<L>.resources`, so a
+consumer can surface official organization links per card. Thank you — this closes R3.
 
 ---
 
