@@ -1,4 +1,4 @@
-# Dataset recommendations — `kb_dataset_uy` (v5.4 → v5.10)
+# Dataset recommendations — `kb_dataset_uy` (v5.4 → v6.2)
 
 Feedback from a downstream consumer of the dataset. **No application knowledge is
 required to act on any of this** — every recommendation and every check below refers
@@ -6,6 +6,28 @@ only to the dataset's own files (`kb_cards.json`, `locale_*.json`, `glossary.jso
 `entity_index.json`, `resources.json`, and the reports).
 
 Locales referenced throughout: `ru`, `en`, `es`, `de`.
+
+## Status update (v6.1 → v6.2.1)
+
+The v6.x "reader-ready" rebuild resolves the two longest-standing recommendations. Verified
+against `kb_dataset_uy_v6_2_reference_ready`:
+
+- **R1 (deepen / de-templatize public bodies): ✅ RESOLVED in v6.2.** Public bodies are
+  rewritten as practical reference articles (avg **658** chars; min 380, max 3522), **0
+  duplicate public-body groups**, 0 markers/raw-IDs. **43 duplicate public cards were demoted
+  to internal review**, so public+active dropped **159 → 120**. This is exactly the editorial
+  pass R1 asked for. Thank you.
+- **R2 (mark/trim auto-derived glossary terms): ✅ RESOLVED.** Glossary trimmed **230 → 71**
+  (auto_keyword 206 → 47) with explicit `origin` retained. A consumer can rely on
+  `origin='curated'` (24 terms) for synonym expansion and the related-terms panel.
+- **NEW v6.2 — `content_category` gained a value: `resource_list`** (1 card). Additive and
+  fine; just noting it so consumers that switch on `content_category` add a branch for it.
+- **R3 follow-up still open:** resources remain `visibility=internal` with unverified URLs —
+  still no publicly verified resources to surface (see R3).
+- Compatibility holds: `semantic_alignment.alignment_score` (265/265, 0.64–0.91), per-card
+  `search_boost` (0.27–2.60), `confidence_score`, flat i18n keys all resolve; `version` is
+  still the v5.10-era semver string. R7 (duplicate `keyword_id`s) **still present** on 29 cards
+  — see R7; a consumer must dedup.
 
 ## Status update (v5.8 → v5.10)
 
@@ -63,13 +85,13 @@ The items below are what remains.
 
 ## Open recommendations
 
-### R1 — Deepen public body text (highest-value editorial item) — **still open after v5.7**
+### R1 — Deepen public body text (highest-value editorial item) — ✅ RESOLVED in v6.2
 
-**Status:** v5.5 reduced templating (≈0.30), but v5.7's evidence rebuild **re-templated**
-public bodies to ≈0.71 similarity — now an "evidence-anchor" scaffold ("«X» — справочная
-карточка по разделу… где повторяются смысловые опоры: <keywords>… справочную выжимку из
-чата…"). Evidence-backing improved, but readability/specificity regressed. The recommendation
-below still stands: bodies should read as written answers, not a scaffold + keyword list.
+**Status:** **Done in the v6.x reader-ready rebuild.** Public bodies are now practical reference
+articles (avg 658 chars; 0 duplicate-body groups; 0 markers/raw-IDs), and 43 duplicate public
+cards were demoted to internal. History below kept for context. v5.5 reduced templating
+(≈0.30), v5.7's evidence rebuild **re-templated** to ≈0.71, and v6.2 rewrote them as written
+answers — which is what this item asked for.
 
 **What:** Public, non-overview card bodies share a large boilerplate scaffold; the
 card-specific content is essentially an injected keyword/anchor list. Pairwise text similarity
@@ -90,7 +112,11 @@ topic-specific content. No raw-excerpt markers or PII reappear (see R-gate).
 
 ---
 
-### R2 — Mark and quality-review auto-derived glossary terms
+### R2 — Mark and quality-review auto-derived glossary terms — ✅ RESOLVED in v6.2
+
+**Status:** `origin` was added back in v5.5, and **v6.2 trimmed the glossary 230 → 71**
+(auto_keyword 206 → 47), so a consumer can rely on `origin='curated'` (24 terms). Original
+request kept below for context.
 
 **What:** `glossary.json` grew from 24 to 230 terms; **206 are auto-derived from keywords**
 and are only distinguishable by their id prefix `term.keyword.*` (e.g. `term.keyword.morya`,
