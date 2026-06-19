@@ -485,6 +485,672 @@
       "body": "Die teuersten Fehler: das falsche Dokument apostillieren, das Original verlieren, ein Dokument übersetzen, bevor die Anforderungen geklärt sind, unterschiedliche Transliterationen ignorieren, die Gültigkeitsdauer einer Bescheinigung nicht berücksichtigen.\n\nSende Fotos von Dokumenten nicht unnötig an unbekannte Vermittler. Wenn du einen ayudante/gestor brauchst, kläre, welche Dokumente er genau erhält, was er mit den Originalen macht, wie die Arbeit bezahlt wird und was als Ergebnis gilt.\n\nDokumente \"für alle Fälle\" sind nützlich, aber Chaos ist schädlich. Besser ein ordentlicher Ordner und eine Tabelle als Dutzende Dateien ohne Namen und Daten."
     }
   },
+  "card.education_children_language.advice.advice": {
+    "ru_body_hash": "87bfe5cc",
+    "en": {
+      "title": "Tips on choosing a school or kindergarten",
+      "short": "Schools, kindergartens and language need to be planned together with the neighborhood, the child's documents, the budget and the school-year dates.",
+      "body": "• Start the search before choosing long-term housing: a good school can determine the neighborhood.\n• Find out whether there are places specifically in the right grade/age, not just that \"the school is good\".\n• Compare the full cost: matrícula, the monthly cuota, materials, uniform, meals, transport, clubs.\n• Ask how the school helps children without Spanish and whether it has experience with foreigners.\n• Check the route in the morning and after classes: traffic and distance quickly become tiring.\n• For small children, adaptation, the caregivers, the routine, meals and safety matter, not just the school brand.\n• For teenagers, look separately at the language, the program, exams and prospects for transfer/university."
+    },
+    "es": {
+      "title": "Consejos para elegir una escuela o un jardín",
+      "short": "Las escuelas, los jardines y el idioma hay que planificarlos junto con el barrio, los documentos del niño, el presupuesto y las fechas del año escolar.",
+      "body": "• Empieza la búsqueda antes de elegir vivienda a largo plazo: una buena escuela puede determinar el barrio.\n• Averigua si hay cupos específicamente en el grado/edad correctos, no solo que \"la escuela es buena\".\n• Compara el coste total: matrícula, la cuota mensual, materiales, uniforme, comida, transporte, talleres.\n• Pregunta cómo ayuda la escuela a los niños sin español y si tiene experiencia con extranjeros.\n• Revisa la ruta por la mañana y tras las clases: el tráfico y la distancia cansan rápido.\n• Para niños pequeños importan la adaptación, los educadores, la rutina, la comida y la seguridad, no solo la marca de la escuela.\n• Para adolescentes mira aparte el idioma, el programa, los exámenes y las perspectivas de transferencia/universidad."
+    },
+    "de": {
+      "title": "Tipps zur Wahl einer Schule oder eines Kindergartens",
+      "short": "Schulen, Kindergärten und Sprache müssen zusammen mit dem Viertel, den Dokumenten des Kindes, dem Budget und den Schuljahresdaten geplant werden.",
+      "body": "• Beginne die Suche vor der Wahl der langfristigen Wohnung: eine gute Schule kann das Viertel bestimmen.\n• Finde heraus, ob es Plätze speziell in der richtigen Klasse/im richtigen Alter gibt, nicht nur, dass \"die Schule gut ist\".\n• Vergleiche die Gesamtkosten: matrícula, die monatliche cuota, Materialien, Uniform, Verpflegung, Transport, Kurse.\n• Frage, wie die Schule Kindern ohne Spanisch hilft und ob sie Erfahrung mit Ausländern hat.\n• Prüfe den Weg morgens und nach dem Unterricht: Verkehr und Entfernung werden schnell ermüdend.\n• Für kleine Kinder zählen Anpassung, die Betreuer, der Tagesablauf, die Verpflegung und die Sicherheit, nicht nur die Schulmarke.\n• Schau bei Jugendlichen gesondert auf Sprache, Programm, Prüfungen und Perspektiven für Wechsel/Universität."
+    }
+  },
+  "card.education_children_language.checklist.checklist": {
+    "ru_body_hash": "ea09d09a",
+    "en": {
+      "title": "School/kindergarten choice checklist",
+      "short": "Schools, kindergartens and language need to be planned together with the neighborhood, the child's documents, the budget and the school-year dates.",
+      "body": "Clarify:\n□ whether there's a place in the right age group;\n□ which documents are needed and whether apostilles/translations are required;\n□ the language of instruction and support for children without Spanish;\n□ the schedule, after-school care, meals, transport;\n□ matrícula, cuota, uniform, materials, additional costs;\n□ the rules on absences, holidays, communication with parents;\n□ medical requirements and vaccinations, if applicable;\n□ the distance from home and the real travel time;\n□ how the school handles conflicts and adaptation;\n□ whether a trial visit/interview is possible.\n\nKeep all the school's letters and the list of documents: they may be needed for renting, residency and later transfers."
+    },
+    "es": {
+      "title": "Lista para elegir escuela/jardín",
+      "short": "Las escuelas, los jardines y el idioma hay que planificarlos junto con el barrio, los documentos del niño, el presupuesto y las fechas del año escolar.",
+      "body": "Aclara:\n□ si hay cupo en el grupo de edad correcto;\n□ qué documentos hacen falta y si se requieren apostillas/traducciones;\n□ el idioma de enseñanza y el apoyo a niños sin español;\n□ el horario, la extensión horaria, la comida, el transporte;\n□ matrícula, cuota, uniforme, materiales, costes adicionales;\n□ las reglas de inasistencias, vacaciones, comunicación con los padres;\n□ requisitos médicos y vacunas, si aplica;\n□ la distancia desde casa y el tiempo real de trayecto;\n□ cómo resuelve la escuela los conflictos y la adaptación;\n□ si es posible una visita/entrevista de prueba.\n\nGuarda todas las cartas de la escuela y la lista de documentos: pueden hacer falta para el alquiler, la residencia y traslados posteriores."
+    },
+    "de": {
+      "title": "Checkliste zur Schul-/Kindergartenwahl",
+      "short": "Schulen, Kindergärten und Sprache müssen zusammen mit dem Viertel, den Dokumenten des Kindes, dem Budget und den Schuljahresdaten geplant werden.",
+      "body": "Kläre:\n□ ob es einen Platz in der richtigen Altersgruppe gibt;\n□ welche Dokumente nötig sind und ob Apostillen/Übersetzungen erforderlich sind;\n□ die Unterrichtssprache und die Unterstützung für Kinder ohne Spanisch;\n□ den Stundenplan, die Nachmittagsbetreuung, Verpflegung, Transport;\n□ matrícula, cuota, Uniform, Materialien, zusätzliche Kosten;\n□ die Regeln zu Fehlzeiten, Ferien, Kommunikation mit den Eltern;\n□ medizinische Anforderungen und Impfungen, falls zutreffend;\n□ die Entfernung von zu Hause und die reale Fahrzeit;\n□ wie die Schule mit Konflikten und Anpassung umgeht;\n□ ob ein Probebesuch/Gespräch möglich ist.\n\nBewahre alle Briefe der Schule und die Dokumentenliste auf: sie können für Miete, Aufenthalt und spätere Wechsel nötig sein."
+    }
+  },
+  "card.education_children_language.community_experience.community_experience": {
+    "ru_body_hash": "3e1fed20",
+    "en": {
+      "title": "Practical experience of families with children",
+      "short": "Schools, kindergartens and language need to be planned together with the neighborhood, the child's documents, the budget and the school-year dates.",
+      "body": "Families often conclude there's no \"ideal school\": you have to choose a balance between price, language, neighborhood, atmosphere and program. A private school may be more convenient for communication and language support, but more expensive; a state school is more affordable, but may require more independent adaptation.\n\nChildren usually adapt faster than adults, but the first months can be hard because of the language, friends and academic terminology. It helps parents to find clubs, sports, neighbors with children and a clear route to school in advance.\n\nA practical recommendation: don't make a decision based only on reviews. Be sure to talk to the administration, look at the classes, ask about new foreign pupils and count the full annual budget."
+    },
+    "es": {
+      "title": "Experiencia práctica de las familias con hijos",
+      "short": "Las escuelas, los jardines y el idioma hay que planificarlos junto con el barrio, los documentos del niño, el presupuesto y las fechas del año escolar.",
+      "body": "Las familias suelen concluir que no hay \"escuela ideal\": hay que elegir un equilibrio entre precio, idioma, barrio, ambiente y programa. Una escuela privada puede ser más cómoda en la comunicación y el apoyo lingüístico, pero más cara; una estatal es más accesible, pero puede exigir más adaptación por cuenta propia.\n\nLos niños suelen adaptarse más rápido que los adultos, pero los primeros meses pueden ser difíciles por el idioma, los amigos y la terminología escolar. A los padres les ayuda encontrar de antemano talleres, deporte, vecinos con niños y una ruta clara a la escuela.\n\nUna recomendación práctica: no decidir solo por las reseñas. Es imprescindible hablar con la administración, ver las clases, preguntar por los alumnos extranjeros nuevos y calcular el presupuesto anual completo."
+    },
+    "de": {
+      "title": "Praktische Erfahrung von Familien mit Kindern",
+      "short": "Schulen, Kindergärten und Sprache müssen zusammen mit dem Viertel, den Dokumenten des Kindes, dem Budget und den Schuljahresdaten geplant werden.",
+      "body": "Familien kommen oft zu dem Schluss, dass es keine \"ideale Schule\" gibt: man muss ein Gleichgewicht zwischen Preis, Sprache, Viertel, Atmosphäre und Programm wählen. Eine Privatschule kann bei Kommunikation und Sprachunterstützung bequemer, aber teurer sein; eine staatliche ist erschwinglicher, kann aber mehr selbstständige Anpassung erfordern.\n\nKinder passen sich meist schneller an als Erwachsene, aber die ersten Monate können wegen Sprache, Freunden und Schulterminologie schwer sein. Eltern hilft es, im Voraus Kurse, Sport, Nachbarn mit Kindern und einen klaren Schulweg zu finden.\n\nEine praktische Empfehlung: triff keine Entscheidung allein aufgrund von Bewertungen. Sprich unbedingt mit der Verwaltung, sieh dir die Klassen an, frage nach neuen ausländischen Schülern und berechne das volle Jahresbudget."
+    }
+  },
+  "card.education_children_language.community_experience.kak_deti_adaptiruyutsya_po_opytu_uchastnikov": {
+    "ru_body_hash": "bddc603e",
+    "en": {
+      "title": "Practical experience and opinions — children, schools and language",
+      "short": "Practical experience and opinions — children, schools and language.",
+      "body": "Practical experience and opinions — children, schools and language\n\nA child's adaptation usually depends on age, character, the school, the language and the trip to classes. Formally a \"good school\" won't always be the best if the child finds it hard to get there, there's no support for foreigners or the workload is too abrupt.\n\nWhat recurs in families' experience:\n• small children often join a Spanish-speaking environment faster, but parents still need communication with the school;\n• the neighborhood and the school should be chosen together;\n• documents, vaccinations and translations are best prepared before the search for a place;\n• bilingual/private schools don't suit everyone: budget, atmosphere, schedule and expectations matter;\n• clubs and friends help with the language no less than lessons.\n\nWhen choosing, look not only at the program but at the child's real adaptation."
+    },
+    "es": {
+      "title": "Experiencia práctica y opiniones — niños, escuelas e idioma",
+      "short": "Experiencia práctica y opiniones — niños, escuelas e idioma.",
+      "body": "Experiencia práctica y opiniones — niños, escuelas e idioma\n\nLa adaptación de un niño suele depender de la edad, el carácter, la escuela, el idioma y el trayecto a clase. Formalmente una \"buena escuela\" no siempre será la mejor si al niño le cuesta llegar, no hay apoyo para extranjeros o la carga es demasiado brusca.\n\nLo que se repite en la experiencia de las familias:\n• los niños pequeños suelen integrarse más rápido en un entorno hispanohablante, pero los padres igual necesitan comunicación con la escuela;\n• el barrio y la escuela deben elegirse juntos;\n• los documentos, las vacunas y las traducciones conviene prepararlos antes de buscar cupo;\n• las escuelas bilingües/privadas no sirven a todos: importan el presupuesto, el ambiente, el horario y las expectativas;\n• los talleres y los amigos ayudan al idioma tanto como las clases.\n\nAl elegir, mira no solo el programa, sino la adaptación real del niño."
+    },
+    "de": {
+      "title": "Praktische Erfahrung und Meinungen — Kinder, Schulen und Sprache",
+      "short": "Praktische Erfahrung und Meinungen — Kinder, Schulen und Sprache.",
+      "body": "Praktische Erfahrung und Meinungen — Kinder, Schulen und Sprache\n\nDie Anpassung eines Kindes hängt meist von Alter, Charakter, der Schule, der Sprache und dem Weg zum Unterricht ab. Formal wird eine \"gute Schule\" nicht immer die beste sein, wenn das Kind schwer dorthin kommt, es keine Unterstützung für Ausländer gibt oder die Belastung zu abrupt ist.\n\nWas sich in der Erfahrung von Familien wiederholt:\n• kleine Kinder fügen sich oft schneller in ein spanischsprachiges Umfeld ein, aber Eltern brauchen trotzdem Kommunikation mit der Schule;\n• Viertel und Schule sollten zusammen gewählt werden;\n• Dokumente, Impfungen und Übersetzungen bereitet man am besten vor der Platzsuche vor;\n• zweisprachige/private Schulen passen nicht jedem: Budget, Atmosphäre, Stundenplan und Erwartungen zählen;\n• Kurse und Freunde helfen der Sprache nicht weniger als der Unterricht.\n\nSchau bei der Wahl nicht nur auf das Programm, sondern auf die reale Anpassung des Kindes."
+    }
+  },
+  "card.education_children_language.instruction.kak_vybirat_shkolu_ili_sad": {
+    "ru_body_hash": "419e3446",
+    "en": {
+      "title": "How to choose a school or kindergarten",
+      "short": "Schools, kindergartens and language need to be planned together with the neighborhood, the child's documents, the budget and the school-year dates.",
+      "body": "1. Define the neighborhood radius: how long the child is willing to travel daily.\n2. Make a list of schools/kindergartens: state, private, bilingual, international.\n3. Ask about places, cost and documents before visiting.\n4. Visit 2–4 options, ask about foreigners, language, adaptation and communication.\n5. Compare the full annual budget and the family's logistics.\n6. Prepare the child's documents: certificate, passport/cédula, grades, medical certificates, translations.\n7. After choosing, don't sign a long lease until the route, schedule and actual workload are clear."
+    },
+    "es": {
+      "title": "Cómo elegir una escuela o un jardín",
+      "short": "Las escuelas, los jardines y el idioma hay que planificarlos junto con el barrio, los documentos del niño, el presupuesto y las fechas del año escolar.",
+      "body": "1. Define el radio del barrio: cuánto tiempo está dispuesto el niño a viajar a diario.\n2. Haz una lista de escuelas/jardines: estatales, privados, bilingües, internacionales.\n3. Pregunta por cupos, coste y documentos antes de la visita.\n4. Visita 2–4 opciones, pregunta por los extranjeros, el idioma, la adaptación y la comunicación.\n5. Compara el presupuesto anual completo y la logística de la familia.\n6. Prepara los documentos del niño: certificado, pasaporte/cédula, calificaciones, certificados médicos, traducciones.\n7. Tras elegir, no firmes un contrato largo hasta que la ruta, el horario y la carga real estén claros."
+    },
+    "de": {
+      "title": "Wie man eine Schule oder einen Kindergarten wählt",
+      "short": "Schulen, Kindergärten und Sprache müssen zusammen mit dem Viertel, den Dokumenten des Kindes, dem Budget und den Schuljahresdaten geplant werden.",
+      "body": "1. Lege den Viertelradius fest: wie lange das Kind bereit ist, täglich zu fahren.\n2. Erstelle eine Liste von Schulen/Kindergärten: staatlich, privat, zweisprachig, international.\n3. Frage vor dem Besuch nach Plätzen, Kosten und Dokumenten.\n4. Besuche 2–4 Optionen, frage nach Ausländern, Sprache, Anpassung und Kommunikation.\n5. Vergleiche das volle Jahresbudget und die Logistik der Familie.\n6. Bereite die Dokumente des Kindes vor: Urkunde, Pass/cédula, Noten, ärztliche Bescheinigungen, Übersetzungen.\n7. Unterschreibe nach der Wahl keinen langen Vertrag, bis Weg, Stundenplan und die tatsächliche Belastung klar sind."
+    }
+  },
+  "card.education_children_language.instruction.kak_vybirat_shkolu_ili_sad_dlya_rebenka": {
+    "ru_body_hash": "e2f20e97",
+    "en": {
+      "title": "How to choose a school or kindergarten for a child",
+      "short": "How to choose a school or kindergarten for a child.",
+      "body": "How to choose a school or kindergarten for a child\n\n1. Determine the child's age, grade, language and the intended start date.\n2. Choose the neighborhood together with the school: the daily commute matters more than an abstract rating.\n3. Gather the documents: birth certificate, passport/cédula, vaccinations, the previous school, translations if needed.\n4. Ask about the language of adaptation, support for foreigners, the schedule, meals, uniform, holidays and contact with parents.\n5. Calculate the full cost: matrícula, mensualidad, materials, uniform, transport, meals, clubs.\n6. Visit the school in person and discuss how children without strong Spanish are received.\n\nThe best choice is the one where the child is genuinely comfortable going every day."
+    },
+    "es": {
+      "title": "Cómo elegir una escuela o un jardín para un niño",
+      "short": "Cómo elegir una escuela o un jardín para un niño.",
+      "body": "Cómo elegir una escuela o un jardín para un niño\n\n1. Determina la edad, el grado, el idioma del niño y la fecha de inicio prevista.\n2. Elige el barrio junto con la escuela: el trayecto diario importa más que una valoración abstracta.\n3. Reúne los documentos: certificado de nacimiento, pasaporte/cédula, vacunas, la escuela anterior, traducciones si hace falta.\n4. Pregunta por el idioma de adaptación, el apoyo a extranjeros, el horario, la comida, el uniforme, las vacaciones y el contacto con los padres.\n5. Calcula el coste total: matrícula, mensualidad, materiales, uniforme, transporte, comida, talleres.\n6. Visita la escuela en persona y conversa sobre cómo reciben a los niños sin un español fuerte.\n\nLa mejor elección es aquella donde el niño realmente está cómodo yendo cada día."
+    },
+    "de": {
+      "title": "Wie man eine Schule oder einen Kindergarten für ein Kind wählt",
+      "short": "Wie man eine Schule oder einen Kindergarten für ein Kind wählt.",
+      "body": "Wie man eine Schule oder einen Kindergarten für ein Kind wählt\n\n1. Bestimme das Alter, die Klasse, die Sprache des Kindes und das geplante Startdatum.\n2. Wähle das Viertel zusammen mit der Schule: der tägliche Weg ist wichtiger als eine abstrakte Bewertung.\n3. Stelle die Dokumente zusammen: Geburtsurkunde, Pass/cédula, Impfungen, die vorherige Schule, Übersetzungen falls nötig.\n4. Frage nach der Sprache der Anpassung, der Unterstützung für Ausländer, dem Stundenplan, der Verpflegung, der Uniform, den Ferien und dem Kontakt mit den Eltern.\n5. Berechne die Gesamtkosten: matrícula, mensualidad, Materialien, Uniform, Transport, Verpflegung, Kurse.\n6. Besuche die Schule persönlich und besprich, wie Kinder ohne starkes Spanisch aufgenommen werden.\n\nDie beste Wahl ist die, bei der das Kind wirklich gern jeden Tag hingeht."
+    }
+  },
+  "card.education_children_language.overview.overview": {
+    "ru_body_hash": "96a4c38c",
+    "en": {
+      "title": "Children, schools and language: how to plan adaptation",
+      "short": "Schools, kindergartens and language need to be planned together with the neighborhood, the child's documents, the budget and the school-year dates.",
+      "body": "Education in Uruguay is a choice between a state, private, bilingual or international environment, and also a question of the neighborhood, the Spanish language, the child's age and documents. A family with children often chooses the school/kindergarten first and only then the housing: daily logistics matter more than a nice flat.\n\nThe main practical questions: when the school year starts, whether there are places, which documents are needed, how much Spanish the child needs, how the school treats foreigners, how much matrícula/cuotas/materiales cost, and how after-school care, meals, transport and holidays are organized.\n\nAdaptation depends on the child: some need Russian-/English-speaking support, others adapt faster through immersion in a Spanish environment. For parents it's important to check not only the academic level but also the atmosphere, communication with the administration, the distance and the workload."
+    },
+    "es": {
+      "title": "Niños, escuelas e idioma: cómo planificar la adaptación",
+      "short": "Las escuelas, los jardines y el idioma hay que planificarlos junto con el barrio, los documentos del niño, el presupuesto y las fechas del año escolar.",
+      "body": "La educación en Uruguay es una elección entre un entorno estatal, privado, bilingüe o internacional, y también una cuestión de barrio, del idioma español, de la edad del niño y de los documentos. Una familia con hijos suele elegir primero la escuela/jardín y solo después la vivienda: la logística diaria importa más que una vivienda bonita.\n\nLas principales preguntas prácticas: cuándo empieza el año escolar, si hay cupos, qué documentos hacen falta, cuánto español necesita el niño, cómo trata la escuela a los extranjeros, cuánto cuestan matrícula/cuotas/materiales, y cómo se organizan la extensión horaria, la comida, el transporte y las vacaciones.\n\nLa adaptación depende del niño: algunos necesitan apoyo en ruso/inglés, otros se adaptan más rápido por inmersión en un entorno español. Para los padres es importante revisar no solo el nivel académico, sino también el ambiente, la comunicación con la administración, la distancia y la carga."
+    },
+    "de": {
+      "title": "Kinder, Schulen und Sprache: wie man die Anpassung plant",
+      "short": "Schulen, Kindergärten und Sprache müssen zusammen mit dem Viertel, den Dokumenten des Kindes, dem Budget und den Schuljahresdaten geplant werden.",
+      "body": "Bildung in Uruguay ist eine Wahl zwischen einem staatlichen, privaten, zweisprachigen oder internationalen Umfeld und auch eine Frage des Viertels, der spanischen Sprache, des Alters des Kindes und der Dokumente. Eine Familie mit Kindern wählt oft zuerst die Schule/den Kindergarten und erst dann die Wohnung: die tägliche Logistik ist wichtiger als eine schöne Wohnung.\n\nDie wichtigsten praktischen Fragen: wann das Schuljahr beginnt, ob es Plätze gibt, welche Dokumente nötig sind, wie viel Spanisch das Kind braucht, wie die Schule mit Ausländern umgeht, wie viel matrícula/cuotas/materiales kosten und wie Nachmittagsbetreuung, Verpflegung, Transport und Ferien organisiert sind.\n\nDie Anpassung hängt vom Kind ab: manche brauchen russisch-/englischsprachige Unterstützung, andere passen sich schneller durch das Eintauchen in ein spanisches Umfeld an. Für Eltern ist es wichtig, nicht nur das akademische Niveau zu prüfen, sondern auch die Atmosphäre, die Kommunikation mit der Verwaltung, die Entfernung und die Belastung."
+    }
+  },
+  "card.education_children_language.reference.ref_detskie_sady": {
+    "ru_body_hash": "e3a0b2c7",
+    "en": {
+      "title": "Kindergartens: what to know",
+      "short": "Kindergartens: what to know.",
+      "body": "Kindergartens: what to know\n\nA kindergarten should be assessed by age, the routine, the language, the distance from home and the real availability of places. Conditions differ more than the description suggests.\n\nWhen it matters: small children, the parents' work, choosing a neighborhood.\n\nWhat to check: the schedule, meals, adaptation, cost, holidays, documents and medical requirements."
+    },
+    "es": {
+      "title": "Jardines de infantes: lo que importa saber",
+      "short": "Jardines de infantes: lo que importa saber.",
+      "body": "Jardines de infantes: lo que importa saber\n\nUn jardín hay que evaluarlo por la edad, la rutina, el idioma, la distancia desde casa y la disponibilidad real de cupos. Las condiciones difieren más de lo que sugiere la descripción.\n\nCuándo importa: niños pequeños, el trabajo de los padres, elegir un barrio.\n\nQué revisar: el horario, la comida, la adaptación, el coste, las vacaciones, los documentos y los requisitos médicos."
+    },
+    "de": {
+      "title": "Kindergärten: was man wissen muss",
+      "short": "Kindergärten: was man wissen muss.",
+      "body": "Kindergärten: was man wissen muss\n\nEinen Kindergarten beurteilt man nach Alter, Tagesablauf, Sprache, Entfernung von zu Hause und der realen Verfügbarkeit von Plätzen. Die Bedingungen unterscheiden sich stärker, als die Beschreibung vermuten lässt.\n\nWann es wichtig ist: kleine Kinder, die Arbeit der Eltern, die Wahl eines Viertels.\n\nWas zu prüfen ist: den Stundenplan, die Verpflegung, die Anpassung, die Kosten, die Ferien, die Dokumente und die medizinischen Anforderungen."
+    }
+  },
+  "card.education_children_language.reference.ref_dokumenty_dlya_zachisleniya": {
+    "ru_body_hash": "42a37776",
+    "en": {
+      "title": "Documents for enrollment: what to know",
+      "short": "Documents for enrollment: what to know.",
+      "body": "Documents for enrollment: what to know\n\nFor enrollment you may need the child's documents, translations, vaccinations, the previous school and the address. It's better to gather the package before searching for a place.\n\nWhen it matters: school, kindergarten, clubs and medical requirements.\n\nWhat to check: the birth certificate, passport/cédula, vaccinations, translations, attestations and submission deadlines."
+    },
+    "es": {
+      "title": "Documentos para la inscripción: lo que importa saber",
+      "short": "Documentos para la inscripción: lo que importa saber.",
+      "body": "Documentos para la inscripción: lo que importa saber\n\nPara la inscripción pueden hacer falta los documentos del niño, traducciones, vacunas, la escuela anterior y el domicilio. Conviene reunir el paquete antes de buscar cupo.\n\nCuándo importa: escuela, jardín, talleres y requisitos médicos.\n\nQué revisar: el certificado de nacimiento, pasaporte/cédula, vacunas, traducciones, constancias y los plazos de presentación."
+    },
+    "de": {
+      "title": "Dokumente für die Einschreibung: was man wissen muss",
+      "short": "Dokumente für die Einschreibung: was man wissen muss.",
+      "body": "Dokumente für die Einschreibung: was man wissen muss\n\nFür die Einschreibung können die Dokumente des Kindes, Übersetzungen, Impfungen, die vorherige Schule und die Adresse nötig sein. Das Paket stellt man besser vor der Platzsuche zusammen.\n\nWann es wichtig ist: Schule, Kindergarten, Kurse und medizinische Anforderungen.\n\nWas zu prüfen ist: die Geburtsurkunde, Pass/cédula, Impfungen, Übersetzungen, Bescheinigungen und die Einreichungsfristen."
+    }
+  },
+  "card.education_children_language.reference.ref_rayon_i_doroga": {
+    "ru_body_hash": "8eb49ffa",
+    "en": {
+      "title": "Neighborhood and commute: what to know",
+      "short": "Neighborhood and commute: what to know.",
+      "body": "Neighborhood and commute: what to know\n\nThe neighborhood and the trip to school are often more important than an abstract rating. Daily logistics quickly affect a family's quality of life.\n\nWhen it matters: choosing a rental or a purchase with children.\n\nWhat to check: the route on foot/by transport, safety, the schedule, traffic jams, the ability to pick up the child and a backup plan."
+    },
+    "es": {
+      "title": "Barrio y trayecto: lo que importa saber",
+      "short": "Barrio y trayecto: lo que importa saber.",
+      "body": "Barrio y trayecto: lo que importa saber\n\nEl barrio y el trayecto a la escuela suelen ser más importantes que una valoración abstracta. La logística diaria afecta rápido la calidad de vida de la familia.\n\nCuándo importa: elegir un alquiler o una compra con hijos.\n\nQué revisar: la ruta a pie/en transporte, la seguridad, el horario, los atascos, la posibilidad de recoger al niño y un plan de respaldo."
+    },
+    "de": {
+      "title": "Viertel und Schulweg: was man wissen muss",
+      "short": "Viertel und Schulweg: was man wissen muss.",
+      "body": "Viertel und Schulweg: was man wissen muss\n\nDas Viertel und der Schulweg sind oft wichtiger als eine abstrakte Bewertung. Die tägliche Logistik beeinflusst schnell die Lebensqualität einer Familie.\n\nWann es wichtig ist: die Wahl einer Miete oder eines Kaufs mit Kindern.\n\nWas zu prüfen ist: den Weg zu Fuß/mit dem Verkehr, die Sicherheit, den Stundenplan, Staus, die Möglichkeit, das Kind abzuholen, und einen Ersatzplan."
+    }
+  },
+  "card.education_children_language.reference.ref_vybor_shkoly": {
+    "ru_body_hash": "3ed4299a",
+    "en": {
+      "title": "Choosing a school: what to know",
+      "short": "Choosing a school: what to know.",
+      "body": "Choosing a school: what to know\n\nChoosing a school is not only the program but the neighborhood, the commute, the language, the cost, the atmosphere and support for a foreign child.\n\nWhen it matters: moving with children, choosing a rental, adapting to Spanish.\n\nWhat to check: the age/grade, the language, documents, the schedule, fees, meals, transport and communication with parents."
+    },
+    "es": {
+      "title": "Elegir una escuela: lo que importa saber",
+      "short": "Elegir una escuela: lo que importa saber.",
+      "body": "Elegir una escuela: lo que importa saber\n\nElegir una escuela no es solo el programa, sino el barrio, el trayecto, el idioma, el coste, el ambiente y el apoyo a un niño extranjero.\n\nCuándo importa: mudarse con hijos, elegir un alquiler, adaptarse al español.\n\nQué revisar: la edad/grado, el idioma, los documentos, el horario, las cuotas, la comida, el transporte y la comunicación con los padres."
+    },
+    "de": {
+      "title": "Wahl einer Schule: was man wissen muss",
+      "short": "Wahl einer Schule: was man wissen muss.",
+      "body": "Wahl einer Schule: was man wissen muss\n\nDie Wahl einer Schule ist nicht nur das Programm, sondern das Viertel, der Weg, die Sprache, die Kosten, die Atmosphäre und die Unterstützung für ein ausländisches Kind.\n\nWann es wichtig ist: Umzug mit Kindern, die Wahl einer Miete, die Anpassung an Spanisch.\n\nWas zu prüfen ist: das Alter/die Klasse, die Sprache, Dokumente, den Stundenplan, Gebühren, Verpflegung, Transport und die Kommunikation mit den Eltern."
+    }
+  },
+  "card.education_children_language.reference.ref_yazykovaya_adaptaciya": {
+    "ru_body_hash": "9d2db920",
+    "en": {
+      "title": "Language adaptation: what to know",
+      "short": "Language adaptation: what to know.",
+      "body": "Language adaptation: what to know\n\nLanguage adaptation usually happens through the school, friends, clubs and the everyday environment. A child's Spanish and the parents' Spanish are different tasks.\n\nWhen it matters: the first months after moving and choosing a school/kindergarten.\n\nWhat to check: support for foreigners, extra classes, tolerance of mistakes, the homework load and psychological comfort."
+    },
+    "es": {
+      "title": "Adaptación lingüística: lo que importa saber",
+      "short": "Adaptación lingüística: lo que importa saber.",
+      "body": "Adaptación lingüística: lo que importa saber\n\nLa adaptación lingüística suele darse a través de la escuela, los amigos, los talleres y el entorno cotidiano. El español del niño y el español de los padres son tareas distintas.\n\nCuándo importa: los primeros meses tras la mudanza y la elección de escuela/jardín.\n\nQué revisar: el apoyo a extranjeros, las clases adicionales, la tolerancia a los errores, la carga de tareas y el confort psicológico."
+    },
+    "de": {
+      "title": "Sprachliche Anpassung: was man wissen muss",
+      "short": "Sprachliche Anpassung: was man wissen muss.",
+      "body": "Sprachliche Anpassung: was man wissen muss\n\nDie sprachliche Anpassung erfolgt meist über die Schule, Freunde, Kurse und das alltägliche Umfeld. Das Spanisch des Kindes und das Spanisch der Eltern sind verschiedene Aufgaben.\n\nWann es wichtig ist: die ersten Monate nach dem Umzug und die Wahl der Schule/des Kindergartens.\n\nWas zu prüfen ist: die Unterstützung für Ausländer, zusätzliche Stunden, die Toleranz gegenüber Fehlern, die Hausaufgabenbelastung und das psychische Wohlbefinden."
+    }
+  },
+  "card.education_children_language.warning.warning": {
+    "ru_body_hash": "1472b6da",
+    "en": {
+      "title": "Mistakes when choosing education",
+      "short": "Schools, kindergartens and language need to be planned together with the neighborhood, the child's documents, the budget and the school-year dates.",
+      "body": "A mistake is choosing a flat before the school if the child already has an age and needs. The second mistake is comparing only the mensualidad/cuota without one-off payments and transport. The third is underestimating Spanish: even in a bilingual school everyday communication is often in Spanish.\n\nDon't trust a single review: a school that's perfect for one family may not suit another. Don't put off the documents: certificates, grades, attestations and translations may be needed unexpectedly.\n\nIf the child needs special support, chronic treatment, adaptation after stress or a special program, discuss it in advance and in writing."
+    },
+    "es": {
+      "title": "Errores al elegir la educación",
+      "short": "Las escuelas, los jardines y el idioma hay que planificarlos junto con el barrio, los documentos del niño, el presupuesto y las fechas del año escolar.",
+      "body": "Un error es elegir la vivienda antes que la escuela si el niño ya tiene una edad y necesidades. El segundo error es comparar solo la mensualidad/cuota sin los pagos únicos y el transporte. El tercero es subestimar el español: incluso en una escuela bilingüe la comunicación cotidiana suele ser en español.\n\nNo te fíes de una sola reseña: una escuela perfecta para una familia puede no servir a otra. No dejes los documentos para después: certificados, calificaciones, constancias y traducciones pueden hacer falta de forma inesperada.\n\nSi el niño necesita apoyo especial, tratamiento crónico, adaptación tras un estrés o un programa especial, trátalo con antelación y por escrito."
+    },
+    "de": {
+      "title": "Fehler bei der Wahl der Bildung",
+      "short": "Schulen, Kindergärten und Sprache müssen zusammen mit dem Viertel, den Dokumenten des Kindes, dem Budget und den Schuljahresdaten geplant werden.",
+      "body": "Ein Fehler ist, die Wohnung vor der Schule zu wählen, wenn das Kind bereits ein Alter und Bedürfnisse hat. Der zweite Fehler ist, nur die mensualidad/cuota ohne einmalige Zahlungen und Transport zu vergleichen. Der dritte ist, Spanisch zu unterschätzen: selbst in einer zweisprachigen Schule ist die Alltagskommunikation oft auf Spanisch.\n\nVertraue nicht einer einzelnen Bewertung: eine für eine Familie perfekte Schule kann einer anderen nicht passen. Schiebe die Dokumente nicht auf: Urkunden, Noten, Bescheinigungen und Übersetzungen können unerwartet nötig sein.\n\nBraucht das Kind besondere Unterstützung, eine chronische Behandlung, Anpassung nach Stress oder ein spezielles Programm, bespreche das im Voraus und schriftlich."
+    }
+  },
+  "card.food_groceries_practical.advice.advice": {
+    "ru_body_hash": "1e08216b",
+    "en": {
+      "title": "Tips on groceries and household goods",
+      "short": "Groceries and everyday shopping mean adapting to local stores, ferias, prices, deliveries, seasonality and replacing familiar products.",
+      "body": "• Compare supermarkets, the feria and small shops: the same basket can differ a lot in price.\n• For vegetables, fruit and some fresh products the feria is often cheaper, but you need to check quality and season.\n• Meat and fish are better chosen at a specific carnicería/pescadería, not just by chain.\n• Familiar imported goods can be expensive; look for local equivalents.\n• For household chemicals, diapers, electronics and small items, check MercadoLibre and sales.\n• If you have a diet, allergies or baby food, find out the local names and equivalents in advance.\n• Don't stock up in large volumes before understanding the home's humidity and storage space."
+    },
+    "es": {
+      "title": "Consejos sobre alimentos y el hogar",
+      "short": "Los alimentos y las compras cotidianas son adaptarse a las tiendas locales, las ferias, los precios, las entregas, la estacionalidad y la sustitución de productos habituales.",
+      "body": "• Compara supermercados, la feria y los pequeños comercios: la misma canasta puede diferir mucho en precio.\n• Para verduras, frutas y algunos productos frescos la feria suele ser más barata, pero hay que mirar la calidad y la temporada.\n• La carne y el pescado conviene elegirlos en una carnicería/pescadería concreta, no solo por cadena.\n• Los productos importados habituales pueden ser caros; busca equivalentes locales.\n• Para limpieza, pañales, electrónica y pequeños artículos, revisa MercadoLibre y las ofertas.\n• Si tienes una dieta, alergias o comida para bebés, averigua de antemano los nombres locales y los equivalentes.\n• No te abastezcas en grandes volúmenes antes de entender la humedad de la vivienda y el espacio de almacenamiento."
+    },
+    "de": {
+      "title": "Tipps zu Lebensmitteln und Haushalt",
+      "short": "Lebensmittel und Alltagseinkäufe bedeuten, sich an lokale Geschäfte, ferias, Preise, Lieferungen, Saisonabhängigkeit und den Ersatz vertrauter Produkte anzupassen.",
+      "body": "• Vergleiche Supermärkte, die feria und kleine Läden: derselbe Warenkorb kann sich im Preis stark unterscheiden.\n• Für Gemüse, Obst und einige Frischprodukte ist die feria oft günstiger, aber man muss Qualität und Saison prüfen.\n• Fleisch und Fisch wählt man besser in einer bestimmten carnicería/pescadería, nicht nur nach Kette.\n• Vertraute importierte Waren können teuer sein; suche lokale Äquivalente.\n• Prüfe für Haushaltschemie, Windeln, Elektronik und Kleinigkeiten MercadoLibre und Angebote.\n• Hast du eine Diät, Allergien oder Babynahrung, finde im Voraus die lokalen Namen und Äquivalente heraus.\n• Lege keine großen Vorräte an, bevor du die Feuchtigkeit der Wohnung und den Lagerplatz verstehst."
+    }
+  },
+  "card.food_groceries_practical.advice.kak_privyknut_k_produktam_i_pokupkam_edy": {
+    "ru_body_hash": "95179caa",
+    "en": {
+      "title": "How to get used to products and food shopping",
+      "short": "How to get used to products and food shopping.",
+      "body": "How to get used to products and food shopping\n\n• Compare supermarkets, ferias, butcher shops, small stores and delivery: the same basket can differ a lot in price and quality.\n• For vegetables and fruit, ferias are often useful, but quality depends on the day, neighborhood and seller.\n• Look for familiar products by local names and equivalents; imports can be expensive and unreliable.\n• Look at the price per kg/liter, not just per package.\n• Plan purchases around seasonality and sales.\n• If a diet, baby food or specific brands matter, check availability and alternatives in advance.\n\nThe first months usually go into finding your own stores and replacements for familiar products."
+    },
+    "es": {
+      "title": "Cómo acostumbrarse a los productos y a comprar comida",
+      "short": "Cómo acostumbrarse a los productos y a comprar comida.",
+      "body": "Cómo acostumbrarse a los productos y a comprar comida\n\n• Compara supermercados, ferias, carnicerías, comercios pequeños y la entrega: la misma canasta puede diferir mucho en precio y calidad.\n• Para verduras y frutas las ferias suelen ser útiles, pero la calidad depende del día, el barrio y el vendedor.\n• Busca los productos habituales por nombres locales y equivalentes; lo importado puede ser caro e inestable.\n• Mira el precio por kg/litro, no solo por envase.\n• Planifica las compras según la estacionalidad y las ofertas.\n• Si importa una dieta, comida para bebés o marcas concretas, comprueba de antemano la disponibilidad y las alternativas.\n\nLos primeros meses suelen irse en encontrar tus propias tiendas y reemplazos de los productos habituales."
+    },
+    "de": {
+      "title": "Wie man sich an Produkte und Lebensmitteleinkäufe gewöhnt",
+      "short": "Wie man sich an Produkte und Lebensmitteleinkäufe gewöhnt.",
+      "body": "Wie man sich an Produkte und Lebensmitteleinkäufe gewöhnt\n\n• Vergleiche Supermärkte, ferias, Metzgereien, kleine Läden und Lieferung: derselbe Warenkorb kann sich in Preis und Qualität stark unterscheiden.\n• Für Gemüse und Obst sind ferias oft nützlich, aber die Qualität hängt vom Tag, Viertel und Verkäufer ab.\n• Suche vertraute Produkte nach lokalen Namen und Äquivalenten; Importe können teuer und unbeständig sein.\n• Schau auf den Preis pro kg/Liter, nicht nur pro Packung.\n• Plane Einkäufe nach Saisonabhängigkeit und Angeboten.\n• Sind eine Diät, Babynahrung oder bestimmte Marken wichtig, prüfe Verfügbarkeit und Alternativen im Voraus.\n\nDie ersten Monate gehen meist dafür drauf, die eigenen Geschäfte und Ersatz für vertraute Produkte zu finden."
+    }
+  },
+  "card.food_groceries_practical.checklist.checklist": {
+    "ru_body_hash": "ce2943c7",
+    "en": {
+      "title": "Checklist for grocery-based everyday adaptation",
+      "short": "Groceries and everyday shopping mean adapting to local stores, ferias, prices, deliveries, seasonality and replacing familiar products.",
+      "body": "Compile:\n□ a list of the nearest supermarkets;\n□ the days and places of the feria near home;\n□ good carnicería, verdulería, farmacia;\n□ equivalents of your usual medicines/children's goods, if needed;\n□ a list of expensive imported products that are better replaced;\n□ delivery services and delivery conditions to your area;\n□ a budget for a typical week;\n□ places to buy household chemicals, textiles, small appliances;\n□ a stock of critical products/medicines for the first weeks.\n\nUpdate the list after changing neighborhood: everyday infrastructure is very local."
+    },
+    "es": {
+      "title": "Lista de adaptación cotidiana por alimentos",
+      "short": "Los alimentos y las compras cotidianas son adaptarse a las tiendas locales, las ferias, los precios, las entregas, la estacionalidad y la sustitución de productos habituales.",
+      "body": "Arma:\n□ una lista de los supermercados más cercanos;\n□ los días y lugares de la feria cerca de casa;\n□ buenas carnicería, verdulería, farmacia;\n□ equivalentes de tus medicamentos/artículos infantiles habituales, si hace falta;\n□ una lista de productos importados caros que conviene reemplazar;\n□ servicios de entrega y condiciones de entrega a tu zona;\n□ un presupuesto para una semana típica;\n□ lugares para comprar limpieza, textiles, pequeños electrodomésticos;\n□ un stock de productos/medicamentos críticos para las primeras semanas.\n\nActualiza la lista tras cambiar de barrio: la infraestructura cotidiana es muy local."
+    },
+    "de": {
+      "title": "Checkliste zur Alltagsanpassung bei Lebensmitteln",
+      "short": "Lebensmittel und Alltagseinkäufe bedeuten, sich an lokale Geschäfte, ferias, Preise, Lieferungen, Saisonabhängigkeit und den Ersatz vertrauter Produkte anzupassen.",
+      "body": "Stelle zusammen:\n□ eine Liste der nächsten Supermärkte;\n□ die Tage und Orte der feria in der Nähe;\n□ gute carnicería, verdulería, farmacia;\n□ Äquivalente deiner gewohnten Medikamente/Kinderartikel, falls nötig;\n□ eine Liste teurer importierter Produkte, die besser ersetzt werden;\n□ Lieferdienste und Lieferbedingungen in dein Gebiet;\n□ ein Budget für eine typische Woche;\n□ Orte zum Kauf von Haushaltschemie, Textilien, kleinen Geräten;\n□ einen Vorrat kritischer Produkte/Medikamente für die ersten Wochen.\n\nAktualisiere die Liste nach einem Viertelwechsel: die Alltagsinfrastruktur ist sehr lokal."
+    }
+  },
+  "card.food_groceries_practical.community_experience.community_experience": {
+    "ru_body_hash": "000361ee",
+    "en": {
+      "title": "Practical experience of buying groceries",
+      "short": "Groceries and everyday shopping mean adapting to local stores, ferias, prices, deliveries, seasonality and replacing familiar products.",
+      "body": "Usually after a few months people develop their own map: where to get meat, where vegetables, where household chemicals, where delivery is cheaper, where there are imported products. There's no universal store: convenience depends on the neighborhood, transport and the family's habits.\n\nMany note that the cost of living depends heavily on the eating style. If you try to fully replicate your usual diet with imported goods, the budget grows. If you adapt to local seasonal products, ferias and local brands, expenses become more predictable.\n\nThe best start is to record prices for your typical basket for 2–3 weeks and only then draw conclusions about the budget."
+    },
+    "es": {
+      "title": "Experiencia práctica de comprar alimentos",
+      "short": "Los alimentos y las compras cotidianas son adaptarse a las tiendas locales, las ferias, los precios, las entregas, la estacionalidad y la sustitución de productos habituales.",
+      "body": "Normalmente, tras unos meses, la gente desarrolla su propio mapa: dónde conseguir carne, dónde verduras, dónde limpieza, dónde la entrega es más barata, dónde hay productos importados. No hay una tienda universal: la comodidad depende del barrio, el transporte y los hábitos de la familia.\n\nMuchos notan que el coste de vida depende mucho del estilo de alimentación. Si intentas replicar por completo tu dieta habitual con productos importados, el presupuesto crece. Si te adaptas a los productos locales de temporada, las ferias y las marcas locales, los gastos se vuelven más predecibles.\n\nEl mejor comienzo es anotar los precios de tu canasta típica durante 2–3 semanas y solo entonces sacar conclusiones sobre el presupuesto."
+    },
+    "de": {
+      "title": "Praktische Erfahrung beim Lebensmitteleinkauf",
+      "short": "Lebensmittel und Alltagseinkäufe bedeuten, sich an lokale Geschäfte, ferias, Preise, Lieferungen, Saisonabhängigkeit und den Ersatz vertrauter Produkte anzupassen.",
+      "body": "Meist entwickeln Menschen nach einigen Monaten ihre eigene Karte: wo es Fleisch gibt, wo Gemüse, wo Haushaltschemie, wo die Lieferung günstiger ist, wo es importierte Produkte gibt. Es gibt kein universelles Geschäft: die Bequemlichkeit hängt vom Viertel, dem Verkehr und den Gewohnheiten der Familie ab.\n\nViele bemerken, dass die Lebenshaltungskosten stark vom Ernährungsstil abhängen. Versuchst du, deine gewohnte Ernährung mit importierten Waren vollständig nachzubilden, wächst das Budget. Passt du dich an lokale saisonale Produkte, ferias und lokale Marken an, werden die Ausgaben vorhersehbarer.\n\nDer beste Start ist, die Preise für deinen typischen Warenkorb 2–3 Wochen lang aufzuzeichnen und erst dann Schlüsse über das Budget zu ziehen."
+    }
+  },
+  "card.food_groceries_practical.overview.overview": {
+    "ru_body_hash": "48479f9b",
+    "en": {
+      "title": "Groceries and everyday shopping: how to adapt",
+      "short": "Groceries and everyday shopping mean adapting to local stores, ferias, prices, deliveries, seasonality and replacing familiar products.",
+      "body": "The everyday grocery topic seems simple, but it's exactly what quickly reveals the cost of living. In Uruguay it's important to understand where to buy different categories: supermarkets, ferias, carnicerías, verdulerías, pharmacies, specialized stores, MercadoLibre and local deliveries. Prices and quality differ not only between chains but between neighborhoods.\n\nNewcomers often look for familiar products and brands, but gradually switch to local equivalents. Meat, vegetables, dairy, bread, household chemicals, children's goods, coffee/tea, spices and \"foods from home\" are best compared separately. Some goods are more expensive, some are easier to replace, some are worth buying at a feria.\n\nA practical approach: build your own shopping map for the neighborhood and don't draw conclusions from a single supermarket."
+    },
+    "es": {
+      "title": "Alimentos y compras cotidianas: cómo adaptarse",
+      "short": "Los alimentos y las compras cotidianas son adaptarse a las tiendas locales, las ferias, los precios, las entregas, la estacionalidad y la sustitución de productos habituales.",
+      "body": "El tema cotidiano de los alimentos parece simple, pero es justamente lo que revela rápido el coste de vida. En Uruguay es importante entender dónde comprar las distintas categorías: supermercados, ferias, carnicerías, verdulerías, farmacias, tiendas especializadas, MercadoLibre y entregas locales. Los precios y la calidad difieren no solo entre cadenas, sino entre barrios.\n\nLos recién llegados suelen buscar productos y marcas habituales, pero poco a poco pasan a los equivalentes locales. La carne, las verduras, los lácteos, el pan, la limpieza, los artículos infantiles, el café/té, las especias y los \"productos de casa\" conviene compararlos por separado. Algunos productos son más caros, otros son más fáciles de reemplazar, otros conviene comprarlos en la feria.\n\nUn enfoque práctico: arma tu propio mapa de compras del barrio y no saques conclusiones de un solo supermercado."
+    },
+    "de": {
+      "title": "Lebensmittel und Alltagseinkäufe: wie man sich anpasst",
+      "short": "Lebensmittel und Alltagseinkäufe bedeuten, sich an lokale Geschäfte, ferias, Preise, Lieferungen, Saisonabhängigkeit und den Ersatz vertrauter Produkte anzupassen.",
+      "body": "Das alltägliche Lebensmittelthema scheint einfach, aber gerade es offenbart schnell die Lebenshaltungskosten. In Uruguay ist es wichtig zu verstehen, wo man verschiedene Kategorien kauft: Supermärkte, ferias, carnicerías, verdulerías, Apotheken, Fachgeschäfte, MercadoLibre und lokale Lieferungen. Preise und Qualität unterscheiden sich nicht nur zwischen Ketten, sondern zwischen Vierteln.\n\nNeuankömmlinge suchen oft vertraute Produkte und Marken, wechseln aber allmählich zu lokalen Äquivalenten. Fleisch, Gemüse, Milchprodukte, Brot, Haushaltschemie, Kinderartikel, Kaffee/Tee, Gewürze und \"Produkte von zu Hause\" vergleicht man besser einzeln. Manche Waren sind teurer, manche leichter zu ersetzen, manche kauft man besser auf einer feria.\n\nEin praktischer Ansatz: erstelle deine eigene Einkaufskarte für das Viertel und ziehe keine Schlüsse aus einem einzigen Supermarkt."
+    }
+  },
+  "card.food_groceries_practical.reference.ref_ceny_i_kachestvo": {
+    "ru_body_hash": "be65dd40",
+    "en": {
+      "title": "Prices and quality: what to know",
+      "short": "Prices and quality: what to know.",
+      "body": "Prices and quality: what to know\n\nPrices and quality in Uruguay are uneven: the same product can differ a lot by neighborhood, store and season.\n\nWhen it matters: budget planning, choosing a neighborhood, comparing delivery and ferias.\n\nWhat to check: the price per kg/unit, the sale, quality, the expiry date and alternatives."
+    },
+    "es": {
+      "title": "Precios y calidad: lo que importa saber",
+      "short": "Precios y calidad: lo que importa saber.",
+      "body": "Precios y calidad: lo que importa saber\n\nLos precios y la calidad en Uruguay son dispares: el mismo producto puede diferir mucho por barrio, tienda y temporada.\n\nCuándo importa: planificar el presupuesto, elegir un barrio, comparar la entrega y las ferias.\n\nQué revisar: el precio por kg/unidad, la oferta, la calidad, la fecha de vencimiento y las alternativas."
+    },
+    "de": {
+      "title": "Preise und Qualität: was man wissen muss",
+      "short": "Preise und Qualität: was man wissen muss.",
+      "body": "Preise und Qualität: was man wissen muss\n\nPreise und Qualität in Uruguay sind uneinheitlich: dasselbe Produkt kann sich nach Viertel, Geschäft und Saison stark unterscheiden.\n\nWann es wichtig ist: Budgetplanung, die Wahl eines Viertels, der Vergleich von Lieferung und ferias.\n\nWas zu prüfen ist: den Preis pro kg/Einheit, das Angebot, die Qualität, das Haltbarkeitsdatum und Alternativen."
+    }
+  },
+  "card.food_groceries_practical.reference.ref_ekonomiya": {
+    "ru_body_hash": "53b9e1c1",
+    "en": {
+      "title": "Saving money: what to know",
+      "short": "Saving money: what to know.",
+      "body": "Saving money: what to know\n\nSaving is built on a combination of supermarkets, ferias, sales, local brands and planning delivery.\n\nWhen it matters: the family budget, the first months, regular shopping.\n\nWhat to check: sales, package sizes, seasonal vegetables/fruit, the delivery fee and the price per unit."
+    },
+    "es": {
+      "title": "Ahorro: lo que importa saber",
+      "short": "Ahorro: lo que importa saber.",
+      "body": "Ahorro: lo que importa saber\n\nEl ahorro se construye con una combinación de supermercados, ferias, ofertas, marcas locales y la planificación de la entrega.\n\nCuándo importa: el presupuesto familiar, los primeros meses, las compras regulares.\n\nQué revisar: ofertas, tamaños de envase, verduras/frutas de temporada, el delivery fee y el precio por unidad."
+    },
+    "de": {
+      "title": "Sparen: was man wissen muss",
+      "short": "Sparen: was man wissen muss.",
+      "body": "Sparen: was man wissen muss\n\nSparen baut auf einer Kombination aus Supermärkten, ferias, Angeboten, lokalen Marken und der Planung der Lieferung auf.\n\nWann es wichtig ist: das Familienbudget, die ersten Monate, regelmäßige Einkäufe.\n\nWas zu prüfen ist: Angebote, Packungsgrößen, saisonales Gemüse/Obst, die Liefergebühr und den Preis pro Einheit."
+    }
+  },
+  "card.food_groceries_practical.reference.ref_privychnye_produkty": {
+    "ru_body_hash": "f2f8f2d5",
+    "en": {
+      "title": "Familiar products: what to know",
+      "short": "Familiar products: what to know.",
+      "body": "Familiar products: what to know\n\nFamiliar products often have to be replaced with local equivalents. Some imported goods are available, but they're more expensive and unreliable.\n\nWhen it matters: moving, feeding children, diets, familiar cuisine.\n\nWhat to check: local names, equivalents, stores with imports and the possibility of ordering online."
+    },
+    "es": {
+      "title": "Productos habituales: lo que importa saber",
+      "short": "Productos habituales: lo que importa saber.",
+      "body": "Productos habituales: lo que importa saber\n\nLos productos habituales a menudo hay que reemplazarlos con equivalentes locales. Parte de los productos importados existe, pero son más caros e inestables.\n\nCuándo importa: la mudanza, la alimentación de los niños, las dietas, la cocina habitual.\n\nQué revisar: los nombres locales, los equivalentes, las tiendas con importación y la posibilidad de pedir en línea."
+    },
+    "de": {
+      "title": "Vertraute Produkte: was man wissen muss",
+      "short": "Vertraute Produkte: was man wissen muss.",
+      "body": "Vertraute Produkte: was man wissen muss\n\nVertraute Produkte muss man oft durch lokale Äquivalente ersetzen. Ein Teil der importierten Waren ist vorhanden, aber teurer und unbeständig.\n\nWann es wichtig ist: der Umzug, die Ernährung der Kinder, Diäten, die gewohnte Küche.\n\nWas zu prüfen ist: lokale Namen, Äquivalente, Geschäfte mit Import und die Möglichkeit, online zu bestellen."
+    }
+  },
+  "card.food_groceries_practical.reference.ref_rynki_i_ferii": {
+    "ru_body_hash": "6cc7a217",
+    "en": {
+      "title": "Markets and ferias: what to know",
+      "short": "Markets and ferias: what to know.",
+      "body": "Markets and ferias: what to know\n\nFerias and markets are often good for vegetables, fruit and local products. Quality and prices depend on the day, neighborhood and seller.\n\nWhen it matters: saving money, fresh products, adapting to local daily life.\n\nWhat to check: the schedule, cash/cards, weight, seasonality and product quality."
+    },
+    "es": {
+      "title": "Mercados y ferias: lo que importa saber",
+      "short": "Mercados y ferias: lo que importa saber.",
+      "body": "Mercados y ferias: lo que importa saber\n\nLas ferias y los mercados suelen ser buenos para verduras, frutas y productos locales. La calidad y los precios dependen del día, el barrio y el vendedor.\n\nCuándo importa: ahorrar, productos frescos, adaptarse a la vida local.\n\nQué revisar: el horario, efectivo/tarjetas, el peso, la estacionalidad y la calidad del producto."
+    },
+    "de": {
+      "title": "Märkte und ferias: was man wissen muss",
+      "short": "Märkte und ferias: was man wissen muss.",
+      "body": "Märkte und ferias: was man wissen muss\n\nFerias und Märkte sind oft gut für Gemüse, Obst und lokale Produkte. Qualität und Preise hängen vom Tag, Viertel und Verkäufer ab.\n\nWann es wichtig ist: Sparen, Frischprodukte, die Anpassung an den lokalen Alltag.\n\nWas zu prüfen ist: den Zeitplan, Bargeld/Karten, das Gewicht, die Saisonabhängigkeit und die Produktqualität."
+    }
+  },
+  "card.food_groceries_practical.reference.ref_supermarkety": {
+    "ru_body_hash": "9405180f",
+    "en": {
+      "title": "Supermarkets: what to know",
+      "short": "Supermarkets: what to know.",
+      "body": "Supermarkets: what to know\n\nSupermarkets are convenient for stability and delivery, but not always the best on price for fresh products. Compare chains and local stores around home.\n\nWhen it matters: daily purchases, delivery, family, weekly shopping.\n\nWhat to check: sales, quality, the delivery fee, returns, loyalty cards and the availability of familiar products."
+    },
+    "es": {
+      "title": "Supermercados: lo que importa saber",
+      "short": "Supermercados: lo que importa saber.",
+      "body": "Supermercados: lo que importa saber\n\nLos supermercados son cómodos por la estabilidad y la entrega, pero no siempre los mejores en precio de productos frescos. Compara cadenas y comercios locales alrededor de casa.\n\nCuándo importa: compras diarias, entrega, familia, compras semanales.\n\nQué revisar: ofertas, calidad, el delivery fee, devoluciones, tarjetas de fidelidad y la disponibilidad de productos habituales."
+    },
+    "de": {
+      "title": "Supermärkte: was man wissen muss",
+      "short": "Supermärkte: was man wissen muss.",
+      "body": "Supermärkte: was man wissen muss\n\nSupermärkte sind bequem wegen Beständigkeit und Lieferung, aber nicht immer die besten beim Preis für Frischprodukte. Vergleiche Ketten und lokale Geschäfte rund um zu Hause.\n\nWann es wichtig ist: tägliche Einkäufe, Lieferung, Familie, Wocheneinkäufe.\n\nWas zu prüfen ist: Angebote, Qualität, die Liefergebühr, Rücksendungen, Treuekarten und die Verfügbarkeit vertrauter Produkte."
+    }
+  },
+  "card.food_groceries_practical.warning.warning": {
+    "ru_body_hash": "15a995de",
+    "en": {
+      "title": "Mistakes in everyday shopping",
+      "short": "Groceries and everyday shopping mean adapting to local stores, ferias, prices, deliveries, seasonality and replacing familiar products.",
+      "body": "Mistakes: counting the budget by Numbeo or a single receipt, shopping as if on holiday, looking only for imported brands, forgetting about seasonality and not accounting for delivery.\n\nDon't buy a lot of food in the first days, before you understand the fridge, humidity and real habits. Don't count the rent price separately from daily life: an area without decent shops can increase delivery and transport costs.\n\nIf you need special products, medicines or baby food, don't put off the search for equivalents until the stock runs out."
+    },
+    "es": {
+      "title": "Errores en las compras cotidianas",
+      "short": "Los alimentos y las compras cotidianas son adaptarse a las tiendas locales, las ferias, los precios, las entregas, la estacionalidad y la sustitución de productos habituales.",
+      "body": "Errores: calcular el presupuesto por Numbeo o un solo ticket, comprar como en vacaciones, buscar solo marcas importadas, olvidar la estacionalidad y no tener en cuenta la entrega.\n\nNo compres mucha comida los primeros días, antes de entender la heladera, la humedad y los hábitos reales. No cuentes el precio del alquiler por separado de la vida diaria: una zona sin comercios decentes puede aumentar los gastos de entrega y transporte.\n\nSi necesitas productos especiales, medicamentos o comida para bebés, no dejes la búsqueda de equivalentes para cuando se acabe el stock."
+    },
+    "de": {
+      "title": "Fehler bei Alltagseinkäufen",
+      "short": "Lebensmittel und Alltagseinkäufe bedeuten, sich an lokale Geschäfte, ferias, Preise, Lieferungen, Saisonabhängigkeit und den Ersatz vertrauter Produkte anzupassen.",
+      "body": "Fehler: das Budget nach Numbeo oder einem einzigen Beleg berechnen, wie im Urlaub einkaufen, nur nach importierten Marken suchen, die Saisonabhängigkeit vergessen und die Lieferung nicht berücksichtigen.\n\nKaufe in den ersten Tagen nicht viele Lebensmittel, bevor du den Kühlschrank, die Feuchtigkeit und die realen Gewohnheiten verstehst. Rechne den Mietpreis nicht getrennt vom Alltag: ein Gebiet ohne vernünftige Geschäfte kann die Liefer- und Transportkosten erhöhen.\n\nBrauchst du spezielle Produkte, Medikamente oder Babynahrung, schiebe die Suche nach Äquivalenten nicht auf, bis der Vorrat zu Ende ist."
+    }
+  },
+  "card.health_insurance_medicine.advice.advice": {
+    "ru_body_hash": "48260521",
+    "en": {
+      "title": "Tips on healthcare and insurance",
+      "short": "Healthcare in Uruguay includes ASSE, mutualista, Fonasa, private insurance, emergency, booking specialists, medicines and choosing a system for the family.",
+      "body": "• Don't choose a mutualista by price alone: look at the nearest clinics, specialists, booking times and emergency.\n• If you have chronic diagnoses, check in advance the availability of the doctor, medicines and tests.\n• For a family, compare the conditions for children, pregnancy, dentistry, hospitalization and urgent care.\n• Keep medical documents, prescriptions and translations of key diagnoses.\n• Right after arrival, find the nearest emergencia, a 24/7 pharmacy and a contact for an urgent call.\n• If income is arranged through work/empresa, clarify the link to Fonasa and who is included in the coverage.\n• For rare medicines, check local equivalents before moving or in the first weeks."
+    },
+    "es": {
+      "title": "Consejos sobre salud y seguros",
+      "short": "La salud en Uruguay incluye ASSE, mutualista, Fonasa, seguros privados, emergencia, turnos con especialistas, medicamentos y la elección de un sistema para la familia.",
+      "body": "• No elijas una mutualista solo por el precio: mira las clínicas más cercanas, los especialistas, los plazos de turno y la emergencia.\n• Si tienes diagnósticos crónicos, comprueba de antemano la disponibilidad del médico, los medicamentos y los análisis.\n• Para una familia, compara las condiciones de niños, embarazo, odontología, internación y atención urgente.\n• Guarda los documentos médicos, las recetas y las traducciones de los diagnósticos clave.\n• Apenas llegues, encuentra la emergencia más cercana, una farmacia 24/7 y un contacto para una llamada urgente.\n• Si el ingreso se gestiona por el trabajo/empresa, aclara el vínculo con Fonasa y quién está incluido en la cobertura.\n• Para medicamentos raros, comprueba los equivalentes locales antes de mudarte o en las primeras semanas."
+    },
+    "de": {
+      "title": "Tipps zu Gesundheit und Versicherung",
+      "short": "Das Gesundheitswesen in Uruguay umfasst ASSE, mutualista, Fonasa, Privatversicherungen, Notdienst, Facharzttermine, Medikamente und die Wahl eines Systems für die Familie.",
+      "body": "• Wähle eine mutualista nicht allein nach dem Preis: schau auf die nächsten Kliniken, Spezialisten, Terminzeiten und den Notdienst.\n• Hast du chronische Diagnosen, prüfe im Voraus die Verfügbarkeit des Arztes, der Medikamente und Untersuchungen.\n• Vergleiche für eine Familie die Bedingungen für Kinder, Schwangerschaft, Zahnmedizin, Krankenhausaufenthalt und Notfallversorgung.\n• Bewahre medizinische Dokumente, Rezepte und Übersetzungen wichtiger Diagnosen auf.\n• Finde direkt nach der Ankunft die nächste emergencia, eine 24/7-Apotheke und einen Kontakt für einen dringenden Anruf.\n• Ist das Einkommen über Arbeit/empresa geregelt, kläre die Verbindung zu Fonasa und wer in der Deckung enthalten ist.\n• Prüfe für seltene Medikamente lokale Äquivalente vor dem Umzug oder in den ersten Wochen."
+    }
+  },
+  "card.health_insurance_medicine.advice.kak_podhodit_k_medicine_i_mutualista": {
+    "ru_body_hash": "388df0b6",
+    "en": {
+      "title": "How to approach healthcare and the mutualista",
+      "short": "How to approach healthcare and the mutualista.",
+      "body": "How to approach healthcare and the mutualista\n\nThe mutualista is the main format of medical care for many residents: doctors, tests, hospitalization, bookings and co-payments depend on the specific network.\n\nWhen it matters: a long life in the country, family, chronic illnesses, work through Fonasa.\n\nWhat to check: the availability of doctors, clinics nearby, carencias, co-payments, emergency, the language and conditions for children."
+    },
+    "es": {
+      "title": "Cómo abordar la salud y la mutualista",
+      "short": "Cómo abordar la salud y la mutualista.",
+      "body": "Cómo abordar la salud y la mutualista\n\nLa mutualista es el formato principal de atención médica para muchos residentes: médicos, análisis, internación, turnos y copagos dependen de la red concreta.\n\nCuándo importa: una vida larga en el país, familia, enfermedades crónicas, trabajo por Fonasa.\n\nQué revisar: la disponibilidad de médicos, clínicas cerca, carencias, copagos, emergencia, el idioma y las condiciones para niños."
+    },
+    "de": {
+      "title": "Wie man Gesundheit und mutualista angeht",
+      "short": "Wie man Gesundheit und mutualista angeht.",
+      "body": "Wie man Gesundheit und mutualista angeht\n\nDie mutualista ist die Hauptform der medizinischen Versorgung für viele Einwohner: Ärzte, Untersuchungen, Krankenhausaufenthalt, Termine und Zuzahlungen hängen vom konkreten Netz ab.\n\nWann es wichtig ist: ein langes Leben im Land, Familie, chronische Krankheiten, Arbeit über Fonasa.\n\nWas zu prüfen ist: die Verfügbarkeit von Ärzten, Kliniken in der Nähe, carencias, Zuzahlungen, Notdienst, die Sprache und die Bedingungen für Kinder."
+    }
+  },
+  "card.health_insurance_medicine.advice.kak_vybirat_mutualista_ili_medicinskoe_pokrytie": {
+    "ru_body_hash": "f18374e5",
+    "en": {
+      "title": "How to choose a mutualista or medical coverage",
+      "short": "How to choose a mutualista or medical coverage.",
+      "body": "How to choose a mutualista or medical coverage\n\nThe mutualista is the main format of medical care for many residents: doctors, tests, hospitalization, bookings and co-payments depend on the specific network.\n\nWhen it matters: a long life in the country, family, chronic illnesses, work through Fonasa.\n\nWhat to check: the availability of doctors, clinics nearby, carencias, co-payments, emergency, the language and conditions for children."
+    },
+    "es": {
+      "title": "Cómo elegir una mutualista o cobertura médica",
+      "short": "Cómo elegir una mutualista o cobertura médica.",
+      "body": "Cómo elegir una mutualista o cobertura médica\n\nLa mutualista es el formato principal de atención médica para muchos residentes: médicos, análisis, internación, turnos y copagos dependen de la red concreta.\n\nCuándo importa: una vida larga en el país, familia, enfermedades crónicas, trabajo por Fonasa.\n\nQué revisar: la disponibilidad de médicos, clínicas cerca, carencias, copagos, emergencia, el idioma y las condiciones para niños."
+    },
+    "de": {
+      "title": "Wie man eine mutualista oder medizinische Deckung wählt",
+      "short": "Wie man eine mutualista oder medizinische Deckung wählt.",
+      "body": "Wie man eine mutualista oder medizinische Deckung wählt\n\nDie mutualista ist die Hauptform der medizinischen Versorgung für viele Einwohner: Ärzte, Untersuchungen, Krankenhausaufenthalt, Termine und Zuzahlungen hängen vom konkreten Netz ab.\n\nWann es wichtig ist: ein langes Leben im Land, Familie, chronische Krankheiten, Arbeit über Fonasa.\n\nWas zu prüfen ist: die Verfügbarkeit von Ärzten, Kliniken in der Nähe, carencias, Zuzahlungen, Notdienst, die Sprache und die Bedingungen für Kinder."
+    }
+  },
+  "card.health_insurance_medicine.checklist.checklist": {
+    "ru_body_hash": "4dff0e01",
+    "en": {
+      "title": "Medical checklist after moving",
+      "short": "Healthcare in Uruguay includes ASSE, mutualista, Fonasa, private insurance, emergency, booking specialists, medicines and choosing a system for the family.",
+      "body": "Do this:\n□ choose a mutualista/insurance or confirm access through Fonasa;\n□ note the emergency numbers and the nearest clinics;\n□ find the nearest pharmacy and one with on-duty hours;\n□ convert prescriptions and diagnoses into a Spanish format, if needed;\n□ check the availability of your regular medicines and equivalents;\n□ start a medical folder for each family member;\n□ clarify how to book specialists and take tests;\n□ check coverage of dentistry, pregnancy, children, chronic illnesses;\n□ keep payment/insurance documents.\n\nIf you have a serious diagnosis, don't wait for the first urgent situation: find a specialist doctor in advance."
+    },
+    "es": {
+      "title": "Lista médica tras la mudanza",
+      "short": "La salud en Uruguay incluye ASSE, mutualista, Fonasa, seguros privados, emergencia, turnos con especialistas, medicamentos y la elección de un sistema para la familia.",
+      "body": "Haz lo siguiente:\n□ elige una mutualista/seguro o confirma el acceso por Fonasa;\n□ anota los teléfonos de emergencia y las clínicas más cercanas;\n□ encuentra la farmacia más cercana y una con horario de guardia;\n□ pasa las recetas y los diagnósticos a un formato en español, si hace falta;\n□ comprueba la disponibilidad de tus medicamentos habituales y de equivalentes;\n□ arma una carpeta médica para cada miembro de la familia;\n□ aclara cómo pedir turno con especialistas y hacerte análisis;\n□ comprueba la cobertura de odontología, embarazo, niños, enfermedades crónicas;\n□ guarda los documentos de pago/seguro.\n\nSi tienes un diagnóstico serio, no esperes la primera situación urgente: encuentra un médico especialista con antelación."
+    },
+    "de": {
+      "title": "Medizinische Checkliste nach dem Umzug",
+      "short": "Das Gesundheitswesen in Uruguay umfasst ASSE, mutualista, Fonasa, Privatversicherungen, Notdienst, Facharzttermine, Medikamente und die Wahl eines Systems für die Familie.",
+      "body": "Mach Folgendes:\n□ wähle eine mutualista/Versicherung oder bestätige den Zugang über Fonasa;\n□ notiere die Notrufnummern und die nächsten Kliniken;\n□ finde die nächste Apotheke und eine mit Notdienstzeiten;\n□ überführe Rezepte und Diagnosen bei Bedarf in ein spanisches Format;\n□ prüfe die Verfügbarkeit deiner regelmäßigen Medikamente und von Äquivalenten;\n□ lege für jedes Familienmitglied eine medizinische Mappe an;\n□ kläre, wie man Spezialisten bucht und Untersuchungen macht;\n□ prüfe die Deckung von Zahnmedizin, Schwangerschaft, Kindern, chronischen Krankheiten;\n□ bewahre Zahlungs-/Versicherungsdokumente auf.\n\nHast du eine ernste Diagnose, warte nicht auf die erste dringende Situation: finde im Voraus einen Facharzt."
+    }
+  },
+  "card.health_insurance_medicine.checklist.chto_utochnit_pri_vybore_medicinskogo_pokrytiya": {
+    "ru_body_hash": "3cf136d0",
+    "en": {
+      "title": "What to clarify when choosing medical coverage",
+      "short": "What to clarify when choosing medical coverage.",
+      "body": "What to clarify when choosing medical coverage\n\n☐ mutualista, ASSE, private insurance or emergency — what exactly you're buying;\n☐ the nearest clinic and where to go at night;\n☐ booking times for a GP, pediatrician and specialists;\n☐ carencias, exclusions and restrictions for new members;\n☐ the monthly cost and co-payments for visits, tests, hospitalization;\n☐ medicine coverage and the availability of the needed drugs;\n☐ conditions for children, pregnancy, chronic illnesses;\n☐ the link to Fonasa, work or an empresa;\n☐ the language of communication with doctors and support;\n☐ what to do in an urgent case and which number to call.\n\nEveryday experience isn't enough for medical decisions: the final choice is best checked with a doctor and the terms of the specific coverage."
+    },
+    "es": {
+      "title": "Qué aclarar al elegir cobertura médica",
+      "short": "Qué aclarar al elegir cobertura médica.",
+      "body": "Qué aclarar al elegir cobertura médica\n\n☐ mutualista, ASSE, seguro privado o emergencia — qué compras exactamente;\n☐ la clínica más cercana y adónde ir de noche;\n☐ los plazos de turno con un médico de cabecera, pediatra y especialistas;\n☐ carencias, exclusiones y restricciones para nuevos socios;\n☐ el coste mensual y los copagos por consultas, análisis, internación;\n☐ la cobertura de medicamentos y la disponibilidad de los fármacos necesarios;\n☐ las condiciones para niños, embarazo, enfermedades crónicas;\n☐ el vínculo con Fonasa, el trabajo o una empresa;\n☐ el idioma de comunicación con los médicos y el soporte;\n☐ qué hacer en un caso urgente y a qué número llamar.\n\nLa experiencia cotidiana no basta para las decisiones médicas: la elección final conviene verificarla con un médico y los términos de la cobertura concreta."
+    },
+    "de": {
+      "title": "Was man bei der Wahl der medizinischen Deckung klären sollte",
+      "short": "Was man bei der Wahl der medizinischen Deckung klären sollte.",
+      "body": "Was man bei der Wahl der medizinischen Deckung klären sollte\n\n☐ mutualista, ASSE, Privatversicherung oder Notdienst — was du genau kaufst;\n☐ die nächste Klinik und wohin man nachts geht;\n☐ Terminzeiten bei einem Hausarzt, Kinderarzt und Spezialisten;\n☐ carencias, Ausschlüsse und Beschränkungen für neue Mitglieder;\n☐ die monatlichen Kosten und Zuzahlungen für Besuche, Untersuchungen, Krankenhausaufenthalt;\n☐ die Medikamentendeckung und die Verfügbarkeit der nötigen Arzneimittel;\n☐ die Bedingungen für Kinder, Schwangerschaft, chronische Krankheiten;\n☐ die Verbindung zu Fonasa, der Arbeit oder einer empresa;\n☐ die Sprache der Kommunikation mit Ärzten und Support;\n☐ was bei einem dringenden Fall zu tun ist und welche Nummer man anruft.\n\nAlltagserfahrung reicht für medizinische Entscheidungen nicht aus: die endgültige Wahl prüft man am besten mit einem Arzt und den Bedingungen der konkreten Deckung."
+    }
+  },
+  "card.health_insurance_medicine.community_experience.community_experience": {
+    "ru_body_hash": "8c4df0cc",
+    "en": {
+      "title": "Practical experience of healthcare",
+      "short": "Healthcare in Uruguay includes ASSE, mutualista, Fonasa, private insurance, emergency, booking specialists, medicines and choosing a system for the family.",
+      "body": "Experience is mixed: some are happy with a mutualista and calmly resolve most matters, some run into long waits for specialists, some keep private insurance or emergency as a reserve. The system is chosen especially carefully by families with children, pregnant women, people with chronic conditions and those who need a doctor in English/Russian.\n\nMany everyday matters are resolved through the pharmacy and a GP, but complex diagnoses require finding a specialist in advance. Don't wait for a flare-up: it's better in the first months to understand where to turn, how to book and which documents are needed.\n\nThe general conclusion: healthcare works better when you have a network in place in advance — a mutualista/insurance, the nearest emergency, pharmacies, doctors and a document archive."
+    },
+    "es": {
+      "title": "Experiencia práctica de la salud",
+      "short": "La salud en Uruguay incluye ASSE, mutualista, Fonasa, seguros privados, emergencia, turnos con especialistas, medicamentos y la elección de un sistema para la familia.",
+      "body": "La experiencia es dispar: a algunos les va bien con una mutualista y resuelven con calma la mayoría de los asuntos, otros se topan con largas esperas de especialistas, otros mantienen un seguro privado o una emergencia como reserva. El sistema lo eligen con especial cuidado las familias con hijos, las embarazadas, las personas con condiciones crónicas y quienes necesitan un médico en inglés/ruso.\n\nMuchos asuntos cotidianos se resuelven por la farmacia y un médico de cabecera, pero los diagnósticos complejos requieren encontrar un especialista con antelación. No esperes una crisis: conviene en los primeros meses entender adónde acudir, cómo pedir turno y qué documentos hacen falta.\n\nLa conclusión general: la salud funciona mejor cuando tienes una red lista de antemano — mutualista/seguro, la emergencia más cercana, farmacias, médicos y un archivo de documentos."
+    },
+    "de": {
+      "title": "Praktische Erfahrung des Gesundheitswesens",
+      "short": "Das Gesundheitswesen in Uruguay umfasst ASSE, mutualista, Fonasa, Privatversicherungen, Notdienst, Facharzttermine, Medikamente und die Wahl eines Systems für die Familie.",
+      "body": "Die Erfahrung ist uneinheitlich: manche sind mit einer mutualista zufrieden und lösen die meisten Fragen in Ruhe, manche stoßen auf lange Wartezeiten bei Spezialisten, manche halten eine Privatversicherung oder einen Notdienst als Reserve. Das System wählen besonders sorgfältig Familien mit Kindern, Schwangere, Menschen mit chronischen Zuständen und jene, die einen Arzt auf Englisch/Russisch brauchen.\n\nViele Alltagsfragen werden über die Apotheke und einen Hausarzt gelöst, aber komplexe Diagnosen erfordern, im Voraus einen Spezialisten zu finden. Warte nicht auf einen Schub: besser, in den ersten Monaten zu verstehen, wohin man sich wendet, wie man Termine bucht und welche Dokumente nötig sind.\n\nDie allgemeine Schlussfolgerung: Das Gesundheitswesen funktioniert besser, wenn du im Voraus ein Netz hast — eine mutualista/Versicherung, den nächsten Notdienst, Apotheken, Ärzte und ein Dokumentenarchiv."
+    }
+  },
+  "card.health_insurance_medicine.overview.overview": {
+    "ru_body_hash": "e04e9bc3",
+    "en": {
+      "title": "Healthcare, mutualista and insurance: how to choose a system",
+      "short": "Healthcare in Uruguay includes ASSE, mutualista, Fonasa, private insurance, emergency, booking specialists, medicines and choosing a system for the family.",
+      "body": "The healthcare topic in Uruguay is built around a choice: ASSE, mutualista, private insurance, an emergency service, Fonasa through work/empresa and individual specialists. There's no universal option: a family with children, chronic illnesses, pregnancy, remote work, the budget and the neighborhood all change the decision.\n\nA mutualista usually gives access to a network of doctors, tests and specialists, but booking can take time. Private insurance can be more convenient and more expensive. ASSE matters as the state layer. Emergency services are seen as additional protection for urgent situations.\n\nBefore choosing, it's worth building the family's medical profile: chronic conditions, medicines, the specialists needed, the doctor's language, the neighborhood, the frequency of visits, dentistry, a psychologist, labs and the availability of urgent care."
+    },
+    "es": {
+      "title": "Salud, mutualista y seguros: cómo elegir un sistema",
+      "short": "La salud en Uruguay incluye ASSE, mutualista, Fonasa, seguros privados, emergencia, turnos con especialistas, medicamentos y la elección de un sistema para la familia.",
+      "body": "El tema de la salud en Uruguay se construye en torno a una elección: ASSE, mutualista, seguro privado, un servicio de emergencia, Fonasa a través del trabajo/empresa y especialistas individuales. No hay una opción universal: una familia con hijos, enfermedades crónicas, el embarazo, el trabajo remoto, el presupuesto y el barrio cambian la decisión.\n\nUna mutualista suele dar acceso a una red de médicos, análisis y especialistas, pero el turno puede llevar tiempo. Un seguro privado puede ser más cómodo y más caro. ASSE importa como la capa estatal. Los servicios de emergencia se ven como una protección adicional para situaciones urgentes.\n\nAntes de elegir, conviene armar el perfil médico de la familia: condiciones crónicas, medicamentos, los especialistas necesarios, el idioma del médico, el barrio, la frecuencia de visitas, la odontología, un psicólogo, los laboratorios y la disponibilidad de atención urgente."
+    },
+    "de": {
+      "title": "Gesundheit, mutualista und Versicherungen: wie man ein System wählt",
+      "short": "Das Gesundheitswesen in Uruguay umfasst ASSE, mutualista, Fonasa, Privatversicherungen, Notdienst, Facharzttermine, Medikamente und die Wahl eines Systems für die Familie.",
+      "body": "Das Gesundheitsthema in Uruguay dreht sich um eine Wahl: ASSE, mutualista, Privatversicherung, einen Notdienst, Fonasa über Arbeit/empresa und einzelne Spezialisten. Es gibt keine universelle Option: eine Familie mit Kindern, chronische Krankheiten, eine Schwangerschaft, Remote-Arbeit, das Budget und das Viertel verändern die Entscheidung.\n\nEine mutualista gibt meist Zugang zu einem Netz von Ärzten, Untersuchungen und Spezialisten, aber die Terminvergabe kann dauern. Eine Privatversicherung kann bequemer und teurer sein. ASSE ist als staatliche Ebene wichtig. Notdienste werden als zusätzlicher Schutz für dringende Situationen gesehen.\n\nVor der Wahl lohnt es sich, das medizinische Profil der Familie zu erstellen: chronische Zustände, Medikamente, die nötigen Spezialisten, die Sprache des Arztes, das Viertel, die Häufigkeit der Besuche, Zahnmedizin, einen Psychologen, Labore und die Verfügbarkeit dringender Hilfe."
+    }
+  },
+  "card.health_insurance_medicine.reference.ref_ekstrennaya_pomosch": {
+    "ru_body_hash": "affc0d75",
+    "en": {
+      "title": "Emergency care: what to know",
+      "short": "Emergency care: what to know.",
+      "body": "Emergency care: what to know\n\nEmergency care depends on the coverage and the location. The numbers, the nearest clinic and the call conditions should be clear in advance.\n\nWhen it matters: families with children, chronic risks, life out of town or frequent trips.\n\nWhat to check: who to call, which service covers the address, what's included in emergency and where to go at night."
+    },
+    "es": {
+      "title": "Atención de emergencia: lo que importa saber",
+      "short": "Atención de emergencia: lo que importa saber.",
+      "body": "Atención de emergencia: lo que importa saber\n\nLa atención de emergencia depende de la cobertura y la ubicación. Los números, la clínica más cercana y las condiciones de llamada deben estar claros de antemano.\n\nCuándo importa: familias con niños, riesgos crónicos, vida fuera de la ciudad o viajes frecuentes.\n\nQué revisar: a quién llamar, qué servicio cubre el domicilio, qué incluye la emergencia y adónde ir de noche."
+    },
+    "de": {
+      "title": "Notfallversorgung: was man wissen muss",
+      "short": "Notfallversorgung: was man wissen muss.",
+      "body": "Notfallversorgung: was man wissen muss\n\nDie Notfallversorgung hängt von der Deckung und dem Standort ab. Die Nummern, die nächste Klinik und die Anrufbedingungen sollten im Voraus klar sein.\n\nWann es wichtig ist: Familien mit Kindern, chronische Risiken, Leben außerhalb der Stadt oder häufige Reisen.\n\nWas zu prüfen ist: wen man anruft, welcher Dienst die Adresse abdeckt, was im Notdienst enthalten ist und wohin man nachts geht."
+    }
+  },
+  "card.health_insurance_medicine.reference.ref_lekarstva_i_apteki": {
+    "ru_body_hash": "6cd4969b",
+    "en": {
+      "title": "Medicines and pharmacies: what to know",
+      "short": "Medicines and pharmacies: what to know.",
+      "body": "Medicines and pharmacies: what to know\n\nMedicines are best checked in advance: names, equivalents, prescriptions, availability and price can differ from what you're used to. For regular therapy you need a stock and a plan.\n\nWhen it matters: chronic illnesses, moving, children, rare drugs.\n\nWhat to check: the active ingredient, the prescription, equivalents, the pharmacy, insurance coverage and import rules."
+    },
+    "es": {
+      "title": "Medicamentos y farmacias: lo que importa saber",
+      "short": "Medicamentos y farmacias: lo que importa saber.",
+      "body": "Medicamentos y farmacias: lo que importa saber\n\nLos medicamentos conviene comprobarlos con antelación: los nombres, equivalentes, recetas, disponibilidad y precio pueden diferir de lo habitual. Para una terapia regular hace falta un stock y un plan.\n\nCuándo importa: enfermedades crónicas, mudanza, niños, fármacos raros.\n\nQué revisar: el principio activo, la receta, los equivalentes, la farmacia, la cobertura del seguro y las reglas de ingreso."
+    },
+    "de": {
+      "title": "Medikamente und Apotheken: was man wissen muss",
+      "short": "Medikamente und Apotheken: was man wissen muss.",
+      "body": "Medikamente und Apotheken: was man wissen muss\n\nMedikamente prüft man am besten im Voraus: Namen, Äquivalente, Rezepte, Verfügbarkeit und Preis können von Gewohntem abweichen. Für eine regelmäßige Therapie braucht man einen Vorrat und einen Plan.\n\nWann es wichtig ist: chronische Krankheiten, Umzug, Kinder, seltene Arzneimittel.\n\nWas zu prüfen ist: den Wirkstoff, das Rezept, Äquivalente, die Apotheke, die Versicherungsdeckung und die Einfuhrregeln."
+    }
+  },
+  "card.health_insurance_medicine.reference.ref_mutualista": {
+    "ru_body_hash": "e4c66e1a",
+    "en": {
+      "title": "Mutualista: what to know",
+      "short": "Mutualista: what to know.",
+      "body": "Mutualista: what to know\n\nThe mutualista is the main format of medical care for many residents: doctors, tests, hospitalization, bookings and co-payments depend on the specific network.\n\nWhen it matters: a long life in the country, family, chronic illnesses, work through Fonasa.\n\nWhat to check: the availability of doctors, clinics nearby, carencias, co-payments, emergency, the language and conditions for children."
+    },
+    "es": {
+      "title": "Mutualista: lo que importa saber",
+      "short": "Mutualista: lo que importa saber.",
+      "body": "Mutualista: lo que importa saber\n\nLa mutualista es el formato principal de atención médica para muchos residentes: médicos, análisis, internación, turnos y copagos dependen de la red concreta.\n\nCuándo importa: una vida larga en el país, familia, enfermedades crónicas, trabajo por Fonasa.\n\nQué revisar: la disponibilidad de médicos, clínicas cerca, carencias, copagos, emergencia, el idioma y las condiciones para niños."
+    },
+    "de": {
+      "title": "Mutualista: was man wissen muss",
+      "short": "Mutualista: was man wissen muss.",
+      "body": "Mutualista: was man wissen muss\n\nDie mutualista ist die Hauptform der medizinischen Versorgung für viele Einwohner: Ärzte, Untersuchungen, Krankenhausaufenthalt, Termine und Zuzahlungen hängen vom konkreten Netz ab.\n\nWann es wichtig ist: ein langes Leben im Land, Familie, chronische Krankheiten, Arbeit über Fonasa.\n\nWas zu prüfen ist: die Verfügbarkeit von Ärzten, Kliniken in der Nähe, carencias, Zuzahlungen, Notdienst, die Sprache und die Bedingungen für Kinder."
+    }
+  },
+  "card.health_insurance_medicine.reference.ref_strahovki": {
+    "ru_body_hash": "4e8b798e",
+    "en": {
+      "title": "Insurance: what to know",
+      "short": "Insurance: what to know.",
+      "body": "Insurance: what to know\n\nPrivate insurance, a mutualista and emergency are different products. Insurance may cover one thing but not replace a regular clinic or an emergency service.\n\nWhen it matters: family, travel, chronic risks, wanting faster access to specialists.\n\nWhat to check: exclusions, limits, hospitalization, medicines, co-payments and the waiting period."
+    },
+    "es": {
+      "title": "Seguros: lo que importa saber",
+      "short": "Seguros: lo que importa saber.",
+      "body": "Seguros: lo que importa saber\n\nEl seguro privado, la mutualista y la emergencia son productos distintos. Un seguro puede cubrir una cosa, pero no reemplazar una policlínica regular o un servicio de emergencia.\n\nCuándo importa: familia, viajes, riesgos crónicos, querer acceder más rápido a especialistas.\n\nQué revisar: exclusiones, límites, internación, medicamentos, copagos y el período de espera."
+    },
+    "de": {
+      "title": "Versicherungen: was man wissen muss",
+      "short": "Versicherungen: was man wissen muss.",
+      "body": "Versicherungen: was man wissen muss\n\nPrivatversicherung, eine mutualista und Notdienst sind verschiedene Produkte. Eine Versicherung kann eines abdecken, aber keine reguläre Poliklinik oder einen Notdienst ersetzen.\n\nWann es wichtig ist: Familie, Reisen, chronische Risiken, der Wunsch nach schnellerem Zugang zu Spezialisten.\n\nWas zu prüfen ist: Ausschlüsse, Limits, Krankenhausaufenthalt, Medikamente, Zuzahlungen und die Wartezeit."
+    }
+  },
+  "card.health_insurance_medicine.reference.ref_vrachi_i_zapisi": {
+    "ru_body_hash": "9d374b9d",
+    "en": {
+      "title": "Doctors and bookings: what to know",
+      "short": "Doctors and bookings: what to know.",
+      "body": "Doctors and bookings: what to know\n\nBooking doctors can differ in speed and convenience. What matters is not only reviews but the availability of the specific specialist in your mutualista/insurance.\n\nWhen it matters: planned visits, children, chronic matters, tests.\n\nWhat to check: the booking time, the referral, the co-payment, the language, the branch and the possibility of an urgent appointment."
+    },
+    "es": {
+      "title": "Médicos y turnos: lo que importa saber",
+      "short": "Médicos y turnos: lo que importa saber.",
+      "body": "Médicos y turnos: lo que importa saber\n\nPedir turno con médicos puede diferir en rapidez y comodidad. Importan no solo las reseñas, sino la disponibilidad del especialista concreto en tu mutualista/seguro.\n\nCuándo importa: visitas planificadas, niños, asuntos crónicos, análisis.\n\nQué revisar: el plazo de turno, la derivación, el copago, el idioma, la sede y la posibilidad de una consulta urgente."
+    },
+    "de": {
+      "title": "Ärzte und Termine: was man wissen muss",
+      "short": "Ärzte und Termine: was man wissen muss.",
+      "body": "Ärzte und Termine: was man wissen muss\n\nDie Terminbuchung bei Ärzten kann sich in Geschwindigkeit und Bequemlichkeit unterscheiden. Wichtig sind nicht nur Bewertungen, sondern die Verfügbarkeit des konkreten Spezialisten in deiner mutualista/Versicherung.\n\nWann es wichtig ist: geplante Besuche, Kinder, chronische Fragen, Untersuchungen.\n\nWas zu prüfen ist: die Terminzeit, die Überweisung, die Zuzahlung, die Sprache, die Filiale und die Möglichkeit eines dringenden Termins."
+    }
+  },
+  "card.health_insurance_medicine.warning.warning": {
+    "ru_body_hash": "43f8f170",
+    "en": {
+      "title": "Mistakes in healthcare matters",
+      "short": "Healthcare in Uruguay includes ASSE, mutualista, Fonasa, private insurance, emergency, booking specialists, medicines and choosing a system for the family.",
+      "body": "Mistakes: choosing a system by reviews alone, not checking the nearest clinics, not having a stock of medicines, not translating important diagnoses, not understanding what exactly the insurance covers.\n\nDon't treat emergency as a full replacement for a long-term medical system. Don't transfer treatment regimens without consulting a doctor: drug names, dosages and availability can differ.\n\nIf there are children, pregnancy, psychiatry, oncology, autoimmune, cardiac or other complex conditions, it's better to decide after an individual consultation and checking the coverage."
+    },
+    "es": {
+      "title": "Errores en el tema médico",
+      "short": "La salud en Uruguay incluye ASSE, mutualista, Fonasa, seguros privados, emergencia, turnos con especialistas, medicamentos y la elección de un sistema para la familia.",
+      "body": "Errores: elegir un sistema solo por las reseñas, no revisar las clínicas más cercanas, no tener un stock de medicamentos, no traducir diagnósticos importantes, no entender qué cubre exactamente el seguro.\n\nNo consideres la emergencia un reemplazo completo de un sistema médico a largo plazo. No traslades esquemas de tratamiento sin consultar a un médico: los nombres de los fármacos, las dosis y la disponibilidad pueden diferir.\n\nSi hay niños, embarazo, psiquiatría, oncología, condiciones autoinmunes, cardíacas u otras complejas, conviene decidir tras una consulta individual y revisar la cobertura."
+    },
+    "de": {
+      "title": "Fehler beim Gesundheitsthema",
+      "short": "Das Gesundheitswesen in Uruguay umfasst ASSE, mutualista, Fonasa, Privatversicherungen, Notdienst, Facharzttermine, Medikamente und die Wahl eines Systems für die Familie.",
+      "body": "Fehler: ein System allein nach Bewertungen wählen, die nächsten Kliniken nicht prüfen, keinen Vorrat an Medikamenten haben, wichtige Diagnosen nicht übersetzen, nicht verstehen, was die Versicherung genau abdeckt.\n\nBetrachte den Notdienst nicht als vollständigen Ersatz für ein langfristiges medizinisches System. Übertrage Behandlungsschemata nicht ohne ärztliche Beratung: Medikamentennamen, Dosierungen und Verfügbarkeit können sich unterscheiden.\n\nGibt es Kinder, eine Schwangerschaft, Psychiatrie, Onkologie, autoimmune, kardiale oder andere komplexe Zustände, entscheidet man besser nach einer individuellen Beratung und der Prüfung der Deckung."
+    }
+  },
   "card.law_security_public_services.advice.advice": {
     "ru_body_hash": "078c20a2",
     "en": {
@@ -1113,6 +1779,222 @@
       "title": "Risiken von Überweisungen, Bargeld und Krypto",
       "short": "Geld nach Uruguay zu überweisen erfordert eine klare Herkunft der Mittel, die Wahl eines Kanals und die Vorbereitung der Dokumente vor dem Versand der Zahlung.",
       "body": "Ein nicht offensichtliches Risiko: Das Geld kann inhaltlich \"sauber\", aber schlecht dokumentiert sein. Die Bank sieht nicht deine Biografie, sondern die Kontoauszüge, Verträge, Absender, Verwendungszwecke und die Kette der Operationen.\n\nGefährliche Szenarien: Geld von Dritten ohne Vertrag, p2p als Hauptquelle, Krypto ohne Historie von Börsen und Steuern, viele kleine Überweisungen statt einer klaren großen, eine Diskrepanz zwischen Vertrag und Verwendungszweck, der Versuch, einen Immobilienkauf über ein nicht standardmäßiges Schema ohne escribano abzuwickeln.\n\nSind die Informationen widersprüchlich, wähle eine Option nicht nur, weil sie bei jemand anderem funktioniert hat. Die Anforderungen hängen von der Bank, dem Betrag, dem Datum, der Herkunft des Geldes und der künftigen Operation ab."
+    }
+  },
+  "card.pets_veterinary.advice.advice": {
+    "ru_body_hash": "5c77d234",
+    "en": {
+      "title": "Tips for pet owners",
+      "short": "Pets require a separate plan: import, veterinary documents, vaccines, the chip, air transport, renting with pets, food and a local vet.",
+      "body": "• Start preparing for the animal earlier than you buy the ticket.\n• Check the airline's requirements: weight, the carrier, cabin/hold, transit, temperature, breed.\n• Clarify the veterinary documents for the departure date, not by old experience.\n• Take a stock of the usual food and medicines for the first weeks.\n• When searching for a rental, mention the animal immediately and get the permission in writing.\n• Find the nearest veterinary clinic and emergency before the first problem.\n• For dogs, check the walking areas, building rules and street safety."
+    },
+    "es": {
+      "title": "Consejos para dueños de animales",
+      "short": "Los animales requieren un plan aparte: ingreso, documentos veterinarios, vacunas, el chip, el transporte aéreo, alquilar con mascotas, la comida y un veterinario local.",
+      "body": "• Empieza la preparación del animal antes de comprar el pasaje.\n• Comprueba los requisitos de la aerolínea: peso, el transportín, cabina/bodega, tránsito, temperatura, raza.\n• Aclara los documentos veterinarios para la fecha del vuelo, no por experiencia antigua.\n• Lleva un stock de la comida habitual y los medicamentos para las primeras semanas.\n• Al buscar un alquiler, menciona el animal de inmediato y deja el permiso por escrito.\n• Encuentra la clínica veterinaria más cercana y la emergencia antes del primer problema.\n• Para perros, comprueba las zonas de paseo, las reglas del edificio y la seguridad de las calles."
+    },
+    "de": {
+      "title": "Tipps für Tierhalter",
+      "short": "Tiere erfordern einen eigenen Plan: Einfuhr, Veterinärdokumente, Impfungen, den Chip, Lufttransport, Mieten mit Haustieren, Futter und einen lokalen Tierarzt.",
+      "body": "• Beginne die Vorbereitung für das Tier früher, als du das Ticket kaufst.\n• Prüfe die Anforderungen der Fluggesellschaft: Gewicht, die Transportbox, Kabine/Frachtraum, Transit, Temperatur, Rasse.\n• Kläre die Veterinärdokumente für das Flugdatum, nicht nach alter Erfahrung.\n• Nimm einen Vorrat des gewohnten Futters und der Medikamente für die ersten Wochen mit.\n• Erwähne bei der Wohnungssuche das Tier sofort und halte die Erlaubnis schriftlich fest.\n• Finde die nächste Tierklinik und den Notdienst vor dem ersten Problem.\n• Prüfe bei Hunden die Auslaufgebiete, die Hausregeln und die Sicherheit der Straßen."
+    }
+  },
+  "card.pets_veterinary.checklist.checklist": {
+    "ru_body_hash": "e00b5cd5",
+    "en": {
+      "title": "Checklist for moving with an animal",
+      "short": "Pets require a separate plan: import, veterinary documents, vaccines, the chip, air transport, renting with pets, food and a local vet.",
+      "body": "Check:\n□ the chip and its readability;\n□ up-to-date vaccinations;\n□ the veterinary passport and certificates;\n□ the requirements of the country of departure, transit and Uruguay;\n□ the airline's rules and carrier dimensions;\n□ booking a place for the animal;\n□ a stock of food, medicines and pads/litter;\n□ the address of temporary housing where animals are allowed;\n□ the nearest vet clinic;\n□ the pet's permission in the long-term rental.\n\nCheck all certificate and vaccination dates in advance: an error of one day can become a problem at the border or registration."
+    },
+    "es": {
+      "title": "Lista para mudarse con un animal",
+      "short": "Los animales requieren un plan aparte: ingreso, documentos veterinarios, vacunas, el chip, el transporte aéreo, alquilar con mascotas, la comida y un veterinario local.",
+      "body": "Revisa:\n□ el chip y su legibilidad;\n□ las vacunas al día;\n□ el pasaporte veterinario y los certificados;\n□ los requisitos del país de salida, tránsito y Uruguay;\n□ las reglas de la aerolínea y las dimensiones del transportín;\n□ la reserva de un lugar para el animal;\n□ un stock de comida, medicamentos y empapadores/arena;\n□ la dirección de la vivienda temporal donde se permiten animales;\n□ la clínica veterinaria más cercana;\n□ el permiso de la mascota en el alquiler a largo plazo.\n\nComprueba todas las fechas de certificados y vacunas con antelación: un error de un día puede convertirse en un problema en la frontera o el registro."
+    },
+    "de": {
+      "title": "Checkliste für den Umzug mit einem Tier",
+      "short": "Tiere erfordern einen eigenen Plan: Einfuhr, Veterinärdokumente, Impfungen, den Chip, Lufttransport, Mieten mit Haustieren, Futter und einen lokalen Tierarzt.",
+      "body": "Prüfe:\n□ den Chip und seine Lesbarkeit;\n□ aktuelle Impfungen;\n□ den Heimtierausweis und die Bescheinigungen;\n□ die Anforderungen des Ausreiselandes, des Transits und Uruguays;\n□ die Regeln der Fluggesellschaft und die Maße der Transportbox;\n□ die Buchung eines Platzes für das Tier;\n□ einen Vorrat an Futter, Medikamenten und Unterlagen/Streu;\n□ die Adresse der vorübergehenden Unterkunft, in der Tiere erlaubt sind;\n□ die nächste Tierklinik;\n□ die Erlaubnis des Haustiers in der Langzeitmiete.\n\nPrüfe alle Bescheinigungs- und Impfdaten im Voraus: ein Fehler von einem Tag kann an der Grenze oder bei der Registrierung zum Problem werden."
+    }
+  },
+  "card.pets_veterinary.checklist.pereezd_i_arenda_s_zhivotnymi": {
+    "ru_body_hash": "5f536ef2",
+    "en": {
+      "title": "Moving and renting with animals",
+      "short": "Moving and renting with animals.",
+      "body": "Moving and renting with animals\n\nRenting with a pet narrows the choice. You need to discuss the animal before reserving and look at the building rules, not just the owner's consent.\n\nWhen it matters: cats, dogs, several animals, large breeds.\n\nWhat to check: a pet-friendly contract, the deposit, elevator/common-area rules, noise and liability for damage."
+    },
+    "es": {
+      "title": "Mudanza y alquiler con animales",
+      "short": "Mudanza y alquiler con animales.",
+      "body": "Mudanza y alquiler con animales\n\nAlquilar con una mascota estrecha la elección. Hay que conversar sobre el animal antes de reservar y mirar las reglas del edificio, no solo el consentimiento del propietario.\n\nCuándo importa: gatos, perros, varios animales, razas grandes.\n\nQué revisar: un contrato pet-friendly, el depósito, las reglas del ascensor/zonas comunes, el ruido y la responsabilidad por daños."
+    },
+    "de": {
+      "title": "Umzug und Miete mit Tieren",
+      "short": "Umzug und Miete mit Tieren.",
+      "body": "Umzug und Miete mit Tieren\n\nMieten mit einem Haustier schränkt die Auswahl ein. Man muss das Tier vor der Reservierung besprechen und auf die Hausregeln schauen, nicht nur auf die Zustimmung des Eigentümers.\n\nWann es wichtig ist: Katzen, Hunde, mehrere Tiere, große Rassen.\n\nWas zu prüfen ist: einen pet-friendly Vertrag, die Kaution, Aufzug-/Gemeinschaftsbereichsregeln, Lärm und die Haftung für Schäden."
+    }
+  },
+  "card.pets_veterinary.checklist.pereezd_i_zhizn_s_pitomcem": {
+    "ru_body_hash": "259293fe",
+    "en": {
+      "title": "Moving and living with a pet",
+      "short": "Moving and living with a pet.",
+      "body": "Moving and living with a pet\n\n☐ the chip and matching owner data;\n☐ up-to-date vaccines and the vet passport;\n☐ a certificate/attestation for the flight and import;\n☐ the airline's rules: cabin/hold, carrier, weight, animal booking;\n☐ a stock of food, medicines and prescriptions for the first weeks;\n☐ a pet-friendly rental and building rules;\n☐ the nearest vet and emergency clinic;\n☐ food stores and equivalents of the usual brands;\n☐ a plan for stress, transfers and the first days after arrival.\n\nWith a pet it's important to check two processes in parallel: the official import and everyday life after arrival."
+    },
+    "es": {
+      "title": "Mudanza y vida con una mascota",
+      "short": "Mudanza y vida con una mascota.",
+      "body": "Mudanza y vida con una mascota\n\n☐ el chip y la coincidencia de los datos del dueño;\n☐ vacunas al día y el pasaporte veterinario;\n☐ un certificado/constancia para el vuelo y el ingreso;\n☐ las reglas de la aerolínea: cabina/bodega, transportín, peso, reserva del animal;\n☐ un stock de comida, medicamentos y recetas para las primeras semanas;\n☐ un alquiler pet-friendly y las reglas del edificio;\n☐ el veterinario y la clínica de emergencia más cercanos;\n☐ tiendas de comida y equivalentes de las marcas habituales;\n☐ un plan para el estrés, las escalas y los primeros días tras la llegada.\n\nCon una mascota es importante revisar dos procesos en paralelo: el ingreso oficial y la vida cotidiana tras la llegada."
+    },
+    "de": {
+      "title": "Umzug und Leben mit einem Haustier",
+      "short": "Umzug und Leben mit einem Haustier.",
+      "body": "Umzug und Leben mit einem Haustier\n\n☐ der Chip und übereinstimmende Halterdaten;\n☐ aktuelle Impfungen und der Heimtierausweis;\n☐ eine Bescheinigung/ein Zertifikat für den Flug und die Einfuhr;\n☐ die Regeln der Fluggesellschaft: Kabine/Frachtraum, Transportbox, Gewicht, Tierbuchung;\n☐ ein Vorrat an Futter, Medikamenten und Rezepten für die ersten Wochen;\n☐ eine pet-friendly Miete und Hausregeln;\n☐ der nächste Tierarzt und die nächste Notfallklinik;\n☐ Futtergeschäfte und Äquivalente der gewohnten Marken;\n☐ ein Plan für Stress, Umstiege und die ersten Tage nach der Ankunft.\n\nMit einem Haustier ist es wichtig, zwei Prozesse parallel zu prüfen: die offizielle Einfuhr und den Alltag nach der Ankunft."
+    }
+  },
+  "card.pets_veterinary.community_experience.community_experience": {
+    "ru_body_hash": "d5070acb",
+    "en": {
+      "title": "Practical experience with pets",
+      "short": "Pets require a separate plan: import, veterinary documents, vaccines, the chip, air transport, renting with pets, food and a local vet.",
+      "body": "The main difficulties arise in two places: the flight and the rental. Documents can be prepared if you start in advance, but the animal's stress, the carrier, transfers and the airline's rules require a separate plan. With housing it's harder: some owners refuse, some ask for extra conditions, and some buildings restrict animals.\n\nOn arrival, owners quickly look for a vet, food and the usual medicines. Not all brands are available, so it's better to know the food's composition and possible equivalents.\n\nConclusion: a pet should be included in the budget and the moving route as seriously as a person's documents."
+    },
+    "es": {
+      "title": "Experiencia práctica con mascotas",
+      "short": "Los animales requieren un plan aparte: ingreso, documentos veterinarios, vacunas, el chip, el transporte aéreo, alquilar con mascotas, la comida y un veterinario local.",
+      "body": "Las principales dificultades surgen en dos lugares: el vuelo y el alquiler. Los documentos se pueden preparar si empiezas con antelación, pero el estrés del animal, el transportín, las escalas y las reglas de la aerolínea requieren un plan aparte. Con la vivienda es más difícil: algunos propietarios rechazan, otros piden condiciones adicionales y algunos edificios restringen los animales.\n\nAl llegar, los dueños buscan rápido un veterinario, comida y los medicamentos habituales. No todas las marcas están disponibles, por eso conviene conocer la composición de la comida y los posibles equivalentes.\n\nConclusión: una mascota debe incluirse en el presupuesto y la ruta de la mudanza con la misma seriedad que los documentos de una persona."
+    },
+    "de": {
+      "title": "Praktische Erfahrung mit Haustieren",
+      "short": "Tiere erfordern einen eigenen Plan: Einfuhr, Veterinärdokumente, Impfungen, den Chip, Lufttransport, Mieten mit Haustieren, Futter und einen lokalen Tierarzt.",
+      "body": "Die Hauptschwierigkeiten entstehen an zwei Stellen: dem Flug und der Miete. Dokumente lassen sich vorbereiten, wenn man im Voraus beginnt, aber der Stress des Tieres, die Transportbox, Umstiege und die Regeln der Fluggesellschaft erfordern einen eigenen Plan. Bei der Wohnung ist es schwieriger: manche Eigentümer lehnen ab, manche verlangen zusätzliche Bedingungen, und manche Gebäude beschränken Tiere.\n\nNach der Ankunft suchen Halter schnell einen Tierarzt, Futter und die gewohnten Medikamente. Nicht alle Marken sind verfügbar, daher kennt man besser die Zusammensetzung des Futters und mögliche Äquivalente.\n\nFazit: Ein Haustier sollte ebenso ernsthaft in das Budget und die Umzugsroute einbezogen werden wie die Dokumente eines Menschen."
+    }
+  },
+  "card.pets_veterinary.overview.overview": {
+    "ru_body_hash": "08cd1691",
+    "en": {
+      "title": "Pets and veterinary care: a plan for moving and living",
+      "short": "Pets require a separate plan: import, veterinary documents, vaccines, the chip, air transport, renting with pets, food and a local vet.",
+      "body": "Moving with animals can't be left to the last weeks. You need veterinary documents, up-to-date vaccinations, a chip, certificates, the airline's rules, the requirements of the country of departure/entry and a plan for the first days. Even if the rules seem simple, errors in dates, the certificate form or the route can wreck the trip.\n\nAfter arrival, everyday questions appear: renting with a pet, a vet, food, prevention, walking, a carrier, stress, adapting to the climate and building rules. With pets the choice of housing is narrower: not every owner and not every building agrees to animals.\n\nThe best approach is to keep a separate \"pet folder\": passport, vaccination, chip, certificates, flight documents, the vet's contacts, food and medicines."
+    },
+    "es": {
+      "title": "Animales y veterinaria: un plan para la mudanza y la vida",
+      "short": "Los animales requieren un plan aparte: ingreso, documentos veterinarios, vacunas, el chip, el transporte aéreo, alquilar con mascotas, la comida y un veterinario local.",
+      "body": "Mudarse con animales no se puede dejar para las últimas semanas. Hacen falta documentos veterinarios, vacunas al día, un chip, certificados, las reglas de la aerolínea, los requisitos del país de salida/ingreso y un plan para los primeros días. Aunque las reglas parezcan simples, los errores en las fechas, el formulario del certificado o la ruta pueden arruinar el viaje.\n\nTras la llegada aparecen cuestiones cotidianas: alquilar con una mascota, un veterinario, la comida, la prevención, el paseo, el transportín, el estrés, la adaptación al clima y las reglas del edificio. Con mascotas la elección de vivienda es más estrecha: no todos los propietarios ni todos los edificios aceptan animales.\n\nEl mejor enfoque es llevar una \"carpeta de la mascota\" aparte: pasaporte, vacunación, chip, certificados, documentos de vuelo, los contactos del veterinario, la comida y los medicamentos."
+    },
+    "de": {
+      "title": "Tiere und Tiermedizin: ein Plan für Umzug und Leben",
+      "short": "Tiere erfordern einen eigenen Plan: Einfuhr, Veterinärdokumente, Impfungen, den Chip, Lufttransport, Mieten mit Haustieren, Futter und einen lokalen Tierarzt.",
+      "body": "Der Umzug mit Tieren darf nicht den letzten Wochen überlassen werden. Man braucht Veterinärdokumente, aktuelle Impfungen, einen Chip, Bescheinigungen, die Regeln der Fluggesellschaft, die Anforderungen des Ausreise-/Einreiselandes und einen Plan für die ersten Tage. Selbst wenn die Regeln einfach scheinen, können Fehler bei Daten, dem Bescheinigungsformular oder der Route die Reise zunichtemachen.\n\nNach der Ankunft tauchen Alltagsfragen auf: Mieten mit einem Haustier, ein Tierarzt, Futter, Vorsorge, Gassi gehen, eine Transportbox, Stress, die Anpassung ans Klima und Hausregeln. Mit Haustieren ist die Wohnungsauswahl kleiner: nicht jeder Eigentümer und nicht jedes Gebäude erlaubt Tiere.\n\nDer beste Ansatz ist, eine separate \"Haustiermappe\" zu führen: Pass, Impfung, Chip, Bescheinigungen, Flugdokumente, die Kontakte des Tierarztes, Futter und Medikamente."
+    }
+  },
+  "card.pets_veterinary.reference.ref_arenda_s_pitomcami": {
+    "ru_body_hash": "951aa476",
+    "en": {
+      "title": "Renting with pets: what to know",
+      "short": "Renting with pets: what to know.",
+      "body": "Renting with pets: what to know\n\nRenting with a pet narrows the choice. You need to discuss the animal before reserving and look at the building rules, not just the owner's consent.\n\nWhen it matters: cats, dogs, several animals, large breeds.\n\nWhat to check: a pet-friendly contract, the deposit, elevator/common-area rules, noise and liability for damage."
+    },
+    "es": {
+      "title": "Alquilar con mascotas: lo que importa saber",
+      "short": "Alquilar con mascotas: lo que importa saber.",
+      "body": "Alquilar con mascotas: lo que importa saber\n\nAlquilar con una mascota estrecha la elección. Hay que conversar sobre el animal antes de reservar y mirar las reglas del edificio, no solo el consentimiento del propietario.\n\nCuándo importa: gatos, perros, varios animales, razas grandes.\n\nQué revisar: un contrato pet-friendly, el depósito, las reglas del ascensor/zonas comunes, el ruido y la responsabilidad por daños."
+    },
+    "de": {
+      "title": "Mieten mit Haustieren: was man wissen muss",
+      "short": "Mieten mit Haustieren: was man wissen muss.",
+      "body": "Mieten mit Haustieren: was man wissen muss\n\nMieten mit einem Haustier schränkt die Auswahl ein. Man muss das Tier vor der Reservierung besprechen und auf die Hausregeln schauen, nicht nur auf die Zustimmung des Eigentümers.\n\nWann es wichtig ist: Katzen, Hunde, mehrere Tiere, große Rassen.\n\nWas zu prüfen ist: einen pet-friendly Vertrag, die Kaution, Aufzug-/Gemeinschaftsbereichsregeln, Lärm und die Haftung für Schäden."
+    }
+  },
+  "card.pets_veterinary.reference.ref_dokumenty_i_privivki": {
+    "ru_body_hash": "cbca7b5a",
+    "en": {
+      "title": "Documents and vaccinations: what to know",
+      "short": "Documents and vaccinations: what to know.",
+      "body": "Documents and vaccinations: what to know\n\nDocuments and vaccinations must match by dates, chip and owner. An error can wreck the flight or the import.\n\nWhen it matters: the flight, transit, settling in and the local vet.\n\nWhat to check: the vet passport, the chip, vaccination, the certificate, translation/apostille if needed and the deadlines."
+    },
+    "es": {
+      "title": "Documentos y vacunas: lo que importa saber",
+      "short": "Documentos y vacunas: lo que importa saber.",
+      "body": "Documentos y vacunas: lo que importa saber\n\nLos documentos y las vacunas deben coincidir en fechas, chip y dueño. Un error puede arruinar el vuelo o el ingreso.\n\nCuándo importa: el vuelo, el tránsito, la instalación y el veterinario local.\n\nQué revisar: el pasaporte veterinario, el chip, la vacunación, el certificado, la traducción/apostilla si hace falta y los plazos."
+    },
+    "de": {
+      "title": "Dokumente und Impfungen: was man wissen muss",
+      "short": "Dokumente und Impfungen: was man wissen muss.",
+      "body": "Dokumente und Impfungen: was man wissen muss\n\nDokumente und Impfungen müssen nach Daten, Chip und Halter übereinstimmen. Ein Fehler kann den Flug oder die Einfuhr zunichtemachen.\n\nWann es wichtig ist: der Flug, der Transit, das Einleben und der lokale Tierarzt.\n\nWas zu prüfen ist: den Heimtierausweis, den Chip, die Impfung, die Bescheinigung, Übersetzung/Apostille falls nötig und die Fristen."
+    }
+  },
+  "card.pets_veterinary.reference.ref_korma_i_magaziny": {
+    "ru_body_hash": "85d34853",
+    "en": {
+      "title": "Food and stores: what to know",
+      "short": "Food and stores: what to know.",
+      "body": "Food and stores: what to know\n\nFood and pet supplies are best checked before moving, especially if the animal is on a diet or has a chronic illness.\n\nWhen it matters: the first weeks, rare brands, medicines and veterinary diets.\n\nWhat to check: equivalents, stores, delivery, the prescription and a stock for the start."
+    },
+    "es": {
+      "title": "Comida y tiendas: lo que importa saber",
+      "short": "Comida y tiendas: lo que importa saber.",
+      "body": "Comida y tiendas: lo que importa saber\n\nLa comida y los artículos para mascotas conviene comprobarlos antes de mudarse, sobre todo si el animal tiene una dieta o una enfermedad crónica.\n\nCuándo importa: las primeras semanas, marcas raras, medicamentos y dietas veterinarias.\n\nQué revisar: equivalentes, tiendas, entrega, la receta y un stock para el principio."
+    },
+    "de": {
+      "title": "Futter und Geschäfte: was man wissen muss",
+      "short": "Futter und Geschäfte: was man wissen muss.",
+      "body": "Futter und Geschäfte: was man wissen muss\n\nFutter und Tierbedarf prüft man am besten vor dem Umzug, besonders wenn das Tier eine Diät oder eine chronische Krankheit hat.\n\nWann es wichtig ist: die ersten Wochen, seltene Marken, Medikamente und veterinäre Diäten.\n\nWas zu prüfen ist: Äquivalente, Geschäfte, Lieferung, das Rezept und einen Vorrat für den Anfang."
+    }
+  },
+  "card.pets_veterinary.reference.ref_veterinary": {
+    "ru_body_hash": "8df6d213",
+    "en": {
+      "title": "Vets: what to know",
+      "short": "Vets: what to know.",
+      "body": "Vets: what to know\n\nIt's better to find a vet in advance, not during an emergency. The neighborhood, round-the-clock hours, the language of communication and the availability of tests matter.\n\nWhen it matters: the first weeks, chronic illnesses, vaccination, certificates and urgent cases.\n\nWhat to check: the address, hours, emergency, prices, reviews and the availability of the needed drug."
+    },
+    "es": {
+      "title": "Veterinarios: lo que importa saber",
+      "short": "Veterinarios: lo que importa saber.",
+      "body": "Veterinarios: lo que importa saber\n\nConviene encontrar un veterinario con antelación, no durante una emergencia. Importan el barrio, la atención las 24 horas, el idioma de comunicación y la posibilidad de análisis.\n\nCuándo importa: las primeras semanas, enfermedades crónicas, vacunación, certificados y casos urgentes.\n\nQué revisar: la dirección, el horario, la emergencia, los precios, las reseñas y la disponibilidad del fármaco necesario."
+    },
+    "de": {
+      "title": "Tierärzte: was man wissen muss",
+      "short": "Tierärzte: was man wissen muss.",
+      "body": "Tierärzte: was man wissen muss\n\nEinen Tierarzt findet man besser im Voraus, nicht während eines Notfalls. Das Viertel, die Rund-um-die-Uhr-Betreuung, die Sprache der Kommunikation und die Möglichkeit von Untersuchungen sind wichtig.\n\nWann es wichtig ist: die ersten Wochen, chronische Krankheiten, Impfung, Bescheinigungen und dringende Fälle.\n\nWas zu prüfen ist: die Adresse, die Öffnungszeiten, den Notdienst, die Preise, Bewertungen und die Verfügbarkeit des benötigten Arzneimittels."
+    }
+  },
+  "card.pets_veterinary.reference.ref_vvoz_zhivotnyh": {
+    "ru_body_hash": "fcc290e5",
+    "en": {
+      "title": "Importing animals: what to know",
+      "short": "Importing animals: what to know.",
+      "body": "Importing animals: what to know\n\nImporting animals must be prepared according to the rules of the country, the airline and the veterinary documents. Certificate deadlines are critical.\n\nWhen it matters: moving with a cat/dog, transit, several animals.\n\nWhat to check: the chip, vaccines, the certificate, the route, the carrier, booking the animal with the airline."
+    },
+    "es": {
+      "title": "Ingreso de animales: lo que importa saber",
+      "short": "Ingreso de animales: lo que importa saber.",
+      "body": "Ingreso de animales: lo que importa saber\n\nEl ingreso de animales hay que prepararlo según las reglas del país, la aerolínea y los documentos veterinarios. Los plazos de los certificados son críticos.\n\nCuándo importa: mudarse con un gato/perro, tránsito, varios animales.\n\nQué revisar: el chip, las vacunas, el certificado, la ruta, el transportín, la reserva del animal con la aerolínea."
+    },
+    "de": {
+      "title": "Einfuhr von Tieren: was man wissen muss",
+      "short": "Einfuhr von Tieren: was man wissen muss.",
+      "body": "Einfuhr von Tieren: was man wissen muss\n\nDie Einfuhr von Tieren muss nach den Regeln des Landes, der Fluggesellschaft und der Veterinärdokumente vorbereitet werden. Die Fristen der Bescheinigungen sind kritisch.\n\nWann es wichtig ist: Umzug mit einer Katze/einem Hund, Transit, mehrere Tiere.\n\nWas zu prüfen ist: den Chip, Impfungen, die Bescheinigung, die Route, die Transportbox, die Buchung des Tieres bei der Fluggesellschaft."
+    }
+  },
+  "card.pets_veterinary.warning.warning": {
+    "ru_body_hash": "48e057d6",
+    "en": {
+      "title": "Mistakes with animals",
+      "short": "Pets require a separate plan: import, veterinary documents, vaccines, the chip, air transport, renting with pets, food and a local vet.",
+      "body": "Mistakes: buying a ticket before checking the airline's rules, treating \"pet friendly\" as a guarantee of a long-term rental, having no food stock, not clarifying transit requirements, leaving the vet certificate to the last day.\n\nDon't hide the animal from the landlord: a conflict can cost the deposit and the housing. Don't count on any veterinary document being suitable for the flight — the form, date and signatures matter.\n\nIf the animal is elderly, anxious, has a chronic illness or is a brachycephalic breed, plan the flight and medical support individually."
+    },
+    "es": {
+      "title": "Errores con los animales",
+      "short": "Los animales requieren un plan aparte: ingreso, documentos veterinarios, vacunas, el chip, el transporte aéreo, alquilar con mascotas, la comida y un veterinario local.",
+      "body": "Errores: comprar un pasaje antes de comprobar las reglas de la aerolínea, considerar \"pet friendly\" una garantía de alquiler a largo plazo, no tener stock de comida, no aclarar los requisitos de tránsito, dejar el certificado veterinario para el último día.\n\nNo ocultes el animal al propietario: un conflicto puede costar el depósito y la vivienda. No cuentes con que cualquier documento veterinario sirva para el vuelo — el formulario, la fecha y las firmas importan.\n\nSi el animal es mayor, ansioso, con una enfermedad crónica o de raza braquicéfala, planifica el vuelo y el apoyo médico de forma individual."
+    },
+    "de": {
+      "title": "Fehler mit Tieren",
+      "short": "Tiere erfordern einen eigenen Plan: Einfuhr, Veterinärdokumente, Impfungen, den Chip, Lufttransport, Mieten mit Haustieren, Futter und einen lokalen Tierarzt.",
+      "body": "Fehler: ein Ticket kaufen, bevor man die Regeln der Fluggesellschaft prüft, \"pet friendly\" als Garantie für eine Langzeitmiete betrachten, keinen Futtervorrat haben, die Transitanforderungen nicht klären, die Tierarztbescheinigung auf den letzten Tag verschieben.\n\nVerheimliche das Tier nicht vor dem Vermieter: ein Konflikt kann die Kaution und die Wohnung kosten. Verlass dich nicht darauf, dass jedes Veterinärdokument für den Flug geeignet ist — das Formular, das Datum und die Unterschriften sind wichtig.\n\nIst das Tier alt, ängstlich, chronisch krank oder einer brachyzephalen Rasse, plane den Flug und die medizinische Unterstützung individuell."
     }
   },
   "card.real_estate_purchase.advice.advice": {
