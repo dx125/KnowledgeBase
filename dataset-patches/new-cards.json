@@ -145,5 +145,150 @@
         "body": "Der größte Irrtum ist „ich habe die Steuerferien, also zahle ich gar keine Steuern“. Die Vergünstigung gilt vor allem für ausländisches passives Einkommen (Dividenden, Zinsen). Gehalt, Dienstleistungen und aus Uruguay geleistete Arbeit sowie jedes Einkommen uruguayischer Quelle werden in der Regel normal besteuert — unabhängig von den Steuerferien.\n\nWenn du eine unipersonal, monotributo oder SAS eröffnest und lokal tätig bist, übernimmst du laufende Pflichten gegenüber DGI und BPS (und möglicherweise Fonasa) — die Steuerferien decken das nicht ab. Mit anderen Worten: „eine empresa eröffnen, um Einkommen nachzuweisen“ und „Steuerferien auf Auslandseinkommen haben“ sind zwei verschiedene Dinge, die leicht verwechselt werden.\n\nWeitere Risiken: nicht alle Vermögenswerte qualifizieren (Derivate werden z. B. als Ausnahme genannt); jedes Familienmitglied wird separat beurteilt; die Wahl der Regelung ist an Fristen gebunden und erfordert eine Erklärung. Überweise keine großen Summen und eröffne keine Tätigkeit „vorsichtshalber“, bevor du eine schriftliche Beratung von einem contador hast, der mit Auslandseinkommen arbeitet."
       }
     }
+  },
+  {
+    "card_id": "card.real_estate_rent.reference.ref_garantii_provaidery_alternativy",
+    "topic_id": "topic.real_estate_rent",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "medium",
+    "sensitivity_tags": ["financial"],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": ["financial_topic_verify_before_action", "editorially_authored_card"],
+    "subtopic_ids": ["subtopic.real_estate_rent.reference"],
+    "keyword_ids": ["kw.curated.arend", "kw.curated.garant", "kw.curated.depozit", "kw.curated.alquiler", "kw.curated.snyat", "kw.curated.dogovor"],
+    "glossary_term_ids": ["term.garantia", "term.porto_seguro", "term.anda", "term.certificado_ingresos", "term.gastos_comunes"],
+    "entity_ids": ["entity.porto_seguro", "entity.anda", "entity.sura", "entity.bhu"],
+    "resource_ids": ["resource.entity.porto_seguro", "resource.entity.anda", "resource.entity.sura", "resource.entity.bhu"],
+    "related_card_ids": [
+      "card.real_estate_rent.advice.garantiya_i_depozit_pri_arende",
+      "card.real_estate_rent.overview.overview"
+    ],
+    "prerequisite_card_ids": ["card.real_estate_rent.overview.overview"],
+    "text": {
+      "ru": {
+        "title": "Гарантия аренды: виды, провайдеры и альтернативы",
+        "short": "Какие бывают гарантии для долгосрочной аренды, как проходит одобрение и что делать без гарантии.",
+        "body": "Для долгосрочной аренды владелец почти всегда просит garantía — подтверждение, что аренду будут платить. Основные варианты, которые обсуждают:\n\n• Страховка аренды (seguro de alquiler): Porto Seguro, SURA, Mapfre и похожие. Компания проверяет доход, стабильность и документы и за премию выступает гарантом. Премия — отдельный платёж (часть месячной аренды), и страховая может одобрить частично или отказать по своему скорингу.\n• ANDA и подобные организации — членская гарантия через ассоциацию.\n• Гарантия собственника (garantía de propietario): поручителем выступает владелец другой недвижимости в Уругвае.\n• Депозит или предоплата вместо гарантии: владелец берёт депозит за несколько месяцев. Вариант рабочий, но условия возврата нужно прописывать.\n\nОдобрение обычно зависит от соотношения аренды к доходу: страховые хотят видеть доход заметно выше аренды (в обсуждениях называют ориентир около трёх арендных плат, но точный коэффициент и скоринг у каждой компании свои — уточняйте). Готовьте заранее certificado de ingresos, выписки, контракт или инвойсы, подтверждение empresa. Если сделка зависит от одобрения страховой, отдельно пропишите, что будет с резервом и комиссией при отказе."
+      },
+      "en": {
+        "title": "Rental guarantee: types, providers and alternatives",
+        "short": "The kinds of guarantee a long-term lease can require, how approval works, and what to do without one.",
+        "body": "For a long-term lease the owner almost always asks for a garantía — proof the rent will be paid. The options usually discussed:\n\n• Rental insurance (seguro de alquiler): Porto Seguro, SURA, Mapfre and similar. The company checks income, stability and documents and, for a premium, acts as guarantor. The premium is a separate payment (a fraction of a month's rent), and the insurer may approve partially or decline based on its own scoring.\n• ANDA and similar bodies — a membership guarantee through an association.\n• Owner guarantee (garantía de propietario): the owner of another property in Uruguay stands as guarantor.\n• A deposit or prepayment instead of a guarantee: the owner takes a few months' deposit. This works, but the return terms must be written down.\n\nApproval usually depends on the rent-to-income ratio: insurers want income well above the rent (discussions cite a rule of thumb of roughly three months' rent, but the exact ratio and scoring differ by company — confirm it). Prepare in advance: certificado de ingresos, statements, a contract or invoices, proof of an empresa. If the deal depends on insurer approval, write down separately what happens to the reservation and commission if you are declined."
+      },
+      "es": {
+        "title": "Garantía de alquiler: tipos, proveedores y alternativas",
+        "short": "Qué garantías puede exigir un alquiler de largo plazo, cómo es la aprobación y qué hacer sin garantía.",
+        "body": "Para un alquiler de largo plazo el propietario casi siempre pide una garantía — la prueba de que el alquiler se va a pagar. Las opciones que más se mencionan:\n\n• Seguro de alquiler: Porto Seguro, SURA, Mapfre y similares. La empresa evalúa ingresos, estabilidad y documentos y, por una prima, actúa como garante. La prima es un pago aparte (una fracción de un mes de alquiler), y la aseguradora puede aprobar de forma parcial o rechazar según su scoring.\n• ANDA y organizaciones similares — una garantía de afiliación a través de una asociación.\n• Garantía de propietario: el dueño de otro inmueble en Uruguay se ofrece como garante.\n• Un depósito o pago anticipado en lugar de garantía: el propietario toma un depósito de varios meses. Es viable, pero las condiciones de devolución hay que dejarlas por escrito.\n\nLa aprobación suele depender de la relación alquiler-ingreso: las aseguradoras quieren ingresos bastante por encima del alquiler (en las charlas se menciona una referencia de cerca de tres alquileres, pero el coeficiente exacto y el scoring varían según la empresa — confirmalo). Prepará con antelación: certificado de ingresos, estados de cuenta, contrato o facturas, prueba de una empresa. Si la operación depende de la aprobación de la aseguradora, dejá por escrito qué pasa con la reserva y la comisión si te rechazan."
+      },
+      "de": {
+        "title": "Mietgarantie: Arten, Anbieter und Alternativen",
+        "short": "Welche Garantien ein langfristiger Mietvertrag verlangen kann, wie die Genehmigung läuft und was ohne Garantie zu tun ist.",
+        "body": "Für einen langfristigen Mietvertrag verlangt der Eigentümer fast immer eine garantía — den Nachweis, dass die Miete gezahlt wird. Die meistdiskutierten Optionen:\n\n• Mietversicherung (seguro de alquiler): Porto Seguro, SURA, Mapfre und ähnliche. Das Unternehmen prüft Einkommen, Stabilität und Unterlagen und tritt gegen eine Prämie als Garant auf. Die Prämie ist eine separate Zahlung (ein Bruchteil einer Monatsmiete), und der Versicherer kann teilweise genehmigen oder nach eigenem Scoring ablehnen.\n• ANDA und ähnliche Einrichtungen — eine Mitgliedschaftsgarantie über einen Verband.\n• Eigentümergarantie (garantía de propietario): der Eigentümer einer anderen Immobilie in Uruguay bürgt.\n• Eine Kaution oder Vorauszahlung statt einer Garantie: der Eigentümer nimmt eine Kaution von mehreren Monaten. Das funktioniert, aber die Rückzahlungsbedingungen müssen schriftlich festgehalten werden.\n\nDie Genehmigung hängt meist vom Verhältnis Miete zu Einkommen ab: Versicherer wollen ein Einkommen deutlich über der Miete sehen (in Diskussionen wird ein Richtwert von etwa drei Monatsmieten genannt, aber der genaue Faktor und das Scoring unterscheiden sich je Unternehmen — kläre das ab). Bereite im Voraus vor: certificado de ingresos, Kontoauszüge, Vertrag oder Rechnungen, Nachweis einer empresa. Hängt das Geschäft von der Zusage des Versicherers ab, halte separat fest, was mit Reservierung und Provision bei einer Ablehnung passiert."
+      }
+    }
+  },
+  {
+    "card_id": "card.real_estate_purchase.reference.ref_rashody_pokupki_itp_escribano",
+    "topic_id": "topic.real_estate_purchase",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": ["financial"],
+    "confidence": "medium",
+    "confidence_score": 0.5,
+    "quality_score": 0.6,
+    "review_reasons": ["financial_topic_verify_before_action", "editorially_authored_card", "figures_reported_by_community_verify_with_escribano"],
+    "subtopic_ids": ["subtopic.real_estate_purchase.reference"],
+    "keyword_ids": ["kw.curated.pokupk", "kw.curated.nedvizh", "kw.curated.escribano", "kw.curated.itp"],
+    "glossary_term_ids": ["term.escribano", "term.itp"],
+    "entity_ids": ["entity.dgi", "entity.remax", "entity.infocasas"],
+    "resource_ids": ["resource.entity.dgi", "resource.entity.infocasas"],
+    "related_card_ids": [
+      "card.real_estate_purchase.overview.overview",
+      "card.real_estate_purchase.checklist.rashody_pri_pokupke_nedvizhimosti",
+      "card.real_estate_purchase.reference.ref_proishozhdenie_sredstv_bank"
+    ],
+    "prerequisite_card_ids": ["card.real_estate_purchase.overview.overview"],
+    "text": {
+      "ru": {
+        "title": "Расходы при покупке недвижимости: ITP, escribano и комиссии",
+        "short": "Из чего складываются разовые расходы сверх цены объекта и почему обязателен escribano. Цифры ориентировочные — сверяйте по сделке.",
+        "body": "Сверх цены объекта при покупке возникают разовые расходы. Ориентиры из обсуждений (точные суммы уточняйте у escribano по конкретной сделке):\n\n• ITP (impuesto a las transmisiones patrimoniales) — налог на передачу недвижимости, около 2% от кадастровой стоимости с каждой стороны: свои 2% платят и покупатель, и продавец.\n• Гонорар нотариуса (escribano) — около 3% от цены плюс IVA 22% на гонорар; сверху идут обязательные отчисления (Montepío, Caja Notarial/Gremial) и расходы на регистрацию.\n• Комиссия агентства (inmobiliaria) — около 3% плюс IVA, если покупка идёт через агента.\n\nЕсть льгота: при покупке первого жилья ниже установленного порога можно попасть под освобождение от ITP — порог и условия выясняйте заранее. Отдельно считаются новостройка, вторичка и покупка «с котлована» (en pozo, часто через fideicomiso): у них разные расходы и риски.\n\nГлавное: escribano в Уругвае обязателен и защищает покупателя — проверяет право собственности, долги и обременения. Берите своего escribano, а не только присланного продавцом, и заранее просите письменную смету всех расходов."
+      },
+      "en": {
+        "title": "Costs of buying property: ITP, escribano and commissions",
+        "short": "What the one-off costs on top of the price are, and why an escribano is mandatory. Figures are indicative — verify per deal.",
+        "body": "On top of the property price, buying triggers one-off costs. Rough figures from the discussions (confirm the exact amounts with an escribano for your specific deal):\n\n• ITP (impuesto a las transmisiones patrimoniales) — a property-transfer tax of about 2% of the cadastral value on each side: buyer and seller each pay their own 2%.\n• Notary fee (escribano) — about 3% of the price plus IVA 22% on the fee; on top come mandatory levies (Montepío, Caja Notarial/Gremial) and registration costs.\n• Agency commission (inmobiliaria) — about 3% plus IVA if you buy through an agent.\n\nThere is a relief: buying a first home below a set threshold can qualify for an ITP exemption — check the threshold and conditions in advance. New-build, resale and buying off-plan (en pozo, often through a fideicomiso) are costed separately and carry different costs and risks.\n\nKey point: in Uruguay an escribano is mandatory and protects the buyer — they verify title, debts and encumbrances. Use your own escribano, not just the one the seller sends, and ask up front for a written estimate of all costs."
+      },
+      "es": {
+        "title": "Costos de comprar propiedad: ITP, escribano y comisiones",
+        "short": "De qué se componen los costos únicos sobre el precio y por qué el escribano es obligatorio. Las cifras son orientativas — verificá por operación.",
+        "body": "Por encima del precio del inmueble, la compra genera costos únicos. Cifras orientativas de las charlas (confirmá los montos exactos con un escribano para tu operación):\n\n• ITP (impuesto a las transmisiones patrimoniales) — un impuesto a la transferencia de aproximadamente 2% del valor catastral por cada parte: comprador y vendedor pagan cada uno su 2%.\n• Honorarios del escribano — alrededor del 3% del precio más IVA 22% sobre el honorario; encima se suman aportes obligatorios (Montepío, Caja Notarial/Gremial) y gastos de inscripción.\n• Comisión de la inmobiliaria — alrededor del 3% más IVA si la compra es a través de un agente.\n\nHay un beneficio: comprar una primera vivienda por debajo de cierto umbral puede acceder a una exoneración de ITP — averiguá el umbral y las condiciones con antelación. La obra nueva, la reventa y la compra desde el pozo (en pozo, a menudo mediante un fideicomiso) se costean aparte y tienen costos y riesgos distintos.\n\nClave: en Uruguay el escribano es obligatorio y protege al comprador — verifica la titularidad, las deudas y los gravámenes. Usá tu propio escribano, no solo el que manda el vendedor, y pedí por adelantado un presupuesto escrito de todos los costos."
+      },
+      "de": {
+        "title": "Kosten beim Immobilienkauf: ITP, escribano und Provisionen",
+        "short": "Woraus die einmaligen Kosten zusätzlich zum Preis bestehen und warum ein escribano Pflicht ist. Die Zahlen sind Richtwerte — pro Geschäft prüfen.",
+        "body": "Zusätzlich zum Immobilienpreis löst der Kauf einmalige Kosten aus. Richtwerte aus den Diskussionen (die genauen Beträge mit einem escribano für dein Geschäft bestätigen):\n\n• ITP (impuesto a las transmisiones patrimoniales) — eine Übertragungssteuer von etwa 2% des Katasterwerts je Seite: Käufer und Verkäufer zahlen jeweils ihre 2%.\n• Notarhonorar (escribano) — etwa 3% des Preises plus IVA 22% auf das Honorar; hinzu kommen Pflichtabgaben (Montepío, Caja Notarial/Gremial) und Eintragungskosten.\n• Maklerprovision (inmobiliaria) — etwa 3% plus IVA, wenn der Kauf über einen Makler läuft.\n\nEs gibt eine Vergünstigung: Der Kauf einer ersten Wohnung unterhalb einer festgelegten Schwelle kann eine ITP-Befreiung erhalten — Schwelle und Bedingungen vorab klären. Neubau, Wiederverkauf und Kauf aus dem Rohbau (en pozo, oft über ein fideicomiso) werden getrennt kalkuliert und haben unterschiedliche Kosten und Risiken.\n\nKernpunkt: In Uruguay ist ein escribano Pflicht und schützt den Käufer — er prüft Eigentum, Schulden und Belastungen. Nimm deinen eigenen escribano, nicht nur den vom Verkäufer geschickten, und verlange vorab einen schriftlichen Kostenvoranschlag."
+      }
+    }
+  },
+  {
+    "card_id": "card.real_estate_purchase.reference.ref_proishozhdenie_sredstv_bank",
+    "topic_id": "topic.real_estate_purchase",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "high",
+    "sensitivity_tags": ["financial"],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": ["financial_topic_verify_before_action", "editorially_authored_card"],
+    "subtopic_ids": ["subtopic.real_estate_purchase.reference"],
+    "keyword_ids": ["kw.curated.pokupk", "kw.curated.nedvizh", "kw.curated.escribano", "kw.curated.itp"],
+    "glossary_term_ids": ["term.escribano", "term.bps"],
+    "entity_ids": ["entity.dgi", "entity.bps", "entity.brou"],
+    "resource_ids": ["resource.entity.dgi", "resource.entity.bps"],
+    "related_card_ids": [
+      "card.real_estate_purchase.overview.overview",
+      "card.real_estate_purchase.reference.ref_rashody_pokupki_itp_escribano"
+    ],
+    "prerequisite_card_ids": ["card.real_estate_purchase.overview.overview"],
+    "text": {
+      "ru": {
+        "title": "Происхождение средств и банк при покупке недвижимости",
+        "short": "Почему при покупке и крупных переводах спрашивают origen de fondos и как к этому подготовиться.",
+        "body": "При покупке недвижимости и крупных переводах в Уругвае почти всегда спрашивают происхождение средств (origen de fondos). Это касается и банка, через который проходят деньги, и нотариуса, оформляющего сделку. Без понятной истории денег перевод или сделку могут задержать.\n\nЧто обычно готовят заранее: выписки по счетам, документы о продаже прежних активов (недвижимость, доли, акции), договоры и инвойсы по доходу, налоговые документы, подтверждение накоплений. Чем крупнее сумма и чем «дальше» источник, тем подробнее вопросы комплаенса.\n\nПрактические шаги: заранее спросите конкретный банк, какие документы он примет и как быстро надо отвечать на запросы; обсудите схему с escribano и contador до перевода; не дробите и не переводите крупные суммы «вслепую». Для подтверждения дохода под сделку, банк или резиденцию иногда нужен certificado de ingresos от escribano или contador."
+      },
+      "en": {
+        "title": "Source of funds and the bank when buying property",
+        "short": "Why a purchase and large transfers trigger an origen de fondos check, and how to prepare for it.",
+        "body": "When you buy property and move large sums in Uruguay, you are almost always asked for the source of funds (origen de fondos). This applies both to the bank the money passes through and to the notary closing the deal. Without a clear money trail, the transfer or the deal can be held up.\n\nWhat people usually prepare in advance: account statements, documents for the sale of previous assets (property, shares, equity), income contracts and invoices, tax documents, proof of savings. The larger the sum and the more remote the source, the more detailed the compliance questions.\n\nPractical steps: ask the specific bank in advance which documents it will accept and how quickly you must answer requests; discuss the structure with an escribano and a contador before transferring; do not split or move large sums blindly. To prove income for the deal, the bank or residency, you sometimes need a certificado de ingresos from an escribano or contador."
+      },
+      "es": {
+        "title": "Origen de fondos y el banco al comprar propiedad",
+        "short": "Por qué una compra y las transferencias grandes disparan un control de origen de fondos y cómo prepararse.",
+        "body": "Al comprar propiedad y mover sumas grandes en Uruguay, casi siempre te piden el origen de fondos. Esto aplica tanto al banco por el que pasa el dinero como al escribano que cierra la operación. Sin una trazabilidad clara del dinero, la transferencia o la operación pueden demorarse.\n\nLo que se suele preparar con antelación: estados de cuenta, documentos por la venta de activos previos (inmuebles, participaciones, acciones), contratos y facturas de ingresos, documentos tributarios, prueba de ahorros. Cuanto mayor es la suma y más lejano el origen, más detalladas son las preguntas de cumplimiento.\n\nPasos prácticos: preguntá con antelación al banco concreto qué documentos acepta y con qué rapidez hay que responder a los pedidos; conversá la estructura con un escribano y un contador antes de transferir; no fracciones ni muevas sumas grandes a ciegas. Para acreditar ingresos ante la operación, el banco o la residencia, a veces se necesita un certificado de ingresos de un escribano o un contador."
+      },
+      "de": {
+        "title": "Mittelherkunft und die Bank beim Immobilienkauf",
+        "short": "Warum ein Kauf und große Überweisungen eine origen-de-fondos-Prüfung auslösen und wie man sich vorbereitet.",
+        "body": "Beim Immobilienkauf und bei großen Überweisungen in Uruguay wird fast immer nach der Mittelherkunft (origen de fondos) gefragt. Das betrifft sowohl die Bank, über die das Geld läuft, als auch den Notar, der das Geschäft abschließt. Ohne eine klare Geldspur können die Überweisung oder das Geschäft verzögert werden.\n\nWas man üblicherweise im Voraus vorbereitet: Kontoauszüge, Unterlagen zum Verkauf früherer Vermögenswerte (Immobilien, Anteile, Aktien), Einkommensverträge und Rechnungen, Steuerunterlagen, Sparnachweise. Je größer die Summe und je entfernter die Quelle, desto detaillierter sind die Compliance-Fragen.\n\nPraktische Schritte: Frage die konkrete Bank im Voraus, welche Unterlagen sie akzeptiert und wie schnell du auf Anfragen reagieren musst; bespreche die Struktur vor der Überweisung mit einem escribano und einem contador; stückle oder bewege große Summen nicht blind. Um Einkommen für das Geschäft, die Bank oder die Residenz nachzuweisen, brauchst du manchmal ein certificado de ingresos von einem escribano oder contador."
+      }
+    }
   }
 ]

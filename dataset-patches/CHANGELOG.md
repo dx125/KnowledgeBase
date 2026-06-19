@@ -3,6 +3,27 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-19 — New editorial cards (batch 2): rent garantía + purchase costs
+
+Closed the remaining gaps from the rent/purchase/taxes content review. 3 more public cards
+(RU source + EN/ES/DE), bringing `new-cards.json` to 6 and the dataset to **271 cards**:
+
+- `card.real_estate_rent.reference.ref_garantii_provaidery_alternativy` — Rental guarantee:
+  types, providers (Porto Seguro / SURA / Mapfre / ANDA / owner guarantee), how approval scores
+  rent-to-income, premium, and the no-guarantee deposit route. Existing cards named providers but
+  never explained the mechanics.
+- `card.real_estate_purchase.reference.ref_rashody_pokupki_itp_escribano` — Purchase costs with
+  concrete figures grounded in the source chat: ITP ≈ 2% of cadastral value per side, escribano
+  ≈ 3% + IVA 22% (+ Montepío / Gremial), inmobiliaria ≈ 3% + IVA, the first-home ITP exemption,
+  en pozo / fideicomiso. The published purchase layer had only qualitative cost cards.
+- `card.real_estate_purchase.reference.ref_proishozhdenie_sredstv_bank` — Origen de fondos / AML:
+  why banks and the escribano ask for source of funds on a purchase or large transfer, and how to
+  prepare. (`"происхождение средств"` ×17 in source.)
+
+The rent rent-to-income "≈3×" figure is the noisiest claim (community chatter mixes it with
+price comparisons), so it is explicitly hedged. All quantitative claims are `needs_review` +
+`staleness_risk: high` and say "verify with a contador / escribano / DGI".
+
 ## 2026-06-19 — New editorial cards: tax residency + foreign-income tax holiday
 
 Content review of `taxes_accounting_empresa` (RU cards vs `claims.jsonl` / `clean_messages.jsonl`)
