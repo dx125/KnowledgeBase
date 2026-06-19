@@ -1,0 +1,149 @@
+[
+  {
+    "card_id": "card.taxes_accounting_empresa.reference.ref_nalogovoe_rezidentstvo",
+    "topic_id": "topic.taxes_accounting_empresa",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": ["financial"],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": ["financial_topic_verify_before_action", "editorially_authored_card", "rules_change_over_time"],
+    "subtopic_ids": ["subtopic.taxes_accounting_empresa.reference"],
+    "keyword_ids": ["kw.curated.nalog", "kw.curated.dgi", "kw.curated.bps", "kw.curated.irpf", "kw.curated.irae", "kw.curated.contador", "kw.curated.empresa"],
+    "glossary_term_ids": ["term.residencia", "term.dgi", "term.bps"],
+    "entity_ids": ["entity.dgi", "entity.bps"],
+    "resource_ids": ["resource.entity.dgi", "resource.entity.bps"],
+    "related_card_ids": [
+      "card.taxes_accounting_empresa.overview.overview",
+      "card.taxes_accounting_empresa.reference.ref_nalogovye_kanikuly",
+      "card.taxes_accounting_empresa.reference.ref_contador"
+    ],
+    "prerequisite_card_ids": ["card.taxes_accounting_empresa.overview.overview"],
+    "text": {
+      "ru": {
+        "title": "Налоговое резидентство и доход из-за рубежа: что важно знать",
+        "short": "Когда вы становитесь налоговым резидентом Уругвая, что считается доходом из-за рубежа и почему эта граница важна для удалёнщиков.",
+        "body": "Налоговое резидентство — это не то же самое, что миграционная резиденция или cédula. Налоговым резидентом обычно становятся, если провести в Уругвае больше 183 дней в календарном году, либо если здесь находится центр жизненных или экономических интересов (семья, основное жильё, бизнес), либо по инвестиционным основаниям (покупка недвижимости или вложения в бизнес выше установленного порога). Точные критерии и пороги меняются — проверяйте их у contador.\n\nУругвай различает доход уругвайского источника (работа, услуги и активы внутри страны) и доход из-за рубежа (иностранные клиенты, дивиденды, проценты, аренда за границей). Для новых резидентов важна именно эта граница: пассивный доход из-за рубежа может попадать под льготный режим, а доход уругвайского источника облагается обычным образом.\n\nОтдельный нюанс для удалёнщиков: работа, физически выполняемая с территории Уругвая, может считаться доходом уругвайского источника, даже если клиент иностранный. Поэтому до переезда и до перевода денег обсудите свой случай с contador: тип дохода, страна клиента, где выполняется работа и нужна ли местная empresa."
+      },
+      "en": {
+        "title": "Tax residency and foreign income: what to know",
+        "short": "When you become a Uruguayan tax resident, what counts as foreign income, and why that line matters for remote workers.",
+        "body": "Tax residency is not the same as immigration residency or the cédula. You generally become a tax resident if you spend more than 183 days in Uruguay in a calendar year, or if your centre of vital or economic interests is here (family, main home, business), or on investment grounds (buying property or investing in a business above a set threshold). The exact tests and thresholds change — confirm them with a contador.\n\nUruguay distinguishes Uruguayan-source income (work, services and assets inside the country) from foreign income (foreign clients, dividends, interest, rent abroad). For new residents this line is the key one: passive foreign income may fall under a preferential regime, while Uruguayan-source income is taxed in the normal way.\n\nA specific catch for remote workers: work physically performed from Uruguayan territory can be treated as Uruguayan-source income even if the client is foreign. So before moving and before transferring money, discuss your case with a contador: the type of income, the client's country, where the work is performed, and whether you need a local empresa."
+      },
+      "es": {
+        "title": "Residencia fiscal e ingresos del exterior: lo que importa saber",
+        "short": "Cuándo pasás a ser residente fiscal en Uruguay, qué cuenta como ingreso del exterior y por qué esa línea importa para quienes trabajan en remoto.",
+        "body": "La residencia fiscal no es lo mismo que la residencia migratoria ni que la cédula. En general se pasa a ser residente fiscal si se permanece más de 183 días en Uruguay en el año civil, o si el centro de intereses vitales o económicos está acá (familia, vivienda principal, negocio), o por vías de inversión (compra de inmueble o inversión en un negocio por encima de cierto umbral). Los criterios y umbrales exactos cambian: confirmalos con un contador.\n\nUruguay distingue la renta de fuente uruguaya (trabajo, servicios y activos dentro del país) de los ingresos del exterior (clientes extranjeros, dividendos, intereses, alquiler en el exterior). Para los nuevos residentes esa línea es la clave: el ingreso pasivo del exterior puede quedar bajo un régimen preferencial, mientras que la renta de fuente uruguaya tributa de la forma habitual.\n\nUn detalle puntual para quienes trabajan en remoto: el trabajo realizado físicamente desde territorio uruguayo puede considerarse renta de fuente uruguaya aunque el cliente sea extranjero. Por eso, antes de mudarte y antes de transferir dinero, conversá tu caso con un contador: tipo de ingreso, país del cliente, dónde se realiza el trabajo y si necesitás una empresa local."
+      },
+      "de": {
+        "title": "Steuerliche Ansässigkeit und Auslandseinkommen: das Wichtigste",
+        "short": "Wann man in Uruguay steuerlich ansässig wird, was als Auslandseinkommen gilt und warum diese Grenze für Remote-Arbeitende wichtig ist.",
+        "body": "Steuerliche Ansässigkeit ist nicht dasselbe wie die migrationsrechtliche Residenz oder die cédula. In der Regel wird man steuerlich ansässig, wenn man mehr als 183 Tage im Kalenderjahr in Uruguay verbringt, oder wenn der Mittelpunkt der Lebens- oder wirtschaftlichen Interessen hier liegt (Familie, Hauptwohnsitz, Geschäft), oder über Investitionswege (Immobilienkauf oder Investition in ein Unternehmen oberhalb einer festgelegten Schwelle). Die genauen Kriterien und Schwellen ändern sich — bestätige sie mit einem contador.\n\nUruguay unterscheidet Einkommen uruguayischer Quelle (Arbeit, Dienstleistungen und Vermögenswerte im Land) von Auslandseinkommen (ausländische Kunden, Dividenden, Zinsen, Miete im Ausland). Für neue Ansässige ist genau diese Grenze entscheidend: passives Auslandseinkommen kann unter eine Vorzugsregelung fallen, während Einkommen uruguayischer Quelle normal besteuert wird.\n\nEin besonderer Haken für Remote-Arbeitende: Arbeit, die physisch von uruguayischem Gebiet aus geleistet wird, kann als Einkommen uruguayischer Quelle gelten, selbst wenn der Kunde ausländisch ist. Bespricht deinen Fall daher vor dem Umzug und vor Geldtransfers mit einem contador: Art des Einkommens, Land des Kunden, wo die Arbeit geleistet wird und ob du eine lokale empresa brauchst."
+      }
+    }
+  },
+  {
+    "card_id": "card.taxes_accounting_empresa.reference.ref_nalogovye_kanikuly",
+    "topic_id": "topic.taxes_accounting_empresa",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": ["financial"],
+    "confidence": "medium",
+    "confidence_score": 0.5,
+    "quality_score": 0.58,
+    "review_reasons": ["financial_topic_verify_before_action", "editorially_authored_card", "figures_reported_by_community_verify_with_dgi"],
+    "subtopic_ids": ["subtopic.taxes_accounting_empresa.reference"],
+    "keyword_ids": ["kw.curated.nalog", "kw.curated.dgi", "kw.curated.irpf", "kw.curated.irae", "kw.curated.contador"],
+    "glossary_term_ids": ["term.residencia", "term.dgi"],
+    "entity_ids": ["entity.dgi"],
+    "resource_ids": ["resource.entity.dgi"],
+    "related_card_ids": [
+      "card.taxes_accounting_empresa.reference.ref_nalogovoe_rezidentstvo",
+      "card.taxes_accounting_empresa.warning.nalogovye_kanikuly_protiv_empresa",
+      "card.taxes_accounting_empresa.overview.overview"
+    ],
+    "prerequisite_card_ids": ["card.taxes_accounting_empresa.reference.ref_nalogovoe_rezidentstvo"],
+    "text": {
+      "ru": {
+        "title": "Налоговые каникулы для новых налоговых резидентов",
+        "short": "Льгота для новых резидентов на доход из-за рубежа: выбор между временным освобождением и пониженной фиксированной ставкой. Цифры обязательно сверяйте с DGI.",
+        "body": "Новый налоговый резидент Уругвая может воспользоваться льготой на доход из-за рубежа от капитала — прежде всего иностранные дивиденды и проценты. В чатах эту льготу называют «налоговыми каникулами» (tax holiday): после переезда часть зарубежного пассивного дохода какое-то время не облагается уругвайским налогом.\n\nОбычно описывают выбор из двух вариантов: (1) временное полное освобождение на несколько лет — в обсуждениях называют разные сроки (часто 5–10 лет, иногда упоминают 11), после чего доход начинает облагаться; либо (2) сразу платить пониженную фиксированную ставку (называют примерно 7–12%) бессрочно. Точные сроки, ставка и право выбора зависят от года получения резидентства и типа дохода и со временем менялись — конкретные цифры обязательно сверяйте с contador и DGI.\n\nВажно: льгота касается зарубежного дохода от капитала, а не любой деятельности. Доход уругвайского источника и активная работа из Уругвая под каникулы обычно не подпадают. Выбор режима делается в определённый момент и его нужно правильно задекларировать, поэтому решение лучше готовить заранее, а не после получения денег."
+      },
+      "en": {
+        "title": "Tax holiday for new tax residents",
+        "short": "A break for new residents on foreign income: a choice between a temporary exemption and a reduced flat rate. Always verify the figures with the DGI.",
+        "body": "A new Uruguayan tax resident can use a break on foreign capital income — mainly foreign dividends and interest. In chats this is called the “tax holiday” («nalogovye kanikuly»): after the move, part of your foreign passive income is not taxed in Uruguay for a period.\n\nThe choice is usually described as two options: (1) a temporary full exemption for several years — discussions cite different lengths (often 5–10 years, sometimes 11), after which the income becomes taxable; or (2) paying a reduced flat rate (reported as roughly 7–12%) from the start, indefinitely. The exact length, rate and the right to choose depend on the year you became resident and the type of income, and have changed over time — always verify the specific figures with a contador and the DGI.\n\nImportant: the break applies to foreign capital income, not to any activity. Uruguayan-source income and active work from Uruguay are generally not covered by the holiday. The regime is elected at a specific point and must be declared correctly, so prepare the decision in advance rather than after the money arrives."
+      },
+      "es": {
+        "title": "Vacaciones fiscales para nuevos residentes fiscales",
+        "short": "Un beneficio para nuevos residentes sobre ingresos del exterior: elección entre una exoneración temporal y una tasa fija reducida. Verificá siempre las cifras con la DGI.",
+        "body": "Un nuevo residente fiscal uruguayo puede usar un beneficio sobre la renta de capital del exterior — sobre todo dividendos e intereses extranjeros. En los chats se le llama “tax holiday” o «vacaciones fiscales»: tras la mudanza, parte de tu ingreso pasivo del exterior no tributa en Uruguay durante un tiempo.\n\nSuele describirse como dos opciones: (1) una exoneración total temporal por varios años — en las discusiones se mencionan plazos distintos (a menudo 5–10 años, a veces 11), tras lo cual la renta pasa a tributar; o (2) pagar desde el inicio una tasa fija reducida (se menciona alrededor de 7–12%) de forma indefinida. El plazo exacto, la tasa y el derecho a elegir dependen del año en que pasaste a ser residente y del tipo de renta, y han cambiado con el tiempo — verificá siempre las cifras concretas con un contador y la DGI.\n\nImportante: el beneficio aplica a la renta de capital del exterior, no a cualquier actividad. La renta de fuente uruguaya y el trabajo activo desde Uruguay en general no quedan cubiertos. El régimen se opta en un momento determinado y debe declararse correctamente, así que conviené preparar la decisión con antelación y no después de que llegue el dinero."
+      },
+      "de": {
+        "title": "Steuerferien für neue Steueransässige",
+        "short": "Eine Vergünstigung für neue Ansässige auf Auslandseinkommen: Wahl zwischen einer befristeten Befreiung und einem reduzierten Pauschalsatz. Prüfe die Zahlen stets mit der DGI.",
+        "body": "Ein neuer uruguayischer Steueransässiger kann eine Vergünstigung auf ausländisches Kapitaleinkommen nutzen — vor allem ausländische Dividenden und Zinsen. In Chats wird dies „tax holiday“ («nalogovye kanikuly») genannt: Nach dem Umzug bleibt ein Teil des ausländischen passiven Einkommens für eine Zeit in Uruguay steuerfrei.\n\nMeist werden zwei Optionen beschrieben: (1) eine befristete vollständige Befreiung für mehrere Jahre — in Diskussionen werden unterschiedliche Zeiträume genannt (oft 5–10 Jahre, manchmal 11), danach wird das Einkommen steuerpflichtig; oder (2) von Anfang an einen reduzierten Pauschalsatz (genannt werden etwa 7–12%) unbefristet zu zahlen. Die genaue Dauer, der Satz und das Wahlrecht hängen vom Jahr der Ansässigkeit und der Einkommensart ab und haben sich im Lauf der Zeit geändert — prüfe die konkreten Zahlen stets mit einem contador und der DGI.\n\nWichtig: Die Vergünstigung gilt für ausländisches Kapitaleinkommen, nicht für jede Tätigkeit. Einkommen uruguayischer Quelle und aktive Arbeit aus Uruguay sind in der Regel nicht von den Steuerferien gedeckt. Die Regelung wird zu einem bestimmten Zeitpunkt gewählt und muss korrekt deklariert werden — bereite die Entscheidung daher im Voraus vor und nicht erst, nachdem das Geld eingetroffen ist."
+      }
+    }
+  },
+  {
+    "card_id": "card.taxes_accounting_empresa.warning.nalogovye_kanikuly_protiv_empresa",
+    "topic_id": "topic.taxes_accounting_empresa",
+    "content_category": "warning",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": ["financial"],
+    "confidence": "medium",
+    "confidence_score": 0.5,
+    "quality_score": 0.58,
+    "review_reasons": ["financial_topic_verify_before_action", "editorially_authored_card"],
+    "subtopic_ids": ["subtopic.taxes_accounting_empresa.reference"],
+    "keyword_ids": ["kw.curated.nalog", "kw.curated.dgi", "kw.curated.bps", "kw.curated.empresa", "kw.curated.unipersonal", "kw.curated.monotributo", "kw.curated.contador"],
+    "glossary_term_ids": ["term.residencia", "term.dgi", "term.bps"],
+    "entity_ids": ["entity.dgi", "entity.bps"],
+    "resource_ids": ["resource.entity.dgi", "resource.entity.bps"],
+    "related_card_ids": [
+      "card.taxes_accounting_empresa.reference.ref_nalogovye_kanikuly",
+      "card.taxes_accounting_empresa.reference.ref_nalogovoe_rezidentstvo",
+      "card.taxes_accounting_empresa.warning.kogda_empresa_mozhet_byt_lishney_ili_riskovannoy"
+    ],
+    "prerequisite_card_ids": ["card.taxes_accounting_empresa.reference.ref_nalogovye_kanikuly"],
+    "text": {
+      "ru": {
+        "title": "Налоговые каникулы и empresa: подводные камни",
+        "short": "Частые заблуждения про «ноль налогов» и про то, как местная деятельность и empresa ломают льготу.",
+        "body": "Главное заблуждение — «у меня каникулы, значит налогов нет вообще». Льгота касается в первую очередь зарубежного пассивного дохода (дивиденды, проценты). Зарплата, услуги и работа, выполняемая из Уругвая, а также любой доход уругвайского источника обычно облагаются как обычно, независимо от каникул.\n\nЕсли вы открываете unipersonal, monotributo или SAS и ведёте деятельность локально, появляются регулярные обязательства перед DGI и BPS (и возможная Fonasa) — каникулы на это не распространяются. То есть «оформить empresa, чтобы подтвердить доход» и «иметь налоговые каникулы на зарубежный доход» — это две разные истории, которые легко спутать.\n\nЕщё риски: не все активы попадают под льготу (например, деривативы упоминают как исключение); каждый член семьи считается отдельно; выбор режима привязан к срокам и требует декларации. Не переводите крупные суммы и не открывайте деятельность «на всякий случай» до письменной консультации с contador, который работает с иностранным доходом."
+      },
+      "en": {
+        "title": "Tax holiday vs empresa: the pitfalls",
+        "short": "Common myths about “zero tax” and how local activity and an empresa break the holiday.",
+        "body": "The biggest myth is “I have the holiday, so I owe no tax at all.” The break applies mainly to foreign passive income (dividends, interest). Salary, services and work performed from Uruguay, as well as any Uruguayan-source income, are generally taxed as usual, regardless of the holiday.\n\nIf you open a unipersonal, monotributo or SAS and operate locally, you take on recurring obligations to the DGI and BPS (and possibly Fonasa) — the holiday does not cover those. In other words, “opening an empresa to prove income” and “having a tax holiday on foreign income” are two different stories that are easy to confuse.\n\nMore risks: not all assets qualify (derivatives, for example, are mentioned as an exception); each family member is assessed separately; electing the regime is tied to deadlines and requires a declaration. Do not transfer large sums or open an activity “just in case” before getting written advice from a contador who works with foreign income."
+      },
+      "es": {
+        "title": "Vacaciones fiscales vs empresa: las trampas",
+        "short": "Mitos frecuentes sobre el “cero impuestos” y cómo la actividad local y una empresa rompen el beneficio.",
+        "body": "El mayor mito es “tengo las vacaciones fiscales, así que no pago ningún impuesto”. El beneficio aplica sobre todo al ingreso pasivo del exterior (dividendos, intereses). El sueldo, los servicios y el trabajo realizado desde Uruguay, así como cualquier renta de fuente uruguaya, en general tributan de forma normal, independientemente del beneficio.\n\nSi abrís una unipersonal, monotributo o SAS y operás localmente, asumís obligaciones periódicas ante la DGI y el BPS (y posible Fonasa) — las vacaciones fiscales no cubren eso. Es decir, “abrir una empresa para acreditar ingresos” y “tener vacaciones fiscales sobre ingresos del exterior” son dos historias distintas que se confunden fácil.\n\nMás riesgos: no todos los activos califican (los derivados, por ejemplo, se mencionan como excepción); cada integrante de la familia se evalúa por separado; optar por el régimen está atado a plazos y exige una declaración. No transfieras sumas grandes ni abras una actividad “por las dudas” antes de obtener asesoramiento por escrito de un contador que trabaje con ingresos del exterior."
+      },
+      "de": {
+        "title": "Steuerferien vs. empresa: die Fallstricke",
+        "short": "Häufige Irrtümer über „null Steuern“ und wie lokale Tätigkeit und eine empresa die Vergünstigung aushebeln.",
+        "body": "Der größte Irrtum ist „ich habe die Steuerferien, also zahle ich gar keine Steuern“. Die Vergünstigung gilt vor allem für ausländisches passives Einkommen (Dividenden, Zinsen). Gehalt, Dienstleistungen und aus Uruguay geleistete Arbeit sowie jedes Einkommen uruguayischer Quelle werden in der Regel normal besteuert — unabhängig von den Steuerferien.\n\nWenn du eine unipersonal, monotributo oder SAS eröffnest und lokal tätig bist, übernimmst du laufende Pflichten gegenüber DGI und BPS (und möglicherweise Fonasa) — die Steuerferien decken das nicht ab. Mit anderen Worten: „eine empresa eröffnen, um Einkommen nachzuweisen“ und „Steuerferien auf Auslandseinkommen haben“ sind zwei verschiedene Dinge, die leicht verwechselt werden.\n\nWeitere Risiken: nicht alle Vermögenswerte qualifizieren (Derivate werden z. B. als Ausnahme genannt); jedes Familienmitglied wird separat beurteilt; die Wahl der Regelung ist an Fristen gebunden und erfordert eine Erklärung. Überweise keine großen Summen und eröffne keine Tätigkeit „vorsichtshalber“, bevor du eine schriftliche Beratung von einem contador hast, der mit Auslandseinkommen arbeitet."
+      }
+    }
+  }
+]

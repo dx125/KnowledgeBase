@@ -21,8 +21,32 @@ Rather than delete the apparent duplicates (which would destroy distinct RU cont
 
 | File | What |
 |---|---|
-| `card-overrides.json` | The corrections. Keyed by `card_id`. RU is never overridden. |
+| `card-overrides.json` | EN/ES/DE corrections to cards that already exist in the raw dataset. Keyed by `card_id`. RU never overridden. |
+| `new-cards.json` | Cards the vendor build never produced, authored by us (RU + EN/ES/DE) to close content gaps. Appended at deploy/build time. |
 | `CHANGELOG.md` | Dated log of what was changed and why. |
+
+### `new-cards.json` shape
+
+Each entry is one self-contained card — metadata + all four locales inline. The four i18n keys
+are **derived from `card_id`** (`card.X` → `cards.X.{title,short,body,search}`), and `search_text`
+is derived from title+short+body, so the authoring file stays compact:
+
+```json
+[
+  {
+    "card_id": "card.taxes_accounting_empresa.reference.ref_nalogovye_kanikuly",
+    "topic_id": "topic.taxes_accounting_empresa",
+    "content_category": "reference", "visibility": "public", "status": "active",
+    "needs_review": true, "staleness_risk": "high",
+    "subtopic_ids": ["…"], "keyword_ids": ["…"], "glossary_term_ids": ["…"],
+    "text": { "ru": {"title":"…","short":"…","body":"…"}, "en": {…}, "es": {…}, "de": {…} }
+  }
+]
+```
+
+Link ids (glossary/entity/resource/subtopic) that don't resolve to a master are silently dropped
+by deploy, so **reuse existing ids** to stay FK-safe. `applyNewCards()` skips any `card_id` that
+already exists in the raw dataset (never clobbers a real card).
 
 > **Shipping the corrections into a new raw version.** The corrections also exist as a baked
 > dataset version — `kb_dataset_uy_v6_6` (`6.6.0-decollapsed`), built by
@@ -52,11 +76,11 @@ Rather than delete the apparent duplicates (which would destroy distinct RU cont
 
 ## How it's wired
 
-`scripts/deploy.mjs` loads the raw locales, then calls
-`applyCardOverrides()` (`scripts/lib/apply-overrides.mjs`) which writes the overridden
-values into the in-memory locale objects before rows are built. The raw files on disk are
-never modified. The deploy `source_hash` includes the overrides, so the version row
-reflects raw + corrections.
+`scripts/deploy.mjs` loads the raw locales, then calls `applyCardOverrides()`
+(`scripts/lib/apply-overrides.mjs`) to write EN/ES/DE corrections into the in-memory locale
+objects, then `applyNewCards()` (`scripts/lib/apply-new-cards.mjs`) to append our editorial
+cards, before rows are built. The raw files on disk are never modified. The deploy `source_hash`
+includes both layers, so the version row reflects raw + corrections + new cards.
 
 ## Workflows
 

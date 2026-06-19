@@ -27,6 +27,7 @@ import { createHash } from 'node:crypto';
 import { config as loadEnv } from 'dotenv';
 import pg from 'pg';
 import { applyCardOverrides } from './lib/apply-overrides.mjs';
+import { applyNewCards } from './lib/apply-new-cards.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 loadEnv({ path: join(HERE, '..', '.env') }); // single project-root .env
@@ -80,9 +81,19 @@ if (ov.drift.length)
 if (ov.cardsTouched)
   console.log(`Overrides: applied EN/ES/DE corrections to ${ov.cardsTouched} card(s) (${ov.applied} locale-fields).`);
 
-// Hash reflects raw input + our overrides, so the version row tracks both.
+// Editorially-authored NEW cards (gaps the vendor build never covered). Appended
+// to `cards` and all four locales. See dataset-patches/ + scripts/lib/apply-new-cards.mjs.
+const NEW_CARDS_PATH = join(HERE, '..', 'dataset-patches', 'new-cards.json');
+const newCardsRaw = existsSync(NEW_CARDS_PATH) ? readFileSync(NEW_CARDS_PATH, 'utf-8') : '';
+const nc = applyNewCards({ cards, locales, newCardsPath: NEW_CARDS_PATH });
+if (nc.dupes.length)
+  console.warn(`⚠ new-cards collide with existing card_id(s) — skipped: ${nc.dupes.join(', ')}`);
+if (nc.added)
+  console.log(`New cards: added ${nc.added} editorial card(s) (${nc.ids.map((i) => i.split('.').slice(-1)[0]).join(', ')}).`);
+
+// Hash reflects raw input + our overrides + new cards, so the version row tracks all three.
 const sourceHash = createHash('sha256')
-  .update(FILES.map((f) => raw[f]).join('\n') + '\n@overrides\n' + overridesRaw)
+  .update(FILES.map((f) => raw[f]).join('\n') + '\n@overrides\n' + overridesRaw + '\n@newcards\n' + newCardsRaw)
   .digest('hex');
 
 // --- Topics (from taxonomy + the topic's summary card for message counts) -----

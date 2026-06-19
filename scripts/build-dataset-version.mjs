@@ -34,6 +34,7 @@ import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { config as loadEnv } from 'dotenv';
 import { applyCardOverrides } from './lib/apply-overrides.mjs';
+import { applyNewCards } from './lib/apply-new-cards.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 loadEnv({ path: join(HERE, '..', '.env') });
@@ -51,12 +52,17 @@ if (!SRC || !DEST || !VERSION) {
 }
 
 const LOCALES = ['ru', 'en', 'es', 'de'];
-const OVERRIDE_LOCALE_FILES = new Set(['locale_en.json', 'locale_es.json', 'locale_de.json']);
-const REGENERATED = new Set([...OVERRIDE_LOCALE_FILES, 'DATASET_MANIFEST.json']);
+// Files we write fresh rather than copy: the three non-RU locales (override text),
+// plus kb_cards.json + locale_ru.json (new cards add RU text + card metadata), plus the manifest.
+const REGENERATED = new Set([
+  'locale_en.json', 'locale_es.json', 'locale_de.json',
+  'kb_cards.json', 'locale_ru.json', 'DATASET_MANIFEST.json',
+]);
 const NOW = new Date().toISOString().replace(/\.\d+Z$/, 'Z');
 
-// --- 1. apply overrides to the non-RU locales (in memory) --------------------
-const cards = JSON.parse(readFileSync(join(SRC, 'kb_cards.json'), 'utf-8')).cards;
+// --- 1. apply overrides + new cards (in memory) ------------------------------
+const kb = JSON.parse(readFileSync(join(SRC, 'kb_cards.json'), 'utf-8'));
+const cards = kb.cards; // same array reference — mutating `cards` updates `kb`
 const locales = Object.fromEntries(
   LOCALES.map((l) => [l, JSON.parse(readFileSync(join(SRC, `locale_${l}.json`), 'utf-8'))]),
 );
@@ -74,17 +80,27 @@ if (ov.drift.length) {
 }
 console.log(`Overrides folded into en/es/de: ${ov.cardsTouched} cards (${ov.applied} locale-fields).`);
 
+const NEW_CARDS_PATH = join(HERE, '..', 'dataset-patches', 'new-cards.json');
+const nc = applyNewCards({ cards, locales, newCardsPath: NEW_CARDS_PATH });
+if (nc.dupes.length) {
+  console.error(`✗ new-cards collide with existing card_id(s) — aborting: ${nc.dupes.join(', ')}`);
+  process.exit(1);
+}
+if (nc.added) console.log(`New cards folded into kb_cards + all locales: ${nc.added} (${nc.ids.length} ids).`);
+
 // Refresh the meta block of each rewritten locale so the file documents itself.
-for (const l of ['en', 'es', 'de']) {
+const cardCount = cards.length;
+for (const l of LOCALES) {
   const m = (locales[l].meta = locales[l].meta ?? {});
   m.schema_version = VERSION;
   m.updated_at = NOW;
-  m.translation_quality = 'reader_ready_decollapsed_from_ru';
+  if (l !== 'ru') m.translation_quality = 'reader_ready_decollapsed_from_ru';
   m.notes =
-    'v6.6: per-card EN/ES/DE card text (title/short/body/search) rebuilt from the Russian ' +
-    'editorial source, replacing the v6.5 per-category collapsed templates. All 265 cards are ' +
-    'now mutually distinct per locale (matching RU). Uruguay-specific loanwords and proper nouns ' +
-    'preserved. RU remains the editorial source of truth.';
+    `v6.6: per-card EN/ES/DE card text (title/short/body/search) rebuilt from the Russian ` +
+    `editorial source, replacing the v6.5 per-category collapsed templates; all cards mutually ` +
+    `distinct per locale. Plus ${nc.added} editorially-authored card(s) closing source-evidence ` +
+    `gaps (tax residency / foreign-income tax holiday). ${cardCount} cards total. RU remains the ` +
+    `editorial source of truth.`;
 }
 
 // --- 2. copy the source tree (minus regenerated files) -----------------------
@@ -103,8 +119,11 @@ const walk = (dir) => {
 };
 walk(SRC);
 
-// --- 3. write the rewritten locales ------------------------------------------
-for (const l of ['en', 'es', 'de'])
+// --- 3. write the regenerated content files ----------------------------------
+// kb_cards.json (new cards appended) + all four locales (RU gains new-card text;
+// en/es/de gain overrides + new-card text).
+writeFileSync(join(DEST, 'kb_cards.json'), JSON.stringify(kb, null, 1) + '\n', 'utf-8');
+for (const l of LOCALES)
   writeFileSync(join(DEST, `locale_${l}.json`), JSON.stringify(locales[l], null, 2) + '\n', 'utf-8');
 
 // --- 4. version patch doc ----------------------------------------------------
@@ -130,25 +149,36 @@ editorial source** for all 265 base cards:
 
 Uruguay-specific loanwords and proper nouns are preserved verbatim (cédula, gastos comunes,
 escribano, contador, DGI, BPS, Fonasa, UTE, OSE, Antel, BROU, empresa, unipersonal, monotributo,
-SAS, …). Russian remains the editorial source of truth and \`locale_ru.json\` is unchanged.
+SAS, …). Russian remains the editorial source of truth.
+
+## New editorial cards (content-gap closure)
+
+v6.6 also **adds ${nc.added} editorially-authored card(s)** (RU + EN/ES/DE) that the vendor build
+never produced, closing a gap found by reviewing the source evidence (claims / clean_messages)
+against the published cards: tax residency and the foreign-income **tax holiday** for new residents
+were discussed by the community but covered by 0 of the 21 taxes cards. New \`card_id\`s:
+${nc.ids.map((i) => '`' + i + '`').join(', ') || '(none)'}. Quantitative claims are marked
+\`needs_review\` / \`staleness_risk: high\` and hedged ("verify with a contador / DGI").
 
 ## Result
 
 | | RU | EN | ES | DE |
 |---|---|---|---|---|
-| distinct card bodies | 265 | 265 | 265 | 265 |
+| distinct card bodies | ${cardCount} | ${cardCount} | ${cardCount} | ${cardCount} |
 | cards sharing a body with another | 0 | 0 | 0 | 0 |
 
 0 Cyrillic in EN/ES/DE card fields (outside the loanword whitelist); no \`en\`==\`es\`==\`de\`
-collapse; no card equals its RU source. No cards were added or deleted — the apparent
-duplication was a translation artifact, not real duplication.
+collapse; no card equals its RU source. No cards were deleted — the apparent duplication in v6.5
+was a translation artifact, not real duplication. Card count rose from 265 to ${cardCount} via the
+new editorial cards above.
 
 ## Provenance / reproducibility
 
 Built by \`scripts/build-dataset-version.mjs\` in the KnowledgeBase repo, which folds the
-git-tracked corrections in \`dataset-patches/card-overrides.json\` onto the v6.5 raw locales.
-Each override carries an \`md5(RU body)[:8]\` drift guard; the build aborts on drift or unknown
-card_ids. See the repo's \`docs/DATASET_DUPLICATION_REPORT.md\`.
+git-tracked corrections in \`dataset-patches/card-overrides.json\` (EN/ES/DE fixes) and
+\`dataset-patches/new-cards.json\` (added cards) onto the v6.5 raw dataset. Each override carries an
+\`md5(RU body)[:8]\` drift guard; the build aborts on drift, unknown card_ids, or new-card id
+collisions. See the repo's \`docs/DATASET_DUPLICATION_REPORT.md\`.
 
 ## Not regenerated in this version
 

@@ -3,6 +3,33 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-19 — New editorial cards: tax residency + foreign-income tax holiday
+
+Content review of `taxes_accounting_empresa` (RU cards vs `claims.jsonl` / `clean_messages.jsonl`)
+found a real gap: tax residency and the foreign-income **tax holiday** for new residents — the
+single most-discussed tax topic for this audience (`"налоговые каникулы"` 8 claims, `"tax holiday"`
+5, `"освобождение от налог"` 12) — were covered by **0 of 21** taxes cards (which only cover empresa
+formation). Added 3 public cards (RU authored as source of truth + EN/ES/DE):
+
+- `card.taxes_accounting_empresa.reference.ref_nalogovoe_rezidentstvo` — Tax residency & foreign
+  income (183-day test, centre of interests, investment route; Uruguayan-source vs foreign; the
+  remote-work catch).
+- `card.taxes_accounting_empresa.reference.ref_nalogovye_kanikuly` — The tax holiday (temporary
+  exemption vs reduced flat rate; what income qualifies). Figures hedged + `needs_review`.
+- `card.taxes_accounting_empresa.warning.nalogovye_kanikuly_protiv_empresa` — Pitfalls: "zero tax"
+  myth, local activity/empresa breaks the holiday, deadlines, excluded assets.
+
+- **Infrastructure**
+  - `scripts/lib/apply-new-cards.mjs` (new) — appends cards from `new-cards.json` to `cards` + all
+    four locales; derives i18n keys from `card_id`; derives `search_text`; skips id collisions.
+  - `dataset-patches/new-cards.json` (new) — the 3 cards, all metadata + 4-locale text inline.
+  - `scripts/deploy.mjs` — applies new cards after overrides; `source_hash` now covers raw +
+    overrides + new cards. Dry-run: 265 → **268 cards** (123 public+active), +12 translations.
+  - `scripts/build-dataset-version.mjs` — folds new cards into the baked dataset too (regenerates
+    `kb_cards.json` + `locale_ru.json`); aborts on id collision.
+- Quantitative tax claims are `needs_review` + `staleness_risk: high` and explicitly say "verify
+  with a contador / DGI" (community figures vary: 5 / 10 / 11 years, ~7–12%).
+
 ## 2026-06-19 — Shipped v6.6 dataset (overrides folded into the source build)
 
 Materialized the override corrections into a standalone raw dataset version so the fix lives
