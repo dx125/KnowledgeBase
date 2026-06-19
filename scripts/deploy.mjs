@@ -20,12 +20,13 @@
 // whatever is in the dataset folder becomes the live data, nothing stale lingers.
 // =============================================================================
 
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
 import { config as loadEnv } from 'dotenv';
 import pg from 'pg';
+import { applyCardOverrides } from './lib/apply-overrides.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 loadEnv({ path: join(HERE, '..', '.env') }); // single project-root .env
@@ -58,7 +59,6 @@ const FILES = [
   ...LOCALES.map((l) => `locale_${l}.json`),
 ];
 const raw = Object.fromEntries(FILES.map((f) => [f, readFileSync(join(DATASET_DIR, f), 'utf-8')]));
-const sourceHash = createHash('sha256').update(FILES.map((f) => raw[f]).join('\n')).digest('hex');
 
 const kb = JSON.parse(raw['kb_cards.json']);
 const glossary = JSON.parse(raw['glossary.json']);
@@ -66,6 +66,24 @@ const entityIndex = JSON.parse(raw['entity_index.json']);
 const resourcesFile = JSON.parse(raw['resources.json']);
 const locales = Object.fromEntries(LOCALES.map((l) => [l, JSON.parse(raw[`locale_${l}.json`])]));
 const cards = kb.cards;
+
+// --- Our tracked corrections (reproducible across raw-data drops) -------------
+// Re-apply git-owned EN/ES/DE card translations on top of the raw vendor locales.
+// See dataset-patches/ + scripts/lib/apply-overrides.mjs.
+const OVERRIDES_PATH = join(HERE, '..', 'dataset-patches', 'card-overrides.json');
+const overridesRaw = existsSync(OVERRIDES_PATH) ? readFileSync(OVERRIDES_PATH, 'utf-8') : '';
+const ov = applyCardOverrides({ cards, locales, overridesPath: OVERRIDES_PATH });
+if (ov.unknown.length)
+  console.warn(`⚠ overrides reference ${ov.unknown.length} unknown card(s): ${ov.unknown.slice(0, 5).join(', ')}${ov.unknown.length > 5 ? '…' : ''}`);
+if (ov.drift.length)
+  console.warn(`⚠ RU source changed since translation for ${ov.drift.length} card(s) — re-review: ${ov.drift.slice(0, 5).map((d) => d.cardId).join(', ')}${ov.drift.length > 5 ? '…' : ''}`);
+if (ov.cardsTouched)
+  console.log(`Overrides: applied EN/ES/DE corrections to ${ov.cardsTouched} card(s) (${ov.applied} locale-fields).`);
+
+// Hash reflects raw input + our overrides, so the version row tracks both.
+const sourceHash = createHash('sha256')
+  .update(FILES.map((f) => raw[f]).join('\n') + '\n@overrides\n' + overridesRaw)
+  .digest('hex');
 
 // --- Topics (from taxonomy + the topic's summary card for message counts) -----
 const taxTopics = kb.taxonomies?.topics ?? [];
