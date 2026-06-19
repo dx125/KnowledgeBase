@@ -24,6 +24,13 @@ Rather than delete the apparent duplicates (which would destroy distinct RU cont
 | `card-overrides.json` | The corrections. Keyed by `card_id`. RU is never overridden. |
 | `CHANGELOG.md` | Dated log of what was changed and why. |
 
+> **Shipping the corrections into a new raw version.** The corrections also exist as a baked
+> dataset version — `kb_dataset_uy_v6_6` (`6.6.0-decollapsed`), built by
+> `scripts/build-dataset-version.mjs`, which folds `card-overrides.json` into the locale files
+> and regenerates the manifest. v6.6 is verified idempotent under the override layer (0 diffs),
+> so pointing `DATASET_DIR` at it makes the override layer a no-op. Rebuild after editing
+> overrides: `node scripts/build-dataset-version.mjs --dest <dir> --version <x.y.z>`.
+
 ### `card-overrides.json` shape
 
 ```json
