@@ -683,6 +683,222 @@
       "body": "Übertrage die russische/europäische Verfahrenslogik nicht ungeprüft auf Uruguay. Betrachte eine mündliche Empfehlung nicht als Rechtsgutachten. Unterschreibe keinen Vertrag, Antrag, Verzicht oder keine Vereinbarung, wenn du nicht verstehst, was genau du anerkennst.\n\nHäufige Fehler: die trámite-Nummer nicht aufbewahren; eine denuncia nicht rechtzeitig erstatten; Bußgelder ignorieren; die Intendencia, Migraciones, das DNIC und andere Behörden verwechseln; persönliche Daten an unbekannte Vermittler senden; die Qualifikation eines Spezialisten nicht prüfen.\n\nBetrifft die Situation ein Gericht, die Polizei, den Migrationsstatus, Steuern, einen Verkehrsunfall, eine große Summe oder die Gefahr einer Räumung, braucht man einen spezialisierten Fachmann. Die Wissensdatenbank hilft bei der Orientierung, ersetzt aber keine rechtliche Handlung."
     }
   },
+  "card.locations_neighborhoods_living.advice.advice": {
+    "ru_body_hash": "7548fe79",
+    "en": {
+      "title": "Tips on choosing a neighborhood",
+      "short": "The choice of city and neighborhood affects rent, transport, school, safety, humidity, noise and daily life more than listings suggest.",
+      "body": "• The first weeks it's better to live temporarily and look at neighborhoods on the ground.\n• Check the area in the morning, evening, at weekends and in the rain: the impression changes.\n• If you have children, start with the school/kindergarten, not the flat: daily logistics matter more than the view.\n• If you have no car, check buses, taxis, the distance to shops, the mutualista and public services.\n• Don't choose housing by the beach alone: humidity, wind and seasonality can be significant.\n• In resort areas, clarify what works in winter and what only in summer.\n• For remote work, separately check the internet, the noise and whether there's room for a workspace."
+    },
+    "es": {
+      "title": "Consejos para elegir un barrio",
+      "short": "La elección de la ciudad y el barrio afecta al alquiler, el transporte, la escuela, la seguridad, la humedad, el ruido y la vida diaria más de lo que sugieren los anuncios.",
+      "body": "• Las primeras semanas conviene vivir temporalmente y ver los barrios sobre el terreno.\n• Revisa la zona por la mañana, la tarde, los fines de semana y con lluvia: la impresión cambia.\n• Si tienes hijos, empieza por la escuela/jardín, no por la vivienda: la logística diaria importa más que la vista.\n• Si no tienes coche, revisa los autobuses, taxis, la distancia a los comercios, la mutualista y los servicios públicos.\n• No elijas vivienda solo por la playa: la humedad, el viento y la estacionalidad pueden ser importantes.\n• En las zonas turísticas, aclara qué funciona en invierno y qué solo en verano.\n• Para el trabajo remoto, revisa aparte el internet, el ruido y si hay espacio para un puesto de trabajo."
+    },
+    "de": {
+      "title": "Tipps zur Wahl eines Stadtviertels",
+      "short": "Die Wahl von Stadt und Viertel beeinflusst Miete, Verkehr, Schule, Sicherheit, Feuchtigkeit, Lärm und den Alltag stärker, als Anzeigen vermuten lassen.",
+      "body": "• Die ersten Wochen wohnt man besser vorübergehend und schaut sich die Viertel vor Ort an.\n• Prüfe das Gebiet morgens, abends, am Wochenende und bei Regen: der Eindruck ändert sich.\n• Wenn du Kinder hast, beginne mit der Schule/dem Kindergarten, nicht mit der Wohnung: die tägliche Logistik ist wichtiger als die Aussicht.\n• Hast du kein Auto, prüfe Busse, Taxis, die Entfernung zu Geschäften, die mutualista und öffentliche Dienste.\n• Wähle Wohnraum nicht allein nach dem Strand: Feuchtigkeit, Wind und Saisonabhängigkeit können erheblich sein.\n• Kläre in Urlaubsgebieten, was im Winter funktioniert und was nur im Sommer.\n• Prüfe für Remote-Arbeit gesondert das Internet, den Lärm und ob Platz für einen Arbeitsplatz ist."
+    }
+  },
+  "card.locations_neighborhoods_living.advice.kak_vybirat_rayon_dlya_zhizni": {
+    "ru_body_hash": "0bbcaaba",
+    "en": {
+      "title": "How to choose a neighborhood to live in",
+      "short": "How to choose a neighborhood to live in.",
+      "body": "How to choose a neighborhood to live in\n\nYou choose a neighborhood not by one nice flat but by the daily route. Check the trip to work/school, shops, pharmacies, transport, parking, safety in the evening, noise, humidity and internet quality.\n\nPractical steps:\n• walk it in the morning, evening and on a weekend;\n• see the area in the rain and after sunset;\n• check how to get around without a car;\n• compare gastos comunes, utility costs and the condition of the buildings;\n• if you have children — first look at the school/kindergarten and the way there;\n• before buying, live in the area on a rental.\n\nMontevideo, Punta, the coast and the interior are different scenarios of life, not just different points on the map."
+    },
+    "es": {
+      "title": "Cómo elegir un barrio para vivir",
+      "short": "Cómo elegir un barrio para vivir.",
+      "body": "Cómo elegir un barrio para vivir\n\nUn barrio se elige no por una vivienda bonita, sino por la ruta diaria. Revisa el trayecto al trabajo/escuela, comercios, farmacias, transporte, estacionamiento, seguridad de noche, ruido, humedad y calidad de internet.\n\nPasos prácticos:\n• recórrelo por la mañana, la tarde y un fin de semana;\n• ve la zona con lluvia y tras el atardecer;\n• comprueba cómo moverte sin coche;\n• compara gastos comunes, gastos de servicios y el estado de los edificios;\n• si tienes hijos — primero mira la escuela/jardín y el camino hasta allí;\n• antes de comprar, vive en la zona de alquiler.\n\nMontevideo, Punta, la costa y el interior son escenarios de vida distintos, no solo puntos distintos en el mapa."
+    },
+    "de": {
+      "title": "Wie man ein Viertel zum Leben wählt",
+      "short": "Wie man ein Viertel zum Leben wählt.",
+      "body": "Wie man ein Viertel zum Leben wählt\n\nEin Viertel wählt man nicht nach einer schönen Wohnung, sondern nach dem täglichen Weg. Prüfe den Weg zur Arbeit/Schule, Geschäfte, Apotheken, Verkehr, Parken, Sicherheit am Abend, Lärm, Feuchtigkeit und Internetqualität.\n\nPraktische Schritte:\n• laufe es morgens, abends und an einem Wochenende ab;\n• sieh dir das Gebiet bei Regen und nach Sonnenuntergang an;\n• prüfe, wie man ohne Auto vorankommt;\n• vergleiche gastos comunes, Versorgungskosten und den Zustand der Gebäude;\n• wenn du Kinder hast — schau zuerst auf die Schule/den Kindergarten und den Weg dorthin;\n• wohne vor dem Kauf zur Miete im Gebiet.\n\nMontevideo, Punta, die Küste und das Landesinnere sind verschiedene Lebensszenarien, nicht nur verschiedene Punkte auf der Karte."
+    }
+  },
+  "card.locations_neighborhoods_living.checklist.checklist": {
+    "ru_body_hash": "3c05ac84",
+    "en": {
+      "title": "Neighborhood-check checklist",
+      "short": "The choice of city and neighborhood affects rent, transport, school, safety, humidity, noise and daily life more than listings suggest.",
+      "body": "Before choosing, note:\n□ the trip to school/work/doctor on an ordinary day;\n□ shops, pharmacies, ATMs, bus stops;\n□ noise from roads, bars, construction and neighboring buildings;\n□ safety in the evening and street lighting;\n□ parking and getting out of the area;\n□ humidity, wind, proximity to the sea and sun in the flat;\n□ the availability of internet of the needed quality;\n□ the seasonality of prices and infrastructure;\n□ transport costs if the area is cheaper but farther;\n□ how the area feels after a week, not on the first day.\n\nAlso check how the area feels after sunset and in bad weather. If you plan to live without a car, walk the usual routes: shop, pharmacy, bus stop, school, doctor. For a purchase or a long rental it's useful to talk to neighbors/the concierge about noise, leaks, safety and how the building works."
+    },
+    "es": {
+      "title": "Lista de revisión del barrio",
+      "short": "La elección de la ciudad y el barrio afecta al alquiler, el transporte, la escuela, la seguridad, la humedad, el ruido y la vida diaria más de lo que sugieren los anuncios.",
+      "body": "Antes de elegir, anota:\n□ el trayecto a la escuela/trabajo/médico en un día normal;\n□ comercios, farmacias, cajeros, paradas;\n□ ruido de calles, bares, obras y edificios vecinos;\n□ seguridad de noche e iluminación de las calles;\n□ estacionamiento y salida del barrio;\n□ humedad, viento, cercanía al mar y sol en la vivienda;\n□ disponibilidad de internet de la calidad necesaria;\n□ la estacionalidad de precios e infraestructura;\n□ gastos de transporte si la zona es más barata pero más lejos;\n□ cómo se siente la zona tras una semana, no el primer día.\n\nAdemás comprueba cómo se siente la zona tras el atardecer y con mal tiempo. Si planeas vivir sin coche, recorre a pie las rutas habituales: comercio, farmacia, parada, escuela, médico. Para una compra o un alquiler largo conviene hablar con los vecinos/el conserje sobre ruido, filtraciones, seguridad y el funcionamiento del edificio."
+    },
+    "de": {
+      "title": "Checkliste zur Prüfung des Viertels",
+      "short": "Die Wahl von Stadt und Viertel beeinflusst Miete, Verkehr, Schule, Sicherheit, Feuchtigkeit, Lärm und den Alltag stärker, als Anzeigen vermuten lassen.",
+      "body": "Notiere vor der Wahl:\n□ den Weg zur Schule/Arbeit/zum Arzt an einem gewöhnlichen Tag;\n□ Geschäfte, Apotheken, Geldautomaten, Haltestellen;\n□ Lärm von Straßen, Bars, Baustellen und Nachbargebäuden;\n□ Sicherheit am Abend und Straßenbeleuchtung;\n□ Parken und die Ausfahrt aus dem Viertel;\n□ Feuchtigkeit, Wind, Nähe zum Meer und Sonne in der Wohnung;\n□ die Verfügbarkeit von Internet der nötigen Qualität;\n□ die Saisonabhängigkeit von Preisen und Infrastruktur;\n□ Transportkosten, wenn das Gebiet günstiger, aber weiter weg ist;\n□ wie sich das Gebiet nach einer Woche anfühlt, nicht am ersten Tag.\n\nPrüfe zusätzlich, wie sich das Gebiet nach Sonnenuntergang und bei schlechtem Wetter anfühlt. Wenn du ohne Auto leben willst, gehe die üblichen Wege zu Fuß: Geschäft, Apotheke, Haltestelle, Schule, Arzt. Für einen Kauf oder eine lange Miete ist es nützlich, mit Nachbarn/dem Concierge über Lärm, undichte Stellen, Sicherheit und den Betrieb des Gebäudes zu sprechen."
+    }
+  },
+  "card.locations_neighborhoods_living.community_experience.chto_lyudi_chasche_vsego_obsuzhdayut_pro_goroda_i_rayony": {
+    "ru_body_hash": "8171e5ac",
+    "en": {
+      "title": "Practical experience and opinions — cities, neighborhoods and choosing where to live",
+      "short": "Practical experience and opinions — cities and neighborhoods.",
+      "body": "Practical experience and opinions — cities and neighborhoods\n\nMost often people compare not the \"best city\" but a personal trade-off: infrastructure versus calm, the sea versus transport, the center versus space, price versus humidity and costs.\n\nRecurring conclusions:\n• Montevideo is more convenient for banks, doctors, schools and administrative tasks, but the neighborhood decides a lot.\n• Punta and Maldonado are good for the sea and a calm rhythm, but seasonality affects prices, traffic and the availability of services.\n• The coast and Ciudad de la Costa are often chosen for houses and air, but it can be harder without a car.\n• A cheap area can turn out expensive because of transport, safety or poor housing.\n\nThe best test is to live temporarily and compare the real daily life, not the impression from a viewing."
+    },
+    "es": {
+      "title": "Experiencia práctica y opiniones — ciudades, barrios y elección del lugar de vida",
+      "short": "Experiencia práctica y opiniones — ciudades y barrios.",
+      "body": "Experiencia práctica y opiniones — ciudades y barrios\n\nLo más frecuente es que la gente compare no la \"mejor ciudad\", sino un compromiso personal: infraestructura frente a tranquilidad, mar frente a transporte, centro frente a espacio, precio frente a humedad y gastos.\n\nConclusiones que se repiten:\n• Montevideo es más cómodo para bancos, médicos, escuelas y trámites administrativos, pero el barrio decide mucho.\n• Punta y Maldonado son buenos por el mar y un ritmo tranquilo, pero la estacionalidad afecta los precios, el tráfico y la disponibilidad de servicios.\n• La costa y Ciudad de la Costa se eligen a menudo por las casas y el aire, pero sin coche puede ser más difícil.\n• Una zona barata puede salir cara por el transporte, la seguridad o la mala vivienda.\n\nLa mejor prueba es vivir temporalmente y comparar la vida real, no la impresión de una visita."
+    },
+    "de": {
+      "title": "Praktische Erfahrung und Meinungen — Städte, Viertel und die Wahl des Wohnorts",
+      "short": "Praktische Erfahrung und Meinungen — Städte und Viertel.",
+      "body": "Praktische Erfahrung und Meinungen — Städte und Viertel\n\nAm häufigsten vergleichen Menschen nicht die \"beste Stadt\", sondern einen persönlichen Kompromiss: Infrastruktur gegen Ruhe, Meer gegen Verkehr, Zentrum gegen Raum, Preis gegen Feuchtigkeit und Kosten.\n\nWiederkehrende Schlussfolgerungen:\n• Montevideo ist bequemer für Banken, Ärzte, Schulen und administrative Aufgaben, aber das Viertel entscheidet vieles.\n• Punta und Maldonado sind gut für das Meer und einen ruhigen Rhythmus, aber die Saisonabhängigkeit beeinflusst Preise, Verkehr und die Verfügbarkeit von Diensten.\n• Die Küste und Ciudad de la Costa werden oft wegen der Häuser und der Luft gewählt, aber ohne Auto kann es schwieriger sein.\n• Ein günstiges Gebiet kann wegen Verkehr, Sicherheit oder schlechter Wohnungen teuer werden.\n\nDer beste Test ist, vorübergehend zu wohnen und den echten Alltag zu vergleichen, nicht den Eindruck einer Besichtigung."
+    }
+  },
+  "card.locations_neighborhoods_living.community_experience.community_experience": {
+    "ru_body_hash": "fb31eff6",
+    "en": {
+      "title": "Practical experience of choosing a place",
+      "short": "The choice of city and neighborhood affects rent, transport, school, safety, humidity, noise and daily life more than listings suggest.",
+      "body": "A common experience: people arrive with the idea of \"living by the ocean\" and then change priorities after a few months. For some the school and a doctor nearby matter more, for some quiet, for some being able to walk everywhere, for some parking and a house. Uruguay is calm, but daily life depends heavily on the specific block.\n\nMontevideo is convenient for services, schools and healthcare, but more expensive and noisier. The coast gives air and space, but may require a car. Punta del Este is comfortable in season and can be empty/expensive at other times. Inland towns are cheaper, but the choice of services and a Russian-speaking environment is smaller.\n\nThe most consistent conclusion: first test the neighborhood, then sign a long lease or buy."
+    },
+    "es": {
+      "title": "Experiencia práctica al elegir un lugar",
+      "short": "La elección de la ciudad y el barrio afecta al alquiler, el transporte, la escuela, la seguridad, la humedad, el ruido y la vida diaria más de lo que sugieren los anuncios.",
+      "body": "Una experiencia frecuente: la gente llega con la idea de \"vivir junto al océano\" y luego cambia de prioridades tras unos meses. A unos les importa más la escuela y un médico cerca, a otros el silencio, a otros poder andar a pie, a otros el estacionamiento y una casa. Uruguay es tranquilo, pero la vida diaria depende mucho de la cuadra concreta.\n\nMontevideo es cómodo por sus servicios, escuelas y medicina, pero más caro y ruidoso. La costa da aire y espacio, pero puede exigir coche. Punta del Este es cómoda en temporada y puede estar vacía/cara en otros períodos. Las ciudades del interior son más baratas, pero la oferta de servicios y de entorno rusoparlante es menor.\n\nLa conclusión más constante: primero prueba el barrio, luego firma un contrato largo o compra."
+    },
+    "de": {
+      "title": "Praktische Erfahrung bei der Wahl eines Ortes",
+      "short": "Die Wahl von Stadt und Viertel beeinflusst Miete, Verkehr, Schule, Sicherheit, Feuchtigkeit, Lärm und den Alltag stärker, als Anzeigen vermuten lassen.",
+      "body": "Eine häufige Erfahrung: Menschen kommen mit der Idee, \"am Meer zu leben\", und ändern dann nach einigen Monaten die Prioritäten. Manchen ist die Schule und ein Arzt in der Nähe wichtiger, manchen Ruhe, manchen das Zu-Fuß-Gehen-Können, manchen Parkplatz und ein Haus. Uruguay ist ruhig, aber der Alltag hängt stark vom konkreten Häuserblock ab.\n\nMontevideo ist bequem wegen der Dienste, Schulen und Medizin, aber teurer und lauter. Die Küste gibt Luft und Raum, kann aber ein Auto erfordern. Punta del Este ist in der Saison angenehm und kann zu anderen Zeiten leer/teuer sein. Städte im Landesinneren sind günstiger, aber die Auswahl an Diensten und russischsprachigem Umfeld ist kleiner.\n\nDie beständigste Schlussfolgerung: erst das Viertel testen, dann einen langen Vertrag unterschreiben oder kaufen."
+    }
+  },
+  "card.locations_neighborhoods_living.overview.overview": {
+    "ru_body_hash": "73664706",
+    "en": {
+      "title": "Cities and neighborhoods: how to choose where to live",
+      "short": "The choice of city and neighborhood affects rent, transport, school, safety, humidity, noise and daily life more than listings suggest.",
+      "body": "Choosing a location in Uruguay isn't only \"Montevideo or Punta\". Even within one city, neighborhoods differ greatly in transport, noise, humidity, safety, schools, shops, beaches, parking and seasonality. So the best advice is not to buy or sign a long lease until you've lived there, or at least walked the neighborhood at different times of day.\n\nIn Montevideo people often compare Pocitos, Punta Carretas, Parque Rodó, Cordón, Centro/Ciudad Vieja, Malvín, Carrasco and the coastal areas. On the coast and in Punta seasonality matters: in winter and summer the town can feel like two different places. Ciudad de la Costa and Atlántida offer a different balance of price, space and transport.\n\nDon't look only at a neighborhood's beauty: check the routes to school/work, the availability of supermarkets and doctors, the internet, the home's humidity, road noise, safety in the evening and how the area changes in season."
+    },
+    "es": {
+      "title": "Ciudades y barrios: cómo elegir dónde vivir",
+      "short": "La elección de la ciudad y el barrio afecta al alquiler, el transporte, la escuela, la seguridad, la humedad, el ruido y la vida diaria más de lo que sugieren los anuncios.",
+      "body": "Elegir la ubicación en Uruguay no es solo \"Montevideo o Punta\". Incluso dentro de una ciudad, los barrios difieren mucho en transporte, ruido, humedad, seguridad, escuelas, comercios, playas, estacionamiento y estacionalidad. Por eso el mejor consejo es no comprar ni firmar un contrato largo hasta haber vivido allí, o al menos haber recorrido el barrio a distintas horas del día.\n\nEn Montevideo se suele comparar Pocitos, Punta Carretas, Parque Rodó, Cordón, Centro/Ciudad Vieja, Malvín, Carrasco y las zonas costeras. En la costa y en Punta importa la estacionalidad: en invierno y verano la ciudad puede sentirse como dos lugares distintos. Ciudad de la Costa y Atlántida dan otro equilibrio de precio, espacio y transporte.\n\nNo mires solo la belleza de un barrio: revisa las rutas a la escuela/trabajo, la disponibilidad de supermercados y médicos, el internet, la humedad de la vivienda, el ruido de las calles, la seguridad de noche y cómo cambia la zona en temporada."
+    },
+    "de": {
+      "title": "Städte und Stadtviertel: wie man wählt, wo man lebt",
+      "short": "Die Wahl von Stadt und Viertel beeinflusst Miete, Verkehr, Schule, Sicherheit, Feuchtigkeit, Lärm und den Alltag stärker, als Anzeigen vermuten lassen.",
+      "body": "Die Wahl des Ortes in Uruguay ist nicht nur \"Montevideo oder Punta\". Selbst innerhalb einer Stadt unterscheiden sich die Viertel stark in Verkehr, Lärm, Feuchtigkeit, Sicherheit, Schulen, Geschäften, Stränden, Parken und Saisonabhängigkeit. Daher ist der beste Rat, nicht zu kaufen oder einen langen Vertrag zu unterschreiben, bevor man dort gewohnt oder zumindest das Viertel zu verschiedenen Tageszeiten abgelaufen ist.\n\nIn Montevideo vergleicht man oft Pocitos, Punta Carretas, Parque Rodó, Cordón, Centro/Ciudad Vieja, Malvín, Carrasco und die Küstenzonen. An der Küste und in Punta zählt die Saisonabhängigkeit: im Winter und Sommer kann sich die Stadt wie zwei verschiedene Orte anfühlen. Ciudad de la Costa und Atlántida bieten ein anderes Gleichgewicht von Preis, Raum und Verkehr.\n\nSchau nicht nur auf die Schönheit eines Viertels: prüfe die Wege zur Schule/Arbeit, die Verfügbarkeit von Supermärkten und Ärzten, das Internet, die Feuchtigkeit der Wohnung, den Straßenlärm, die Sicherheit am Abend und wie sich das Gebiet in der Saison verändert."
+    }
+  },
+  "card.locations_neighborhoods_living.reference.ref_bezopasnost_i_infrastruktura": {
+    "ru_body_hash": "84912065",
+    "en": {
+      "title": "Safety and infrastructure: what to know",
+      "short": "Safety and infrastructure: what to know.",
+      "body": "Safety and infrastructure: what to know\n\nSafety and infrastructure are checked not by a city's overall rating but by the specific block and route. A shop nearby doesn't replace a good walk home in the evening.\n\nWhen it matters: renting, buying, choosing a school and daily life without a car.\n\nWhat to check: lighting, noise, the flow of people, transport, parking, the nearest pharmacies/shops/clinics."
+    },
+    "es": {
+      "title": "Seguridad e infraestructura: lo que importa saber",
+      "short": "Seguridad e infraestructura: lo que importa saber.",
+      "body": "Seguridad e infraestructura: lo que importa saber\n\nLa seguridad y la infraestructura se comprueban no por la valoración general de una ciudad, sino por la cuadra y la ruta concretas. Un comercio cerca no reemplaza un buen camino a casa de noche.\n\nCuándo importa: alquilar, comprar, elegir una escuela y la vida diaria sin coche.\n\nQué revisar: la iluminación, el ruido, el flujo de gente, el transporte, el estacionamiento, las farmacias/comercios/clínicas más cercanas."
+    },
+    "de": {
+      "title": "Sicherheit und Infrastruktur: was man wissen muss",
+      "short": "Sicherheit und Infrastruktur: was man wissen muss.",
+      "body": "Sicherheit und Infrastruktur: was man wissen muss\n\nSicherheit und Infrastruktur prüft man nicht anhand der Gesamtbewertung einer Stadt, sondern anhand des konkreten Häuserblocks und Wegs. Ein Geschäft in der Nähe ersetzt keinen guten Heimweg am Abend.\n\nWann es wichtig ist: Miete, Kauf, die Wahl einer Schule und der Alltag ohne Auto.\n\nWas zu prüfen ist: Beleuchtung, Lärm, den Personenstrom, Verkehr, Parken, die nächsten Apotheken/Geschäfte/Kliniken."
+    }
+  },
+  "card.locations_neighborhoods_living.reference.ref_montevideo": {
+    "ru_body_hash": "0f52f2be",
+    "en": {
+      "title": "Montevideo: what to know",
+      "short": "Montevideo: what to know.",
+      "body": "Montevideo: what to know\n\nMontevideo is convenient for infrastructure, banks, doctors and schools, but it varies a lot by neighborhood. Safety, transport, noise, proximity to the Rambla and the building's condition matter.\n\nWhen it matters: if you need city services, schools, offices, healthcare and public transport.\n\nWhat to check: the specific neighborhood, the commute, parking, gastos, humidity and the evening atmosphere."
+    },
+    "es": {
+      "title": "Montevideo: lo que importa saber",
+      "short": "Montevideo: lo que importa saber.",
+      "body": "Montevideo: lo que importa saber\n\nMontevideo es cómodo por su infraestructura, bancos, médicos y escuelas, pero varía mucho según el barrio. Importan la seguridad, el transporte, el ruido, la cercanía a la Rambla y el estado del edificio.\n\nCuándo importa: si necesitas servicios urbanos, escuelas, oficinas, medicina y transporte público.\n\nQué revisar: el barrio concreto, el trayecto, el estacionamiento, los gastos, la humedad y el ambiente nocturno."
+    },
+    "de": {
+      "title": "Montevideo: was man wissen muss",
+      "short": "Montevideo: was man wissen muss.",
+      "body": "Montevideo: was man wissen muss\n\nMontevideo ist bequem wegen Infrastruktur, Banken, Ärzten und Schulen, unterscheidet sich aber stark je nach Viertel. Wichtig sind Sicherheit, Verkehr, Lärm, die Nähe zur Rambla und der Zustand des Gebäudes.\n\nWann es wichtig ist: wenn du städtische Dienste, Schulen, Büros, Medizin und öffentlichen Verkehr brauchst.\n\nWas zu prüfen ist: das konkrete Viertel, den Weg, das Parken, die gastos, die Feuchtigkeit und die Abendatmosphäre."
+    }
+  },
+  "card.locations_neighborhoods_living.reference.ref_punta_del_este": {
+    "ru_body_hash": "5fe6e409",
+    "en": {
+      "title": "Punta del Este: what to know",
+      "short": "Punta del Este: what to know.",
+      "body": "Punta del Este: what to know\n\nPunta del Este and Maldonado depend on the season: in summer pricier and livelier, in winter calmer, but some services work differently.\n\nWhen it matters: a summer/winter rental, buying resort property, remote work by the sea.\n\nWhat to check: the yearly contract, seasonal prices, heating/humidity, transport and infrastructure off-season."
+    },
+    "es": {
+      "title": "Punta del Este: lo que importa saber",
+      "short": "Punta del Este: lo que importa saber.",
+      "body": "Punta del Este: lo que importa saber\n\nPunta del Este y Maldonado dependen de la temporada: en verano más caro y animado, en invierno más tranquilo, pero parte de los servicios funcionan distinto.\n\nCuándo importa: un alquiler de verano/invierno, comprar propiedad de temporada, trabajo remoto junto al mar.\n\nQué revisar: el contrato anual, los precios de temporada, la calefacción/humedad, el transporte y la infraestructura fuera de temporada."
+    },
+    "de": {
+      "title": "Punta del Este: was man wissen muss",
+      "short": "Punta del Este: was man wissen muss.",
+      "body": "Punta del Este: was man wissen muss\n\nPunta del Este und Maldonado hängen von der Saison ab: im Sommer teurer und lebhafter, im Winter ruhiger, aber ein Teil der Dienste funktioniert anders.\n\nWann es wichtig ist: eine Sommer-/Wintermiete, der Kauf von Urlaubsimmobilien, Remote-Arbeit am Meer.\n\nWas zu prüfen ist: den Jahresvertrag, die Saisonpreise, Heizung/Feuchtigkeit, Verkehr und Infrastruktur außerhalb der Saison."
+    }
+  },
+  "card.locations_neighborhoods_living.reference.ref_syudad_de_la_kosta": {
+    "ru_body_hash": "89a7405b",
+    "en": {
+      "title": "Ciudad de la Costa: what to know",
+      "short": "Ciudad de la Costa: what to know.",
+      "body": "Ciudad de la Costa: what to know\n\nCiudad de la Costa and the coast between the city and the sea are often chosen for houses, space and a calmer rhythm, but without a car it can be inconvenient.\n\nWhen it matters: families, houses with a plot, life by the water, moving from Montevideo.\n\nWhat to check: transport, schools, internet, safety, humidity and the availability of services in winter."
+    },
+    "es": {
+      "title": "Ciudad de la Costa: lo que importa saber",
+      "short": "Ciudad de la Costa: lo que importa saber.",
+      "body": "Ciudad de la Costa: lo que importa saber\n\nCiudad de la Costa y la costa entre la ciudad y el mar se eligen a menudo por las casas, el espacio y un ritmo más tranquilo, pero sin coche puede ser incómodo.\n\nCuándo importa: familias, casas con terreno, vivir junto al agua, mudarse de Montevideo.\n\nQué revisar: transporte, escuelas, internet, seguridad, humedad y la disponibilidad de servicios en invierno."
+    },
+    "de": {
+      "title": "Ciudad de la Costa: was man wissen muss",
+      "short": "Ciudad de la Costa: was man wissen muss.",
+      "body": "Ciudad de la Costa: was man wissen muss\n\nCiudad de la Costa und die Küste zwischen Stadt und Meer werden oft wegen der Häuser, des Raums und eines ruhigeren Rhythmus gewählt, aber ohne Auto kann es unbequem sein.\n\nWann es wichtig ist: Familien, Häuser mit Grundstück, Leben am Wasser, der Umzug aus Montevideo.\n\nWas zu prüfen ist: Verkehr, Schulen, Internet, Sicherheit, Feuchtigkeit und die Verfügbarkeit von Diensten im Winter."
+    }
+  },
+  "card.locations_neighborhoods_living.reference.ref_vybor_rayona": {
+    "ru_body_hash": "cfb28a5c",
+    "en": {
+      "title": "Choosing a neighborhood: what to know",
+      "short": "Choosing a neighborhood: what to know.",
+      "body": "Choosing a neighborhood: what to know\n\nA neighborhood should be chosen for the daily route: work, school, shops, transport, beach, parking and safety in the evening. A good flat in an inconvenient place quickly loses out.\n\nWhen it matters: a long-term rental, a purchase, a family with children, remote work and not having a car.\n\nWhat to check: the area in the morning/evening, noise, humidity, infrastructure, internet and the real commute."
+    },
+    "es": {
+      "title": "Elegir un barrio: lo que importa saber",
+      "short": "Elegir un barrio: lo que importa saber.",
+      "body": "Elegir un barrio: lo que importa saber\n\nUn barrio se elige según la ruta diaria: trabajo, escuela, comercios, transporte, playa, estacionamiento y seguridad de noche. Una buena vivienda en un lugar incómodo pierde rápido.\n\nCuándo importa: un alquiler a largo plazo, una compra, una familia con hijos, el trabajo remoto y no tener coche.\n\nQué revisar: la zona por la mañana/tarde, el ruido, la humedad, la infraestructura, el internet y el trayecto real."
+    },
+    "de": {
+      "title": "Wahl eines Viertels: was man wissen muss",
+      "short": "Wahl eines Viertels: was man wissen muss.",
+      "body": "Wahl eines Viertels: was man wissen muss\n\nEin Viertel wählt man nach dem täglichen Weg: Arbeit, Schule, Geschäfte, Verkehr, Strand, Parken und Sicherheit am Abend. Eine gute Wohnung an einem unbequemen Ort verliert schnell.\n\nWann es wichtig ist: eine Langzeitmiete, ein Kauf, eine Familie mit Kindern, Remote-Arbeit und kein Auto.\n\nWas zu prüfen ist: das Gebiet morgens/abends, Lärm, Feuchtigkeit, Infrastruktur, Internet und den realen Weg."
+    }
+  },
+  "card.locations_neighborhoods_living.warning.warning": {
+    "ru_body_hash": "98583325",
+    "en": {
+      "title": "Mistakes when choosing a city or neighborhood",
+      "short": "The choice of city and neighborhood affects rent, transport, school, safety, humidity, noise and daily life more than listings suggest.",
+      "body": "A mistake is choosing a neighborhood by a holiday impression. The beach, the view and pretty streets don't replace daily logistics. Another mistake is comparing rent prices without transport, gastos, school and time.\n\nDon't buy property right after moving: the climate, humidity, habits, roads and social infrastructure only become clear over time. Don't transfer other people's neighborhood ratings without accounting for your family, budget and lifestyle.\n\nIf an area seems \"too cheap\", check the reason: transport, safety, old housing stock, humidity, noise, a lack of services or seasonal restrictions."
+    },
+    "es": {
+      "title": "Errores al elegir una ciudad o un barrio",
+      "short": "La elección de la ciudad y el barrio afecta al alquiler, el transporte, la escuela, la seguridad, la humedad, el ruido y la vida diaria más de lo que sugieren los anuncios.",
+      "body": "Un error es elegir un barrio por una impresión de vacaciones. La playa, la vista y las calles bonitas no reemplazan la logística diaria. Otro error es comparar precios de alquiler sin el transporte, los gastos, la escuela y el tiempo.\n\nNo compres propiedad apenas te mudas: el clima, la humedad, los hábitos, las rutas y la infraestructura social solo se entienden con el tiempo. No traslades las valoraciones de barrios de otras personas sin tener en cuenta tu familia, tu presupuesto y tu estilo de vida.\n\nSi una zona parece \"demasiado barata\", comprueba la razón: transporte, seguridad, inmuebles antiguos, humedad, ruido, falta de servicios o restricciones de temporada."
+    },
+    "de": {
+      "title": "Fehler bei der Wahl einer Stadt oder eines Viertels",
+      "short": "Die Wahl von Stadt und Viertel beeinflusst Miete, Verkehr, Schule, Sicherheit, Feuchtigkeit, Lärm und den Alltag stärker, als Anzeigen vermuten lassen.",
+      "body": "Ein Fehler ist, ein Viertel nach einem Urlaubseindruck zu wählen. Strand, Aussicht und schöne Straßen ersetzen die tägliche Logistik nicht. Ein weiterer Fehler ist, Mietpreise ohne Verkehr, gastos, Schule und Zeit zu vergleichen.\n\nKaufe keine Immobilie direkt nach dem Umzug: Klima, Feuchtigkeit, Gewohnheiten, Wege und soziale Infrastruktur werden erst mit der Zeit klar. Übertrage die Viertelbewertungen anderer nicht, ohne deine Familie, dein Budget und deinen Lebensstil zu berücksichtigen.\n\nWirkt ein Gebiet \"zu günstig\", prüfe den Grund: Verkehr, Sicherheit, alter Wohnbestand, Feuchtigkeit, Lärm, fehlende Dienste oder saisonale Einschränkungen."
+    }
+  },
   "card.money_transfers_currency_crypto.advice.advice": {
     "ru_body_hash": "ad690318",
     "en": {
@@ -1797,6 +2013,672 @@
       "title": "Fehler bei Aufenthalt und cédula",
       "short": "Aufenthalt, cédula und Einwanderungsverfahren hängen zusammen, sind aber unterschiedliche Schritte: die Grundlage bestätigen, Dokumente einreichen, auf den Status warten und den Ausweis erhalten.",
       "body": "Schiebe Apostillen und Bescheinigungen nicht \"auf später\": viele Dokumente sind aus dem Ausland schwerer zu beschaffen. Betrachte die cédula nicht als die endgültige Bestätigung aller Einwanderungsfragen: Aufenthaltsstatus und ein Identitätsdokument sind verschiedene Dinge.\n\nFehler, die teuer zu beheben sind: unterschiedliche Schreibweisen des Namens, eine fehlende Apostille, eine abgelaufene Bescheinigung, eine unklare Einkommensquelle, keine Kopien der eingereichten Dokumente, das Vertrauen auf einen Vermittler ohne Kontrolle, die Unkenntnis deiner trámite-Nummer.\n\nWenn sich die Regeln geändert haben oder die Behörde ein neues Dokument verlangt hat, sind alte Ratschläge als Orientierung, nicht als Anweisung zu verstehen. Für sensible Fälle — Kinder, Familienangelegenheiten, Vorstrafen, lange Abwesenheiten, ein Wechsel der Grundlage — berät man sich besser individuell."
+    }
+  },
+  "card.shopping_delivery_customs.advice.advice": {
+    "ru_body_hash": "596ec6c1",
+    "en": {
+      "title": "Tips on shopping and delivery",
+      "short": "Shopping in Uruguay means comparing local stores, MercadoLibre, delivery from abroad, customs limits and the real cost after taxes.",
+      "body": "• Before buying, compare at least three options: a local store, MercadoLibre and bringing it in/international delivery.\n• For electronics, check the voltage, the plug, the warranty, the menu language and the availability of repairs.\n• For furniture, account for delivery, carrying it up, assembly, timing and the possibility of return.\n• For medicines and supplements, check the import rules and the availability of equivalents in pharmacies in advance.\n• Don't send an expensive parcel without understanding the customs category and limits.\n• Keep the invoice, tracking, proof of payment and the item's description.\n• For urgent things it's better to have a local stock than to rely on international delivery."
+    },
+    "es": {
+      "title": "Consejos sobre compras y entregas",
+      "short": "Comprar en Uruguay implica comparar tiendas locales, MercadoLibre, la entrega desde el exterior, los límites aduaneros y el coste real tras impuestos.",
+      "body": "• Antes de comprar, compara al menos tres opciones: una tienda local, MercadoLibre y traerlo/entrega internacional.\n• Para electrónica, comprueba el voltaje, el enchufe, la garantía, el idioma del menú y la disponibilidad de reparación.\n• Para muebles, ten en cuenta la entrega, la subida, el montaje, los plazos y la posibilidad de devolución.\n• Para medicamentos y suplementos, comprueba de antemano las reglas de ingreso y la existencia de equivalentes en las farmacias.\n• No envíes un paquete caro sin entender la categoría aduanera y los límites.\n• Guarda la factura, el tracking, el comprobante de pago y la descripción del artículo.\n• Para cosas urgentes conviene tener un stock local en lugar de confiar en la entrega internacional."
+    },
+    "de": {
+      "title": "Tipps zu Einkaufen und Lieferung",
+      "short": "Einkaufen in Uruguay bedeutet, lokale Geschäfte, MercadoLibre, Lieferung aus dem Ausland, Zolllimits und die realen Kosten nach Steuern zu vergleichen.",
+      "body": "• Vergleiche vor dem Kauf mindestens drei Optionen: ein lokales Geschäft, MercadoLibre und das Mitbringen/internationale Lieferung.\n• Prüfe bei Elektronik die Spannung, den Stecker, die Garantie, die Menüsprache und die Verfügbarkeit von Reparaturen.\n• Berücksichtige bei Möbeln Lieferung, Hochtragen, Montage, Fristen und die Rückgabemöglichkeit.\n• Prüfe bei Medikamenten und Nahrungsergänzungsmitteln im Voraus die Einfuhrregeln und die Verfügbarkeit von Äquivalenten in Apotheken.\n• Sende kein teures Paket, ohne die Zollkategorie und die Limits zu verstehen.\n• Bewahre die Rechnung, das Tracking, den Zahlungsnachweis und die Artikelbeschreibung auf.\n• Für dringende Dinge ist ein lokaler Vorrat besser, als sich auf internationale Lieferung zu verlassen."
+    }
+  },
+  "card.shopping_delivery_customs.advice.sovety_po_mercadolibre_i_lokalnym_pokupkam": {
+    "ru_body_hash": "5b9de842",
+    "en": {
+      "title": "Top tips — shopping, delivery and customs",
+      "short": "Top tips — shopping, delivery and customs.",
+      "body": "Top tips — shopping, delivery and customs\n\nMercadoLibre is useful for electronics, furniture and household purchases, but it's important to look at the seller, the rating, the warranty, delivery and return conditions.\n\nWhen it matters: purchases after moving, comparing prices, finding rare goods.\n\nWhat to check: reputation, MercadoPago, the delivery time, returns, the warranty and who bears the risk in case of damage."
+    },
+    "es": {
+      "title": "Consejos principales — compras, entregas y aduana",
+      "short": "Consejos principales — compras, entregas y aduana.",
+      "body": "Consejos principales — compras, entregas y aduana\n\nMercadoLibre es útil para electrónica, muebles y compras del hogar, pero es importante mirar al vendedor, la valoración, la garantía, la entrega y las condiciones de devolución.\n\nCuándo importa: compras tras la mudanza, comparar precios, buscar artículos raros.\n\nQué revisar: la reputación, MercadoPago, el plazo de entrega, las devoluciones, la garantía y quién asume el riesgo en caso de daño."
+    },
+    "de": {
+      "title": "Wichtigste Tipps — Einkaufen, Lieferung und Zoll",
+      "short": "Wichtigste Tipps — Einkaufen, Lieferung und Zoll.",
+      "body": "Wichtigste Tipps — Einkaufen, Lieferung und Zoll\n\nMercadoLibre ist nützlich für Elektronik, Möbel und Haushaltskäufe, aber es ist wichtig, auf den Verkäufer, die Bewertung, die Garantie, die Lieferung und die Rückgabebedingungen zu achten.\n\nWann es wichtig ist: Einkäufe nach dem Umzug, Preisvergleiche, die Suche nach seltenen Waren.\n\nWas zu prüfen ist: die Reputation, MercadoPago, die Lieferzeit, Rücksendungen, die Garantie und wer bei einem Schaden das Risiko trägt."
+    }
+  },
+  "card.shopping_delivery_customs.checklist.checklist": {
+    "ru_body_hash": "c75f4e33",
+    "en": {
+      "title": "Checklist before ordering from abroad",
+      "short": "Shopping in Uruguay means comparing local stores, MercadoLibre, delivery from abroad, customs limits and the real cost after taxes.",
+      "body": "Check:\n□ whether the item can be imported by a private individual;\n□ the limits, taxes and aduana requirements on the order date;\n□ whether a courier/post/broker is needed;\n□ whether the recipient's name matches the documents;\n□ whether there's an invoice with the correct price and description;\n□ the delivery times and the risk of delay;\n□ the warranty and the possibility of return;\n□ the compatibility of electronics with Uruguay;\n□ the final cost after delivery, taxes and fees.\n\nIf the item is expensive, fragile, medical or professional, it's better to first clarify the rules with the carrier or a customs specialist."
+    },
+    "es": {
+      "title": "Lista antes de pedir desde el exterior",
+      "short": "Comprar en Uruguay implica comparar tiendas locales, MercadoLibre, la entrega desde el exterior, los límites aduaneros y el coste real tras impuestos.",
+      "body": "Revisa:\n□ si el artículo puede importarlo una persona física;\n□ los límites, impuestos y requisitos de aduana en la fecha del pedido;\n□ si hace falta un courier/correo/despachante;\n□ si el nombre del destinatario coincide con los documentos;\n□ si hay una factura con el precio y la descripción correctos;\n□ los plazos de entrega y el riesgo de demora;\n□ la garantía y la posibilidad de devolución;\n□ la compatibilidad de la electrónica con Uruguay;\n□ el coste final tras la entrega, los impuestos y las comisiones.\n\nSi el artículo es caro, frágil, médico o profesional, conviene aclarar primero las reglas con el transportista o un especialista en aduana."
+    },
+    "de": {
+      "title": "Checkliste vor der Bestellung aus dem Ausland",
+      "short": "Einkaufen in Uruguay bedeutet, lokale Geschäfte, MercadoLibre, Lieferung aus dem Ausland, Zolllimits und die realen Kosten nach Steuern zu vergleichen.",
+      "body": "Prüfe:\n□ ob der Artikel von einer Privatperson eingeführt werden darf;\n□ die Limits, Steuern und aduana-Anforderungen am Bestelldatum;\n□ ob ein Kurier/Post/Broker nötig ist;\n□ ob der Name des Empfängers mit den Dokumenten übereinstimmt;\n□ ob es eine Rechnung mit korrektem Preis und korrekter Beschreibung gibt;\n□ die Lieferzeiten und das Verzögerungsrisiko;\n□ die Garantie und die Rückgabemöglichkeit;\n□ die Kompatibilität der Elektronik mit Uruguay;\n□ die Endkosten nach Lieferung, Steuern und Gebühren.\n\nIst der Artikel teuer, zerbrechlich, medizinisch oder professionell, klärt man die Regeln besser zuerst mit dem Spediteur oder einem Zollspezialisten."
+    }
+  },
+  "card.shopping_delivery_customs.community_experience.community_experience": {
+    "ru_body_hash": "6e9c9581",
+    "en": {
+      "title": "Practical shopping experience",
+      "short": "Shopping in Uruguay means comparing local stores, MercadoLibre, delivery from abroad, customs limits and the real cost after taxes.",
+      "body": "The adaptation experience is usually this: some things are cheaper to buy locally, some are better brought in, and some are simply easier to replace with a local equivalent. Newcomers often underestimate the cost of furniture, household appliances and the small items for an empty flat. So when renting \"bare walls\", the furnishing budget can turn out to be significant.\n\nMercadoLibre is often used as a reference for prices and availability, but seller quality, timing and warranty vary. For specialized goods people look for stores by recommendation, and for rare items — international delivery, but carefully because of customs.\n\nA working strategy: bring the critical and compact things, buy locally what needs a warranty/repairs, and plan large purchases in advance after choosing housing."
+    },
+    "es": {
+      "title": "Experiencia práctica de compras",
+      "short": "Comprar en Uruguay implica comparar tiendas locales, MercadoLibre, la entrega desde el exterior, los límites aduaneros y el coste real tras impuestos.",
+      "body": "La experiencia de adaptación suele ser esta: algunas cosas conviene comprarlas local, otras es mejor traerlas, y otras simplemente es más fácil reemplazarlas por un equivalente local. Los recién llegados suelen subestimar el coste de los muebles, los electrodomésticos y los pequeños artículos para una vivienda vacía. Por eso, al alquilar \"paredes desnudas\", el presupuesto de amueblamiento puede resultar importante.\n\nMercadoLibre se usa a menudo como referencia de precios y disponibilidad, pero la calidad de los vendedores, los plazos y la garantía varían. Para artículos especializados la gente busca tiendas por recomendación, y para cosas raras — la entrega internacional, pero con cuidado por la aduana.\n\nUna estrategia que funciona: traer lo crítico y compacto, comprar local lo que necesita garantía/reparaciones, y planificar las compras grandes con antelación tras elegir la vivienda."
+    },
+    "de": {
+      "title": "Praktische Einkaufserfahrung",
+      "short": "Einkaufen in Uruguay bedeutet, lokale Geschäfte, MercadoLibre, Lieferung aus dem Ausland, Zolllimits und die realen Kosten nach Steuern zu vergleichen.",
+      "body": "Die Anpassungserfahrung ist meist diese: Manche Dinge kauft man günstiger lokal, manche bringt man besser mit, und manche ersetzt man einfach leichter durch ein lokales Äquivalent. Neuankömmlinge unterschätzen oft die Kosten von Möbeln, Haushaltsgeräten und Kleinigkeiten für eine leere Wohnung. Daher kann beim Mieten \"nackter Wände\" das Einrichtungsbudget erheblich ausfallen.\n\nMercadoLibre wird oft als Referenz für Preise und Verfügbarkeit genutzt, aber die Verkäuferqualität, Fristen und Garantie variieren. Für spezialisierte Waren suchen Menschen Geschäfte auf Empfehlung, und für seltene Artikel — internationale Lieferung, aber vorsichtig wegen des Zolls.\n\nEine funktionierende Strategie: das Kritische und Kompakte mitbringen, lokal kaufen, was Garantie/Reparaturen braucht, und große Einkäufe im Voraus nach der Wohnungswahl planen."
+    }
+  },
+  "card.shopping_delivery_customs.instruction.kak_podhodit_k_pokupkam_i_dostavke": {
+    "ru_body_hash": "cf076912",
+    "en": {
+      "title": "How to approach shopping and delivery",
+      "short": "Shopping in Uruguay means comparing local stores, MercadoLibre, delivery from abroad, customs limits and the real cost after taxes.",
+      "body": "1. Divide things into categories: urgent, expensive, rare, requiring a warranty, safe for international delivery.\n2. Check the local price and availability: stores, MercadoLibre, niche groups, recommendations.\n3. For an international order, calculate the full cost: item + delivery + taxes + fees + the risk of return.\n4. Prepare the invoice, tracking and the recipient's documents.\n5. Don't combine in one parcel items that may require different processing.\n6. After receiving, keep the receipts and warranty, especially for electronics and furniture."
+    },
+    "es": {
+      "title": "Cómo abordar las compras y la entrega",
+      "short": "Comprar en Uruguay implica comparar tiendas locales, MercadoLibre, la entrega desde el exterior, los límites aduaneros y el coste real tras impuestos.",
+      "body": "1. Divide las cosas en categorías: urgentes, caras, raras, que requieren garantía, seguras para la entrega internacional.\n2. Comprueba el precio y la disponibilidad local: tiendas, MercadoLibre, grupos especializados, recomendaciones.\n3. Para un pedido internacional, calcula el coste total: artículo + entrega + impuestos + comisiones + el riesgo de devolución.\n4. Prepara la factura, el tracking y los documentos del destinatario.\n5. No combines en un paquete artículos que puedan requerir una gestión distinta.\n6. Tras recibir, guarda los recibos y la garantía, sobre todo para electrónica y muebles."
+    },
+    "de": {
+      "title": "Wie man Einkaufen und Lieferung angeht",
+      "short": "Einkaufen in Uruguay bedeutet, lokale Geschäfte, MercadoLibre, Lieferung aus dem Ausland, Zolllimits und die realen Kosten nach Steuern zu vergleichen.",
+      "body": "1. Teile die Dinge in Kategorien: dringend, teuer, selten, garantiepflichtig, sicher für internationale Lieferung.\n2. Prüfe den lokalen Preis und die Verfügbarkeit: Geschäfte, MercadoLibre, Fachgruppen, Empfehlungen.\n3. Berechne für eine internationale Bestellung die Gesamtkosten: Artikel + Lieferung + Steuern + Gebühren + das Rückgaberisiko.\n4. Bereite die Rechnung, das Tracking und die Dokumente des Empfängers vor.\n5. Kombiniere in einem Paket keine Artikel, die eine unterschiedliche Abwicklung erfordern könnten.\n6. Bewahre nach Erhalt die Belege und die Garantie auf, besonders für Elektronik und Möbel."
+    }
+  },
+  "card.shopping_delivery_customs.overview.overview": {
+    "ru_body_hash": "907f157a",
+    "en": {
+      "title": "Shopping, delivery and customs: how to count the real cost",
+      "short": "Shopping in Uruguay means comparing local stores, MercadoLibre, delivery from abroad, customs limits and the real cost after taxes.",
+      "body": "In Uruguay many things are pricier or less available than newcomers expect: electronics, furniture, some medicines, children's goods, spare parts and familiar brands. So the shopping topic quickly becomes a comparison: buy locally, order via MercadoLibre, bring it in your luggage, send a parcel or use international delivery.\n\nThe main mistake is comparing only the item's price. You have to account for delivery, taxes, customs rules, timing, warranty, compatibility, returns and the risk of delay. Sometimes a local purchase is more expensive but more worthwhile because of the warranty and speed; sometimes it's easier to bring the item with you.\n\nFor international orders, always check the current limits and aduana rules. They can change, and an incorrectly arranged parcel can cost more than the item itself."
+    },
+    "es": {
+      "title": "Compras, entregas y aduana: cómo calcular el coste real",
+      "short": "Comprar en Uruguay implica comparar tiendas locales, MercadoLibre, la entrega desde el exterior, los límites aduaneros y el coste real tras impuestos.",
+      "body": "En Uruguay muchas cosas son más caras o menos disponibles de lo que esperan los recién llegados: electrónica, muebles, algunos medicamentos, artículos infantiles, repuestos y marcas habituales. Por eso el tema de las compras se convierte rápido en una comparación: comprar local, pedir por MercadoLibre, traerlo en el equipaje, enviar un paquete o usar la entrega internacional.\n\nEl error principal es comparar solo el precio del artículo. Hay que tener en cuenta la entrega, los impuestos, las reglas aduaneras, los plazos, la garantía, la compatibilidad, las devoluciones y el riesgo de demora. A veces una compra local es más cara pero más conveniente por la garantía y la rapidez; a veces es más fácil traer el artículo contigo.\n\nPara los pedidos internacionales, comprueba siempre los límites y las reglas de aduana vigentes. Pueden cambiar, y un paquete mal gestionado puede salir más caro que el propio artículo."
+    },
+    "de": {
+      "title": "Einkaufen, Lieferung und Zoll: wie man die realen Kosten berechnet",
+      "short": "Einkaufen in Uruguay bedeutet, lokale Geschäfte, MercadoLibre, Lieferung aus dem Ausland, Zolllimits und die realen Kosten nach Steuern zu vergleichen.",
+      "body": "In Uruguay sind viele Dinge teurer oder weniger verfügbar, als Neuankömmlinge erwarten: Elektronik, Möbel, einige Medikamente, Kinderartikel, Ersatzteile und vertraute Marken. Daher wird das Einkaufsthema schnell zu einem Vergleich: lokal kaufen, über MercadoLibre bestellen, im Gepäck mitbringen, ein Paket senden oder internationale Lieferung nutzen.\n\nDer Hauptfehler ist, nur den Preis des Artikels zu vergleichen. Man muss Lieferung, Steuern, Zollregeln, Fristen, Garantie, Kompatibilität, Rücksendungen und das Verzögerungsrisiko berücksichtigen. Manchmal ist ein lokaler Kauf teurer, aber wegen Garantie und Geschwindigkeit lohnender; manchmal ist es einfacher, den Artikel mitzubringen.\n\nPrüfe bei internationalen Bestellungen immer die aktuellen Limits und aduana-Regeln. Sie können sich ändern, und ein falsch abgewickeltes Paket kann mehr kosten als der Artikel selbst."
+    }
+  },
+  "card.shopping_delivery_customs.reference.ref_dostavka_i_vozvraty": {
+    "ru_body_hash": "2eec1b97",
+    "en": {
+      "title": "Delivery and returns: what to know",
+      "short": "Delivery and returns: what to know.",
+      "body": "Delivery and returns: what to know\n\nDelivery and returns in Uruguay depend on the seller and the operator. For expensive items it's better to understand in advance who is responsible for damage, delay and exchange.\n\nWhen it matters: online purchases, furniture, electronics, household goods.\n\nWhat to check: the address, the recipient's contact, the delivery cost, the timing, returns, the warranty service."
+    },
+    "es": {
+      "title": "Entrega y devoluciones: lo que importa saber",
+      "short": "Entrega y devoluciones: lo que importa saber.",
+      "body": "Entrega y devoluciones: lo que importa saber\n\nLa entrega y las devoluciones en Uruguay dependen del vendedor y del operador. Para artículos caros conviene entender de antemano quién responde por el daño, la demora y el cambio.\n\nCuándo importa: compras en línea, muebles, electrónica, artículos del hogar.\n\nQué revisar: la dirección, el contacto del destinatario, el coste de entrega, el plazo, las devoluciones, el servicio de garantía."
+    },
+    "de": {
+      "title": "Lieferung und Rücksendungen: was man wissen muss",
+      "short": "Lieferung und Rücksendungen: was man wissen muss.",
+      "body": "Lieferung und Rücksendungen: was man wissen muss\n\nLieferung und Rücksendungen in Uruguay hängen vom Verkäufer und dem Betreiber ab. Bei teuren Artikeln versteht man besser im Voraus, wer für Schaden, Verzögerung und Umtausch verantwortlich ist.\n\nWann es wichtig ist: Online-Käufe, Möbel, Elektronik, Haushaltswaren.\n\nWas zu prüfen ist: die Adresse, den Kontakt des Empfängers, die Lieferkosten, die Frist, Rücksendungen, den Garantieservice."
+    }
+  },
+  "card.shopping_delivery_customs.reference.ref_lokalnye_pokupki": {
+    "ru_body_hash": "933451f6",
+    "en": {
+      "title": "Local purchases: what to know",
+      "short": "Local purchases: what to know.",
+      "body": "Local purchases: what to know\n\nLocal purchases are often more worthwhile than international ones once you account for delivery, warranty and timing. This is especially true for furniture, large appliances and things that need to be returned if defective.\n\nWhen it matters: the first weeks, furnishing the flat, electronics, goods for children and animals.\n\nWhat to check: the warranty, service, door-to-door delivery, assembly and the possibility of return."
+    },
+    "es": {
+      "title": "Compras locales: lo que importa saber",
+      "short": "Compras locales: lo que importa saber.",
+      "body": "Compras locales: lo que importa saber\n\nLas compras locales suelen ser más convenientes que las internacionales una vez que tienes en cuenta la entrega, la garantía y los plazos. Esto vale especialmente para muebles, electrodomésticos grandes y cosas que hay que devolver si vienen defectuosas.\n\nCuándo importa: las primeras semanas, amueblar la vivienda, electrónica, artículos para niños y animales.\n\nQué revisar: la garantía, el servicio, la entrega a domicilio, el montaje y la posibilidad de devolución."
+    },
+    "de": {
+      "title": "Lokale Einkäufe: was man wissen muss",
+      "short": "Lokale Einkäufe: was man wissen muss.",
+      "body": "Lokale Einkäufe: was man wissen muss\n\nLokale Einkäufe sind oft lohnender als internationale, sobald man Lieferung, Garantie und Fristen berücksichtigt. Das gilt besonders für Möbel, große Geräte und Dinge, die bei Defekt zurückgegeben werden müssen.\n\nWann es wichtig ist: die ersten Wochen, die Einrichtung der Wohnung, Elektronik, Waren für Kinder und Tiere.\n\nWas zu prüfen ist: die Garantie, den Service, die Lieferung bis zur Tür, die Montage und die Rückgabemöglichkeit."
+    }
+  },
+  "card.shopping_delivery_customs.reference.ref_mercadolibre": {
+    "ru_body_hash": "a63af13c",
+    "en": {
+      "title": "MercadoLibre: what to know",
+      "short": "MercadoLibre: what to know.",
+      "body": "MercadoLibre: what to know\n\nMercadoLibre is useful for electronics, furniture and household purchases, but it's important to look at the seller, the rating, the warranty, delivery and return conditions.\n\nWhen it matters: purchases after moving, comparing prices, finding rare goods.\n\nWhat to check: reputation, MercadoPago, the delivery time, returns, the warranty and who bears the risk in case of damage."
+    },
+    "es": {
+      "title": "MercadoLibre: lo que importa saber",
+      "short": "MercadoLibre: lo que importa saber.",
+      "body": "MercadoLibre: lo que importa saber\n\nMercadoLibre es útil para electrónica, muebles y compras del hogar, pero es importante mirar al vendedor, la valoración, la garantía, la entrega y las condiciones de devolución.\n\nCuándo importa: compras tras la mudanza, comparar precios, buscar artículos raros.\n\nQué revisar: la reputación, MercadoPago, el plazo de entrega, las devoluciones, la garantía y quién asume el riesgo en caso de daño."
+    },
+    "de": {
+      "title": "MercadoLibre: was man wissen muss",
+      "short": "MercadoLibre: was man wissen muss.",
+      "body": "MercadoLibre: was man wissen muss\n\nMercadoLibre ist nützlich für Elektronik, Möbel und Haushaltskäufe, aber es ist wichtig, auf den Verkäufer, die Bewertung, die Garantie, die Lieferung und die Rückgabebedingungen zu achten.\n\nWann es wichtig ist: Einkäufe nach dem Umzug, Preisvergleiche, die Suche nach seltenen Waren.\n\nWas zu prüfen ist: die Reputation, MercadoPago, die Lieferzeit, Rücksendungen, die Garantie und wer bei einem Schaden das Risiko trägt."
+    }
+  },
+  "card.shopping_delivery_customs.reference.ref_mezhdunarodnye_zakazy": {
+    "ru_body_hash": "77b5860f",
+    "en": {
+      "title": "International orders: what to know",
+      "short": "International orders: what to know.",
+      "body": "International orders: what to know\n\nInternational orders require checking the limits, Aduanas, the courier and the final price. A cheap item can become expensive after delivery and taxes.\n\nWhen it matters: ordering electronics, clothing, spare parts, medicines or things not available locally.\n\nWhat to check: the franquicia, the limit, the recipient's documents, the courier, the duty, the timing and returns."
+    },
+    "es": {
+      "title": "Pedidos internacionales: lo que importa saber",
+      "short": "Pedidos internacionales: lo que importa saber.",
+      "body": "Pedidos internacionales: lo que importa saber\n\nLos pedidos internacionales requieren comprobar los límites, Aduanas, el courier y el precio final. Un artículo barato puede salir caro tras la entrega y los impuestos.\n\nCuándo importa: pedir electrónica, ropa, repuestos, medicamentos o cosas que no hay localmente.\n\nQué revisar: la franquicia, el límite, los documentos del destinatario, el courier, el arancel, los plazos y las devoluciones."
+    },
+    "de": {
+      "title": "Internationale Bestellungen: was man wissen muss",
+      "short": "Internationale Bestellungen: was man wissen muss.",
+      "body": "Internationale Bestellungen: was man wissen muss\n\nInternationale Bestellungen erfordern die Prüfung der Limits, Aduanas, des Kuriers und des Endpreises. Ein günstiger Artikel kann nach Lieferung und Steuern teuer werden.\n\nWann es wichtig ist: die Bestellung von Elektronik, Kleidung, Ersatzteilen, Medikamenten oder lokal nicht verfügbaren Dingen.\n\nWas zu prüfen ist: die franquicia, das Limit, die Dokumente des Empfängers, den Kurier, den Zoll, die Fristen und Rücksendungen."
+    }
+  },
+  "card.shopping_delivery_customs.reference.ref_tamozhennye_limity": {
+    "ru_body_hash": "75a55b04",
+    "en": {
+      "title": "Customs limits: what to know",
+      "short": "Customs limits: what to know.",
+      "body": "Customs limits: what to know\n\nCustoms limits and rules depend on the type of item, the value, the delivery method and the recipient. You can't count only the price on the seller's website.\n\nWhen it matters: parcels from abroad, electronics, medicines, goods for animals, moving belongings.\n\nWhat to check: Aduanas, Correo/courier, the limit, the invoice, the tracking, prohibitions and additional charges."
+    },
+    "es": {
+      "title": "Límites aduaneros: lo que importa saber",
+      "short": "Límites aduaneros: lo que importa saber.",
+      "body": "Límites aduaneros: lo que importa saber\n\nLos límites y reglas aduaneros dependen del tipo de artículo, el valor, el método de entrega y el destinatario. No puedes contar solo el precio en la web del vendedor.\n\nCuándo importa: paquetes del exterior, electrónica, medicamentos, artículos para animales, traslado de pertenencias.\n\nQué revisar: Aduanas, Correo/courier, el límite, la factura, el tracking, las prohibiciones y los cargos adicionales."
+    },
+    "de": {
+      "title": "Zolllimits: was man wissen muss",
+      "short": "Zolllimits: was man wissen muss.",
+      "body": "Zolllimits: was man wissen muss\n\nZolllimits und -regeln hängen vom Artikeltyp, dem Wert, der Liefermethode und dem Empfänger ab. Man kann nicht nur den Preis auf der Website des Verkäufers rechnen.\n\nWann es wichtig ist: Pakete aus dem Ausland, Elektronik, Medikamente, Waren für Tiere, der Transport von Habseligkeiten.\n\nWas zu prüfen ist: Aduanas, Correo/Kurier, das Limit, die Rechnung, das Tracking, Verbote und zusätzliche Gebühren."
+    }
+  },
+  "card.shopping_delivery_customs.warning.warning": {
+    "ru_body_hash": "d29cff75",
+    "en": {
+      "title": "Mistakes in shopping and customs",
+      "short": "Shopping in Uruguay means comparing local stores, MercadoLibre, delivery from abroad, customs limits and the real cost after taxes.",
+      "body": "You can't treat the international price as final. Delivery, storage, taxes, processing and returns can change the economics. You can't rely on an old limit from someone else's experience: customs rules must be checked on the order date.\n\nCommon mistakes: stating the wrong item description, understating the value, ordering an item in someone else's name, forgetting about the warranty, buying electronics without compatibility, not accounting for carrying furniture into a building without an elevator, ordering a medicine without checking the rules.\n\nFor the household start it's better to have a list of \"critical to bring\" and \"can buy later\", otherwise the first weeks turn into expensive and chaotic shopping."
+    },
+    "es": {
+      "title": "Errores en compras y aduana",
+      "short": "Comprar en Uruguay implica comparar tiendas locales, MercadoLibre, la entrega desde el exterior, los límites aduaneros y el coste real tras impuestos.",
+      "body": "No puedes considerar el precio internacional como final. La entrega, el almacenamiento, los impuestos, la gestión y las devoluciones pueden cambiar la economía. No puedes fiarte de un límite antiguo de la experiencia ajena: las reglas aduaneras hay que comprobarlas en la fecha del pedido.\n\nErrores frecuentes: indicar una descripción incorrecta del artículo, subvalorar el precio, pedir un artículo a nombre de otra persona, olvidar la garantía, comprar electrónica sin compatibilidad, no tener en cuenta la subida de muebles a un edificio sin ascensor, pedir un medicamento sin comprobar las reglas.\n\nPara el arranque doméstico conviene tener una lista de \"crítico para traer\" y \"se puede comprar luego\", de lo contrario las primeras semanas se convierten en compras caras y caóticas."
+    },
+    "de": {
+      "title": "Fehler beim Einkaufen und beim Zoll",
+      "short": "Einkaufen in Uruguay bedeutet, lokale Geschäfte, MercadoLibre, Lieferung aus dem Ausland, Zolllimits und die realen Kosten nach Steuern zu vergleichen.",
+      "body": "Man darf den internationalen Preis nicht als endgültig betrachten. Lieferung, Lagerung, Steuern, Abwicklung und Rücksendungen können die Wirtschaftlichkeit verändern. Man darf sich nicht auf ein altes Limit aus fremder Erfahrung verlassen: Zollregeln müssen am Bestelldatum geprüft werden.\n\nHäufige Fehler: eine falsche Artikelbeschreibung angeben, den Wert zu niedrig ansetzen, einen Artikel auf den Namen einer anderen Person bestellen, die Garantie vergessen, Elektronik ohne Kompatibilität kaufen, das Hochtragen von Möbeln in ein Gebäude ohne Aufzug nicht berücksichtigen, ein Medikament ohne Prüfung der Regeln bestellen.\n\nFür den Haushaltsstart ist eine Liste \"kritisch mitzubringen\" und \"später kaufbar\" besser, sonst werden die ersten Wochen zu teurem und chaotischem Einkaufen."
+    }
+  },
+  "card.transport_driving_car.advice.advice": {
+    "ru_body_hash": "55362d5e",
+    "en": {
+      "title": "Tips on transport and the car",
+      "short": "The transport topic covers driving licenses, buying and running a car, public transport, fines, parking and the real cost of mobility.",
+      "body": "• Before buying a car, live there at least a few weeks and understand the real routes.\n• Check not only the car's price but the patente, seguro, maintenance, parking and possible repairs.\n• A used car is better viewed with a mechanic or someone who knows the local market.\n• Check fines, debts, documents, the VIN/number, the condition of the tires, suspension, air conditioner and electronics.\n• For a driving license, clarify the requirements at your Intendencia: documents, a medical certificate, exams or an exchange.\n• In Montevideo account for parking and traffic jams; on the coast and in the suburbs — dependence on a car.\n• For rare trips, rental/taxi is sometimes cheaper than running your own car."
+    },
+    "es": {
+      "title": "Consejos sobre el transporte y el auto",
+      "short": "El tema del transporte incluye las licencias de conducir, comprar y mantener un auto, el transporte público, las multas, el estacionamiento y el coste real de la movilidad.",
+      "body": "• Antes de comprar un auto, vive al menos unas semanas y entiende las rutas reales.\n• Revisa no solo el precio del auto, sino la patente, el seguro, el mantenimiento, el estacionamiento y posibles reparaciones.\n• Un auto usado conviene verlo con un mecánico o alguien que conozca el mercado local.\n• Revisa multas, deudas, documentos, el VIN/número, el estado de los neumáticos, la suspensión, el aire acondicionado y la electrónica.\n• Para la licencia de conducir, aclara los requisitos en tu Intendencia: documentos, certificado médico, exámenes o canje.\n• En Montevideo ten en cuenta el estacionamiento y los atascos; en la costa y los suburbios — la dependencia del auto.\n• Para viajes esporádicos, el alquiler/taxi a veces sale más barato que mantener tu propio auto."
+    },
+    "de": {
+      "title": "Tipps zu Verkehr und Auto",
+      "short": "Das Verkehrsthema umfasst Führerscheine, den Kauf und Unterhalt eines Autos, öffentlichen Verkehr, Bußgelder, Parken und die realen Kosten der Mobilität.",
+      "body": "• Lebe vor dem Autokauf mindestens ein paar Wochen dort und verstehe die realen Routen.\n• Prüfe nicht nur den Autopreis, sondern die patente, seguro, Wartung, Parken und mögliche Reparaturen.\n• Einen Gebrauchtwagen sieht man sich besser mit einem Mechaniker oder jemandem an, der den lokalen Markt kennt.\n• Prüfe Bußgelder, Schulden, Dokumente, die VIN/Nummer, den Zustand der Reifen, Federung, Klimaanlage und Elektronik.\n• Kläre für den Führerschein die Anforderungen bei deiner Intendencia: Dokumente, ein ärztliches Attest, Prüfungen oder einen Umtausch.\n• Berücksichtige in Montevideo Parken und Staus; an der Küste und in den Vororten — die Abhängigkeit vom Auto.\n• Für seltene Fahrten ist Miete/Taxi manchmal günstiger als der Unterhalt eines eigenen Autos."
+    }
+  },
+  "card.transport_driving_car.advice.sovety_po_mashine_v_urugvae": {
+    "ru_body_hash": "62d1c3b0",
+    "en": {
+      "title": "Top tips — transport, cars and driving licenses",
+      "short": "Top tips — transport, cars and driving licenses.",
+      "body": "Top tips — transport, cars and driving licenses\n\n• Before buying a car, check how realistic it is to live without one: in Montevideo public transport and taxis can cover most tasks.\n• If you need a car, count the full cost: patente, seguro, service, parking, fuel, fines and possible repairs.\n• When buying, check the documents, debts, multas, condition, mileage and the cost of re-registration.\n• For a car rental, look separately at the deposit, insurance, the excess, the mileage limit and the return conditions.\n• Clarify the rules on foreign licenses and exchanging/obtaining a local license before a car becomes a necessity.\n• In different Intendencias the procedures, fines and parking rules may differ."
+    },
+    "es": {
+      "title": "Consejos principales — transporte, autos y licencias de conducir",
+      "short": "Consejos principales — transporte, autos y licencias de conducir.",
+      "body": "Consejos principales — transporte, autos y licencias de conducir\n\n• Antes de comprar un auto, comprueba cuán realista es vivir sin él: en Montevideo el transporte público y los taxis pueden cubrir la mayoría de las tareas.\n• Si necesitas un auto, cuenta el coste total: patente, seguro, servicio, estacionamiento, combustible, multas y posibles reparaciones.\n• Al comprar, revisa los documentos, deudas, multas, el estado, el kilometraje y el coste de la transferencia.\n• Para el alquiler de auto, mira aparte el depósito, el seguro, la franquicia, el límite de kilometraje y las condiciones de devolución.\n• Aclara las reglas sobre licencias extranjeras y el canje/obtención de la licencia local antes de que un auto se vuelva una necesidad.\n• En distintas Intendencias pueden diferir los trámites, las multas y las reglas de estacionamiento."
+    },
+    "de": {
+      "title": "Wichtigste Tipps — Verkehr, Autos und Führerscheine",
+      "short": "Wichtigste Tipps — Verkehr, Autos und Führerscheine.",
+      "body": "Wichtigste Tipps — Verkehr, Autos und Führerscheine\n\n• Prüfe vor dem Autokauf, wie realistisch es ist, ohne Auto zu leben: in Montevideo können öffentlicher Verkehr und Taxis die meisten Aufgaben abdecken.\n• Brauchst du ein Auto, rechne die Gesamtkosten: patente, seguro, Service, Parken, Kraftstoff, Bußgelder und mögliche Reparaturen.\n• Prüfe beim Kauf die Dokumente, Schulden, multas, den Zustand, den Kilometerstand und die Kosten der Umschreibung.\n• Schau bei der Automiete gesondert auf Kaution, Versicherung, Selbstbeteiligung, Kilometerbegrenzung und Rückgabebedingungen.\n• Kläre die Regeln zu ausländischen Führerscheinen und zum Umtausch/Erwerb des lokalen Führerscheins, bevor ein Auto zur Notwendigkeit wird.\n• In verschiedenen Intendencias können sich Verfahren, Bußgelder und Parkregeln unterscheiden."
+    }
+  },
+  "card.transport_driving_car.checklist.checklist": {
+    "ru_body_hash": "ef17e4d8",
+    "en": {
+      "title": "Checklist before buying a car",
+      "short": "The transport topic covers driving licenses, buying and running a car, public transport, fines, parking and the real cost of mobility.",
+      "body": "Check:\n□ the seller's and the car's documents;\n□ the presence of fines, debts, restrictions;\n□ the patente and insurance status;\n□ the service history and mileage;\n□ the engine, gearbox, suspension, brakes, air conditioner;\n□ the condition of the tires, body, wiring and interior;\n□ the cost of insurance and maintenance;\n□ the availability of spare parts;\n□ the formalization of the deal and the transfer of rights;\n□ where the car will be parked.\n\nDon't buy a car by photos alone. If your Spanish is weak or the market is unfamiliar, bring a mechanic/knowledgeable person.\n\nIf you need a car right after arrival, compare the alternatives in advance: rental for the first weeks, taxis, buses, buying a used car. Remember that formalization, insurance, parking and repairs may take more time than choosing the car itself."
+    },
+    "es": {
+      "title": "Lista antes de comprar un auto",
+      "short": "El tema del transporte incluye las licencias de conducir, comprar y mantener un auto, el transporte público, las multas, el estacionamiento y el coste real de la movilidad.",
+      "body": "Revisa:\n□ los documentos del vendedor y del auto;\n□ la presencia de multas, deudas, restricciones;\n□ la patente y el estado del seguro;\n□ el historial de servicio y el kilometraje;\n□ el motor, la caja, la suspensión, los frenos, el aire acondicionado;\n□ el estado de los neumáticos, la carrocería, la instalación eléctrica y el interior;\n□ el coste del seguro y el mantenimiento;\n□ la disponibilidad de repuestos;\n□ la formalización de la operación y la transferencia de titularidad;\n□ dónde se estacionará el auto.\n\nNo compres un auto solo por fotos. Si tu español es débil o el mercado es desconocido, lleva a un mecánico/persona entendida.\n\nSi necesitas un auto apenas llegas, compara las alternativas con antelación: alquiler las primeras semanas, taxis, autobuses, comprar un auto usado. Recuerda que la formalización, el seguro, el estacionamiento y las reparaciones pueden llevar más tiempo que elegir el auto en sí."
+    },
+    "de": {
+      "title": "Checkliste vor dem Autokauf",
+      "short": "Das Verkehrsthema umfasst Führerscheine, den Kauf und Unterhalt eines Autos, öffentlichen Verkehr, Bußgelder, Parken und die realen Kosten der Mobilität.",
+      "body": "Prüfe:\n□ die Dokumente des Verkäufers und des Autos;\n□ das Vorhandensein von Bußgeldern, Schulden, Beschränkungen;\n□ die patente und den Versicherungsstatus;\n□ die Servicehistorie und den Kilometerstand;\n□ Motor, Getriebe, Federung, Bremsen, Klimaanlage;\n□ den Zustand von Reifen, Karosserie, Elektrik und Innenraum;\n□ die Kosten von Versicherung und Wartung;\n□ die Verfügbarkeit von Ersatzteilen;\n□ die Abwicklung der Transaktion und die Übertragung der Rechte;\n□ wo das Auto geparkt wird.\n\nKaufe ein Auto nicht nur nach Fotos. Ist dein Spanisch schwach oder der Markt unbekannt, bringe einen Mechaniker/eine kundige Person mit.\n\nBrauchst du ein Auto direkt nach der Ankunft, vergleiche die Alternativen im Voraus: Miete für die ersten Wochen, Taxis, Busse, Kauf eines Gebrauchtwagens. Bedenke, dass Abwicklung, Versicherung, Parken und Reparaturen mehr Zeit kosten können als die Autowahl selbst."
+    }
+  },
+  "card.transport_driving_car.checklist.transport_i_avto_chto_proverit_novichku": {
+    "ru_body_hash": "3c22ae95",
+    "en": {
+      "title": "Transport and cars: what a newcomer should check",
+      "short": "Transport and cars: what a newcomer should check.",
+      "body": "Transport and cars: what a newcomer should check\n\nPublic transport in Montevideo and the surrounding area can cover most daily routes, especially if you have an STM/card and a clear route.\n\nWhen it matters: living without a car, choosing a neighborhood, trips to the center.\n\nWhat to check: routes, transfers, evening times, topping up the card and the link to a bank account/STM pospago."
+    },
+    "es": {
+      "title": "Transporte y auto: qué revisar un recién llegado",
+      "short": "Transporte y auto: qué revisar un recién llegado.",
+      "body": "Transporte y auto: qué revisar un recién llegado\n\nEl transporte público en Montevideo y los alrededores puede cubrir la mayor parte de las rutas diarias, sobre todo si tienes una STM/tarjeta y una ruta clara.\n\nCuándo importa: vivir sin auto, elegir un barrio, viajes al centro.\n\nQué revisar: rutas, transbordos, horarios de noche, recarga de la tarjeta y el vínculo con una cuenta bancaria/STM pospago."
+    },
+    "de": {
+      "title": "Verkehr und Auto: was ein Neuankömmling prüfen sollte",
+      "short": "Verkehr und Auto: was ein Neuankömmling prüfen sollte.",
+      "body": "Verkehr und Auto: was ein Neuankömmling prüfen sollte\n\nDer öffentliche Verkehr in Montevideo und Umgebung kann die meisten täglichen Routen abdecken, besonders wenn du eine STM/Karte und eine klare Route hast.\n\nWann es wichtig ist: Leben ohne Auto, die Wahl eines Viertels, Fahrten ins Zentrum.\n\nWas zu prüfen ist: Routen, Umstiege, Abendzeiten, das Aufladen der Karte und die Verbindung zu einem Bankkonto/STM pospago."
+    }
+  },
+  "card.transport_driving_car.community_experience.community_experience": {
+    "ru_body_hash": "9662e3ea",
+    "en": {
+      "title": "Practical experience of mobility",
+      "short": "The transport topic covers driving licenses, buying and running a car, public transport, fines, parking and the real cost of mobility.",
+      "body": "Experience depends heavily on where you live. In central and coastal areas of Montevideo many get by with buses, taxis and deliveries. In Ciudad de la Costa, the suburbs, on the coast and when living with children, a car often becomes not a luxury but a logistics tool.\n\nBuying a car in Uruguay can seem expensive compared to familiar markets, especially considering the condition of older cars and the cost of maintenance. So some people first rent or use taxis and postpone buying until they understand the area and their schedule.\n\nConclusion: transport should be counted as part of choosing housing. A cheap house far from services can become expensive because of the car, time and fuel."
+    },
+    "es": {
+      "title": "Experiencia práctica de la movilidad",
+      "short": "El tema del transporte incluye las licencias de conducir, comprar y mantener un auto, el transporte público, las multas, el estacionamiento y el coste real de la movilidad.",
+      "body": "La experiencia depende mucho del lugar donde vives. En las zonas centrales y costeras de Montevideo muchos se arreglan con autobuses, taxis y entregas. En Ciudad de la Costa, los suburbios, la costa y al vivir con hijos, un auto suele volverse no un lujo, sino una herramienta de logística.\n\nComprar un auto en Uruguay puede parecer caro comparado con los mercados habituales, sobre todo considerando el estado de los autos viejos y el coste del mantenimiento. Por eso parte de la gente primero alquila o usa taxis y aplaza la compra hasta entender el barrio y el horario.\n\nConclusión: el transporte debe contarse como parte de la elección de la vivienda. Una casa barata lejos de los servicios puede salir cara por el auto, el tiempo y el combustible."
+    },
+    "de": {
+      "title": "Praktische Erfahrung der Mobilität",
+      "short": "Das Verkehrsthema umfasst Führerscheine, den Kauf und Unterhalt eines Autos, öffentlichen Verkehr, Bußgelder, Parken und die realen Kosten der Mobilität.",
+      "body": "Die Erfahrung hängt stark vom Wohnort ab. In zentralen und küstennahen Gegenden Montevideos kommen viele mit Bussen, Taxis und Lieferungen aus. In Ciudad de la Costa, den Vororten, an der Küste und beim Leben mit Kindern wird ein Auto oft kein Luxus, sondern ein Logistikwerkzeug.\n\nDer Autokauf in Uruguay kann im Vergleich zu vertrauten Märkten teuer wirken, besonders angesichts des Zustands älterer Autos und der Wartungskosten. Daher mieten manche zuerst oder nutzen Taxis und schieben den Kauf auf, bis sie das Viertel und ihren Zeitplan verstehen.\n\nFazit: Verkehr sollte als Teil der Wohnungswahl gerechnet werden. Ein günstiges Haus weit weg von Diensten kann durch Auto, Zeit und Kraftstoff teuer werden."
+    }
+  },
+  "card.transport_driving_car.overview.overview": {
+    "ru_body_hash": "8d4ad9fd",
+    "en": {
+      "title": "Transport, cars and driving licenses: what to know",
+      "short": "The transport topic covers driving licenses, buying and running a car, public transport, fines, parking and the real cost of mobility.",
+      "body": "In Uruguay you can live without a car in parts of Montevideo, but beyond the convenient routes a car sharply increases freedom. The transport topic covers several different tasks: exchanging/obtaining a driving license, buying a car, insurance, patente, the technical inspection/condition, parking, fines, buses, taxis and intercity trips.\n\nFor newcomers it's important not to cost a car only by the purchase price. Insurance, the patente, maintenance, tires, fuel, parking, possible repairs and lost time are added. When buying a used car you need to check the documents, debts, fines, condition and service history.\n\nFor daily life, first test the routes: bus, taxi/Cabify/Uber, car rental, car-sharing/hire, and then decide whether you need your own car."
+    },
+    "es": {
+      "title": "Transporte, autos y licencias de conducir: lo que importa saber",
+      "short": "El tema del transporte incluye las licencias de conducir, comprar y mantener un auto, el transporte público, las multas, el estacionamiento y el coste real de la movilidad.",
+      "body": "En Uruguay se puede vivir sin auto en algunas zonas de Montevideo, pero fuera de las rutas cómodas un auto aumenta mucho la libertad. El tema del transporte incluye varias tareas distintas: canjear/obtener la licencia de conducir, comprar un auto, el seguro, la patente, la inspección técnica/el estado, el estacionamiento, las multas, los autobuses, los taxis y los viajes interurbanos.\n\nPara los recién llegados es importante no calcular el auto solo por el precio de compra. Se suman el seguro, la patente, el mantenimiento, los neumáticos, el combustible, el estacionamiento, posibles reparaciones y el tiempo perdido. Al comprar un auto usado hay que revisar los documentos, deudas, multas, el estado y el historial de servicio.\n\nPara la vida diaria, primero prueba las rutas: autobús, taxi/Cabify/Uber, alquiler de auto, car-sharing/arriendo, y luego decide si necesitas tu propio auto."
+    },
+    "de": {
+      "title": "Verkehr, Autos und Führerscheine: was man wissen muss",
+      "short": "Das Verkehrsthema umfasst Führerscheine, den Kauf und Unterhalt eines Autos, öffentlichen Verkehr, Bußgelder, Parken und die realen Kosten der Mobilität.",
+      "body": "In Uruguay kann man in Teilen Montevideos ohne Auto leben, aber außerhalb der bequemen Routen erhöht ein Auto die Freiheit stark. Das Verkehrsthema umfasst mehrere verschiedene Aufgaben: Umtausch/Erwerb eines Führerscheins, Autokauf, Versicherung, patente, die technische Prüfung/den Zustand, Parken, Bußgelder, Busse, Taxis und Überlandfahrten.\n\nFür Neuankömmlinge ist es wichtig, ein Auto nicht nur nach dem Kaufpreis zu berechnen. Hinzu kommen Versicherung, die patente, Wartung, Reifen, Kraftstoff, Parken, mögliche Reparaturen und Zeitverlust. Beim Kauf eines Gebrauchtwagens muss man die Dokumente, Schulden, Bußgelder, den Zustand und die Servicehistorie prüfen.\n\nTeste für den Alltag zuerst die Routen: Bus, Taxi/Cabify/Uber, Autovermietung, Car-Sharing/Miete, und entscheide dann, ob du ein eigenes Auto brauchst."
+    }
+  },
+  "card.transport_driving_car.reference.ref_arenda_avto": {
+    "ru_body_hash": "e9d6e57d",
+    "en": {
+      "title": "Car rental: what to know",
+      "short": "Car rental: what to know.",
+      "body": "Car rental: what to know\n\nCar rental is convenient for trips, but requires reading the insurance, deposit, excess, mileage limit and return conditions carefully.\n\nWhen it matters: the first weeks, trips around the country, a temporary replacement car.\n\nWhat to check: the license, age, card, deposit, insurance, fuel, damage and out-of-office return."
+    },
+    "es": {
+      "title": "Alquiler de auto: lo que importa saber",
+      "short": "Alquiler de auto: lo que importa saber.",
+      "body": "Alquiler de auto: lo que importa saber\n\nEl alquiler de auto es cómodo para viajes, pero exige leer con cuidado el seguro, el depósito, la franquicia, el límite de kilometraje y las condiciones de devolución.\n\nCuándo importa: las primeras semanas, viajes por el país, un reemplazo temporal del auto.\n\nQué revisar: la licencia, la edad, la tarjeta, el depósito, el seguro, el combustible, los daños y la devolución fuera de oficina."
+    },
+    "de": {
+      "title": "Automiete: was man wissen muss",
+      "short": "Automiete: was man wissen muss.",
+      "body": "Automiete: was man wissen muss\n\nDie Automiete ist für Fahrten bequem, erfordert aber, die Versicherung, Kaution, Selbstbeteiligung, Kilometerbegrenzung und Rückgabebedingungen sorgfältig zu lesen.\n\nWann es wichtig ist: die ersten Wochen, Fahrten durchs Land, ein vorübergehender Ersatzwagen.\n\nWas zu prüfen ist: den Führerschein, das Alter, die Karte, die Kaution, die Versicherung, den Kraftstoff, Schäden und die Rückgabe außerhalb des Büros."
+    }
+  },
+  "card.transport_driving_car.reference.ref_obschestvennyy_transport": {
+    "ru_body_hash": "ae421f03",
+    "en": {
+      "title": "Public transport: what to know",
+      "short": "Public transport: what to know.",
+      "body": "Public transport: what to know\n\nPublic transport in Montevideo and the surrounding area can cover most daily routes, especially if you have an STM/card and a clear route.\n\nWhen it matters: living without a car, choosing a neighborhood, trips to the center.\n\nWhat to check: routes, transfers, evening times, topping up the card and the link to a bank account/STM pospago."
+    },
+    "es": {
+      "title": "Transporte público: lo que importa saber",
+      "short": "Transporte público: lo que importa saber.",
+      "body": "Transporte público: lo que importa saber\n\nEl transporte público en Montevideo y los alrededores puede cubrir la mayor parte de las rutas diarias, sobre todo si tienes una STM/tarjeta y una ruta clara.\n\nCuándo importa: vivir sin auto, elegir un barrio, viajes al centro.\n\nQué revisar: rutas, transbordos, horarios de noche, recarga de la tarjeta y el vínculo con una cuenta bancaria/STM pospago."
+    },
+    "de": {
+      "title": "Öffentlicher Verkehr: was man wissen muss",
+      "short": "Öffentlicher Verkehr: was man wissen muss.",
+      "body": "Öffentlicher Verkehr: was man wissen muss\n\nDer öffentliche Verkehr in Montevideo und Umgebung kann die meisten täglichen Routen abdecken, besonders wenn du eine STM/Karte und eine klare Route hast.\n\nWann es wichtig ist: Leben ohne Auto, die Wahl eines Viertels, Fahrten ins Zentrum.\n\nWas zu prüfen ist: Routen, Umstiege, Abendzeiten, das Aufladen der Karte und die Verbindung zu einem Bankkonto/STM pospago."
+    }
+  },
+  "card.transport_driving_car.reference.ref_pokupka_avto": {
+    "ru_body_hash": "c0b7b390",
+    "en": {
+      "title": "Buying a car: what to know",
+      "short": "Buying a car: what to know.",
+      "body": "Buying a car: what to know\n\nBuying a car requires checking debts, fines, documents, condition and future costs. The listing price is only part of the budget.\n\nWhen it matters: life out of town, family, work, trips.\n\nWhat to check: the patente, multas, seguro, service, mileage, the seller's documents and the re-registration."
+    },
+    "es": {
+      "title": "Comprar un auto: lo que importa saber",
+      "short": "Comprar un auto: lo que importa saber.",
+      "body": "Comprar un auto: lo que importa saber\n\nComprar un auto requiere revisar deudas, multas, documentos, el estado y los gastos futuros. El precio del anuncio es solo una parte del presupuesto.\n\nCuándo importa: vida fuera de la ciudad, familia, trabajo, viajes.\n\nQué revisar: la patente, multas, seguro, servicio, kilometraje, los documentos del vendedor y la transferencia."
+    },
+    "de": {
+      "title": "Autokauf: was man wissen muss",
+      "short": "Autokauf: was man wissen muss.",
+      "body": "Autokauf: was man wissen muss\n\nDer Autokauf erfordert die Prüfung von Schulden, Bußgeldern, Dokumenten, Zustand und künftigen Kosten. Der Anzeigenpreis ist nur ein Teil des Budgets.\n\nWann es wichtig ist: Leben außerhalb der Stadt, Familie, Arbeit, Fahrten.\n\nWas zu prüfen ist: die patente, multas, seguro, Service, Kilometerstand, die Dokumente des Verkäufers und die Umschreibung."
+    }
+  },
+  "card.transport_driving_car.reference.ref_shtrafy_i_parkovka": {
+    "ru_body_hash": "62f2d9ad",
+    "en": {
+      "title": "Fines and parking: what to know",
+      "short": "Fines and parking: what to know.",
+      "body": "Fines and parking: what to know\n\nFines and parking depend on the city and the Intendencia. Debts may surface when selling a car or re-registering.\n\nWhen it matters: driving in Montevideo, buying a car, renting, trips.\n\nWhat to check: where to check multas, payment deadlines, discounts, contesting and towing."
+    },
+    "es": {
+      "title": "Multas y estacionamiento: lo que importa saber",
+      "short": "Multas y estacionamiento: lo que importa saber.",
+      "body": "Multas y estacionamiento: lo que importa saber\n\nLas multas y el estacionamiento dependen de la ciudad y la Intendencia. Las deudas pueden aparecer al vender un auto o al transferir la titularidad.\n\nCuándo importa: conducir en Montevideo, comprar un auto, alquilar, viajes.\n\nQué revisar: dónde consultar las multas, los plazos de pago, descuentos, la impugnación y el remolque."
+    },
+    "de": {
+      "title": "Bußgelder und Parken: was man wissen muss",
+      "short": "Bußgelder und Parken: was man wissen muss.",
+      "body": "Bußgelder und Parken: was man wissen muss\n\nBußgelder und Parken hängen von der Stadt und der Intendencia ab. Schulden können beim Verkauf eines Autos oder bei der Umschreibung auftauchen.\n\nWann es wichtig ist: Fahren in Montevideo, Autokauf, Miete, Fahrten.\n\nWas zu prüfen ist: wo man multas prüft, Zahlungsfristen, Rabatte, die Anfechtung und das Abschleppen."
+    }
+  },
+  "card.transport_driving_car.reference.ref_voditelskie_prava": {
+    "ru_body_hash": "09369a6d",
+    "en": {
+      "title": "Driving licenses: what to know",
+      "short": "Driving licenses: what to know.",
+      "body": "Driving licenses: what to know\n\nDriving licenses need to be checked by residence status and the period for using a foreign document. The rules and the exchange may differ by country of issue.\n\nWhen it matters: moving with a car, renting a car, buying, working as a driver.\n\nWhat to check: whether a translation/apostille, a medical exam, an exam are needed, the validity period and the Intendencia agency."
+    },
+    "es": {
+      "title": "Licencias de conducir: lo que importa saber",
+      "short": "Licencias de conducir: lo que importa saber.",
+      "body": "Licencias de conducir: lo que importa saber\n\nLas licencias de conducir hay que comprobarlas según el estatus de residencia y el plazo para usar un documento extranjero. Las reglas y el canje pueden diferir según el país de emisión.\n\nCuándo importa: mudarse con auto, alquilar un auto, comprar, trabajar de conductor.\n\nQué revisar: si hace falta traducción/apostilla, examen médico, examen, el plazo de validez y la Intendencia correspondiente."
+    },
+    "de": {
+      "title": "Führerscheine: was man wissen muss",
+      "short": "Führerscheine: was man wissen muss.",
+      "body": "Führerscheine: was man wissen muss\n\nFührerscheine müssen nach Aufenthaltsstatus und der Frist für die Nutzung eines ausländischen Dokuments geprüft werden. Die Regeln und der Umtausch können je nach Ausstellungsland unterschiedlich sein.\n\nWann es wichtig ist: Umzug mit Auto, Automiete, Kauf, Arbeit als Fahrer.\n\nWas zu prüfen ist: ob Übersetzung/Apostille, eine ärztliche Untersuchung, eine Prüfung nötig sind, die Gültigkeitsdauer und die zuständige Intendencia."
+    }
+  },
+  "card.transport_driving_car.warning.warning": {
+    "ru_body_hash": "f2f2b35d",
+    "en": {
+      "title": "Mistakes with transport and licenses",
+      "short": "The transport topic covers driving licenses, buying and running a car, public transport, fines, parking and the real cost of mobility.",
+      "body": "Mistakes: buying a car before understanding the routes; not checking debts and fines; underestimating the cost of repairs; forgetting about parking; assuming a license automatically works without a local procedure.\n\nDon't rely on a verbal \"it's all fine\" when buying. The documents, fines and condition must be checked separately. Don't take a car if you don't understand how the transfer will be formalized and who is liable until registration.\n\nIf it concerns a traffic accident, a fine, a dispute with the insurer or a serious breakdown right after the purchase, record everything in writing and don't delay taking action."
+    },
+    "es": {
+      "title": "Errores con el transporte y las licencias",
+      "short": "El tema del transporte incluye las licencias de conducir, comprar y mantener un auto, el transporte público, las multas, el estacionamiento y el coste real de la movilidad.",
+      "body": "Errores: comprar un auto antes de entender las rutas; no revisar deudas y multas; subestimar el coste de las reparaciones; olvidarse del estacionamiento; suponer que la licencia sirve automáticamente sin un trámite local.\n\nNo te fíes de un \"está todo bien\" verbal al comprar. Los documentos, las multas y el estado hay que revisarlos por separado. No tomes un auto si no entiendes cómo se formalizará la transferencia y quién es responsable hasta el registro.\n\nSi se trata de un accidente de tránsito, una multa, una disputa con la aseguradora o una avería grave justo tras la compra, registra todo por escrito y no demores en actuar."
+    },
+    "de": {
+      "title": "Fehler bei Verkehr und Führerscheinen",
+      "short": "Das Verkehrsthema umfasst Führerscheine, den Kauf und Unterhalt eines Autos, öffentlichen Verkehr, Bußgelder, Parken und die realen Kosten der Mobilität.",
+      "body": "Fehler: ein Auto kaufen, bevor man die Routen versteht; Schulden und Bußgelder nicht prüfen; die Reparaturkosten unterschätzen; das Parken vergessen; annehmen, dass ein Führerschein ohne lokales Verfahren automatisch passt.\n\nVerlass dich beim Kauf nicht auf ein mündliches \"alles in Ordnung\". Dokumente, Bußgelder und Zustand müssen separat geprüft werden. Nimm kein Auto, wenn du nicht verstehst, wie die Übertragung abgewickelt wird und wer bis zur Registrierung haftet.\n\nGeht es um einen Verkehrsunfall, ein Bußgeld, einen Streit mit der Versicherung oder einen schweren Defekt direkt nach dem Kauf, halte alles schriftlich fest und zögere nicht, tätig zu werden."
+    }
+  },
+  "card.utilities_internet_mobile.advice.advice": {
+    "ru_body_hash": "6895a932",
+    "en": {
+      "title": "Tips on UTE, OSE, Antel and connectivity",
+      "short": "Utilities and connectivity mean UTE, OSE, Antel/operators, bills tied to the address, internet installation, previous tenants' debts and the connection quality in the specific building.",
+      "body": "• Before signing the lease, clarify whether UTE/OSE/Antel are connected and whether there are debts.\n• At move-in, photograph the meters and record the date the keys were handed over.\n• Check whether the internet of the provider you need can be installed in this specific building and flat.\n• For remote work keep a backup: mobile internet, a second operator or a nearby coworking.\n• Compare not only the tariff but also the connection lead time, the router, stability, service and penalties for early cancellation.\n• If a bill is unexpectedly high, check the tariff, water heater, air conditioners, leaks, old periods and the readings.\n• Put any arrangements with the owner about paying old bills in writing."
+    },
+    "es": {
+      "title": "Consejos sobre UTE, OSE, Antel y conectividad",
+      "short": "Los servicios y la conectividad son UTE, OSE, Antel/operadores, facturas ligadas al domicilio, instalación de internet, deudas de inquilinos anteriores y la calidad de conexión en el edificio concreto.",
+      "body": "• Antes de firmar el contrato, aclara si UTE/OSE/Antel están conectados y si hay deudas.\n• Al entrar, fotografía los medidores y registra la fecha de entrega de las llaves.\n• Comprueba si se puede instalar el internet del proveedor que necesitas en este edificio y vivienda concretos.\n• Para el trabajo remoto ten un respaldo: internet móvil, un segundo operador o un coworking cercano.\n• Compara no solo la tarifa, sino también el plazo de conexión, el router, la estabilidad, el servicio y las multas por baja anticipada.\n• Si una factura es inesperadamente alta, revisa la tarifa, el calentador, los aires acondicionados, las fugas, los períodos antiguos y las lecturas.\n• Pon por escrito cualquier acuerdo con el propietario sobre el pago de facturas antiguas."
+    },
+    "de": {
+      "title": "Tipps zu UTE, OSE, Antel und Konnektivität",
+      "short": "Versorgung und Konnektivität bedeuten UTE, OSE, Antel/Anbieter, an die Adresse gebundene Rechnungen, Internetinstallation, Schulden früherer Mieter und die Verbindungsqualität im konkreten Gebäude.",
+      "body": "• Kläre vor der Vertragsunterschrift, ob UTE/OSE/Antel angeschlossen sind und ob Schulden bestehen.\n• Fotografiere beim Einzug die Zähler und halte das Datum der Schlüsselübergabe fest.\n• Prüfe, ob das Internet des gewünschten Anbieters in genau diesem Gebäude und dieser Wohnung installiert werden kann.\n• Halte für Remote-Arbeit einen Ersatz bereit: mobiles Internet, einen zweiten Anbieter oder ein nahegelegenes Coworking.\n• Vergleiche nicht nur den Tarif, sondern auch die Anschlussdauer, den Router, die Stabilität, den Service und die Strafen bei vorzeitiger Kündigung.\n• Ist eine Rechnung unerwartet hoch, prüfe den Tarif, Boiler, Klimaanlagen, Lecks, alte Zeiträume und die Zählerstände.\n• Halte alle Absprachen mit dem Eigentümer über die Zahlung alter Rechnungen schriftlich fest."
+    }
+  },
+  "card.utilities_internet_mobile.checklist.checklist": {
+    "ru_body_hash": "78e97c89",
+    "en": {
+      "title": "Move-in checklist: utilities and connectivity",
+      "short": "Utilities and connectivity mean UTE, OSE, Antel/operators, bills tied to the address, internet installation, previous tenants' debts and the connection quality in the specific building.",
+      "body": "Check:\n□ the UTE/OSE/Antel contract numbers, if there are any;\n□ the absence of debts up to the move-in date;\n□ meter readings with photos;\n□ who pays the bill for the transition period;\n□ the electricity tariff and the capacity;\n□ the condition of the water heater, air conditioners, wiring;\n□ the possibility of connecting home internet;\n□ the actual speed and stability of the connection;\n□ the mobile signal in the rooms;\n□ the procedure for disconnecting/transferring on move-out.\n\nIf remote work is critical, test the internet before signing or include in the contract a clause about the possibility of connection."
+    },
+    "es": {
+      "title": "Lista de entrada: servicios y conectividad",
+      "short": "Los servicios y la conectividad son UTE, OSE, Antel/operadores, facturas ligadas al domicilio, instalación de internet, deudas de inquilinos anteriores y la calidad de conexión en el edificio concreto.",
+      "body": "Revisa:\n□ los números de contrato de UTE/OSE/Antel, si los hay;\n□ la ausencia de deudas hasta la fecha de entrada;\n□ las lecturas de los medidores con fotos;\n□ quién paga la factura del período de transición;\n□ la tarifa de electricidad y la potencia;\n□ el estado del calentador, los aires acondicionados, la instalación eléctrica;\n□ la posibilidad de conectar internet doméstico;\n□ la velocidad y estabilidad reales de la conexión;\n□ la señal móvil en las habitaciones;\n□ el procedimiento de baja/cambio de titular al salir.\n\nSi el trabajo remoto es crítico, prueba el internet antes de firmar o incluye en el contrato una cláusula sobre la posibilidad de conexión."
+    },
+    "de": {
+      "title": "Einzugs-Checkliste: Versorgung und Konnektivität",
+      "short": "Versorgung und Konnektivität bedeuten UTE, OSE, Antel/Anbieter, an die Adresse gebundene Rechnungen, Internetinstallation, Schulden früherer Mieter und die Verbindungsqualität im konkreten Gebäude.",
+      "body": "Prüfe:\n□ die UTE/OSE/Antel-Vertragsnummern, falls vorhanden;\n□ das Fehlen von Schulden bis zum Einzugsdatum;\n□ Zählerstände mit Fotos;\n□ wer die Rechnung für die Übergangszeit zahlt;\n□ den Stromtarif und die Leistung;\n□ den Zustand von Boiler, Klimaanlagen, Elektrik;\n□ die Möglichkeit, Heiminternet anzuschließen;\n□ die tatsächliche Geschwindigkeit und Stabilität der Verbindung;\n□ das Mobilsignal in den Räumen;\n□ das Verfahren zum Abmelden/Umschreiben beim Auszug.\n\nIst Remote-Arbeit kritisch, teste das Internet vor der Unterschrift oder nimm eine Klausel über die Anschlussmöglichkeit in den Vertrag auf."
+    }
+  },
+  "card.utilities_internet_mobile.community_experience.community_experience": {
+    "ru_body_hash": "77c93bb6",
+    "en": {
+      "title": "Practical experience with utilities",
+      "short": "Utilities and connectivity mean UTE, OSE, Antel/operators, bills tied to the address, internet installation, previous tenants' debts and the connection quality in the specific building.",
+      "body": "A recurring situation: a new tenant runs into an old debt, an untransferred service or an unclear bill. So experienced tenants photograph the meters and check UTE/OSE before moving in. In older buildings, weak wiring, water heaters, humidity and high winter bills also come up.\n\nWith internet the situation depends on the building. A listing may say \"internet available\", but for remote work the speed, latency, stability, the possibility of running fiber and the Wi-Fi quality inside the flat matter. On the coast and in some areas it's better to test the connection in advance.\n\nConclusion: utilities are not a minor detail after renting but part of checking the home and the budget."
+    },
+    "es": {
+      "title": "Experiencia práctica con los servicios",
+      "short": "Los servicios y la conectividad son UTE, OSE, Antel/operadores, facturas ligadas al domicilio, instalación de internet, deudas de inquilinos anteriores y la calidad de conexión en el edificio concreto.",
+      "body": "Una situación recurrente: un nuevo inquilino se encuentra con una deuda antigua, un servicio sin cambiar de titular o una factura confusa. Por eso los inquilinos con experiencia fotografían los medidores y revisan UTE/OSE antes de entrar. En los edificios antiguos también aparecen instalación eléctrica débil, calentadores, humedad y facturas altas en invierno.\n\nCon el internet la situación depende del edificio. Un anuncio puede decir \"hay internet\", pero para el trabajo remoto importan la velocidad, la latencia, la estabilidad, la posibilidad de tender fibra y la calidad del Wi-Fi dentro de la vivienda. En la costa y en algunas zonas conviene probar la conexión con antelación.\n\nConclusión: los servicios no son un detalle menor tras alquilar, sino parte de la revisión de la vivienda y del presupuesto."
+    },
+    "de": {
+      "title": "Praktische Erfahrung mit der Versorgung",
+      "short": "Versorgung und Konnektivität bedeuten UTE, OSE, Antel/Anbieter, an die Adresse gebundene Rechnungen, Internetinstallation, Schulden früherer Mieter und die Verbindungsqualität im konkreten Gebäude.",
+      "body": "Eine wiederkehrende Situation: Ein neuer Mieter stößt auf eine alte Schuld, einen nicht umgeschriebenen Dienst oder eine unklare Rechnung. Daher fotografieren erfahrene Mieter die Zähler und prüfen UTE/OSE vor dem Einzug. In älteren Gebäuden tauchen außerdem schwache Elektrik, Boiler, Feuchtigkeit und hohe Winterrechnungen auf.\n\nBeim Internet hängt die Lage vom Gebäude ab. Eine Anzeige kann \"Internet vorhanden\" sagen, aber für Remote-Arbeit zählen Geschwindigkeit, Latenz, Stabilität, die Möglichkeit, Glasfaser zu verlegen, und die WLAN-Qualität in der Wohnung. An der Küste und in einigen Gebieten testet man die Verbindung besser im Voraus.\n\nFazit: Versorgung ist kein nebensächliches Detail nach der Miete, sondern Teil der Prüfung von Wohnung und Budget."
+    }
+  },
+  "card.utilities_internet_mobile.instruction.kak_podklyuchat_ili_pereoformlyat_ute_ose_i_antel": {
+    "ru_body_hash": "c31b8a7d",
+    "en": {
+      "title": "How to connect or transfer UTE, OSE and Antel",
+      "short": "How to connect or transfer UTE, OSE and Antel.",
+      "body": "How to connect or transfer UTE, OSE and Antel\n\nUTE is responsible for electricity. When renting it's important to check debts, the meter reading, who pays the previous period and whether the service can be transferred.\n\nWhen it matters: moving into a flat, relocating, a dispute with the owner, high bills.\n\nWhat to check: the service number, the outstanding debt, the capacity, the readings, the date of key handover and the payment history."
+    },
+    "es": {
+      "title": "Cómo conectar o cambiar la titularidad de UTE, OSE y Antel",
+      "short": "Cómo conectar o cambiar la titularidad de UTE, OSE y Antel.",
+      "body": "Cómo conectar o cambiar la titularidad de UTE, OSE y Antel\n\nUTE es responsable de la electricidad. Al alquilar es importante revisar las deudas, la lectura del medidor, quién paga el período anterior y si se puede cambiar la titularidad del servicio.\n\nCuándo importa: entrar a una vivienda, mudarse, una disputa con el propietario, facturas altas.\n\nQué revisar: el número de servicio, la deuda pendiente, la potencia, las lecturas, la fecha de entrega de llaves y el historial de pagos."
+    },
+    "de": {
+      "title": "Wie man UTE, OSE und Antel anschließt oder umschreibt",
+      "short": "Wie man UTE, OSE und Antel anschließt oder umschreibt.",
+      "body": "Wie man UTE, OSE und Antel anschließt oder umschreibt\n\nUTE ist für den Strom zuständig. Beim Mieten ist es wichtig, Schulden, den Zählerstand, wer den vorherigen Zeitraum zahlt und ob der Dienst umgeschrieben werden kann, zu prüfen.\n\nWann es wichtig ist: Einzug in eine Wohnung, Umzug, ein Streit mit dem Eigentümer, hohe Rechnungen.\n\nWas zu prüfen ist: die Dienstnummer, die offene Schuld, die Leistung, die Zählerstände, das Datum der Schlüsselübergabe und die Zahlungshistorie."
+    }
+  },
+  "card.utilities_internet_mobile.instruction.kak_podklyuchat_kommunalnye_uslugi_i_svyaz": {
+    "ru_body_hash": "e94e94e8",
+    "en": {
+      "title": "How to connect utilities and connectivity",
+      "short": "Utilities and connectivity mean UTE, OSE, Antel/operators, bills tied to the address, internet installation, previous tenants' debts and the connection quality in the specific building.",
+      "body": "1. Before move-in, get information from the owner/agent on UTE, OSE, Antel and the current bills.\n2. Photograph the meters and record the date the flat is handed over.\n3. Clarify whether the contract needs transferring or whether it's enough to pay the bills tied to the address.\n4. Check old debts and agree who pays for the period before your move-in.\n5. Order internet in advance, especially if you work remotely: connection lead times may not be instant.\n6. Set up bill payment via the bank, Abitab/Redpagos or online accounts.\n7. On move-out, get the final bills and keep payment confirmations so as not to argue about the deposit."
+    },
+    "es": {
+      "title": "Cómo conectar los servicios y la conectividad",
+      "short": "Los servicios y la conectividad son UTE, OSE, Antel/operadores, facturas ligadas al domicilio, instalación de internet, deudas de inquilinos anteriores y la calidad de conexión en el edificio concreto.",
+      "body": "1. Antes de entrar, obtén del propietario/agente la información sobre UTE, OSE, Antel y las facturas actuales.\n2. Fotografía los medidores y registra la fecha de entrega de la vivienda.\n3. Aclara si hace falta cambiar la titularidad del contrato o si basta con pagar las facturas por domicilio.\n4. Revisa las deudas antiguas y acuerda quién paga el período anterior a tu entrada.\n5. Pide el internet con antelación, sobre todo si trabajas en remoto: los plazos de conexión pueden no ser inmediatos.\n6. Configura el pago de facturas por el banco, Abitab/Redpagos o los portales en línea.\n7. Al salir, obtén las facturas finales y guarda los comprobantes de pago para no discutir por el depósito."
+    },
+    "de": {
+      "title": "Wie man Versorgung und Konnektivität anschließt",
+      "short": "Versorgung und Konnektivität bedeuten UTE, OSE, Antel/Anbieter, an die Adresse gebundene Rechnungen, Internetinstallation, Schulden früherer Mieter und die Verbindungsqualität im konkreten Gebäude.",
+      "body": "1. Hole vor dem Einzug vom Eigentümer/Makler die Informationen zu UTE, OSE, Antel und den aktuellen Rechnungen ein.\n2. Fotografiere die Zähler und halte das Datum der Wohnungsübergabe fest.\n3. Kläre, ob der Vertrag umgeschrieben werden muss oder ob es genügt, die an die Adresse gebundenen Rechnungen zu zahlen.\n4. Prüfe alte Schulden und vereinbare, wer den Zeitraum vor deinem Einzug zahlt.\n5. Bestelle das Internet im Voraus, besonders wenn du remote arbeitest: die Anschlussfristen sind möglicherweise nicht sofort.\n6. Richte die Rechnungszahlung über die Bank, Abitab/Redpagos oder Online-Konten ein.\n7. Hole beim Auszug die Schlussrechnungen ein und bewahre Zahlungsbestätigungen auf, um nicht über die Kaution zu streiten."
+    }
+  },
+  "card.utilities_internet_mobile.overview.overview": {
+    "ru_body_hash": "0b3a0efc",
+    "en": {
+      "title": "Utilities, internet and mobile: how to set it all up",
+      "short": "Utilities and connectivity mean UTE, OSE, Antel/operators, bills tied to the address, internet installation, previous tenants' debts and the connection quality in the specific building.",
+      "body": "Daily life in Uruguay quickly runs into utilities: UTE electricity, OSE water, Antel internet/telephony or mobile operators, address-linked bills and transferring services when renting. It's important to understand the problem may not be you but the property: an old debt, an inactive contract, weak wiring, no fiber or a poor signal in the flat.\n\nBefore moving in you need to find out who arranges the services, whether there are debts, what meters there are, who pays the first/last period, how readings are submitted and when bills arrive. For remote work check separately not just whether there's internet but the speed, stability, the possibility of installation and a backup mobile channel.\n\nUtilities are linked to renting: the contract should make clear which costs are the tenant's, which the owner's and what happens with old debts."
+    },
+    "es": {
+      "title": "Servicios, internet y telefonía móvil: cómo organizarlo todo",
+      "short": "Los servicios y la conectividad son UTE, OSE, Antel/operadores, facturas ligadas al domicilio, instalación de internet, deudas de inquilinos anteriores y la calidad de conexión en el edificio concreto.",
+      "body": "La vida diaria en Uruguay choca rápido con los servicios: electricidad de UTE, agua de OSE, internet/telefonía de Antel u operadores móviles, facturas por domicilio y el cambio de titularidad de los servicios al alquilar. Es importante entender que el problema puede no ser tuyo, sino del inmueble: una deuda antigua, un contrato inactivo, instalación eléctrica débil, falta de fibra o mala señal en la vivienda.\n\nAntes de entrar hay que averiguar quién gestiona los servicios, si hay deudas, qué medidores hay, quién paga el primer/último período, cómo se envían las lecturas y cuándo llegan las facturas. Para el trabajo remoto comprueba aparte no solo si hay internet, sino la velocidad, la estabilidad, la posibilidad de instalación y un canal móvil de respaldo.\n\nLos servicios están ligados al alquiler: el contrato debe dejar claro qué gastos son del inquilino, cuáles del propietario y qué pasa con las deudas antiguas."
+    },
+    "de": {
+      "title": "Versorgung, Internet und Mobilfunk: wie man alles einrichtet",
+      "short": "Versorgung und Konnektivität bedeuten UTE, OSE, Antel/Anbieter, an die Adresse gebundene Rechnungen, Internetinstallation, Schulden früherer Mieter und die Verbindungsqualität im konkreten Gebäude.",
+      "body": "Der Alltag in Uruguay stößt schnell auf die Versorgung: UTE-Strom, OSE-Wasser, Antel-Internet/Telefonie oder Mobilfunkanbieter, an die Adresse gebundene Rechnungen und die Umschreibung der Dienste bei der Miete. Es ist wichtig zu verstehen, dass das Problem nicht bei dir liegen muss, sondern beim Objekt: eine alte Schuld, ein inaktiver Vertrag, schwache Verkabelung, kein Glasfaser oder ein schlechtes Signal in der Wohnung.\n\nVor dem Einzug muss man herausfinden, wer die Dienste anmeldet, ob es Schulden gibt, welche Zähler vorhanden sind, wer den ersten/letzten Zeitraum zahlt, wie Zählerstände übermittelt werden und wann Rechnungen kommen. Für Remote-Arbeit prüfe gesondert nicht nur, ob es Internet gibt, sondern die Geschwindigkeit, Stabilität, die Installationsmöglichkeit und einen mobilen Ersatzkanal.\n\nVersorgung ist mit der Miete verbunden: der Vertrag sollte klarstellen, welche Kosten der Mieter, welche der Eigentümer trägt und was mit alten Schulden passiert."
+    }
+  },
+  "card.utilities_internet_mobile.reference.ref_antel_i_internet": {
+    "ru_body_hash": "25168269",
+    "en": {
+      "title": "Antel and internet: what to know",
+      "short": "Antel and internet: what to know.",
+      "body": "Antel and internet: what to know\n\nAntel and other providers must be checked at the specific address. The presence of internet in the area doesn't guarantee the speed and connection lead time in the building.\n\nWhen it matters: remote work, a long-term rental, relocation.\n\nWhat to check: the connection technology, speed, installation lead time, the router, the cancellation penalty and a backup mobile internet."
+    },
+    "es": {
+      "title": "Antel e internet: lo que importa saber",
+      "short": "Antel e internet: lo que importa saber.",
+      "body": "Antel e internet: lo que importa saber\n\nAntel y otros proveedores deben comprobarse en el domicilio concreto. La presencia de internet en la zona no garantiza la velocidad ni el plazo de conexión en el edificio.\n\nCuándo importa: trabajo remoto, un alquiler a largo plazo, una mudanza.\n\nQué revisar: la tecnología de conexión, la velocidad, el plazo de instalación, el router, la multa por baja y un internet móvil de respaldo."
+    },
+    "de": {
+      "title": "Antel und Internet: was man wissen muss",
+      "short": "Antel und Internet: was man wissen muss.",
+      "body": "Antel und Internet: was man wissen muss\n\nAntel und andere Anbieter müssen an der konkreten Adresse geprüft werden. Das Vorhandensein von Internet im Gebiet garantiert nicht die Geschwindigkeit und die Anschlussdauer im Gebäude.\n\nWann es wichtig ist: Remote-Arbeit, eine Langzeitmiete, ein Umzug.\n\nWas zu prüfen ist: die Anschlusstechnologie, die Geschwindigkeit, die Installationsdauer, den Router, die Kündigungsstrafe und ein mobiles Ersatzinternet."
+    }
+  },
+  "card.utilities_internet_mobile.reference.ref_mobilnaya_svyaz": {
+    "ru_body_hash": "2b0be888",
+    "en": {
+      "title": "Mobile service: what to know",
+      "short": "Mobile service: what to know.",
+      "body": "Mobile service: what to know\n\nMobile service is needed from the first days: for the bank, deliveries, appointments and two-factor authentication. Coverage and tariffs are best checked where you live.\n\nWhen it matters: first arrival, remote work, life out of town.\n\nWhat to check: the operator, coverage, the tariff, top-up, eSIM/SIM, passport/cédula and roaming."
+    },
+    "es": {
+      "title": "Telefonía móvil: lo que importa saber",
+      "short": "Telefonía móvil: lo que importa saber.",
+      "body": "Telefonía móvil: lo que importa saber\n\nLa telefonía móvil hace falta desde los primeros días: para el banco, las entregas, las citas y la autenticación de dos factores. La cobertura y las tarifas conviene comprobarlas donde vives.\n\nCuándo importa: la primera llegada, el trabajo remoto, la vida fuera de la ciudad.\n\nQué revisar: el operador, la cobertura, la tarifa, la recarga, eSIM/SIM, pasaporte/cédula y el roaming."
+    },
+    "de": {
+      "title": "Mobilfunk: was man wissen muss",
+      "short": "Mobilfunk: was man wissen muss.",
+      "body": "Mobilfunk: was man wissen muss\n\nMobilfunk wird ab den ersten Tagen benötigt: für die Bank, Lieferungen, Termine und Zwei-Faktor-Authentifizierung. Abdeckung und Tarife prüft man am besten dort, wo man wohnt.\n\nWann es wichtig ist: erste Ankunft, Remote-Arbeit, Leben außerhalb der Stadt.\n\nWas zu prüfen ist: den Anbieter, die Abdeckung, den Tarif, das Aufladen, eSIM/SIM, Pass/cédula und Roaming."
+    }
+  },
+  "card.utilities_internet_mobile.reference.ref_ose_i_voda": {
+    "ru_body_hash": "4160b26d",
+    "en": {
+      "title": "OSE and water: what to know",
+      "short": "OSE and water: what to know.",
+      "body": "OSE and water: what to know\n\nOSE is water. Bills and debts can be tied to the address, so they're checked before move-in and recorded in the handover report.\n\nWhen it matters: renting, buying, transferring utilities.\n\nWhat to check: the account number, debts, readings, who pays the previous period and how data is submitted."
+    },
+    "es": {
+      "title": "OSE y agua: lo que importa saber",
+      "short": "OSE y agua: lo que importa saber.",
+      "body": "OSE y agua: lo que importa saber\n\nOSE es el agua. Las facturas y deudas pueden estar ligadas al domicilio, por eso se revisan antes de entrar y se registran en el acta de entrega.\n\nCuándo importa: alquilar, comprar, cambiar la titularidad de los servicios.\n\nQué revisar: el número de cuenta, deudas, lecturas, quién paga el período anterior y cómo se envían los datos."
+    },
+    "de": {
+      "title": "OSE und Wasser: was man wissen muss",
+      "short": "OSE und Wasser: was man wissen muss.",
+      "body": "OSE und Wasser: was man wissen muss\n\nOSE ist das Wasser. Rechnungen und Schulden können an die Adresse gebunden sein, daher prüft man sie vor dem Einzug und hält sie im Übergabeprotokoll fest.\n\nWann es wichtig ist: Miete, Kauf, Umschreibung der Versorgung.\n\nWas zu prüfen ist: die Kontonummer, Schulden, Zählerstände, wer den vorherigen Zeitraum zahlt und wie die Daten übermittelt werden."
+    }
+  },
+  "card.utilities_internet_mobile.reference.ref_pereoformlenie_uslug": {
+    "ru_body_hash": "e61bf1e2",
+    "en": {
+      "title": "Transferring services: what to know",
+      "short": "Transferring services: what to know.",
+      "body": "Transferring services: what to know\n\nTransferring services needs to be recorded between the owner and the tenant. Otherwise it's easy to end up with a dispute over debts or the inability to connect a new service.\n\nWhen it matters: move-in/move-out, buying a flat, a change of tenant.\n\nWhat to check: who submits the application, the start date of responsibility, old debts, readings and confirmation that the previous period is closed."
+    },
+    "es": {
+      "title": "Cambio de titularidad de los servicios: lo que importa saber",
+      "short": "Cambio de titularidad de los servicios: lo que importa saber.",
+      "body": "Cambio de titularidad de los servicios: lo que importa saber\n\nEl cambio de titularidad de los servicios hay que registrarlo entre el propietario y el inquilino. De lo contrario es fácil acabar con una disputa por deudas o la imposibilidad de conectar un servicio nuevo.\n\nCuándo importa: entrada/salida, compra de una vivienda, cambio de inquilino.\n\nQué revisar: quién presenta la solicitud, la fecha de inicio de la responsabilidad, las deudas antiguas, las lecturas y el comprobante de cierre del período anterior."
+    },
+    "de": {
+      "title": "Umschreibung der Dienste: was man wissen muss",
+      "short": "Umschreibung der Dienste: was man wissen muss.",
+      "body": "Umschreibung der Dienste: was man wissen muss\n\nDie Umschreibung der Dienste muss zwischen Eigentümer und Mieter festgehalten werden. Sonst landet man leicht bei einem Streit über Schulden oder der Unmöglichkeit, einen neuen Dienst anzuschließen.\n\nWann es wichtig ist: Einzug/Auszug, Kauf einer Wohnung, ein Mieterwechsel.\n\nWas zu prüfen ist: wer den Antrag stellt, das Startdatum der Verantwortung, alte Schulden, Zählerstände und die Bestätigung, dass der vorherige Zeitraum abgeschlossen ist."
+    }
+  },
+  "card.utilities_internet_mobile.reference.ref_ute_i_elektrichestvo": {
+    "ru_body_hash": "b3d8928e",
+    "en": {
+      "title": "UTE and electricity: what to know",
+      "short": "UTE and electricity: what to know.",
+      "body": "UTE and electricity: what to know\n\nUTE is responsible for electricity. When renting it's important to check debts, the meter reading, who pays the previous period and whether the service can be transferred.\n\nWhen it matters: moving into a flat, relocating, a dispute with the owner, high bills.\n\nWhat to check: the service number, the outstanding debt, the capacity, the readings, the date of key handover and the payment history."
+    },
+    "es": {
+      "title": "UTE y electricidad: lo que importa saber",
+      "short": "UTE y electricidad: lo que importa saber.",
+      "body": "UTE y electricidad: lo que importa saber\n\nUTE es responsable de la electricidad. Al alquilar es importante revisar las deudas, la lectura del medidor, quién paga el período anterior y si se puede cambiar la titularidad del servicio.\n\nCuándo importa: entrar a una vivienda, mudarse, una disputa con el propietario, facturas altas.\n\nQué revisar: el número de servicio, la deuda pendiente, la potencia, las lecturas, la fecha de entrega de llaves y el historial de pagos."
+    },
+    "de": {
+      "title": "UTE und Strom: was man wissen muss",
+      "short": "UTE und Strom: was man wissen muss.",
+      "body": "UTE und Strom: was man wissen muss\n\nUTE ist für den Strom zuständig. Beim Mieten ist es wichtig, Schulden, den Zählerstand, wer den vorherigen Zeitraum zahlt und ob der Dienst umgeschrieben werden kann, zu prüfen.\n\nWann es wichtig ist: Einzug in eine Wohnung, Umzug, ein Streit mit dem Eigentümer, hohe Rechnungen.\n\nWas zu prüfen ist: die Dienstnummer, die offene Schuld, die Leistung, die Zählerstände, das Datum der Schlüsselübergabe und die Zahlungshistorie."
+    }
+  },
+  "card.utilities_internet_mobile.warning.chastye_problemy_s_ute_ose_antel": {
+    "ru_body_hash": "ff63eda0",
+    "en": {
+      "title": "Common problems with UTE/OSE/Antel",
+      "short": "Common problems with UTE/OSE/Antel.",
+      "body": "Common problems with UTE/OSE/Antel\n\nUTE is responsible for electricity. When renting it's important to check debts, the meter reading, who pays the previous period and whether the service can be transferred.\n\nWhen it matters: moving into a flat, relocating, a dispute with the owner, high bills.\n\nWhat to check: the service number, the outstanding debt, the capacity, the readings, the date of key handover and the payment history."
+    },
+    "es": {
+      "title": "Problemas frecuentes con UTE/OSE/Antel",
+      "short": "Problemas frecuentes con UTE/OSE/Antel.",
+      "body": "Problemas frecuentes con UTE/OSE/Antel\n\nUTE es responsable de la electricidad. Al alquilar es importante revisar las deudas, la lectura del medidor, quién paga el período anterior y si se puede cambiar la titularidad del servicio.\n\nCuándo importa: entrar a una vivienda, mudarse, una disputa con el propietario, facturas altas.\n\nQué revisar: el número de servicio, la deuda pendiente, la potencia, las lecturas, la fecha de entrega de llaves y el historial de pagos."
+    },
+    "de": {
+      "title": "Häufige Probleme mit UTE/OSE/Antel",
+      "short": "Häufige Probleme mit UTE/OSE/Antel.",
+      "body": "Häufige Probleme mit UTE/OSE/Antel\n\nUTE ist für den Strom zuständig. Beim Mieten ist es wichtig, Schulden, den Zählerstand, wer den vorherigen Zeitraum zahlt und ob der Dienst umgeschrieben werden kann, zu prüfen.\n\nWann es wichtig ist: Einzug in eine Wohnung, Umzug, ein Streit mit dem Eigentümer, hohe Rechnungen.\n\nWas zu prüfen ist: die Dienstnummer, die offene Schuld, die Leistung, die Zählerstände, das Datum der Schlüsselübergabe und die Zahlungshistorie."
+    }
+  },
+  "card.utilities_internet_mobile.warning.warning": {
+    "ru_body_hash": "c8752f97",
+    "en": {
+      "title": "Common problems with utilities",
+      "short": "Utilities and connectivity mean UTE, OSE, Antel/operators, bills tied to the address, internet installation, previous tenants' debts and the connection quality in the specific building.",
+      "body": "Mistakes: moving in without photos of the meters, not checking debts, treating gastos comunes as utilities, not clarifying who transfers the services, and discovering the lack of decent internet after signing.\n\nA high electricity bill is often linked to the water heater, air conditioner, heating, the tariff or an old period. Water problems may be not only with OSE but inside the building. Internet problems may be linked to the building, not the tariff.\n\nDon't leave utility matters \"for later\": without UTE/internet/water even a good flat quickly becomes inconvenient."
+    },
+    "es": {
+      "title": "Problemas frecuentes con los servicios",
+      "short": "Los servicios y la conectividad son UTE, OSE, Antel/operadores, facturas ligadas al domicilio, instalación de internet, deudas de inquilinos anteriores y la calidad de conexión en el edificio concreto.",
+      "body": "Errores: entrar sin fotos de los medidores, no revisar deudas, considerar los gastos comunes como servicios, no aclarar quién cambia la titularidad de los servicios y descubrir la falta de un internet decente tras firmar.\n\nUna factura alta de electricidad suele estar ligada al calentador, el aire acondicionado, la calefacción, la tarifa o un período antiguo. Los problemas de agua pueden no ser solo de OSE, sino dentro del edificio. Los problemas de internet pueden estar ligados al edificio, no a la tarifa.\n\nNo dejes los asuntos de servicios \"para después\": sin UTE/internet/agua incluso una buena vivienda se vuelve incómoda rápido."
+    },
+    "de": {
+      "title": "Häufige Probleme mit der Versorgung",
+      "short": "Versorgung und Konnektivität bedeuten UTE, OSE, Antel/Anbieter, an die Adresse gebundene Rechnungen, Internetinstallation, Schulden früherer Mieter und die Verbindungsqualität im konkreten Gebäude.",
+      "body": "Fehler: ohne Fotos der Zähler einziehen, Schulden nicht prüfen, gastos comunes als Versorgung betrachten, nicht klären, wer die Dienste umschreibt, und nach der Unterschrift das Fehlen von vernünftigem Internet entdecken.\n\nEine hohe Stromrechnung hängt oft mit Boiler, Klimaanlage, Heizung, dem Tarif oder einem alten Zeitraum zusammen. Wasserprobleme können nicht nur bei OSE, sondern im Gebäude liegen. Internetprobleme können mit dem Gebäude und nicht mit dem Tarif zusammenhängen.\n\nLass Versorgungsfragen nicht \"auf später\": ohne UTE/Internet/Wasser wird selbst eine gute Wohnung schnell unbequem."
     }
   },
   "card.work_remote_jobs.advice.advice": {
