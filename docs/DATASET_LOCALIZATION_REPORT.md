@@ -1,6 +1,14 @@
 # Dataset localization report — `kb_dataset_uy` (audited on v6.4.2)
 
-> ## ✅ RESOLVED in v6.5 (v6.5.2)
+> ## ⚠️ UPDATE (2026-06-19): v6.5 passed the gate but DID NOT truly translate the cards
+> v6.5 cleared the *no-Cyrillic* check by replacing EN/ES/DE card text with **one generic
+> template per content-category**, so 192/265 cards shared a collapsed body while RU stayed
+> distinct (they looked like duplicate cards). We resolved this on our side with a
+> reproducible override layer that translates all 265 cards from RU — see
+> `DATASET_DUPLICATION_REPORT.md` and `../dataset-patches/`. The dataset team should fold real
+> per-card EN/ES/DE translations into the source build so the override layer can retire.
+>
+> ## ✅ (earlier note) RESOLVED in v6.5 (v6.5.2)
 > The dataset team rebuilt EN/ES/DE for all the fields below and added a hard localization gate.
 > Re-audited on `kb_dataset_uy_v6_5_localized`: **all P0 card fields and P1 glossary/resource
 > fields now pass** — 0% Cyrillic (after the loanword whitelist), 0% placeholders, `en`/`es`/`de`

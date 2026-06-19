@@ -251,6 +251,222 @@
       "body": "Die Hauptfehler sind, ohne Dokumente zur Bank zu gehen, zu versprechen, sie \"später nachzureichen\", eine große Summe ohne Erklärung ihrer Herkunft einzuführen und die Erfahrung einer anderen Person als Garantie für sich selbst zu nehmen. Selbst dieselbe Bank kann Fälle unterschiedlich betrachten: Remote-Arbeit, Krypto, p2p, Einkommen aus sanktionierten Jurisdiktionen, Geld aus einem Immobilienverkauf oder Geschäftseinkommen.\n\nEröffne keine empresa nur wegen der Bank, ohne die steuerlichen und monatlichen Folgen zu verstehen. Nutze nicht das Konto eines Bekannten für dein Geld: Es verschlechtert die Erklärbarkeit der Herkunft der Mittel. Verlasse dich nicht auf die mündliche Antwort eines Mitarbeiters, wenn es um eine große Operation geht — bitte um die Dokumentenliste und bewahre den Schriftverkehr auf.\n\nWenn die Bank ablehnt, ist das nicht immer das Ende: Manchmal hilft eine andere Bank, ein anderer Kontotyp, ein zusätzliches certificado de ingresos, eine transparentere Überweisungsroute oder eine Beratung mit einem contador/escribano."
     }
   },
+  "card.community_resources_contacts.advice.advice": {
+    "ru_body_hash": "6c7ea4d7",
+    "en": {
+      "title": "How to choose helpers, specialists and services",
+      "short": "Useful resources are official websites, organizations, professionals and local recommendation channels. Private contacts must not be published without verification and consent.",
+      "body": "• First define the task: a document, tax, renting, the bank, a translation, an animal, healthcare, repairs. Different tasks require different specialists.\n• For taxes you need a contador; for a deal and real estate — an escribano; for an official translation — a traductor público; for a dispute — an abogado; for everyday routing — a gestor/helper.\n• Ask in advance: the cost, what's included, the timing, which documents are handed over, who pays the duties, what result you'll get.\n• Check reviews through more than one channel. A good review for one procedure doesn't guarantee quality in another.\n• Don't hand over original documents and money without understanding how they'll be used.\n• For public resources, start with official websites: gub.uy, DGI, BPS, DNIC, Migraciones, UTE, OSE, Antel."
+    },
+    "es": {
+      "title": "Cómo elegir ayudantes, especialistas y servicios",
+      "short": "Los recursos útiles son sitios oficiales, organizaciones, profesionales y canales locales de recomendación. Los contactos privados no se pueden publicar sin verificación y consentimiento.",
+      "body": "• Primero define la tarea: un documento, impuesto, alquiler, el banco, una traducción, un animal, salud, reparaciones. Distintas tareas requieren distintos especialistas.\n• Para impuestos necesitas un contador; para una operación y bienes raíces — un escribano; para una traducción oficial — un traductor público; para una disputa — un abogado; para la guía cotidiana — un gestor/ayudante.\n• Pregunta de antemano: el coste, qué incluye, los plazos, qué documentos se entregan, quién paga las tasas, qué resultado obtendrás.\n• Comprueba las reseñas por más de un canal. Una buena reseña en un trámite no garantiza calidad en otro.\n• No entregues documentos originales ni dinero sin entender cómo se usarán.\n• Para recursos públicos, empieza por los sitios oficiales: gub.uy, DGI, BPS, DNIC, Migraciones, UTE, OSE, Antel."
+    },
+    "de": {
+      "title": "Wie man Helfer, Spezialisten und Dienste wählt",
+      "short": "Nützliche Ressourcen sind offizielle Websites, Organisationen, Fachleute und lokale Empfehlungskanäle. Private Kontakte dürfen nicht ohne Überprüfung und Zustimmung veröffentlicht werden.",
+      "body": "• Definiere zuerst die Aufgabe: ein Dokument, Steuer, Miete, die Bank, eine Übersetzung, ein Tier, Gesundheit, Reparaturen. Verschiedene Aufgaben erfordern verschiedene Spezialisten.\n• Für Steuern brauchst du einen contador; für eine Transaktion und Immobilien — einen escribano; für eine offizielle Übersetzung — einen traductor público; für einen Streit — einen abogado; für die Alltagsführung — einen gestor/Helfer.\n• Frage im Voraus: die Kosten, was enthalten ist, die Fristen, welche Dokumente übergeben werden, wer die Gebühren zahlt, welches Ergebnis du erhältst.\n• Prüfe Bewertungen über mehr als einen Kanal. Eine gute Bewertung für ein Verfahren garantiert keine Qualität in einem anderen.\n• Gib keine Originaldokumente und kein Geld heraus, ohne zu verstehen, wie sie verwendet werden.\n• Beginne für öffentliche Ressourcen mit offiziellen Websites: gub.uy, DGI, BPS, DNIC, Migraciones, UTE, OSE, Antel."
+    }
+  },
+  "card.community_resources_contacts.advice.kak_polzovatsya_chatami_kontaktami_i_pomoschnikami": {
+    "ru_body_hash": "78ef3f87",
+    "en": {
+      "title": "How to use local groups, contacts and helpers",
+      "short": "How to use local groups, contacts and helpers.",
+      "body": "How to use local groups, contacts and helpers\n\nLocal recommendations are useful, but they need to be turned into a verifiable list of actions. First decide who you need: a contador, escribano, traductor público, abogado, gestor, realtor, worker, doctor, vet or an official body.\n\nHow to vet a contact:\n• the recency of the recommendation and several independent reviews;\n• what exactly the person does and what result they promise;\n• the cost, timing, documents and payment procedure;\n• whether there's an official route without an intermediary;\n• what happens in case of refusal, error or delay.\n\nPhone numbers and private accounts are best not shared publicly without consent. For a directory it's safer to indicate the type of specialist, the selection criteria and official resources."
+    },
+    "es": {
+      "title": "Cómo usar grupos locales, contactos y ayudantes",
+      "short": "Cómo usar grupos locales, contactos y ayudantes.",
+      "body": "Cómo usar grupos locales, contactos y ayudantes\n\nLas recomendaciones locales son útiles, pero hay que convertirlas en una lista verificable de acciones. Primero decide a quién necesitas: un contador, escribano, traductor público, abogado, gestor, agente inmobiliario, técnico, médico, veterinario o un organismo oficial.\n\nCómo verificar un contacto:\n• la vigencia de la recomendación y varias reseñas independientes;\n• qué hace exactamente la persona y qué resultado promete;\n• el coste, los plazos, los documentos y el procedimiento de pago;\n• si hay una vía oficial sin intermediario;\n• qué pasa en caso de rechazo, error o demora.\n\nLos teléfonos y las cuentas privadas conviene no compartirlos públicamente sin consentimiento. Para un directorio es más seguro indicar el tipo de especialista, los criterios de elección y los recursos oficiales."
+    },
+    "de": {
+      "title": "Wie man lokale Gruppen, Kontakte und Helfer nutzt",
+      "short": "Wie man lokale Gruppen, Kontakte und Helfer nutzt.",
+      "body": "Wie man lokale Gruppen, Kontakte und Helfer nutzt\n\nLokale Empfehlungen sind nützlich, müssen aber in eine überprüfbare Liste von Handlungen verwandelt werden. Entscheide zuerst, wen du brauchst: einen contador, escribano, traductor público, abogado, gestor, Makler, Handwerker, Arzt, Tierarzt oder eine offizielle Stelle.\n\nWie man einen Kontakt prüft:\n• die Aktualität der Empfehlung und mehrere unabhängige Bewertungen;\n• was die Person genau tut und welches Ergebnis sie verspricht;\n• die Kosten, Fristen, Dokumente und das Zahlungsverfahren;\n• ob es einen offiziellen Weg ohne Vermittler gibt;\n• was bei Ablehnung, Fehler oder Verzögerung passiert.\n\nTelefonnummern und private Konten teilt man besser nicht öffentlich ohne Zustimmung. Für ein Verzeichnis ist es sicherer, den Typ des Spezialisten, die Auswahlkriterien und offizielle Ressourcen anzugeben."
+    }
+  },
+  "card.community_resources_contacts.checklist.checklist": {
+    "ru_body_hash": "0754f355",
+    "en": {
+      "title": "Checklist for vetting a specialist or service",
+      "short": "Useful resources are official websites, organizations, professionals and local recommendation channels. Private contacts must not be published without verification and consent.",
+      "body": "Before paying, clarify:\n□ the full name/title and the specialist's role;\n□ which task exactly they handle;\n□ the cost of the consultation, accompaniment, duties and additional expenses;\n□ the timing and dependence on agencies;\n□ which documents you hand over and in what form;\n□ who keeps the originals;\n□ what counts as the result;\n□ whether there will be a written summary/receipt/contract;\n□ whether there's an alternative contact;\n□ how reviews and experience are checked.\n\nFor taxes, deals, immigration and healthcare, don't replace a specialist with a \"helper\" if professional liability is needed."
+    },
+    "es": {
+      "title": "Lista para verificar a un especialista o servicio",
+      "short": "Los recursos útiles son sitios oficiales, organizaciones, profesionales y canales locales de recomendación. Los contactos privados no se pueden publicar sin verificación y consentimiento.",
+      "body": "Antes de pagar, aclara:\n□ el nombre completo/la denominación y el rol del especialista;\n□ qué tarea exactamente resuelve;\n□ el coste de la consulta, el acompañamiento, las tasas y los gastos adicionales;\n□ los plazos y la dependencia de los organismos;\n□ qué documentos entregas y en qué forma;\n□ quién guarda los originales;\n□ qué se considera el resultado;\n□ si habrá un resumen/comprobante/contrato por escrito;\n□ si hay un contacto alternativo;\n□ cómo se verifican las reseñas y la experiencia.\n\nPara impuestos, operaciones, migración y salud, no reemplaces a un especialista por un \"ayudante\" si hace falta responsabilidad profesional."
+    },
+    "de": {
+      "title": "Checkliste zur Prüfung eines Spezialisten oder Dienstes",
+      "short": "Nützliche Ressourcen sind offizielle Websites, Organisationen, Fachleute und lokale Empfehlungskanäle. Private Kontakte dürfen nicht ohne Überprüfung und Zustimmung veröffentlicht werden.",
+      "body": "Kläre vor der Zahlung:\n□ den vollständigen Namen/die Bezeichnung und die Rolle des Spezialisten;\n□ welche Aufgabe er genau erledigt;\n□ die Kosten der Beratung, der Begleitung, der Gebühren und zusätzlicher Ausgaben;\n□ die Fristen und die Abhängigkeit von Behörden;\n□ welche Dokumente du übergibst und in welcher Form;\n□ wer die Originale aufbewahrt;\n□ was als Ergebnis gilt;\n□ ob es eine schriftliche Zusammenfassung/Quittung/einen Vertrag geben wird;\n□ ob es einen alternativen Kontakt gibt;\n□ wie Bewertungen und Erfahrung geprüft werden.\n\nErsetze für Steuern, Transaktionen, Einwanderung und Gesundheit einen Spezialisten nicht durch einen \"Helfer\", wenn berufliche Haftung nötig ist."
+    }
+  },
+  "card.community_resources_contacts.community_experience.community_experience": {
+    "ru_body_hash": "6897a963",
+    "en": {
+      "title": "How people usually find contacts and recommendations",
+      "short": "Useful resources are official websites, organizations, professionals and local recommendation channels. Private contacts must not be published without verification and consent.",
+      "body": "Practical experience shows that recommendations are useful but need filtering. The same specialist may solve a simple case excellently and not suit a complex one. Besides, the requirements of agencies and banks change, so \"they did it this way for me\" doesn't always mean \"they'll do the same for you\".\n\nThe best combination is: an official source for the rules, a specialist to apply them to your case, recommendations to choose a provider and your own check of the contract/cost. For realtors, ayudantes, translators and accountants it's important to agree the result in advance: a consultation, an appointment, a submission, a translation, registration, accompaniment, a report.\n\nPrivate contacts should be kept in an editorial/internal layer until consent and currency are verified. In a public database it's safer to publish categories of specialists and verifiable organizations."
+    },
+    "es": {
+      "title": "Cómo suele la gente encontrar contactos y recomendaciones",
+      "short": "Los recursos útiles son sitios oficiales, organizaciones, profesionales y canales locales de recomendación. Los contactos privados no se pueden publicar sin verificación y consentimiento.",
+      "body": "La experiencia práctica muestra que las recomendaciones son útiles, pero hay que filtrarlas. El mismo especialista puede resolver un caso simple de forma excelente y no servir para uno complejo. Además, los requisitos de los organismos y bancos cambian, así que \"a mí me lo hicieron así\" no siempre significa \"a ti te lo harán igual\".\n\nLa mejor combinación es: una fuente oficial para las reglas, un especialista para aplicarlas a tu caso, recomendaciones para elegir un prestador y tu propia revisión del contrato/coste. Para agentes inmobiliarios, ayudantes, traductores y contadores es importante acordar el resultado de antemano: una consulta, una cita, una presentación, una traducción, un registro, un acompañamiento, un informe.\n\nLos contactos privados conviene mantenerlos en una capa editorial/interna hasta verificar el consentimiento y la vigencia. En una base pública es más seguro publicar categorías de especialistas y organizaciones verificables."
+    },
+    "de": {
+      "title": "Wie Menschen üblicherweise Kontakte und Empfehlungen finden",
+      "short": "Nützliche Ressourcen sind offizielle Websites, Organisationen, Fachleute und lokale Empfehlungskanäle. Private Kontakte dürfen nicht ohne Überprüfung und Zustimmung veröffentlicht werden.",
+      "body": "Die praktische Erfahrung zeigt, dass Empfehlungen nützlich sind, aber gefiltert werden müssen. Derselbe Spezialist kann einen einfachen Fall hervorragend lösen und für einen komplexen ungeeignet sein. Außerdem ändern sich die Anforderungen von Behörden und Banken, sodass \"bei mir haben sie es so gemacht\" nicht immer \"bei dir machen sie es genauso\" bedeutet.\n\nDie beste Kombination ist: eine offizielle Quelle für die Regeln, ein Spezialist zur Anwendung auf deinen Fall, Empfehlungen zur Wahl eines Anbieters und deine eigene Prüfung von Vertrag/Kosten. Für Makler, ayudantes, Übersetzer und Buchhalter ist es wichtig, das Ergebnis im Voraus zu vereinbaren: eine Beratung, ein Termin, eine Einreichung, eine Übersetzung, eine Registrierung, eine Begleitung, ein Bericht.\n\nPrivate Kontakte sollten in einer redaktionellen/internen Ebene gehalten werden, bis Zustimmung und Aktualität geprüft sind. In einer öffentlichen Datenbank ist es sicherer, Kategorien von Spezialisten und überprüfbare Organisationen zu veröffentlichen."
+    }
+  },
+  "card.community_resources_contacts.overview.overview": {
+    "ru_body_hash": "0be813a9",
+    "en": {
+      "title": "Useful contacts and local resources: where to look for help",
+      "short": "Useful resources are official websites, organizations, professionals and local recommendation channels. Private contacts must not be published without verification and consent.",
+      "body": "This topic isn't for a \"list of all phone numbers\" but for understanding where to turn for typical questions of life in Uruguay. The most useful resources fall into four groups: official websites and agencies; commercial services and platforms; professionals; local recommendations.\n\nThe official layer: gub.uy as the entry point to public services, DGI for taxes, BPS for social contributions and Fonasa, DNIC for the cédula, Migraciones for residency, UTE/OSE/Antel for utilities and connectivity, Aduanas/Correo for parcels, the Intendencia for city matters. The commercial layer: banks, rental guarantees, MercadoLibre, InfoCasas, inmobiliarias, insurance, mutualistas.\n\nProfessionals: contador, escribano, traductor público, abogado, gestor/helper, realtor, insurance agent, vet, mechanic, home repair worker. Private phone numbers and Telegram handles are best published only after consent and verification; in an open database it's safer to give the type of specialist, the selection criteria and official/public websites."
+    },
+    "es": {
+      "title": "Contactos útiles y recursos locales: dónde buscar ayuda",
+      "short": "Los recursos útiles son sitios oficiales, organizaciones, profesionales y canales locales de recomendación. Los contactos privados no se pueden publicar sin verificación y consentimiento.",
+      "body": "Este tema no es para una \"lista de todos los teléfonos\", sino para entender adónde acudir por las preguntas típicas de la vida en Uruguay. Los recursos más útiles se dividen en cuatro grupos: sitios oficiales y organismos; servicios y plataformas comerciales; profesionales; recomendaciones locales.\n\nLa capa oficial: gub.uy como entrada a los servicios públicos, DGI para impuestos, BPS para aportes sociales y Fonasa, DNIC para la cédula, Migraciones para la residencia, UTE/OSE/Antel para servicios y conectividad, Aduanas/Correo para paquetes, la Intendencia para asuntos de la ciudad. La capa comercial: bancos, garantías de alquiler, MercadoLibre, InfoCasas, inmobiliarias, seguros, mutualistas.\n\nProfesionales: contador, escribano, traductor público, abogado, gestor/ayudante, agente inmobiliario, agente de seguros, veterinario, mecánico, técnico del hogar. Los teléfonos privados y los usuarios de Telegram conviene publicarlos solo tras el consentimiento y la verificación; en una base abierta es más seguro dar el tipo de especialista, los criterios de elección y los sitios oficiales/públicos."
+    },
+    "de": {
+      "title": "Nützliche Kontakte und lokale Ressourcen: wo man Hilfe sucht",
+      "short": "Nützliche Ressourcen sind offizielle Websites, Organisationen, Fachleute und lokale Empfehlungskanäle. Private Kontakte dürfen nicht ohne Überprüfung und Zustimmung veröffentlicht werden.",
+      "body": "Dieses Thema ist nicht für eine \"Liste aller Telefonnummern\", sondern um zu verstehen, wohin man sich bei typischen Fragen des Lebens in Uruguay wendet. Die nützlichsten Ressourcen lassen sich in vier Gruppen einteilen: offizielle Websites und Behörden; kommerzielle Dienste und Plattformen; Fachleute; lokale Empfehlungen.\n\nDie offizielle Ebene: gub.uy als Eingang zu öffentlichen Diensten, DGI für Steuern, BPS für Sozialbeiträge und Fonasa, DNIC für die cédula, Migraciones für den Aufenthalt, UTE/OSE/Antel für Versorgung und Konnektivität, Aduanas/Correo für Pakete, die Intendencia für Stadtangelegenheiten. Die kommerzielle Ebene: Banken, Mietgarantien, MercadoLibre, InfoCasas, inmobiliarias, Versicherungen, mutualistas.\n\nFachleute: contador, escribano, traductor público, abogado, gestor/Helfer, Makler, Versicherungsvertreter, Tierarzt, Mechaniker, Handwerker für die Wohnung. Private Telefonnummern und Telegram-Handles veröffentlicht man am besten erst nach Zustimmung und Überprüfung; in einer offenen Datenbank ist es sicherer, den Typ des Spezialisten, die Auswahlkriterien und offizielle/öffentliche Websites anzugeben."
+    }
+  },
+  "card.community_resources_contacts.reference.ref_chaty_i_gruppy": {
+    "ru_body_hash": "15a3f6ab",
+    "en": {
+      "title": "Local groups and recommendation channels: what to know",
+      "short": "Local groups and recommendation channels: what to know.",
+      "body": "Local groups and recommendation channels: what to know\n\nGroups by neighborhood, profession or topic are useful for recent recommendations and everyday experience, but each recommendation must be treated as unverified.\n\nWhen it matters: finding workers, doctors, housing, goods, services, helpers and answers about a specific area.\n\nWhat to check: the date of the recommendation, the repeatability of reviews, conflicts of interest, the price, the public reputation, the contact's consent to being shared and the existence of an official route without an intermediary."
+    },
+    "es": {
+      "title": "Grupos locales y canales de recomendación: lo que importa saber",
+      "short": "Grupos locales y canales de recomendación: lo que importa saber.",
+      "body": "Grupos locales y canales de recomendación: lo que importa saber\n\nLos grupos por barrio, profesión o tema son útiles para recomendaciones recientes y experiencia cotidiana, pero cada recomendación hay que tratarla como no confirmada.\n\nCuándo importa: buscar técnicos, médicos, vivienda, productos, servicios, ayudantes y respuestas sobre un barrio concreto.\n\nQué revisar: la fecha de la recomendación, la repetición de las reseñas, el conflicto de intereses, el precio, la reputación pública, el consentimiento del contacto para compartirlo y la existencia de una vía oficial sin intermediario."
+    },
+    "de": {
+      "title": "Lokale Gruppen und Empfehlungskanäle: was man wissen muss",
+      "short": "Lokale Gruppen und Empfehlungskanäle: was man wissen muss.",
+      "body": "Lokale Gruppen und Empfehlungskanäle: was man wissen muss\n\nGruppen nach Viertel, Beruf oder Thema sind für aktuelle Empfehlungen und Alltagserfahrung nützlich, aber jede Empfehlung muss als unbestätigt behandelt werden.\n\nWann es wichtig ist: die Suche nach Handwerkern, Ärzten, Wohnungen, Waren, Diensten, Helfern und Antworten zu einem bestimmten Viertel.\n\nWas zu prüfen ist: das Datum der Empfehlung, die Wiederholbarkeit der Bewertungen, Interessenkonflikte, den Preis, den öffentlichen Ruf, die Zustimmung des Kontakts zur Weitergabe und das Vorhandensein eines offiziellen Wegs ohne Vermittler."
+    }
+  },
+  "card.community_resources_contacts.reference.ref_kak_iskat_kontakty": {
+    "ru_body_hash": "56fa488c",
+    "en": {
+      "title": "How to search for contacts: what to know",
+      "short": "How to search for contacts: what to know.",
+      "body": "How to search for contacts: what to know\n\nContacts are best searched not as \"does anyone know?\" but from the task: a contador, escribano, traductor público, abogado, gestor, realtor, worker, doctor or vet.\n\nWhen it matters: moving, documents, taxes, real estate, healthcare and household services.\n\nWhat to check: the recency of the recommendation, the contact's consent to being shared, the cost, the result and an alternative option."
+    },
+    "es": {
+      "title": "Cómo buscar contactos: lo que importa saber",
+      "short": "Cómo buscar contactos: lo que importa saber.",
+      "body": "Cómo buscar contactos: lo que importa saber\n\nLos contactos conviene buscarlos no como \"¿alguien conoce?\", sino desde la tarea: un contador, escribano, traductor público, abogado, gestor, agente inmobiliario, técnico, médico o veterinario.\n\nCuándo importa: mudanza, documentos, impuestos, bienes raíces, salud y servicios del hogar.\n\nQué revisar: la vigencia de la recomendación, el consentimiento del contacto para compartirlo, el coste, el resultado y una opción alternativa."
+    },
+    "de": {
+      "title": "Wie man Kontakte sucht: was man wissen muss",
+      "short": "Wie man Kontakte sucht: was man wissen muss.",
+      "body": "Wie man Kontakte sucht: was man wissen muss\n\nKontakte sucht man besser nicht als \"kennt jemand?\", sondern von der Aufgabe ausgehend: einen contador, escribano, traductor público, abogado, gestor, Makler, Handwerker, Arzt oder Tierarzt.\n\nWann es wichtig ist: Umzug, Dokumente, Steuern, Immobilien, Gesundheit und Haushaltsdienste.\n\nWas zu prüfen ist: die Aktualität der Empfehlung, die Zustimmung des Kontakts zur Weitergabe, die Kosten, das Ergebnis und eine Alternative."
+    }
+  },
+  "card.community_resources_contacts.reference.ref_kogda_nuzhen_professional": {
+    "ru_body_hash": "6528c8e7",
+    "en": {
+      "title": "When a professional is needed: what to know",
+      "short": "When a professional is needed: what to know.",
+      "body": "When a professional is needed: what to know\n\nA professional is needed if a mistake affects taxes, law, healthcare, real estate, migration status or large sums.\n\nWhen it matters: buying real estate, an empresa, court/police, healthcare, documents and family matters.\n\nWhat to check: the specialist's license/status, a written estimate, liability and an official result."
+    },
+    "es": {
+      "title": "Cuándo hace falta un profesional: lo que importa saber",
+      "short": "Cuándo hace falta un profesional: lo que importa saber.",
+      "body": "Cuándo hace falta un profesional: lo que importa saber\n\nUn profesional hace falta si un error afecta los impuestos, el derecho, la salud, los bienes raíces, el estatus migratorio o sumas grandes.\n\nCuándo importa: comprar bienes raíces, una empresa, juzgado/policía, salud, documentos y asuntos familiares.\n\nQué revisar: la licencia/el estatus del especialista, un presupuesto por escrito, la responsabilidad y un resultado oficial."
+    },
+    "de": {
+      "title": "Wann ein Fachmann nötig ist: was man wissen muss",
+      "short": "Wann ein Fachmann nötig ist: was man wissen muss.",
+      "body": "Wann ein Fachmann nötig ist: was man wissen muss\n\nEin Fachmann ist nötig, wenn ein Fehler Steuern, Recht, Gesundheit, Immobilien, Migrationsstatus oder große Summen betrifft.\n\nWann es wichtig ist: Immobilienkauf, eine empresa, Gericht/Polizei, Gesundheit, Dokumente und Familienangelegenheiten.\n\nWas zu prüfen ist: die Lizenz/den Status des Spezialisten, einen schriftlichen Kostenvoranschlag, die Haftung und ein offizielles Ergebnis."
+    }
+  },
+  "card.community_resources_contacts.reference.ref_pomogatory_i_specialisty": {
+    "ru_body_hash": "64d5c10f",
+    "en": {
+      "title": "Helpers and specialists: what to know",
+      "short": "Helpers and specialists: what to know.",
+      "body": "Helpers and specialists: what to know\n\nA helper can assist with booking, accompaniment and communication, but doesn't replace a professional where a license or liability is needed: a contador, escribano, abogado, traductor público.\n\nWhen it matters: complex documents, weak Spanish, the first months, accompaniment to an agency.\n\nWhat to check: who exactly provides the service, what's included, who signs the documents and what happens in case of refusal."
+    },
+    "es": {
+      "title": "Ayudantes y especialistas: lo que importa saber",
+      "short": "Ayudantes y especialistas: lo que importa saber.",
+      "body": "Ayudantes y especialistas: lo que importa saber\n\nUn ayudante puede ayudar con la cita, el acompañamiento y la comunicación, pero no reemplaza a un profesional donde hace falta una licencia o responsabilidad: un contador, escribano, abogado, traductor público.\n\nCuándo importa: documentos complejos, español débil, los primeros meses, acompañamiento a un organismo.\n\nQué revisar: quién presta exactamente el servicio, qué incluye, quién firma los documentos y qué pasa en caso de rechazo."
+    },
+    "de": {
+      "title": "Helfer und Spezialisten: was man wissen muss",
+      "short": "Helfer und Spezialisten: was man wissen muss.",
+      "body": "Helfer und Spezialisten: was man wissen muss\n\nEin Helfer kann bei Terminen, Begleitung und Kommunikation helfen, ersetzt aber keinen Fachmann, wo eine Lizenz oder Haftung nötig ist: einen contador, escribano, abogado, traductor público.\n\nWann es wichtig ist: komplexe Dokumente, schwaches Spanisch, die ersten Monate, Begleitung zu einer Behörde.\n\nWas zu prüfen ist: wer genau die Dienstleistung erbringt, was enthalten ist, wer die Dokumente unterschreibt und was bei einer Ablehnung passiert."
+    }
+  },
+  "card.community_resources_contacts.reference.ref_proverka_rekomendaciy": {
+    "ru_body_hash": "8a3787b3",
+    "en": {
+      "title": "Vetting recommendations: what to know",
+      "short": "Vetting recommendations: what to know.",
+      "body": "Vetting recommendations: what to know\n\nVetting a recommendation is a separate step: one happy client doesn't guarantee quality, and an old contact may no longer be working.\n\nWhen it matters: any paid contact, especially documents, real estate, repairs and healthcare.\n\nWhat to check: reviews, a portfolio, the contract, timing, the price, an alternative and the absence of an unprotected advance payment."
+    },
+    "es": {
+      "title": "Verificación de recomendaciones: lo que importa saber",
+      "short": "Verificación de recomendaciones: lo que importa saber.",
+      "body": "Verificación de recomendaciones: lo que importa saber\n\nVerificar una recomendación es un paso aparte: un cliente satisfecho no garantiza calidad, y un contacto antiguo puede ya no estar trabajando.\n\nCuándo importa: cualquier contacto pago, sobre todo documentos, bienes raíces, reparaciones y salud.\n\nQué revisar: reseñas, un portafolio, el contrato, los plazos, el precio, una alternativa y la ausencia de un pago por adelantado sin protección."
+    },
+    "de": {
+      "title": "Prüfung von Empfehlungen: was man wissen muss",
+      "short": "Prüfung von Empfehlungen: was man wissen muss.",
+      "body": "Prüfung von Empfehlungen: was man wissen muss\n\nDie Prüfung einer Empfehlung ist ein separater Schritt: ein zufriedener Kunde garantiert keine Qualität, und ein alter Kontakt arbeitet möglicherweise nicht mehr.\n\nWann es wichtig ist: jeder bezahlte Kontakt, besonders Dokumente, Immobilien, Reparaturen und Gesundheit.\n\nWas zu prüfen ist: Bewertungen, ein Portfolio, den Vertrag, die Fristen, den Preis, eine Alternative und das Fehlen einer ungeschützten Vorauszahlung."
+    }
+  },
+  "card.community_resources_contacts.resource_list.": {
+    "ru_body_hash": "8fad21ec",
+    "en": {
+      "title": "Key websites, organizations and types of specialists",
+      "short": "A practical resource list: public services, taxes, migration, utilities, real estate, banks, parcels and professionals.",
+      "body": "Official and public resources people usually start the check with:\n• gub.uy — the general entry point to government services and trámites.\n• DGI — taxes, RUT, activity, facturación.\n• BPS — social contributions, Fonasa, empresa, payment history.\n• Migraciones — residency and immigration procedures.\n• DNIC — the cédula and identification.\n• UTE, OSE, Antel — electricity, water, internet/connectivity.\n• Aduanas and Correo Uruguayo — parcels, imports, shipments.\n• Intendencia — city services, fines, driving licenses, local rules.\n• BROU, Itaú, Santander, BBVA, Scotiabank, Prex — banks and cards.\n• InfoCasas, MercadoLibre, Remax/inmobiliarias — housing and real estate.\n• ANDA, Porto Seguro, SURA/Mapfre, BHU — topics of renting, guarantees and deposits.\n\nTypes of specialists: a contador for taxes/empresa; an escribano for real estate, deals and notarial acts; a traductor público for official translations; an abogado for disputes; a gestor/helper for accompanying procedures; a realtor for renting/buying; an insurance agent for guarantees/insurance; a vet for animals; a mechanic for cars; a plomero/electricista for the home.\n\nPrivate contacts are best added to a public database only after consent, a currency check and a clear specialization."
+    },
+    "es": {
+      "title": "Sitios, organizaciones y tipos de especialistas clave",
+      "short": "Una lista práctica de recursos: servicios públicos, impuestos, migración, servicios, bienes raíces, bancos, paquetes y profesionales.",
+      "body": "Recursos oficiales y públicos por los que la gente suele empezar la verificación:\n• gub.uy — la entrada general a los servicios del Estado y los trámites.\n• DGI — impuestos, RUT, actividad, facturación.\n• BPS — aportes sociales, Fonasa, empresa, historial de pagos.\n• Migraciones — residencia y trámites migratorios.\n• DNIC — la cédula y la identificación.\n• UTE, OSE, Antel — electricidad, agua, internet/conectividad.\n• Aduanas y Correo Uruguayo — paquetes, ingresos, envíos.\n• Intendencia — servicios urbanos, multas, licencias de conducir, reglas locales.\n• BROU, Itaú, Santander, BBVA, Scotiabank, Prex — bancos y tarjetas.\n• InfoCasas, MercadoLibre, Remax/inmobiliarias — vivienda y bienes raíces.\n• ANDA, Porto Seguro, SURA/Mapfre, BHU — temas de alquiler, garantías y depósitos.\n\nTipos de especialistas: un contador para impuestos/empresa; un escribano para bienes raíces, operaciones y actos notariales; un traductor público para traducciones oficiales; un abogado para disputas; un gestor/ayudante para acompañar trámites; un agente inmobiliario para alquilar/comprar; un agente de seguros para garantías/seguros; un veterinario para animales; un mecánico para autos; un plomero/electricista para la vivienda.\n\nLos contactos privados conviene añadirlos a una base pública solo tras el consentimiento, una comprobación de vigencia y una especialización clara."
+    },
+    "de": {
+      "title": "Wichtige Websites, Organisationen und Spezialistentypen",
+      "short": "Eine praktische Ressourcenliste: öffentliche Dienste, Steuern, Migration, Versorgung, Immobilien, Banken, Pakete und Fachleute.",
+      "body": "Offizielle und öffentliche Ressourcen, mit denen man die Prüfung üblicherweise beginnt:\n• gub.uy — der allgemeine Eingang zu staatlichen Diensten und trámites.\n• DGI — Steuern, RUT, Tätigkeit, facturación.\n• BPS — Sozialbeiträge, Fonasa, empresa, Zahlungshistorie.\n• Migraciones — Aufenthalt und Einwanderungsverfahren.\n• DNIC — die cédula und Identifizierung.\n• UTE, OSE, Antel — Strom, Wasser, Internet/Konnektivität.\n• Aduanas und Correo Uruguayo — Pakete, Einfuhr, Sendungen.\n• Intendencia — städtische Dienste, Bußgelder, Führerscheine, lokale Regeln.\n• BROU, Itaú, Santander, BBVA, Scotiabank, Prex — Banken und Karten.\n• InfoCasas, MercadoLibre, Remax/inmobiliarias — Wohnung und Immobilien.\n• ANDA, Porto Seguro, SURA/Mapfre, BHU — Themen Miete, Garantien und Kautionen.\n\nSpezialistentypen: ein contador für Steuern/empresa; ein escribano für Immobilien, Transaktionen und notarielle Handlungen; ein traductor público für offizielle Übersetzungen; ein abogado für Streitigkeiten; ein gestor/Helfer zur Begleitung von Verfahren; ein Makler für Miete/Kauf; ein Versicherungsvertreter für Garantien/Versicherungen; ein Tierarzt für Tiere; ein Mechaniker für Autos; ein plomero/electricista für die Wohnung.\n\nPrivate Kontakte fügt man einer öffentlichen Datenbank am besten erst nach Zustimmung, einer Aktualitätsprüfung und einer klaren Spezialisierung hinzu."
+    }
+  },
+  "card.community_resources_contacts.warning.warning": {
+    "ru_body_hash": "0fa6ce1d",
+    "en": {
+      "title": "Mistakes when using contacts and recommendations",
+      "short": "Useful resources are official websites, organizations, professionals and local recommendation channels. Private contacts must not be published without verification and consent.",
+      "body": "Mistakes: paying for a service without a description of the result, handing over originals without a receipt, trusting a single review, not distinguishing contador/escribano/abogado/gestor, not checking the official requirements.\n\nDon't publish other people's phone numbers, Telegram handles and personal data in open places without consent. Even a useful contact can become outdated, change specialization or decline public inquiries.\n\nIf it concerns money, documents, real estate, taxes, healthcare or immigration, demand written confirmation of actions and keep all receipts."
+    },
+    "es": {
+      "title": "Errores al usar contactos y recomendaciones",
+      "short": "Los recursos útiles son sitios oficiales, organizaciones, profesionales y canales locales de recomendación. Los contactos privados no se pueden publicar sin verificación y consentimiento.",
+      "body": "Errores: pagar por un servicio sin una descripción del resultado, entregar originales sin un recibo, confiar en una sola reseña, no distinguir contador/escribano/abogado/gestor, no comprobar los requisitos oficiales.\n\nNo publiques teléfonos ajenos, usuarios de Telegram ni datos personales en lugares abiertos sin consentimiento. Incluso un contacto útil puede quedar desactualizado, cambiar de especialización o rechazar consultas públicas.\n\nSi se trata de dinero, documentos, bienes raíces, impuestos, salud o migración, exige una confirmación por escrito de las acciones y guarda todos los comprobantes."
+    },
+    "de": {
+      "title": "Fehler bei der Nutzung von Kontakten und Empfehlungen",
+      "short": "Nützliche Ressourcen sind offizielle Websites, Organisationen, Fachleute und lokale Empfehlungskanäle. Private Kontakte dürfen nicht ohne Überprüfung und Zustimmung veröffentlicht werden.",
+      "body": "Fehler: für einen Dienst ohne Ergebnisbeschreibung zahlen, Originale ohne Quittung übergeben, einer einzelnen Bewertung vertrauen, contador/escribano/abogado/gestor nicht unterscheiden, die offiziellen Anforderungen nicht prüfen.\n\nVeröffentliche fremde Telefonnummern, Telegram-Handles und persönliche Daten nicht ohne Zustimmung an offenen Orten. Selbst ein nützlicher Kontakt kann veralten, die Spezialisierung wechseln oder öffentliche Anfragen ablehnen.\n\nGeht es um Geld, Dokumente, Immobilien, Steuern, Gesundheit oder Einwanderung, verlange eine schriftliche Bestätigung der Handlungen und bewahre alle Quittungen auf."
+    }
+  },
   "card.documents_apostille_translation.advice.advice": {
     "ru_body_hash": "a424d2f8",
     "en": {
@@ -1781,6 +1997,222 @@
       "body": "Ein nicht offensichtliches Risiko: Das Geld kann inhaltlich \"sauber\", aber schlecht dokumentiert sein. Die Bank sieht nicht deine Biografie, sondern die Kontoauszüge, Verträge, Absender, Verwendungszwecke und die Kette der Operationen.\n\nGefährliche Szenarien: Geld von Dritten ohne Vertrag, p2p als Hauptquelle, Krypto ohne Historie von Börsen und Steuern, viele kleine Überweisungen statt einer klaren großen, eine Diskrepanz zwischen Vertrag und Verwendungszweck, der Versuch, einen Immobilienkauf über ein nicht standardmäßiges Schema ohne escribano abzuwickeln.\n\nSind die Informationen widersprüchlich, wähle eine Option nicht nur, weil sie bei jemand anderem funktioniert hat. Die Anforderungen hängen von der Bank, dem Betrag, dem Datum, der Herkunft des Geldes und der künftigen Operation ab."
     }
   },
+  "card.moving_baggage_relocation.advice.advice": {
+    "ru_body_hash": "a4bf156e",
+    "en": {
+      "title": "Tips on relocation and baggage",
+      "short": "Relocation is documents, the first money, baggage, electronics, medicines, animals, temporary housing and a plan for the first weeks — not just the flight.",
+      "body": "• Divide things into \"needed in the first 72 hours\", \"needed in the first month\" and \"can buy later\".\n• Keep documents, money, medicines, the laptop and important electronics in your hand luggage.\n• Make digital copies of documents and store them separately from the originals.\n• Don't count on finding a long-term rental right away: temporary housing should cover the search time.\n• For medicines, check prescriptions, equivalents and import rules.\n• For electronics, check the voltage, plugs, warranty and the cost of repairs.\n• If you're traveling with animals, start the documents earlier than you book the flight.\n• Don't ship a container/parcels without understanding customs and the receiving address."
+    },
+    "es": {
+      "title": "Consejos sobre la mudanza y el equipaje",
+      "short": "La mudanza es documentos, el primer dinero, equipaje, electrónica, medicamentos, animales, vivienda temporal y un plan para las primeras semanas — no solo el vuelo.",
+      "body": "• Divide las cosas en \"necesario en las primeras 72 horas\", \"necesario en el primer mes\" y \"se puede comprar luego\".\n• Lleva los documentos, el dinero, los medicamentos, la laptop y la electrónica importante en el equipaje de mano.\n• Haz copias digitales de los documentos y guárdalas aparte de los originales.\n• No cuentes con encontrar un alquiler a largo plazo de inmediato: la vivienda temporal debe cubrir el tiempo de búsqueda.\n• Para los medicamentos, comprueba las recetas, los equivalentes y las reglas de ingreso.\n• Para la electrónica, comprueba el voltaje, los enchufes, la garantía y el coste de reparación.\n• Si viajas con animales, empieza los documentos antes de reservar el vuelo.\n• No envíes un contenedor/paquetes sin entender la aduana y la dirección de recepción."
+    },
+    "de": {
+      "title": "Tipps zu Umzug und Gepäck",
+      "short": "Ein Umzug bedeutet Dokumente, das erste Geld, Gepäck, Elektronik, Medikamente, Tiere, vorübergehende Unterkunft und einen Plan für die ersten Wochen — nicht nur den Flug.",
+      "body": "• Teile die Dinge in \"in den ersten 72 Stunden nötig\", \"im ersten Monat nötig\" und \"später kaufbar\".\n• Bewahre Dokumente, Geld, Medikamente, den Laptop und wichtige Elektronik im Handgepäck auf.\n• Mache digitale Kopien der Dokumente und bewahre sie getrennt von den Originalen auf.\n• Rechne nicht damit, sofort eine Langzeitmiete zu finden: die vorübergehende Unterkunft sollte die Suchzeit abdecken.\n• Prüfe für Medikamente Rezepte, Äquivalente und Einfuhrregeln.\n• Prüfe für Elektronik die Spannung, Stecker, Garantie und die Reparaturkosten.\n• Reist du mit Tieren, beginne die Dokumente früher, als du den Flug buchst.\n• Verschicke keinen Container/keine Pakete, ohne den Zoll und die Empfangsadresse zu verstehen."
+    }
+  },
+  "card.moving_baggage_relocation.checklist.checklist": {
+    "ru_body_hash": "82fd7438",
+    "en": {
+      "title": "Checklist for moving to Uruguay",
+      "short": "Relocation is documents, the first money, baggage, electronics, medicines, animals, temporary housing and a plan for the first weeks — not just the flight.",
+      "body": "Before departure:\n□ documents and apostilles;\n□ scans in the cloud and offline copies;\n□ money for the first months and a transfer plan;\n□ temporary housing with a buffer;\n□ insurance/healthcare for the start;\n□ medicines and prescriptions;\n□ a SIM/eSIM or a connectivity plan;\n□ a list of things for hand luggage;\n□ documents for animals, if any;\n□ addresses/contacts for the first tasks: housing, bank, school, doctor, transport.\n\nAfter arrival: connectivity, money, the neighborhood, temporary logistics, documents, the housing search, connecting services, a medical reserve.\n\nMake a separate list of things that can't wait: medicines, documents, work electronics, children's things, chargers, glasses, bank cards and contacts of the first services. Anything without which the first days become critical should be in hand luggage or available immediately after arrival."
+    },
+    "es": {
+      "title": "Lista para mudarse a Uruguay",
+      "short": "La mudanza es documentos, el primer dinero, equipaje, electrónica, medicamentos, animales, vivienda temporal y un plan para las primeras semanas — no solo el vuelo.",
+      "body": "Antes de salir:\n□ documentos y apostillas;\n□ escaneos en la nube y copias sin conexión;\n□ dinero para los primeros meses y un plan de transferencia;\n□ vivienda temporal con margen;\n□ seguro/salud para el arranque;\n□ medicamentos y recetas;\n□ una SIM/eSIM o un plan de conectividad;\n□ una lista de cosas para el equipaje de mano;\n□ documentos para los animales, si los hay;\n□ direcciones/contactos para las primeras tareas: vivienda, banco, escuela, médico, transporte.\n\nTras la llegada: conectividad, dinero, el barrio, la logística temporal, los documentos, la búsqueda de vivienda, la conexión de servicios, una reserva médica.\n\nHaz una lista aparte de las cosas que no pueden esperar: medicamentos, documentos, electrónica de trabajo, cosas de los niños, cargadores, lentes, tarjetas bancarias y contactos de los primeros servicios. Todo aquello sin lo cual los primeros días se vuelven críticos debe ir en el equipaje de mano o estar disponible justo tras la llegada."
+    },
+    "de": {
+      "title": "Checkliste für den Umzug nach Uruguay",
+      "short": "Ein Umzug bedeutet Dokumente, das erste Geld, Gepäck, Elektronik, Medikamente, Tiere, vorübergehende Unterkunft und einen Plan für die ersten Wochen — nicht nur den Flug.",
+      "body": "Vor der Abreise:\n□ Dokumente und Apostillen;\n□ Scans in der Cloud und Offline-Kopien;\n□ Geld für die ersten Monate und ein Überweisungsplan;\n□ vorübergehende Unterkunft mit Puffer;\n□ Versicherung/Gesundheit für den Start;\n□ Medikamente und Rezepte;\n□ eine SIM/eSIM oder ein Konnektivitätsplan;\n□ eine Liste der Dinge für das Handgepäck;\n□ Dokumente für Tiere, falls vorhanden;\n□ Adressen/Kontakte für die ersten Aufgaben: Wohnung, Bank, Schule, Arzt, Verkehr.\n\nNach der Ankunft: Konnektivität, Geld, das Viertel, vorübergehende Logistik, Dokumente, die Wohnungssuche, der Anschluss der Dienste, eine medizinische Reserve.\n\nMache eine separate Liste der Dinge, die nicht warten können: Medikamente, Dokumente, Arbeitselektronik, Kindersachen, Ladegeräte, Brillen, Bankkarten und Kontakte der ersten Dienste. Alles, ohne das die ersten Tage kritisch werden, sollte im Handgepäck oder direkt nach der Ankunft verfügbar sein."
+    }
+  },
+  "card.moving_baggage_relocation.checklist.pereezd_chto_planirovat_zaranee": {
+    "ru_body_hash": "7a385eaa",
+    "en": {
+      "title": "Relocation: what to plan in advance",
+      "short": "Relocation: what to plan in advance.",
+      "body": "Relocation: what to plan in advance\n\n☐ documents, apostilles and translations;\n☐ money for the first weeks, a backup card and a cash minimum;\n☐ temporary housing and a neighborhood for the first period;\n☐ connectivity: SIM/eSIM, internet, access to banks and 2FA;\n☐ medicines, prescriptions, medical documents;\n☐ baggage: weight, airline rules, valuables in hand luggage;\n☐ animals: certificates, chip, vaccines, carrier, booking with the airline;\n☐ electronics and things: what to bring, what to buy locally, what falls under customs;\n☐ first steps after arrival: housing, bank, cédula/migration, UTE/OSE/Antel.\n\nIt's better to plan relocation as a project for the first 4–8 weeks, not as a single flight."
+    },
+    "es": {
+      "title": "Mudanza: qué planificar con antelación",
+      "short": "Mudanza: qué planificar con antelación.",
+      "body": "Mudanza: qué planificar con antelación\n\n☐ documentos, apostillas y traducciones;\n☐ dinero para las primeras semanas, una tarjeta de respaldo y un mínimo en efectivo;\n☐ vivienda temporal y un barrio para el primer período;\n☐ conectividad: SIM/eSIM, internet, acceso a los bancos y 2FA;\n☐ medicamentos, recetas, documentos médicos;\n☐ equipaje: peso, reglas de la aerolínea, objetos de valor en el equipaje de mano;\n☐ animales: certificados, chip, vacunas, transportín, reserva con la aerolínea;\n☐ electrónica y cosas: qué llevar, qué comprar local, qué entra en aduana;\n☐ primeros pasos tras la llegada: vivienda, banco, cédula/migración, UTE/OSE/Antel.\n\nConviene planificar la mudanza como un proyecto para las primeras 4–8 semanas, no como un solo vuelo."
+    },
+    "de": {
+      "title": "Umzug: was im Voraus zu planen ist",
+      "short": "Umzug: was im Voraus zu planen ist.",
+      "body": "Umzug: was im Voraus zu planen ist\n\n☐ Dokumente, Apostillen und Übersetzungen;\n☐ Geld für die ersten Wochen, eine Ersatzkarte und ein Bargeldminimum;\n☐ vorübergehende Unterkunft und ein Viertel für die erste Zeit;\n☐ Konnektivität: SIM/eSIM, Internet, Zugang zu Banken und 2FA;\n☐ Medikamente, Rezepte, medizinische Dokumente;\n☐ Gepäck: Gewicht, Airline-Regeln, Wertsachen im Handgepäck;\n☐ Tiere: Bescheinigungen, Chip, Impfungen, Transportbox, Buchung bei der Fluggesellschaft;\n☐ Elektronik und Dinge: was mitbringen, was vor Ort kaufen, was unter den Zoll fällt;\n☐ erste Schritte nach der Ankunft: Wohnung, Bank, cédula/Migration, UTE/OSE/Antel.\n\nDen Umzug plant man besser als ein Projekt für die ersten 4–8 Wochen, nicht als einen einzelnen Flug."
+    }
+  },
+  "card.moving_baggage_relocation.checklist.pervye_nedeli_posle_pereezda": {
+    "ru_body_hash": "67edb953",
+    "en": {
+      "title": "The first weeks after moving",
+      "short": "The first weeks after moving.",
+      "body": "The first weeks after moving\n\n☐ buy/connect a SIM or eSIM;\n☐ settle into temporary housing and check the neighborhood;\n☐ save an address for deliveries and documents;\n☐ sort out money: cards, cash, the bank, transfers;\n☐ start the documents: cédula/residency/appointments, if applicable;\n☐ connect or check the internet;\n☐ buy basic appliances/furniture if the home is empty;\n☐ find a pharmacy, a doctor/emergency, a vet if needed;\n☐ make a list of next steps for renting, the bank, school, work.\n\nIt's better to plan the first weeks with a buffer: some procedures take longer than they seem before arrival."
+    },
+    "es": {
+      "title": "Las primeras semanas tras la mudanza",
+      "short": "Las primeras semanas tras la mudanza.",
+      "body": "Las primeras semanas tras la mudanza\n\n☐ comprar/conectar una SIM o eSIM;\n☐ instalarse en la vivienda temporal y revisar el barrio;\n☐ guardar una dirección para entregas y documentos;\n☐ resolver el dinero: tarjetas, efectivo, el banco, transferencias;\n☐ empezar los documentos: cédula/residencia/citas, si aplica;\n☐ conectar o comprobar el internet;\n☐ comprar electrodomésticos/muebles básicos si la vivienda está vacía;\n☐ encontrar una farmacia, un médico/emergencia, un veterinario si hace falta;\n☐ hacer una lista de los siguientes pasos para el alquiler, el banco, la escuela, el trabajo.\n\nConviene planificar las primeras semanas con margen: parte de los trámites lleva más tiempo del que parece antes de llegar."
+    },
+    "de": {
+      "title": "Die ersten Wochen nach dem Umzug",
+      "short": "Die ersten Wochen nach dem Umzug.",
+      "body": "Die ersten Wochen nach dem Umzug\n\n☐ eine SIM oder eSIM kaufen/anschließen;\n☐ in die vorübergehende Unterkunft einziehen und das Viertel prüfen;\n☐ eine Adresse für Lieferungen und Dokumente speichern;\n☐ das Geld regeln: Karten, Bargeld, die Bank, Überweisungen;\n☐ die Dokumente beginnen: cédula/Aufenthalt/Termine, falls zutreffend;\n☐ das Internet anschließen oder prüfen;\n☐ grundlegende Geräte/Möbel kaufen, wenn die Wohnung leer ist;\n☐ eine Apotheke, einen Arzt/Notdienst, bei Bedarf einen Tierarzt finden;\n☐ eine Liste der nächsten Schritte für Miete, Bank, Schule, Arbeit machen.\n\nDie ersten Wochen plant man besser mit Puffer: ein Teil der Verfahren dauert länger, als es vor der Ankunft scheint."
+    }
+  },
+  "card.moving_baggage_relocation.community_experience.community_experience": {
+    "ru_body_hash": "fcd3666c",
+    "en": {
+      "title": "Practical experience of the first weeks",
+      "short": "Relocation is documents, the first money, baggage, electronics, medicines, animals, temporary housing and a plan for the first weeks — not just the flight.",
+      "body": "The first weeks most often go not into \"tourism\" but into everyday setup: connectivity, money, the neighborhood, renting, transport, shopping, documents, school, healthcare. Those who prepared a list and documents in advance get through this period more calmly.\n\nMany underestimate the cost of the start: temporary housing, the deposit/guarantee, furniture, electronics, a SIM, transport, food, documents and specialists' services. So the financial reserve should be larger than the cost of tickets and the first month of living.\n\nWith belongings, experience varies: some people regret bringing too much, some regret not taking their usual medicines, electronics or children's things. The best approach is to count not sentiment but the availability and the cost of replacement in Uruguay."
+    },
+    "es": {
+      "title": "Experiencia práctica de las primeras semanas",
+      "short": "La mudanza es documentos, el primer dinero, equipaje, electrónica, medicamentos, animales, vivienda temporal y un plan para las primeras semanas — no solo el vuelo.",
+      "body": "Las primeras semanas suelen irse no en \"turismo\", sino en el armado cotidiano: conectividad, dinero, el barrio, el alquiler, el transporte, las compras, los documentos, la escuela, la salud. Quienes prepararon una lista y los documentos con antelación atraviesan este período con más calma.\n\nMuchos subestiman el coste del arranque: vivienda temporal, el depósito/garantía, muebles, electrónica, una SIM, transporte, comida, documentos y servicios de especialistas. Por eso la reserva financiera debe ser mayor que el coste de los pasajes y el primer mes de vivienda.\n\nCon las pertenencias, la experiencia varía: algunos se arrepienten de traer demasiado, otros de no llevar sus medicamentos habituales, electrónica o cosas de los niños. El mejor enfoque es calcular no el sentimiento, sino la disponibilidad y el coste de reemplazo en Uruguay."
+    },
+    "de": {
+      "title": "Praktische Erfahrung der ersten Wochen",
+      "short": "Ein Umzug bedeutet Dokumente, das erste Geld, Gepäck, Elektronik, Medikamente, Tiere, vorübergehende Unterkunft und einen Plan für die ersten Wochen — nicht nur den Flug.",
+      "body": "Die ersten Wochen gehen meist nicht in \"Tourismus\", sondern in den Alltagsaufbau: Konnektivität, Geld, das Viertel, Miete, Verkehr, Einkäufe, Dokumente, Schule, Gesundheit. Wer im Voraus eine Liste und Dokumente vorbereitet hat, übersteht diese Phase ruhiger.\n\nViele unterschätzen die Kosten des Starts: vorübergehende Unterkunft, die Kaution/Garantie, Möbel, Elektronik, eine SIM, Verkehr, Essen, Dokumente und Spezialistenleistungen. Daher sollte die finanzielle Reserve größer sein als die Kosten der Tickets und des ersten Wohnmonats.\n\nBei den Habseligkeiten ist die Erfahrung unterschiedlich: manche bereuen, zu viel mitgebracht zu haben, manche, ihre gewohnten Medikamente, Elektronik oder Kindersachen nicht genommen zu haben. Der beste Ansatz ist, nicht Sentiment, sondern die Verfügbarkeit und die Ersatzkosten in Uruguay zu berechnen."
+    }
+  },
+  "card.moving_baggage_relocation.overview.overview": {
+    "ru_body_hash": "951f19a9",
+    "en": {
+      "title": "Relocation, baggage and importing belongings: a plan without chaos",
+      "short": "Relocation is documents, the first money, baggage, electronics, medicines, animals, temporary housing and a plan for the first weeks — not just the flight.",
+      "body": "Relocation to Uruguay is best planned as several parallel streams: documents, money, housing, connectivity, baggage, medicines, electronics, animals, school/work and the first weeks on the ground. Mistakes at the packing stage are expensive to fix from Uruguay: a forgotten document, unsuitable electronics, a missing medicine, an unprepared money transfer or temporary housing that's too short.\n\nThe key question is what to bring, what to ship and what to buy locally. Compact and critical things are better brought in your baggage; large things should be costed with delivery, customs and the home's condition in mind. For animals, medicines, electronics and professional equipment, the rules must be checked separately.\n\nA good move isn't the maximum number of things but a manageable start: documents, money for the first months, connectivity, temporary housing and a clear list of next actions."
+    },
+    "es": {
+      "title": "Mudanza, equipaje e ingreso de pertenencias: un plan sin caos",
+      "short": "La mudanza es documentos, el primer dinero, equipaje, electrónica, medicamentos, animales, vivienda temporal y un plan para las primeras semanas — no solo el vuelo.",
+      "body": "La mudanza a Uruguay conviene planificarla como varios flujos paralelos: documentos, dinero, vivienda, conectividad, equipaje, medicamentos, electrónica, animales, escuela/trabajo y las primeras semanas sobre el terreno. Los errores en la etapa de armar las valijas son caros de corregir desde Uruguay: un documento olvidado, electrónica inadecuada, un medicamento que falta, una transferencia de dinero sin preparar o una vivienda temporal demasiado corta.\n\nLa pregunta clave es qué llevar, qué enviar y qué comprar local. Lo compacto y crítico conviene traerlo en el equipaje; lo grande hay que calcularlo teniendo en cuenta la entrega, la aduana y el estado de la vivienda. Para animales, medicamentos, electrónica y equipo profesional, las reglas hay que comprobarlas por separado.\n\nUna buena mudanza no es la máxima cantidad de cosas, sino un arranque manejable: documentos, dinero para los primeros meses, conectividad, vivienda temporal y una lista clara de los siguientes pasos."
+    },
+    "de": {
+      "title": "Umzug, Gepäck und Einfuhr von Habseligkeiten: ein Plan ohne Chaos",
+      "short": "Ein Umzug bedeutet Dokumente, das erste Geld, Gepäck, Elektronik, Medikamente, Tiere, vorübergehende Unterkunft und einen Plan für die ersten Wochen — nicht nur den Flug.",
+      "body": "Den Umzug nach Uruguay plant man am besten als mehrere parallele Stränge: Dokumente, Geld, Wohnung, Konnektivität, Gepäck, Medikamente, Elektronik, Tiere, Schule/Arbeit und die ersten Wochen vor Ort. Fehler in der Packphase sind aus Uruguay teuer zu beheben: ein vergessenes Dokument, ungeeignete Elektronik, ein fehlendes Medikament, eine unvorbereitete Geldüberweisung oder eine zu kurze vorübergehende Unterkunft.\n\nDie Schlüsselfrage ist, was man mitnimmt, was man verschickt und was man vor Ort kauft. Kompakte und kritische Dinge bringt man besser im Gepäck mit; große Dinge sollte man unter Berücksichtigung von Lieferung, Zoll und dem Zustand der Wohnung berechnen. Für Tiere, Medikamente, Elektronik und professionelle Ausrüstung müssen die Regeln separat geprüft werden.\n\nEin guter Umzug ist nicht die maximale Anzahl an Dingen, sondern ein beherrschbarer Start: Dokumente, Geld für die ersten Monate, Konnektivität, vorübergehende Unterkunft und eine klare Liste der nächsten Schritte."
+    }
+  },
+  "card.moving_baggage_relocation.reference.ref_bagazh_i_perelet": {
+    "ru_body_hash": "c3047799",
+    "en": {
+      "title": "Baggage and the flight: what to know",
+      "short": "Baggage and the flight: what to know.",
+      "body": "Baggage and the flight: what to know\n\nBaggage and the flight should be counted by weight, the value of items and how easy it is to buy a replacement locally. Documents and medicines go in hand luggage only.\n\nWhen it matters: first entry, moving a family, animals, electronics.\n\nWhat to check: airline rules, excess weight, carriers, batteries, medicines, documents and insurance."
+    },
+    "es": {
+      "title": "Equipaje y vuelo: lo que importa saber",
+      "short": "Equipaje y vuelo: lo que importa saber.",
+      "body": "Equipaje y vuelo: lo que importa saber\n\nEl equipaje y el vuelo hay que calcularlos por peso, el valor de los objetos y lo fácil que es comprar un reemplazo local. Los documentos y los medicamentos van solo en el equipaje de mano.\n\nCuándo importa: el primer ingreso, mudar una familia, animales, electrónica.\n\nQué revisar: las reglas de la aerolínea, el exceso de peso, los transportines, las baterías, los medicamentos, los documentos y el seguro."
+    },
+    "de": {
+      "title": "Gepäck und Flug: was man wissen muss",
+      "short": "Gepäck und Flug: was man wissen muss.",
+      "body": "Gepäck und Flug: was man wissen muss\n\nGepäck und Flug berechnet man nach Gewicht, dem Wert der Gegenstände und wie leicht man vor Ort einen Ersatz kaufen kann. Dokumente und Medikamente kommen nur ins Handgepäck.\n\nWann es wichtig ist: erste Einreise, der Umzug einer Familie, Tiere, Elektronik.\n\nWas zu prüfen ist: die Airline-Regeln, das Übergewicht, Transportboxen, Batterien, Medikamente, Dokumente und die Versicherung."
+    }
+  },
+  "card.moving_baggage_relocation.reference.ref_chto_brat_s_soboy": {
+    "ru_body_hash": "38a738bf",
+    "en": {
+      "title": "What to bring with you: what to know",
+      "short": "What to bring with you: what to know.",
+      "body": "What to bring with you: what to know\n\nIt's worth bringing what is hard, expensive or urgently needed in the first weeks: documents, medicines, work electronics, adapters, important children's/animal things.\n\nWhen it matters: first entry, temporary housing, remote work, children and pets.\n\nWhat to check: weight, value, local availability, the warranty and the need in the first week."
+    },
+    "es": {
+      "title": "Qué llevar contigo: lo que importa saber",
+      "short": "Qué llevar contigo: lo que importa saber.",
+      "body": "Qué llevar contigo: lo que importa saber\n\nConviene llevar lo que es difícil, caro o se necesita con urgencia en las primeras semanas: documentos, medicamentos, electrónica de trabajo, adaptadores, cosas importantes de los niños/animales.\n\nCuándo importa: el primer ingreso, la vivienda temporal, el trabajo remoto, los niños y las mascotas.\n\nQué revisar: el peso, el valor, la disponibilidad local, la garantía y la necesidad en la primera semana."
+    },
+    "de": {
+      "title": "Was man mitnehmen sollte: was man wissen muss",
+      "short": "Was man mitnehmen sollte: was man wissen muss.",
+      "body": "Was man mitnehmen sollte: was man wissen muss\n\nMitnehmen sollte man, was schwer, teuer oder in den ersten Wochen dringend nötig ist: Dokumente, Medikamente, Arbeitselektronik, Adapter, wichtige Kinder-/Tiersachen.\n\nWann es wichtig ist: erste Einreise, vorübergehende Unterkunft, Remote-Arbeit, Kinder und Haustiere.\n\nWas zu prüfen ist: Gewicht, Wert, lokale Verfügbarkeit, die Garantie und den Bedarf in der ersten Woche."
+    }
+  },
+  "card.moving_baggage_relocation.reference.ref_peresylka_i_dostavka": {
+    "ru_body_hash": "adb36d13",
+    "en": {
+      "title": "Forwarding and delivery: what to know",
+      "short": "Forwarding and delivery: what to know.",
+      "body": "Forwarding and delivery: what to know\n\nForwarding and delivery are useful for documents and small things, but can be expensive and slow for heavy items.\n\nWhen it matters: forwarding documents, purchases, clothing, small electronics.\n\nWhat to check: the tracking, who receives it, the duty, deadlines, loss/damage, the address and the recipient's phone number."
+    },
+    "es": {
+      "title": "Reenvío y entrega: lo que importa saber",
+      "short": "Reenvío y entrega: lo que importa saber.",
+      "body": "Reenvío y entrega: lo que importa saber\n\nEl reenvío y la entrega son útiles para documentos y cosas pequeñas, pero pueden ser caros y lentos para objetos pesados.\n\nCuándo importa: el reenvío de documentos, compras, ropa, electrónica pequeña.\n\nQué revisar: el tracking, quién lo recibe, el arancel, los plazos, la pérdida/daño, la dirección y el teléfono del destinatario."
+    },
+    "de": {
+      "title": "Weiterleitung und Lieferung: was man wissen muss",
+      "short": "Weiterleitung und Lieferung: was man wissen muss.",
+      "body": "Weiterleitung und Lieferung: was man wissen muss\n\nWeiterleitung und Lieferung sind für Dokumente und kleine Dinge nützlich, können aber für schwere Gegenstände teuer und langsam sein.\n\nWann es wichtig ist: das Nachsenden von Dokumenten, Einkäufen, Kleidung, kleiner Elektronik.\n\nWas zu prüfen ist: das Tracking, wer es empfängt, den Zoll, die Fristen, Verlust/Schaden, die Adresse und die Telefonnummer des Empfängers."
+    }
+  },
+  "card.moving_baggage_relocation.reference.ref_planirovanie_pereezda": {
+    "ru_body_hash": "1b423d3d",
+    "en": {
+      "title": "Planning the relocation: what to know",
+      "short": "Planning the relocation: what to know.",
+      "body": "Planning the relocation: what to know\n\nPlanning a relocation starts with documents, money and the first weeks, not with suitcases. Mistakes at the start are more expensive to fix from Uruguay.\n\nWhen it matters: moving a family, animals, remote work, arranging residency and renting.\n\nWhat to check: documents, apostilles, money, housing, connectivity, medicines, baggage, pets and the temporary address."
+    },
+    "es": {
+      "title": "Planificar la mudanza: lo que importa saber",
+      "short": "Planificar la mudanza: lo que importa saber.",
+      "body": "Planificar la mudanza: lo que importa saber\n\nPlanificar una mudanza empieza con los documentos, el dinero y las primeras semanas, no con las valijas. Los errores al inicio son más caros de corregir desde Uruguay.\n\nCuándo importa: mudar una familia, animales, trabajo remoto, gestionar la residencia y el alquiler.\n\nQué revisar: documentos, apostillas, dinero, vivienda, conectividad, medicamentos, equipaje, mascotas y la dirección temporal."
+    },
+    "de": {
+      "title": "Die Umzugsplanung: was man wissen muss",
+      "short": "Die Umzugsplanung: was man wissen muss.",
+      "body": "Die Umzugsplanung: was man wissen muss\n\nDie Planung eines Umzugs beginnt mit Dokumenten, Geld und den ersten Wochen, nicht mit Koffern. Fehler am Start sind aus Uruguay teurer zu beheben.\n\nWann es wichtig ist: der Umzug einer Familie, Tiere, Remote-Arbeit, die Beantragung des Aufenthalts und die Miete.\n\nWas zu prüfen ist: Dokumente, Apostillen, Geld, Wohnung, Konnektivität, Medikamente, Gepäck, Haustiere und die vorübergehende Adresse."
+    }
+  },
+  "card.moving_baggage_relocation.reference.ref_vvoz_veschey": {
+    "ru_body_hash": "1f20d6e5",
+    "en": {
+      "title": "Importing belongings: what to know",
+      "short": "Importing belongings: what to know.",
+      "body": "Importing belongings: what to know\n\nImporting belongings depends on the type of items, the value, the relocation status and customs rules. Large and expensive items are better checked in advance.\n\nWhen it matters: electronics, furniture, tools, parcels and personal belongings.\n\nWhat to check: Aduanas, invoices, item lists, deadlines, courier/sea freight and storage costs."
+    },
+    "es": {
+      "title": "Ingreso de pertenencias: lo que importa saber",
+      "short": "Ingreso de pertenencias: lo que importa saber.",
+      "body": "Ingreso de pertenencias: lo que importa saber\n\nEl ingreso de pertenencias depende del tipo de objetos, el valor, el estatus de la mudanza y las reglas aduaneras. Los objetos grandes y caros conviene comprobarlos con antelación.\n\nCuándo importa: electrónica, muebles, herramientas, paquetes y pertenencias personales.\n\nQué revisar: Aduanas, facturas, listas de objetos, plazos, courier/flete marítimo y gastos de almacenamiento."
+    },
+    "de": {
+      "title": "Einfuhr von Habseligkeiten: was man wissen muss",
+      "short": "Einfuhr von Habseligkeiten: was man wissen muss.",
+      "body": "Einfuhr von Habseligkeiten: was man wissen muss\n\nDie Einfuhr von Habseligkeiten hängt von der Art der Gegenstände, dem Wert, dem Umzugsstatus und den Zollregeln ab. Große und teure Gegenstände prüft man besser im Voraus.\n\nWann es wichtig ist: Elektronik, Möbel, Werkzeuge, Pakete und persönliche Sachen.\n\nWas zu prüfen ist: Aduanas, Rechnungen, Gegenstandslisten, Fristen, Kurier/Seefracht und Lagerkosten."
+    }
+  },
+  "card.moving_baggage_relocation.warning.warning": {
+    "ru_body_hash": "77a1091e",
+    "en": {
+      "title": "Mistakes when relocating",
+      "short": "Relocation is documents, the first money, baggage, electronics, medicines, animals, temporary housing and a plan for the first weeks — not just the flight.",
+      "body": "Mistakes: taking too little money for the start, arriving without the necessary apostilles, counting on a long-term rental within a couple of days, having no backup means of communication and access to money.\n\nDon't ship important documents in your baggage. Don't ship everything by container without calculating customs and the cost. Don't forget that an empty flat will require furniture and electronics.\n\nIf you're moving with children, animals or chronic illnesses, the plan should be more detailed: school, veterinary documents, medicines, doctors and temporary housing near the needed infrastructure."
+    },
+    "es": {
+      "title": "Errores al mudarse",
+      "short": "La mudanza es documentos, el primer dinero, equipaje, electrónica, medicamentos, animales, vivienda temporal y un plan para las primeras semanas — no solo el vuelo.",
+      "body": "Errores: llevar muy poco dinero para el arranque, llegar sin las apostillas necesarias, contar con un alquiler a largo plazo en un par de días, no tener un medio de comunicación de respaldo ni acceso al dinero.\n\nNo envíes documentos importantes en el equipaje. No traigas todo en contenedor sin calcular la aduana y el coste. No olvides que una vivienda vacía requerirá muebles y electrónica.\n\nSi te mudas con niños, animales o enfermedades crónicas, el plan debe ser más detallado: escuela, documentos veterinarios, medicamentos, médicos y vivienda temporal cerca de la infraestructura necesaria."
+    },
+    "de": {
+      "title": "Fehler beim Umzug",
+      "short": "Ein Umzug bedeutet Dokumente, das erste Geld, Gepäck, Elektronik, Medikamente, Tiere, vorübergehende Unterkunft und einen Plan für die ersten Wochen — nicht nur den Flug.",
+      "body": "Fehler: zu wenig Geld für den Start mitnehmen, ohne die nötigen Apostillen ankommen, in ein paar Tagen mit einer Langzeitmiete rechnen, kein Ersatzkommunikationsmittel und keinen Zugang zum Geld haben.\n\nVerschicke keine wichtigen Dokumente im Gepäck. Bring nicht alles per Container, ohne Zoll und Kosten zu berechnen. Vergiss nicht, dass eine leere Wohnung Möbel und Elektronik erfordert.\n\nZiehst du mit Kindern, Tieren oder chronischen Krankheiten um, sollte der Plan detaillierter sein: Schule, Veterinärdokumente, Medikamente, Ärzte und vorübergehende Unterkunft nahe der nötigen Infrastruktur."
+    }
+  },
   "card.pets_veterinary.advice.advice": {
     "ru_body_hash": "5c77d234",
     "en": {
@@ -2645,6 +3077,204 @@
       "body": "Häufige Fehler: nur auf den alquiler-Preis schauen; gastos comunes ignorieren; die Feuchtigkeit im Winter nicht prüfen; ohne Verständnis der garantía unterschreiben; die Kaution als die letzten Mietmonate betrachten; den Zustand der Wohnung beim Einzug nicht festhalten.\n\nEin weiterer Fehler ist das Verwechseln der Märkte. Kurzzeit, Wintermiete, Sommermiete in Punta und ein Jahresvertrag sind unterschiedliche Produkte. Ein \"Nebensaison\"-Preis bedeutet nicht, dass die Immobilie im Sommer zu denselben Bedingungen verfügbar ist.\n\nVertraue dem Makler oder dem Eigentümer nicht völlig bei Dingen, die für dich persönlich entscheidend sind. Wenn ein Haustier, Parkplatz, ein Aufzug, ein Fahrrad, Internet, Ruhe oder die Möglichkeit eines vorzeitigen Auszugs wichtig sind, muss das vor der Zahlung vereinbart werden."
     }
   },
+  "card.repairs_services_household.advice.advice": {
+    "ru_body_hash": "b66e3754",
+    "en": {
+      "title": "Tips on repairs and workers",
+      "short": "Repairs and household services are tied to the quality of the home: humidity, mold, the water heater, air conditioners, wiring, plumbing, workers and building rules.",
+      "body": "• When viewing a home, check humidity, mold, smell, corners, windows, ceilings, cupboards and the walls behind furniture.\n• The water heater, air conditioner, wiring and plumbing are separate risk points; switch them on and check on the spot.\n• For a rental, record defects with photos/video before moving in.\n• Before calling a worker, describe the problem, send photos, clarify the call-out price and the cost of works.\n• Where possible, get recommendations, but still agree the cost in writing.\n• In the building, clarify the repair rules: noise hours, the elevator, taking out rubbish, the administration's permits.\n• Don't start major changes without the owner's/administration's consent."
+    },
+    "es": {
+      "title": "Consejos sobre reparaciones y técnicos",
+      "short": "Las reparaciones y los servicios del hogar están ligados a la calidad de la vivienda: humedad, moho, el calentador, los aires acondicionados, la instalación eléctrica, la plomería, los técnicos y las reglas del edificio.",
+      "body": "• Al ver una vivienda, revisa la humedad, el moho, el olor, las esquinas, las ventanas, los techos, los armarios y las paredes detrás de los muebles.\n• El calentador, el aire acondicionado, la instalación eléctrica y la plomería son puntos de riesgo aparte; enciéndelos y revísalos sobre el terreno.\n• Para el alquiler, registra los defectos con fotos/vídeo antes de entrar.\n• Antes de llamar a un técnico, describe el problema, envía fotos, aclara el precio de la visita y de los trabajos.\n• En lo posible, pide recomendaciones, pero igual acuerda el coste por escrito.\n• En el edificio, aclara las reglas de obra: horas de ruido, el ascensor, la salida de basura, los permisos de la administración.\n• No empieces cambios importantes sin el consentimiento del propietario/la administración."
+    },
+    "de": {
+      "title": "Tipps zu Reparaturen und Handwerkern",
+      "short": "Reparaturen und Haushaltsdienste sind an die Qualität der Wohnung gebunden: Feuchtigkeit, Schimmel, der Boiler, Klimaanlagen, Elektrik, Sanitär, Handwerker und Hausregeln.",
+      "body": "• Prüfe bei der Wohnungsbesichtigung Feuchtigkeit, Schimmel, Geruch, Ecken, Fenster, Decken, Schränke und die Wände hinter den Möbeln.\n• Boiler, Klimaanlage, Elektrik und Sanitär sind separate Risikopunkte; schalte sie ein und prüfe sie vor Ort.\n• Halte für eine Miete Mängel mit Fotos/Videos vor dem Einzug fest.\n• Bevor du einen Handwerker rufst, beschreibe das Problem, sende Fotos, kläre den Anfahrtspreis und die Kosten der Arbeiten.\n• Hole nach Möglichkeit Empfehlungen ein, aber vereinbare die Kosten trotzdem schriftlich.\n• Kläre im Gebäude die Reparaturregeln: Lärmzeiten, den Aufzug, die Müllentsorgung, die Genehmigungen der Verwaltung.\n• Beginne keine größeren Veränderungen ohne Zustimmung des Eigentümers/der Verwaltung."
+    }
+  },
+  "card.repairs_services_household.advice.kak_iskat_masterov_i_reshat_bytovye_raboty": {
+    "ru_body_hash": "c17facb0",
+    "en": {
+      "title": "How to find workers and handle household jobs",
+      "short": "How to find workers and handle household jobs.",
+      "body": "How to find workers and handle household jobs\n\n• First formulate the task: what's broken, what needs doing, who buys the materials and what result counts as done.\n• Send photos/video of the problem before the visit — it's easier to get a price and understand whether a specialist is needed.\n• Clarify the cost of the call-out, materials, work, the timing and the warranty.\n• In a rental, agree the repair with the owner if it could affect the deposit or the home's structure.\n• Don't pay for all the work in advance without accepting the result.\n• For humidity, mold, wiring, gas, the water heater and the air conditioner, it's better to find a specialized worker, not a universal \"do-everything\".\n\nA good household repair starts with a written agreement and photos of the condition before the works."
+    },
+    "es": {
+      "title": "Cómo buscar técnicos y resolver trabajos del hogar",
+      "short": "Cómo buscar técnicos y resolver trabajos del hogar.",
+      "body": "Cómo buscar técnicos y resolver trabajos del hogar\n\n• Primero formula la tarea: qué está roto, qué hay que hacer, quién compra los materiales y qué resultado se considera terminado.\n• Envía fotos/vídeo del problema antes de la visita — así es más fácil obtener un precio y entender si hace falta un especialista.\n• Aclara el coste de la visita, los materiales, el trabajo, el plazo y la garantía.\n• En un alquiler, acuerda la reparación con el propietario si puede afectar el depósito o la estructura de la vivienda.\n• No pagues todo el trabajo por adelantado sin recibir el resultado.\n• Para humedad, moho, instalación eléctrica, gas, el calentador y el aire acondicionado, conviene buscar un técnico especializado, no uno universal \"para todo\".\n\nUna buena reparación del hogar empieza con un acuerdo por escrito y fotos del estado antes de los trabajos."
+    },
+    "de": {
+      "title": "Wie man Handwerker findet und Haushaltsarbeiten erledigt",
+      "short": "Wie man Handwerker findet und Haushaltsarbeiten erledigt.",
+      "body": "Wie man Handwerker findet und Haushaltsarbeiten erledigt\n\n• Formuliere zuerst die Aufgabe: was kaputt ist, was zu tun ist, wer die Materialien kauft und welches Ergebnis als fertig gilt.\n• Sende Fotos/Videos des Problems vor dem Besuch — so erhält man leichter einen Preis und versteht, ob ein Spezialist nötig ist.\n• Kläre die Kosten der Anfahrt, der Materialien, der Arbeit, die Frist und die Garantie.\n• Stimme bei einer Miete die Reparatur mit dem Eigentümer ab, wenn sie die Kaution oder die Struktur der Wohnung betreffen könnte.\n• Zahle nicht die gesamte Arbeit im Voraus, ohne das Ergebnis abzunehmen.\n• Für Feuchtigkeit, Schimmel, Elektrik, Gas, den Boiler und die Klimaanlage findet man besser einen spezialisierten Handwerker, keinen universellen \"für alles\".\n\nEine gute Haushaltsreparatur beginnt mit einer schriftlichen Vereinbarung und Fotos des Zustands vor den Arbeiten."
+    }
+  },
+  "card.repairs_services_household.checklist.checklist": {
+    "ru_body_hash": "a438cf9f",
+    "en": {
+      "title": "Home and repair check checklist",
+      "short": "Repairs and household services are tied to the quality of the home: humidity, mold, the water heater, air conditioners, wiring, plumbing, workers and building rules.",
+      "body": "Check:\n□ the smell of damp, stains, mold, blistering paint;\n□ ceilings and walls after rain;\n□ windows, gaps, blinds, seals;\n□ water pressure, drainage, hot water, the water heater;\n□ sockets, the panel, the capacity, earthing;\n□ air conditioners/heating and filters;\n□ the condition of the kitchen, cupboards, fridge, stove;\n□ the building's repair rules;\n□ who is responsible for breakdowns in the contract;\n□ photos/video before move-in and after repairs.\n\nFor a purchase, add an inspection by a specialist, documents for alterations and an estimate of the cost of works.\n\nIf a problem is found after move-in, don't repair it silently at your own expense. First record the defect, send it to the owner/administration, clarify who calls the worker and who pays. For expensive works, ask for an estimate and confirmation before starting."
+    },
+    "es": {
+      "title": "Lista de revisión de vivienda y reparaciones",
+      "short": "Las reparaciones y los servicios del hogar están ligados a la calidad de la vivienda: humedad, moho, el calentador, los aires acondicionados, la instalación eléctrica, la plomería, los técnicos y las reglas del edificio.",
+      "body": "Revisa:\n□ el olor a humedad, manchas, moho, pintura abultada;\n□ techos y paredes tras la lluvia;\n□ ventanas, rendijas, persianas, sellos;\n□ presión del agua, desagüe, agua caliente, el calentador;\n□ enchufes, el tablero, la potencia, la puesta a tierra;\n□ aires acondicionados/calefacción y filtros;\n□ el estado de la cocina, armarios, heladera, cocina;\n□ las reglas de obra del edificio;\n□ quién responde por las averías en el contrato;\n□ fotos/vídeo antes de entrar y tras las reparaciones.\n\nPara una compra, añade una inspección por un especialista, documentos de las reformas y un presupuesto del coste de los trabajos.\n\nSi se detecta un problema tras entrar, no lo repares en silencio a tu costa. Primero registra el defecto, envíalo al propietario/la administración, aclara quién llama al técnico y quién paga. Para trabajos caros, pide un presupuesto y un comprobante antes de empezar."
+    },
+    "de": {
+      "title": "Checkliste zur Wohnungs- und Reparaturprüfung",
+      "short": "Reparaturen und Haushaltsdienste sind an die Qualität der Wohnung gebunden: Feuchtigkeit, Schimmel, der Boiler, Klimaanlagen, Elektrik, Sanitär, Handwerker und Hausregeln.",
+      "body": "Prüfe:\n□ den Feuchtigkeitsgeruch, Flecken, Schimmel, abblätternde Farbe;\n□ Decken und Wände nach Regen;\n□ Fenster, Spalten, Jalousien, Dichtungen;\n□ Wasserdruck, Abfluss, Warmwasser, den Boiler;\n□ Steckdosen, den Sicherungskasten, die Leistung, die Erdung;\n□ Klimaanlagen/Heizung und Filter;\n□ den Zustand von Küche, Schränken, Kühlschrank, Herd;\n□ die Reparaturregeln des Gebäudes;\n□ wer im Vertrag für Defekte verantwortlich ist;\n□ Fotos/Videos vor dem Einzug und nach den Reparaturen.\n\nFüge für einen Kauf eine Inspektion durch einen Spezialisten, Dokumente für Umbauten und einen Kostenvoranschlag für die Arbeiten hinzu.\n\nWird nach dem Einzug ein Problem gefunden, repariere es nicht stillschweigend auf eigene Kosten. Halte zuerst den Mangel fest, sende ihn an den Eigentümer/die Verwaltung, kläre, wer den Handwerker ruft und wer zahlt. Bitte für teure Arbeiten vor Beginn um einen Kostenvoranschlag und eine Bestätigung."
+    }
+  },
+  "card.repairs_services_household.community_experience.community_experience": {
+    "ru_body_hash": "cd5dba7d",
+    "en": {
+      "title": "Practical experience of household repairs",
+      "short": "Repairs and household services are tied to the quality of the home: humidity, mold, the water heater, air conditioners, wiring, plumbing, workers and building rules.",
+      "body": "A common experience: a minor repair turns out not so minor if the problem is linked to humidity, the roof, pipes or building-wide systems. In a rental, such matters are best raised with the owner immediately and the correspondence recorded, otherwise a dispute over the deposit is almost inevitable.\n\nWorkers are often found by recommendation, but quality is inconsistent. A good worker is valued, may be busy, and timelines often need a buffer. For complex jobs it's better to have 2–3 estimates and not pay the full amount in advance.\n\nConclusion: prevention is cheaper than repair. Checking the home before move-in and recording defects in writing save more than trying to \"sort it out later\"."
+    },
+    "es": {
+      "title": "Experiencia práctica de las reparaciones del hogar",
+      "short": "Las reparaciones y los servicios del hogar están ligados a la calidad de la vivienda: humedad, moho, el calentador, los aires acondicionados, la instalación eléctrica, la plomería, los técnicos y las reglas del edificio.",
+      "body": "Una experiencia frecuente: una reparación menor resulta no tan menor si el problema está ligado a la humedad, el techo, las cañerías o los sistemas de todo el edificio. En un alquiler, esos asuntos conviene plantearlos al propietario de inmediato y registrar la correspondencia, de lo contrario una disputa por el depósito es casi inevitable.\n\nLos técnicos se encuentran a menudo por recomendación, pero la calidad es inestable. Un buen técnico es valorado, puede estar ocupado, y los plazos a menudo necesitan margen. Para trabajos complejos conviene tener 2–3 presupuestos y no pagar todo el monto por adelantado.\n\nConclusión: la prevención es más barata que la reparación. Revisar la vivienda antes de entrar y registrar los defectos por escrito ahorra más que intentar \"resolverlo después\"."
+    },
+    "de": {
+      "title": "Praktische Erfahrung mit Haushaltsreparaturen",
+      "short": "Reparaturen und Haushaltsdienste sind an die Qualität der Wohnung gebunden: Feuchtigkeit, Schimmel, der Boiler, Klimaanlagen, Elektrik, Sanitär, Handwerker und Hausregeln.",
+      "body": "Eine häufige Erfahrung: eine kleine Reparatur erweist sich als nicht so klein, wenn das Problem mit Feuchtigkeit, dem Dach, Rohren oder gebäudeweiten Systemen zusammenhängt. Bei einer Miete spricht man solche Fragen am besten sofort beim Eigentümer an und hält den Schriftverkehr fest, sonst ist ein Streit über die Kaution fast unvermeidlich.\n\nHandwerker findet man oft auf Empfehlung, aber die Qualität ist uneinheitlich. Ein guter Handwerker wird geschätzt, kann ausgelastet sein, und Fristen brauchen oft einen Puffer. Für komplexe Arbeiten hat man besser 2–3 Kostenvoranschläge und zahlt nicht den vollen Betrag im Voraus.\n\nFazit: Vorbeugung ist günstiger als Reparatur. Die Prüfung der Wohnung vor dem Einzug und die schriftliche Festhaltung von Mängeln sparen mehr als der Versuch, es \"später zu klären\"."
+    }
+  },
+  "card.repairs_services_household.overview.overview": {
+    "ru_body_hash": "95840075",
+    "en": {
+      "title": "Repairs, workers and household: how not to drown in the details",
+      "short": "Repairs and household services are tied to the quality of the home: humidity, mold, the water heater, air conditioners, wiring, plumbing, workers and building rules.",
+      "body": "Uruguayan housing can require more everyday attention than a newcomer expects: humidity, mold, cold in winter, water heaters, air conditioners, old wiring, leaks, windows, doors and building-wide rules. So the repairs topic is closely tied to renting and buying.\n\nFor a tenant it's important to understand what the owner repairs, what the tenant does, who calls the worker and who pays. For a buyer — to assess the condition in advance: the roof, humedad, instalaciones eléctricas, cañerías, common costs, permits and possible works in the building.\n\nWith workers, the rule is written specifics: what's being done, the material, the price, the timing, the warranty, who buys the parts and what counts as completed work."
+    },
+    "es": {
+      "title": "Reparaciones, técnicos y hogar: cómo no ahogarse en los detalles",
+      "short": "Las reparaciones y los servicios del hogar están ligados a la calidad de la vivienda: humedad, moho, el calentador, los aires acondicionados, la instalación eléctrica, la plomería, los técnicos y las reglas del edificio.",
+      "body": "La vivienda uruguaya puede requerir más atención cotidiana de la que espera un recién llegado: humedad, moho, frío en invierno, calentadores, aires acondicionados, instalación eléctrica vieja, filtraciones, ventanas, puertas y reglas de todo el edificio. Por eso el tema de las reparaciones está muy ligado al alquiler y la compra.\n\nPara un inquilino es importante entender qué repara el propietario, qué hace el inquilino, quién llama al técnico y quién paga. Para un comprador — evaluar el estado de antemano: el techo, la humedad, las instalaciones eléctricas, las cañerías, los gastos comunes, los permisos y posibles obras en el edificio.\n\nCon los técnicos rige la regla de la concreción por escrito: qué se hace, el material, el precio, los plazos, la garantía, quién compra las piezas y qué se considera trabajo terminado."
+    },
+    "de": {
+      "title": "Reparaturen, Handwerker und Haushalt: wie man nicht in Details ertrinkt",
+      "short": "Reparaturen und Haushaltsdienste sind an die Qualität der Wohnung gebunden: Feuchtigkeit, Schimmel, der Boiler, Klimaanlagen, Elektrik, Sanitär, Handwerker und Hausregeln.",
+      "body": "Uruguayische Wohnungen können mehr Alltagsaufmerksamkeit erfordern, als ein Neuankömmling erwartet: Feuchtigkeit, Schimmel, Kälte im Winter, Boiler, Klimaanlagen, alte Elektrik, undichte Stellen, Fenster, Türen und gebäudeweite Regeln. Daher ist das Reparaturthema eng mit Miete und Kauf verbunden.\n\nFür einen Mieter ist es wichtig zu verstehen, was der Eigentümer repariert, was der Mieter macht, wer den Handwerker ruft und wer zahlt. Für einen Käufer — den Zustand im Voraus zu beurteilen: das Dach, humedad, instalaciones eléctricas, cañerías, Gemeinschaftskosten, Genehmigungen und mögliche Arbeiten im Gebäude.\n\nBei Handwerkern gilt die Regel der schriftlichen Konkretheit: was gemacht wird, das Material, der Preis, die Fristen, die Garantie, wer die Teile kauft und was als abgeschlossene Arbeit gilt."
+    }
+  },
+  "card.repairs_services_household.reference.ref_kontrol_kachestva_rabot": {
+    "ru_body_hash": "2985f3d5",
+    "en": {
+      "title": "Quality control of works: what to know",
+      "short": "Quality control of works: what to know.",
+      "body": "Quality control of works: what to know\n\nQuality control of works means before/after photos, a task list and checking the result before full payment.\n\nWhen it matters: repairs, a worker, furniture assembly, appliances.\n\nWhat to check: the acceptance, the warranty, the remaining payment, the materials and what to do if it breaks again."
+    },
+    "es": {
+      "title": "Control de calidad de los trabajos: lo que importa saber",
+      "short": "Control de calidad de los trabajos: lo que importa saber.",
+      "body": "Control de calidad de los trabajos: lo que importa saber\n\nEl control de calidad de los trabajos son fotos de antes/después, una lista de tareas y la revisión del resultado antes del pago completo.\n\nCuándo importa: reparaciones, un técnico, el montaje de muebles, electrodomésticos.\n\nQué revisar: la recepción, la garantía, el pago restante, los materiales y qué hacer si se rompe de nuevo."
+    },
+    "de": {
+      "title": "Qualitätskontrolle der Arbeiten: was man wissen muss",
+      "short": "Qualitätskontrolle der Arbeiten: was man wissen muss.",
+      "body": "Qualitätskontrolle der Arbeiten: was man wissen muss\n\nQualitätskontrolle der Arbeiten bedeutet Vorher-/Nachher-Fotos, eine Aufgabenliste und die Prüfung des Ergebnisses vor der vollständigen Zahlung.\n\nWann es wichtig ist: Reparaturen, ein Handwerker, Möbelmontage, Geräte.\n\nWas zu prüfen ist: die Abnahme, die Garantie, die Restzahlung, die Materialien und was zu tun ist, wenn es erneut kaputtgeht."
+    }
+  },
+  "card.repairs_services_household.reference.ref_mebel_i_tehnika": {
+    "ru_body_hash": "ee702371",
+    "en": {
+      "title": "Furniture and appliances: what to know",
+      "short": "Furniture and appliances: what to know.",
+      "body": "Furniture and appliances: what to know\n\nLong-term housing is often rented empty or partially furnished. Furniture and appliances can become a large start-up expense.\n\nWhen it matters: renting, moving, furnishing, repairs.\n\nWhat to check: what's included in the contract, the condition of the appliances, the warranty, delivery, assembly and who does the repairs."
+    },
+    "es": {
+      "title": "Muebles y electrodomésticos: lo que importa saber",
+      "short": "Muebles y electrodomésticos: lo que importa saber.",
+      "body": "Muebles y electrodomésticos: lo que importa saber\n\nLa vivienda a largo plazo suele alquilarse vacía o parcialmente amueblada. Los muebles y los electrodomésticos pueden convertirse en un gran gasto inicial.\n\nCuándo importa: alquilar, mudarse, amueblar, reparaciones.\n\nQué revisar: qué incluye el contrato, el estado de los electrodomésticos, la garantía, la entrega, el montaje y quién hace las reparaciones."
+    },
+    "de": {
+      "title": "Möbel und Geräte: was man wissen muss",
+      "short": "Möbel und Geräte: was man wissen muss.",
+      "body": "Möbel und Geräte: was man wissen muss\n\nLangzeitwohnungen werden oft leer oder teilmöbliert vermietet. Möbel und Geräte können zu einem großen Startkostenposten werden.\n\nWann es wichtig ist: Miete, Umzug, Einrichtung, Reparaturen.\n\nWas zu prüfen ist: was im Vertrag enthalten ist, den Zustand der Geräte, die Garantie, die Lieferung, die Montage und wer die Reparaturen macht."
+    }
+  },
+  "card.repairs_services_household.reference.ref_poisk_masterov": {
+    "ru_body_hash": "fca2a7ad",
+    "en": {
+      "title": "Finding workers: what to know",
+      "short": "Finding workers: what to know.",
+      "body": "Finding workers: what to know\n\nWorkers are best found through several recommendations and with a written description of the job. It's important to understand the price, materials, timing and warranty before the visit.\n\nWhen it matters: plumbing, wiring, air conditioner, water heater, furniture, minor repairs.\n\nWhat to check: photos of the problem, the estimate, who buys the materials, the warranty, the payment method and a review."
+    },
+    "es": {
+      "title": "Búsqueda de técnicos: lo que importa saber",
+      "short": "Búsqueda de técnicos: lo que importa saber.",
+      "body": "Búsqueda de técnicos: lo que importa saber\n\nLos técnicos conviene buscarlos mediante varias recomendaciones y con una descripción del trabajo por escrito. Es importante entender el precio, los materiales, el plazo y la garantía antes de la visita.\n\nCuándo importa: plomería, instalación eléctrica, aire acondicionado, calentador, muebles, reparaciones menores.\n\nQué revisar: fotos del problema, el presupuesto, quién compra los materiales, la garantía, el método de pago y una reseña."
+    },
+    "de": {
+      "title": "Handwerkersuche: was man wissen muss",
+      "short": "Handwerkersuche: was man wissen muss.",
+      "body": "Handwerkersuche: was man wissen muss\n\nHandwerker findet man am besten über mehrere Empfehlungen und mit einer schriftlichen Beschreibung der Arbeit. Es ist wichtig, Preis, Materialien, Frist und Garantie vor dem Besuch zu verstehen.\n\nWann es wichtig ist: Sanitär, Elektrik, Klimaanlage, Boiler, Möbel, kleine Reparaturen.\n\nWas zu prüfen ist: Fotos des Problems, den Kostenvoranschlag, wer die Materialien kauft, die Garantie, die Zahlungsweise und eine Bewertung."
+    }
+  },
+  "card.repairs_services_household.reference.ref_remont_v_arende": {
+    "ru_body_hash": "5894ea4d",
+    "en": {
+      "title": "Repairs in a rental: what to know",
+      "short": "Repairs in a rental: what to know.",
+      "body": "Repairs in a rental: what to know\n\nRepairs in a rental need to be agreed with the owner or the building administration. Otherwise it's easy to end up with a dispute over the deposit.\n\nWhen it matters: breakdowns, humidity, the water heater, the air conditioner, walls, furniture.\n\nWhat to check: who is responsible, who pays, whether you can change things, how the result is recorded and how it affects the deposit."
+    },
+    "es": {
+      "title": "Reparaciones en el alquiler: lo que importa saber",
+      "short": "Reparaciones en el alquiler: lo que importa saber.",
+      "body": "Reparaciones en el alquiler: lo que importa saber\n\nLas reparaciones en un alquiler hay que acordarlas con el propietario o la administración del edificio. De lo contrario es fácil acabar con una disputa por el depósito.\n\nCuándo importa: averías, humedad, el calentador, el aire acondicionado, paredes, muebles.\n\nQué revisar: quién es responsable, quién paga, si se pueden cambiar cosas, cómo se registra el resultado y cómo afecta al depósito."
+    },
+    "de": {
+      "title": "Reparaturen in der Miete: was man wissen muss",
+      "short": "Reparaturen in der Miete: was man wissen muss.",
+      "body": "Reparaturen in der Miete: was man wissen muss\n\nReparaturen in einer Miete müssen mit dem Eigentümer oder der Hausverwaltung abgestimmt werden. Sonst landet man leicht bei einem Streit über die Kaution.\n\nWann es wichtig ist: Defekte, Feuchtigkeit, der Boiler, die Klimaanlage, Wände, Möbel.\n\nWas zu prüfen ist: wer verantwortlich ist, wer zahlt, ob man Dinge ändern darf, wie das Ergebnis festgehalten wird und wie es die Kaution beeinflusst."
+    }
+  },
+  "card.repairs_services_household.reference.ref_vlazhnost_i_plesen": {
+    "ru_body_hash": "50ac62c9",
+    "en": {
+      "title": "Humidity and mold: what to know",
+      "short": "Humidity and mold: what to know.",
+      "body": "Humidity and mold: what to know\n\nHumidity and mold are a common everyday problem. They affect health, heating, belongings and costs, so they need checking before move-in.\n\nWhen it matters: renting, buying, children, allergies, the winter period.\n\nWhat to check: the smell, corners, the ceiling, windows, ventilation, the sun, the top floor and the history of leaks."
+    },
+    "es": {
+      "title": "Humedad y moho: lo que importa saber",
+      "short": "Humedad y moho: lo que importa saber.",
+      "body": "Humedad y moho: lo que importa saber\n\nLa humedad y el moho son un problema cotidiano frecuente. Afectan la salud, la calefacción, las cosas y los gastos, por eso hay que revisarlos antes de entrar.\n\nCuándo importa: alquilar, comprar, niños, alergias, el período de invierno.\n\nQué revisar: el olor, las esquinas, el techo, las ventanas, la ventilación, el sol, el último piso y el historial de filtraciones."
+    },
+    "de": {
+      "title": "Feuchtigkeit und Schimmel: was man wissen muss",
+      "short": "Feuchtigkeit und Schimmel: was man wissen muss.",
+      "body": "Feuchtigkeit und Schimmel: was man wissen muss\n\nFeuchtigkeit und Schimmel sind ein häufiges Alltagsproblem. Sie beeinflussen Gesundheit, Heizung, Habseligkeiten und Kosten, daher müssen sie vor dem Einzug geprüft werden.\n\nWann es wichtig ist: Miete, Kauf, Kinder, Allergien, die Winterzeit.\n\nWas zu prüfen ist: den Geruch, Ecken, die Decke, Fenster, Belüftung, die Sonne, das oberste Stockwerk und die Geschichte der undichten Stellen."
+    }
+  },
+  "card.repairs_services_household.warning.warning": {
+    "ru_body_hash": "ed6c1fd0",
+    "en": {
+      "title": "Mistakes with repairs and household services",
+      "short": "Repairs and household services are tied to the quality of the home: humidity, mold, the water heater, air conditioners, wiring, plumbing, workers and building rules.",
+      "body": "Mistakes: not photographing defects; agreeing to \"we'll fix it later\" without a date; paying the worker the full amount before the result; doing repairs in a rental without permission; treating mold as cosmetic.\n\nHumidity and leaks can be a systemic building problem. If the cause is in the roof, façade or pipes, a cosmetic repair won't solve it. The top floor and old buildings require an especially careful inspection.\n\nIf a repair involves safety — wiring, gas, water, the structure — don't skimp on qualification and a written agreement."
+    },
+    "es": {
+      "title": "Errores con reparaciones y servicios del hogar",
+      "short": "Las reparaciones y los servicios del hogar están ligados a la calidad de la vivienda: humedad, moho, el calentador, los aires acondicionados, la instalación eléctrica, la plomería, los técnicos y las reglas del edificio.",
+      "body": "Errores: no fotografiar los defectos; aceptar \"lo arreglamos después\" sin una fecha; pagar al técnico todo el monto antes del resultado; hacer reparaciones en un alquiler sin permiso; considerar el moho como algo cosmético.\n\nLa humedad y las filtraciones pueden ser un problema sistémico del edificio. Si la causa está en el techo, la fachada o las cañerías, una reparación cosmética no lo resolverá. El último piso y los edificios antiguos requieren una inspección especialmente cuidadosa.\n\nSi una reparación implica seguridad — instalación eléctrica, gas, agua, la estructura — no escatimes en la cualificación ni en un acuerdo por escrito."
+    },
+    "de": {
+      "title": "Fehler bei Reparaturen und Haushaltsdiensten",
+      "short": "Reparaturen und Haushaltsdienste sind an die Qualität der Wohnung gebunden: Feuchtigkeit, Schimmel, der Boiler, Klimaanlagen, Elektrik, Sanitär, Handwerker und Hausregeln.",
+      "body": "Fehler: Mängel nicht fotografieren; \"wir reparieren es später\" ohne Datum zustimmen; dem Handwerker den vollen Betrag vor dem Ergebnis zahlen; Reparaturen in einer Miete ohne Erlaubnis machen; Schimmel als kosmetisch betrachten.\n\nFeuchtigkeit und undichte Stellen können ein systemisches Gebäudeproblem sein. Liegt die Ursache im Dach, der Fassade oder den Rohren, löst eine kosmetische Reparatur es nicht. Das oberste Stockwerk und alte Gebäude erfordern eine besonders sorgfältige Inspektion.\n\nBetrifft eine Reparatur die Sicherheit — Elektrik, Gas, Wasser, die Struktur — spare nicht an Qualifikation und einer schriftlichen Vereinbarung."
+    }
+  },
   "card.residency_cedula_immigration.advice.advice": {
     "ru_body_hash": "43eb9994",
     "en": {
@@ -3111,6 +3741,384 @@
       "title": "Fehler beim Einkaufen und beim Zoll",
       "short": "Einkaufen in Uruguay bedeutet, lokale Geschäfte, MercadoLibre, Lieferung aus dem Ausland, Zolllimits und die realen Kosten nach Steuern zu vergleichen.",
       "body": "Man darf den internationalen Preis nicht als endgültig betrachten. Lieferung, Lagerung, Steuern, Abwicklung und Rücksendungen können die Wirtschaftlichkeit verändern. Man darf sich nicht auf ein altes Limit aus fremder Erfahrung verlassen: Zollregeln müssen am Bestelldatum geprüft werden.\n\nHäufige Fehler: eine falsche Artikelbeschreibung angeben, den Wert zu niedrig ansetzen, einen Artikel auf den Namen einer anderen Person bestellen, die Garantie vergessen, Elektronik ohne Kompatibilität kaufen, das Hochtragen von Möbeln in ein Gebäude ohne Aufzug nicht berücksichtigen, ein Medikament ohne Prüfung der Regeln bestellen.\n\nFür den Haushaltsstart ist eine Liste \"kritisch mitzubringen\" und \"später kaufbar\" besser, sonst werden die ersten Wochen zu teurem und chaotischem Einkaufen."
+    }
+  },
+  "card.taxes_accounting_empresa.advice.advice": {
+    "ru_body_hash": "eda37f01",
+    "en": {
+      "title": "Tips on empresa and taxes",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS and Fonasa aren't for everyone, but if income must be official, it's better not to decide without a contador.",
+      "body": "• Don't open an empresa \"just in case\": first understand the monthly payments, reporting and how to close it.\n• Before consulting a contador, prepare: who the client is, where they are, the income amount, the currency, the payment frequency, the type of service, where you physically work.\n• Separate the goals: proving income, working with a client, the bank, residency, tax optimization — these are different tasks.\n• Clarify DGI, BPS, Fonasa, electronic invoices, the payment calendar and liability for late payments.\n• Compare not only the taxes but the cost of administration: a unipersonal is usually simpler, a SAS is more complex and more expensive to maintain.\n• Keep all invoices, BPS/DGI payments, statements and the contador's letters: they'll be needed for the bank and migration."
+    },
+    "es": {
+      "title": "Consejos sobre empresa e impuestos",
+      "short": "La empresa, unipersonal, monotributo, SAS, DGI, BPS y Fonasa no son para todos, pero si el ingreso debe ser oficial, conviene no decidir sin un contador.",
+      "body": "• No abras una empresa \"por si acaso\": primero entiende los pagos mensuales, las declaraciones y cómo cerrarla.\n• Antes de consultar a un contador, prepara: quién es el cliente, dónde está, el monto del ingreso, la moneda, la frecuencia de pago, el tipo de servicio, dónde trabajas físicamente.\n• Separa los objetivos: comprobar ingresos, trabajar con un cliente, el banco, la residencia, la optimización fiscal — son tareas distintas.\n• Aclara DGI, BPS, Fonasa, las facturas electrónicas, el calendario de pagos y la responsabilidad por atrasos.\n• Compara no solo los impuestos, sino el coste de administración: una unipersonal suele ser más simple, una SAS es más compleja y más cara de mantener.\n• Guarda todas las facturas, los pagos de BPS/DGI, los extractos y las cartas del contador: harán falta para el banco y la migración."
+    },
+    "de": {
+      "title": "Tipps zu empresa und Steuern",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS und Fonasa sind nicht für jeden, aber wenn das Einkommen offiziell sein muss, entscheidet man besser nicht ohne einen contador.",
+      "body": "• Eröffne keine empresa \"für alle Fälle\": verstehe zuerst die monatlichen Zahlungen, die Berichte und wie man sie schließt.\n• Bereite vor der Beratung mit einem contador vor: wer der Kunde ist, wo er ist, den Einkommensbetrag, die Währung, die Zahlungshäufigkeit, die Art der Dienstleistung, wo du physisch arbeitest.\n• Trenne die Ziele: Einkommensnachweis, Arbeit mit einem Kunden, die Bank, Aufenthalt, Steueroptimierung — das sind verschiedene Aufgaben.\n• Kläre DGI, BPS, Fonasa, elektronische Rechnungen, den Zahlungskalender und die Haftung für verspätete Zahlungen.\n• Vergleiche nicht nur die Steuern, sondern die Verwaltungskosten: eine unipersonal ist meist einfacher, eine SAS komplexer und teurer im Unterhalt.\n• Bewahre alle Rechnungen, BPS/DGI-Zahlungen, Kontoauszüge und Briefe des contador auf: sie werden für die Bank und die Migration nötig sein."
+    }
+  },
+  "card.taxes_accounting_empresa.advice.kak_ispolzovat_empresa_dlya_podtverzhdeniya_dohoda": {
+    "ru_body_hash": "dd693d21",
+    "en": {
+      "title": "How to use an empresa to prove income",
+      "short": "An empresa helps only if income is genuinely formalized, passes through regularly and is confirmed by invoices, statements and payments.",
+      "body": "An empresa can help explain income for the bank, renting, an insurance guarantee or a migration procedure, but the registration itself doesn't prove earnings. You need the combination: a contract/client, electronic invoices, bank inflows, DGI/BPS payments, a certificado de ingresos or a contador's report.\n\nFor proving income, regularity matters: several months of invoices and inflows look better than a one-off transfer. If the client is foreign, keep the contract, the client's details and the payment purposes. If the money doesn't come to a Uruguayan account, discuss with the contador in advance which statements and documents will be convincing.\n\nDon't open an empresa retroactively as an \"explanation\" of old money. Banks and agencies look at the history, not just the current status."
+    },
+    "es": {
+      "title": "Cómo usar una empresa para comprobar ingresos",
+      "short": "Una empresa ayuda solo si el ingreso está realmente formalizado, pasa con regularidad y se confirma con facturas, extractos y pagos.",
+      "body": "Una empresa puede ayudar a explicar el ingreso para el banco, el alquiler, una garantía de seguro o un trámite migratorio, pero el registro en sí no prueba la ganancia. Hace falta la combinación: un contrato/cliente, facturas electrónicas, ingresos bancarios, pagos de DGI/BPS, un certificado de ingresos o un informe del contador.\n\nPara comprobar el ingreso, importa la regularidad: varios meses de facturas e ingresos se ven mejor que una transferencia única. Si el cliente es del exterior, guarda el contrato, los datos del cliente y los conceptos de pago. Si el dinero no llega a una cuenta uruguaya, discute con el contador de antemano qué extractos y documentos serán convincentes.\n\nNo abras una empresa de forma retroactiva como \"explicación\" de dinero antiguo. Los bancos y organismos miran el historial, no solo el estatus actual."
+    },
+    "de": {
+      "title": "Wie man eine empresa zum Einkommensnachweis nutzt",
+      "short": "Eine empresa hilft nur, wenn das Einkommen wirklich formalisiert ist, regelmäßig durchläuft und durch Rechnungen, Kontoauszüge und Zahlungen bestätigt wird.",
+      "body": "Eine empresa kann helfen, das Einkommen für die Bank, die Miete, eine Versicherungsgarantie oder ein Migrationsverfahren zu erklären, aber die Registrierung selbst beweist keinen Verdienst. Man braucht die Kombination: einen Vertrag/Kunden, elektronische Rechnungen, Bankeingänge, DGI/BPS-Zahlungen, ein certificado de ingresos oder einen Bericht des contador.\n\nFür den Einkommensnachweis zählt die Regelmäßigkeit: mehrere Monate Rechnungen und Eingänge sehen besser aus als eine einmalige Überweisung. Ist der Kunde ausländisch, bewahre den Vertrag, die Kundendaten und die Verwendungszwecke auf. Kommt das Geld nicht auf ein uruguayisches Konto, bespreche mit dem contador im Voraus, welche Kontoauszüge und Dokumente überzeugend sind.\n\nEröffne keine empresa rückwirkend als \"Erklärung\" für altes Geld. Banken und Behörden schauen auf die Historie, nicht nur auf den aktuellen Status."
+    }
+  },
+  "card.taxes_accounting_empresa.advice.sovety_pered_otkrytiem_empresa": {
+    "ru_body_hash": "a53d8e76",
+    "en": {
+      "title": "Top tips — taxes, accounting and empresa",
+      "short": "Top tips — taxes, accounting and empresa.",
+      "body": "Top tips — taxes, accounting and empresa\n\n• Don't open an empresa \"just in case\". First understand the goal: the bank, migration, a contract with a client, official invoices, proving income or optimizing the tax scheme.\n• Before registering, discuss with a contador the type of activity, the regime, DGI, BPS, Fonasa, facturación electrónica, recibos and the payment calendar.\n• Clarify what happens in months without income: some obligations may remain.\n• Separate personal and business inflows: it'll be easier to explain the money to the bank and the contador.\n• Ask right away how to close, suspend or change the empresa: ending the activity also has to be formalized.\n• If income comes from abroad, separately work through the client's country, the currency, the contract, the invoices and tax residency."
+    },
+    "es": {
+      "title": "Consejos principales — impuestos, contabilidad y empresa",
+      "short": "Consejos principales — impuestos, contabilidad y empresa.",
+      "body": "Consejos principales — impuestos, contabilidad y empresa\n\n• No abras una empresa \"por si acaso\". Primero entiende el objetivo: el banco, la migración, un contrato con un cliente, facturas oficiales, comprobar ingresos u optimizar el esquema fiscal.\n• Antes de registrar, discute con un contador el tipo de actividad, el régimen, DGI, BPS, Fonasa, facturación electrónica, recibos y el calendario de pagos.\n• Aclara qué pasa en los meses sin ingreso: parte de las obligaciones puede mantenerse.\n• Separa los ingresos personales y de negocio: al banco y al contador les será más fácil explicar el dinero.\n• Pregunta de entrada cómo cerrar, suspender o cambiar la empresa: el cese de la actividad también se formaliza.\n• Si el ingreso viene del exterior, analiza aparte el país del cliente, la moneda, el contrato, las facturas y la residencia fiscal."
+    },
+    "de": {
+      "title": "Wichtigste Tipps — Steuern, Buchhaltung und empresa",
+      "short": "Wichtigste Tipps — Steuern, Buchhaltung und empresa.",
+      "body": "Wichtigste Tipps — Steuern, Buchhaltung und empresa\n\n• Eröffne keine empresa \"für alle Fälle\". Verstehe zuerst das Ziel: die Bank, Migration, einen Vertrag mit einem Kunden, offizielle Rechnungen, den Einkommensnachweis oder die Optimierung des Steuerschemas.\n• Bespreche vor der Registrierung mit einem contador die Art der Tätigkeit, das Regime, DGI, BPS, Fonasa, facturación electrónica, recibos und den Zahlungskalender.\n• Kläre, was in Monaten ohne Einkommen passiert: ein Teil der Pflichten kann bestehen bleiben.\n• Trenne persönliche und geschäftliche Eingänge: der Bank und dem contador fällt es leichter, das Geld zu erklären.\n• Frage gleich, wie man die empresa schließt, aussetzt oder ändert: die Beendigung der Tätigkeit wird ebenfalls formalisiert.\n• Kommt das Einkommen aus dem Ausland, arbeite das Land des Kunden, die Währung, den Vertrag, die Rechnungen und die Steuerresidenz gesondert durch."
+    }
+  },
+  "card.taxes_accounting_empresa.checklist.checklist": {
+    "ru_body_hash": "3d1ec0a6",
+    "en": {
+      "title": "Checklist before opening an empresa",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS and Fonasa aren't for everyone, but if income must be official, it's better not to decide without a contador.",
+      "body": "Before registering, clarify:\n□ why the empresa is needed: income, the bank, residency, a contract, invoices;\n□ who pays: an individual/legal entity, Uruguay/abroad;\n□ the type of activity and the tax regime;\n□ whether monotributo suits you or a unipersonal/SAS is needed;\n□ what the monthly payments will be: DGI, BPS, Fonasa, contador;\n□ whether facturación electrónica is needed and who sets it up;\n□ how to issue invoices and receive payment;\n□ which documents are needed for the bank and a certificado de ingresos;\n□ how to close/suspend the activity if income stops;\n□ what risks there are for tax residency.\n\nAsk the contador for a written summary: the form, the regime, the payments, the deadlines and your obligations."
+    },
+    "es": {
+      "title": "Lista antes de abrir una empresa",
+      "short": "La empresa, unipersonal, monotributo, SAS, DGI, BPS y Fonasa no son para todos, pero si el ingreso debe ser oficial, conviene no decidir sin un contador.",
+      "body": "Antes de registrar, aclara:\n□ para qué hace falta la empresa: ingreso, el banco, residencia, un contrato, facturas;\n□ quién paga: una persona física/jurídica, Uruguay/exterior;\n□ el tipo de actividad y el régimen fiscal;\n□ si te sirve el monotributo o hace falta una unipersonal/SAS;\n□ cuáles serán los pagos mensuales: DGI, BPS, Fonasa, contador;\n□ si hace falta facturación electrónica y quién la configura;\n□ cómo emitir facturas y recibir el pago;\n□ qué documentos hacen falta para el banco y un certificado de ingresos;\n□ cómo cerrar/suspender la actividad si el ingreso se detiene;\n□ qué riesgos hay para la residencia fiscal.\n\nPide al contador un resumen por escrito: la forma, el régimen, los pagos, los plazos y tus obligaciones."
+    },
+    "de": {
+      "title": "Checkliste vor der Eröffnung einer empresa",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS und Fonasa sind nicht für jeden, aber wenn das Einkommen offiziell sein muss, entscheidet man besser nicht ohne einen contador.",
+      "body": "Kläre vor der Registrierung:\n□ wozu die empresa nötig ist: Einkommen, die Bank, Aufenthalt, ein Vertrag, Rechnungen;\n□ wer zahlt: eine natürliche/juristische Person, Uruguay/Ausland;\n□ die Art der Tätigkeit und das Steuerregime;\n□ ob monotributo zu dir passt oder eine unipersonal/SAS nötig ist;\n□ wie die monatlichen Zahlungen aussehen: DGI, BPS, Fonasa, contador;\n□ ob facturación electrónica nötig ist und wer sie einrichtet;\n□ wie man Rechnungen ausstellt und Zahlungen erhält;\n□ welche Dokumente für die Bank und ein certificado de ingresos nötig sind;\n□ wie man die Tätigkeit schließt/aussetzt, falls das Einkommen aufhört;\n□ welche Risiken für die Steuerresidenz bestehen.\n\nBitte den contador um eine schriftliche Zusammenfassung: die Form, das Regime, die Zahlungen, die Fristen und deine Pflichten."
+    }
+  },
+  "card.taxes_accounting_empresa.checklist.cheklist_voprosov_k_contador_po_empresa": {
+    "ru_body_hash": "8a9cf072",
+    "en": {
+      "title": "Checklist — taxes, accounting and empresa",
+      "short": "A checklist of questions for the contador about the empresa.",
+      "body": "A checklist of questions for the contador about the empresa\n\n☐ which regime suits my type of activity and clients;\n☐ what payments there will be every month even without income;\n☐ how DGI, BPS and Fonasa are calculated;\n☐ whether facturación electrónica is needed and how to issue invoices;\n☐ which documents will prove income for the bank, renting and migration;\n☐ what to do if the client is abroad and pays in another currency;\n☐ how to keep recibos, invoices, statements and tax declarations;\n☐ how much the bookkeeping costs and what's included in the contador's services;\n☐ how to close or change the empresa if income stops;\n☐ what risks there are for tax residency."
+    },
+    "es": {
+      "title": "Lista — impuestos, contabilidad y empresa",
+      "short": "Una lista de preguntas para el contador sobre la empresa.",
+      "body": "Una lista de preguntas para el contador sobre la empresa\n\n☐ qué régimen sirve para mi tipo de actividad y clientes;\n☐ qué pagos habrá cada mes incluso sin ingreso;\n☐ cómo se calculan DGI, BPS y Fonasa;\n☐ si hace falta facturación electrónica y cómo emitir facturas;\n☐ qué documentos comprobarán el ingreso para el banco, el alquiler y la migración;\n☐ qué hacer si el cliente está en el exterior y paga en otra moneda;\n☐ cómo guardar recibos, facturas, extractos y declaraciones de impuestos;\n☐ cuánto cuesta la gestión y qué incluyen los servicios del contador;\n☐ cómo cerrar o cambiar la empresa si el ingreso se detiene;\n☐ qué riesgos hay para la residencia fiscal."
+    },
+    "de": {
+      "title": "Checkliste — Steuern, Buchhaltung und empresa",
+      "short": "Eine Checkliste mit Fragen an den contador zur empresa.",
+      "body": "Eine Checkliste mit Fragen an den contador zur empresa\n\n☐ welches Regime zu meiner Art der Tätigkeit und meinen Kunden passt;\n☐ welche Zahlungen es jeden Monat auch ohne Einkommen geben wird;\n☐ wie DGI, BPS und Fonasa berechnet werden;\n☐ ob facturación electrónica nötig ist und wie man Rechnungen ausstellt;\n☐ welche Dokumente das Einkommen für die Bank, die Miete und die Migration nachweisen;\n☐ was zu tun ist, wenn der Kunde im Ausland ist und in einer anderen Währung zahlt;\n☐ wie man recibos, Rechnungen, Kontoauszüge und Steuererklärungen aufbewahrt;\n☐ wie viel die Buchführung kostet und was in den Leistungen des contador enthalten ist;\n☐ wie man die empresa schließt oder ändert, falls das Einkommen aufhört;\n☐ welche Risiken für die Steuerresidenz bestehen."
+    }
+  },
+  "card.taxes_accounting_empresa.community_experience.community_experience": {
+    "ru_body_hash": "9eea9444",
+    "en": {
+      "title": "Practical experience with unipersonal, monotributo and SAS",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS and Fonasa aren't for everyone, but if income must be official, it's better not to decide without a contador.",
+      "body": "Experience is mixed: some people consider registering an empresa necessary for proving income, the bank and residency; some live on foreign income without local activity while there's no practical need; some open a unipersonal after a consultation, when income needs to be made clear for Uruguay.\n\nFrom the discussions it's clear that the main source of confusion is different consultations on IT, IRPF/IRAE, monotributo, BPS and the applicability of benefits. Sometimes two contadores give different conclusions, so for large income or a complex structure it's useful to get a second opinion.\n\nThe general impression: a unipersonal is often seen as the faster and clearer option, a SAS as more complex and expensive to administer, but sometimes more suitable by tax logic. Monotributo doesn't suit all types of services and clients."
+    },
+    "es": {
+      "title": "Experiencia práctica con unipersonal, monotributo y SAS",
+      "short": "La empresa, unipersonal, monotributo, SAS, DGI, BPS y Fonasa no son para todos, pero si el ingreso debe ser oficial, conviene no decidir sin un contador.",
+      "body": "La experiencia es dispar: algunas personas consideran el registro de una empresa necesario para comprobar ingresos, el banco y la residencia; otras viven de ingresos del exterior sin actividad local mientras no haya una necesidad práctica; otras abren una unipersonal tras una consulta, cuando el ingreso hay que hacerlo claro para Uruguay.\n\nPor las discusiones se ve que la principal fuente de confusión son las distintas consultas sobre TI, IRPF/IRAE, monotributo, BPS y la aplicabilidad de los beneficios. A veces dos contadores dan conclusiones distintas, por eso para un ingreso grande o una estructura compleja conviene obtener una segunda opinión.\n\nLa impresión general: una unipersonal suele verse como la opción más rápida y clara, una SAS como más compleja y cara de administrar, pero a veces más adecuada por la lógica fiscal. El monotributo no sirve para todos los tipos de servicios y clientes."
+    },
+    "de": {
+      "title": "Praktische Erfahrung mit unipersonal, monotributo und SAS",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS und Fonasa sind nicht für jeden, aber wenn das Einkommen offiziell sein muss, entscheidet man besser nicht ohne einen contador.",
+      "body": "Die Erfahrung ist uneinheitlich: manche halten die Registrierung einer empresa für nötig zum Einkommensnachweis, für die Bank und den Aufenthalt; manche leben von ausländischem Einkommen ohne lokale Tätigkeit, solange kein praktischer Bedarf besteht; manche eröffnen eine unipersonal nach einer Beratung, wenn das Einkommen für Uruguay klar gemacht werden muss.\n\nAus den Diskussionen wird deutlich, dass die Hauptquelle der Verwirrung unterschiedliche Beratungen zu IT, IRPF/IRAE, monotributo, BPS und der Anwendbarkeit von Vergünstigungen sind. Manchmal geben zwei contadores unterschiedliche Schlussfolgerungen, daher ist es bei großem Einkommen oder einer komplexen Struktur nützlich, eine zweite Meinung einzuholen.\n\nDer allgemeine Eindruck: eine unipersonal gilt oft als die schnellere und klarere Option, eine SAS als komplexer und teurer in der Verwaltung, aber manchmal nach Steuerlogik geeigneter. Monotributo passt nicht zu allen Arten von Dienstleistungen und Kunden."
+    }
+  },
+  "card.taxes_accounting_empresa.community_experience.obschee_vpechatlenie_lyudey_ob_unipersonal_empresa": {
+    "ru_body_hash": "b7e4994e",
+    "en": {
+      "title": "Practical experience and opinions — taxes, accounting and empresa",
+      "short": "Practical experience and opinions — unipersonal / empresa.",
+      "body": "Practical experience and opinions — unipersonal / empresa\n\nPeople's experience is mixed. For some a unipersonal becomes a convenient way to legalize income, issue invoices, prove solvency at the bank, for renting or migration. For others it's an extra regular burden: BPS, Fonasa, the contador's services and reporting can be significant, especially if income is unstable.\n\nRecurring positions:\n• \"needed\" if there are regular clients, contracts, the bank or a migration goal;\n• \"not needed\" if there's no income, no clear goal and the monthly payments are unclear;\n• a contador is useful not only for opening but for choosing the regime, electronic invoices and closing;\n• helpers can accompany you, but a contador should explain the tax scheme.\n\nThe main conclusion: an empresa is a tool for a specific scenario, not a universal step for everyone."
+    },
+    "es": {
+      "title": "Experiencia práctica y opiniones — impuestos, contabilidad y empresa",
+      "short": "Experiencia práctica y opiniones — unipersonal / empresa.",
+      "body": "Experiencia práctica y opiniones — unipersonal / empresa\n\nLa experiencia de la gente es dispar. Para unos una unipersonal se vuelve una forma cómoda de legalizar el ingreso, emitir facturas, comprobar solvencia en el banco, para el alquiler o la migración. Para otros es una carga regular de más: BPS, Fonasa, los servicios del contador y las declaraciones pueden ser notables, sobre todo si el ingreso es inestable.\n\nPosiciones que se repiten:\n• \"hace falta\" si hay clientes regulares, contratos, el banco o un objetivo migratorio;\n• \"no hace falta\" si no hay ingreso, no hay objetivo claro y los pagos mensuales no están claros;\n• un contador es útil no solo para abrir, sino para elegir el régimen, las facturas electrónicas y el cierre;\n• los ayudantes pueden acompañar, pero el esquema fiscal lo debe explicar un contador.\n\nLa conclusión principal: una empresa es una herramienta para un escenario concreto, no un paso universal para todos."
+    },
+    "de": {
+      "title": "Praktische Erfahrung und Meinungen — Steuern, Buchhaltung und empresa",
+      "short": "Praktische Erfahrung und Meinungen — unipersonal / empresa.",
+      "body": "Praktische Erfahrung und Meinungen — unipersonal / empresa\n\nDie Erfahrung der Menschen ist uneinheitlich. Für manche wird eine unipersonal zu einer bequemen Art, Einkommen zu legalisieren, Rechnungen auszustellen, Zahlungsfähigkeit bei der Bank, für die Miete oder Migration nachzuweisen. Für andere ist es eine zusätzliche regelmäßige Belastung: BPS, Fonasa, die Leistungen des contador und die Berichte können spürbar sein, besonders wenn das Einkommen instabil ist.\n\nWiederkehrende Positionen:\n• \"nötig\", wenn es regelmäßige Kunden, Verträge, die Bank oder ein Migrationsziel gibt;\n• \"nicht nötig\", wenn es kein Einkommen, kein klares Ziel gibt und die monatlichen Zahlungen unklar sind;\n• ein contador ist nicht nur für die Eröffnung nützlich, sondern für die Wahl des Regimes, elektronische Rechnungen und die Schließung;\n• Helfer können begleiten, aber das Steuerschema sollte ein contador erklären.\n\nDie Hauptschlussfolgerung: eine empresa ist ein Werkzeug für ein bestimmtes Szenario, kein universeller Schritt für alle."
+    }
+  },
+  "card.taxes_accounting_empresa.instruction.chto_delat_posle_registracii_empresa_v_dgi_i_bps": {
+    "ru_body_hash": "613b57ad",
+    "en": {
+      "title": "What to do after registering an empresa with DGI and BPS",
+      "short": "After registration it's important to set up access, electronic invoices, a payment calendar, a document archive and control of obligations.",
+      "body": "After registering an empresa the work only begins. First — check that DGI and BPS have the correct data: the type of activity, the start date, the address, the regime, contacts and access. Second — set up facturación electrónica if you need to issue invoices to clients. Third — start a calendar of payments and declarations.\n\nAsk the contador: which amounts to pay and when, what to do with zero income, whether Fonasa is needed, how to issue an invoice in a foreign currency, how to keep confirmations and which reports are filed automatically and which require your action.\n\nIn practice it's useful to have folders: invoices, bank inflows, DGI, BPS, Fonasa, correspondence with the contador, the client's documents, contrato. These materials will be useful for the bank, renting, proof of income and migration procedures."
+    },
+    "es": {
+      "title": "Qué hacer tras registrar una empresa en DGI y BPS",
+      "short": "Tras el registro es importante configurar los accesos, las facturas electrónicas, el calendario de pagos, el archivo de documentos y el control de obligaciones.",
+      "body": "Tras registrar una empresa el trabajo recién empieza. Primero — comprueba que en DGI y BPS estén los datos correctos: el tipo de actividad, la fecha de inicio, el domicilio, el régimen, los contactos y los accesos. Segundo — configura la facturación electrónica si necesitas emitir facturas a los clientes. Tercero — arma un calendario de pagos y declaraciones.\n\nPregunta al contador: qué montos pagar y cuándo, qué hacer con ingreso cero, si hace falta Fonasa, cómo emitir una factura en moneda extranjera, cómo guardar los comprobantes y qué informes se presentan automáticamente y cuáles requieren tu acción.\n\nEn la práctica es útil tener carpetas: facturas, ingresos bancarios, DGI, BPS, Fonasa, correspondencia con el contador, los documentos del cliente, contrato. Estos materiales servirán para el banco, el alquiler, el comprobante de ingresos y los trámites migratorios."
+    },
+    "de": {
+      "title": "Was nach der Registrierung einer empresa bei DGI und BPS zu tun ist",
+      "short": "Nach der Registrierung ist es wichtig, Zugänge, elektronische Rechnungen, einen Zahlungskalender, ein Dokumentenarchiv und die Kontrolle der Pflichten einzurichten.",
+      "body": "Nach der Registrierung einer empresa beginnt die Arbeit erst. Erstens — prüfe, dass bei DGI und BPS die korrekten Daten stehen: die Art der Tätigkeit, das Startdatum, die Adresse, das Regime, Kontakte und Zugänge. Zweitens — richte facturación electrónica ein, wenn du Kunden Rechnungen ausstellen musst. Drittens — lege einen Kalender für Zahlungen und Erklärungen an.\n\nFrage den contador: welche Beträge wann zu zahlen sind, was bei null Einkommen zu tun ist, ob Fonasa nötig ist, wie man eine Rechnung in Fremdwährung ausstellt, wie man Bestätigungen aufbewahrt und welche Berichte automatisch eingereicht werden und welche dein Handeln erfordern.\n\nIn der Praxis ist es nützlich, Ordner zu haben: Rechnungen, Bankeingänge, DGI, BPS, Fonasa, Korrespondenz mit dem contador, die Dokumente des Kunden, contrato. Diese Materialien sind für die Bank, die Miete, den Einkommensnachweis und Migrationsverfahren nützlich."
+    }
+  },
+  "card.taxes_accounting_empresa.instruction.kak_otkryt_unipersonal_empresa_unipersonal": {
+    "ru_body_hash": "166d6fc6",
+    "en": {
+      "title": "How to open a unipersonal / empresa unipersonal",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS and Fonasa aren't for everyone, but if income must be official, it's better not to decide without a contador.",
+      "body": "1. Formulate the case: the type of service, the client, the client's country, the amount, the currency, the regularity, whether an invoice is needed, why the income is being formalized.\n2. Discuss the form and regime with a contador: unipersonal, monotributo or SAS; DGI/BPS; possible Fonasa; IRPF/IRAE; export of services; electronic invoices.\n3. Prepare the documents: passport/cédula or status, address, activity data, contacts, bank details, the contract with the client if any.\n4. Register the activity with DGI and BPS through the contador or yourself if you're confident in the procedure. Get the RUT/access and check that the type of activity is stated correctly.\n5. Set up facturación electrónica if you need it for invoices. Check the invoice format, currency, service description and client data.\n6. From the first month, keep a payment calendar: BPS, DGI, Fonasa, the contador's services, declarations. Even zero or irregular income may require action.\n7. Keep invoices, payment confirmations, statements and certificates. These documents are later used for the bank, renting, a certificado de ingresos and migration procedures."
+    },
+    "es": {
+      "title": "Cómo abrir una unipersonal / empresa unipersonal",
+      "short": "La empresa, unipersonal, monotributo, SAS, DGI, BPS y Fonasa no son para todos, pero si el ingreso debe ser oficial, conviene no decidir sin un contador.",
+      "body": "1. Formula el caso: el tipo de servicio, el cliente, el país del cliente, el monto, la moneda, la regularidad, si hace falta factura, por qué se formaliza el ingreso.\n2. Discute la forma y el régimen con un contador: unipersonal, monotributo o SAS; DGI/BPS; posible Fonasa; IRPF/IRAE; exportación de servicios; facturas electrónicas.\n3. Prepara los documentos: pasaporte/cédula o estatus, domicilio, datos de la actividad, contactos, datos bancarios, el contrato con el cliente si lo hay.\n4. Registra la actividad en DGI y BPS a través del contador o por tu cuenta si confías en el trámite. Obtén el RUT/los accesos y comprueba que el tipo de actividad esté indicado correctamente.\n5. Configura la facturación electrónica si la necesitas para las facturas. Comprueba el formato de la factura, la moneda, la descripción del servicio y los datos del cliente.\n6. Desde el primer mes, lleva un calendario de pagos: BPS, DGI, Fonasa, los servicios del contador, las declaraciones. Incluso un ingreso cero o irregular puede requerir acciones.\n7. Guarda las facturas, los comprobantes de pago, los extractos y los certificados. Estos documentos se usan luego para el banco, el alquiler, un certificado de ingresos y los trámites migratorios."
+    },
+    "de": {
+      "title": "Wie man eine unipersonal / empresa unipersonal eröffnet",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS und Fonasa sind nicht für jeden, aber wenn das Einkommen offiziell sein muss, entscheidet man besser nicht ohne einen contador.",
+      "body": "1. Formuliere den Fall: die Art der Dienstleistung, den Kunden, das Land des Kunden, den Betrag, die Währung, die Regelmäßigkeit, ob eine Rechnung nötig ist, warum das Einkommen formalisiert wird.\n2. Bespreche Form und Regime mit einem contador: unipersonal, monotributo oder SAS; DGI/BPS; mögliche Fonasa; IRPF/IRAE; Export von Dienstleistungen; elektronische Rechnungen.\n3. Bereite die Dokumente vor: Pass/cédula oder Status, Adresse, Tätigkeitsdaten, Kontakte, Bankdaten, den Vertrag mit dem Kunden, falls vorhanden.\n4. Registriere die Tätigkeit bei DGI und BPS über den contador oder selbst, wenn du dir des Verfahrens sicher bist. Hole die RUT/Zugänge und prüfe, dass die Art der Tätigkeit korrekt angegeben ist.\n5. Richte facturación electrónica ein, wenn du sie für Rechnungen brauchst. Prüfe das Rechnungsformat, die Währung, die Dienstleistungsbeschreibung und die Kundendaten.\n6. Führe ab dem ersten Monat einen Zahlungskalender: BPS, DGI, Fonasa, die Leistungen des contador, Erklärungen. Selbst null oder unregelmäßiges Einkommen kann Handlungen erfordern.\n7. Bewahre Rechnungen, Zahlungsbestätigungen, Kontoauszüge und Bescheinigungen auf. Diese Dokumente werden später für die Bank, die Miete, ein certificado de ingresos und Migrationsverfahren verwendet."
+    }
+  },
+  "card.taxes_accounting_empresa.instruction.kak_vybrat_mezhdu_unipersonal_monotributo_i_sas": {
+    "ru_body_hash": "3c2fbd31",
+    "en": {
+      "title": "How to choose between unipersonal, monotributo and SAS",
+      "short": "The business form depends on the client, the type of services, the amount, the tax regime, BPS/Fonasa and the cost of administration.",
+      "body": "Choosing the form starts not with the name but with the case. Answer the contador's questions: who the client is — an individual or a company; where the client is located; whether the service is local or export; the amount and regularity; whether an invoice is needed; where you physically work; whether you have employees; whether separate legal liability is needed.\n\nMonotributo can be a simple option for limited types of activity, but it doesn't suit all services and all clients. A unipersonal is usually faster and simpler to administer, but the taxation regime and contributions depend on the activity and income. A SAS is more complex and expensive to open/administer, but is sometimes more convenient for the business structure, risks and tax logic.\n\nAsk the contador to compare the options in a table: registration, monthly payments, BPS, Fonasa, DGI, electronic invoices, declarations, the cost of support, closing, applicability to your client and the consequences for the bank/residency."
+    },
+    "es": {
+      "title": "Cómo elegir entre unipersonal, monotributo y SAS",
+      "short": "La forma de actividad depende del cliente, el tipo de servicios, el monto, el régimen fiscal, BPS/Fonasa y el coste de administración.",
+      "body": "Elegir la forma empieza no con el nombre, sino con el caso. Responde a las preguntas del contador: quién es el cliente — una persona física o una empresa; dónde está el cliente; el servicio es local o de exportación; qué monto y regularidad; si hace falta factura; dónde trabajas físicamente; si hay empleados; si hace falta una responsabilidad jurídica separada.\n\nEl monotributo puede ser una opción simple para actividades limitadas, pero no sirve para todos los servicios ni todos los clientes. Una unipersonal suele ser más rápida y simple de administrar, pero el régimen de tributación y los aportes dependen de la actividad y el ingreso. Una SAS es más compleja y cara de abrir/administrar, pero a veces es más cómoda para la estructura del negocio, los riesgos y la lógica fiscal.\n\nPide al contador comparar las opciones en una tabla: registro, pagos mensuales, BPS, Fonasa, DGI, facturas electrónicas, declaraciones, el coste del acompañamiento, el cierre, la aplicabilidad a tu cliente y las consecuencias para el banco/la residencia."
+    },
+    "de": {
+      "title": "Wie man zwischen unipersonal, monotributo und SAS wählt",
+      "short": "Die Form der Tätigkeit hängt vom Kunden, der Art der Dienstleistungen, dem Betrag, dem Steuerregime, BPS/Fonasa und den Verwaltungskosten ab.",
+      "body": "Die Wahl der Form beginnt nicht mit dem Namen, sondern mit dem Fall. Beantworte die Fragen des contador: wer der Kunde ist — eine natürliche Person oder ein Unternehmen; wo der Kunde sitzt; ob die Dienstleistung lokal oder Export ist; welcher Betrag und welche Regelmäßigkeit; ob eine Rechnung nötig ist; wo du physisch arbeitest; ob du Mitarbeiter hast; ob eine separate rechtliche Haftung nötig ist.\n\nMonotributo kann eine einfache Option für begrenzte Tätigkeitsarten sein, passt aber nicht zu allen Dienstleistungen und allen Kunden. Eine unipersonal ist meist schneller und einfacher zu verwalten, aber das Besteuerungsregime und die Beiträge hängen von der Tätigkeit und dem Einkommen ab. Eine SAS ist komplexer und teurer zu eröffnen/verwalten, aber manchmal bequemer für die Geschäftsstruktur, die Risiken und die Steuerlogik.\n\nBitte den contador, die Optionen in einer Tabelle zu vergleichen: Registrierung, monatliche Zahlungen, BPS, Fonasa, DGI, elektronische Rechnungen, Erklärungen, die Kosten der Begleitung, die Schließung, die Anwendbarkeit auf deinen Kunden und die Folgen für Bank/Aufenthalt."
+    }
+  },
+  "card.taxes_accounting_empresa.overview.overview": {
+    "ru_body_hash": "35331c68",
+    "en": {
+      "title": "Taxes, accounting and empresa: what to know",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS and Fonasa aren't for everyone, but if income must be official, it's better not to decide without a contador.",
+      "body": "The empresa topic comes up for remote workers, freelancers, IT specialists, people with foreign clients and those who need to prove income for the bank, renting or residency. It's important to understand: opening an activity isn't just getting a piece of paper. Regular obligations to DGI/BPS appear, possible Fonasa, electronic invoices, reporting and consequences for tax residency.\n\nThe most commonly compared are unipersonal, monotributo and SAS. Each option has different limits, administration, taxes, contributions and applicability to working with legal entities/foreign clients. For IT and export services, people often discuss the IRPF/IRAE regimes, BPS, social contributions and how to arrange income so the bank and migration procedures accept it.\n\nThe main practical conclusion: first describe your case to a contador, then choose the form. The income, the client, the client's country, where the work is performed, the computer/equipment, the amount, the family and the purpose of registration can change the decision."
+    },
+    "es": {
+      "title": "Impuestos, contabilidad y empresa: lo que importa saber",
+      "short": "La empresa, unipersonal, monotributo, SAS, DGI, BPS y Fonasa no son para todos, pero si el ingreso debe ser oficial, conviene no decidir sin un contador.",
+      "body": "El tema de la empresa surge en trabajadores remotos, freelancers, especialistas de TI, personas con clientes del exterior y quienes necesitan comprobar ingresos para el banco, el alquiler o la residencia. Es importante entender: abrir una actividad no es solo obtener un papel. Aparecen obligaciones regulares ante DGI/BPS, posible Fonasa, facturas electrónicas, declaraciones y consecuencias para la residencia fiscal.\n\nLo que más se compara es unipersonal, monotributo y SAS. Cada opción tiene distintos límites, administración, impuestos, aportes y aplicabilidad al trabajo con personas jurídicas/clientes del exterior. Para TI y servicios de exportación se suelen discutir los regímenes IRPF/IRAE, BPS, aportes sociales y cómo gestionar el ingreso para que lo acepten el banco y los trámites migratorios.\n\nLa conclusión práctica principal: primero describe tu caso a un contador, luego elige la forma. El ingreso, el cliente, el país del cliente, dónde se realiza el trabajo, la computadora/el equipo, el monto, la familia y el objetivo del registro pueden cambiar la decisión."
+    },
+    "de": {
+      "title": "Steuern, Buchhaltung und empresa: was man wissen muss",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS und Fonasa sind nicht für jeden, aber wenn das Einkommen offiziell sein muss, entscheidet man besser nicht ohne einen contador.",
+      "body": "Das empresa-Thema kommt bei Remote-Arbeitern, Freelancern, IT-Spezialisten, Menschen mit ausländischen Kunden und jenen auf, die Einkommen für die Bank, die Miete oder den Aufenthalt nachweisen müssen. Wichtig zu verstehen: eine Tätigkeit zu eröffnen ist nicht nur ein Stück Papier zu bekommen. Es entstehen regelmäßige Pflichten gegenüber DGI/BPS, mögliche Fonasa, elektronische Rechnungen, Berichte und Folgen für die Steuerresidenz.\n\nAm häufigsten verglichen werden unipersonal, monotributo und SAS. Jede Option hat unterschiedliche Limits, Verwaltung, Steuern, Beiträge und Anwendbarkeit auf die Arbeit mit juristischen Personen/ausländischen Kunden. Für IT und Exportdienstleistungen bespricht man oft die IRPF/IRAE-Regime, BPS, Sozialbeiträge und wie man das Einkommen so gestaltet, dass Bank und Migrationsverfahren es akzeptieren.\n\nDie wichtigste praktische Schlussfolgerung: beschreibe zuerst deinen Fall einem contador, dann wähle die Form. Das Einkommen, der Kunde, das Land des Kunden, wo die Arbeit ausgeführt wird, der Computer/die Ausrüstung, der Betrag, die Familie und der Zweck der Registrierung können die Entscheidung ändern."
+    }
+  },
+  "card.taxes_accounting_empresa.reference.empresa": {
+    "ru_body_hash": "2b32e186",
+    "en": {
+      "title": "Cost, payments and obligations of an empresa",
+      "short": "Amounts depend on the form and regime, so it's important to count not only taxes but BPS/Fonasa, the contador and administration.",
+      "body": "When costing an empresa, account for several layers of expenses. One-off: the consultation, registration, possible contador/escribano services, setting up electronic invoicing. Regular: BPS, DGI, Fonasa where applicable, the contador's services, bank servicing, electronic invoicing, declarations and possible adjustments.\n\nAmounts change by regime and date, so a reference shouldn't fix a \"universal price\". Instead, ask the contador for a calculation for your case: unipersonal/monotributo/SAS, expected income, the client, the client's country, family, medical coverage, zero months and closing.\n\nA good calculation should answer the questions: how much to pay per month with income; how much at zero; which declarations; what happens with late payment; how much support costs; which documents you'll receive for the bank/renting/residency."
+    },
+    "es": {
+      "title": "Coste, pagos y obligaciones de una empresa",
+      "short": "Los montos dependen de la forma y el régimen, por eso es importante calcular no solo los impuestos, sino BPS/Fonasa, el contador y la administración.",
+      "body": "Al calcular una empresa, ten en cuenta varias capas de gastos. Únicos: la consulta, el registro, posibles servicios de contador/escribano, la configuración de la facturación electrónica. Regulares: BPS, DGI, Fonasa cuando aplique, los servicios del contador, el servicio bancario, la facturación electrónica, las declaraciones y posibles ajustes.\n\nLos montos cambian por régimen y fecha, por eso una referencia no debería fijar un \"precio universal\". En su lugar, pide al contador un cálculo para tu caso: unipersonal/monotributo/SAS, ingreso esperado, el cliente, el país del cliente, la familia, la cobertura médica, los meses en cero y el cierre.\n\nUn buen cálculo debe responder a las preguntas: cuánto pagar al mes con ingreso; cuánto en cero; qué declaraciones; qué pasa con un pago atrasado; cuánto cuesta el acompañamiento; qué documentos recibirás para el banco/alquiler/residencia."
+    },
+    "de": {
+      "title": "Kosten, Zahlungen und Pflichten einer empresa",
+      "short": "Die Beträge hängen von der Form und dem Regime ab, daher ist es wichtig, nicht nur die Steuern, sondern BPS/Fonasa, den contador und die Verwaltung zu berechnen.",
+      "body": "Berücksichtige bei der Berechnung einer empresa mehrere Kostenebenen. Einmalig: die Beratung, die Registrierung, mögliche contador/escribano-Leistungen, die Einrichtung der elektronischen Rechnungsstellung. Regelmäßig: BPS, DGI, Fonasa, wo zutreffend, die Leistungen des contador, die Bankbedienung, die elektronische Rechnungsstellung, die Erklärungen und mögliche Anpassungen.\n\nDie Beträge ändern sich nach Regime und Datum, daher sollte eine Referenz keinen \"universellen Preis\" festschreiben. Bitte stattdessen den contador um eine Berechnung für deinen Fall: unipersonal/monotributo/SAS, erwartetes Einkommen, den Kunden, das Land des Kunden, die Familie, die medizinische Deckung, Nullmonate und die Schließung.\n\nEine gute Berechnung sollte die Fragen beantworten: wie viel pro Monat bei Einkommen zu zahlen ist; wie viel bei null; welche Erklärungen; was bei verspäteter Zahlung passiert; wie viel die Begleitung kostet; welche Dokumente du für Bank/Miete/Aufenthalt erhältst."
+    }
+  },
+  "card.taxes_accounting_empresa.reference.ref_contador": {
+    "ru_body_hash": "38925838",
+    "en": {
+      "title": "Contador: what to know",
+      "short": "Contador: what to know.",
+      "body": "Contador: what to know\n\nA contador is needed not just to \"file the form\". Their job is to explain the tax scheme, the monthly obligations, BPS/Fonasa, facturación electrónica, the documents for the bank/renting/migration and the consequences of closing.\n\nBefore choosing a contador, ask:\n• whether they work with foreign income and remote clients;\n• which regime they propose and why;\n• how much opening and monthly bookkeeping cost;\n• which documents you'll receive: recibos, declaraciones, certificado de ingresos;\n• who reminds you of payments and deadlines;\n• how closing or changing the empresa is handled.\n\nA good contador should explain the risks in advance, not just register."
+    },
+    "es": {
+      "title": "Contador: lo que importa saber",
+      "short": "Contador: lo que importa saber.",
+      "body": "Contador: lo que importa saber\n\nUn contador no hace falta solo para \"presentar la forma\". Su tarea es explicar el esquema fiscal, las obligaciones mensuales, BPS/Fonasa, la facturación electrónica, los documentos para el banco/alquiler/migración y las consecuencias del cierre.\n\nAntes de elegir un contador, pregunta:\n• si trabaja con ingresos del exterior y clientes remotos;\n• qué régimen propone y por qué;\n• cuánto cuesta la apertura y la gestión mensual;\n• qué documentos recibirás: recibos, declaraciones, certificado de ingresos;\n• quién recuerda los pagos y los plazos;\n• cómo se gestiona el cierre o el cambio de la empresa.\n\nUn buen contador debe explicar los riesgos de antemano, no solo registrar."
+    },
+    "de": {
+      "title": "Contador: was man wissen muss",
+      "short": "Contador: was man wissen muss.",
+      "body": "Contador: was man wissen muss\n\nEin contador ist nicht nur nötig, um \"das Formular einzureichen\". Seine Aufgabe ist es, das Steuerschema, die monatlichen Pflichten, BPS/Fonasa, facturación electrónica, die Dokumente für Bank/Miete/Migration und die Folgen der Schließung zu erklären.\n\nFrage vor der Wahl eines contador:\n• ob er mit ausländischem Einkommen und Remote-Kunden arbeitet;\n• welches Regime er vorschlägt und warum;\n• wie viel die Eröffnung und die monatliche Buchführung kosten;\n• welche Dokumente du erhältst: recibos, declaraciones, certificado de ingresos;\n• wer an Zahlungen und Fristen erinnert;\n• wie die Schließung oder Änderung der empresa abgewickelt wird.\n\nEin guter contador sollte die Risiken im Voraus erklären, nicht nur registrieren."
+    }
+  },
+  "card.taxes_accounting_empresa.reference.ref_dgi_i_bps": {
+    "ru_body_hash": "c000d95b",
+    "en": {
+      "title": "DGI and BPS: what to know",
+      "short": "DGI and BPS: what to know.",
+      "body": "DGI and BPS: what to know\n\nDGI is the tax part, BPS is social contributions and related obligations. With an empresa it's important to understand both blocks: registration, the type of activity, payments, reporting, facturación electrónica and the link to Fonasa.\n\nWhat to clarify with a contador:\n• which registrations you specifically need;\n• which payments are mandatory every month;\n• what depends on income, family and the regime;\n• how to issue invoices and keep recibos;\n• what to do when there's no income;\n• how to close or change the activity.\n\nA mistake in DGI/BPS can cost regular unnecessary payments."
+    },
+    "es": {
+      "title": "DGI y BPS: lo que importa saber",
+      "short": "DGI y BPS: lo que importa saber.",
+      "body": "DGI y BPS: lo que importa saber\n\nDGI es la parte tributaria, BPS son los aportes sociales y las obligaciones relacionadas. Con una empresa es importante entender ambos bloques: el registro, el tipo de actividad, los pagos, las declaraciones, la facturación electrónica y el vínculo con Fonasa.\n\nQué aclarar con un contador:\n• qué registros necesitas exactamente;\n• qué pagos son obligatorios cada mes;\n• qué depende del ingreso, la familia y el régimen;\n• cómo emitir facturas y guardar recibos;\n• qué hacer cuando no hay ingreso;\n• cómo cerrar o cambiar la actividad.\n\nUn error en DGI/BPS puede costar pagos regulares innecesarios."
+    },
+    "de": {
+      "title": "DGI und BPS: was man wissen muss",
+      "short": "DGI und BPS: was man wissen muss.",
+      "body": "DGI und BPS: was man wissen muss\n\nDGI ist der Steuerteil, BPS sind die Sozialbeiträge und die damit verbundenen Pflichten. Bei einer empresa ist es wichtig, beide Blöcke zu verstehen: Registrierung, die Art der Tätigkeit, Zahlungen, Berichte, facturación electrónica und die Verbindung zu Fonasa.\n\nWas mit einem contador zu klären ist:\n• welche Registrierungen du genau brauchst;\n• welche Zahlungen jeden Monat verpflichtend sind;\n• was vom Einkommen, der Familie und dem Regime abhängt;\n• wie man Rechnungen ausstellt und recibos aufbewahrt;\n• was zu tun ist, wenn es kein Einkommen gibt;\n• wie man die Tätigkeit schließt oder ändert.\n\nEin Fehler bei DGI/BPS kann regelmäßige unnötige Zahlungen kosten."
+    }
+  },
+  "card.taxes_accounting_empresa.reference.ref_nalogovye_rezhimy": {
+    "ru_body_hash": "f524d89b",
+    "en": {
+      "title": "Tax regimes: what to know",
+      "short": "Tax regimes: what to know.",
+      "body": "Tax regimes: what to know\n\nUnipersonal, monotributo, SAS and other options differ by type of activity, limits, clients, taxes, BPS/Fonasa, reporting and how the bank perceives them. The \"cheapest\" regime doesn't always suit proving income or foreign clients.\n\nWhat to compare:\n• who your clients are — individuals, companies, Uruguay or abroad;\n• the expected turnover and regularity of income;\n• whether invoices and electronic invoicing are needed;\n• which payments are fixed and which depend on income;\n• whether the regime will be accepted by the bank/renting/migration.\n\nThe regime choice is best made with a contador before registering."
+    },
+    "es": {
+      "title": "Regímenes fiscales: lo que importa saber",
+      "short": "Regímenes fiscales: lo que importa saber.",
+      "body": "Regímenes fiscales: lo que importa saber\n\nUnipersonal, monotributo, SAS y otras opciones difieren por tipo de actividad, límites, clientes, impuestos, BPS/Fonasa, declaraciones y cómo los percibe el banco. El régimen \"más barato\" no siempre sirve para comprobar ingresos o para clientes del exterior.\n\nQué comparar:\n• quiénes son tus clientes — personas físicas, empresas, Uruguay o el exterior;\n• la facturación esperada y la regularidad del ingreso;\n• si hacen falta facturas y facturación electrónica;\n• qué pagos son fijos y cuáles dependen del ingreso;\n• si el régimen será aceptado por el banco/alquiler/migración.\n\nLa elección del régimen conviene hacerla con un contador antes de registrar."
+    },
+    "de": {
+      "title": "Steuerregime: was man wissen muss",
+      "short": "Steuerregime: was man wissen muss.",
+      "body": "Steuerregime: was man wissen muss\n\nUnipersonal, monotributo, SAS und andere Optionen unterscheiden sich nach Art der Tätigkeit, Limits, Kunden, Steuern, BPS/Fonasa, Berichten und der Wahrnehmung durch die Bank. Das \"günstigste\" Regime passt nicht immer zum Einkommensnachweis oder zu ausländischen Kunden.\n\nWas zu vergleichen ist:\n• wer deine Kunden sind — natürliche Personen, Unternehmen, Uruguay oder Ausland;\n• der erwartete Umsatz und die Regelmäßigkeit des Einkommens;\n• ob Rechnungen und elektronische Rechnungsstellung nötig sind;\n• welche Zahlungen fest sind und welche vom Einkommen abhängen;\n• ob das Regime von Bank/Miete/Migration akzeptiert wird.\n\nDie Regimewahl trifft man am besten mit einem contador vor der Registrierung."
+    }
+  },
+  "card.taxes_accounting_empresa.reference.ref_otkrytie_unipersonal_empresa": {
+    "ru_body_hash": "a8d6cee0",
+    "en": {
+      "title": "Opening a unipersonal/empresa: what to know",
+      "short": "Opening a unipersonal/empresa: what to know.",
+      "body": "Opening a unipersonal/empresa: what to know\n\nOpening an empresa is usually needed when income must be official: issuing invoices, receiving payment from a client, proving income to the bank, renting or migration. Before registering it's important to understand the type of activity, the clients, the currency, the regularity of income and the tax goal.\n\nUsually discussed with a contador:\n• which regime suits;\n• how to register with DGI and BPS;\n• whether facturación electrónica is needed;\n• what the BPS/Fonasa/DGI payments will be;\n• which documents later prove income;\n• how to close or change the empresa.\n\nDon't open an empresa without understanding the monthly obligations."
+    },
+    "es": {
+      "title": "Apertura de unipersonal/empresa: lo que importa saber",
+      "short": "Apertura de unipersonal/empresa: lo que importa saber.",
+      "body": "Apertura de unipersonal/empresa: lo que importa saber\n\nAbrir una empresa suele hacer falta cuando el ingreso debe ser oficial: emitir facturas, recibir el pago de un cliente, comprobar ingresos al banco, al alquiler o a la migración. Antes de registrar es importante entender el tipo de actividad, los clientes, la moneda, la regularidad del ingreso y el objetivo fiscal.\n\nNormalmente se discute con un contador:\n• qué régimen sirve;\n• cómo registrarse en DGI y BPS;\n• si hace falta facturación electrónica;\n• cuáles serán los pagos BPS/Fonasa/DGI;\n• qué documentos comprueban luego el ingreso;\n• cómo cerrar o cambiar la empresa.\n\nNo abras una empresa sin entender las obligaciones mensuales."
+    },
+    "de": {
+      "title": "Eröffnung einer unipersonal/empresa: was man wissen muss",
+      "short": "Eröffnung einer unipersonal/empresa: was man wissen muss.",
+      "body": "Eröffnung einer unipersonal/empresa: was man wissen muss\n\nEine empresa zu eröffnen ist meist nötig, wenn das Einkommen offiziell sein muss: Rechnungen ausstellen, Zahlung von einem Kunden erhalten, Einkommen gegenüber der Bank, der Miete oder der Migration nachweisen. Vor der Registrierung ist es wichtig, die Art der Tätigkeit, die Kunden, die Währung, die Regelmäßigkeit des Einkommens und das Steuerziel zu verstehen.\n\nÜblicherweise mit einem contador besprochen:\n• welches Regime passt;\n• wie man sich bei DGI und BPS registriert;\n• ob facturación electrónica nötig ist;\n• wie die BPS/Fonasa/DGI-Zahlungen aussehen;\n• welche Dokumente später das Einkommen nachweisen;\n• wie man die empresa schließt oder ändert.\n\nEröffne keine empresa, ohne die monatlichen Pflichten zu verstehen."
+    }
+  },
+  "card.taxes_accounting_empresa.reference.ref_recibo_i_podtverzhdenie_dohoda": {
+    "ru_body_hash": "e5dedf8c",
+    "en": {
+      "title": "Recibo and proof of income: what to know",
+      "short": "Recibo and proof of income: what to know.",
+      "body": "Recibo and proof of income: what to know\n\nA recibo, invoices, a certificado de ingresos, statements and tax declarations can be used as proof of income, but different situations accept different documents.\n\nFor the bank or renting, often important are:\n• the regularity of income;\n• the name matching across documents and on the account;\n• a clear payer and payment purpose;\n• the freshness of the documents;\n• the link between the empresa, invoices and inflows.\n\nHaving an empresa on its own isn't always enough: you need to show a real and documented money history."
+    },
+    "es": {
+      "title": "Recibo y comprobante de ingresos: lo que importa saber",
+      "short": "Recibo y comprobante de ingresos: lo que importa saber.",
+      "body": "Recibo y comprobante de ingresos: lo que importa saber\n\nUn recibo, las facturas, un certificado de ingresos, los extractos y las declaraciones de impuestos pueden usarse como prueba de ingreso, pero distintas situaciones aceptan distintos documentos.\n\nPara el banco o el alquiler, suelen ser importantes:\n• la regularidad del ingreso;\n• la coincidencia del nombre en los documentos y en la cuenta;\n• un pagador y un concepto de pago claros;\n• la vigencia de los documentos;\n• el vínculo entre la empresa, las facturas y los ingresos.\n\nTener una empresa por sí solo no siempre basta: hay que mostrar un historial de dinero real y documentado."
+    },
+    "de": {
+      "title": "Recibo und Einkommensnachweis: was man wissen muss",
+      "short": "Recibo und Einkommensnachweis: was man wissen muss.",
+      "body": "Recibo und Einkommensnachweis: was man wissen muss\n\nEin recibo, Rechnungen, ein certificado de ingresos, Kontoauszüge und Steuererklärungen können als Einkommensnachweis dienen, aber verschiedene Situationen akzeptieren verschiedene Dokumente.\n\nFür die Bank oder die Miete sind oft wichtig:\n• die Regelmäßigkeit des Einkommens;\n• die Übereinstimmung des Namens in den Dokumenten und auf dem Konto;\n• ein klarer Zahler und Verwendungszweck;\n• die Aktualität der Dokumente;\n• die Verbindung zwischen empresa, Rechnungen und Eingängen.\n\nEine empresa allein reicht nicht immer: man muss eine reale und dokumentierte Geldhistorie zeigen."
+    }
+  },
+  "card.taxes_accounting_empresa.reference.ref_zakrytie_izmeneniya": {
+    "ru_body_hash": "bdfcdd0b",
+    "en": {
+      "title": "Closing/changes: what to know",
+      "short": "Closing/changing an empresa: what to know.",
+      "body": "Closing/changing an empresa: what to know\n\nIf the activity has stopped, the clients, income or regime have changed, this needs to be formalized. You can't just stop using the empresa and assume the obligations have vanished.\n\nWhat to discuss with a contador:\n• whether you can close, suspend or change the regime;\n• which payments need to be closed;\n• whether DGI/BPS/Fonasa debts will remain;\n• which documents to keep for the bank and the tax history;\n• how the closure will affect proof of income and migration/banking plans.\n\nIt's worth knowing the exit plan even before opening the empresa."
+    },
+    "es": {
+      "title": "Cierre/cambios: lo que importa saber",
+      "short": "Cierre/cambios de la empresa: lo que importa saber.",
+      "body": "Cierre/cambios de la empresa: lo que importa saber\n\nSi la actividad se detuvo, cambiaron los clientes, el ingreso o el régimen, esto hay que formalizarlo. No se puede simplemente dejar de usar la empresa y suponer que las obligaciones desaparecieron.\n\nQué discutir con un contador:\n• si se puede cerrar, suspender o cambiar el régimen;\n• qué pagos hay que cerrar;\n• si quedarán deudas de DGI/BPS/Fonasa;\n• qué documentos guardar para el banco y el historial fiscal;\n• cómo el cierre afectará el comprobante de ingresos y los planes migratorios/bancarios.\n\nConviene conocer el plan de salida incluso antes de abrir la empresa."
+    },
+    "de": {
+      "title": "Schließung/Änderungen: was man wissen muss",
+      "short": "Schließung/Änderung der empresa: was man wissen muss.",
+      "body": "Schließung/Änderung der empresa: was man wissen muss\n\nHat die Tätigkeit aufgehört, haben sich Kunden, Einkommen oder Regime geändert, muss dies formalisiert werden. Man kann nicht einfach aufhören, die empresa zu nutzen, und annehmen, die Pflichten seien verschwunden.\n\nWas mit einem contador zu besprechen ist:\n• ob man schließen, aussetzen oder das Regime ändern kann;\n• welche Zahlungen abgeschlossen werden müssen;\n• ob DGI/BPS/Fonasa-Schulden bestehen bleiben;\n• welche Dokumente man für die Bank und die Steuerhistorie aufbewahrt;\n• wie sich die Schließung auf den Einkommensnachweis und Migrations-/Bankpläne auswirkt.\n\nDen Ausstiegsplan sollte man schon vor der Eröffnung der empresa kennen."
+    }
+  },
+  "card.taxes_accounting_empresa.warning.chego_luchshe_ne_delat_s_empresa": {
+    "ru_body_hash": "381b27b5",
+    "en": {
+      "title": "What's better not to do with an empresa",
+      "short": "What's better not to do with an empresa.",
+      "body": "What's better not to do with an empresa\n\n• Don't open an empresa without calculating the monthly DGI/BPS/Fonasa obligations and the contador's cost.\n• Don't choose the regime just on an acquaintance's advice: monotributo, unipersonal, SAS and other schemes suit different activities and turnovers.\n• Don't issue invoices or receive money so that the activity description doesn't match reality.\n• Don't mix personal money, business inflows and third parties' funds.\n• Don't end the activity by \"silence\": closing, pausing or changing it requires formalization.\n• Don't use the empresa as the sole proof of income: the bank or migration may need recibos, statements, a contrato, a certificado de ingresos and a payment history."
+    },
+    "es": {
+      "title": "Qué es mejor no hacer con una empresa",
+      "short": "Qué es mejor no hacer con una empresa.",
+      "body": "Qué es mejor no hacer con una empresa\n\n• No abrir una empresa sin calcular las obligaciones mensuales de DGI/BPS/Fonasa y el coste del contador.\n• No elegir el régimen solo por el consejo de un conocido: monotributo, unipersonal, SAS y otros esquemas sirven para distintas actividades y volúmenes.\n• No emitir facturas ni recibir dinero de modo que la descripción de la actividad no coincida con la realidad.\n• No mezclar dinero personal, ingresos de negocio y fondos de terceros.\n• No cesar la actividad por \"silencio\": el cierre, la pausa o el cambio requieren formalización.\n• No usar la empresa como única prueba de ingreso: el banco o la migración pueden necesitar recibos, extractos, un contrato, un certificado de ingresos y un historial de pagos."
+    },
+    "de": {
+      "title": "Was man mit einer empresa besser nicht tut",
+      "short": "Was man mit einer empresa besser nicht tut.",
+      "body": "Was man mit einer empresa besser nicht tut\n\n• Eröffne keine empresa, ohne die monatlichen DGI/BPS/Fonasa-Pflichten und die Kosten des contador zu berechnen.\n• Wähle das Regime nicht nur auf den Rat eines Bekannten: monotributo, unipersonal, SAS und andere Schemata passen zu unterschiedlichen Tätigkeiten und Umsätzen.\n• Stelle keine Rechnungen aus und erhalte kein Geld so, dass die Tätigkeitsbeschreibung nicht der Realität entspricht.\n• Vermische kein persönliches Geld, geschäftliche Eingänge und Mittel Dritter.\n• Beende die Tätigkeit nicht durch \"Schweigen\": Schließung, Pause oder Änderung erfordern eine Formalisierung.\n• Nutze die empresa nicht als alleinigen Einkommensnachweis: die Bank oder die Migration können recibos, Kontoauszüge, einen contrato, ein certificado de ingresos und eine Zahlungshistorie benötigen."
+    }
+  },
+  "card.taxes_accounting_empresa.warning.kogda_empresa_mozhet_byt_lishney_ili_riskovannoy": {
+    "ru_body_hash": "1bbb0c3a",
+    "en": {
+      "title": "When an empresa may be unnecessary or risky",
+      "short": "An empresa isn't for everyone: it adds payments, reporting and consequences if opened without a clear goal.",
+      "body": "An empresa may be unnecessary if you have no regular income, client, need to issue invoices or requirement from the bank/migration. An open activity creates obligations: payments, reporting, possible Fonasa, deadline control, the contador's services and proper closing.\n\nRisky cases: opening \"just in case\", forgetting to pay BPS/DGI, not understanding the tax regime, receiving money differently from what the contador described, mixing personal and business inflows, treating the empresa as a universal solution for residency.\n\nBefore registering, ask the contador a direct question: what happens if there's no income for 2–3 months, how much closing costs, what the penalties for lateness are, how it affects tax residency and the bank. If the goal is unclear, it's better to first get a consultation, not a registration."
+    },
+    "es": {
+      "title": "Cuándo una empresa puede ser innecesaria o riesgosa",
+      "short": "Una empresa no es para todos: añade pagos, declaraciones y consecuencias si se abre sin un objetivo claro.",
+      "body": "Una empresa puede ser innecesaria si no tienes ingreso regular, cliente, necesidad de emitir facturas o un requisito del banco/la migración. Una actividad abierta crea obligaciones: pagos, declaraciones, posible Fonasa, control de plazos, los servicios del contador y un cierre correcto.\n\nCasos riesgosos: abrir \"por si acaso\", olvidar pagar BPS/DGI, no entender el régimen fiscal, recibir dinero de forma distinta a la que describió el contador, mezclar ingresos personales y de negocio, considerar la empresa una solución universal para la residencia.\n\nAntes de registrar, hazle al contador una pregunta directa: qué pasa si no hay ingreso durante 2–3 meses, cuánto cuesta el cierre, cuáles son las multas por atraso, cómo afecta la residencia fiscal y el banco. Si el objetivo no está claro, conviene primero obtener una consulta, no un registro."
+    },
+    "de": {
+      "title": "Wann eine empresa unnötig oder riskant sein kann",
+      "short": "Eine empresa ist nicht für jeden: sie fügt Zahlungen, Berichte und Folgen hinzu, wenn sie ohne klares Ziel eröffnet wird.",
+      "body": "Eine empresa kann unnötig sein, wenn du kein regelmäßiges Einkommen, keinen Kunden, keine Notwendigkeit, Rechnungen auszustellen, oder keine Anforderung von Bank/Migration hast. Eine offene Tätigkeit schafft Pflichten: Zahlungen, Berichte, mögliche Fonasa, Fristenkontrolle, die Leistungen des contador und eine korrekte Schließung.\n\nRiskante Fälle: \"für alle Fälle\" eröffnen, BPS/DGI nicht zahlen, das Steuerregime nicht verstehen, Geld anders erhalten als vom contador beschrieben, persönliche und geschäftliche Eingänge vermischen, die empresa als universelle Lösung für den Aufenthalt betrachten.\n\nStelle dem contador vor der Registrierung eine direkte Frage: was passiert, wenn 2–3 Monate kein Einkommen da ist, wie viel die Schließung kostet, welche Strafen es für Verspätung gibt, wie es die Steuerresidenz und die Bank beeinflusst. Ist das Ziel unklar, holt man besser zuerst eine Beratung ein, keine Registrierung."
+    }
+  },
+  "card.taxes_accounting_empresa.warning.warning": {
+    "ru_body_hash": "feb72867",
+    "en": {
+      "title": "Mistakes in taxes and empresa",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS and Fonasa aren't for everyone, but if income must be official, it's better not to decide without a contador.",
+      "body": "A mistake is choosing the form by someone else's income amount or a single comment. The tax logic depends on the type of activity, the client, the place of work, the regime, equipment, the family situation and the purpose of registration.\n\nDon't confuse \"legalizing income\", \"optimizing taxes\", \"getting residency\" and \"opening a bank account\". An empresa can help, but it also creates payments, reporting and the risk of late filings. An activity opened and forgotten is a bad scenario.\n\nIf a contador promises \"it's all simple\", ask them to spell out: what is paid, when, who files the declarations, what happens with zero turnover, how to prove income and how much closing costs."
+    },
+    "es": {
+      "title": "Errores en impuestos y empresa",
+      "short": "La empresa, unipersonal, monotributo, SAS, DGI, BPS y Fonasa no son para todos, pero si el ingreso debe ser oficial, conviene no decidir sin un contador.",
+      "body": "Un error es elegir la forma por el monto de ingreso ajeno o un solo comentario. La lógica fiscal depende del tipo de actividad, el cliente, el lugar de trabajo, el régimen, el equipo, la situación familiar y el objetivo del registro.\n\nNo confundas \"legalizar el ingreso\", \"optimizar impuestos\", \"obtener la residencia\" y \"abrir una cuenta bancaria\". Una empresa puede ayudar, pero también crea pagos, declaraciones y el riesgo de atrasos. Una actividad abierta y olvidada es un mal escenario.\n\nSi un contador promete \"es todo simple\", pídele que detalle: qué se paga, cuándo, quién presenta las declaraciones, qué pasa con facturación cero, cómo comprobar el ingreso y cuánto cuesta el cierre."
+    },
+    "de": {
+      "title": "Fehler bei Steuern und empresa",
+      "short": "Empresa, unipersonal, monotributo, SAS, DGI, BPS und Fonasa sind nicht für jeden, aber wenn das Einkommen offiziell sein muss, entscheidet man besser nicht ohne einen contador.",
+      "body": "Ein Fehler ist, die Form nach dem fremden Einkommensbetrag oder einem einzelnen Kommentar zu wählen. Die Steuerlogik hängt von der Art der Tätigkeit, dem Kunden, dem Arbeitsort, dem Regime, der Ausrüstung, der Familiensituation und dem Zweck der Registrierung ab.\n\nVerwechsle nicht \"Einkommen legalisieren\", \"Steuern optimieren\", \"Aufenthalt bekommen\" und \"ein Bankkonto eröffnen\". Eine empresa kann helfen, schafft aber auch Zahlungen, Berichte und das Risiko verspäteter Einreichungen. Eine eröffnete und vergessene Tätigkeit ist ein schlechtes Szenario.\n\nVerspricht ein contador \"alles ist einfach\", bitte ihn, es aufzuschlüsseln: was gezahlt wird, wann, wer die Erklärungen einreicht, was bei null Umsatz passiert, wie man Einkommen nachweist und wie viel die Schließung kostet."
     }
   },
   "card.transport_driving_car.advice.advice": {

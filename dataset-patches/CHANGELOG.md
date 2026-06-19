@@ -21,4 +21,12 @@ re-apply on the next raw drop.
   - `card.real_estate_rent.advice.40` — "40 practical tips for renting housing": EN/ES/DE
     rewritten as the full 40-item list (previously a ~14-bullet paraphrase). Migrated here
     from an earlier in-place edit so it is now tracked/reproducible.
-  - _(remaining topics translated in batches — see git history)_
+  - **All 265 cards** (every topic) translated RU → EN/ES/DE (title/short/body), faithful to
+    the RU source, loanwords/proper nouns preserved (cédula, gastos comunes, escribano, DGI,
+    BPS, Fonasa, UTE/OSE/Antel, empresa, unipersonal, monotributo, SAS, etc.). `search_text`
+    re-derived per card from the translated fields.
+  - Result (verified live): still-collapsed EN/ES/DE bodies **192 → 0**; 265 distinct bodies
+    per locale (matches RU); 0 Cyrillic in EN/ES/DE; the former "reference: reference note"
+    titles now read e.g. "Finding housing: what to know" / "Búsqueda de vivienda…".
+  - No cards deleted — the apparent duplication was a translation artifact, not real
+    duplication (RU was always distinct). See `../docs/DATASET_DUPLICATION_REPORT.md`.
