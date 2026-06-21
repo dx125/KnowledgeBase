@@ -18,7 +18,12 @@
 //       "de": { ... }
 //     }
 //   }
-// Only en/es/de are overridden; RU is the editorial source of truth and untouched.
+// Normally only en/es/de are overridden; RU is the editorial source of truth.
+// As a narrow exception, an entry may carry an optional `ru` block (same
+// {title,short,body} shape) for a FORMATTING-ONLY fix of the RU source itself
+// (e.g. a numbered list the vendor flattened into run-on paragraphs). The
+// `ru_body_hash` drift guard still hashes the RAW upstream RU, so upstream
+// changes are still flagged; the `ru` block is applied after that check.
 // search_text for an overridden card is re-derived from its translated
 // title/short/body so per-language search keeps working without hand-written blobs.
 // =============================================================================
@@ -62,6 +67,25 @@ export function applyCardOverrides({ cards, locales, overridesPath, ruLocale = '
       if (fields.short != null && c.short_body_i18n_key) L.cards[c.short_body_i18n_key] = fields.short;
       if (fields.body != null && c.body_i18n_key) L.cards[c.body_i18n_key] = fields.body;
       // Re-derive search_text from the (now translated) fields.
+      if (c.search_i18n_key) {
+        const parts = [
+          c.title_i18n_key && L.cards[c.title_i18n_key],
+          c.short_body_i18n_key && L.cards[c.short_body_i18n_key],
+          c.body_i18n_key && L.cards[c.body_i18n_key],
+        ].filter(Boolean);
+        if (parts.length) L.cards[c.search_i18n_key] = parts.join(' \n ');
+      }
+      stats.applied++;
+      touched = true;
+    }
+    // Optional RU formatting-only override (applied after the drift check above,
+    // which intentionally still hashes the raw upstream RU for drift detection).
+    if (entry.ru) {
+      const L = (locales[ruLocale] = locales[ruLocale] ?? {});
+      L.cards = L.cards ?? {};
+      if (entry.ru.title != null && c.title_i18n_key) L.cards[c.title_i18n_key] = entry.ru.title;
+      if (entry.ru.short != null && c.short_body_i18n_key) L.cards[c.short_body_i18n_key] = entry.ru.short;
+      if (entry.ru.body != null && c.body_i18n_key) L.cards[c.body_i18n_key] = entry.ru.body;
       if (c.search_i18n_key) {
         const parts = [
           c.title_i18n_key && L.cards[c.title_i18n_key],

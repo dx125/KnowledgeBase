@@ -3,6 +3,18 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-21 — Fix formatting of the "40 practical tips" rent card
+
+`card.real_estate_rent.advice.40` listed its 40 tips run together ~10 to a paragraph (inline
+`1. … 2. … 3. …`) in **all four locales**, so it read as blocks of plain text rather than a list.
+Reformatted to a clean **one-tip-per-line numbered list** (40 lines) in ru/en/es/de.
+
+- EN/ES/DE: bodies rewritten in `card-overrides.json`.
+- RU: the raw source had the same problem, so `apply-overrides.mjs` gained a narrow optional
+  **`ru` block** for formatting-only fixes of the RU source. The `ru_body_hash` drift guard still
+  hashes the **raw upstream** RU (`04b7a0ff`), so a future upstream change is still flagged; the
+  `ru` reformat is applied after that check. Content is unchanged — only newlines were added.
+
 ## 2026-06-21 — Town guides for other frequently-mentioned towns (same model)
 
 Extended the place-guide layer beyond the three big cities with **10 town cards** for the other
