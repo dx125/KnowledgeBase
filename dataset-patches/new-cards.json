@@ -2957,5 +2957,199 @@
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: niedrig\n\nSalto ist eine der größten Binnenstädte, am Uruguay-Fluss an der argentinischen Grenze (gegenüber von Concordia), bekannt für ihre Thermalquellen (termas) — ihr wichtigstes Kurmerkmal. Das Klima ist heiß. Im Chat taucht sie als echte Wohnoption auf: man fragt, wie es dort \"mit Infrastruktur und Sicherheit\" sei, manche würden sie in Betracht ziehen (\"ich könnte sogar in Salto leben\") und suchen Bewohner dort. Preise und Leben sind erschwinglicher als in der Hauptstadt. Kein Ozean, dafür der Fluss, die Thermalquellen und ein ruhigeres provinzielles Tempo. Passt zu allen, die sich für das Leben in einer Binnenstadt mit Thermaltourismus interessieren und die Hitze vertragen.\n\nSchlagwörter: Binnenstadt, Thermalquellen, heißes Klima, Fluss, erschwinglich"
       }
     }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.overview.city_montevideo",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "overview",
+    "card_type": "public_overview",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "low",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.6,
+    "quality_score": 0.66,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.overview"
+    ],
+    "keyword_ids": [
+      "kw.curated.montevideo",
+      "kw.curated.gorod",
+      "kw.curated.rayon",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn",
+      "kw.curated.transport"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes"
+    ],
+    "entity_ids": [],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre",
+      "resource.entity.intendencia"
+    ],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.reference.ref_montevideo",
+      "card.locations_neighborhoods_living.reference.district_montevideo_pocitos",
+      "card.locations_neighborhoods_living.reference.district_montevideo_punta_carretas",
+      "card.locations_neighborhoods_living.reference.district_montevideo_carrasco",
+      "card.locations_neighborhoods_living.reference.district_montevideo_buceo",
+      "card.locations_neighborhoods_living.reference.district_montevideo_malvin",
+      "card.locations_neighborhoods_living.reference.district_montevideo_cordon",
+      "card.locations_neighborhoods_living.reference.district_montevideo_centro",
+      "card.locations_neighborhoods_living.reference.district_montevideo_parque_rodo",
+      "card.locations_neighborhoods_living.reference.district_montevideo_tres_cruces",
+      "card.locations_neighborhoods_living.reference.district_montevideo_prado",
+      "card.locations_neighborhoods_living.reference.district_montevideo_palermo",
+      "card.locations_neighborhoods_living.reference.district_montevideo_cerro",
+      "card.locations_neighborhoods_living.reference.district_montevideo_ciudad_vieja"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-21",
+    "district_meta": {
+      "id": "montevideo",
+      "city": "Montevideo",
+      "kind": "city_overview",
+      "districts": [
+        "montevideo.pocitos",
+        "montevideo.punta_carretas",
+        "montevideo.carrasco",
+        "montevideo.buceo",
+        "montevideo.malvin",
+        "montevideo.cordon",
+        "montevideo.centro",
+        "montevideo.parque_rodo",
+        "montevideo.tres_cruces",
+        "montevideo.prado",
+        "montevideo.palermo",
+        "montevideo.cerro",
+        "montevideo.ciudad_vieja"
+      ]
+    },
+    "text": {
+      "ru": {
+        "title": "Монтевидео: общий обзор города",
+        "short": "Столица и крупнейший город Уругвая с лучшей инфраструктурой страны; спокойный, тянется вдоль рамблы, сильно различается по районам.",
+        "body": "Монтевидео — столица и крупнейший город Уругвая; в столице и её пригородах живёт около половины населения страны, и именно сюда чаще всего переезжают ради инфраструктуры — банки, врачи, школы, офисы и общественный транспорт здесь лучшие в стране. Город растянут вдоль Ла-Платы, и его главная ось — рамбла, набережная длиной около 24 км; «не отходить от рамблы дальше пары кварталов» — местная присказка про безопасность. По ощущениям это спокойный и неторопливый город по сравнению с мегаполисами, но он сильно различается по кварталам: прибрежный восток (Поситос, Пунта-Карретас, Карраско, Бусео) — безопасный и престижный, а отдельные районы (Серро, Мальвин-Норте, Касабо, Ла-Теха) советуют избегать. Большинство русскоязычных селятся в Поситосе, Кордоне, Сентро и Пунта-Карретас. Климат влажный, городские пляжи для купания так себе, а состояние жилья очень разное — всё это проверяют по конкретному кварталу (см. карточки районов)."
+      },
+      "en": {
+        "title": "Montevideo: city overview",
+        "short": "Uruguay's capital and largest city with the country's best infrastructure; calm, stretched along the rambla, varies a lot by barrio.",
+        "body": "Montevideo is Uruguay's capital and largest city; about half the country's population lives in the capital and its metro area, and it is where most newcomers settle for the infrastructure — banks, doctors, schools, offices and public transport are the best in the country here. The city stretches along the Río de la Plata, and its main axis is the rambla, a waterfront promenade some 24 km long; \"don't go more than a couple of blocks from the rambla\" is local safety lore. It feels calm and unhurried compared with big metros, but it varies a lot by barrio: the coastal east (Pocitos, Punta Carretas, Carrasco, Buceo) is safe and prestigious, while a few areas (Cerro, Malvín Norte, Casabó, La Teja) are best avoided. Most Russian-speakers settle in Pocitos, Cordón, Centro and Punta Carretas. The climate is humid, the city beaches are mediocre for swimming, and housing condition varies widely — all of which you check by the specific barrio (see the district cards)."
+      },
+      "es": {
+        "title": "Montevideo: panorama general de la ciudad",
+        "short": "La capital y ciudad más grande de Uruguay, con la mejor infraestructura del país; tranquila, se extiende sobre la rambla, varía mucho por barrio.",
+        "body": "Montevideo es la capital y la ciudad más grande de Uruguay; cerca de la mitad de la población del país vive en la capital y su área metropolitana, y es donde se instala la mayoría de quienes llegan, por la infraestructura — bancos, médicos, colegios, oficinas y transporte público son los mejores del país acá. La ciudad se extiende sobre el Río de la Plata, y su eje principal es la rambla, una costanera de unos 24 km; \"no alejarse más de un par de cuadras de la rambla\" es un dicho local sobre seguridad. Se siente tranquila y pausada en comparación con las grandes metrópolis, pero varía mucho por barrio: el este costero (Pocitos, Punta Carretas, Carrasco, Buceo) es seguro y prestigioso, mientras que algunas zonas (Cerro, Malvín Norte, Casabó, La Teja) conviene evitarlas. La mayoría de los rusoparlantes se instala en Pocitos, Cordón, Centro y Punta Carretas. El clima es húmedo, las playas de la ciudad son mediocres para nadar y el estado de la vivienda varía mucho — todo eso se chequea por el barrio puntual (ver las tarjetas de barrios)."
+      },
+      "de": {
+        "title": "Montevideo: Überblick über die Stadt",
+        "short": "Uruguays Hauptstadt und größte Stadt mit der besten Infrastruktur des Landes; ruhig, erstreckt sich entlang der Rambla, stark je nach Viertel verschieden.",
+        "body": "Montevideo ist die Hauptstadt und größte Stadt Uruguays; etwa die Hälfte der Landesbevölkerung lebt in der Hauptstadt und ihrem Großraum, und hier lassen sich die meisten Zugezogenen wegen der Infrastruktur nieder — Banken, Ärzte, Schulen, Büros und öffentlicher Verkehr sind hier die besten des Landes. Die Stadt erstreckt sich am Río de la Plata, und ihre Hauptachse ist die Rambla, eine rund 24 km lange Uferpromenade; \"nicht weiter als ein paar Häuserblocks von der Rambla entfernen\" ist ein lokaler Sicherheits-Spruch. Sie wirkt ruhig und gemächlich im Vergleich zu großen Metropolen, variiert aber stark je nach Viertel: der küstennahe Osten (Pocitos, Punta Carretas, Carrasco, Buceo) ist sicher und prestigeträchtig, während einige Gegenden (Cerro, Malvín Norte, Casabó, La Teja) besser gemieden werden. Die meisten Russischsprachigen wohnen in Pocitos, Cordón, Centro und Punta Carretas. Das Klima ist feucht, die Stadtstrände sind zum Schwimmen mittelmäßig, und der Zustand der Wohnungen variiert stark — all das prüft man je nach konkretem Viertel (siehe die Viertel-Karten)."
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.overview.city_punta_del_este",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "overview",
+    "card_type": "public_overview",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "low",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.6,
+    "quality_score": 0.66,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.overview"
+    ],
+    "keyword_ids": [
+      "kw.curated.punta_del_este",
+      "kw.curated.punta",
+      "kw.curated.gorod",
+      "kw.curated.plyazh",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes"
+    ],
+    "entity_ids": [],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre",
+      "resource.entity.intendencia"
+    ],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.reference.ref_punta_del_este",
+      "card.locations_neighborhoods_living.reference.district_punta_del_este_peninsula",
+      "card.locations_neighborhoods_living.reference.district_punta_del_este_playa_mansa",
+      "card.locations_neighborhoods_living.reference.district_punta_del_este_playa_brava",
+      "card.locations_neighborhoods_living.reference.district_punta_del_este_la_barra",
+      "card.locations_neighborhoods_living.reference.district_punta_del_este_jose_ignacio",
+      "card.locations_neighborhoods_living.reference.town_punta_del_este_manantiales",
+      "card.locations_neighborhoods_living.reference.town_punta_del_este_punta_ballena",
+      "card.locations_neighborhoods_living.reference.district_maldonado_maldonado",
+      "card.locations_neighborhoods_living.reference.town_maldonado_san_carlos"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-21",
+    "district_meta": {
+      "id": "punta_del_este",
+      "city": "Punta del Este",
+      "kind": "city_overview",
+      "districts": [
+        "punta_del_este.peninsula",
+        "punta_del_este.playa_mansa",
+        "punta_del_este.playa_brava",
+        "punta_del_este.la_barra",
+        "punta_del_este.jose_ignacio",
+        "punta_del_este.manantiales",
+        "punta_del_este.punta_ballena",
+        "maldonado.maldonado",
+        "maldonado.san_carlos"
+      ]
+    },
+    "text": {
+      "ru": {
+        "title": "Пунта-дель-Эсте: общий обзор города",
+        "short": "Главный морской курорт Уругвая («уругвайское Монако»), очень сезонный: два берега, безопасно и дорого; для круглогодичной жизни выбирают соседний Мальдонадо.",
+        "body": "Пунта-дель-Эсте — главный морской курорт Уругвая с имиджем «курорта для людей с деньгами и вкусом», который часто сравнивают с Монако; летом сюда съезжаются аргентинцы и бразильцы. Жизнь здесь сильно сезонная: летом (декабрь–февраль) дорого и оживлённо, зимой спокойно, и часть сервисов работает иначе или закрывается. У города два побережья — спокойное Манса со стороны залива и мощное океанское Брава, — а в центре полуостров (Península) с башнями, портом и казино. Пунту считают очень безопасной («можно не думать о безопасности») и чистой, но цены премиальные, а для жизни вдоль корридора (Ла-Барра, Манантиалес, Хосе-Игнасио) обычно нужна машина. Многие, кто работает в Пунте, ради круглогодичной жизни и цен пониже селятся в соседнем Мальдонадо или Сан-Карлосе (см. карточки зон)."
+      },
+      "en": {
+        "title": "Punta del Este: city overview",
+        "short": "Uruguay's premier beach resort (the \"Uruguayan Monaco\"), strongly seasonal: two coasts, safe and expensive; for year-round living people pick neighbouring Maldonado.",
+        "body": "Punta del Este is Uruguay's premier beach resort, with the image of a \"resort for people with money and taste\" often compared to Monaco; in summer Argentines and Brazilians flock here. Life is strongly seasonal: summer (December–February) is expensive and lively, while winter is quiet and some services run differently or close. The city has two coasts — the calm Mansa on the bay side and the powerful ocean Brava — with the central Península of towers, the port and the casino. Punta is considered very safe (\"you can stop thinking about safety\") and clean, but prices are premium, and living along the corridor (La Barra, Manantiales, José Ignacio) usually needs a car. Many who work in Punta settle in neighbouring Maldonado or San Carlos for year-round living and lower prices (see the zone cards)."
+      },
+      "es": {
+        "title": "Punta del Este: panorama general de la ciudad",
+        "short": "El principal balneario de Uruguay (la \"Mónaco uruguaya\"), muy estacional: dos costas, seguro y caro; para vivir todo el año se elige la vecina Maldonado.",
+        "body": "Punta del Este es el principal balneario de Uruguay, con la imagen de un \"balneario para gente con dinero y buen gusto\", a menudo comparado con Mónaco; en verano llegan argentinos y brasileños. La vida es muy estacional: el verano (diciembre–febrero) es caro y animado, mientras que el invierno es tranquilo y algunos servicios funcionan distinto o cierran. La ciudad tiene dos costas — la calma Mansa del lado de la bahía y la potente Brava oceánica — con la Península central de torres, el puerto y el casino. Punta se considera muy segura (\"podés dejar de pensar en la seguridad\") y limpia, pero los precios son premium, y vivir a lo largo del corredor (La Barra, Manantiales, José Ignacio) suele requerir auto. Muchos que trabajan en Punta se instalan en la vecina Maldonado o en San Carlos para vivir todo el año y con precios más bajos (ver las tarjetas de zonas)."
+      },
+      "de": {
+        "title": "Punta del Este: Überblick über die Stadt",
+        "short": "Uruguays bedeutendstes Seebad (das \"uruguayische Monaco\"), stark saisonal: zwei Küsten, sicher und teuer; zum Ganzjahresleben wählt man das benachbarte Maldonado.",
+        "body": "Punta del Este ist das bedeutendste Seebad Uruguays, mit dem Image eines \"Seebads für Menschen mit Geld und Geschmack\", oft mit Monaco verglichen; im Sommer strömen Argentinier und Brasilianer hierher. Das Leben ist stark saisonal: der Sommer (Dezember–Februar) ist teuer und lebhaft, während der Winter ruhig ist und manche Dienstleistungen anders laufen oder schließen. Die Stadt hat zwei Küsten — die ruhige Mansa auf der Buchtseite und die kräftige ozeanische Brava — mit der zentralen Península aus Türmen, dem Hafen und dem Casino. Punta gilt als sehr sicher (\"man kann aufhören, an Sicherheit zu denken\") und sauber, aber die Preise sind premium, und das Leben entlang des Korridors (La Barra, Manantiales, José Ignacio) erfordert meist ein Auto. Viele, die in Punta arbeiten, lassen sich im benachbarten Maldonado oder in San Carlos nieder, um ganzjährig und günstiger zu wohnen (siehe die Zonen-Karten)."
+      }
+    }
   }
 ]

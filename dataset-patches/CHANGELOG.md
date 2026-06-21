@@ -3,6 +3,25 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-21 — City overview cards (Montevideo, Punta del Este)
+
+The cities that have district/zone breakdowns lacked a descriptive **general-info overview** — the
+existing `ref_montevideo` / `ref_punta_del_este` cards are short advisory templates ("what's
+important / what to check"), not a card that gives the reader the city's overall feel. Added 2
+`content_category: overview` cards (RU source + EN/ES/DE), 4–5 sentences each, grounded in the chat:
+
+- `card.locations_neighborhoods_living.overview.city_montevideo` — capital, ~half the country's
+  population, best infrastructure; calm, stretched along the ~24 km rambla; varies sharply by barrio
+  (safe coastal east vs the avoid-list), where Russian-speakers cluster, humid climate.
+- `card.locations_neighborhoods_living.overview.city_punta_del_este` — the "Uruguayan Monaco"
+  resort; strongly seasonal; two coasts (Mansa/Brava) + the Península; very safe but premium, with
+  Maldonado/San Carlos as the cheaper year-round alternative.
+
+Each links to its district/zone cards via `related_card_ids` and a `district_meta.districts` list
+(so an app can render the overview → drill into districts). `needs_review`. Dataset → **303 cards**
+(deployed v6.9). Piriápolis and the standalone towns already are their own general cards, so no
+extra overview was needed there.
+
 ## 2026-06-21 — Fix formatting of the "40 practical tips" rent card
 
 `card.real_estate_rent.advice.40` listed its 40 tips run together ~10 to a paragraph (inline
