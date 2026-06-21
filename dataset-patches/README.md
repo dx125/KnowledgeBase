@@ -48,6 +48,14 @@ Link ids (glossary/entity/resource/subtopic) that don't resolve to a master are 
 by deploy, so **reuse existing ids** to stay FK-safe. `applyNewCards()` skips any `card_id` that
 already exists in the raw dataset (never clobbers a real card).
 
+**Optional `district_meta`.** A card may carry a structured `district_meta` block (used by the
+per-place guides — Montevideo/PdE/Piriápolis districts plus standalone towns like Colonia, Salto,
+La Paloma) — `id` (`<city|region>.<place>`), `city`, `safety_level`,
+`infrastructure_level`, `price_level` (`high`/`medium`/`low`) and `tags`. `applyNewCards()` copies
+it verbatim onto the card for downstream use. The cards table has no JSONB column, so to keep the
+ratings **searchable today** the same facts are also folded into the card body (e.g.
+`Безопасность: высокая · Инфраструктура: высокая · Цены: высокие`), which feeds `search_text`.
+
 > **Shipping the corrections into a new raw version.** The corrections also exist as a baked
 > dataset version — `kb_dataset_uy_v6_6` (`6.6.0-decollapsed`), built by
 > `scripts/build-dataset-version.mjs`, which folds `card-overrides.json` into the locale files

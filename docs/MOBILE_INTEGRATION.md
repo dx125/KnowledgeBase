@@ -239,7 +239,109 @@ A `401` on a previously-working token means it expired → run the refresh flow 
 
 ---
 
-## 6. Security checklist
+## 6. Second feature: neighbourhood & town guides (`locations_neighborhoods_living`)
+
+The **`topic.locations_neighborhoods_living`** topic carries per-**place** guide cards — one card
+per Montevideo barrio (Pocitos, Punta Carretas, Carrasco, …), per Punta del Este / Maldonado zone
+(Península, Playa Mansa, La Barra, San Carlos, …), and per standalone town (Colonia, Atlántida,
+Salto, La Paloma, …), plus the older city-level overview cards. Each place card is
+`content_category = "reference"` and carries a **safety / infrastructure / price rating** and a
+short **tag list**, so an app can show a sortable/filterable "where to live" list.
+
+### 6.1 Fetch the place cards
+
+```
+GET {BASE}/topics/topic.locations_neighborhoods_living/cards?category=reference&locale=ru
+apikey: <anon key>
+Authorization: Bearer <access_token>
+```
+
+This returns every `reference` card in the topic. The **per-place** cards have a `card_id` of the
+form `card.locations_neighborhoods_living.reference.district_<…>` (a city's barrio/zone) or
+`…reference.town_<…>` (a standalone town); the remaining `reference` cards are city-wide overviews
+(`…reference.ref_montevideo`, `ref_punta_del_este`, `ref_syudad_de_la_kosta`,
+`ref_bezopasnost_i_infrastruktura`). Filter to the place cards client-side:
+
+```ts
+const places = data.cards.filter((c) =>
+  /\.(district|town)_/.test(c.card_id as string));
+```
+
+### 6.2 Where the ratings live (read this before parsing)
+
+The structured ratings + tags are authored as a machine block (`district_meta`:
+`{ id, city, safety_level, infrastructure_level, price_level, tags }`) in the dataset source
+(`dataset-patches/new-cards.json`). **The `cards` table has no JSON column, so the API does not
+return `district_meta` as separate fields.** To keep the facets usable today they are also **folded
+into the localized `body`**: the **first line** is the rating header and the **last line** is the
+tag list, both with locale-specific labels:
+
+```
+Безопасность: высокая · Инфраструктура: высокая · Цены: высокие
+
+Поситос — самый популярный район среди переехавших: …
+
+Теги: пляж, рамбла, экспаты, шопинг, семьи
+```
+
+Label sets per locale — header labels are **safety · infrastructure · price**, in that fixed order:
+
+| locale | safety / infra / price labels | values (high / medium / low) | tags label |
+|---|---|---|---|
+| `ru` | Безопасность / Инфраструктура / Цены | высокая·высокие / средняя·средние / низкая·низкие | Теги |
+| `en` | Safety / Infrastructure / Prices | high / medium / low | Tags |
+| `es` | Seguridad / Infraestructura / Precios | alta·altos / media·medios / baja·bajos | Etiquetas |
+| `de` | Sicherheit / Infrastruktur / Preise | hoch / mittel / niedrig | Schlagwörter |
+
+So the app **parses these two lines back into structured values**. Because the three ratings are
+always in the order safety → infrastructure → price, parse by position and normalize the value word
+to a `high|medium|low` token (works for every locale):
+
+```ts
+const LEVEL: Record<string, 'high' | 'medium' | 'low'> = {
+  высокая: 'high', высокие: 'high', high: 'high', alta: 'high', altos: 'high', hoch: 'high',
+  средняя: 'medium', средние: 'medium', medium: 'medium', media: 'medium', medios: 'medium', mittel: 'medium',
+  низкая: 'low', низкие: 'low', low: 'low', baja: 'low', bajos: 'low', niedrig: 'low',
+};
+
+export function parsePlace(card: { card_id: string; title: string; body: string }) {
+  const lines = card.body.split('\n').map((l) => l.trim()).filter(Boolean);
+  const header = lines[0] ?? '';
+  // "Label: value · Label: value · Label: value" → [safety, infra, price]
+  const [safety, infrastructure, price] = header
+    .split('·')
+    .map((seg) => LEVEL[(seg.split(':')[1] ?? '').trim().toLowerCase()] ?? null);
+  const tagLine = lines.find((l) => /^(Теги|Tags|Etiquetas|Schlagwörter)\s*:/.test(l));
+  const tags = tagLine ? tagLine.split(':').slice(1).join(':').split(',').map((t) => t.trim()).filter(Boolean) : [];
+  return { card_id: card.card_id, title: card.title, safety, infrastructure, price, tags };
+}
+```
+
+Use `card_id` as the stable key (it never changes); the human place/city name is in `title`. With
+the parsed `safety|infrastructure|price`, the app can sort (e.g. safest-first) or filter
+(e.g. `price === 'low'`) entirely on its own backend.
+
+> If you'd rather not parse text, the operator can promote `district_meta` to a real column +
+> RPC field in a future dataset release; until then the body is the contract and is locale-stable.
+
+### 6.3 Search by place name or facet
+
+`/search` covers the place cards too (the ratings header is part of each card's `search_text`):
+
+```
+GET {BASE}/search?q=Pocitos&topic=topic.locations_neighborhoods_living&locale=ru
+GET {BASE}/search?q=Безопасность:%20низкая&topic=topic.locations_neighborhoods_living&locale=ru
+```
+
+The first finds the Pocitos card; the second returns places whose **safety is low** (e.g. Cerro) —
+because the rating phrase is searchable. Use the localized phrase that matches `?locale=`.
+
+Otherwise these cards use the **same endpoints, auth and ordering** as the rent example — no new
+routes. `GET /cards/:cardId` returns the full card (incl. keywords/subtopics) for a detail screen.
+
+---
+
+## 7. Security checklist
 - The **anon key** is public; embedding it anywhere is fine. It alone cannot read data (→ 401).
 - The **service-account email+password** are secrets — keep them in the backend's secret store
   (env/secret manager), never in the mobile binary, repo, or logs.

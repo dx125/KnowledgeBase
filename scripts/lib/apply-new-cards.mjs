@@ -97,6 +97,10 @@ export function applyNewCards({ cards, locales, newCardsPath, today = new Date()
       version: e.version ?? 'dataset-patch',
       provenance: 'dataset-patches/new-cards.json',
     };
+    // Optional structured metadata block (e.g. per-district safety/infra/price
+    // ratings + tags) carried verbatim onto the card for downstream use. The
+    // same facts are also folded into the card body so they reach search_text.
+    if (e.district_meta) card.district_meta = e.district_meta;
     cards.push(card);
 
     for (const loc of LOCALES) {

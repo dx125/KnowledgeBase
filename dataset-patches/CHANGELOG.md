@@ -3,6 +3,56 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-21 — Town guides for other frequently-mentioned towns (same model)
+
+Extended the place-guide layer beyond the three big cities with **10 town cards** for the other
+livable, frequently-discussed towns, authored the same way (reference cards under
+`topic.locations_neighborhoods_living`, `district_meta` ratings folded into the searchable body,
+RU source + EN/ES/DE). `new-cards.json` → 36; dataset → **301 cards** (156 public+active).
+`card_id` prefix is `…reference.town_<region>_<name>`.
+
+- **Colonia del Sacramento** (296 mentions) — safe UNESCO town, the ferry hub to Buenos Aires.
+- **Atlántida / Costa de Oro** (78) — residential Canelones beach town, commuter reach of MVD.
+- **San Carlos** (66) — the cheaper working town next to Maldonado/Punta.
+- **Salto** (60) — interior river city, thermal springs, hot, affordable.
+- **Carmelo** (33) — riverside wineries + gated communities near Colonia.
+- **Minas** (32) — inland sierra town for nature-first living.
+- **Punta del Diablo** (15) & **La Paloma** (12) — wild Rocha east-coast surf/fishing villages.
+- **Manantiales** (9) & **Punta Ballena** (8) — distinctive upscale/scenic Punta-corridor zones.
+
+Town/region candidates were ranked by a one-pass scan of the chat; false-positive-heavy tokens
+were dropped (e.g. *durazno* = "peach", *mercedes* = car/street, *rivera* = Av. Rivera in MVD),
+and tourist-only / off-grid spots not really livable (Cabo Polonio, Pan de Azúcar) were left out.
+All 10 are `needs_review` / `staleness_risk: medium` (subjective community opinion).
+
+## 2026-06-21 — New topic: per-district guides (Montevideo / Punta del Este / Piriápolis)
+
+Added **20 district reference cards** under `topic.locations_neighborhoods_living`, taking
+`new-cards.json` to 26 and the dataset to **291 cards** (146 public+active). Each card carries a
+structured `district_meta` block (`id` as `<city>.<district>`, `city`, `safety_level`,
+`infrastructure_level`, `price_level` ∈ high/medium/low, plus repetitive `tags`) **and** folds the
+same ratings into the searchable body (RU: `Безопасность: … · Инфраструктура: … · Цены: …`), so the
+facets reach `search_text` regardless of DB schema. RU is the editorial source; EN/ES/DE authored
+alongside.
+
+- **Montevideo (13):** Pocitos, Punta Carretas, Carrasco, Buceo, Malvín (with the explicit
+  *avoid Malvín Norte* note), Cordón, Centro, Parque Rodó, Tres Cruces, Prado, Palermo,
+  Cerro (flagged *avoid / extra caution*, with Cerrito · Casabó · La Teja), Ciudad Vieja.
+- **Punta del Este / Maldonado (6):** Península, Playa Mansa, Playa Brava, La Barra,
+  José Ignacio, and **Maldonado city** (the affordable year-round city vs the seasonal resort).
+- **Piriápolis (1):** the quiet, safe, budget seaside town ~30 min from Punta.
+
+All grounded in the Telegram general chat
+(`Settle/tools/telegram-export/exports/general/messages.jsonl`, ~140 k messages) — ratings and
+"who lives there / vibe" synthesized from per-district mention/sentence mining (e.g. the recurring
+barrio-classification message, the wealth/safety voting-map, and explicit "avoid" lists). Subjective
+community opinion that shifts over time, so all 20 are `needs_review: true` /
+`staleness_risk: medium`.
+
+- **Infrastructure:** `scripts/lib/apply-new-cards.mjs` now carries an optional `district_meta`
+  block verbatim onto the card. No deploy-schema change (cards table has no JSONB column); the
+  facets are searchable via the folded body text and the location keyword_ids.
+
 ## 2026-06-19 — New editorial cards (batch 2): rent garantía + purchase costs
 
 Closed the remaining gaps from the rent/purchase/taxes content review. 3 more public cards
