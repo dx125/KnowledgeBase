@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "questions.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "questions"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "source_messages": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "method": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "question_id",
+          "answer_card_id",
+          "locales"
+        ],
+        "properties": {
+          "question_id": {
+            "type": "string"
+          },
+          "answer_card_id": {
+            "type": "string",
+            "description": "FK to a card_id; the answer lives there (no duplication)."
+          },
+          "topic_id": {
+            "type": "string"
+          },
+          "ask_frequency": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "locales": {
+            "type": "object",
+            "properties": {
+              "ru": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "en": {},
+              "es": {},
+              "de": {}
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

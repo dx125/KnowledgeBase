@@ -29,6 +29,7 @@ import pg from 'pg';
 import { applyCardOverrides } from './lib/apply-overrides.mjs';
 import { applyNewCards } from './lib/apply-new-cards.mjs';
 import { applyFaq } from './lib/apply-faq.mjs';
+import { applyQuestions } from './lib/apply-questions.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 loadEnv({ path: join(HERE, '..', '.env') }); // single project-root .env
@@ -103,15 +104,26 @@ if (fq.dupeTopics.length)
 if (fq.dupeCards.length)
   console.warn(`⚠ FAQ cards collide with existing card_id(s) — skipped: ${fq.dupeCards.length}`);
 if (fq.topics || fq.questions)
-  console.log(`Q&A: added ${fq.topics} FAQ topic(s) and ${fq.questions} question card(s).`);
+  console.log(`Q&A: added ${fq.topics} FAQ topic(s) and ${fq.questions} answer card(s).`);
 
-// Hash reflects raw input + our overrides + new cards + Q&A, so the version row tracks all.
+// Normalized questions layer: questions that REFERENCE answer-cards (no duplicated
+// answers) + ask_frequency. Built after faq so the answer cards exist to FK against.
+const QUESTIONS_PATH = join(HERE, '..', 'dataset-patches', 'questions.json');
+const questionsRaw = existsSync(QUESTIONS_PATH) ? readFileSync(QUESTIONS_PATH, 'utf-8') : '';
+const { questionRows, questionTrRows, stats: qstats } = applyQuestions({ cards, questionsPath: QUESTIONS_PATH });
+if (qstats.droppedNoCard.length)
+  console.warn(`⚠ ${qstats.droppedNoCard.length} question(s) dropped — answer_card_id not found.`);
+if (qstats.added)
+  console.log(`Questions: ${qstats.added} question(s) -> answer-cards (${questionTrRows.length} localized phrasing rows).`);
+
+// Hash reflects raw input + our overrides + new cards + Q&A + questions.
 const sourceHash = createHash('sha256')
   .update(
     FILES.map((f) => raw[f]).join('\n') +
       '\n@overrides\n' + overridesRaw +
       '\n@newcards\n' + newCardsRaw +
-      '\n@faq\n' + faqRaw,
+      '\n@faq\n' + faqRaw +
+      '\n@questions\n' + questionsRaw,
   )
   .digest('hex');
 
@@ -361,8 +373,10 @@ async function insertRows(client, table, columns, rows, chunk = 500) {
   }
 }
 
-// Children first, then parents.
+// Children first, then parents. questions/question_translations reference cards,
+// so they must be cleared before cards.
 const DELETE_ORDER = [
+  'question_translations', 'questions',
   'card_glossary_terms', 'card_entities', 'card_resources',
   'card_translations', 'card_keywords', 'card_subtopics', 'cards',
   'topic_translations', 'subtopic_translations', 'keyword_translations',
@@ -418,6 +432,11 @@ try {
   await insertRows(client, 'card_glossary_terms', ['card_id', 'term_id'], cardGlossaryRows);
   await insertRows(client, 'card_entities', ['card_id', 'entity_id'], cardEntityRows);
   await insertRows(client, 'card_resources', ['card_id', 'resource_id'], cardResourceRows);
+
+  // Normalized questions (reference answer-cards) + localized phrasings.
+  await insertRows(client, 'questions',
+    ['question_id', 'answer_card_id', 'topic_id', 'ask_frequency', 'status', 'visibility'], questionRows);
+  await insertRows(client, 'question_translations', ['question_id', 'locale', 'phrasings'], questionTrRows);
 
   await client.query(
     `insert into kb_data_versions (version_label, source_hash, topic_count, card_count, translation_count, notes)

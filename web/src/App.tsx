@@ -7,9 +7,11 @@ import {
   getTopicCards,
   isConfigured,
   isFaqTopic,
+  listQuestions,
   listTopics,
   searchCards,
   setDefaultLocale,
+  type QuestionRow,
   type SearchCard,
   type Topic,
   type TopicCard,
@@ -71,6 +73,8 @@ export default function App() {
 
   const [results, setResults] = useState<SearchCard[]>([]);
   const [topicCards, setTopicCards] = useState<TopicCard[]>([]);
+  const [faqTop, setFaqTop] = useState<QuestionRow[]>([]); // global most-asked (Q&A home)
+  const [faqTopicQs, setFaqTopicQs] = useState<QuestionRow[]>([]); // selected Q&A topic's questions
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [includeInternal, setIncludeInternal] = useState(false);
@@ -119,8 +123,10 @@ export default function App() {
   }, [globalQuery, locale, selectedTopic, user, includeInternal, faqCategory]);
 
   // --- Topic view: browse all cards, or search within the topic --------------
+  // In Q&A mode with no query, the dedicated most-asked effect above handles it.
   useEffect(() => {
     if (!isConfigured || !user || !selectedTopic) return;
+    if (isFaq && !topicQuery.trim()) return;
     const q = topicQuery.trim();
     let cancelled = false;
     setBusy(true);
@@ -165,10 +171,38 @@ export default function App() {
     };
   }, [selectedTopic, topicQuery, locale, user, includeInternal, faqCategory]);
 
+  // --- Q&A: global most-asked questions (Q&A home, no query) -----------------
+  useEffect(() => {
+    if (!isConfigured || !user || !isFaq || selectedTopic) return;
+    let cancelled = false;
+    listQuestions({ locale, limit: 20, includeInternal })
+      .then((qs) => !cancelled && setFaqTop(qs))
+      .catch(() => undefined);
+    return () => {
+      cancelled = true;
+    };
+  }, [isFaq, selectedTopic, locale, user, includeInternal]);
+
+  // --- Q&A: questions within the selected topic (ranked, no query) -----------
+  useEffect(() => {
+    if (!isConfigured || !user || !isFaq || !selectedTopic || topicQuery.trim()) return;
+    let cancelled = false;
+    setBusy(true);
+    setError(null);
+    listQuestions({ locale, topicId: selectedTopic.topic_id, limit: 200, includeInternal })
+      .then((qs) => !cancelled && setFaqTopicQs(qs))
+      .catch((e) => !cancelled && setError(String(e?.message ?? e)))
+      .finally(() => !cancelled && setBusy(false));
+    return () => {
+      cancelled = true;
+    };
+  }, [isFaq, selectedTopic, topicQuery, locale, user, includeInternal]);
+
   const openTopic = useCallback((topic: Topic) => {
     setSelectedTopic(topic);
     setTopicQuery('');
     setTopicCards([]);
+    setFaqTopicQs([]);
   }, []);
 
   const goHome = useCallback(() => {
@@ -183,6 +217,7 @@ export default function App() {
     setGlobalQuery('');
     setResults([]);
     setTopicCards([]);
+    setFaqTopicQs([]);
     setError(null);
   }, []);
 
@@ -195,6 +230,15 @@ export default function App() {
     body: c.body,
     needs_review: c.needs_review,
     topic_title: (c as SearchCard).topic_title ?? null,
+  });
+  // A ranked question resolves to its answer card; render question -> answer.
+  const questionToFaqView = (q: QuestionRow): FaqView => ({
+    card_id: q.answer_card_id,
+    title: q.question,
+    short_body: q.answer_short,
+    body: q.answer_body,
+    needs_review: true,
+    topic_title: q.topic_title,
   });
 
   if (!isConfigured) {
@@ -307,23 +351,35 @@ export default function App() {
             </div>
 
             {error && <ErrorBox locale={locale} message={error} />}
-            {busy ? (
-              <Spinner label={t(locale, 'loading')} />
-            ) : topicCards.length === 0 ? (
-              <EmptyState locale={locale} />
-            ) : isFaq ? (
-              <div className="grid gap-2.5">
-                {topicCards.map((c) => (
-                  <FaqItem key={c.card_id} card={toFaqView(c)} locale={locale} />
-                ))}
-              </div>
-            ) : (
-              <div className="grid gap-4">
-                {topicCards.map((c) => (
-                  <CardItem key={c.card_id} card={topicCardToView(c)} locale={locale} />
-                ))}
-              </div>
-            )}
+            {(() => {
+              // Q&A topic: ranked questions (no query) or faq search results (query).
+              const faqItems = isFaq
+                ? topicQuery.trim()
+                  ? topicCards.map(toFaqView)
+                  : faqTopicQs.map(questionToFaqView)
+                : null;
+              if (busy) return <Spinner label={t(locale, 'loading')} />;
+              if (isFaq) {
+                return faqItems!.length === 0 ? (
+                  <EmptyState locale={locale} />
+                ) : (
+                  <div className="grid gap-2.5">
+                    {faqItems!.map((c) => (
+                      <FaqItem key={c.card_id} card={c} locale={locale} />
+                    ))}
+                  </div>
+                );
+              }
+              return topicCards.length === 0 ? (
+                <EmptyState locale={locale} />
+              ) : (
+                <div className="grid gap-4">
+                  {topicCards.map((c) => (
+                    <CardItem key={c.card_id} card={topicCardToView(c)} locale={locale} />
+                  ))}
+                </div>
+              );
+            })()}
           </section>
         ) : (
           /* Home view ------------------------------------------------------ */
@@ -366,8 +422,18 @@ export default function App() {
               )
             ) : (
               <>
+                {isFaq && faqTop.length > 0 && (
+                  <section className="mb-8">
+                    <h2 className="mb-4 text-lg font-semibold text-slate-700">{t(locale, 'mostAsked')}</h2>
+                    <div className="grid gap-2.5">
+                      {faqTop.map((q) => (
+                        <FaqItem key={q.question_id} card={questionToFaqView(q)} locale={locale} />
+                      ))}
+                    </div>
+                  </section>
+                )}
                 <h2 className="mb-4 text-lg font-semibold text-slate-700">
-                  {t(locale, isFaq ? 'faqTopicsHeading' : 'topicsHeading')}
+                  {t(locale, isFaq ? 'browseByTopic' : 'topicsHeading')}
                 </h2>
                 {topicsLoading ? (
                   <Spinner label={t(locale, 'loading')} />

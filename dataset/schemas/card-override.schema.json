@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "card-overrides.json",
+  "type": "object",
+  "description": "Keyed by card_id.",
+  "additionalProperties": {
+    "type": "object",
+    "properties": {
+      "ru_body_hash": {
+        "type": "string"
+      },
+      "en": {
+        "type": "object",
+        "required": [
+          "title",
+          "short",
+          "body"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "short": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          }
+        }
+      },
+      "es": {
+        "type": "object",
+        "required": [
+          "title",
+          "short",
+          "body"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "short": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          }
+        }
+      },
+      "de": {
+        "type": "object",
+        "required": [
+          "title",
+          "short",
+          "body"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "short": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          }
+        }
+      },
+      "ru": {
+        "type": "object",
+        "description": "formatting-only RU override"
+      }
+    }
+  }
+}

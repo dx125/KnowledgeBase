@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "new-cards.json entry",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "card_id",
+      "topic_id",
+      "text"
+    ],
+    "properties": {
+      "card_id": {
+        "type": "string"
+      },
+      "topic_id": {
+        "type": "string"
+      },
+      "content_category": {
+        "type": "string"
+      },
+      "card_type": {
+        "type": "string"
+      },
+      "visibility": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "needs_review": {
+        "type": "boolean"
+      },
+      "staleness_risk": {
+        "type": "string"
+      },
+      "sensitivity_tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "keyword_ids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "related_card_ids": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "district_meta": {
+        "type": "object"
+      },
+      "service": {
+        "$ref": "service.schema.json"
+      },
+      "text": {
+        "type": "object",
+        "required": [
+          "ru"
+        ],
+        "properties": {
+          "ru": {
+            "type": "object",
+            "required": [
+              "title",
+              "short",
+              "body"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "short": {
+                "type": "string"
+              },
+              "body": {
+                "type": "string"
+              }
+            }
+          },
+          "en": {
+            "type": "object",
+            "required": [
+              "title",
+              "short",
+              "body"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "short": {
+                "type": "string"
+              },
+              "body": {
+                "type": "string"
+              }
+            }
+          },
+          "es": {
+            "type": "object",
+            "required": [
+              "title",
+              "short",
+              "body"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "short": {
+                "type": "string"
+              },
+              "body": {
+                "type": "string"
+              }
+            }
+          },
+          "de": {
+            "type": "object",
+            "required": [
+              "title",
+              "short",
+              "body"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "short": {
+                "type": "string"
+              },
+              "body": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "additionalProperties": true
+  }
+}

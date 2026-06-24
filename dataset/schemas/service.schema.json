@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "service block (regeneration intent)",
+  "type": "object",
+  "required": [
+    "source_intent",
+    "kind"
+  ],
+  "properties": {
+    "source_intent": {
+      "type": "string",
+      "description": "Non-localized: what the card answers / how to rebuild it."
+    },
+    "kind": {
+      "type": "string",
+      "enum": [
+        "faq_answer",
+        "faq_topic",
+        "reference",
+        "place_guide",
+        "city_overview"
+      ]
+    },
+    "evidence": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

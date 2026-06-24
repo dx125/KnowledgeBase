@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "claim_id",
+    "claim_type",
+    "topic_ids",
+    "primary_topic_id",
+    "subtopic_id",
+    "keyword_ids",
+    "text",
+    "supporting_clean_message_ids"
+  ],
+  "properties": {
+    "claim_id": {},
+    "claim_type": {},
+    "topic_ids": {},
+    "primary_topic_id": {},
+    "subtopic_id": {},
+    "keyword_ids": {},
+    "text": {},
+    "supporting_clean_message_ids": {}
+  },
+  "additionalProperties": true
+}

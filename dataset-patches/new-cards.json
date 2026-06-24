@@ -74,6 +74,11 @@
         "short": "Wann man in Uruguay steuerlich ansässig wird, was als Auslandseinkommen gilt und warum diese Grenze für Remote-Arbeitende wichtig ist.",
         "body": "Steuerliche Ansässigkeit ist nicht dasselbe wie die migrationsrechtliche Residenz oder die cédula. In der Regel wird man steuerlich ansässig, wenn man mehr als 183 Tage im Kalenderjahr in Uruguay verbringt, oder wenn der Mittelpunkt der Lebens- oder wirtschaftlichen Interessen hier liegt (Familie, Hauptwohnsitz, Geschäft), oder über Investitionswege (Immobilienkauf oder Investition in ein Unternehmen oberhalb einer festgelegten Schwelle). Die genauen Kriterien und Schwellen ändern sich — bestätige sie mit einem contador.\n\nUruguay unterscheidet Einkommen uruguayischer Quelle (Arbeit, Dienstleistungen und Vermögenswerte im Land) von Auslandseinkommen (ausländische Kunden, Dividenden, Zinsen, Miete im Ausland). Für neue Ansässige ist genau diese Grenze entscheidend: passives Auslandseinkommen kann unter eine Vorzugsregelung fallen, während Einkommen uruguayischer Quelle normal besteuert wird.\n\nEin besonderer Haken für Remote-Arbeitende: Arbeit, die physisch von uruguayischem Gebiet aus geleistet wird, kann als Einkommen uruguayischer Quelle gelten, selbst wenn der Kunde ausländisch ist. Bespricht deinen Fall daher vor dem Umzug und vor Geldtransfers mit einem contador: Art des Einkommens, Land des Kunden, wo die Arbeit geleistet wird und ob du eine lokale empresa brauchst."
       }
+    },
+    "service": {
+      "source_intent": "Tax residency and foreign income: what to know",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -146,6 +151,11 @@
         "short": "Eine Vergünstigung für neue Ansässige auf Auslandseinkommen: Wahl zwischen einer befristeten Befreiung und einem reduzierten Pauschalsatz. Prüfe die Zahlen stets mit der DGI.",
         "body": "Ein neuer uruguayischer Steueransässiger kann eine Vergünstigung auf ausländisches Kapitaleinkommen nutzen — vor allem ausländische Dividenden und Zinsen. In Chats wird dies „tax holiday“ («nalogovye kanikuly») genannt: Nach dem Umzug bleibt ein Teil des ausländischen passiven Einkommens für eine Zeit in Uruguay steuerfrei.\n\nMeist werden zwei Optionen beschrieben: (1) eine befristete vollständige Befreiung für mehrere Jahre — in Diskussionen werden unterschiedliche Zeiträume genannt (oft 5–10 Jahre, manchmal 11), danach wird das Einkommen steuerpflichtig; oder (2) von Anfang an einen reduzierten Pauschalsatz (genannt werden etwa 7–12%) unbefristet zu zahlen. Die genaue Dauer, der Satz und das Wahlrecht hängen vom Jahr der Ansässigkeit und der Einkommensart ab und haben sich im Lauf der Zeit geändert — prüfe die konkreten Zahlen stets mit einem contador und der DGI.\n\nWichtig: Die Vergünstigung gilt für ausländisches Kapitaleinkommen, nicht für jede Tätigkeit. Einkommen uruguayischer Quelle und aktive Arbeit aus Uruguay sind in der Regel nicht von den Steuerferien gedeckt. Die Regelung wird zu einem bestimmten Zeitpunkt gewählt und muss korrekt deklariert werden — bereite die Entscheidung daher im Voraus vor und nicht erst, nachdem das Geld eingetroffen ist."
       }
+    },
+    "service": {
+      "source_intent": "Tax holiday for new tax residents",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -222,6 +232,11 @@
         "short": "Häufige Irrtümer über „null Steuern“ und wie lokale Tätigkeit und eine empresa die Vergünstigung aushebeln.",
         "body": "Der größte Irrtum ist „ich habe die Steuerferien, also zahle ich gar keine Steuern“. Die Vergünstigung gilt vor allem für ausländisches passives Einkommen (Dividenden, Zinsen). Gehalt, Dienstleistungen und aus Uruguay geleistete Arbeit sowie jedes Einkommen uruguayischer Quelle werden in der Regel normal besteuert — unabhängig von den Steuerferien.\n\nWenn du eine unipersonal, monotributo oder SAS eröffnest und lokal tätig bist, übernimmst du laufende Pflichten gegenüber DGI und BPS (und möglicherweise Fonasa) — die Steuerferien decken das nicht ab. Mit anderen Worten: „eine empresa eröffnen, um Einkommen nachzuweisen“ und „Steuerferien auf Auslandseinkommen haben“ sind zwei verschiedene Dinge, die leicht verwechselt werden.\n\nWeitere Risiken: nicht alle Vermögenswerte qualifizieren (Derivate werden z. B. als Ausnahme genannt); jedes Familienmitglied wird separat beurteilt; die Wahl der Regelung ist an Fristen gebunden und erfordert eine Erklärung. Überweise keine großen Summen und eröffne keine Tätigkeit „vorsichtshalber“, bevor du eine schriftliche Beratung von einem contador hast, der mit Auslandseinkommen arbeitet."
       }
+    },
+    "service": {
+      "source_intent": "Tax holiday vs empresa: the pitfalls",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -302,6 +317,11 @@
         "short": "Welche Garantien ein langfristiger Mietvertrag verlangen kann, wie die Genehmigung läuft und was ohne Garantie zu tun ist.",
         "body": "Für einen langfristigen Mietvertrag verlangt der Eigentümer fast immer eine garantía — den Nachweis, dass die Miete gezahlt wird. Die meistdiskutierten Optionen:\n\n• Mietversicherung (seguro de alquiler): Porto Seguro, SURA, Mapfre und ähnliche. Das Unternehmen prüft Einkommen, Stabilität und Unterlagen und tritt gegen eine Prämie als Garant auf. Die Prämie ist eine separate Zahlung (ein Bruchteil einer Monatsmiete), und der Versicherer kann teilweise genehmigen oder nach eigenem Scoring ablehnen.\n• ANDA und ähnliche Einrichtungen — eine Mitgliedschaftsgarantie über einen Verband.\n• Eigentümergarantie (garantía de propietario): der Eigentümer einer anderen Immobilie in Uruguay bürgt.\n• Eine Kaution oder Vorauszahlung statt einer Garantie: der Eigentümer nimmt eine Kaution von mehreren Monaten. Das funktioniert, aber die Rückzahlungsbedingungen müssen schriftlich festgehalten werden.\n\nDie Genehmigung hängt meist vom Verhältnis Miete zu Einkommen ab: Versicherer wollen ein Einkommen deutlich über der Miete sehen (in Diskussionen wird ein Richtwert von etwa drei Monatsmieten genannt, aber der genaue Faktor und das Scoring unterscheiden sich je Unternehmen — kläre das ab). Bereite im Voraus vor: certificado de ingresos, Kontoauszüge, Vertrag oder Rechnungen, Nachweis einer empresa. Hängt das Geschäft von der Zusage des Versicherers ab, halte separat fest, was mit Reservierung und Provision bei einer Ablehnung passiert."
       }
+    },
+    "service": {
+      "source_intent": "Rental guarantee: types, providers and alternatives",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -376,6 +396,11 @@
         "short": "Woraus die einmaligen Kosten zusätzlich zum Preis bestehen und warum ein escribano Pflicht ist. Die Zahlen sind Richtwerte — pro Geschäft prüfen.",
         "body": "Zusätzlich zum Immobilienpreis löst der Kauf einmalige Kosten aus. Richtwerte aus den Diskussionen (die genauen Beträge mit einem escribano für dein Geschäft bestätigen):\n\n• ITP (impuesto a las transmisiones patrimoniales) — eine Übertragungssteuer von etwa 2% des Katasterwerts je Seite: Käufer und Verkäufer zahlen jeweils ihre 2%.\n• Notarhonorar (escribano) — etwa 3% des Preises plus IVA 22% auf das Honorar; hinzu kommen Pflichtabgaben (Montepío, Caja Notarial/Gremial) und Eintragungskosten.\n• Maklerprovision (inmobiliaria) — etwa 3% plus IVA, wenn der Kauf über einen Makler läuft.\n\nEs gibt eine Vergünstigung: Der Kauf einer ersten Wohnung unterhalb einer festgelegten Schwelle kann eine ITP-Befreiung erhalten — Schwelle und Bedingungen vorab klären. Neubau, Wiederverkauf und Kauf aus dem Rohbau (en pozo, oft über ein fideicomiso) werden getrennt kalkuliert und haben unterschiedliche Kosten und Risiken.\n\nKernpunkt: In Uruguay ist ein escribano Pflicht und schützt den Käufer — er prüft Eigentum, Schulden und Belastungen. Nimm deinen eigenen escribano, nicht nur den vom Verkäufer geschickten, und verlange vorab einen schriftlichen Kostenvoranschlag."
       }
+    },
+    "service": {
+      "source_intent": "Costs of buying property: ITP, escribano and commissions",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -448,6 +473,11 @@
         "short": "Warum ein Kauf und große Überweisungen eine origen-de-fondos-Prüfung auslösen und wie man sich vorbereitet.",
         "body": "Beim Immobilienkauf und bei großen Überweisungen in Uruguay wird fast immer nach der Mittelherkunft (origen de fondos) gefragt. Das betrifft sowohl die Bank, über die das Geld läuft, als auch den Notar, der das Geschäft abschließt. Ohne eine klare Geldspur können die Überweisung oder das Geschäft verzögert werden.\n\nWas man üblicherweise im Voraus vorbereitet: Kontoauszüge, Unterlagen zum Verkauf früherer Vermögenswerte (Immobilien, Anteile, Aktien), Einkommensverträge und Rechnungen, Steuerunterlagen, Sparnachweise. Je größer die Summe und je entfernter die Quelle, desto detaillierter sind die Compliance-Fragen.\n\nPraktische Schritte: Frage die konkrete Bank im Voraus, welche Unterlagen sie akzeptiert und wie schnell du auf Anfragen reagieren musst; bespreche die Struktur vor der Überweisung mit einem escribano und einem contador; stückle oder bewege große Summen nicht blind. Um Einkommen für das Geschäft, die Bank oder die Residenz nachzuweisen, brauchst du manchmal ein certificado de ingresos von einem escribano oder contador."
       }
+    },
+    "service": {
+      "source_intent": "Source of funds and the bank when buying property",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -532,6 +562,11 @@
         "short": "Küstennah, lebendig und gut versorgt — das Standardviertel der Russischsprachigen. Sicher bei normaler städtischer Vorsicht.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nPocitos ist das Viertel, das die meisten Zugezogenen wählen — die meisten \"durchschnittlichen\" Inserate der Community stammen von hier. Es liegt am Río de la Plata mit der Rambla-Promenade, dicht bebaut mit Geschäften und Supermärkten, einem beliebten Straßenmarkt (feria), privaten Kindergärten und Schulen, Fitnessstudios und Restaurants. Es gilt tagsüber und in der Regel nachts bei normaler Vorsicht als sicher: Einheimische raten, ein paar Häuserblocks an der Rambla zu bleiben und das Handy nicht offen zu zeigen — gelegentlich werden Handy-Diebstähle vom Moped und Apothekenüberfälle gemeldet. Miete und Immobilien gehören zu den teuersten der Stadt, ein paar Blocks landeinwärts (Pocitos Nuevo) kann es günstiger sein.\n\nSchlagwörter: Strand, Rambla, Expats, Einkaufen, Familien"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.pocitos: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -615,6 +650,11 @@
         "short": "Gepflegt, sicher und fußläufig, neben Pocitos — Shopping, Rambla, Parks. Premiumpreise.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nPunta Carretas gilt als das prestigeträchtigste der zentralen Viertel, direkt neben Pocitos. Es ist gepflegt, sauber und fußläufig: das Einkaufszentrum Punta Carretas Shopping, ein Fresh Market, die Rambla und Parks, der Leuchtturm. Es ist eine der sichersten und gepflegtesten Gegenden — ein Bewohner verglich es in puncto Sicherheit und Ordnung mit Zürich; man kann fast überall nachts spazieren. Eine lokale Eigenheit sind wiederkehrende Konflikte mit den Park-Einweisern (\"parqueros\") auf der Straße. Die Preise sind premium, auf dem Niveau von Pocitos. Gut für alle, die eine gepflegte, zentrale Basis am Meer wollen.\n\nSchlagwörter: gehoben, Rambla, Shopping, Parks, gepflegt"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.punta_carretas: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -698,6 +738,11 @@
         "short": "Grüne, flach bebaute \"clase alta\"-Gegend im Osten — ruhig, abgeschieden, teuerste Immobilien. Meist braucht man ein Auto.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nCarrasco ist \"clase alta\": ein grünes, flach bebautes Viertel mit Villen und Gärten und geschlossenen Wohnanlagen (z. B. Colinas de Carrasco). Es wirkt wie eine Landstadt in der Stadt — ruhig und abgeschieden, passend für alle, die den städtischen Trubel meiden. Hier stehen die teuersten Immobilien Montevideos. Der Nachteil: wenig Alltagsversorgung zu Fuß — meist braucht man ein Auto. Gute Schulen und gehobene Restaurants; nahe dem Flughafen Carrasco, der Rambla und dem Golfplatz. Überwiegend sicher, allerdings wurden einige Ladenüberfälle gemeldet.\n\nSchlagwörter: clase alta, vorstädtisch, ruhig, Flughafen, Auto nötig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.carrasco: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -782,6 +827,11 @@
         "short": "Ruhiges Küstenviertel, beliebt bei Expats: Yachthafen, Fischmarkt, Montevideo Shopping. Ruhig und praktisch.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nBuceo ist ein \"ordentliches\" Wohnviertel, beliebt bei Expats, am Yachthafen Puerto del Buceo. In der Nähe gibt es Fischstände mit frischem Fisch, deutlich günstiger als im Supermarkt, das Montevideo Shopping und das World Trade Center, Strände und die Rambla. Manche nennen hier die teuersten Immobilien nach Carrasco. Ruhig und gut versorgt; es zählt zu den empfohlenen ruhigeren, gehobeneren zentralen Vierteln neben Pocitos und Punta Carretas. Kleindiebstähle kommen vor (z. B. ein Fahrrad vom Balkon), wie überall.\n\nSchlagwörter: Expats, Wohnviertel, Yachthafen, Strand, Fischmarkt"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.buceo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -866,6 +916,11 @@
         "short": "Das küstennahe Malvín ist ruhig, sicher und günstiger als Pocitos. Aber Malvín Norte (landeinwärts) ist ein separates Problemviertel, das man meidet.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nDas küstennahe Malvín (an der Rambla) ist ruhig und sicher, mit guter Busanbindung — ein \"ordentliches, günstigeres Wohnviertel\"; der Strand ist gut. Aber man darf es nicht mit Malvín Norte verwechseln — einer separaten Gegend landeinwärts, die Einheimische ausdrücklich meiden raten: dort wurden bewaffnete Überfälle gemeldet (es zählt zu den \"dunkelroten\" Zonen neben Cerro, Casabó und La Teja). Das küstennahe Malvín selbst passt zu Familien und allen, die das Meer ohne Pocitos-Preise wollen.\n\nSchlagwörter: Strand, Wohnviertel, ruhig, günstiger, Malvín Norte meiden"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.malvin: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -949,6 +1004,11 @@
         "short": "Zentral, lebendig und erschwinglich an der 18 de Julio; Fakultäten, Geschäfte, Bars, deutliche russischsprachige Präsenz. Tagsüber sicher.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: mittel\n\nCordón ist eines der gefragtesten und erschwinglichsten zentralen Viertel (besonders Cordón Sur), für \"Intelligenzija und Feierlustige\". Es hat Universitätsfakultäten (Humanidades), viele kleine Läden an der Av. 18 de Julio und Bars (z. B. Jackson Bar). Es gibt eine deutliche russischsprachige Gemeinschaft — manche Häuser sind fast vollständig russischsprachig. Es gilt als lebendig und \"anständig genug\", tagsüber sicher; nachts die übliche Vorsicht der Innenstadt. Gutes Preis-Zentralitäts-Verhältnis, kein Strand; im Sommer viele Mücken.\n\nSchlagwörter: zentral, Studenten, lebendig, Russischsprachige, günstig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.cordon: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1032,6 +1092,11 @@
         "short": "Innenstadt an der 18 de Julio: Geschäfte, Büros, Kliniken — praktisch und erschwinglich, aber weniger prestigeträchtig. Tagsüber sicher.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: mittel\n\nCentro ist der Innenstadtkern für Geschäfte, Läden und Touristen. Dicht bebaut mit Läden, Büros, Kliniken und Dienstleistungen an und um die Av. 18 de Julio. Lebendig und praktisch, mit erschwinglicher Miete, aber geringerem Prestige; übliche Innenstadtvorsicht, tagsüber unproblematisch. Ein Teil der Russischsprachigen wohnt in und um Centro. Kein Strand in der Nähe (stellenweise ein bis zwei Blocks bis zur Rambla). Gut für alle, die maximale Zentralität und Versorgung über Prestige stellen.\n\nSchlagwörter: Zentrum, Geschäfte, Läden, Touristen, Verkehr"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.centro: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1116,6 +1181,11 @@
         "short": "Grünes zentrales Viertel rund um den Park, an Strand und Rambla; studentisch-kreatives Flair, häufiger Treffpunkt der Russischsprachigen. Auf Kleindiebstähle im Park achten.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: mittel\n\nParque Rodó ist um den gleichnamigen Park herum angelegt (See, Vergnügungspark, Nacht-Feria, Museen, Planetarium), mit Strand und Rambla; ein studentisch-bohemisches Flair und häufiger Picknickplatz der russischsprachigen Community. Zentral und fußläufig. Auf Kleindiebstähle achten — aufgebrochene Autos, eingeschlagene Scheiben und ein gestohlenes Portemonnaie wurden im und um den Park gemeldet. Tagsüber und an belebten Wochenendabenden unproblematisch.\n\nSchlagwörter: Park, Strand, bohemisch, Community, Museen"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.parque_rodo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1200,6 +1270,11 @@
         "short": "Zentrales, günstiges Viertel rund um den Hauptbusbahnhof und sein Einkaufszentrum — der Verkehrsknoten, sehr praktisch. Lauter und weniger sauber nahe dem Terminal.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: niedrig\n\nTres Cruces ist um den Hauptbahnhof Terminal Tres Cruces herum angelegt (alle Überlandbusse, Flughafen, Colonia, Buenos Aires) und sein Einkaufszentrum — der Verkehrsknoten der Stadt, äußerst praktisch zum Reisen. Zentral und erschwinglich. Der Nachteil: lauter, mehr Müll und Obdachlosenpräsenz nahe dem Terminal; bewohnbar, aber Leichtschläfer sollten den Lärm bedenken. Nahe dem Parque Batlle. Kein Strand.\n\nSchlagwörter: Busbahnhof, Verkehr, Einkaufszentrum, zentral, günstig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.tres_cruces: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1283,6 +1358,11 @@
         "short": "Die grünste Gegend im Norden — Prado-Park, Botanischer Garten, Blanes-Museum. Günstiger als die küstennahen \"grünen\" Viertel, aber von zwielichtigeren Gegenden umgeben.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nPrado ist eines der grünsten Viertel: Prado-Park, Botanischer Garten, Blanes-Museum, die jährliche Expo Prado / Feria del Prado. Schön und bei vielen beliebt, günstiger als die küstennahen \"grünen\" Viertel. Der Haken: es ist \"eine Insel, umgeben von Gegenden mit zweifelhaftem Ruf\" — im Park kann man tagsüber (und sogar am frühen Abend) sicher spazieren, aber nachts und auf den Zufahrten ist Vorsicht geboten. Eine gute Wahl für alle, die Grün dem Strand vorziehen.\n\nSchlagwörter: grün, Botanischer Garten, Wohnviertel, günstiger, nachts vorsichtig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.prado: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1366,6 +1446,11 @@
         "short": "Bohemisches Viertel südlich des Zentrums, an der Rambla, Heimat der Candombe-Kultur. Ruhiger und nah am Wasser; gemischter Ruf, übliche Vorsicht. Günstiger.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: niedrig\n\nPalermo ist ein Viertel \"für Kreative\" südlich des Zentrums, an der Rambla, im Herzen der Candombe-Kultur. Es gibt eine Bio-Feria, eine 24-Stunden-Apotheke und Geschäfte; ruhiger und nah am Wasser. Sein Ruf ist gemischt — manche finden es ruhig und sicherheitsmäßig in Ordnung (schwächer bei Dienstleistungen), andere beschreiben Teile als raueres Einwandererviertel; übliche Vorsicht gilt. Günstiger. Passt zu einem bohemischen, fußläufigen Leben am Meer mit kleinem Budget.\n\nSchlagwörter: bohemisch, Candombe, Rambla, kreativ, gemischter Ruf"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.palermo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1449,6 +1534,11 @@
         "short": "Arbeiterviertel auf dem Hügel jenseits der Bucht: eine historische Festung und ein Strand, aber Einheimische stufen es als problematisch ein und raten, es zu meiden (wie Cerrito, Casabó, La Teja). Die günstigsten Wohnungen.",
         "body": "Sicherheit: niedrig · Infrastruktur: niedrig · Preise: niedrig\n\nCerro ist ein Arbeiterviertel auf dem Hügel jenseits der Bucht, mit Geschichte (die Festung mit Leuchtturm, ein Strand), wird aber weithin als problematisch beschrieben: bewaffnete Überfälle und eine Schießerei wurden gemeldet, und man rät ausdrücklich, Cerro, Cerrito, Casabó und La Teja zu meiden, vor allem mit Wertsachen. Manche leben dort problemlos (z. B. ein Münchner Paar) und der Strand wird in der Saison genutzt, aber der Konsens ist erhöhte Vorsicht. Die günstigsten Wohnungen; die Industrie-/Hafenseite der Bucht. Vor allem als \"meiden / vorsichtiger sein\"-Referenz relevant.\n\nSchlagwörter: Arbeiterviertel, meiden, historische Festung, günstig, erhöhte Vorsicht"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.cerro: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1532,6 +1622,11 @@
         "short": "Historischer Kern mit Kolonialarchitektur, Museen und dem Mercado del Puerto. Stimmungsvoll und tagsüber belebt; Teile als \"gelb\" markiert, nachts ruhiger und weniger sicher.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nCiudad Vieja ist der Gründungskern Montevideos: Kolonialarchitektur, Museen (Casa Rivera, der Cabildo), der Hafenmarkt Mercado del Puerto, Restaurants und Büros. Tagsüber lebendig und einen Besuch wert; doch ein Teil ist als \"gelb\" markiert (Vorsicht), und nachts leert es sich und fühlt sich weniger sicher an. Passt zu allen, die historische Zentren lieben und mit dem Rhythmus \"tags belebt, nachts ruhig\" zurechtkommen.\n\nSchlagwörter: Altstadt, historisch, touristisch, Hafen, tags belebt nachts leer"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.ciudad_vieja: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1616,6 +1711,11 @@
         "short": "Die zentrale Halbinsel mit Türmen, Hafen und Casino, wo die beiden Küsten zusammentreffen. Sehr sicher, fußläufig, Premiumpreise, im Sommer belebt.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nDie Península ist der zentrale Kern von Punta del Este, wo die beiden Küsten zusammentreffen: der Hafen, das Casino, Restaurants, Geschäfte und die berühmten Türme; der ruhige Mansa-Strand und die kräftige ozeanische Brava sind fußläufig erreichbar. Sehr sicher (Punta wird insgesamt als Ort beschrieben, an dem man \"aufhören kann, an Sicherheit zu denken\"), fußläufig, Premiumpreise; im Sommer überfüllt, außerhalb der Saison viel ruhiger. Die beste Wahl für alle, die das klassische Zentrum von Punta wollen.\n\nSchlagwörter: Zentrum, Hochhäuser, Hafen, Casino, beide Strände"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.peninsula: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1701,6 +1801,11 @@
         "short": "Ruhiges, wärmeres Wasser auf der Buchtseite — gut für Familien und zum Schwimmen; neue Wohntürme zum Wohnen und Investieren. Sicher, Premiumpreise.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nPlaya Mansa ist die Buchtseite (Río de la Plata): das Wasser ist sanfter, wärmer und ruhiger (wie eine stille Lagune), gut für Familien und zum Schwimmen. An der Küste stehen neue Wohnanlagen (beheizte Pools, Fitnessstudios, Service), beworben zum Wohnen und als Investition. Nahe den Krankenhäusern (Cantegril, Mautone), dem Cantegril-Club und der Rambla. Sicher und gut versorgt; Objekte in erster Reihe sind premium, etwas landeinwärts kann es günstiger sein. Passt zu Familien und Investoren.\n\nSchlagwörter: Bucht, ruhiges Wasser, Familien, Neubautürme, Investition"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.playa_mansa: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1786,6 +1891,11 @@
         "short": "Kräftiger offener Atlantik — Surfen und eindrucksvolle Ausblicke, die berühmte Hand-Skulptur \"La Mano\". Erste Reihe sehr teuer.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nPlaya Brava ist die offene Ozeanseite: starke Wellen (ideal zum Surfen und für Wassersport; La Brava gilt als einer der besten Surfspots der Welt), sauberes Wasser (außer etwa einen Monat im Sommer, wenn Quallen kommen), Temperatur je nach Strömung. Der Kontrast zur ruhigen Mansa ist ein prägendes Merkmal von Punta. Immobilien in erster Reihe an der Brava sind sehr teuer — dort wohnen die Entwickler und Investoren selbst. Sicher, aber elementarer und exponierter als die Mansa. Für Ozean- und Surf-Liebhaber.\n\nSchlagwörter: Ozean, Surfen, La Mano, erste Reihe Premium, eindrucksvoll"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.playa_brava: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1870,6 +1980,11 @@
         "short": "Angesagtes Boho-Chic-Dorf östlich von Punta: Nachtleben, Kunst, Surfstrände. In der Saison teuer, außerhalb verschlafen.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nLa Barra ist ein angesagtes, jüngeres und künstlerisches Dorf direkt östlich von Punta: Galerien, ein Kunstzentrum, Design- und Modeveranstaltungen, gute Surfstrände. Sauberer und fußläufig, und manche kommen ohne Auto aus. In der Saison lebendig und teuer, außerhalb fällt es in den Schlaf. Eine medizinische Zweigstelle (aus dem Netzwerk von Maldonado/Cantegril) versorgt die Gegend. Passt zu allen, die eine stilvolle, strandige, gesellige Szene den Hochhäusern des Zentrums vorziehen.\n\nSchlagwörter: angesagt, Nachtleben, Boho-Chic, Surf, saisonal"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.la_barra: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1954,6 +2069,11 @@
         "short": "Ein kleines, flach bebautes Dorf im Osten — Leuchtturm-und-Dünen-Glamour, sehr teuer und sehr saisonal. Man braucht ein Auto.",
         "body": "Sicherheit: hoch · Infrastruktur: niedrig · Preise: hoch\n\nJosé Ignacio ist ein kleines, flach bebautes Dorf weiter östlich: Leuchtturm-und-Dünen-Glamour, sehr teuer und sehr saisonal (im Sommer lebendig, im Winter fast leer). Schöne Strände; meist braucht man ein Auto. Die russischsprachige Präsenz wächst in der Hochsaison merklich. Für alle, die Privatsphäre, Prestige und rustikalen Luxus über städtischen Komfort stellen.\n\nSchlagwörter: exklusiv, Prominenz, Rustik-Chic, saisonal, Auto nötig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.jose_ignacio: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2038,6 +2158,11 @@
         "short": "Die echte Stadt neben dem Seebad Punta: ganzjährige Dienstleistungen, das Hauptkrankenhaus, Schulen, günstigere Miete. Viele, die in Punta arbeiten, wohnen hier.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: mittel\n\nMaldonado ist die echte Stadt (im Gegensatz zum Seebad Punta): ganzjährige Dienstleistungen, das Hauptkrankenhaus und die Poliklinik (das Cantegril-Netzwerk), Schulen, Supermärkte, günstigere Miete und Immobilien als Punta del Este und eine echte lokale (nicht saisonale) Gemeinschaft. Viele, die in Punta arbeiten, wohnen tatsächlich in Maldonado. Übliche Stadtvorsicht — bei normalen Vorkehrungen merklich sicherer als die Großstädte der Region. Die beste Basis für ganzjähriges Küstenleben mit Budget. (Hinweis: \"Maldonado\" ist auch der Name des Departamentos, das Punta, Piriápolis usw. umfasst.)\n\nSchlagwörter: echte Stadt, ganzjährig, Dienstleistungen, Krankenhäuser, günstiger als Punta"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for maldonado.maldonado: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2120,6 +2245,11 @@
         "short": "Ein ruhiges Retro-Küstenstädtchen westlich von Punta — still, sicher und günstig. Familienfreundlich, saisonal, mit Schulen und medizinischer Versorgung.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: niedrig\n\nPiriápolis ist ein kleines, friedliches Seebad mit einer historischen Promenade (Rambla), dem Hotel Argentino, Hügeln (Cerro San Antonio, Cerro del Toro, Pan de Azúcar) und Stränden; es wirkt wie ein ruhiges Provinzdorf, besonders außerhalb der Saison, wenn es halb schließt und das Parken frei ist. Es gilt als sehr sicher (\"man kann aufhören, an Sicherheit zu denken\"; manche fühlten sich dort sicherer als in Montevideo). Das Leben ist günstiger als in Punta oder Maldonado; es gibt Schulen (z. B. Instituto Galileo Galilei) und eine medizinische Zweigstelle. ~30 Minuten mit dem Auto von Punta; einige Überlandbusse fahren durch. Am besten für Familien und alle, die Ruhe und das Meer dem Nachtleben und Dienstleistungen vorziehen.\n\nSchlagwörter: ruhig, Küstenstädtchen, günstig, Familien, saisonal"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for piriapolis.piriapolis: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2204,6 +2334,11 @@
         "short": "Eine sehr sichere UNESCO-Stadt im Westen am Río de la Plata, der Haupt-Fährknoten nach Buenos Aires. Ruhig, für manche verschlafen; Land und Wohnen günstiger als die Badeküste.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: mittel\n\nColonia del Sacramento ist eine historische Stadt im Westen am Río de la Plata, mit einer UNESCO-Altstadt; Einheimische sagen, es sei \"absolut sicher\". Es ist der Haupt-Fährknoten nach Buenos Aires (Colonia Express, Buquebus — etwa 1,5 Stunden), was die Verbindung nach Argentinien sehr bequem macht. Der historische Kern wirkt verschlafen und für manche zum Dauerwohnen langweilig, doch die Zone Richtung Carmelo entwickelt sich schnell — geschlossene Wohnanlagen und Weingüter. Land und Immobilien sind günstiger als an der Badeküste (Amerikaner und andere Ausländer kommen hierher und nach Paysandú für günstiges Land und Grenz-Farmen). Passt zu allen, die Ruhe, Geschichte und Nähe zu Buenos Aires wollen.\n\nSchlagwörter: historisch, UNESCO, Fähre nach Buenos Aires, ruhig, am Fluss, Expats"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for colonia.del_sacramento: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2287,6 +2422,11 @@
         "short": "Ein ruhiges Flussstädtchen nahe Colonia. Das Zentrum ist bescheiden, aber drumherum wachsen geschlossene Anlagen und Weingüter; manche wählen es zum Umzug.",
         "body": "Sicherheit: hoch · Infrastruktur: niedrig · Preise: niedrig\n\nCarmelo ist ein ruhiges Flussstädtchen nahe Colonia. Das Zentrum selbst wirkt auf viele unspektakulär und bescheiden, doch der Reiz liegt im Umland: Weingüter und schnell wachsende geschlossene Anlagen (manche Bewohner beschreiben die Stimmung als \"lateinamerikanisches Baltikum\" mit Pinien an der Küste). Manche wägen Carmelo gegen Colonia del Sacramento als Wohnort ab. Ruhig, erschwinglich, näher am Weinbau- und Landleben als an der Stadt. Gut für ein gemächliches Leben außerhalb der Stadt am Fluss.\n\nSchlagwörter: Weingüter, geschlossene Anlagen, am Fluss, Pinien, ruhig, wachsend"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for colonia.carmelo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2371,6 +2511,11 @@
         "short": "Ein Wohn-Küstenstädtchen an der Costa de Oro (Canelones), in Pendeldistanz zu Montevideo; Pinienwälder, Strände, Kurse und Dienstleistungen. Ruhig, familienfreundlich, erschwinglich.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: niedrig\n\nAtlántida ist der Hauptort der Costa de Oro (der Strandgürtel des Departamentos Canelones östlich von Ciudad de la Costa). Es ist ein Wohn-Küstenstädtchen in echter Pendeldistanz zu Montevideo; mehrere russischsprachige Familien wohnen hier. Die Stimmung ist ruhig und familiär organisiert: tägliche Kurse und Aktivitäten mit vollen Plänen, ein Rentnerclub, Pflegeheime, Pinienwälder zum Spazieren, Strände. Grundversorgung ist vorhanden (eine Poliklinik in der Nähe), für manches fährt man in Nachbarorte (z. B. Impfungen in Parque del Plata). Günstiger als die Küste von Maldonado. Gut für alle, die Meer, Ruhe und Familienrhythmus nahe der Hauptstadt wollen.\n\nSchlagwörter: Strand, Wohnort, Pinienwälder, Familien, Pendlerküste"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for costa_de_oro.atlantida: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2454,6 +2599,11 @@
         "short": "Eine echte Stadt nördlich von Maldonado/Punta: ganzjähriges lokales Leben, Kliniken und Dienstleistungen, Miete \"um ein Vielfaches günstiger\" als Punta. Kein Strand, aber Punta ist nah.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: niedrig\n\nSan Carlos ist eine echte arbeitende Stadt nördlich von Maldonado, nahe Punta (manche Bewohner leben zwischen San Carlos und Manantiales). Es hat ganzjähriges lokales Leben, Zweigstellen des Cantegril-Kliniknetzes (man wird dort behandelt, manchmal mit früheren Terminen; auch für ernste Behandlungen fährt man hin) und Alltagsversorgung. Der Hauptreiz: Wohnen und Leben \"um ein Vielfaches günstiger\" als in Punta, während Punta gleich nebenan liegt. Kein eigener Strand; ans Meer und nach Punta gelangt man per Bus/Auto (angeblich kein Direktbus von Piriápolis). Eine gute Budget-Basis für alle, die in Punta arbeiten oder dort sind, aber keine Badeort-Preise wollen.\n\nSchlagwörter: echte Stadt, günstiger als Punta, Dienstleistungen, lokales Leben, nahe Punta"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for maldonado.san_carlos: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2538,6 +2688,11 @@
         "short": "Ein kleines, teures Stranddorf am Punta-Korridor — ein \"Fischerdorf, in dem Millionärs-Fischer wohnen\". Ruhiger Luxus, sehr saisonal.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nManantiales ist ein kleines, teures Stranddorf am Punta-Korridor, zwischen La Barra und José Ignacio. Halb im Scherz wird es ein \"Fischerdorf, in dem Millionärs-Fischer wohnen\" genannt: ein ehemaliges Fischerdorf, das zur Zone des ruhigen Luxus wurde, mit guten Gehwegen und Stränden. Sehr saisonal — im Sommer lebt es auf. Sicher und exklusiv, Premiumpreise; meist braucht man ein Auto. Passt zu allen, die Ruhe und Status an der Küste ohne den Trubel des Zentrums von Punta wollen.\n\nSchlagwörter: gehoben, Strand, Fischerdorf, ruhiger Luxus, saisonal"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for punta_del_este.manantiales: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2623,6 +2778,11 @@
         "short": "Ein malerisches Kap westlich von Punta: Casapueblo, Walbeobachtung, Natur (Laguna del Sauce, Arboretum Lussich). Ruhig, teuer, Neubauten als Investition.",
         "body": "Sicherheit: hoch · Infrastruktur: niedrig · Preise: hoch\n\nPunta Ballena ist ein malerisches Kap westlich von Punta, berühmt für das Haus-Museum Casapueblo. Hier kann man Wale sehen, mit der Laguna del Sauce und dem Park Arboretum Lussich in der Nähe; Bewohner nennen die ganze Zone von Punta Ballena bis La Barra ein Wunder, das man allein deshalb bereisen sollte. Ruhig und naturnah, mit Neubauten in der Touristenzone \"Walkap\", beworben für Investition und Vermietung in der Hochsaison. Die Preise sind hoch und die Alltagsinfrastruktur ist dünn — eher ein landschaftlicher, naturnaher und Investitionsort als eine Stadt mit Dienstleistungen.\n\nSchlagwörter: malerisch, Casapueblo, Wale, Natur, ruhig, Investition"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for punta_del_este.punta_ballena: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2707,6 +2867,11 @@
         "short": "Am ehesten eine \"Stadt\" unter den wilden Rocha-Stränden östlich von Punta: Ozean, Surf, Natur. Günstigere Häuser (≈400–700 USD Miete), sehr saisonal.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: niedrig\n\nLa Paloma ist praktisch der einzige halbwegs städtische Ort an der wilden Ostküste des Departamentos Rocha; alles östlich von Punta sind Schutzgebiete und Fischerdörfer. Es geht um Ozean, Surfen und unberührte Natur. Häuser sind hier günstiger als an der Küste von Maldonado (genannt werden Mieten um 400–700 USD pro Haus). Das Leben ist sehr saisonal — im Sommer lebendig, im Winter leer; die Infrastruktur ist klein und meist braucht man ein Auto. Passt zu allen, die ein ruhiges Küstenstädtchen am wilden Ozean wollen und mit der Saisonalität zurechtkommen.\n\nSchlagwörter: Strand, Surf, Kleinstadt, Natur, günstige Häuser, saisonal"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for rocha.la_paloma: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2791,6 +2956,11 @@
         "short": "Ein kleines bohemisches Fischer- und Surfdorf im äußersten Osten nahe Brasilien: wilder Ozean, günstige Häuser, sehr saisonal. In der Saison lebt es auf.",
         "body": "Sicherheit: mittel · Infrastruktur: niedrig · Preise: niedrig\n\nPunta del Diablo ist ein kleines bohemisches Fischer- und Surfdorf im äußersten Osten von Rocha, näher an der brasilianischen Grenze. Wilder Ozean, ein einfaches Dorfleben, günstige Unterkünfte (Hausmieten um 400–700 USD), beliebt für Übernachtungsmieten und Urlaub. Die Provinz ist hier allgemein sicher, aber Achtung: das Dorf ist nur ~40 km von Chuy entfernt — einer Grenzstadt, die wegen ihrer faktisch offenen Grenze zu Brasilien als die gefährlichste der Kleinstädte beschrieben wird (Punta del Diablo selbst ist interessanter und ruhiger). Sehr saisonal, minimale Infrastruktur, man braucht ein Auto. Für Liebhaber von Surfen, wilder Natur und gemächlichem Dorfrhythmus.\n\nSchlagwörter: Fischerdorf, Surf, bohemisch, günstige Häuser, saisonal, nahe Brasilien"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for rocha.punta_del_diablo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2874,6 +3044,11 @@
         "short": "Eine Stadt im Landesinneren inmitten der Sierras (Lavalleja): an sich bescheiden, aber umgeben von Wasserfällen, Wegen und Estancias. Ruhig, erschwinglich, zum Leben naturnah ohne Ozean.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: niedrig\n\nMinas ist die Hauptstadt des Departamentos Lavalleja im hügeligen Landesinneren. Bewohner beschreiben die Stadt selbst als bescheiden (\"in Minas selbst gibt es nichts zu tun\"), doch die Umgebung ist der eigentliche Wert: die Sierras, der Wasserfall Salto del Penitente, der Salus-Park, Villa Serrana, Trekking (z. B. Quebrada de los Cuervos), Estancia-Agrohotels. Uruguay ist hinsichtlich Naturkatastrophen sehr stabil. Minas wird als Option für ein Leben im Landesinneren genannt, wenn das Meer nicht zwingend ist (auch Aiguá wird erwähnt). Ruhig und erschwinglich; für die Natur ringsum braucht man ein Auto. Für alle, die Hügel, Ruhe und Natur über Meer und Stadt stellen.\n\nSchlagwörter: Landesinnere, Sierras, Natur, Wasserfälle, ruhig, erschwinglich"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for lavalleja.minas: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2956,6 +3131,11 @@
         "short": "Eine größere Binnenstadt am Uruguay-Fluss an der argentinischen Grenze, bekannt für Thermalquellen. Heißes Klima, erschwingliche Preise; manche ziehen sie zum Wohnen in Betracht.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: niedrig\n\nSalto ist eine der größten Binnenstädte, am Uruguay-Fluss an der argentinischen Grenze (gegenüber von Concordia), bekannt für ihre Thermalquellen (termas) — ihr wichtigstes Kurmerkmal. Das Klima ist heiß. Im Chat taucht sie als echte Wohnoption auf: man fragt, wie es dort \"mit Infrastruktur und Sicherheit\" sei, manche würden sie in Betracht ziehen (\"ich könnte sogar in Salto leben\") und suchen Bewohner dort. Preise und Leben sind erschwinglicher als in der Hauptstadt. Kein Ozean, dafür der Fluss, die Thermalquellen und ein ruhigeres provinzielles Tempo. Passt zu allen, die sich für das Leben in einer Binnenstadt mit Thermaltourismus interessieren und die Hitze vertragen.\n\nSchlagwörter: Binnenstadt, Thermalquellen, heißes Klima, Fluss, erschwinglich"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for salto.salto: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -3057,6 +3237,11 @@
         "short": "Uruguays Hauptstadt und größte Stadt mit der besten Infrastruktur des Landes; ruhig, erstreckt sich entlang der Rambla, stark je nach Viertel verschieden.",
         "body": "Montevideo ist die Hauptstadt und größte Stadt Uruguays; etwa die Hälfte der Landesbevölkerung lebt in der Hauptstadt und ihrem Großraum, und hier lassen sich die meisten Zugezogenen wegen der Infrastruktur nieder — Banken, Ärzte, Schulen, Büros und öffentlicher Verkehr sind hier die besten des Landes. Die Stadt erstreckt sich am Río de la Plata, und ihre Hauptachse ist die Rambla, eine rund 24 km lange Uferpromenade; \"nicht weiter als ein paar Häuserblocks von der Rambla entfernen\" ist ein lokaler Sicherheits-Spruch. Sie wirkt ruhig und gemächlich im Vergleich zu großen Metropolen, variiert aber stark je nach Viertel: der küstennahe Osten (Pocitos, Punta Carretas, Carrasco, Buceo) ist sicher und prestigeträchtig, während einige Gegenden (Cerro, Malvín Norte, Casabó, La Teja) besser gemieden werden. Die meisten Russischsprachigen wohnen in Pocitos, Cordón, Centro und Punta Carretas. Das Klima ist feucht, die Stadtstrände sind zum Schwimmen mittelmäßig, und der Zustand der Wohnungen variiert stark — all das prüft man je nach konkretem Viertel (siehe die Viertel-Karten)."
       }
+    },
+    "service": {
+      "source_intent": "City overview (4-5 sentences) giving the overall feel of Montevideo, synthesized from community chat; links to its district/zone cards.",
+      "kind": "city_overview",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -3150,6 +3335,11 @@
         "short": "Uruguays bedeutendstes Seebad (das \"uruguayische Monaco\"), stark saisonal: zwei Küsten, sicher und teuer; zum Ganzjahresleben wählt man das benachbarte Maldonado.",
         "body": "Punta del Este ist das bedeutendste Seebad Uruguays, mit dem Image eines \"Seebads für Menschen mit Geld und Geschmack\", oft mit Monaco verglichen; im Sommer strömen Argentinier und Brasilianer hierher. Das Leben ist stark saisonal: der Sommer (Dezember–Februar) ist teuer und lebhaft, während der Winter ruhig ist und manche Dienstleistungen anders laufen oder schließen. Die Stadt hat zwei Küsten — die ruhige Mansa auf der Buchtseite und die kräftige ozeanische Brava — mit der zentralen Península aus Türmen, dem Hafen und dem Casino. Punta gilt als sehr sicher (\"man kann aufhören, an Sicherheit zu denken\") und sauber, aber die Preise sind premium, und das Leben entlang des Korridors (La Barra, Manantiales, José Ignacio) erfordert meist ein Auto. Viele, die in Punta arbeiten, lassen sich im benachbarten Maldonado oder in San Carlos nieder, um ganzjährig und günstiger zu wohnen (siehe die Zonen-Karten)."
       }
+    },
+    "service": {
+      "source_intent": "City overview (4-5 sentences) giving the overall feel of Punta del Este, synthesized from community chat; links to its district/zone cards.",
+      "kind": "city_overview",
+      "evidence": "telegram_chat_synthesis"
     }
   }
 ]

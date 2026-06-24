@@ -68,7 +68,9 @@ type StringKey =
   | 'searchFaqPlaceholder'
   | 'searchInFaqTopic'
   | 'backToFaqTopics'
-  | 'questions';
+  | 'questions'
+  | 'mostAsked'
+  | 'browseByTopic';
 
 type Dict = Record<StringKey, string>;
 
@@ -129,6 +131,8 @@ const en: Dict = {
   searchInFaqTopic: 'Search in this Q&A topic…',
   backToFaqTopics: '← All Q&A topics',
   questions: 'questions',
+  mostAsked: 'Most asked',
+  browseByTopic: 'Browse by topic',
 };
 
 const ru: Dict = {
@@ -188,6 +192,8 @@ const ru: Dict = {
   searchInFaqTopic: 'Поиск внутри темы Q&A…',
   backToFaqTopics: '← Все темы Q&A',
   questions: 'вопросов',
+  mostAsked: 'Чаще всего спрашивают',
+  browseByTopic: 'По темам',
 };
 
 const es: Dict = {
@@ -247,6 +253,8 @@ const es: Dict = {
   searchInFaqTopic: 'Buscar en este tema de Q&A…',
   backToFaqTopics: '← Todos los temas de Q&A',
   questions: 'preguntas',
+  mostAsked: 'Lo más preguntado',
+  browseByTopic: 'Por tema',
 };
 
 const de: Dict = {
@@ -306,6 +314,8 @@ const de: Dict = {
   searchInFaqTopic: 'In diesem Q&A-Thema suchen…',
   backToFaqTopics: '← Alle Q&A-Themen',
   questions: 'Fragen',
+  mostAsked: 'Am häufigsten gefragt',
+  browseByTopic: 'Nach Thema',
 };
 
 const DICTS: Record<Locale, Dict> = { en, ru, es, de };

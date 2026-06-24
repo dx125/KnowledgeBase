@@ -3,6 +3,67 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-24 — Normalize Q&A (questions→cards), service metadata, dataset/ folder
+
+Restructured for restore-from-scratch + de-duplication (deployed **v7.3**; raw repointed to
+`kb_dataset_uy v6.6`):
+
+- **Normalized Q&A**: each answer lives once as a card (the `topic.faq_*` answer-cards); questions
+  now live in a separate **`questions.json`** that only references `answer_card_id` (no duplicated
+  answer text), each with a computed **`ask_frequency`**. New `questions` / `question_translations`
+  tables + `list_questions` RPC (`0009_questions.sql`), `GET /questions` endpoint, reworked web Q&A
+  view (global "Most asked" + per-topic). `scripts/build-questions.mjs` regenerates it reproducibly.
+- **Removed the 14 duplicate KB reference cards** added on 2026-06-23 (their content is the FAQ
+  answer-cards; keeping both duplicated answers).
+- **`service` block** on every editorial card + FAQ topic (`source_intent` / `kind` / `evidence`) —
+  the non-localized "how to regenerate this" intent.
+- Added the committed **[`dataset/`](../dataset/)** definition folder: README (pipeline + recreate),
+  SCHEMA, CHANGELOG (upstream + ours), PROVENANCE (mistakes/issues/lessons), MANIFEST.json
+  (`scripts/build-manifest.mjs`) and JSON schemas for every layer.
+- Canonicalized `faq.json` / `new-cards.json` to standard 2-space JSON.
+
+## 2026-06-23 — Surface Q&A deep-dive into the main KB (+14 reference cards)
+
+The detail- and number-rich info authored for the Q&A deep-dive existed only in the Q&A section
+(`topic.faq_*`). Mirrored it into the **main KB topics** as proper `content_category: reference`
+cards (`new-cards.json`), so it's discoverable in normal browse/search, not just the Q&A view. The
+existing vendor "…что важно знать" reference cards are generic templates and aren't public; these new
+cards are the **specifics-and-numbers** companions and surface as the public reference cards. Each
+reuses real `keyword_ids` and links (`related_card_ids`) to both the generic card and its Q&A twin.
+Dataset → **402 cards** (deployed v7.2):
+
+- **health** (+4): drug equivalents (Vademecum/Farmanuario), missing meds + replacements,
+  agenda vs ER vs emergencia móvil, prescriptions (récipe) & pharmacies.
+- **transport** (+4): STM/BROU-Pospago payment + intercity, traffic rules & driving customs,
+  common fines (UR amounts), the patente car tax via SUCIVE.
+- **banking** (+3): which banks suit an immigrant, holding costs per bank, optimal Mastercard+Visa setup.
+- **taxes** (+3): company-type choice with numbers, taxes per type, running without a contador.
+
+Same caveat as the Q&A cards: figures are community-reported/approximate → `needs_review` + high
+`staleness_risk`.
+
+## 2026-06-23 — Q&A deep-dive: +14 questions (health, transport, banking, taxes)
+
+Second Q&A batch — deeper, detail- and number-rich answers for four high-demand topics, mined
+from the chat (drug-analog apps, SUCIVE patente, Montevideo fine schedule, STM/BROU-Pospago payment,
+Itaú/Santander non-resident fees, monotributo/Literal-E limits, SAS-vs-unipersonal breakpoint). Each
+of the four topics goes from 4–5 to **8 questions**; dataset → **388 cards** (deployed v7.1):
+
+- **faq_health** (+4): local drug equivalents by active ingredient (Vademecum/Farmanuario), meds that
+  are hard to find + how to replace them, booking (agenda) vs ER vs emergencia móvil, prescriptions
+  (récipe) & pharmacy chains.
+- **faq_transport** (+4): paying with STM / BROU Pospago + intercity from Tres Cruces, traffic rules
+  & local driving customs (prioridad a la derecha, weak pedestrian yielding), most common fines
+  (speeding in UR, parking, points), the patente car tax via SUCIVE (~5% of value, age discount).
+- **faq_banking** (+3): which banks suit an immigrant vs not (Itaú/BROU/Prex vs costly non-resident
+  accounts), holding costs per bank, an optimal Mastercard+Visa card setup instead of holding every bank.
+- **faq_taxes** (+3): choosing & opening a company *with numbers* (monotributo ~$20k / Literal E ~$40k
+  limits, SAS from ~$5k/mo), taxes & contributions per type (BPS + Fonasa, 0% export VAT, IRPF vs IRAE,
+  SAS 0% IT-export profit), and running the paperwork without an accountant.
+
+Figures are community-reported and approximate; these carry `needs_review` + high `staleness_risk`
+(rates/limits change yearly) — verify with a contador / official source before acting.
+
 ## 2026-06-23 — Q&A (FAQ) section — 19 topics, 71 questions
 
 Added a dedicated **Q&A section** (`dataset-patches/faq.json`, applied by

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "card_id",
+    "card_type",
+    "topic_id",
+    "subtopic_ids",
+    "keyword_ids",
+    "title_i18n_key",
+    "body_i18n_key",
+    "status",
+    "visibility",
+    "last_updated_from_message_date",
+    "confidence_score"
+  ],
+  "properties": {
+    "card_id": {},
+    "card_type": {},
+    "topic_id": {},
+    "subtopic_ids": {},
+    "keyword_ids": {},
+    "title_i18n_key": {},
+    "body_i18n_key": {},
+    "status": {},
+    "visibility": {},
+    "last_updated_from_message_date": {},
+    "confidence_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "evidence_strength": {
+      "type": "object"
+    },
+    "validity": {
+      "type": "object"
+    },
+    "sensitivity_level": {
+      "type": "string"
+    },
+    "quality": {
+      "type": "object"
+    },
+    "alignment_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "search_boost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "semantic_alignment": {
+      "type": "object"
+    },
+    "ranking_signals": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

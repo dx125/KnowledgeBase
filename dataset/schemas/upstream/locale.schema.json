@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "meta",
+    "topics",
+    "subtopics",
+    "keywords",
+    "cards"
+  ],
+  "properties": {
+    "meta": {},
+    "topics": {},
+    "subtopics": {},
+    "keywords": {},
+    "cards": {}
+  },
+  "additionalProperties": true
+}
