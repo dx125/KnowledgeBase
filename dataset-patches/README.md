@@ -23,7 +23,36 @@ Rather than delete the apparent duplicates (which would destroy distinct RU cont
 |---|---|
 | `card-overrides.json` | EN/ES/DE corrections to cards that already exist in the raw dataset. Keyed by `card_id`. RU never overridden. |
 | `new-cards.json` | Cards the vendor build never produced, authored by us (RU + EN/ES/DE) to close content gaps. Appended at deploy/build time. |
+| `faq.json` | The Q&A section: dedicated `topic.faq_*` topics + one card per question. Registers the topics **and** appends the cards. |
 | `CHANGELOG.md` | Dated log of what was changed and why. |
+
+### `faq.json` shape (Q&A section)
+
+Unlike the other layers, this one also creates **new topics** (the raw taxonomy has none for FAQ).
+`scripts/lib/apply-faq.mjs` registers each topic into `kb.taxonomies.topics` + the per-locale topic
+tables, then appends one card per question (`content_category='faq'`, `card_type='faq'`): the
+**question is the `title`**, a one-line answer the `short_body`, the full answer the `body`. The four
+i18n keys derive from `card_id` and `search_text` is title+short+body, same as `new-cards.json`.
+
+```json
+{
+  "topics": [
+    { "topic_id": "topic.faq_residency", "sensitivity": "high", "default_staleness_risk": "high",
+      "text": { "ru": {"title":"…","description":"…"}, "en": {…}, "es": {…}, "de": {…} } }
+  ],
+  "questions": [
+    { "card_id": "card.faq_residency.q01_how_to_get", "topic_id": "topic.faq_residency",
+      "ask_signal": 4357, "sensitivity_tags": ["legal"],
+      "text": { "ru": {"title":"<question>","short":"<1-line answer>","body":"<full answer>"}, "en": {…}, "es": {…}, "de": {…} } }
+  ]
+}
+```
+
+Use **zero-padded** question slugs (`…q01_…`, `…q02_…`) — `get_topic_cards` orders FAQ cards by
+`card_id`, so the padding fixes the display order. Because FAQ topics are first-class topics, clients
+tell them apart by the `topic.faq_` id prefix; the existing API already loads them
+(`GET /topics/topic.faq_<x>/cards`) and searches them (`/search?topic=` / `/search?q=` /
+`/search?category=faq`).
 
 ### `new-cards.json` shape
 

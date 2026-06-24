@@ -96,7 +96,7 @@ Deno.serve(async (req) => {
         me: 'GET /me · PUT /me {default_locale}',
         topics: 'GET /topics?locale&internal',
         topic_cards: 'GET /topics/:topicId/cards?locale&internal&category',
-        search: 'GET /search?q&locale&topic&limit&offset&internal',
+        search: 'GET /search?q&locale&topic&category&limit&offset&internal',
         card: 'GET /cards/:cardId?locale',
         version: 'GET /version',
       },
@@ -187,10 +187,11 @@ Deno.serve(async (req) => {
       return json({ locale, topic_id: topicId, category: category ?? null, include_internal: includeInternal, count: cards.length, cards });
     }
 
-    // GET /search
+    // GET /search   (?category=faq restricts to the Q&A section)
     if (segments.length === 1 && segments[0] === 'search') {
       const query = url.searchParams.get('q') ?? '';
       const topicId = url.searchParams.get('topic');
+      const category = url.searchParams.get('category');
       const limit = clampInt(url.searchParams.get('limit'), 20, 1, 100);
       const offset = clampInt(url.searchParams.get('offset'), 0, 0, 100000);
 
@@ -204,14 +205,18 @@ Deno.serve(async (req) => {
       });
       if (error) throw error;
 
-      const rows = (data ?? []) as Array<Record<string, unknown>>;
+      let rows = (data ?? []) as Array<Record<string, unknown>>;
       const total = rows.length ? Number(rows[0].total_count) : 0;
+      // The Q&A section is the dedicated topic.faq_* topics. search_cards doesn't
+      // expose content_category, but every (and only) FAQ card lives under a faq
+      // topic, so a topic-prefix filter is exactly a content_category='faq' filter.
+      if (category === 'faq') rows = rows.filter((r) => String(r.topic_id ?? '').startsWith('topic.faq_'));
       const results = rows.map((row) => {
         const item = { ...row };
         delete item.total_count;
         return item;
       });
-      return json({ locale, query, topic_id: topicId, include_internal: includeInternal, limit, offset, total, count: results.length, results });
+      return json({ locale, query, topic_id: topicId, category: category ?? null, include_internal: includeInternal, limit, offset, total: category === 'faq' ? results.length : total, count: results.length, results });
     }
 
     // GET /cards/:cardId

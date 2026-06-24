@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { t, type Locale } from './i18n';
 import { useLocale } from './useLocale';
 import { useAuth } from './useAuth';
@@ -6,6 +6,7 @@ import {
   getMe,
   getTopicCards,
   isConfigured,
+  isFaqTopic,
   listTopics,
   searchCards,
   setDefaultLocale,
@@ -18,6 +19,9 @@ import { Login } from './components/Login';
 import { SearchBar } from './components/SearchBar';
 import { TopicGrid } from './components/TopicGrid';
 import { CardItem, type CardView } from './components/CardItem';
+import { FaqItem, type FaqView } from './components/FaqItem';
+
+type Mode = 'kb' | 'faq';
 
 function Spinner({ label }: { label: string }) {
   return (
@@ -56,6 +60,7 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
+  const [mode, setMode] = useState<Mode>('kb');
   const [topics, setTopics] = useState<Topic[]>([]);
   const [topicsLoading, setTopicsLoading] = useState(true);
 
@@ -69,6 +74,15 @@ export default function App() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [includeInternal, setIncludeInternal] = useState(false);
+
+  const isFaq = mode === 'faq';
+  const faqCategory = isFaq ? 'faq' : undefined;
+
+  // Knowledge-base topics and Q&A topics share the topics table; split by id prefix.
+  const shownTopics = useMemo(
+    () => topics.filter((t) => isFaqTopic(t.topic_id) === isFaq),
+    [topics, isFaq],
+  );
 
   // --- Load topics whenever the locale / scope changes -----------------------
   useEffect(() => {
@@ -95,14 +109,14 @@ export default function App() {
     let cancelled = false;
     setBusy(true);
     setError(null);
-    searchCards({ query: q, locale, limit: 50, includeInternal })
+    searchCards({ query: q, locale, limit: 50, includeInternal, category: faqCategory })
       .then((r) => !cancelled && setResults(r.cards))
       .catch((e) => !cancelled && setError(String(e?.message ?? e)))
       .finally(() => !cancelled && setBusy(false));
     return () => {
       cancelled = true;
     };
-  }, [globalQuery, locale, selectedTopic, user, includeInternal]);
+  }, [globalQuery, locale, selectedTopic, user, includeInternal, faqCategory]);
 
   // --- Topic view: browse all cards, or search within the topic --------------
   useEffect(() => {
@@ -117,6 +131,7 @@ export default function App() {
           query: q,
           locale,
           topicId: selectedTopic.topic_id,
+          category: faqCategory,
           limit: 100,
           includeInternal,
         }).then((r) =>
@@ -148,7 +163,7 @@ export default function App() {
     return () => {
       cancelled = true;
     };
-  }, [selectedTopic, topicQuery, locale, user, includeInternal]);
+  }, [selectedTopic, topicQuery, locale, user, includeInternal, faqCategory]);
 
   const openTopic = useCallback((topic: Topic) => {
     setSelectedTopic(topic);
@@ -161,8 +176,26 @@ export default function App() {
     setTopicQuery('');
   }, []);
 
+  const switchMode = useCallback((next: Mode) => {
+    setMode(next);
+    setSelectedTopic(null);
+    setTopicQuery('');
+    setGlobalQuery('');
+    setResults([]);
+    setTopicCards([]);
+    setError(null);
+  }, []);
+
   const toCardView = (c: SearchCard): CardView => ({ ...c });
   const topicCardToView = (c: TopicCard): CardView => ({ ...c, topic_title: null });
+  const toFaqView = (c: TopicCard | SearchCard): FaqView => ({
+    card_id: c.card_id,
+    title: c.title,
+    short_body: c.short_body,
+    body: c.body,
+    needs_review: c.needs_review,
+    topic_title: (c as SearchCard).topic_title ?? null,
+  });
 
   if (!isConfigured) {
     return (
@@ -202,7 +235,9 @@ export default function App() {
           <div className="flex items-center justify-between gap-4">
             <button type="button" onClick={goHome} className="text-left">
               <h1 className="text-xl font-bold tracking-tight sm:text-2xl">{t(locale, 'appTitle')}</h1>
-              <p className="hidden text-sm text-indigo-100 sm:block">{t(locale, 'appSubtitle')}</p>
+              <p className="hidden text-sm text-indigo-100 sm:block">
+                {isFaq ? t(locale, 'faqSubtitle') : t(locale, 'appSubtitle')}
+              </p>
             </button>
             <div className="flex items-center gap-3">
               <LocaleSwitcher locale={locale} onChange={handleLocaleChange} />
@@ -218,6 +253,23 @@ export default function App() {
               </button>
             </div>
           </div>
+
+          {/* Section nav: Knowledge base | Q&A */}
+          <nav className="mt-4 flex gap-1 rounded-lg bg-white/10 p-1 text-sm font-medium sm:w-fit">
+            {(['kb', 'faq'] as Mode[]).map((m) => (
+              <button
+                key={m}
+                type="button"
+                onClick={() => switchMode(m)}
+                className={`flex-1 rounded-md px-4 py-1.5 transition sm:flex-none ${
+                  mode === m ? 'bg-white text-indigo-700 shadow' : 'text-indigo-100 hover:bg-white/10'
+                }`}
+              >
+                {t(locale, m === 'kb' ? 'navKnowledge' : 'navFaq')}
+              </button>
+            ))}
+          </nav>
+
           <label className="mt-3 flex items-center gap-2 text-sm text-indigo-100">
             <input
               type="checkbox"
@@ -239,7 +291,7 @@ export default function App() {
               onClick={goHome}
               className="mb-4 text-sm font-medium text-indigo-600 hover:text-indigo-800"
             >
-              {t(locale, 'backToTopics')}
+              {t(locale, isFaq ? 'backToFaqTopics' : 'backToTopics')}
             </button>
             <h2 className="mb-1 text-2xl font-bold text-slate-900">{selectedTopic.title}</h2>
             {selectedTopic.description && (
@@ -249,7 +301,7 @@ export default function App() {
               <SearchBar
                 value={topicQuery}
                 onChange={setTopicQuery}
-                placeholder={t(locale, 'searchInTopic')}
+                placeholder={t(locale, isFaq ? 'searchInFaqTopic' : 'searchInTopic')}
                 autoFocus
               />
             </div>
@@ -259,6 +311,12 @@ export default function App() {
               <Spinner label={t(locale, 'loading')} />
             ) : topicCards.length === 0 ? (
               <EmptyState locale={locale} />
+            ) : isFaq ? (
+              <div className="grid gap-2.5">
+                {topicCards.map((c) => (
+                  <FaqItem key={c.card_id} card={toFaqView(c)} locale={locale} />
+                ))}
+              </div>
             ) : (
               <div className="grid gap-4">
                 {topicCards.map((c) => (
@@ -274,7 +332,7 @@ export default function App() {
               <SearchBar
                 value={globalQuery}
                 onChange={setGlobalQuery}
-                placeholder={t(locale, 'searchPlaceholder')}
+                placeholder={t(locale, isFaq ? 'searchFaqPlaceholder' : 'searchPlaceholder')}
                 autoFocus
               />
             </div>
@@ -291,20 +349,35 @@ export default function App() {
                   <p className="mb-3 text-sm text-slate-500">
                     {results.length} {t(locale, 'results')}
                   </p>
-                  <div className="grid gap-4">
-                    {results.map((c) => (
-                      <CardItem key={c.card_id} card={toCardView(c)} locale={locale} />
-                    ))}
-                  </div>
+                  {isFaq ? (
+                    <div className="grid gap-2.5">
+                      {results.map((c) => (
+                        <FaqItem key={c.card_id} card={toFaqView(c)} locale={locale} />
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="grid gap-4">
+                      {results.map((c) => (
+                        <CardItem key={c.card_id} card={toCardView(c)} locale={locale} />
+                      ))}
+                    </div>
+                  )}
                 </>
               )
             ) : (
               <>
-                <h2 className="mb-4 text-lg font-semibold text-slate-700">{t(locale, 'topicsHeading')}</h2>
+                <h2 className="mb-4 text-lg font-semibold text-slate-700">
+                  {t(locale, isFaq ? 'faqTopicsHeading' : 'topicsHeading')}
+                </h2>
                 {topicsLoading ? (
                   <Spinner label={t(locale, 'loading')} />
                 ) : (
-                  <TopicGrid topics={topics} locale={locale} onSelect={openTopic} />
+                  <TopicGrid
+                    topics={shownTopics}
+                    locale={locale}
+                    onSelect={openTopic}
+                    countKey={isFaq ? 'questions' : 'cards'}
+                  />
                 )}
               </>
             )}
@@ -313,7 +386,7 @@ export default function App() {
       </main>
 
       <footer className="mx-auto max-w-5xl px-4 py-8 text-center text-xs text-slate-400">
-        kb_dataset_uy_v3_deep · {topics.length} {t(locale, 'topicsHeading').toLowerCase()}
+        {shownTopics.length} {t(locale, isFaq ? 'faqTopicsHeading' : 'topicsHeading').toLowerCase()}
       </footer>
     </div>
   );

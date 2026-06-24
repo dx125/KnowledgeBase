@@ -5,10 +5,12 @@ export function TopicGrid({
   topics,
   locale,
   onSelect,
+  countKey = 'cards',
 }: {
   topics: Topic[];
   locale: Locale;
   onSelect: (topic: Topic) => void;
+  countKey?: 'cards' | 'questions';
 }) {
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -26,7 +28,7 @@ export function TopicGrid({
           <div className="mt-auto flex gap-3 text-xs text-slate-500">
             {topic.card_count != null && (
               <span>
-                {topic.card_count} {t(locale, 'cards')}
+                {topic.card_count} {t(locale, countKey)}
               </span>
             )}
             {topic.clean_message_count != null && (
