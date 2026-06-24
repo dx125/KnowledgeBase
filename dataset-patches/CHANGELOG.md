@@ -3,6 +3,28 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-23 — Q&A (FAQ) section — 19 topics, 71 questions
+
+Added a dedicated **Q&A section** (`dataset-patches/faq.json`, applied by
+`scripts/lib/apply-faq.mjs`). Mined the raw chat (`messages.jsonl`, 145k msgs → 62k
+question-like → 21.7k theme-classified) to rank the **most-asked questions** by theme, then
+authored canonical question→answer cards grounded in that evidence + the existing KB.
+
+- **19 new `topic.faq_*` topics** — the vendor taxonomy has no FAQ topics, so `apply-faq.mjs`
+  registers them into the taxonomy + locale topic tables (the deploy then builds topic rows/
+  translations as usual). Split from KB topics in clients by the `topic.faq_` id prefix.
+- **71 question cards** (`content_category='faq'`, `card_type='faq'`): the question is the
+  `title`, a one-line answer the `short_body`, the full answer the `body`; RU source + EN/ES/DE.
+  Zero-padded card ids (`…q01_…`) give a stable per-topic order. `needs_review` (community-sourced).
+- Counts per topic follow demand, not a fixed quota: residency 7, banking 5, taxes 5, rent 5,
+  money/crypto 4, health 4, work 4, transport 4, documents 4, safety 4, and 2–3 each for
+  property-purchase, education, locations, utilities, shopping, pets, moving, food, community.
+- Because FAQ topics are first-class topics, the existing API already serves the Q&A view:
+  load a topic (`GET /topics/topic.faq_*/cards`), search in it (`/search?topic=`), keyword/
+  plain-text (`/search?q=`). Added an optional `/search?category=faq` scope to the Edge Function
+  (filters to `topic.faq_*`; deploy with `supabase functions deploy kb`). New **Q&A web view**
+  (KB | Q&A tab, topic list → question/answer accordion, search). Dataset → **374 cards** (deployed v7.0).
+
 ## 2026-06-21 — City overview cards (Montevideo, Punta del Este)
 
 The cities that have district/zone breakdowns lacked a descriptive **general-info overview** — the

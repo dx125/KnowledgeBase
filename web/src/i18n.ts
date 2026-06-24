@@ -60,7 +60,15 @@ type StringKey =
   | 'noRelated'
   | 'entitiesLabel'
   | 'glossaryLabel'
-  | 'resourcesLabel';
+  | 'resourcesLabel'
+  | 'navKnowledge'
+  | 'navFaq'
+  | 'faqSubtitle'
+  | 'faqTopicsHeading'
+  | 'searchFaqPlaceholder'
+  | 'searchInFaqTopic'
+  | 'backToFaqTopics'
+  | 'questions';
 
 type Dict = Record<StringKey, string>;
 
@@ -113,6 +121,14 @@ const en: Dict = {
   entitiesLabel: 'Organizations',
   glossaryLabel: 'Terms',
   resourcesLabel: 'Official resources',
+  navKnowledge: 'Knowledge base',
+  navFaq: 'Q&A',
+  faqSubtitle: 'Answers to the questions newcomers ask most, by topic.',
+  faqTopicsHeading: 'Q&A topics',
+  searchFaqPlaceholder: 'Search questions & answers…',
+  searchInFaqTopic: 'Search in this Q&A topic…',
+  backToFaqTopics: '← All Q&A topics',
+  questions: 'questions',
 };
 
 const ru: Dict = {
@@ -164,6 +180,14 @@ const ru: Dict = {
   entitiesLabel: 'Организации',
   glossaryLabel: 'Термины',
   resourcesLabel: 'Официальные ресурсы',
+  navKnowledge: 'База знаний',
+  navFaq: 'Вопросы и ответы',
+  faqSubtitle: 'Ответы на самые частые вопросы новоприбывших, по темам.',
+  faqTopicsHeading: 'Темы вопросов и ответов',
+  searchFaqPlaceholder: 'Поиск по вопросам и ответам…',
+  searchInFaqTopic: 'Поиск внутри темы Q&A…',
+  backToFaqTopics: '← Все темы Q&A',
+  questions: 'вопросов',
 };
 
 const es: Dict = {
@@ -215,6 +239,14 @@ const es: Dict = {
   entitiesLabel: 'Organizaciones',
   glossaryLabel: 'Términos',
   resourcesLabel: 'Recursos oficiales',
+  navKnowledge: 'Base de conocimiento',
+  navFaq: 'Preguntas y respuestas',
+  faqSubtitle: 'Respuestas a las preguntas más frecuentes de los recién llegados, por tema.',
+  faqTopicsHeading: 'Temas de preguntas y respuestas',
+  searchFaqPlaceholder: 'Buscar en preguntas y respuestas…',
+  searchInFaqTopic: 'Buscar en este tema de Q&A…',
+  backToFaqTopics: '← Todos los temas de Q&A',
+  questions: 'preguntas',
 };
 
 const de: Dict = {
@@ -266,6 +298,14 @@ const de: Dict = {
   entitiesLabel: 'Organisationen',
   glossaryLabel: 'Begriffe',
   resourcesLabel: 'Offizielle Ressourcen',
+  navKnowledge: 'Wissensdatenbank',
+  navFaq: 'Fragen & Antworten',
+  faqSubtitle: 'Antworten auf die häufigsten Fragen von Neuankömmlingen, nach Thema.',
+  faqTopicsHeading: 'Fragen-&-Antworten-Themen',
+  searchFaqPlaceholder: 'Fragen & Antworten durchsuchen…',
+  searchInFaqTopic: 'In diesem Q&A-Thema suchen…',
+  backToFaqTopics: '← Alle Q&A-Themen',
+  questions: 'Fragen',
 };
 
 const DICTS: Record<Locale, Dict> = { en, ru, es, de };

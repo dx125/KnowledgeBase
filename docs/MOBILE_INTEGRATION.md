@@ -220,13 +220,14 @@ Locale resolution: `?locale=` → the user's stored default → `ru`.
 | `PUT /me` | Set the user's default locale | body `{ "default_locale": "es" }` |
 | `GET /topics` | List topics with a public card | `locale`, `internal` |
 | `GET /topics/:topicId/cards` | Cards in a topic, importance-ordered | `locale`, `category`, `internal` |
-| `GET /search` | Ranked, synonym-expanded search | `q`, `locale`, `topic`, `limit` (≤100), `offset` |
+| `GET /search` | Ranked, synonym-expanded search | `q`, `locale`, `topic`, `category` (`faq`), `limit` (≤100), `offset` |
 | `GET /cards/:cardId` | One card incl. keywords, subtopics, glossary, entities | `locale` |
 | `GET /version` | Deployed dataset version | — |
 
 Notes:
 - **`category`** values: `advice`, `checklist`, `warning`, `overview`, `instruction`,
-  `community_experience`, `reference`. Omit to get the whole topic (overview/summary first).
+  `community_experience`, `reference`, `faq`. Omit to get the whole topic (overview/summary first).
+  On `/search`, `category=faq` restricts results to the Q&A section (`topic.faq_*` topics) — see §7.
 - Discover topic ids dynamically via `GET /topics` rather than hard-coding
   `topic.real_estate_rent`, so new topics appear without an app update.
 - **`internal=1`** includes internal/unreviewed cards; the service account may use it, so only
@@ -341,7 +342,52 @@ routes. `GET /cards/:cardId` returns the full card (incl. keywords/subtopics) fo
 
 ---
 
-## 7. Security checklist
+## 7. Third feature: the Q&A (FAQ) section
+
+The Q&A section is a set of **dedicated topics** whose id starts with `topic.faq_` (e.g.
+`topic.faq_residency`, `topic.faq_banking`). Each question is a normal card with
+`content_category: "faq"` and `card_type: "faq"` — the **question is the `title`**, a one-line
+answer the `short_body`, and the full answer the `body`. Because they are first-class topics, no new
+routes are needed.
+
+### 7.1 List the Q&A topics, load one topic's questions
+
+`GET /topics` returns KB and Q&A topics together; split them by the id prefix:
+
+```ts
+const all = (await api('/topics?locale=ru')).topics;
+const faqTopics = all.filter((t) => t.topic_id.startsWith('topic.faq_'));   // Q&A section
+const kbTopics  = all.filter((t) => !t.topic_id.startsWith('topic.faq_'));  // knowledge base
+```
+
+Load one Q&A topic's questions (already ordered q01, q02, …) and render an accordion:
+
+```
+GET {BASE}/topics/topic.faq_residency/cards?locale=ru
+```
+
+Each row's `title` is the question and `body` the answer. (`?category=faq` on this route is harmless
+but redundant — every card in a `topic.faq_*` topic is already a FAQ card.)
+
+### 7.2 Search the Q&A only
+
+`GET /search` supports `?category=faq`, which restricts results to the Q&A section:
+
+```
+GET {BASE}/search?q=седула&category=faq&locale=ru          # Q&A across all topics
+GET {BASE}/search?q=налоги&topic=topic.faq_taxes&locale=ru # within one Q&A topic
+```
+
+`category=faq` is implemented as a `topic.faq_*` filter (every and only FAQ cards live there), so if
+your deployed Edge Function build predates it, replicate the one-liner client-side:
+`results.filter(r => r.topic_id.startsWith('topic.faq_'))`.
+
+> The Q&A answers are synthesized from community chat and carry `needs_review: true` — show the same
+> "not legally verified" disclaimer you use for the other cards.
+
+---
+
+## 8. Security checklist
 - The **anon key** is public; embedding it anywhere is fine. It alone cannot read data (→ 401).
 - The **service-account email+password** are secrets — keep them in the backend's secret store
   (env/secret manager), never in the mobile binary, repo, or logs.

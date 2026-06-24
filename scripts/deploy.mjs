@@ -28,6 +28,7 @@ import { config as loadEnv } from 'dotenv';
 import pg from 'pg';
 import { applyCardOverrides } from './lib/apply-overrides.mjs';
 import { applyNewCards } from './lib/apply-new-cards.mjs';
+import { applyFaq } from './lib/apply-faq.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 loadEnv({ path: join(HERE, '..', '.env') }); // single project-root .env
@@ -91,9 +92,27 @@ if (nc.dupes.length)
 if (nc.added)
   console.log(`New cards: added ${nc.added} editorial card(s) (${nc.ids.map((i) => i.split('.').slice(-1)[0]).join(', ')}).`);
 
-// Hash reflects raw input + our overrides + new cards, so the version row tracks all three.
+// Q&A (FAQ) layer: dedicated topic.faq_* topics + one card per question (content
+// _category=faq). Registers the new topics into the taxonomy/locales and appends
+// the cards. See dataset-patches/faq.json + scripts/lib/apply-faq.mjs.
+const FAQ_PATH = join(HERE, '..', 'dataset-patches', 'faq.json');
+const faqRaw = existsSync(FAQ_PATH) ? readFileSync(FAQ_PATH, 'utf-8') : '';
+const fq = applyFaq({ kb, cards, locales, faqPath: FAQ_PATH });
+if (fq.dupeTopics.length)
+  console.warn(`⚠ FAQ topics collide with existing topic_id(s) — skipped: ${fq.dupeTopics.join(', ')}`);
+if (fq.dupeCards.length)
+  console.warn(`⚠ FAQ cards collide with existing card_id(s) — skipped: ${fq.dupeCards.length}`);
+if (fq.topics || fq.questions)
+  console.log(`Q&A: added ${fq.topics} FAQ topic(s) and ${fq.questions} question card(s).`);
+
+// Hash reflects raw input + our overrides + new cards + Q&A, so the version row tracks all.
 const sourceHash = createHash('sha256')
-  .update(FILES.map((f) => raw[f]).join('\n') + '\n@overrides\n' + overridesRaw + '\n@newcards\n' + newCardsRaw)
+  .update(
+    FILES.map((f) => raw[f]).join('\n') +
+      '\n@overrides\n' + overridesRaw +
+      '\n@newcards\n' + newCardsRaw +
+      '\n@faq\n' + faqRaw,
+  )
   .digest('hex');
 
 // --- Topics (from taxonomy + the topic's summary card for message counts) -----

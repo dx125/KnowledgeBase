@@ -173,6 +173,7 @@ export async function searchCards(params: {
   query: string;
   locale: string;
   topicId?: string | null;
+  category?: string | null;
   limit?: number;
   offset?: number;
   includeInternal?: boolean;
@@ -181,9 +182,19 @@ export async function searchCards(params: {
     q: params.query,
     locale: params.locale,
     topic: params.topicId ?? undefined,
+    category: params.category ?? undefined,
     limit: params.limit ?? 20,
     offset: params.offset ?? 0,
     internal: internalFlag(params.includeInternal),
   });
-  return { cards: data.results, total: data.total };
+  // The API gained ?category=faq later; until that Edge Function build is live the
+  // param is ignored server-side, so we also filter client-side. FAQ cards are
+  // exactly the cards under topic.faq_* topics.
+  let cards = data.results;
+  if (params.category === 'faq') cards = cards.filter((c) => isFaqTopic(c.topic_id));
+  return { cards, total: params.category === 'faq' ? cards.length : data.total };
 }
+
+/** FAQ (Q&A) content lives in dedicated topic.faq_* topics. */
+export const isFaqTopic = (topicId: string | null | undefined): boolean =>
+  !!topicId && topicId.startsWith('topic.faq_');
