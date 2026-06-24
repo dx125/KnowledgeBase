@@ -3,6 +3,26 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-23 — Surface Q&A deep-dive into the main KB (+14 reference cards)
+
+The detail- and number-rich info authored for the Q&A deep-dive existed only in the Q&A section
+(`topic.faq_*`). Mirrored it into the **main KB topics** as proper `content_category: reference`
+cards (`new-cards.json`), so it's discoverable in normal browse/search, not just the Q&A view. The
+existing vendor "…что важно знать" reference cards are generic templates and aren't public; these new
+cards are the **specifics-and-numbers** companions and surface as the public reference cards. Each
+reuses real `keyword_ids` and links (`related_card_ids`) to both the generic card and its Q&A twin.
+Dataset → **402 cards** (deployed v7.2):
+
+- **health** (+4): drug equivalents (Vademecum/Farmanuario), missing meds + replacements,
+  agenda vs ER vs emergencia móvil, prescriptions (récipe) & pharmacies.
+- **transport** (+4): STM/BROU-Pospago payment + intercity, traffic rules & driving customs,
+  common fines (UR amounts), the patente car tax via SUCIVE.
+- **banking** (+3): which banks suit an immigrant, holding costs per bank, optimal Mastercard+Visa setup.
+- **taxes** (+3): company-type choice with numbers, taxes per type, running without a contador.
+
+Same caveat as the Q&A cards: figures are community-reported/approximate → `needs_review` + high
+`staleness_risk`.
+
 ## 2026-06-23 — Q&A deep-dive: +14 questions (health, transport, banking, taxes)
 
 Second Q&A batch — deeper, detail- and number-rich answers for four high-demand topics, mined
