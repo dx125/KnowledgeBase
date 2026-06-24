@@ -2199,6 +2199,402 @@
           "body": "Am Anfang helfen Community und Fachleute am schnellsten. In Themenchats stellt man Fragen und sucht per Stichwort — die Antwort steht oft schon in den Threads oder im angehefteten Beitrag. Für Verfahren (Aufenthalt, empresa-Registrierung, Miete) spart die Arbeit mit vertrauenswürdigen gestor, escribano und contador Zeit; ihre Kontakte holt man per Empfehlung. Gib Fremden ohne Prüfung kein Geld und keine Originale. Dieser Q&A-Bereich und die Themenkarten decken ebenfalls die meisten ersten Fragen ab."
         }
       }
+    },
+    {
+      "card_id": "card.faq_health.q05_drug_analogs",
+      "topic_id": "topic.faq_health",
+      "ask_signal": 809,
+      "sensitivity_tags": ["medical"],
+      "text": {
+        "ru": {
+          "title": "Как найти местный аналог привычного лекарства?",
+          "short": "Ищите по действующему веществу (principio activo) в приложениях Vademecum или Farmanuario, затем сверяйте наличие и цену на сайтах аптек.",
+          "body": "Большинство лекарств имеют местный аналог по тому же действующему веществу — название бренда другое, но молекула та же. Удобно искать в приложениях/справочниках Vademecum и Farmanuario uy по действующему веществу, а наличие и цену смотреть на сайтах сетей farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Многие рецептурные препараты есть под международным непатентованным названием (например, sertralina, lamotrigina). Если не уверены в эквиваленте — спросите фармацевта в аптеке или местного врача, особенно по хроническим препаратам. Не занимайтесь самоназначением рецептурных лекарств."
+        },
+        "en": {
+          "title": "How do I find a local equivalent of my usual medication?",
+          "short": "Search by active ingredient (principio activo) in the Vademecum or Farmanuario apps, then check stock and price on pharmacy sites.",
+          "body": "Most medicines have a local equivalent with the same active ingredient — a different brand name but the same molecule. Search by active ingredient in the Vademecum and Farmanuario uy directories/apps, and check availability and price on the chains' sites: farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Many prescription drugs exist under their international generic name (e.g. sertralina, lamotrigina). If unsure about an equivalent, ask the pharmacist or a local doctor, especially for chronic medication. Don't self-prescribe prescription drugs."
+        },
+        "es": {
+          "title": "¿Cómo encuentro el equivalente local de mi medicamento habitual?",
+          "short": "Busca por principio activo en las apps Vademecum o Farmanuario y luego verifica stock y precio en los sitios de las farmacias.",
+          "body": "La mayoría de los medicamentos tienen un equivalente local con el mismo principio activo — otra marca, pero la misma molécula. Conviene buscar por principio activo en los directorios/apps Vademecum y Farmanuario uy, y ver disponibilidad y precio en los sitios de las cadenas: farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Muchos medicamentos de receta existen bajo su nombre genérico internacional (por ejemplo, sertralina, lamotrigina). Si dudas del equivalente, pregunta al farmacéutico o a un médico local, sobre todo con medicación crónica. No te automediques con fármacos de receta."
+        },
+        "de": {
+          "title": "Wie finde ich ein lokales Äquivalent meines gewohnten Medikaments?",
+          "short": "Suche nach dem Wirkstoff (principio activo) in den Apps Vademecum oder Farmanuario und prüfe dann Bestand und Preis auf den Apothekenseiten.",
+          "body": "Die meisten Medikamente haben ein lokales Äquivalent mit demselben Wirkstoff — anderer Markenname, gleiches Molekül. Suche nach Wirkstoff in den Verzeichnissen/Apps Vademecum und Farmanuario uy und prüfe Verfügbarkeit und Preis auf den Seiten der Ketten: farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Viele verschreibungspflichtige Medikamente gibt es unter ihrem internationalen Generikanamen (z. B. sertralina, lamotrigina). Bei Unsicherheit über ein Äquivalent frage den Apotheker oder einen lokalen Arzt, besonders bei Dauermedikation. Verschreibungspflichtige Mittel nicht selbst verordnen."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_health.q06_unavailable_meds",
+      "topic_id": "topic.faq_health",
+      "ask_signal": 300,
+      "sensitivity_tags": ["medical"],
+      "text": {
+        "ru": {
+          "title": "Каких лекарств может не быть и чем их заменить?",
+          "short": "Сложнее найти некоторые формы витаминов/минералов и отдельные препараты; берите небольшой запас с собой, остальное заменяйте по действующему веществу.",
+          "body": "Базовые лекарства есть, но часть привычного найти труднее: некоторые формы цинка/магния и БАДов, отдельные бренды, иногда специфические препараты. Кое-что продаётся не в обычной аптеке (farmacia), а в drogaría, которая готовит препараты по формуле, или в гомеопатических аптеках (например, активированный уголь — carbón activado). Стратегия: на первое время привезите небольшой запас своих лекарств с рецептами/выписками, а на месте подбирайте аналоги по действующему веществу через Vademecum/Farmanuario и фармацевта. Заказ из-за рубежа (iHerb и т.п.) возможен, но дольше и дороже с учётом таможни. По хроническим препаратам сразу найдите местного врача."
+        },
+        "en": {
+          "title": "Which medicines may be missing and how do I replace them?",
+          "short": "Some vitamin/mineral forms and specific drugs are harder to find; bring a small reserve and replace the rest by active ingredient.",
+          "body": "Basic medicines are available, but some familiar things are harder to find: certain zinc/magnesium and supplement forms, specific brands, occasionally niche drugs. Some items aren't in a regular pharmacy (farmacia) but in a drogaría that compounds formulas, or in homeopathic pharmacies (e.g. activated charcoal — carbón activado). Strategy: bring a small reserve of your medication with prescriptions/records for the start, then source equivalents locally by active ingredient via Vademecum/Farmanuario and the pharmacist. Ordering from abroad (iHerb, etc.) is possible but slower and pricier with customs. For chronic medication, find a local doctor early."
+        },
+        "es": {
+          "title": "¿Qué medicamentos pueden faltar y con qué reemplazarlos?",
+          "short": "Algunas formas de vitaminas/minerales y ciertos fármacos cuestan más de conseguir; trae una pequeña reserva y reemplaza el resto por principio activo.",
+          "body": "Los medicamentos básicos están, pero algunas cosas conocidas cuestan más de conseguir: ciertas formas de zinc/magnesio y suplementos, marcas puntuales, a veces fármacos de nicho. Algunos no están en una farmacia común sino en una drogaría que prepara fórmulas, o en farmacias homeopáticas (por ejemplo, el carbón activado). Estrategia: trae una pequeña reserva de tu medicación con recetas/constancias para el inicio y luego consigue equivalentes por principio activo con Vademecum/Farmanuario y el farmacéutico. Pedir del exterior (iHerb, etc.) se puede, pero es más lento y caro con la aduana. Para medicación crónica, busca pronto un médico local."
+        },
+        "de": {
+          "title": "Welche Medikamente könnten fehlen und wie ersetze ich sie?",
+          "short": "Manche Vitamin-/Mineralformen und einzelne Präparate sind schwerer zu finden; bring einen kleinen Vorrat mit und ersetze den Rest über den Wirkstoff.",
+          "body": "Grundmedikamente gibt es, aber manches Vertraute ist schwerer zu finden: bestimmte Zink-/Magnesiumformen und Nahrungsergänzungen, einzelne Marken, gelegentlich Nischenpräparate. Einiges gibt es nicht in einer normalen Apotheke (farmacia), sondern in einer drogaría, die Rezepturen herstellt, oder in homöopathischen Apotheken (z. B. Aktivkohle — carbón activado). Strategie: Bring für den Anfang einen kleinen Vorrat deiner Medikamente mit Rezepten/Nachweisen mit und besorge vor Ort Äquivalente über den Wirkstoff via Vademecum/Farmanuario und den Apotheker. Bestellungen aus dem Ausland (iHerb usw.) sind möglich, aber langsamer und mit Zoll teurer. Bei Dauermedikation früh einen lokalen Arzt suchen."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_health.q07_appointment_vs_emergency",
+      "topic_id": "topic.faq_health",
+      "ask_signal": 129,
+      "sensitivity_tags": ["medical"],
+      "text": {
+        "ru": {
+          "title": "Как записаться к врачу и когда вызывать неотложку?",
+          "short": "Плановый приём — по записи (agenda) через приложение/телефон вашей mutualista или ASSE; неотложку и emergencia móvil используйте только для острых случаев.",
+          "body": "Плановый визит оформляется записью (agenda) — через приложение, сайт или колл-центр вашей mutualista/страховки или ASSE; к узким специалистам запись может быть на несколько дней-недель вперёд. Для несрочного обращайтесь в свою поликлинику (policlínica). Для острых, но не угрожающих жизни состояний есть приёмное отделение (puerta de emergencia) вашего sanatorio. Если плохо дома — вызывайте emergencia móvil (выездная неотложка вашей mutualista, отдельный телефон в договоре). При угрозе жизни звоните 911. Неотложку держите для действительно срочного — рутину закрывайте записью."
+        },
+        "en": {
+          "title": "How do I book a doctor and when do I call emergency?",
+          "short": "Routine care is by booking (agenda) via your mutualista's or ASSE's app/phone; use the ER and the mobile emergency only for acute cases.",
+          "body": "A routine visit is arranged by booking (agenda) — through your mutualista's/insurer's or ASSE's app, site or call centre; specialist slots can be days or weeks out. For non-urgent needs go to your clinic (policlínica). For acute but not life-threatening situations there's your sanatorio's emergency room (puerta de emergencia). If you're unwell at home, call the emergencia móvil (your mutualista's mobile emergency, a dedicated number in your policy). For life-threatening emergencies call 911. Keep emergency services for the genuinely urgent — handle routine care by appointment."
+        },
+        "es": {
+          "title": "¿Cómo saco hora con el médico y cuándo llamo a emergencia?",
+          "short": "La consulta de rutina es con agenda por la app/teléfono de tu mutualista o ASSE; usa la emergencia y la emergencia móvil solo para casos agudos.",
+          "body": "La consulta de rutina se gestiona con agenda — por la app, el sitio o el call center de tu mutualista/seguro o de ASSE; los especialistas pueden tener cupo a días o semanas. Para lo no urgente ve a tu policlínica. Para cuadros agudos pero no graves está la puerta de emergencia de tu sanatorio. Si te sientes mal en casa, llama a la emergencia móvil (la emergencia a domicilio de tu mutualista, con un teléfono propio en el contrato). Ante una urgencia vital llama al 911. Reserva la emergencia para lo realmente urgente — la rutina, con agenda."
+        },
+        "de": {
+          "title": "Wie buche ich einen Arzt und wann rufe ich den Notdienst?",
+          "short": "Routineversorgung läuft per Buchung (agenda) über App/Telefon deiner mutualista oder ASSE; Notaufnahme und mobilen Notdienst nur für akute Fälle.",
+          "body": "Ein Routinebesuch wird per Buchung (agenda) vereinbart — über App, Website oder Callcenter deiner mutualista/Versicherung oder von ASSE; Facharzttermine können Tage oder Wochen entfernt sein. Für Nicht-Dringendes geh in deine policlínica. Für akute, aber nicht lebensbedrohliche Lagen gibt es die Notaufnahme (puerta de emergencia) deines sanatorio. Geht es dir zu Hause schlecht, rufe die emergencia móvil (den mobilen Notdienst deiner mutualista, eine eigene Nummer im Vertrag). Bei Lebensgefahr 911 anrufen. Halte den Notdienst für wirklich Dringendes frei — Routine per Termin."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_health.q08_prescriptions_pharmacies",
+      "topic_id": "topic.faq_health",
+      "ask_signal": 200,
+      "sensitivity_tags": ["medical"],
+      "text": {
+        "ru": {
+          "title": "Как устроены рецепты и аптеки?",
+          "short": "Анальгетики и многое продаётся без рецепта, но антибиотики и рецептурные препараты требуют récipe от местного врача; у mutualista своя аптека со скидками.",
+          "body": "Безрецептурно (sin receta) продаются анальгетики, жаропонижающие и базовые средства; антибиотики и многие препараты (например, для давления) требуют рецепта (récipe) — иностранный рецепт обычно не подходит, нужен от местного врача. Сети аптек — Farmashop, San Roque, Pigalle и др., у многих есть онлайн-заказ и доставка; цены различаются, сравнивайте. У вашей mutualista есть собственная аптека, где препараты для участников часто дешевле. Отдельно есть drogaría (готовит препараты по формуле). Рецепт на хронические лекарства выписывает ваш лечащий врач, иногда сразу на несколько месяцев."
+        },
+        "en": {
+          "title": "How do prescriptions and pharmacies work?",
+          "short": "Painkillers and much else are over the counter, but antibiotics and prescription drugs need a récipe from a local doctor; your mutualista has its own discounted pharmacy.",
+          "body": "Painkillers, fever reducers and basics are over the counter (sin receta); antibiotics and many drugs (e.g. for blood pressure) need a prescription (récipe) — a foreign prescription usually isn't accepted, you need one from a local doctor. Pharmacy chains include Farmashop, San Roque, Pigalle and others, many with online ordering and delivery; prices vary, so compare. Your mutualista has its own pharmacy where medicines are often cheaper for members. Separately there's the drogaría (compounds formulas). A prescription for chronic medication is written by your treating doctor, sometimes for several months at once."
+        },
+        "es": {
+          "title": "¿Cómo funcionan las recetas y las farmacias?",
+          "short": "Los analgésicos y mucho más se venden sin receta, pero los antibióticos y fármacos de receta requieren récipe de un médico local; tu mutualista tiene su propia farmacia con descuentos.",
+          "body": "Sin receta se venden analgésicos, antitérmicos y básicos; los antibióticos y muchos fármacos (por ejemplo, para la presión) requieren récipe — una receta extranjera por lo general no sirve, hace falta una de un médico local. Las cadenas de farmacias incluyen Farmashop, San Roque, Pigalle y otras, muchas con pedido en línea y delivery; los precios varían, conviene comparar. Tu mutualista tiene su propia farmacia donde los medicamentos suelen ser más baratos para los socios. Aparte está la drogaría (prepara fórmulas). La receta de medicación crónica la firma tu médico tratante, a veces por varios meses."
+        },
+        "de": {
+          "title": "Wie funktionieren Rezepte und Apotheken?",
+          "short": "Schmerzmittel und vieles sind rezeptfrei, aber Antibiotika und verschreibungspflichtige Mittel brauchen ein récipe von einem lokalen Arzt; deine mutualista hat eine eigene, günstigere Apotheke.",
+          "body": "Rezeptfrei (sin receta) gibt es Schmerzmittel, Fiebersenker und Basismittel; Antibiotika und viele Medikamente (z. B. gegen Bluthochdruck) brauchen ein Rezept (récipe) — ein ausländisches Rezept wird meist nicht akzeptiert, man braucht eines von einem lokalen Arzt. Apothekenketten sind u. a. Farmashop, San Roque, Pigalle, viele mit Online-Bestellung und Lieferung; die Preise variieren, also vergleichen. Deine mutualista hat eine eigene Apotheke, in der Medikamente für Mitglieder oft günstiger sind. Daneben gibt es die drogaría (stellt Rezepturen her). Ein Rezept für Dauermedikation stellt dein behandelnder Arzt aus, manchmal gleich für mehrere Monate."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_transport.q05_public_transport_detail",
+      "topic_id": "topic.faq_transport",
+      "ask_signal": 589,
+      "sensitivity_tags": [],
+      "text": {
+        "ru": {
+          "title": "Как платить за транспорт и ездить между городами?",
+          "short": "В Монтевидео — карта STM (пополнение в Abitab/киосках, в т.ч. с Prex) или привязка счёта BROU как STM Pospago; межгород — автобусы с терминала Tres Cruces.",
+          "body": "В Монтевидео проезд оплачивают картой STM: её пополняют наличными или через Prex в Abitab, киосках и точках STM, либо привязывают счёт BROU как STM Pospago — тогда деньги списываются автоматически без пополнения. Самой картой Prex в автобусе платить нельзя, только пополнять STM. Разовый билет стоит примерно 46–86 песо в зависимости от линии, и обычно включает пересадки в течение 1–2 часов. В других городах свои системы оплаты. Между городами ходят рейсовые автобусы разных компаний (COT, Agencia Central и др.) — в Монтевидео главный узел терминал Tres Cruces; билеты берут на месте или онлайн. В Буэнос-Айрес — паром (Buquebus, Colonia Express) напрямую или через Колонию. Автобусы ходят строго по расписанию."
+        },
+        "en": {
+          "title": "How do I pay for transport and travel between cities?",
+          "short": "In Montevideo use the STM card (top up at Abitab/kiosks, incl. with Prex) or link a BROU account as STM Pospago; intercity buses leave from the Tres Cruces terminal.",
+          "body": "In Montevideo you pay with the STM card: top it up with cash or via Prex at Abitab, kiosks and STM points, or link a BROU account as STM Pospago so fares are auto-debited without topping up. You can't pay on the bus with the Prex card itself, only top up the STM. A single fare is roughly 46–86 pesos depending on the line and usually includes transfers within 1–2 hours. Other cities have their own fare systems. Between cities, coaches run from various companies (COT, Agencia Central, etc.) — Montevideo's main hub is the Tres Cruces terminal; buy at the terminal or online. To Buenos Aires it's the ferry (Buquebus, Colonia Express) direct or via Colonia. Buses run strictly on schedule."
+        },
+        "es": {
+          "title": "¿Cómo pago el transporte y viajo entre ciudades?",
+          "short": "En Montevideo, la tarjeta STM (recarga en Abitab/kioscos, también con Prex) o vincular una cuenta BROU como STM Pospago; lo interdepartamental sale de la terminal Tres Cruces.",
+          "body": "En Montevideo se paga con la tarjeta STM: se recarga con efectivo o vía Prex en Abitab, kioscos y locales STM, o se vincula una cuenta BROU como STM Pospago para que el boleto se debite automáticamente sin recargar. Con la tarjeta Prex no se puede pagar en el ómnibus, solo recargar la STM. El boleto simple cuesta unos 46–86 pesos según la línea y suele incluir trasbordos dentro de 1–2 horas. Otras ciudades tienen su propio sistema. Entre ciudades hay ómnibus de varias empresas (COT, Agencia Central, etc.) — el nodo principal de Montevideo es la terminal Tres Cruces; se compra en la terminal o en línea. A Buenos Aires, el ferry (Buquebus, Colonia Express) directo o vía Colonia. Los ómnibus salen estrictamente por horario."
+        },
+        "de": {
+          "title": "Wie zahle ich den Verkehr und reise zwischen Städten?",
+          "short": "In Montevideo die STM-Karte (Aufladen bei Abitab/Kiosken, auch mit Prex) oder ein BROU-Konto als STM Pospago verknüpfen; Überlandbusse fahren ab dem Terminal Tres Cruces.",
+          "body": "In Montevideo zahlt man mit der STM-Karte: Aufladen mit Bargeld oder via Prex bei Abitab, Kiosken und STM-Stellen, oder ein BROU-Konto als STM Pospago verknüpfen, sodass Fahrten ohne Aufladen automatisch abgebucht werden. Mit der Prex-Karte selbst kann man im Bus nicht zahlen, nur die STM aufladen. Ein Einzelticket kostet etwa 46–86 Pesos je nach Linie und enthält meist Umstiege innerhalb von 1–2 Stunden. Andere Städte haben eigene Systeme. Zwischen Städten fahren Reisebusse verschiedener Firmen (COT, Agencia Central usw.) — Montevideos Hauptknoten ist das Terminal Tres Cruces; Kauf am Terminal oder online. Nach Buenos Aires per Fähre (Buquebus, Colonia Express) direkt oder über Colonia. Busse fahren strikt nach Fahrplan."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_transport.q06_traffic_rules_customs",
+      "topic_id": "topic.faq_transport",
+      "ask_signal": 310,
+      "sensitivity_tags": ["safety"],
+      "text": {
+        "ru": {
+          "title": "Чем отличаются ПДД и манера вождения?",
+          "short": "Движение правостороннее; на нерегулируемых перекрёстках действует помеха справа, но местные часто едут вольно — держитесь оборонительно.",
+          "body": "Движение правостороннее, ремни обязательны. На перекрёстках без светофора и знаков формально действует правило помехи справа (prioridad a la derecha), но на практике многие едут непредсказуемо, а аварии на нерегулируемых перекрёстках не редкость — снижайте скорость и не рассчитывайте, что вас пропустят. Пешеходов уступают не всегда, даже на размеченных переходах; пешеходных светофоров мало. Поворачивающий обычно должен уступить пешеходу. На светофорах в городе держите сумки и телефон подальше от открытого окна — бывают выхватывания. Иностранные права действуют недолго, затем оформляют местные. В целом стиль расслабленный, но к перекрёсткам и переходам относитесь осторожно."
+        },
+        "en": {
+          "title": "How do the traffic rules and driving style differ?",
+          "short": "Drive on the right; at uncontrolled intersections give way to the right, but locals drive loosely — stay defensive.",
+          "body": "You drive on the right; seatbelts are mandatory. At intersections with no light or sign, the formal rule is give-way-to-the-right (prioridad a la derecha), but in practice many drive unpredictably and crashes at uncontrolled junctions are common — slow down and don't assume you'll be let through. Drivers don't always yield to pedestrians, even at marked crossings; pedestrian lights are scarce. A turning vehicle usually must yield to pedestrians. At city traffic lights keep bags and phone away from an open window — snatching happens. A foreign licence is valid only briefly, then you get a local one. The style is relaxed overall, but treat intersections and crossings with caution."
+        },
+        "es": {
+          "title": "¿En qué difieren las reglas y el estilo de manejo?",
+          "short": "Se maneja por la derecha; en cruces sin señalización rige la prioridad a la derecha, pero los locales manejan suelto — sé defensivo.",
+          "body": "Se maneja por la derecha y el cinturón es obligatorio. En los cruces sin semáforo ni señal, la regla formal es la prioridad a la derecha, pero en la práctica muchos manejan de forma impredecible y los choques en cruces sin control son comunes — baja la velocidad y no des por hecho que te van a ceder el paso. No siempre se cede al peatón, ni en sendas marcadas; hay pocos semáforos peatonales. El que gira suele tener que ceder al peatón. En los semáforos de la ciudad mantén la cartera y el teléfono lejos de la ventanilla abierta — hay arrebatos. La licencia extranjera vale poco tiempo, luego se saca la local. El estilo es relajado en general, pero toma los cruces y las sendas con precaución."
+        },
+        "de": {
+          "title": "Wie unterscheiden sich Verkehrsregeln und Fahrstil?",
+          "short": "Rechtsverkehr; an ungeregelten Kreuzungen gilt rechts vor links, aber Einheimische fahren locker — bleib defensiv.",
+          "body": "Es herrscht Rechtsverkehr, Gurtpflicht. An Kreuzungen ohne Ampel oder Schild gilt formal rechts-vor-links (prioridad a la derecha), in der Praxis fahren aber viele unberechenbar, und Unfälle an ungeregelten Kreuzungen sind häufig — langsamer fahren und nicht darauf bauen, dass man durchgelassen wird. Fußgängern wird nicht immer Vorrang gewährt, auch nicht an markierten Übergängen; Fußgängerampeln sind selten. Wer abbiegt, muss meist dem Fußgänger Vorrang geben. An Stadtampeln Tasche und Handy von einem offenen Fenster fernhalten — Entreißen kommt vor. Ein ausländischer Führerschein gilt nur kurz, danach besorgt man den lokalen. Der Stil ist insgesamt entspannt, doch an Kreuzungen und Übergängen vorsichtig sein."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_transport.q07_fines",
+      "topic_id": "topic.faq_transport",
+      "ask_signal": 395,
+      "sensitivity_tags": ["legal", "financial"],
+      "text": {
+        "ru": {
+          "title": "Какие штрафы самые частые и сколько они стоят?",
+          "short": "Превышение и парковка — самые частые; в Монтевидео штрафы считают в UR (≈1800 песо за единицу): за скорость ориентировочно 5–12 UR, плюс иногда баллы.",
+          "body": "Самые частые — превышение скорости и нарушения парковки. В Монтевидео штрафы измеряют в условных единицах UR (Unidad Reajustable, ориентировочно ~1800 песо за 1 UR, сумма периодически индексируется): за превышение ориентировочно 5 UR (до 20 км/ч), 8 UR (20–30) и 12 UR (свыше 30); парковка с нарушением — несколько базовых единиц. Часть нарушений добавляет баллы (puntos) к водительскому досье. Проверить и оплатить штрафы можно онлайн на сайте интендансии (montevideo.gub.uy), а долги по автомобилю — через SUCIVE (sucive.gub.uy). Точные суммы смотрите в актуальной таблице на сайте интендансии — тарифы меняются."
+        },
+        "en": {
+          "title": "What fines are most common and how much are they?",
+          "short": "Speeding and parking are the most common; Montevideo fines are in UR (≈1,800 pesos per unit): speeding is roughly 5–12 UR, sometimes plus licence points.",
+          "body": "The most common are speeding and parking violations. In Montevideo fines are measured in UR units (Unidad Reajustable, roughly ~1,800 pesos per UR, indexed periodically): speeding is about 5 UR (up to 20 km/h over), 8 UR (20–30) and 12 UR (over 30); a parking violation is several base units. Some offences add points (puntos) to your driving record. Check and pay fines online on the intendencia site (montevideo.gub.uy), and vehicle debts via SUCIVE (sucive.gub.uy). Check the exact amounts in the current table on the intendencia's site — the rates change."
+        },
+        "es": {
+          "title": "¿Qué multas son más comunes y cuánto cuestan?",
+          "short": "Velocidad y estacionamiento son las más comunes; en Montevideo las multas van en UR (≈1.800 pesos por unidad): por velocidad ronda 5–12 UR, a veces con puntos.",
+          "body": "Las más comunes son el exceso de velocidad y las infracciones de estacionamiento. En Montevideo las multas se miden en UR (Unidad Reajustable, alrededor de ~1.800 pesos por UR, se indexa cada tanto): por velocidad ronda 5 UR (hasta 20 km/h de más), 8 UR (20–30) y 12 UR (más de 30); el estacionamiento mal hecho son varias unidades base. Algunas infracciones suman puntos al legajo del conductor. Puedes consultar y pagar multas en línea en el sitio de la intendencia (montevideo.gub.uy), y las deudas del vehículo por SUCIVE (sucive.gub.uy). Verifica los montos exactos en la tabla vigente del sitio de la intendencia — las tarifas cambian."
+        },
+        "de": {
+          "title": "Welche Bußgelder sind am häufigsten und wie hoch?",
+          "short": "Geschwindigkeit und Parken sind am häufigsten; Montevideos Bußgelder rechnen in UR (≈1.800 Pesos pro Einheit): Tempo etwa 5–12 UR, teils plus Punkte.",
+          "body": "Am häufigsten sind Geschwindigkeits- und Parkverstöße. In Montevideo werden Bußgelder in UR-Einheiten gemessen (Unidad Reajustable, etwa ~1.800 Pesos pro UR, periodisch indexiert): Tempoverstoß etwa 5 UR (bis 20 km/h zu viel), 8 UR (20–30) und 12 UR (über 30); ein Parkverstoß sind mehrere Basiseinheiten. Manche Verstöße addieren Punkte (puntos) zum Fahrerregister. Bußgelder prüft und zahlt man online auf der Seite der Intendencia (montevideo.gub.uy), Fahrzeugschulden über SUCIVE (sucive.gub.uy). Die genauen Beträge in der aktuellen Tabelle der Intendencia-Seite prüfen — die Sätze ändern sich."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_transport.q08_car_taxes",
+      "topic_id": "topic.faq_transport",
+      "ask_signal": 200,
+      "sensitivity_tags": ["financial"],
+      "text": {
+        "ru": {
+          "title": "Сколько стоит налог на машину (patente) и как платить?",
+          "short": "Patente — годовой налог через SUCIVE, ориентировочно ~5% оценочной стоимости и снижается с возрастом авто; есть скидки за раннюю/полную оплату.",
+          "body": "Налог на авто — patente de rodados, администрируется через SUCIVE (sucive.gub.uy), где можно проверить и оплатить. Ориентировочно это ~5% оценочной (каталожной) стоимости в год, причём для машин старше ~5 лет оценка для налога постепенно снижается — отчасти поэтому в Уругвае много старых авто в хорошем состоянии. Например, для средней машины это может быть порядка $1500–1700 в год. Есть скидки за своевременную и единовременную годовую оплату (good-payer), можно платить и частями. Отдельно обязателен полис SOA (базовая ответственность, ~$200–250/год через BSE), сверх него — добровольное КАСКО (порядка $1500/год). У электромобилей бывают льготы. Точные суммы считайте по своей машине в SUCIVE."
+        },
+        "en": {
+          "title": "How much is the car tax (patente) and how do I pay?",
+          "short": "Patente is an annual tax via SUCIVE, roughly ~5% of assessed value and falling with the car's age; there are discounts for early/full payment.",
+          "body": "The car tax is the patente de rodados, administered via SUCIVE (sucive.gub.uy) where you can check and pay. It's roughly ~5% of the assessed (catalogue) value per year, and for cars older than ~5 years the taxable assessment gradually drops — partly why Uruguay has so many well-kept old cars. For a mid-range car it can be around $1,500–1,700 a year. There are discounts for paying on time and in a single annual payment (good-payer), and you can pay in instalments. Separately, the SOA policy is compulsory (basic liability, ~$200–250/yr via BSE), with optional comprehensive cover on top (around $1,500/yr). Electric cars may get reductions. Compute the exact amount for your car in SUCIVE."
+        },
+        "es": {
+          "title": "¿Cuánto cuesta la patente del auto y cómo se paga?",
+          "short": "La patente es un impuesto anual por SUCIVE, en torno al ~5% del valor de aforo y baja con la antigüedad del auto; hay descuentos por pago temprano/total.",
+          "body": "El impuesto del auto es la patente de rodados, administrada por SUCIVE (sucive.gub.uy), donde se consulta y se paga. Ronda el ~5% del valor de aforo (catálogo) por año, y para autos de más de ~5 años el aforo gravable baja gradualmente — en parte por eso Uruguay tiene tantos autos viejos bien cuidados. Para un auto medio puede ser del orden de $1.500–1.700 al año. Hay descuentos por pagar en fecha y en un solo pago anual (buen pagador), y se puede pagar en cuotas. Aparte, el SOA es obligatorio (responsabilidad básica, ~$200–250/año por BSE), con un seguro total opcional encima (del orden de $1.500/año). Los autos eléctricos pueden tener beneficios. Calcula el monto exacto de tu auto en SUCIVE."
+        },
+        "de": {
+          "title": "Wie hoch ist die Kfz-Steuer (patente) und wie zahle ich?",
+          "short": "Die patente ist eine Jahressteuer über SUCIVE, grob ~5% des Schätzwerts und sinkt mit dem Alter des Autos; es gibt Rabatte für frühe/volle Zahlung.",
+          "body": "Die Kfz-Steuer ist die patente de rodados, verwaltet über SUCIVE (sucive.gub.uy), wo man prüfen und zahlen kann. Sie liegt bei grob ~5% des Schätz-/Katalogwerts pro Jahr, und für Autos älter als ~5 Jahre sinkt der steuerliche Schätzwert allmählich — mit ein Grund, warum Uruguay so viele gepflegte Altautos hat. Für ein Mittelklasseauto können das etwa $1.500–1.700 im Jahr sein. Es gibt Rabatte für pünktliche und einmalige Jahreszahlung (good-payer), Ratenzahlung ist möglich. Separat ist die SOA-Police Pflicht (Grundhaftpflicht, ~$200–250/Jahr über BSE), darüber optional eine Vollkasko (rund $1.500/Jahr). E-Autos können Vergünstigungen erhalten. Den genauen Betrag für dein Auto in SUCIVE berechnen."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_banking.q06_best_banks_immigrant",
+      "topic_id": "topic.faq_banking",
+      "ask_signal": 3192,
+      "staleness_risk": "high",
+      "sensitivity_tags": ["financial"],
+      "text": {
+        "ru": {
+          "title": "Какие банки удобны иммигранту, а какие нет?",
+          "short": "На старте проще всего Itaú (открывают по временной седуле) и Prex; BROU полезен как государственный; счёт нерезидента в Santander дорог без крупного баланса.",
+          "body": "Для недавно приехавшего практичны: Itaú — открывают по временной седуле, удобное приложение (но бывает возня с itoken); BROU — государственный, широкая сеть и банкоматы RedBrou, часто нужен для зарплат/госвыплат и для empresa unipersonal; Prex — формально не банк, но открывается быстрее всего и без справок (с лимитом ~9800 USD для нерезидентов за весь срок). Менее удобны на старте: Santander — открыть легко, но счёт нерезидента (Cuenta Select No Residente) берёт около $50/мес при балансе ниже порога (~$50 000); HSBC и Scotiabank больше про премиальных/нерезидентов с крупными суммами. Условия часто меняются, поэтому уточняйте актуальные требования и комиссии в отделении перед открытием."
+        },
+        "en": {
+          "title": "Which banks suit an immigrant and which don't?",
+          "short": "To start, Itaú (opens on a temporary cédula) and Prex are easiest; BROU is useful as the state bank; Santander's non-resident account is costly without a large balance.",
+          "body": "For a recent arrival the practical ones are: Itaú — opens on a temporary cédula, nice app (though the itoken can be fiddly); BROU — state-owned, wide network and RedBrou ATMs, often needed for salaries/government payments and for an empresa unipersonal; Prex — not technically a bank but the fastest to open and without certificates (with a ~$9,800 USD lifetime cap for non-residents). Less convenient to start: Santander — easy to open, but the non-resident account (Cuenta Select No Residente) charges about $50/month below a threshold balance (~$50,000); HSBC and Scotiabank lean toward premium/non-residents with larger sums. Terms change often, so confirm the current requirements and fees at a branch before opening."
+        },
+        "es": {
+          "title": "¿Qué bancos le convienen a un inmigrante y cuáles no?",
+          "short": "Para empezar, Itaú (abre con cédula provisoria) y Prex son los más fáciles; BROU es útil como banco estatal; la cuenta de no residente de Santander es cara sin un saldo grande.",
+          "body": "Para un recién llegado son prácticos: Itaú — abre con cédula provisoria, buena app (aunque el itoken a veces da trabajo); BROU — estatal, amplia red y cajeros RedBrou, a menudo necesario para sueldos/pagos del Estado y para una empresa unipersonal; Prex — no es técnicamente un banco pero es el más rápido de abrir y sin certificados (con un tope de ~9.800 USD de por vida para no residentes). Menos cómodos al inicio: Santander — fácil de abrir, pero la cuenta de no residente (Cuenta Select No Residente) cobra unos $50/mes por debajo de cierto saldo (~$50.000); HSBC y Scotiabank apuntan más a premium/no residentes con sumas mayores. Las condiciones cambian seguido, así que confirma requisitos y comisiones vigentes en la sucursal antes de abrir."
+        },
+        "de": {
+          "title": "Welche Banken passen einem Einwanderer und welche nicht?",
+          "short": "Zum Start sind Itaú (Eröffnung mit vorläufiger Cédula) und Prex am einfachsten; BROU ist als Staatsbank nützlich; Santanders Nichtresidenten-Konto ist ohne großes Guthaben teuer.",
+          "body": "Für Neuankömmlinge praktisch sind: Itaú — Eröffnung mit vorläufiger Cédula, gute App (das itoken kann aber zickig sein); BROU — staatlich, weites Netz und RedBrou-Automaten, oft nötig für Gehälter/staatliche Zahlungen und für eine empresa unipersonal; Prex — technisch keine Bank, aber am schnellsten und ohne Nachweise zu eröffnen (mit ~9.800 USD Lebenslimit für Nichtansässige). Weniger praktisch am Anfang: Santander — leicht zu eröffnen, aber das Nichtresidenten-Konto (Cuenta Select No Residente) kostet etwa $50/Monat unter einem Schwellenguthaben (~$50.000); HSBC und Scotiabank zielen eher auf Premium/Nichtansässige mit größeren Summen. Die Konditionen ändern sich oft, prüfe daher vor der Eröffnung aktuelle Anforderungen und Gebühren in der Filiale."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_banking.q07_holding_costs",
+      "topic_id": "topic.faq_banking",
+      "ask_signal": 400,
+      "staleness_risk": "high",
+      "sensitivity_tags": ["financial"],
+      "text": {
+        "ru": {
+          "title": "Сколько стоит обслуживание счёта в разных банках?",
+          "short": "Prex — бесплатно (но ~6% за платежи за границей); счета нерезидента у частных банков платные (Itaú ~$40/мес, Santander ~$50/мес ниже порога баланса).",
+          "body": "Стоимость зависит от банка и от того, резидент вы или нерезидент. Prex: обслуживание бесплатное, но за оплату картой за пределами Уругвая берут около 6% за операцию, плюс лимит ~9800 USD для нерезидентов. Счета нерезидента в частных банках платные: Itaú — порядка $40/мес (можно открыть по временной седуле), Santander (Cuenta Select No Residente) — около $50/мес, если баланс ниже порога (~$50 000). После получения постоянной седулы и местного дохода доступны обычные резидентские счета, у которых условия мягче. Снятие наличных тоже имеет лимиты и комиссии (например, в банкоматах RedBrou — небольшая плата за транзакцию). Точные тарифы сверяйте в банке — они меняются."
+        },
+        "en": {
+          "title": "How much does it cost to hold an account at each bank?",
+          "short": "Prex is free (but ~6% on payments abroad); private banks' non-resident accounts are paid (Itaú ~$40/mo, Santander ~$50/mo below a balance threshold).",
+          "body": "The cost depends on the bank and whether you're a resident or non-resident. Prex: free maintenance, but card payments outside Uruguay carry about 6% per transaction, plus the ~$9,800 USD non-resident cap. Private banks' non-resident accounts are paid: Itaú — around $40/month (can open on a temporary cédula), Santander (Cuenta Select No Residente) — about $50/month if the balance is below a threshold (~$50,000). Once you have a permanent cédula and local income, ordinary resident accounts with easier terms open up. Cash withdrawals also have limits and fees (e.g. RedBrou ATMs charge a small per-transaction fee). Confirm exact tariffs at the bank — they change."
+        },
+        "es": {
+          "title": "¿Cuánto cuesta mantener una cuenta en cada banco?",
+          "short": "Prex es gratis (pero ~6% en pagos en el exterior); las cuentas de no residente de los privados son pagas (Itaú ~$40/mes, Santander ~$50/mes por debajo de cierto saldo).",
+          "body": "El costo depende del banco y de si eres residente o no. Prex: mantenimiento gratis, pero los pagos con tarjeta fuera de Uruguay tienen cerca de 6% por operación, más el tope de ~9.800 USD para no residentes. Las cuentas de no residente de los bancos privados son pagas: Itaú — unos $40/mes (se abre con cédula provisoria), Santander (Cuenta Select No Residente) — unos $50/mes si el saldo está por debajo de un umbral (~$50.000). Con cédula definitiva e ingresos locales se habilitan cuentas de residente comunes, con condiciones más blandas. El retiro de efectivo también tiene límites y comisiones (por ejemplo, los cajeros RedBrou cobran una pequeña tarifa por operación). Confirma las tarifas exactas en el banco — cambian."
+        },
+        "de": {
+          "title": "Was kostet die Kontoführung bei den einzelnen Banken?",
+          "short": "Prex ist kostenlos (aber ~6% bei Zahlungen im Ausland); Nichtresidenten-Konten der Privatbanken kosten (Itaú ~$40/Mt., Santander ~$50/Mt. unter einer Guthabengrenze).",
+          "body": "Die Kosten hängen von der Bank und davon ab, ob du ansässig bist oder nicht. Prex: kostenlose Führung, aber Kartenzahlungen außerhalb Uruguays kosten etwa 6% pro Transaktion, dazu das ~9.800-USD-Limit für Nichtansässige. Nichtresidenten-Konten der Privatbanken kosten: Itaú — rund $40/Monat (Eröffnung mit vorläufiger Cédula), Santander (Cuenta Select No Residente) — etwa $50/Monat, wenn das Guthaben unter einer Schwelle liegt (~$50.000). Mit dauerhafter Cédula und lokalem Einkommen öffnen sich normale Residenten-Konten mit milderen Bedingungen. Auch Bargeldabhebungen haben Limits und Gebühren (z. B. erheben RedBrou-Automaten eine kleine Gebühr pro Transaktion). Genaue Tarife bei der Bank prüfen — sie ändern sich."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_banking.q08_optimal_card_setup",
+      "topic_id": "topic.faq_banking",
+      "ask_signal": 300,
+      "sensitivity_tags": ["financial"],
+      "text": {
+        "ru": {
+          "title": "Какой набор карт оптимален, чтобы не держать все банки?",
+          "short": "Базовый микс — Prex (Mastercard) + карта Visa местного банка; этого хватает для приёма везде, снятия наличных и скидок, без зоопарка карт.",
+          "body": "Магазины и сервисы по-разному принимают Visa и Mastercard (а MercadoLibre иногда отвергает иностранные карты), поэтому удобный минимум — одна Mastercard и одна Visa. Частый рабочий микс: Prex (Mastercard, бесплатная, хороший курс, без комиссии за снятие) плюс дебетовая Visa местного банка (Itaú или Maestro/Visa BROU) для платежей, снятия и местных операций. Скидки и кэшбэк в супермаркетах и заправках банки дают по своим картам и в определённые дни (нередко 15–20%), поэтому выгодную карту выбирают под места, где вы реально тратите. Заводить карты всех банков смысла нет — двух эмитентов обычно достаточно, чтобы закрыть приём, наличные и основные скидки."
+        },
+        "en": {
+          "title": "What card setup is optimal so I don't hold every bank?",
+          "short": "A base mix is Prex (Mastercard) + a local bank's Visa; that covers acceptance everywhere, cash withdrawals and discounts without a zoo of cards.",
+          "body": "Shops and services accept Visa and Mastercard differently (and MercadoLibre sometimes rejects foreign cards), so a handy minimum is one Mastercard and one Visa. A common working mix: Prex (Mastercard, free, good rate, no withdrawal fee) plus a local bank debit Visa (Itaú, or BROU Maestro/Visa) for payments, withdrawals and local operations. Banks give supermarket and fuel discounts/cashback on their own cards and on specific days (often 15–20%), so pick the rewarding card for where you actually spend. There's no point holding cards from every bank — two issuers usually cover acceptance, cash and the main discounts."
+        },
+        "es": {
+          "title": "¿Qué set de tarjetas es óptimo para no tener todos los bancos?",
+          "short": "Un mix base es Prex (Mastercard) + una Visa de un banco local; cubre aceptación en todos lados, retiro de efectivo y descuentos sin un zoológico de tarjetas.",
+          "body": "Los comercios aceptan Visa y Mastercard de forma distinta (y MercadoLibre a veces rechaza tarjetas extranjeras), así que un mínimo cómodo es una Mastercard y una Visa. Un mix que funciona: Prex (Mastercard, gratis, buen tipo de cambio, sin comisión por retiro) más una Visa de débito de un banco local (Itaú, o Maestro/Visa de BROU) para pagos, retiros y operaciones locales. Los bancos dan descuentos/cashback en supermercados y combustible con sus propias tarjetas y en días puntuales (a menudo 15–20%), así que elige la tarjeta conveniente según dónde gastas de verdad. No tiene sentido tener tarjetas de todos los bancos — con dos emisores suele alcanzar para cubrir aceptación, efectivo y los descuentos principales."
+        },
+        "de": {
+          "title": "Welches Karten-Setup ist optimal, um nicht jede Bank zu halten?",
+          "short": "Eine Basis ist Prex (Mastercard) + eine Visa einer lokalen Bank; das deckt Akzeptanz überall, Bargeld und Rabatte, ohne einen Karten-Zoo.",
+          "body": "Geschäfte und Dienste akzeptieren Visa und Mastercard unterschiedlich (und MercadoLibre lehnt ausländische Karten manchmal ab), daher ist ein praktisches Minimum eine Mastercard und eine Visa. Ein bewährter Mix: Prex (Mastercard, kostenlos, guter Kurs, keine Abhebegebühr) plus eine Debit-Visa einer lokalen Bank (Itaú oder BROU Maestro/Visa) für Zahlungen, Abhebungen und lokale Vorgänge. Banken geben Supermarkt- und Tankrabatte/Cashback auf ihre eigenen Karten und an bestimmten Tagen (oft 15–20%), wähle also die lohnende Karte nach deinen tatsächlichen Ausgabeorten. Karten aller Banken zu halten lohnt nicht — zwei Emittenten decken meist Akzeptanz, Bargeld und die wichtigsten Rabatte ab."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_taxes.q06_choose_company_type",
+      "topic_id": "topic.faq_taxes",
+      "ask_signal": 976,
+      "staleness_risk": "high",
+      "sensitivity_tags": ["financial", "legal"],
+      "text": {
+        "ru": {
+          "title": "Как выбрать и открыть компанию (с цифрами)?",
+          "short": "Монотрибуто/Literal E — для малого оборота (лимиты ~20k и ~40k USD/год); empresa unipersonal — гибче; SAS обычно выгоднее примерно от $5000/мес.",
+          "body": "Empresa unipersonal — это ИП с подвидами по обороту: Monotributo (минимальные ежемесячные, лимит ~20 000 USD/год, для услуг физлицам/рознице — не подходит для счетов иностранным юрлицам) и Literal E (чуть выше платежи, лимит ~40 000 USD/год). Выше лимитов — общий режим unipersonal с прогрессивным налогом. Unipersonal открывается за ~неделю, администрировать дешевле (около $130/мес с бухгалтером). SAS — упрощённое акционерное общество: открывается ~2 месяца, администрирование дороже (~$400–500/мес), но при экспорте услуг (особенно IT) даёт 0% НДС и 0% налога на прибыль, оставляя в основном соцвзносы. По общему мнению, примерно от $5000/мес дохода SAS выгоднее unipersonal. Выбор зависит от оборота, типа клиентов (физлица/юрлица, Уругвай/экспорт) и того, нужен ли вам контракт на компанию — просчитайте сценарий с contador до регистрации."
+        },
+        "en": {
+          "title": "How do I choose and open a company (with numbers)?",
+          "short": "Monotributo/Literal E suit small turnover (limits ~$20k and ~$40k/yr); the empresa unipersonal is more flexible; a SAS usually wins from about $5,000/month.",
+          "body": "An empresa unipersonal is a sole trader with sub-regimes by turnover: Monotributo (minimal monthly payments, ~$20,000 USD/yr limit, for services to individuals/retail — not suitable for invoicing foreign companies) and Literal E (slightly higher payments, ~$40,000 USD/yr limit). Above the limits is the general unipersonal regime with progressive tax. A unipersonal opens in ~a week and is cheaper to run (around $130/month with an accountant). A SAS is a simplified joint-stock company: ~2 months to open, pricier admin (~$400–500/month), but for exported services (especially IT) it gives 0% VAT and 0% profit tax, leaving mainly social contributions. The common view is that from roughly $5,000/month a SAS beats a unipersonal. The choice depends on turnover, client type (individuals/companies, Uruguay/export) and whether you need the contract in the company's name — model your case with a contador before registering."
+        },
+        "es": {
+          "title": "¿Cómo elijo y abro una empresa (con números)?",
+          "short": "Monotributo/Literal E sirven para facturación chica (topes ~20k y ~40k USD/año); la empresa unipersonal es más flexible; una SAS suele convenir desde ~$5.000/mes.",
+          "body": "Una empresa unipersonal es un unipersonal con subregímenes por facturación: Monotributo (pagos mensuales mínimos, tope ~20.000 USD/año, para servicios a personas/comercio — no sirve para facturar a empresas del exterior) y Literal E (pagos algo mayores, tope ~40.000 USD/año). Por encima de los topes va el régimen general unipersonal con impuesto progresivo. Una unipersonal se abre en ~una semana y es más barata de administrar (alrededor de $130/mes con contador). Una SAS es una sociedad por acciones simplificada: ~2 meses para abrir, administración más cara (~$400–500/mes), pero por servicios exportados (sobre todo IT) da 0% de IVA y 0% de impuesto a la renta, dejando sobre todo los aportes sociales. La idea común es que desde ~$5.000/mes una SAS le gana a la unipersonal. La elección depende de la facturación, el tipo de cliente (personas/empresas, Uruguay/exportación) y de si necesitas el contrato a nombre de la empresa — modela tu caso con un contador antes de registrar."
+        },
+        "de": {
+          "title": "Wie wähle und gründe ich eine Firma (mit Zahlen)?",
+          "short": "Monotributo/Literal E passen für kleinen Umsatz (Grenzen ~20k und ~40k USD/Jahr); die empresa unipersonal ist flexibler; eine SAS lohnt meist ab ca. $5.000/Monat.",
+          "body": "Eine empresa unipersonal ist ein Einzelunternehmen mit Unterregimen nach Umsatz: Monotributo (minimale Monatszahlungen, ~20.000 USD/Jahr-Grenze, für Dienste an Privatpersonen/Handel — nicht geeignet, um an ausländische Firmen zu fakturieren) und Literal E (etwas höhere Zahlungen, ~40.000 USD/Jahr-Grenze). Über den Grenzen gilt das allgemeine unipersonal-Regime mit progressiver Steuer. Eine unipersonal eröffnet in ~einer Woche und ist günstiger zu führen (rund $130/Monat mit Buchhalter). Eine SAS ist eine vereinfachte Aktiengesellschaft: ~2 Monate Eröffnung, teurere Verwaltung (~$400–500/Monat), aber für exportierte Dienste (besonders IT) 0% Mehrwertsteuer und 0% Gewinnsteuer, sodass vor allem Sozialbeiträge bleiben. Verbreitet ist die Ansicht, dass ab etwa $5.000/Monat eine SAS die unipersonal schlägt. Die Wahl hängt von Umsatz, Kundentyp (Privat/Firmen, Uruguay/Export) und davon ab, ob der Vertrag auf die Firma laufen muss — modelliere deinen Fall mit einem contador vor der Registrierung."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_taxes.q07_taxes_per_company_type",
+      "topic_id": "topic.faq_taxes",
+      "ask_signal": 500,
+      "staleness_risk": "high",
+      "sensitivity_tags": ["financial", "legal"],
+      "text": {
+        "ru": {
+          "title": "Сколько налогов и взносов платят разные типы компаний?",
+          "short": "Везде есть фиксированный взнос в BPS (+ Fonasa); экспорт услуг — 0% НДС; на доход: IRPF (прогрессивно) или IRAE (12–25%), у SAS на IT-экспорт часто 0% на прибыль.",
+          "body": "Общая структура — ежемесячный фиксированный взнос в BPS (соцобеспечение) плюс Fonasa (медицина, опционально/по составу семьи), и налог на доход. На экспорт услуг НДС (IVA) — 0%. По доходу: у unipersonal это либо IRPF (прогрессивная шкала, растёт с дохода), либо IRAE (налог на прибыль, ~12% для малых и до 25%) — режим зависит от деталей (например, для IT обсуждается зависимость от того, чей рабочий компьютер). У SAS при экспорте услуг (особенно IT) прибыль часто облагается 0%, остаются в основном соцвзносы; локальная прибыль внутри Уругвая — 25% (IRAE). Монотрибуто/Literal E платят упрощённый фиксированный взнос вместо общих налогов. Конкретные суммы BPS индексируются (минимум — несколько тысяч песо в месяц), а трактовки IRPF/IRAE расходятся даже у бухгалтеров — обязательно считайте с contador."
+        },
+        "en": {
+          "title": "How much tax and contributions do the company types pay?",
+          "short": "All pay a fixed BPS contribution (+ Fonasa); exported services are 0% VAT; on income: IRPF (progressive) or IRAE (12–25%), and a SAS on IT export often 0% profit tax.",
+          "body": "The general structure is a monthly fixed BPS (social security) contribution plus Fonasa (healthcare, optional/by family size) and an income tax. On exported services VAT (IVA) is 0%. On income: a unipersonal pays either IRPF (a progressive scale rising with income) or IRAE (profit tax, ~12% for small and up to 25%) — the regime depends on the details (for IT, for instance, it's debated whether it hinges on whose work computer it is). A SAS exporting services (especially IT) often has profit taxed at 0%, leaving mainly social contributions; profit arising inside Uruguay is 25% (IRAE). Monotributo/Literal E pay a simplified fixed contribution instead of the general taxes. The exact BPS amounts are indexed (the minimum is a few thousand pesos a month), and IRPF/IRAE interpretations differ even among accountants — always compute it with a contador."
+        },
+        "es": {
+          "title": "¿Cuántos impuestos y aportes pagan los tipos de empresa?",
+          "short": "Todos pagan un aporte fijo al BPS (+ Fonasa); los servicios exportados son 0% de IVA; sobre la renta: IRPF (progresivo) o IRAE (12–25%), y una SAS por exportar IT suele 0% de renta.",
+          "body": "La estructura general es un aporte mensual fijo al BPS (seguridad social) más Fonasa (salud, opcional/según grupo familiar) y un impuesto a la renta. Sobre servicios exportados el IVA es 0%. Sobre la renta: una unipersonal paga IRPF (escala progresiva que sube con el ingreso) o IRAE (impuesto a la renta empresarial, ~12% para chicos y hasta 25%) — el régimen depende de los detalles (en IT, por ejemplo, se discute si depende de quién es la computadora de trabajo). Una SAS que exporta servicios (sobre todo IT) suele tener la renta gravada al 0%, quedando sobre todo los aportes sociales; la renta generada dentro de Uruguay es 25% (IRAE). Monotributo/Literal E pagan un aporte fijo simplificado en lugar de los impuestos generales. Los montos exactos del BPS se indexan (el mínimo es de unos pocos miles de pesos al mes), y las interpretaciones de IRPF/IRAE difieren incluso entre contadores — siempre calcúlalo con un contador."
+        },
+        "de": {
+          "title": "Wie viel Steuern und Beiträge zahlen die Firmentypen?",
+          "short": "Alle zahlen einen festen BPS-Beitrag (+ Fonasa); exportierte Dienste sind 0% MwSt.; auf Einkommen: IRPF (progressiv) oder IRAE (12–25%), eine SAS bei IT-Export oft 0% Gewinnsteuer.",
+          "body": "Die Grundstruktur ist ein monatlicher fester BPS-Beitrag (Sozialversicherung) plus Fonasa (Gesundheit, optional/nach Familiengröße) und eine Einkommensteuer. Auf exportierte Dienste beträgt die MwSt. (IVA) 0%. Auf das Einkommen: Eine unipersonal zahlt entweder IRPF (progressiver Tarif, steigt mit dem Einkommen) oder IRAE (Gewinnsteuer, ~12% für Kleine und bis 25%) — das Regime hängt von Details ab (bei IT ist z. B. umstritten, ob es darauf ankommt, wem der Arbeitscomputer gehört). Eine SAS, die Dienste exportiert (besonders IT), hat den Gewinn oft mit 0% besteuert, sodass vor allem Sozialbeiträge bleiben; innerhalb Uruguays entstehender Gewinn ist 25% (IRAE). Monotributo/Literal E zahlen einen vereinfachten Festbeitrag statt der allgemeinen Steuern. Die genauen BPS-Beträge sind indexiert (das Minimum sind einige tausend Pesos im Monat), und IRPF/IRAE-Auslegungen unterscheiden sich selbst unter Buchhaltern — rechne es immer mit einem contador."
+        }
+      }
+    },
+    {
+      "card_id": "card.faq_taxes.q08_without_accountant",
+      "topic_id": "topic.faq_taxes",
+      "ask_signal": 300,
+      "sensitivity_tags": ["financial", "legal"],
+      "text": {
+        "ru": {
+          "title": "Можно ли вести компанию без бухгалтера?",
+          "short": "Для монотрибуто/Literal E и простого unipersonal — реально самому: взносы BPS фиксированы, фактуры выставляются электронно на сайте DGI; для SAS обычно нужен contador.",
+          "body": "Для простых режимов вести дела самому реально: государственные системы DGI и BPS электронные и довольно прозрачные. Взнос в BPS фиксированный (его можно уточнить прямо в BPS, например в офисе на 18 de Julio), а электронные фактуры выставляются на сайте DGI с указанием суммы (для экспорта IT-услуг налоговая часть нередко 0). У монотрибуто/Literal E отчётность минимальна. Минусы самостоятельного ведения — риск ошибки (придётся доплатить штраф) и время на разбирательство с режимами IRPF/IRAE. Для SAS и общего режима unipersonal администрирование сложнее, и большинство всё же берёт contador (около $130/мес для unipersonal, $400–500/мес для SAS) — это недорого относительно цены ошибки. Разумный путь: проконсультироваться с contador на старте, а рутину при простом режиме вести самому."
+        },
+        "en": {
+          "title": "Can I run a company without an accountant?",
+          "short": "For monotributo/Literal E and a simple unipersonal it's doable yourself: BPS contributions are fixed and invoices are issued electronically on the DGI site; a SAS usually needs a contador.",
+          "body": "For the simple regimes, doing it yourself is realistic: the state DGI and BPS systems are electronic and fairly transparent. The BPS contribution is fixed (you can check it directly at BPS, e.g. the 18 de Julio office), and electronic invoices are issued on the DGI site with the amount entered (for exported IT services the tax part is often 0). Monotributo/Literal E have minimal reporting. The downsides of DIY are the risk of a mistake (you'll pay a fine) and time spent untangling the IRPF/IRAE regimes. For a SAS and the general unipersonal regime admin is harder, and most still hire a contador (around $130/month for a unipersonal, $400–500/month for a SAS) — cheap relative to the cost of an error. A sensible path: consult a contador at the start, then handle the routine yourself under a simple regime."
+        },
+        "es": {
+          "title": "¿Puedo llevar una empresa sin contador?",
+          "short": "Para monotributo/Literal E y una unipersonal simple es posible solo: los aportes al BPS son fijos y las facturas se emiten en línea en el sitio de la DGI; una SAS suele necesitar contador.",
+          "body": "Para los regímenes simples, hacerlo solo es realista: los sistemas estatales DGI y BPS son electrónicos y bastante transparentes. El aporte al BPS es fijo (se puede consultar directo en el BPS, por ejemplo en la oficina de 18 de Julio), y las facturas electrónicas se emiten en el sitio de la DGI con el monto ingresado (para servicios de IT exportados la parte impositiva suele ser 0). Monotributo/Literal E tienen reportes mínimos. Las contras de hacerlo solo son el riesgo de error (pagarás una multa) y el tiempo en entender los regímenes IRPF/IRAE. Para una SAS y el régimen general de unipersonal la administración es más compleja, y la mayoría igual contrata un contador (alrededor de $130/mes para una unipersonal, $400–500/mes para una SAS) — barato frente al costo de un error. Un camino sensato: consultar un contador al inicio y luego llevar la rutina tú mismo con un régimen simple."
+        },
+        "de": {
+          "title": "Kann ich eine Firma ohne Buchhalter führen?",
+          "short": "Für Monotributo/Literal E und eine einfache unipersonal ist das selbst machbar: BPS-Beiträge sind fest und Rechnungen werden elektronisch auf der DGI-Seite erstellt; eine SAS braucht meist einen contador.",
+          "body": "Für die einfachen Regime ist es realistisch, es selbst zu machen: Die staatlichen Systeme DGI und BPS sind elektronisch und recht transparent. Der BPS-Beitrag ist fest (man kann ihn direkt bei BPS prüfen, z. B. im Büro 18 de Julio), und elektronische Rechnungen werden auf der DGI-Seite mit eingetragenem Betrag erstellt (für exportierte IT-Dienste ist der Steueranteil oft 0). Monotributo/Literal E haben minimale Meldepflichten. Nachteile des Selbermachens sind das Fehlerrisiko (man zahlt ein Bußgeld) und die Zeit, die IRPF/IRAE-Regime zu durchdringen. Für eine SAS und das allgemeine unipersonal-Regime ist die Verwaltung schwieriger, und die meisten nehmen doch einen contador (rund $130/Monat für eine unipersonal, $400–500/Monat für eine SAS) — günstig im Vergleich zu den Fehlerkosten. Sinnvoll: zu Beginn einen contador konsultieren und die Routine dann unter einem einfachen Regime selbst erledigen."
+        }
+      }
     }
   ]
 }

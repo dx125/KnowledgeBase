@@ -3,6 +3,28 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-23 — Q&A deep-dive: +14 questions (health, transport, banking, taxes)
+
+Second Q&A batch — deeper, detail- and number-rich answers for four high-demand topics, mined
+from the chat (drug-analog apps, SUCIVE patente, Montevideo fine schedule, STM/BROU-Pospago payment,
+Itaú/Santander non-resident fees, monotributo/Literal-E limits, SAS-vs-unipersonal breakpoint). Each
+of the four topics goes from 4–5 to **8 questions**; dataset → **388 cards** (deployed v7.1):
+
+- **faq_health** (+4): local drug equivalents by active ingredient (Vademecum/Farmanuario), meds that
+  are hard to find + how to replace them, booking (agenda) vs ER vs emergencia móvil, prescriptions
+  (récipe) & pharmacy chains.
+- **faq_transport** (+4): paying with STM / BROU Pospago + intercity from Tres Cruces, traffic rules
+  & local driving customs (prioridad a la derecha, weak pedestrian yielding), most common fines
+  (speeding in UR, parking, points), the patente car tax via SUCIVE (~5% of value, age discount).
+- **faq_banking** (+3): which banks suit an immigrant vs not (Itaú/BROU/Prex vs costly non-resident
+  accounts), holding costs per bank, an optimal Mastercard+Visa card setup instead of holding every bank.
+- **faq_taxes** (+3): choosing & opening a company *with numbers* (monotributo ~$20k / Literal E ~$40k
+  limits, SAS from ~$5k/mo), taxes & contributions per type (BPS + Fonasa, 0% export VAT, IRPF vs IRAE,
+  SAS 0% IT-export profit), and running the paperwork without an accountant.
+
+Figures are community-reported and approximate; these carry `needs_review` + high `staleness_risk`
+(rates/limits change yearly) — verify with a contador / official source before acting.
+
 ## 2026-06-23 — Q&A (FAQ) section — 19 topics, 71 questions
 
 Added a dedicated **Q&A section** (`dataset-patches/faq.json`, applied by
