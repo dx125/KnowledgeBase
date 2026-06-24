@@ -1,0 +1,1709 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-06-24T03:53:46.611Z",
+  "source_messages": "D:/Code/MyGitRepos/Settle/tools/telegram-export/exports/general/messages.jsonl",
+  "method": "ask_frequency = count of question-like source messages matching >=2 probe terms (1 if a single probe) derived from each answer-card RU title; counts overlap across cards (relative-demand signal). See scripts/build-questions.mjs.",
+  "count": 85,
+  "questions": [
+    {
+      "question_id": "q.faq_banking.q03_what_is_prex",
+      "answer_card_id": "card.faq_banking.q03_what_is_prex",
+      "topic_id": "topic.faq_banking",
+      "ask_frequency": 472,
+      "locales": {
+        "ru": [
+          "Что такое Prex и зачем он нужен?"
+        ],
+        "en": [
+          "What is Prex and why would I need it?"
+        ],
+        "es": [
+          "¿Qué es Prex y para qué sirve?"
+        ],
+        "de": [
+          "Was ist Prex und wozu brauche ich es?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_transport.q08_car_taxes",
+      "answer_card_id": "card.faq_transport.q08_car_taxes",
+      "topic_id": "topic.faq_transport",
+      "ask_frequency": 241,
+      "locales": {
+        "ru": [
+          "Сколько стоит налог на машину (patente) и как платить?"
+        ],
+        "en": [
+          "How much is the car tax (patente) and how do I pay?"
+        ],
+        "es": [
+          "¿Cuánto cuesta la patente del auto y cómo se paga?"
+        ],
+        "de": [
+          "Wie hoch ist die Kfz-Steuer (patente) und wie zahle ich?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_taxes.q03_personal_taxes",
+      "answer_card_id": "card.faq_taxes.q03_personal_taxes",
+      "topic_id": "topic.faq_taxes",
+      "ask_frequency": 212,
+      "locales": {
+        "ru": [
+          "Какие налоги платит физлицо в Уругвае?"
+        ],
+        "en": [
+          "What taxes does an individual pay in Uruguay?"
+        ],
+        "es": [
+          "¿Qué impuestos paga una persona física en Uruguay?"
+        ],
+        "de": [
+          "Welche Steuern zahlt eine Privatperson in Uruguay?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_banking.q02_which_bank",
+      "answer_card_id": "card.faq_banking.q02_which_bank",
+      "topic_id": "topic.faq_banking",
+      "ask_frequency": 201,
+      "locales": {
+        "ru": [
+          "Какой банк выбрать: Itaú, Santander, BROU?"
+        ],
+        "en": [
+          "Which bank should I choose: Itaú, Santander or BROU?"
+        ],
+        "es": [
+          "¿Qué banco elegir: Itaú, Santander o BROU?"
+        ],
+        "de": [
+          "Welche Bank wählen: Itaú, Santander oder BROU?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_banking.q05_transfer_money",
+      "answer_card_id": "card.faq_banking.q05_transfer_money",
+      "topic_id": "topic.faq_banking",
+      "ask_frequency": 177,
+      "locales": {
+        "ru": [
+          "Как перевести деньги в Уругвай и обратно?"
+        ],
+        "en": [
+          "How do I move money into and out of Uruguay?"
+        ],
+        "es": [
+          "¿Cómo traigo y saco dinero de Uruguay?"
+        ],
+        "de": [
+          "Wie bringe ich Geld nach Uruguay und wieder heraus?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_banking.q01_open_account",
+      "answer_card_id": "card.faq_banking.q01_open_account",
+      "topic_id": "topic.faq_banking",
+      "ask_frequency": 160,
+      "locales": {
+        "ru": [
+          "Как открыть банковский счёт в Уругвае?"
+        ],
+        "en": [
+          "How do I open a bank account in Uruguay?"
+        ],
+        "es": [
+          "¿Cómo abro una cuenta bancaria en Uruguay?"
+        ],
+        "de": [
+          "Wie eröffne ich ein Bankkonto in Uruguay?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_money_crypto.q01_transfer",
+      "answer_card_id": "card.faq_money_crypto.q01_transfer",
+      "topic_id": "topic.faq_money_crypto",
+      "ask_frequency": 126,
+      "locales": {
+        "ru": [
+          "Как перевести деньги в Уругвай?"
+        ],
+        "en": [
+          "How do I send money to Uruguay?"
+        ],
+        "es": [
+          "¿Cómo envío dinero a Uruguay?"
+        ],
+        "de": [
+          "Wie überweise ich Geld nach Uruguay?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_work.q01_find_job",
+      "answer_card_id": "card.faq_work.q01_find_job",
+      "topic_id": "topic.faq_work",
+      "ask_frequency": 124,
+      "locales": {
+        "ru": [
+          "Легко ли найти работу в Уругвае?"
+        ],
+        "en": [
+          "Is it easy to find work in Uruguay?"
+        ],
+        "es": [
+          "¿Es fácil encontrar trabajo en Uruguay?"
+        ],
+        "de": [
+          "Ist es leicht, in Uruguay Arbeit zu finden?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_locations.q01_which_neighbourhood",
+      "answer_card_id": "card.faq_locations.q01_which_neighbourhood",
+      "topic_id": "topic.faq_locations",
+      "ask_frequency": 114,
+      "locales": {
+        "ru": [
+          "В каком районе лучше жить и какие безопасные?"
+        ],
+        "en": [
+          "Which neighbourhood is best and which are safe?"
+        ],
+        "es": [
+          "¿Qué barrio es mejor y cuáles son seguros?"
+        ],
+        "de": [
+          "Welches Viertel ist am besten und welche sind sicher?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_taxes.q05_worldwide_income",
+      "answer_card_id": "card.faq_taxes.q05_worldwide_income",
+      "topic_id": "topic.faq_taxes",
+      "ask_frequency": 112,
+      "locales": {
+        "ru": [
+          "Облагается ли мировой доход в Уругвае?"
+        ],
+        "en": [
+          "Is worldwide income taxed in Uruguay?"
+        ],
+        "es": [
+          "¿Se grava la renta mundial en Uruguay?"
+        ],
+        "de": [
+          "Wird das Welteinkommen in Uruguay besteuert?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_money_crypto.q04_wise",
+      "answer_card_id": "card.faq_money_crypto.q04_wise",
+      "topic_id": "topic.faq_money_crypto",
+      "ask_frequency": 103,
+      "locales": {
+        "ru": [
+          "Работает ли Wise в Уругвае?"
+        ],
+        "en": [
+          "Does Wise work in Uruguay?"
+        ],
+        "es": [
+          "¿Funciona Wise en Uruguay?"
+        ],
+        "de": [
+          "Funktioniert Wise in Uruguay?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_documents.q04_no_criminal_record",
+      "answer_card_id": "card.faq_documents.q04_no_criminal_record",
+      "topic_id": "topic.faq_documents",
+      "ask_frequency": 95,
+      "locales": {
+        "ru": [
+          "Как получить справку о несудимости для резиденции?"
+        ],
+        "en": [
+          "How do I get a police-clearance certificate for residency?"
+        ],
+        "es": [
+          "¿Cómo obtengo el certificado de antecedentes para la residencia?"
+        ],
+        "de": [
+          "Wie bekomme ich ein Führungszeugnis für den Aufenthalt?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_residency.q06_cedula_legal_tramite",
+      "answer_card_id": "card.faq_residency.q06_cedula_legal_tramite",
+      "topic_id": "topic.faq_residency",
+      "ask_frequency": 89,
+      "locales": {
+        "ru": [
+          "Что значат cédula «legal» и «en trámite»?"
+        ],
+        "en": [
+          "What do cédula 'legal' and 'en trámite' mean?"
+        ],
+        "es": [
+          "¿Qué significan cédula «legal» y «en trámite»?"
+        ],
+        "de": [
+          "Was bedeuten Cédula „legal\" und „en trámite\"?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_health.q06_unavailable_meds",
+      "answer_card_id": "card.faq_health.q06_unavailable_meds",
+      "topic_id": "topic.faq_health",
+      "ask_frequency": 83,
+      "locales": {
+        "ru": [
+          "Каких лекарств может не быть и чем их заменить?"
+        ],
+        "en": [
+          "Which medicines may be missing and how do I replace them?"
+        ],
+        "es": [
+          "¿Qué medicamentos pueden faltar y con qué reemplazarlos?"
+        ],
+        "de": [
+          "Welche Medikamente könnten fehlen und wie ersetze ich sie?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_documents.q01_what_to_apostille",
+      "answer_card_id": "card.faq_documents.q01_what_to_apostille",
+      "topic_id": "topic.faq_documents",
+      "ask_frequency": 82,
+      "locales": {
+        "ru": [
+          "Какие документы апостилировать перед переездом?"
+        ],
+        "en": [
+          "Which documents should I apostille before moving?"
+        ],
+        "es": [
+          "¿Qué documentos apostillar antes de mudarme?"
+        ],
+        "de": [
+          "Welche Dokumente vor dem Umzug apostillieren?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_safety.q03_notary_income",
+      "answer_card_id": "card.faq_safety.q03_notary_income",
+      "topic_id": "topic.faq_safety",
+      "ask_frequency": 78,
+      "locales": {
+        "ru": [
+          "Зачем нужен нотариус (escribano) и сертификат о доходах?"
+        ],
+        "en": [
+          "Why do I need a notary (escribano) and an income certificate?"
+        ],
+        "es": [
+          "¿Para qué sirve el escribano y la certificación de ingresos?"
+        ],
+        "de": [
+          "Wozu brauche ich einen Notar (escribano) und eine Einkommensbescheinigung?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_transport.q01_driving_licence",
+      "answer_card_id": "card.faq_transport.q01_driving_licence",
+      "topic_id": "topic.faq_transport",
+      "ask_frequency": 77,
+      "locales": {
+        "ru": [
+          "Нужны ли местные водительские права и как их получить?"
+        ],
+        "en": [
+          "Do I need a local driving licence and how do I get it?"
+        ],
+        "es": [
+          "¿Necesito licencia de conducir local y cómo la saco?"
+        ],
+        "de": [
+          "Brauche ich einen lokalen Führerschein und wie bekomme ich ihn?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_moving.q02_return_tickets",
+      "answer_card_id": "card.faq_moving.q02_return_tickets",
+      "topic_id": "topic.faq_moving",
+      "ask_frequency": 74,
+      "locales": {
+        "ru": [
+          "Нужны ли обратные билеты на въезде?"
+        ],
+        "en": [
+          "Do I need return tickets on entry?"
+        ],
+        "es": [
+          "¿Necesito pasaje de vuelta al entrar?"
+        ],
+        "de": [
+          "Brauche ich bei der Einreise Rückflugtickets?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_banking.q04_account_without_residency",
+      "answer_card_id": "card.faq_banking.q04_account_without_residency",
+      "topic_id": "topic.faq_banking",
+      "ask_frequency": 72,
+      "locales": {
+        "ru": [
+          "Можно ли открыть счёт без резиденции?"
+        ],
+        "en": [
+          "Can I open an account without residency?"
+        ],
+        "es": [
+          "¿Puedo abrir cuenta sin residencia?"
+        ],
+        "de": [
+          "Kann ich ohne Aufenthalt ein Konto eröffnen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_money_crypto.q02_exchange_currency",
+      "answer_card_id": "card.faq_money_crypto.q02_exchange_currency",
+      "topic_id": "topic.faq_money_crypto",
+      "ask_frequency": 72,
+      "locales": {
+        "ru": [
+          "Где обменять валюту и доллары на песо?"
+        ],
+        "en": [
+          "Where do I change currency and dollars into pesos?"
+        ],
+        "es": [
+          "¿Dónde cambio divisas y dólares a pesos?"
+        ],
+        "de": [
+          "Wo tausche ich Devisen und Dollar in Pesos?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_residency.q04_citizenship_years",
+      "answer_card_id": "card.faq_residency.q04_citizenship_years",
+      "topic_id": "topic.faq_residency",
+      "ask_frequency": 70,
+      "locales": {
+        "ru": [
+          "Через сколько лет можно подать на гражданство?"
+        ],
+        "en": [
+          "After how many years can I apply for citizenship?"
+        ],
+        "es": [
+          "¿A los cuántos años puedo pedir la ciudadanía?"
+        ],
+        "de": [
+          "Nach wie vielen Jahren kann ich die Staatsbürgerschaft beantragen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_residency.q01_how_to_get",
+      "answer_card_id": "card.faq_residency.q01_how_to_get",
+      "topic_id": "topic.faq_residency",
+      "ask_frequency": 68,
+      "locales": {
+        "ru": [
+          "Как получить резиденцию (ВНЖ) в Уругвае?"
+        ],
+        "en": [
+          "How do I get residency in Uruguay?"
+        ],
+        "es": [
+          "¿Cómo obtengo la residencia en Uruguay?"
+        ],
+        "de": [
+          "Wie bekomme ich eine Aufenthaltsgenehmigung in Uruguay?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_documents.q03_apostille_validity",
+      "answer_card_id": "card.faq_documents.q03_apostille_validity",
+      "topic_id": "topic.faq_documents",
+      "ask_frequency": 61,
+      "locales": {
+        "ru": [
+          "Какой срок действия у апостиля и справок?"
+        ],
+        "en": [
+          "How long are the apostille and certificates valid?"
+        ],
+        "es": [
+          "¿Qué vigencia tienen la apostilla y los certificados?"
+        ],
+        "de": [
+          "Wie lange sind Apostille und Bescheinigungen gültig?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_banking.q08_optimal_card_setup",
+      "answer_card_id": "card.faq_banking.q08_optimal_card_setup",
+      "topic_id": "topic.faq_banking",
+      "ask_frequency": 59,
+      "locales": {
+        "ru": [
+          "Какой набор карт оптимален, чтобы не держать все банки?"
+        ],
+        "en": [
+          "What card setup is optimal so I don't hold every bank?"
+        ],
+        "es": [
+          "¿Qué set de tarjetas es óptimo para no tener todos los bancos?"
+        ],
+        "de": [
+          "Welches Karten-Setup ist optimal, um nicht jede Bank zu halten?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_residency.q03_first_cedula_wait",
+      "answer_card_id": "card.faq_residency.q03_first_cedula_wait",
+      "topic_id": "topic.faq_residency",
+      "ask_frequency": 52,
+      "locales": {
+        "ru": [
+          "Сколько ждать первую седулу (cédula)?"
+        ],
+        "en": [
+          "How long does the first cédula take?"
+        ],
+        "es": [
+          "¿Cuánto demora la primera cédula?"
+        ],
+        "de": [
+          "Wie lange dauert die erste Cédula?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_utilities.q02_sim",
+      "answer_card_id": "card.faq_utilities.q02_sim",
+      "topic_id": "topic.faq_utilities",
+      "ask_frequency": 49,
+      "locales": {
+        "ru": [
+          "Как купить сим-карту и оформить мобильную связь?"
+        ],
+        "en": [
+          "How do I buy a SIM and set up mobile service?"
+        ],
+        "es": [
+          "¿Cómo compro un chip y contrato el celular?"
+        ],
+        "de": [
+          "Wie kaufe ich eine SIM und richte Mobilfunk ein?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_taxes.q01_when_tax_resident",
+      "answer_card_id": "card.faq_taxes.q01_when_tax_resident",
+      "topic_id": "topic.faq_taxes",
+      "ask_frequency": 37,
+      "locales": {
+        "ru": [
+          "Когда я становлюсь налоговым резидентом Уругвая?"
+        ],
+        "en": [
+          "When do I become a Uruguayan tax resident?"
+        ],
+        "es": [
+          "¿Cuándo paso a ser residente fiscal en Uruguay?"
+        ],
+        "de": [
+          "Wann werde ich steuerlich in Uruguay ansässig?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_work.q03_labour_contract",
+      "answer_card_id": "card.faq_work.q03_labour_contract",
+      "topic_id": "topic.faq_work",
+      "ask_frequency": 37,
+      "locales": {
+        "ru": [
+          "Как устроен трудовой договор и минимальная зарплата?"
+        ],
+        "en": [
+          "How does the labour contract and minimum wage work?"
+        ],
+        "es": [
+          "¿Cómo funcionan el contrato laboral y el salario mínimo?"
+        ],
+        "de": [
+          "Wie funktionieren Arbeitsvertrag und Mindestlohn?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_rent.q01_how_to_rent",
+      "answer_card_id": "card.faq_rent.q01_how_to_rent",
+      "topic_id": "topic.faq_rent",
+      "ask_frequency": 34,
+      "locales": {
+        "ru": [
+          "Как снять квартиру и что обычно просят?"
+        ],
+        "en": [
+          "How do I rent an apartment and what's usually required?"
+        ],
+        "es": [
+          "¿Cómo alquilo un apartamento y qué suelen pedir?"
+        ],
+        "de": [
+          "Wie miete ich eine Wohnung und was wird meist verlangt?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_residency.q02_residency_vs_citizenship",
+      "answer_card_id": "card.faq_residency.q02_residency_vs_citizenship",
+      "topic_id": "topic.faq_residency",
+      "ask_frequency": 32,
+      "locales": {
+        "ru": [
+          "Чем резиденция отличается от гражданства и паспорта?"
+        ],
+        "en": [
+          "How are residency, citizenship and the passport different?"
+        ],
+        "es": [
+          "¿En qué se diferencian residencia, ciudadanía y pasaporte?"
+        ],
+        "de": [
+          "Worin unterscheiden sich Aufenthalt, Staatsbürgerschaft und Pass?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_food.q01_prices",
+      "answer_card_id": "card.faq_food.q01_prices",
+      "topic_id": "topic.faq_food",
+      "ask_frequency": 31,
+      "locales": {
+        "ru": [
+          "Дорогие ли продукты и где покупать дешевле?"
+        ],
+        "en": [
+          "Is food expensive and where do I buy cheaper?"
+        ],
+        "es": [
+          "¿Son caros los alimentos y dónde compro más barato?"
+        ],
+        "de": [
+          "Sind Lebensmittel teuer und wo kaufe ich günstiger?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_transport.q04_import_car",
+      "answer_card_id": "card.faq_transport.q04_import_car",
+      "topic_id": "topic.faq_transport",
+      "ask_frequency": 27,
+      "locales": {
+        "ru": [
+          "Стоит ли перегонять или растаможивать своё авто?"
+        ],
+        "en": [
+          "Should I import or clear my own car?"
+        ],
+        "es": [
+          "¿Conviene traer o nacionalizar mi propio auto?"
+        ],
+        "de": [
+          "Soll ich mein eigenes Auto einführen oder verzollen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_moving.q01_what_to_bring",
+      "answer_card_id": "card.faq_moving.q01_what_to_bring",
+      "topic_id": "topic.faq_moving",
+      "ask_frequency": 27,
+      "locales": {
+        "ru": [
+          "Что брать с собой при переезде?"
+        ],
+        "en": [
+          "What should I bring when I move?"
+        ],
+        "es": [
+          "¿Qué llevar al mudarme?"
+        ],
+        "de": [
+          "Was soll ich beim Umzug mitnehmen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_locations.q03_which_city",
+      "answer_card_id": "card.faq_locations.q03_which_city",
+      "topic_id": "topic.faq_locations",
+      "ask_frequency": 25,
+      "locales": {
+        "ru": [
+          "Какой город выбрать для жизни?"
+        ],
+        "en": [
+          "Which city should I choose to live in?"
+        ],
+        "es": [
+          "¿Qué ciudad elijo para vivir?"
+        ],
+        "de": [
+          "Welche Stadt soll ich zum Leben wählen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_banking.q07_holding_costs",
+      "answer_card_id": "card.faq_banking.q07_holding_costs",
+      "topic_id": "topic.faq_banking",
+      "ask_frequency": 25,
+      "locales": {
+        "ru": [
+          "Сколько стоит обслуживание счёта в разных банках?"
+        ],
+        "en": [
+          "How much does it cost to hold an account at each bank?"
+        ],
+        "es": [
+          "¿Cuánto cuesta mantener una cuenta en cada banco?"
+        ],
+        "de": [
+          "Was kostet die Kontoführung bei den einzelnen Banken?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_moving.q03_shipping_container",
+      "answer_card_id": "card.faq_moving.q03_shipping_container",
+      "topic_id": "topic.faq_moving",
+      "ask_frequency": 24,
+      "locales": {
+        "ru": [
+          "Стоит ли везти вещи контейнером (карго)?"
+        ],
+        "en": [
+          "Is it worth shipping belongings by container?"
+        ],
+        "es": [
+          "¿Conviene enviar las pertenencias en contenedor?"
+        ],
+        "de": [
+          "Lohnt sich der Versand des Hausrats per Container?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_education.q02_learn_spanish",
+      "answer_card_id": "card.faq_education.q02_learn_spanish",
+      "topic_id": "topic.faq_education",
+      "ask_frequency": 23,
+      "locales": {
+        "ru": [
+          "Где и как учить испанский?"
+        ],
+        "en": [
+          "Where and how do I learn Spanish?"
+        ],
+        "es": [
+          "¿Dónde y cómo aprendo español?"
+        ],
+        "de": [
+          "Wo und wie lerne ich Spanisch?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_taxes.q02_tax_holiday",
+      "answer_card_id": "card.faq_taxes.q02_tax_holiday",
+      "topic_id": "topic.faq_taxes",
+      "ask_frequency": 22,
+      "locales": {
+        "ru": [
+          "Что такое налоговые каникулы на иностранный доход?"
+        ],
+        "en": [
+          "What is the tax holiday on foreign income?"
+        ],
+        "es": [
+          "¿Qué es la exoneración temporal sobre la renta extranjera?"
+        ],
+        "de": [
+          "Was ist die Steuerbefreiung auf ausländisches Einkommen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_taxes.q07_taxes_per_company_type",
+      "answer_card_id": "card.faq_taxes.q07_taxes_per_company_type",
+      "topic_id": "topic.faq_taxes",
+      "ask_frequency": 21,
+      "locales": {
+        "ru": [
+          "Сколько налогов и взносов платят разные типы компаний?"
+        ],
+        "en": [
+          "How much tax and contributions do the company types pay?"
+        ],
+        "es": [
+          "¿Cuántos impuestos y aportes pagan los tipos de empresa?"
+        ],
+        "de": [
+          "Wie viel Steuern und Beiträge zahlen die Firmentypen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_safety.q01_is_it_safe",
+      "answer_card_id": "card.faq_safety.q01_is_it_safe",
+      "topic_id": "topic.faq_safety",
+      "ask_frequency": 19,
+      "locales": {
+        "ru": [
+          "Безопасно ли в Уругвае?"
+        ],
+        "en": [
+          "Is Uruguay safe?"
+        ],
+        "es": [
+          "¿Es seguro Uruguay?"
+        ],
+        "de": [
+          "Ist Uruguay sicher?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_shopping.q02_where_electronics",
+      "answer_card_id": "card.faq_shopping.q02_where_electronics",
+      "topic_id": "topic.faq_shopping",
+      "ask_frequency": 17,
+      "locales": {
+        "ru": [
+          "Где покупать технику и товары онлайн?"
+        ],
+        "en": [
+          "Where do I buy electronics and goods online?"
+        ],
+        "es": [
+          "¿Dónde compro electrónica y artículos en línea?"
+        ],
+        "de": [
+          "Wo kaufe ich Elektronik und Waren online?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_rent.q03_cost_gastos_comunes",
+      "answer_card_id": "card.faq_rent.q03_cost_gastos_comunes",
+      "topic_id": "topic.faq_rent",
+      "ask_frequency": 15,
+      "locales": {
+        "ru": [
+          "Сколько стоит аренда и что входит в gastos comunes?"
+        ],
+        "en": [
+          "How much is rent and what are gastos comunes?"
+        ],
+        "es": [
+          "¿Cuánto cuesta el alquiler y qué son los gastos comunes?"
+        ],
+        "de": [
+          "Wie hoch ist die Miete und was sind gastos comunes?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_health.q05_drug_analogs",
+      "answer_card_id": "card.faq_health.q05_drug_analogs",
+      "topic_id": "topic.faq_health",
+      "ask_frequency": 15,
+      "locales": {
+        "ru": [
+          "Как найти местный аналог привычного лекарства?"
+        ],
+        "en": [
+          "How do I find a local equivalent of my usual medication?"
+        ],
+        "es": [
+          "¿Cómo encuentro el equivalente local de mi medicamento habitual?"
+        ],
+        "de": [
+          "Wie finde ich ein lokales Äquivalent meines gewohnten Medikaments?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_taxes.q04_empresa_unipersonal",
+      "answer_card_id": "card.faq_taxes.q04_empresa_unipersonal",
+      "topic_id": "topic.faq_taxes",
+      "ask_frequency": 14,
+      "locales": {
+        "ru": [
+          "Как оформить empresa unipersonal и нужен ли contador?"
+        ],
+        "en": [
+          "How do I set up an empresa unipersonal and do I need a contador?"
+        ],
+        "es": [
+          "¿Cómo abro una empresa unipersonal y necesito contador?"
+        ],
+        "de": [
+          "Wie gründe ich eine empresa unipersonal und brauche ich einen contador?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_rent.q05_where_to_search",
+      "answer_card_id": "card.faq_rent.q05_where_to_search",
+      "topic_id": "topic.faq_rent",
+      "ask_frequency": 14,
+      "locales": {
+        "ru": [
+          "Где искать жильё в аренду?"
+        ],
+        "en": [
+          "Where do I look for a rental?"
+        ],
+        "es": [
+          "¿Dónde busco una vivienda en alquiler?"
+        ],
+        "de": [
+          "Wo suche ich eine Mietwohnung?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_pets.q03_housing_with_pets",
+      "answer_card_id": "card.faq_pets.q03_housing_with_pets",
+      "topic_id": "topic.faq_pets",
+      "ask_frequency": 14,
+      "locales": {
+        "ru": [
+          "Сложно ли снять жильё с животными?"
+        ],
+        "en": [
+          "Is it hard to rent with pets?"
+        ],
+        "es": [
+          "¿Es difícil alquilar con mascotas?"
+        ],
+        "de": [
+          "Ist es schwer, mit Haustieren zu mieten?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_taxes.q06_choose_company_type",
+      "answer_card_id": "card.faq_taxes.q06_choose_company_type",
+      "topic_id": "topic.faq_taxes",
+      "ask_frequency": 14,
+      "locales": {
+        "ru": [
+          "Как выбрать и открыть компанию (с цифрами)?"
+        ],
+        "en": [
+          "How do I choose and open a company (with numbers)?"
+        ],
+        "es": [
+          "¿Cómo elijo y abro una empresa (con números)?"
+        ],
+        "de": [
+          "Wie wähle und gründe ich eine Firma (mit Zahlen)?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_health.q02_asse_vs_mutualista",
+      "answer_card_id": "card.faq_health.q02_asse_vs_mutualista",
+      "topic_id": "topic.faq_health",
+      "ask_frequency": 13,
+      "locales": {
+        "ru": [
+          "Что выбрать: ASSE, mutualista или частную страховку?"
+        ],
+        "en": [
+          "Which should I pick: ASSE, a mutualista or private insurance?"
+        ],
+        "es": [
+          "¿Qué elijo: ASSE, mutualista o seguro privado?"
+        ],
+        "de": [
+          "Was wählen: ASSE, eine mutualista oder Privatversicherung?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_education.q01_school",
+      "answer_card_id": "card.faq_education.q01_school",
+      "topic_id": "topic.faq_education",
+      "ask_frequency": 13,
+      "locales": {
+        "ru": [
+          "Как устроить ребёнка в школу или садик?"
+        ],
+        "en": [
+          "How do I enrol my child in school or kindergarten?"
+        ],
+        "es": [
+          "¿Cómo inscribo a mi hijo en la escuela o el jardín?"
+        ],
+        "de": [
+          "Wie melde ich mein Kind in Schule oder Kindergarten an?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_work.q02_remote_for_foreign",
+      "answer_card_id": "card.faq_work.q02_remote_for_foreign",
+      "topic_id": "topic.faq_work",
+      "ask_frequency": 12,
+      "locales": {
+        "ru": [
+          "Можно ли работать удалённо на иностранную компанию?"
+        ],
+        "en": [
+          "Can I work remotely for a foreign company?"
+        ],
+        "es": [
+          "¿Puedo trabajar en remoto para una empresa extranjera?"
+        ],
+        "de": [
+          "Kann ich remote für eine ausländische Firma arbeiten?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_utilities.q01_internet",
+      "answer_card_id": "card.faq_utilities.q01_internet",
+      "topic_id": "topic.faq_utilities",
+      "ask_frequency": 12,
+      "locales": {
+        "ru": [
+          "Как подключить интернет и сколько он стоит?"
+        ],
+        "en": [
+          "How do I get internet and how much does it cost?"
+        ],
+        "es": [
+          "¿Cómo contrato internet y cuánto cuesta?"
+        ],
+        "de": [
+          "Wie bekomme ich Internet und was kostet es?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_rent.q02_guarantee",
+      "answer_card_id": "card.faq_rent.q02_guarantee",
+      "topic_id": "topic.faq_rent",
+      "ask_frequency": 10,
+      "locales": {
+        "ru": [
+          "Что такое гарантия аренды и какие есть варианты?"
+        ],
+        "en": [
+          "What is the rental guarantee and what options exist?"
+        ],
+        "es": [
+          "¿Qué es la garantía de alquiler y qué opciones hay?"
+        ],
+        "de": [
+          "Was ist die Mietgarantie und welche Optionen gibt es?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_realestate_buy.q03_costs",
+      "answer_card_id": "card.faq_realestate_buy.q03_costs",
+      "topic_id": "topic.faq_realestate_buy",
+      "ask_frequency": 10,
+      "locales": {
+        "ru": [
+          "Какие расходы и налоги при покупке недвижимости?"
+        ],
+        "en": [
+          "What costs and taxes apply when buying property?"
+        ],
+        "es": [
+          "¿Qué costos e impuestos hay al comprar un inmueble?"
+        ],
+        "de": [
+          "Welche Kosten und Steuern fallen beim Immobilienkauf an?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_transport.q02_buy_car",
+      "answer_card_id": "card.faq_transport.q02_buy_car",
+      "topic_id": "topic.faq_transport",
+      "ask_frequency": 10,
+      "locales": {
+        "ru": [
+          "Как купить машину и что со страховкой?"
+        ],
+        "en": [
+          "How do I buy a car and what about insurance?"
+        ],
+        "es": [
+          "¿Cómo compro un auto y qué pasa con el seguro?"
+        ],
+        "de": [
+          "Wie kaufe ich ein Auto und was ist mit der Versicherung?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_money_crypto.q03_live_on_crypto",
+      "answer_card_id": "card.faq_money_crypto.q03_live_on_crypto",
+      "topic_id": "topic.faq_money_crypto",
+      "ask_frequency": 9,
+      "locales": {
+        "ru": [
+          "Можно ли жить на крипту и как обналичить USDT?"
+        ],
+        "en": [
+          "Can I live on crypto and how do I cash out USDT?"
+        ],
+        "es": [
+          "¿Se puede vivir de cripto y cómo convierto USDT?"
+        ],
+        "de": [
+          "Kann ich von Krypto leben und wie zahle ich USDT aus?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_documents.q02_sworn_translation",
+      "answer_card_id": "card.faq_documents.q02_sworn_translation",
+      "topic_id": "topic.faq_documents",
+      "ask_frequency": 9,
+      "locales": {
+        "ru": [
+          "Нужен ли присяжный перевод (traductor público)?"
+        ],
+        "en": [
+          "Do I need a sworn translation (traductor público)?"
+        ],
+        "es": [
+          "¿Necesito traducción jurada (traductor público)?"
+        ],
+        "de": [
+          "Brauche ich eine beeidigte Übersetzung (traductor público)?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_community.q01_find_community",
+      "answer_card_id": "card.faq_community.q01_find_community",
+      "topic_id": "topic.faq_community",
+      "ask_frequency": 9,
+      "locales": {
+        "ru": [
+          "Где найти русскоязычное сообщество и чаты?"
+        ],
+        "en": [
+          "Where do I find the Russian-speaking community and chats?"
+        ],
+        "es": [
+          "¿Dónde encuentro la comunidad rusoparlante y los chats?"
+        ],
+        "de": [
+          "Wo finde ich die russischsprachige Community und Chats?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_health.q07_appointment_vs_emergency",
+      "answer_card_id": "card.faq_health.q07_appointment_vs_emergency",
+      "topic_id": "topic.faq_health",
+      "ask_frequency": 9,
+      "locales": {
+        "ru": [
+          "Как записаться к врачу и когда вызывать неотложку?"
+        ],
+        "en": [
+          "How do I book a doctor and when do I call emergency?"
+        ],
+        "es": [
+          "¿Cómo saco hora con el médico y cuándo llamo a emergencia?"
+        ],
+        "de": [
+          "Wie buche ich einen Arzt und wann rufe ich den Notdienst?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_realestate_buy.q01_escribano",
+      "answer_card_id": "card.faq_realestate_buy.q01_escribano",
+      "topic_id": "topic.faq_realestate_buy",
+      "ask_frequency": 8,
+      "locales": {
+        "ru": [
+          "Как купить недвижимость и зачем нужен escribano?"
+        ],
+        "en": [
+          "How do I buy property and why do I need an escribano?"
+        ],
+        "es": [
+          "¿Cómo compro un inmueble y por qué necesito escribano?"
+        ],
+        "de": [
+          "Wie kaufe ich eine Immobilie und warum brauche ich einen escribano?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_taxes.q08_without_accountant",
+      "answer_card_id": "card.faq_taxes.q08_without_accountant",
+      "topic_id": "topic.faq_taxes",
+      "ask_frequency": 7,
+      "locales": {
+        "ru": [
+          "Можно ли вести компанию без бухгалтера?"
+        ],
+        "en": [
+          "Can I run a company without an accountant?"
+        ],
+        "es": [
+          "¿Puedo llevar una empresa sin contador?"
+        ],
+        "de": [
+          "Kann ich eine Firma ohne Buchhalter führen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_education.q03_private_vs_public",
+      "answer_card_id": "card.faq_education.q03_private_vs_public",
+      "topic_id": "topic.faq_education",
+      "ask_frequency": 6,
+      "locales": {
+        "ru": [
+          "Государственная школа или частная — что выбрать?"
+        ],
+        "en": [
+          "Public or private school — which to choose?"
+        ],
+        "es": [
+          "¿Escuela pública o privada — cuál elegir?"
+        ],
+        "de": [
+          "Öffentliche oder private Schule — was wählen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_community.q02_newcomer_help",
+      "answer_card_id": "card.faq_community.q02_newcomer_help",
+      "topic_id": "topic.faq_community",
+      "ask_frequency": 6,
+      "locales": {
+        "ru": [
+          "Где получить помощь новичку на старте?"
+        ],
+        "en": [
+          "Where can a newcomer get help at the start?"
+        ],
+        "es": [
+          "¿Dónde consigue ayuda un recién llegado al inicio?"
+        ],
+        "de": [
+          "Wo bekommt ein Neuankömmling am Anfang Hilfe?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_transport.q05_public_transport_detail",
+      "answer_card_id": "card.faq_transport.q05_public_transport_detail",
+      "topic_id": "topic.faq_transport",
+      "ask_frequency": 6,
+      "locales": {
+        "ru": [
+          "Как платить за транспорт и ездить между городами?"
+        ],
+        "en": [
+          "How do I pay for transport and travel between cities?"
+        ],
+        "es": [
+          "¿Cómo pago el transporte y viajo entre ciudades?"
+        ],
+        "de": [
+          "Wie zahle ich den Verkehr und reise zwischen Städten?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_safety.q04_embassy",
+      "answer_card_id": "card.faq_safety.q04_embassy",
+      "topic_id": "topic.faq_safety",
+      "ask_frequency": 5,
+      "locales": {
+        "ru": [
+          "Куда обращаться в посольство и по консульским вопросам?"
+        ],
+        "en": [
+          "Where do I go for the embassy and consular matters?"
+        ],
+        "es": [
+          "¿A dónde acudo por la embajada y temas consulares?"
+        ],
+        "de": [
+          "Wohin bei Botschaft und Konsularangelegenheiten?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_residency.q05_renounce_old",
+      "answer_card_id": "card.faq_residency.q05_renounce_old",
+      "topic_id": "topic.faq_residency",
+      "ask_frequency": 4,
+      "locales": {
+        "ru": [
+          "Нужно ли отказываться от прежнего гражданства?"
+        ],
+        "en": [
+          "Do I have to give up my current citizenship?"
+        ],
+        "es": [
+          "¿Tengo que renunciar a mi ciudadanía actual?"
+        ],
+        "de": [
+          "Muss ich meine bisherige Staatsbürgerschaft aufgeben?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_residency.q07_rentier_investor",
+      "answer_card_id": "card.faq_residency.q07_rentier_investor",
+      "topic_id": "topic.faq_residency",
+      "ask_frequency": 4,
+      "locales": {
+        "ru": [
+          "Можно ли получить ВНЖ как рантье или инвестор?"
+        ],
+        "en": [
+          "Can I get residency as a rentier or investor?"
+        ],
+        "es": [
+          "¿Puedo obtener residencia como rentista o inversor?"
+        ],
+        "de": [
+          "Kann ich Aufenthalt als Rentier oder Investor erhalten?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_transport.q03_public_transport",
+      "answer_card_id": "card.faq_transport.q03_public_transport",
+      "topic_id": "topic.faq_transport",
+      "ask_frequency": 4,
+      "locales": {
+        "ru": [
+          "Как работает общественный транспорт?"
+        ],
+        "en": [
+          "How does public transport work?"
+        ],
+        "es": [
+          "¿Cómo funciona el transporte público?"
+        ],
+        "de": [
+          "Wie funktioniert der öffentliche Verkehr?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_health.q04_emergency",
+      "answer_card_id": "card.faq_health.q04_emergency",
+      "topic_id": "topic.faq_health",
+      "ask_frequency": 3,
+      "locales": {
+        "ru": [
+          "Куда обращаться при экстренной ситуации?"
+        ],
+        "en": [
+          "Where do I go in an emergency?"
+        ],
+        "es": [
+          "¿A dónde acudo en una emergencia?"
+        ],
+        "de": [
+          "Wohin im Notfall?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_rent.q04_no_guarantor",
+      "answer_card_id": "card.faq_rent.q04_no_guarantor",
+      "topic_id": "topic.faq_rent",
+      "ask_frequency": 2,
+      "locales": {
+        "ru": [
+          "Можно ли снять без гаранта, будучи иностранцем?"
+        ],
+        "en": [
+          "Can I rent without a guarantor as a foreigner?"
+        ],
+        "es": [
+          "¿Puedo alquilar sin garante siendo extranjero?"
+        ],
+        "de": [
+          "Kann ich als Ausländer ohne Bürgen mieten?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_utilities.q03_pay_utilities",
+      "answer_card_id": "card.faq_utilities.q03_pay_utilities",
+      "topic_id": "topic.faq_utilities",
+      "ask_frequency": 2,
+      "locales": {
+        "ru": [
+          "Как оплачивать коммуналку: UTE, OSE, supergás?"
+        ],
+        "en": [
+          "How do I pay utilities: UTE, OSE, supergás?"
+        ],
+        "es": [
+          "¿Cómo pago los servicios: UTE, OSE, supergás?"
+        ],
+        "de": [
+          "Wie zahle ich Versorgung: UTE, OSE, supergás?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_shopping.q01_parcels_customs",
+      "answer_card_id": "card.faq_shopping.q01_parcels_customs",
+      "topic_id": "topic.faq_shopping",
+      "ask_frequency": 2,
+      "locales": {
+        "ru": [
+          "Как заказывать посылки и что с таможней?"
+        ],
+        "en": [
+          "How do I order parcels and what about customs?"
+        ],
+        "es": [
+          "¿Cómo pido paquetes y qué pasa con la aduana?"
+        ],
+        "de": [
+          "Wie bestelle ich Pakete und was ist mit dem Zoll?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_shopping.q03_food_delivery",
+      "answer_card_id": "card.faq_shopping.q03_food_delivery",
+      "topic_id": "topic.faq_shopping",
+      "ask_frequency": 2,
+      "locales": {
+        "ru": [
+          "Какие есть службы доставки еды и товаров?"
+        ],
+        "en": [
+          "What food and goods delivery services are there?"
+        ],
+        "es": [
+          "¿Qué servicios de delivery de comida y artículos hay?"
+        ],
+        "de": [
+          "Welche Liefer­dienste für Essen und Waren gibt es?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_food.q02_familiar_products",
+      "answer_card_id": "card.faq_food.q02_familiar_products",
+      "topic_id": "topic.faq_food",
+      "ask_frequency": 2,
+      "locales": {
+        "ru": [
+          "Можно ли найти привычные продукты?"
+        ],
+        "en": [
+          "Can I find familiar products?"
+        ],
+        "es": [
+          "¿Se consiguen productos conocidos?"
+        ],
+        "de": [
+          "Findet man vertraute Produkte?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_safety.q02_agenda",
+      "answer_card_id": "card.faq_safety.q02_agenda",
+      "topic_id": "topic.faq_safety",
+      "ask_frequency": 2,
+      "locales": {
+        "ru": [
+          "Как записаться на госуслуги (agenda)?"
+        ],
+        "en": [
+          "How do I book public services (agenda)?"
+        ],
+        "es": [
+          "¿Cómo saco hora para trámites (agenda)?"
+        ],
+        "de": [
+          "Wie buche ich Behördentermine (agenda)?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_realestate_buy.q02_mortgage",
+      "answer_card_id": "card.faq_realestate_buy.q02_mortgage",
+      "topic_id": "topic.faq_realestate_buy",
+      "ask_frequency": 1,
+      "locales": {
+        "ru": [
+          "Можно ли взять ипотеку иностранцу или резиденту?"
+        ],
+        "en": [
+          "Can a foreigner or resident get a mortgage?"
+        ],
+        "es": [
+          "¿Puede un extranjero o residente obtener una hipoteca?"
+        ],
+        "de": [
+          "Bekommt ein Ausländer oder Ansässiger eine Hypothek?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_work.q04_freelance",
+      "answer_card_id": "card.faq_work.q04_freelance",
+      "topic_id": "topic.faq_work",
+      "ask_frequency": 1,
+      "locales": {
+        "ru": [
+          "Как фрилансеру легально выставлять счета?"
+        ],
+        "en": [
+          "How does a freelancer invoice legally?"
+        ],
+        "es": [
+          "¿Cómo factura un freelancer en regla?"
+        ],
+        "de": [
+          "Wie stellt ein Freelancer legal Rechnungen?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_pets.q01_bring_pet",
+      "answer_card_id": "card.faq_pets.q01_bring_pet",
+      "topic_id": "topic.faq_pets",
+      "ask_frequency": 1,
+      "locales": {
+        "ru": [
+          "Как перевезти животное в Уругвай?"
+        ],
+        "en": [
+          "How do I bring a pet to Uruguay?"
+        ],
+        "es": [
+          "¿Cómo traigo una mascota a Uruguay?"
+        ],
+        "de": [
+          "Wie bringe ich ein Haustier nach Uruguay?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_health.q08_prescriptions_pharmacies",
+      "answer_card_id": "card.faq_health.q08_prescriptions_pharmacies",
+      "topic_id": "topic.faq_health",
+      "ask_frequency": 1,
+      "locales": {
+        "ru": [
+          "Как устроены рецепты и аптеки?"
+        ],
+        "en": [
+          "How do prescriptions and pharmacies work?"
+        ],
+        "es": [
+          "¿Cómo funcionan las recetas y las farmacias?"
+        ],
+        "de": [
+          "Wie funktionieren Rezepte und Apotheken?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_transport.q07_fines",
+      "answer_card_id": "card.faq_transport.q07_fines",
+      "topic_id": "topic.faq_transport",
+      "ask_frequency": 1,
+      "locales": {
+        "ru": [
+          "Какие штрафы самые частые и сколько они стоят?"
+        ],
+        "en": [
+          "What fines are most common and how much are they?"
+        ],
+        "es": [
+          "¿Qué multas son más comunes y cuánto cuestan?"
+        ],
+        "de": [
+          "Welche Bußgelder sind am häufigsten und wie hoch?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_banking.q06_best_banks_immigrant",
+      "answer_card_id": "card.faq_banking.q06_best_banks_immigrant",
+      "topic_id": "topic.faq_banking",
+      "ask_frequency": 1,
+      "locales": {
+        "ru": [
+          "Какие банки удобны иммигранту, а какие нет?"
+        ],
+        "en": [
+          "Which banks suit an immigrant and which don't?"
+        ],
+        "es": [
+          "¿Qué bancos le convienen a un inmigrante y cuáles no?"
+        ],
+        "de": [
+          "Welche Banken passen einem Einwanderer und welche nicht?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_health.q01_need_insurance",
+      "answer_card_id": "card.faq_health.q01_need_insurance",
+      "topic_id": "topic.faq_health",
+      "ask_frequency": 0,
+      "locales": {
+        "ru": [
+          "Нужна ли медстраховка и как устроена медицина?"
+        ],
+        "en": [
+          "Do I need health insurance and how does healthcare work?"
+        ],
+        "es": [
+          "¿Necesito seguro médico y cómo funciona la salud?"
+        ],
+        "de": [
+          "Brauche ich eine Krankenversicherung und wie funktioniert die Versorgung?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_health.q03_fonasa",
+      "answer_card_id": "card.faq_health.q03_fonasa",
+      "topic_id": "topic.faq_health",
+      "ask_frequency": 0,
+      "locales": {
+        "ru": [
+          "Что такое Fonasa и как к нему подключиться?"
+        ],
+        "en": [
+          "What is Fonasa and how do I join it?"
+        ],
+        "es": [
+          "¿Qué es Fonasa y cómo me incorporo?"
+        ],
+        "de": [
+          "Was ist Fonasa und wie trete ich bei?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_locations.q02_where_russians",
+      "answer_card_id": "card.faq_locations.q02_where_russians",
+      "topic_id": "topic.faq_locations",
+      "ask_frequency": 0,
+      "locales": {
+        "ru": [
+          "Где селятся русскоязычные?"
+        ],
+        "en": [
+          "Where do Russian-speakers settle?"
+        ],
+        "es": [
+          "¿Dónde se asientan los rusoparlantes?"
+        ],
+        "de": [
+          "Wo lassen sich Russischsprachige nieder?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_pets.q02_vet_care",
+      "answer_card_id": "card.faq_pets.q02_vet_care",
+      "topic_id": "topic.faq_pets",
+      "ask_frequency": 0,
+      "locales": {
+        "ru": [
+          "Как с ветеринарией и уходом за питомцем?"
+        ],
+        "en": [
+          "What's veterinary care and pet upkeep like?"
+        ],
+        "es": [
+          "¿Cómo es la veterinaria y el cuidado de mascotas?"
+        ],
+        "de": [
+          "Wie sind Tierarzt und Haustierversorgung?"
+        ]
+      }
+    },
+    {
+      "question_id": "q.faq_transport.q06_traffic_rules_customs",
+      "answer_card_id": "card.faq_transport.q06_traffic_rules_customs",
+      "topic_id": "topic.faq_transport",
+      "ask_frequency": 0,
+      "locales": {
+        "ru": [
+          "Чем отличаются ПДД и манера вождения?"
+        ],
+        "en": [
+          "How do the traffic rules and driving style differ?"
+        ],
+        "es": [
+          "¿En qué difieren las reglas y el estilo de manejo?"
+        ],
+        "de": [
+          "Wie unterscheiden sich Verkehrsregeln und Fahrstil?"
+        ]
+      }
+    }
+  ]
+}

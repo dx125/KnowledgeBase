@@ -6,10 +6,27 @@
       "sensitivity": "high",
       "default_staleness_risk": "high",
       "text": {
-        "ru": { "title": "Резиденция и гражданство — частые вопросы", "description": "Как получить ВНЖ (residencia), седулу и со временем гражданство Уругвая." },
-        "en": { "title": "Residency & citizenship — FAQ", "description": "How to get residency (residencia), the cédula and, in time, Uruguayan citizenship." },
-        "es": { "title": "Residencia y ciudadanía — preguntas frecuentes", "description": "Cómo obtener la residencia, la cédula y, con el tiempo, la ciudadanía uruguaya." },
-        "de": { "title": "Aufenthalt & Staatsbürgerschaft — FAQ", "description": "Wie man die Aufenthaltsgenehmigung (residencia), die Cédula und mit der Zeit die uruguayische Staatsbürgerschaft erhält." }
+        "ru": {
+          "title": "Резиденция и гражданство — частые вопросы",
+          "description": "Как получить ВНЖ (residencia), седулу и со временем гражданство Уругвая."
+        },
+        "en": {
+          "title": "Residency & citizenship — FAQ",
+          "description": "How to get residency (residencia), the cédula and, in time, Uruguayan citizenship."
+        },
+        "es": {
+          "title": "Residencia y ciudadanía — preguntas frecuentes",
+          "description": "Cómo obtener la residencia, la cédula y, con el tiempo, la ciudadanía uruguaya."
+        },
+        "de": {
+          "title": "Aufenthalt & Staatsbürgerschaft — FAQ",
+          "description": "Wie man die Aufenthaltsgenehmigung (residencia), die Cédula und mit der Zeit die uruguayische Staatsbürgerschaft erhält."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Residency & citizenship — FAQ. How to get residency (residencia), the cédula and, in time, Uruguayan citizenship.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -17,10 +34,27 @@
       "sensitivity": "medium",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Банки и карты — частые вопросы", "description": "Открытие счёта, выбор банка, карты Prex/BROU/Itaú и переводы." },
-        "en": { "title": "Banks & cards — FAQ", "description": "Opening an account, choosing a bank, Prex/BROU/Itaú cards and transfers." },
-        "es": { "title": "Bancos y tarjetas — preguntas frecuentes", "description": "Apertura de cuenta, elección de banco, tarjetas Prex/BROU/Itaú y transferencias." },
-        "de": { "title": "Banken & Karten — FAQ", "description": "Kontoeröffnung, Bankwahl, Prex/BROU/Itaú-Karten und Überweisungen." }
+        "ru": {
+          "title": "Банки и карты — частые вопросы",
+          "description": "Открытие счёта, выбор банка, карты Prex/BROU/Itaú и переводы."
+        },
+        "en": {
+          "title": "Banks & cards — FAQ",
+          "description": "Opening an account, choosing a bank, Prex/BROU/Itaú cards and transfers."
+        },
+        "es": {
+          "title": "Bancos y tarjetas — preguntas frecuentes",
+          "description": "Apertura de cuenta, elección de banco, tarjetas Prex/BROU/Itaú y transferencias."
+        },
+        "de": {
+          "title": "Banken & Karten — FAQ",
+          "description": "Kontoeröffnung, Bankwahl, Prex/BROU/Itaú-Karten und Überweisungen."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Banks & cards — FAQ. Opening an account, choosing a bank, Prex/BROU/Itaú cards and transfers.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -28,10 +62,27 @@
       "sensitivity": "medium",
       "default_staleness_risk": "high",
       "text": {
-        "ru": { "title": "Деньги, обмен и крипта — частые вопросы", "description": "Как перевести деньги в Уругвай, обменять валюту и пользоваться криптой." },
-        "en": { "title": "Money, exchange & crypto — FAQ", "description": "How to move money into Uruguay, change currency and use crypto." },
-        "es": { "title": "Dinero, cambio y cripto — preguntas frecuentes", "description": "Cómo traer dinero a Uruguay, cambiar divisas y usar cripto." },
-        "de": { "title": "Geld, Wechsel & Krypto — FAQ", "description": "Wie man Geld nach Uruguay bringt, Währung wechselt und Krypto nutzt." }
+        "ru": {
+          "title": "Деньги, обмен и крипта — частые вопросы",
+          "description": "Как перевести деньги в Уругвай, обменять валюту и пользоваться криптой."
+        },
+        "en": {
+          "title": "Money, exchange & crypto — FAQ",
+          "description": "How to move money into Uruguay, change currency and use crypto."
+        },
+        "es": {
+          "title": "Dinero, cambio y cripto — preguntas frecuentes",
+          "description": "Cómo traer dinero a Uruguay, cambiar divisas y usar cripto."
+        },
+        "de": {
+          "title": "Geld, Wechsel & Krypto — FAQ",
+          "description": "Wie man Geld nach Uruguay bringt, Währung wechselt und Krypto nutzt."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Money, exchange & crypto — FAQ. How to move money into Uruguay, change currency and use crypto.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -39,10 +90,27 @@
       "sensitivity": "high",
       "default_staleness_risk": "high",
       "text": {
-        "ru": { "title": "Налоги и empresa — частые вопросы", "description": "Налоговое резидентство, налоговые каникулы, налоги физлиц и empresa unipersonal." },
-        "en": { "title": "Taxes & empresa — FAQ", "description": "Tax residency, the tax holiday, personal taxes and the empresa unipersonal." },
-        "es": { "title": "Impuestos y empresa — preguntas frecuentes", "description": "Residencia fiscal, exoneración temporal, impuestos personales y empresa unipersonal." },
-        "de": { "title": "Steuern & empresa — FAQ", "description": "Steuerliche Ansässigkeit, Steuerbefreiung, persönliche Steuern und empresa unipersonal." }
+        "ru": {
+          "title": "Налоги и empresa — частые вопросы",
+          "description": "Налоговое резидентство, налоговые каникулы, налоги физлиц и empresa unipersonal."
+        },
+        "en": {
+          "title": "Taxes & empresa — FAQ",
+          "description": "Tax residency, the tax holiday, personal taxes and the empresa unipersonal."
+        },
+        "es": {
+          "title": "Impuestos y empresa — preguntas frecuentes",
+          "description": "Residencia fiscal, exoneración temporal, impuestos personales y empresa unipersonal."
+        },
+        "de": {
+          "title": "Steuern & empresa — FAQ",
+          "description": "Steuerliche Ansässigkeit, Steuerbefreiung, persönliche Steuern und empresa unipersonal."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Taxes & empresa — FAQ. Tax residency, the tax holiday, personal taxes and the empresa unipersonal.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -50,10 +118,27 @@
       "sensitivity": "medium",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Аренда жилья — частые вопросы", "description": "Как снять квартиру, гарантия аренды, депозит и gastos comunes." },
-        "en": { "title": "Renting a home — FAQ", "description": "How to rent, the rental guarantee, deposit and gastos comunes." },
-        "es": { "title": "Alquiler de vivienda — preguntas frecuentes", "description": "Cómo alquilar, la garantía de alquiler, el depósito y los gastos comunes." },
-        "de": { "title": "Wohnung mieten — FAQ", "description": "Wie man mietet, Mietgarantie, Kaution und gastos comunes." }
+        "ru": {
+          "title": "Аренда жилья — частые вопросы",
+          "description": "Как снять квартиру, гарантия аренды, депозит и gastos comunes."
+        },
+        "en": {
+          "title": "Renting a home — FAQ",
+          "description": "How to rent, the rental guarantee, deposit and gastos comunes."
+        },
+        "es": {
+          "title": "Alquiler de vivienda — preguntas frecuentes",
+          "description": "Cómo alquilar, la garantía de alquiler, el depósito y los gastos comunes."
+        },
+        "de": {
+          "title": "Wohnung mieten — FAQ",
+          "description": "Wie man mietet, Mietgarantie, Kaution und gastos comunes."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Renting a home — FAQ. How to rent, the rental guarantee, deposit and gastos comunes.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -61,10 +146,27 @@
       "sensitivity": "medium",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Покупка недвижимости — частые вопросы", "description": "Роль escribano, расходы при покупке и ипотека для иностранцев." },
-        "en": { "title": "Buying property — FAQ", "description": "The escribano's role, purchase costs and mortgages for foreigners." },
-        "es": { "title": "Compra de inmuebles — preguntas frecuentes", "description": "El papel del escribano, los costos de compra y la hipoteca para extranjeros." },
-        "de": { "title": "Immobilienkauf — FAQ", "description": "Die Rolle des escribano, Kaufkosten und Hypotheken für Ausländer." }
+        "ru": {
+          "title": "Покупка недвижимости — частые вопросы",
+          "description": "Роль escribano, расходы при покупке и ипотека для иностранцев."
+        },
+        "en": {
+          "title": "Buying property — FAQ",
+          "description": "The escribano's role, purchase costs and mortgages for foreigners."
+        },
+        "es": {
+          "title": "Compra de inmuebles — preguntas frecuentes",
+          "description": "El papel del escribano, los costos de compra y la hipoteca para extranjeros."
+        },
+        "de": {
+          "title": "Immobilienkauf — FAQ",
+          "description": "Die Rolle des escribano, Kaufkosten und Hypotheken für Ausländer."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Buying property — FAQ. The escribano's role, purchase costs and mortgages for foreigners.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -72,10 +174,27 @@
       "sensitivity": "high",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Медицина и страховка — частые вопросы", "description": "ASSE, mutualista, частная страховка, Fonasa и неотложная помощь." },
-        "en": { "title": "Healthcare & insurance — FAQ", "description": "ASSE, mutualista, private insurance, Fonasa and emergency care." },
-        "es": { "title": "Salud y seguro — preguntas frecuentes", "description": "ASSE, mutualista, seguro privado, Fonasa y urgencias." },
-        "de": { "title": "Gesundheit & Versicherung — FAQ", "description": "ASSE, mutualista, private Versicherung, Fonasa und Notfallversorgung." }
+        "ru": {
+          "title": "Медицина и страховка — частые вопросы",
+          "description": "ASSE, mutualista, частная страховка, Fonasa и неотложная помощь."
+        },
+        "en": {
+          "title": "Healthcare & insurance — FAQ",
+          "description": "ASSE, mutualista, private insurance, Fonasa and emergency care."
+        },
+        "es": {
+          "title": "Salud y seguro — preguntas frecuentes",
+          "description": "ASSE, mutualista, seguro privado, Fonasa y urgencias."
+        },
+        "de": {
+          "title": "Gesundheit & Versicherung — FAQ",
+          "description": "ASSE, mutualista, private Versicherung, Fonasa und Notfallversorgung."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Healthcare & insurance — FAQ. ASSE, mutualista, private insurance, Fonasa and emergency care.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -83,10 +202,27 @@
       "sensitivity": "medium",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Работа и удалёнка — частые вопросы", "description": "Поиск работы, удалённая работа на иностранную компанию и трудовой договор." },
-        "en": { "title": "Work & remote jobs — FAQ", "description": "Finding work, working remotely for a foreign company and the labour contract." },
-        "es": { "title": "Trabajo y empleo remoto — preguntas frecuentes", "description": "Buscar trabajo, trabajar en remoto para una empresa extranjera y el contrato laboral." },
-        "de": { "title": "Arbeit & Remote-Jobs — FAQ", "description": "Arbeitssuche, Remote-Arbeit für eine ausländische Firma und der Arbeitsvertrag." }
+        "ru": {
+          "title": "Работа и удалёнка — частые вопросы",
+          "description": "Поиск работы, удалённая работа на иностранную компанию и трудовой договор."
+        },
+        "en": {
+          "title": "Work & remote jobs — FAQ",
+          "description": "Finding work, working remotely for a foreign company and the labour contract."
+        },
+        "es": {
+          "title": "Trabajo y empleo remoto — preguntas frecuentes",
+          "description": "Buscar trabajo, trabajar en remoto para una empresa extranjera y el contrato laboral."
+        },
+        "de": {
+          "title": "Arbeit & Remote-Jobs — FAQ",
+          "description": "Arbeitssuche, Remote-Arbeit für eine ausländische Firma und der Arbeitsvertrag."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Work & remote jobs — FAQ. Finding work, working remotely for a foreign company and the labour contract.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -94,10 +230,27 @@
       "sensitivity": "medium",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Транспорт и авто — частые вопросы", "description": "Водительские права, покупка машины, страховка SOA и общественный транспорт." },
-        "en": { "title": "Transport & cars — FAQ", "description": "Driving licence, buying a car, SOA insurance and public transport." },
-        "es": { "title": "Transporte y autos — preguntas frecuentes", "description": "Licencia de conducir, compra de auto, seguro SOA y transporte público." },
-        "de": { "title": "Transport & Autos — FAQ", "description": "Führerschein, Autokauf, SOA-Versicherung und öffentlicher Verkehr." }
+        "ru": {
+          "title": "Транспорт и авто — частые вопросы",
+          "description": "Водительские права, покупка машины, страховка SOA и общественный транспорт."
+        },
+        "en": {
+          "title": "Transport & cars — FAQ",
+          "description": "Driving licence, buying a car, SOA insurance and public transport."
+        },
+        "es": {
+          "title": "Transporte y autos — preguntas frecuentes",
+          "description": "Licencia de conducir, compra de auto, seguro SOA y transporte público."
+        },
+        "de": {
+          "title": "Transport & Autos — FAQ",
+          "description": "Führerschein, Autokauf, SOA-Versicherung und öffentlicher Verkehr."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Transport & cars — FAQ. Driving licence, buying a car, SOA insurance and public transport.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -105,10 +258,27 @@
       "sensitivity": "medium",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Дети, школа и язык — частые вопросы", "description": "Школы и садики, государственные vs частные, и где учить испанский." },
-        "en": { "title": "Children, school & language — FAQ", "description": "Schools and kindergartens, public vs private, and where to learn Spanish." },
-        "es": { "title": "Niños, escuela e idioma — preguntas frecuentes", "description": "Escuelas y jardines, públicos vs privados, y dónde aprender español." },
-        "de": { "title": "Kinder, Schule & Sprache — FAQ", "description": "Schulen und Kindergärten, öffentlich vs privat, und wo man Spanisch lernt." }
+        "ru": {
+          "title": "Дети, школа и язык — частые вопросы",
+          "description": "Школы и садики, государственные vs частные, и где учить испанский."
+        },
+        "en": {
+          "title": "Children, school & language — FAQ",
+          "description": "Schools and kindergartens, public vs private, and where to learn Spanish."
+        },
+        "es": {
+          "title": "Niños, escuela e idioma — preguntas frecuentes",
+          "description": "Escuelas y jardines, públicos vs privados, y dónde aprender español."
+        },
+        "de": {
+          "title": "Kinder, Schule & Sprache — FAQ",
+          "description": "Schulen und Kindergärten, öffentlich vs privat, und wo man Spanisch lernt."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Children, school & language — FAQ. Schools and kindergartens, public vs private, and where to learn Spanish.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -116,10 +286,27 @@
       "sensitivity": "medium",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Где жить и районы — частые вопросы", "description": "Какой город и район выбрать, безопасность и где селятся русскоязычные." },
-        "en": { "title": "Where to live & neighbourhoods — FAQ", "description": "Which city and barrio to choose, safety and where Russian-speakers settle." },
-        "es": { "title": "Dónde vivir y barrios — preguntas frecuentes", "description": "Qué ciudad y barrio elegir, seguridad y dónde se asientan los rusoparlantes." },
-        "de": { "title": "Wo wohnen & Stadtviertel — FAQ", "description": "Welche Stadt und welches barrio, Sicherheit und wo Russischsprachige sich niederlassen." }
+        "ru": {
+          "title": "Где жить и районы — частые вопросы",
+          "description": "Какой город и район выбрать, безопасность и где селятся русскоязычные."
+        },
+        "en": {
+          "title": "Where to live & neighbourhoods — FAQ",
+          "description": "Which city and barrio to choose, safety and where Russian-speakers settle."
+        },
+        "es": {
+          "title": "Dónde vivir y barrios — preguntas frecuentes",
+          "description": "Qué ciudad y barrio elegir, seguridad y dónde se asientan los rusoparlantes."
+        },
+        "de": {
+          "title": "Wo wohnen & Stadtviertel — FAQ",
+          "description": "Welche Stadt und welches barrio, Sicherheit und wo Russischsprachige sich niederlassen."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Where to live & neighbourhoods — FAQ. Which city and barrio to choose, safety and where Russian-speakers settle.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -127,10 +314,27 @@
       "sensitivity": "low",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Связь и коммуналка — частые вопросы", "description": "Интернет Antel, сим-карта и оплата UTE, OSE и supergas." },
-        "en": { "title": "Connectivity & utilities — FAQ", "description": "Antel internet, SIM cards and paying UTE, OSE and supergas." },
-        "es": { "title": "Conectividad y servicios — preguntas frecuentes", "description": "Internet de Antel, chip de celular y pago de UTE, OSE y supergás." },
-        "de": { "title": "Anschlüsse & Versorgung — FAQ", "description": "Antel-Internet, SIM-Karten und Bezahlung von UTE, OSE und supergas." }
+        "ru": {
+          "title": "Связь и коммуналка — частые вопросы",
+          "description": "Интернет Antel, сим-карта и оплата UTE, OSE и supergas."
+        },
+        "en": {
+          "title": "Connectivity & utilities — FAQ",
+          "description": "Antel internet, SIM cards and paying UTE, OSE and supergas."
+        },
+        "es": {
+          "title": "Conectividad y servicios — preguntas frecuentes",
+          "description": "Internet de Antel, chip de celular y pago de UTE, OSE y supergás."
+        },
+        "de": {
+          "title": "Anschlüsse & Versorgung — FAQ",
+          "description": "Antel-Internet, SIM-Karten und Bezahlung von UTE, OSE und supergas."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Connectivity & utilities — FAQ. Antel internet, SIM cards and paying UTE, OSE and supergas.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -138,10 +342,27 @@
       "sensitivity": "low",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Покупки, посылки и таможня — частые вопросы", "description": "Заказ посылок и лимиты таможни, MercadoLibre и доставка еды." },
-        "en": { "title": "Shopping, parcels & customs — FAQ", "description": "Ordering parcels and customs limits, MercadoLibre and food delivery." },
-        "es": { "title": "Compras, paquetes y aduana — preguntas frecuentes", "description": "Pedir paquetes y los límites de aduana, MercadoLibre y delivery de comida." },
-        "de": { "title": "Einkauf, Pakete & Zoll — FAQ", "description": "Pakete bestellen und Zolllimits, MercadoLibre und Essenslieferung." }
+        "ru": {
+          "title": "Покупки, посылки и таможня — частые вопросы",
+          "description": "Заказ посылок и лимиты таможни, MercadoLibre и доставка еды."
+        },
+        "en": {
+          "title": "Shopping, parcels & customs — FAQ",
+          "description": "Ordering parcels and customs limits, MercadoLibre and food delivery."
+        },
+        "es": {
+          "title": "Compras, paquetes y aduana — preguntas frecuentes",
+          "description": "Pedir paquetes y los límites de aduana, MercadoLibre y delivery de comida."
+        },
+        "de": {
+          "title": "Einkauf, Pakete & Zoll — FAQ",
+          "description": "Pakete bestellen und Zolllimits, MercadoLibre und Essenslieferung."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Shopping, parcels & customs — FAQ. Ordering parcels and customs limits, MercadoLibre and food delivery.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -149,10 +370,27 @@
       "sensitivity": "low",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Питомцы — частые вопросы", "description": "Как перевезти животное в Уругвай, ветеринария и жильё с питомцами." },
-        "en": { "title": "Pets — FAQ", "description": "Bringing a pet to Uruguay, veterinary care and housing with pets." },
-        "es": { "title": "Mascotas — preguntas frecuentes", "description": "Cómo traer una mascota a Uruguay, veterinaria y vivienda con mascotas." },
-        "de": { "title": "Haustiere — FAQ", "description": "Ein Haustier nach Uruguay bringen, Tierarzt und Wohnen mit Haustieren." }
+        "ru": {
+          "title": "Питомцы — частые вопросы",
+          "description": "Как перевезти животное в Уругвай, ветеринария и жильё с питомцами."
+        },
+        "en": {
+          "title": "Pets — FAQ",
+          "description": "Bringing a pet to Uruguay, veterinary care and housing with pets."
+        },
+        "es": {
+          "title": "Mascotas — preguntas frecuentes",
+          "description": "Cómo traer una mascota a Uruguay, veterinaria y vivienda con mascotas."
+        },
+        "de": {
+          "title": "Haustiere — FAQ",
+          "description": "Ein Haustier nach Uruguay bringen, Tierarzt und Wohnen mit Haustieren."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Pets — FAQ. Bringing a pet to Uruguay, veterinary care and housing with pets.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -160,10 +398,27 @@
       "sensitivity": "high",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Документы, апостиль и перевод — частые вопросы", "description": "Что апостилировать, присяжный перевод (traductor público) и сроки действия." },
-        "en": { "title": "Documents, apostille & translation — FAQ", "description": "What to apostille, the sworn translation (traductor público) and validity periods." },
-        "es": { "title": "Documentos, apostilla y traducción — preguntas frecuentes", "description": "Qué apostillar, la traducción jurada (traductor público) y los plazos de validez." },
-        "de": { "title": "Dokumente, Apostille & Übersetzung — FAQ", "description": "Was apostillieren, die beeidigte Übersetzung (traductor público) und Gültigkeitsfristen." }
+        "ru": {
+          "title": "Документы, апостиль и перевод — частые вопросы",
+          "description": "Что апостилировать, присяжный перевод (traductor público) и сроки действия."
+        },
+        "en": {
+          "title": "Documents, apostille & translation — FAQ",
+          "description": "What to apostille, the sworn translation (traductor público) and validity periods."
+        },
+        "es": {
+          "title": "Documentos, apostilla y traducción — preguntas frecuentes",
+          "description": "Qué apostillar, la traducción jurada (traductor público) y los plazos de validez."
+        },
+        "de": {
+          "title": "Dokumente, Apostille & Übersetzung — FAQ",
+          "description": "Was apostillieren, die beeidigte Übersetzung (traductor público) und Gültigkeitsfristen."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Documents, apostille & translation — FAQ. What to apostille, the sworn translation (traductor público) and validity periods.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -171,10 +426,27 @@
       "sensitivity": "low",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Переезд и багаж — частые вопросы", "description": "Что брать с собой, обратные билеты и перевозка вещей контейнером." },
-        "en": { "title": "Moving & baggage — FAQ", "description": "What to bring, return tickets and shipping belongings by container." },
-        "es": { "title": "Mudanza y equipaje — preguntas frecuentes", "description": "Qué traer, los pasajes de vuelta y el envío de pertenencias en contenedor." },
-        "de": { "title": "Umzug & Gepäck — FAQ", "description": "Was mitnehmen, Rückflugtickets und Hausrat per Container verschiffen." }
+        "ru": {
+          "title": "Переезд и багаж — частые вопросы",
+          "description": "Что брать с собой, обратные билеты и перевозка вещей контейнером."
+        },
+        "en": {
+          "title": "Moving & baggage — FAQ",
+          "description": "What to bring, return tickets and shipping belongings by container."
+        },
+        "es": {
+          "title": "Mudanza y equipaje — preguntas frecuentes",
+          "description": "Qué traer, los pasajes de vuelta y el envío de pertenencias en contenedor."
+        },
+        "de": {
+          "title": "Umzug & Gepäck — FAQ",
+          "description": "Was mitnehmen, Rückflugtickets und Hausrat per Container verschiffen."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Moving & baggage — FAQ. What to bring, return tickets and shipping belongings by container.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -182,10 +454,27 @@
       "sensitivity": "low",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Продукты и цены — частые вопросы", "description": "Дорого ли с едой и где покупать дешевле (ferias, супермаркеты)." },
-        "en": { "title": "Groceries & prices — FAQ", "description": "How pricey food is and where to buy cheaper (ferias, supermarkets)." },
-        "es": { "title": "Alimentos y precios — preguntas frecuentes", "description": "Qué tan caros son los alimentos y dónde comprar más barato (ferias, supermercados)." },
-        "de": { "title": "Lebensmittel & Preise — FAQ", "description": "Wie teuer Lebensmittel sind und wo man günstiger kauft (ferias, Supermärkte)." }
+        "ru": {
+          "title": "Продукты и цены — частые вопросы",
+          "description": "Дорого ли с едой и где покупать дешевле (ferias, супермаркеты)."
+        },
+        "en": {
+          "title": "Groceries & prices — FAQ",
+          "description": "How pricey food is and where to buy cheaper (ferias, supermarkets)."
+        },
+        "es": {
+          "title": "Alimentos y precios — preguntas frecuentes",
+          "description": "Qué tan caros son los alimentos y dónde comprar más barato (ferias, supermercados)."
+        },
+        "de": {
+          "title": "Lebensmittel & Preise — FAQ",
+          "description": "Wie teuer Lebensmittel sind und wo man günstiger kauft (ferias, Supermärkte)."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Groceries & prices — FAQ. How pricey food is and where to buy cheaper (ferias, supermarkets).",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -193,10 +482,27 @@
       "sensitivity": "high",
       "default_staleness_risk": "medium",
       "text": {
-        "ru": { "title": "Безопасность и госуслуги — частые вопросы", "description": "Безопасность и преступность, запись на госуслуги (agenda), нотариус и посольство." },
-        "en": { "title": "Safety & public services — FAQ", "description": "Safety and crime, booking public services (agenda), the notary and the embassy." },
-        "es": { "title": "Seguridad y trámites — preguntas frecuentes", "description": "Seguridad y delincuencia, agenda de trámites, el escribano y la embajada." },
-        "de": { "title": "Sicherheit & Behörden — FAQ", "description": "Sicherheit und Kriminalität, Termine für Behörden (agenda), Notar und Botschaft." }
+        "ru": {
+          "title": "Безопасность и госуслуги — частые вопросы",
+          "description": "Безопасность и преступность, запись на госуслуги (agenda), нотариус и посольство."
+        },
+        "en": {
+          "title": "Safety & public services — FAQ",
+          "description": "Safety and crime, booking public services (agenda), the notary and the embassy."
+        },
+        "es": {
+          "title": "Seguridad y trámites — preguntas frecuentes",
+          "description": "Seguridad y delincuencia, agenda de trámites, el escribano y la embajada."
+        },
+        "de": {
+          "title": "Sicherheit & Behörden — FAQ",
+          "description": "Sicherheit und Kriminalität, Termine für Behörden (agenda), Notar und Botschaft."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Safety & public services — FAQ. Safety and crime, booking public services (agenda), the notary and the embassy.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     },
     {
@@ -204,10 +510,27 @@
       "sensitivity": "low",
       "default_staleness_risk": "low",
       "text": {
-        "ru": { "title": "Сообщество и контакты — частые вопросы", "description": "Где найти русскоязычное сообщество, чаты и помощь новичкам." },
-        "en": { "title": "Community & contacts — FAQ", "description": "Where to find the Russian-speaking community, chats and newcomer help." },
-        "es": { "title": "Comunidad y contactos — preguntas frecuentes", "description": "Dónde encontrar la comunidad rusoparlante, chats y ayuda para recién llegados." },
-        "de": { "title": "Community & Kontakte — FAQ", "description": "Wo man die russischsprachige Community, Chats und Hilfe für Neuankömmlinge findet." }
+        "ru": {
+          "title": "Сообщество и контакты — частые вопросы",
+          "description": "Где найти русскоязычное сообщество, чаты и помощь новичкам."
+        },
+        "en": {
+          "title": "Community & contacts — FAQ",
+          "description": "Where to find the Russian-speaking community, chats and newcomer help."
+        },
+        "es": {
+          "title": "Comunidad y contactos — preguntas frecuentes",
+          "description": "Dónde encontrar la comunidad rusoparlante, chats y ayuda para recién llegados."
+        },
+        "de": {
+          "title": "Community & Kontakte — FAQ",
+          "description": "Wo man die russischsprachige Community, Chats und Hilfe für Neuankömmlinge findet."
+        }
+      },
+      "service": {
+        "source_intent": "FAQ topic grouping for: Community & contacts — FAQ. Where to find the Russian-speaking community, chats and newcomer help.",
+        "kind": "faq_topic",
+        "evidence": "telegram_chat_synthesis"
       }
     }
   ],
@@ -216,7 +539,9 @@
       "card_id": "card.faq_residency.q01_how_to_get",
       "topic_id": "topic.faq_residency",
       "ask_signal": 4357,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Как получить резиденцию (ВНЖ) в Уругвае?",
@@ -238,13 +563,21 @@
           "short": "Man reicht bei der Migrationsbehörde einen Antrag mit apostillierten Nachweisen zu Einkommen, Führungszeugnis und Identität ein und erhält sofort eine vorläufige Cédula.",
           "body": "Der Standardweg ist die ordentliche Aufenthaltsgenehmigung (residencia común) bei der Dirección Nacional de Migración. Nötig sind apostillierte und von einem vereidigten Übersetzer übersetzte Dokumente: Geburtsurkunde, Führungszeugnis, Nachweis eines regelmäßigen Einkommens sowie ein in Uruguay erstelltes Gesundheitszeugnis (carné de salud). Nach Einreichung erhält man eine vorläufige Cédula, mit der man bereits leben, ein Konto eröffnen usw. kann, während der Antrag bearbeitet wird. Finanziell Unabhängige können stattdessen als Rentier/Investor beantragen. Die Anforderungen ändern sich, prüfe daher die aktuellen bei Migración oder einem Berater."
         }
+      },
+      "service": {
+        "source_intent": "How do I get residency in Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_residency.q02_residency_vs_citizenship",
       "topic_id": "topic.faq_residency",
       "ask_signal": 900,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Чем резиденция отличается от гражданства и паспорта?",
@@ -266,13 +599,21 @@
           "short": "Aufenthalt und Cédula geben das Recht, hier zu leben; Staatsbürgerschaft und Pass folgen später und erfordern keinen Verzicht auf die bisherige Staatsangehörigkeit.",
           "body": "Der Aufenthalt (residencia) ist das legale Recht, in Uruguay zu leben; sein Dokument ist die Cédula de Identidad, der lokale Ausweis. Die Staatsbürgerschaft ist ein separater, späterer Schritt: Man kann sie nach mehreren Jahren legalen Aufenthalts beantragen (in der Regel 3 Jahre mit Familienbindung im Land, sonst 5 — aktuelle Regel prüfen). Uruguay verlangt keinen Verzicht auf die bisherige Staatsbürgerschaft. Eine Besonderheit: Sie wird als natural citizenship und nicht als nationality erteilt, weshalb der uruguayische Pass das Geburtsland als Geburtsort angibt, was an Grenzen gelegentlich Fragen aufwirft."
         }
+      },
+      "service": {
+        "source_intent": "How are residency, citizenship and the passport different?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_residency.q03_first_cedula_wait",
       "topic_id": "topic.faq_residency",
       "ask_signal": 400,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Сколько ждать первую седулу (cédula)?",
@@ -294,13 +635,21 @@
           "short": "Die vorläufige Cédula erhält man meist bald nach der Einreichung; der Aufenthaltsprozess selbst dauert Monate, manchmal über ein Jahr.",
           "body": "Nach Einreichung der Dokumente vergibt Migración einen Termin zur Ausstellung der Cédula; viele erhalten die erste (vorläufige) Karte innerhalb weniger Wochen. Die vollständige Prüfung des Aufenthalts dauert länger — von mehreren Monaten bis zu einem Jahr oder mehr, der Status lässt sich online verfolgen (Emitir/Entregar Certificado usw.). Mit der vorläufigen Cédula kann man bereits leben, arbeiten und ein Konto eröffnen, ohne auf die endgültige Entscheidung zu warten. Die Fristen schwanken stark je nach Auslastung und Vollständigkeit der Unterlagen."
         }
+      },
+      "service": {
+        "source_intent": "How long does the first cédula take?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_residency.q04_citizenship_years",
       "topic_id": "topic.faq_residency",
       "ask_signal": 500,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Через сколько лет можно подать на гражданство?",
@@ -322,13 +671,21 @@
           "short": "Meist nach 3 Jahren legalen Aufenthalts mit Familie im Land und nach 5 Jahren in den übrigen Fällen.",
           "body": "Die Frist läuft ab dem legalen Aufenthalt (in der Regel ab Einreichung des Antrags). Üblich sind 3 Jahre für Personen mit Familieneinheit (núcleo familiar) in Uruguay und 5 Jahre für alleinstehende Antragsteller. Man muss Bindung zum Land nachweisen: tatsächlichen Aufenthalt, eine Einkommensquelle und manchmal Grundkenntnisse in Spanisch. Es entscheidet die Corte Electoral, und der Prozess selbst dauert ebenfalls. Genaue Fristen und Auslegungen ändern sich, prüfe die aktuelle Praxis."
         }
+      },
+      "service": {
+        "source_intent": "After how many years can I apply for citizenship?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_residency.q05_renounce_old",
       "topic_id": "topic.faq_residency",
       "ask_signal": 300,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Нужно ли отказываться от прежнего гражданства?",
@@ -350,13 +707,21 @@
           "short": "Nein. Uruguay erlaubt mehrfache Staatsbürgerschaft und verlangt keinen Verzicht auf den aktuellen Pass.",
           "body": "Der Erwerb der uruguayischen Staatsbürgerschaft erfordert keinen Verzicht auf die bestehende — Uruguay akzeptiert doppelte/mehrfache Staatsbürgerschaft. Eine separate Frage ist die Haltung deines jetzigen Landes: Manche Staaten verlangen die Meldung eines zweiten Passes. Den uruguayischen Pass erhält man nach Verleihung der Staatsbürgerschaft; beachte die Besonderheit, dass der Geburtsort statt der Staatsangehörigkeit eingetragen wird."
         }
+      },
+      "service": {
+        "source_intent": "Do I have to give up my current citizenship?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_residency.q06_cedula_legal_tramite",
       "topic_id": "topic.faq_residency",
       "ask_signal": 200,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Что значат cédula «legal» и «en trámite»?",
@@ -378,13 +743,22 @@
           "short": "„En trámite\" ist die vorläufige Cédula während der Bearbeitung; „legal\" ist die dauerhafte nach Genehmigung.",
           "body": "Solange der Aufenthaltsantrag geprüft wird, hat man eine vorläufige Cédula mit dem Vermerk en trámite — sie funktioniert voll als Ausweis für Miete, Bank und Gesundheit. Nach Genehmigung wird die dauerhafte Cédula (legal/definitiva genannt) mit normaler Gültigkeit ausgestellt. Der Unterschied liegt vor allem im Status und Ablaufdatum der Karte, nicht in den Alltagsmöglichkeiten."
         }
+      },
+      "service": {
+        "source_intent": "What do cédula 'legal' and 'en trámite' mean?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_residency.q07_rentier_investor",
       "topic_id": "topic.faq_residency",
       "ask_signal": 250,
-      "sensitivity_tags": ["legal", "financial"],
+      "sensitivity_tags": [
+        "legal",
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Можно ли получить ВНЖ как рантье или инвестор?",
@@ -406,13 +780,21 @@
           "short": "Ja — bei stabilem passivem Einkommen oder einer Investition (oft in Immobilien) gibt es eigene Aufenthaltsgründe.",
           "body": "Neben der ordentlichen Aufenthaltsgenehmigung gibt es Wege für finanziell Unabhängige: Rentier (nachgewiesenes regelmäßiges passives Einkommen) und Investor (z. B. Immobilienkauf oder Geschäftsinvestition über einer festgelegten Schwelle). Diese werden auch zur Erlangung der steuerlichen Ansässigkeit genutzt. Die genauen Schwellenwerte und Dokumentlisten ändern sich gelegentlich, und der Prozess läuft meist über einen escribano oder Migrationsberater — prüfe die aktuellen Bedingungen vor der Einreichung."
         }
+      },
+      "service": {
+        "source_intent": "Can I get residency as a rentier or investor?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_banking.q01_open_account",
       "topic_id": "topic.faq_banking",
       "ask_signal": 3594,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Как открыть банковский счёт в Уругвае?",
@@ -434,13 +816,21 @@
           "short": "Man braucht eine Cédula (auch vorläufig), Adress- und Einkommensnachweis; das Konto wird in der Filiale eröffnet, oft mit Termin.",
           "body": "Für ein Konto bei einer lokalen Bank (BROU, Itaú, Santander usw.) braucht man meist: Cédula (auch die vorläufige en trámite genügt), Adressnachweis und Einkommensnachweis/-erklärung. Eröffnet wird persönlich in der Filiale, häufig mit Termin; die Anforderungen unterscheiden sich je nach Bank. Wer vor der Cédula schnell etwas braucht, startet oft mit Prex — keine Bank, sondern eine einfacher zu eröffnende Zahlkarte. Konditionen ändern sich, prüfe sie vor dem Besuch."
         }
+      },
+      "service": {
+        "source_intent": "How do I open a bank account in Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_banking.q02_which_bank",
       "topic_id": "topic.faq_banking",
       "ask_signal": 600,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Какой банк выбрать: Itaú, Santander, BROU?",
@@ -462,13 +852,21 @@
           "short": "BROU ist die staatliche Bank mit der größten Reichweite; Itaú und Santander sind privat mit besseren Apps; es hängt von den Bedürfnissen ab.",
           "body": "BROU ist die staatliche Bank mit dem größten Filial- und Geldautomatennetz, oft für Gehälter und staatliche Zahlungen verlangt. Itaú und Santander sind privat und haben meist ein angenehmeres Online-Banking und Service, wobei die Eröffnungsanforderungen strenger sein können. Viele behalten am Ende sowohl eine lokale Bank als auch Prex/eine ausländische Karte. Vergleiche Führungs-, Überweisungs- und Abhebungsgebühren nach deiner tatsächlichen Nutzung."
         }
+      },
+      "service": {
+        "source_intent": "Which bank should I choose: Itaú, Santander or BROU?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_banking.q03_what_is_prex",
       "topic_id": "topic.faq_banking",
       "ask_signal": 455,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Что такое Prex и зачем он нужен?",
@@ -490,13 +888,21 @@
           "short": "Prex ist eine Nicht-Bank-Zahlkarte in Pesos und Dollar, schnell und mit wenigen Dokumenten eröffnet — praktisch bei der Ankunft.",
           "body": "Prex ist ein kartenbasierter Zahlungsdienst (keine Bank), bei Neuankömmlingen beliebt, weil er schnell und ohne Gehaltsbescheinigung eröffnet wird, manchmal noch vor der dauerhaften Cédula. Praktisch zum Empfangen von Überweisungen, Bezahlen, Bargeldabheben und für Guthaben in Pesos und Dollar. Nachteile sind Limits und Gebühren, und es ersetzt kein vollwertiges Bankkonto für große Transaktionen. Viele nutzen Prex als Einstiegs-Wallet und ergänzen später ein Bankkonto."
         }
+      },
+      "service": {
+        "source_intent": "What is Prex and why would I need it?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_banking.q04_account_without_residency",
       "topic_id": "topic.faq_banking",
       "ask_signal": 300,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Можно ли открыть счёт без резиденции?",
@@ -518,13 +924,21 @@
           "short": "Ein vollwertiges Bankkonto braucht meist eine Cédula; davor erledigen Prex und ausländische Karten den Job.",
           "body": "Die meisten Banken eröffnen ein Konto, sobald man eine Cédula hat — die vorläufige en trámite genügt, die kurz nach Einreichung des Aufenthaltsantrags ausgestellt wird. Ohne jegliche Cédula lässt sich in der Regel kein normales Konto eröffnen. Für den Übergang decken Prex (wenige Dokumente) und ausländische Karten (Wise, Karten aus dem Heimatland) Zahlungen und Bargeldabhebungen ab. Sobald die vorläufige Cédula da ist, kann man auch ein lokales Konto eröffnen."
         }
+      },
+      "service": {
+        "source_intent": "Can I open an account without residency?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_banking.q05_transfer_money",
       "topic_id": "topic.faq_banking",
       "ask_signal": 137,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Как перевести деньги в Уругвай и обратно?",
@@ -546,13 +960,21 @@
           "short": "Meist über Wise, Krypto (USDT) mit lokaler Auszahlung und gewöhnliche SWIFT-Überweisungen — je mit eigenen Gebühren und Limits.",
           "body": "Gängige Wege, ein Konto in Uruguay zu speisen: Wise (Multiwährungskonto und Überweisungen), Krypto (z. B. USDT) und anschließender Tausch in Bargeld/Pesos sowie klassische SWIFT-Banküberweisungen. Wise wird für Tempo und Kurs geschätzt, unterstützt aber nicht jedes lokale Konto direkt. Krypto wird über P2P oder Wechsler ausgezahlt — Kurs sowie Steuer-/Compliance-Aspekte beachten. Bei großen Beträgen vorab Limits prüfen und den Mittelherkunftsnachweis bereithalten, der verlangt werden kann."
         }
+      },
+      "service": {
+        "source_intent": "How do I move money into and out of Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_money_crypto.q01_transfer",
       "topic_id": "topic.faq_money_crypto",
       "ask_signal": 1746,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Как перевести деньги в Уругвай?",
@@ -574,13 +996,21 @@
           "short": "Drei funktionierende Wege: Wise, Krypto (USDT) mit Auszahlung und eine SWIFT-Banküberweisung.",
           "body": "Die häufigsten Optionen sind Wise (schnell, guter Kurs, Multiwährung), Krypto wie USDT mit anschließendem Tausch in Pesos/Dollar über P2P oder Wechsler sowie ein klassischer SWIFT auf ein Bankkonto. Wise wird oft als Zwischen-Wallet genutzt, da die direkte Gutschrift auf manche lokalen Konten eingeschränkt ist. Bei größeren Beträgen den Herkunftsnachweis aufbewahren — Banken und Wechsler können ihn verlangen, besonders aus Compliance-Gründen."
         }
+      },
+      "service": {
+        "source_intent": "How do I send money to Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_money_crypto.q02_exchange_currency",
       "topic_id": "topic.faq_money_crypto",
       "ask_signal": 400,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Где обменять валюту и доллары на песо?",
@@ -602,13 +1032,21 @@
           "short": "In Wechselstuben (casa de cambio) und Banken; der Dollar ist in Uruguay weit verbreitet, oft kann man in Dollar zahlen und sparen.",
           "body": "Gewechselt wird in casas de cambio und Banken; Kurse und Gebühren vergleichen. Eine uruguayische Besonderheit ist die Selbstverständlichkeit des Dollars: Miete, Immobilien und große Käufe werden oft in Dollar angegeben, und Ersparnisse in Dollar zu halten ist üblich. Bargeld in Pesos braucht man für kleine Alltagsausgaben und ferias, wo Karten nicht immer akzeptiert werden. Der Kurs schwankt, plane größere Tauschvorgänge daher nach dem aktuellen Stand."
         }
+      },
+      "service": {
+        "source_intent": "Where do I change currency and dollars into pesos?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_money_crypto.q03_live_on_crypto",
       "topic_id": "topic.faq_money_crypto",
       "ask_signal": 350,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Можно ли жить на крипту и как обналичить USDT?",
@@ -630,13 +1068,21 @@
           "short": "Ja, viele tun das: USDT wird über P2P oder Wechsler ausgezahlt; Krypto eignet sich zum Geldtransfer, ist aber kein Alltagszahlmittel.",
           "body": "Krypto (meist USDT) wird viel genutzt, um Geld ins Land zu bringen: Es wird über P2P-Geschäfte und spezialisierte Wechsler in Bargeld getauscht oder einem Konto gutgeschrieben. In Alltagsgeschäften zahlt man kaum mit Krypto — man braucht Pesos oder Karte. Achte bei P2P auf Kurs, Gebühren und Ruf der Gegenseite sowie auf mögliche steuerliche Folgen bei großen Volumina. Aus Sicherheit große Geschäfte aufteilen und den Wechsler prüfen."
         }
+      },
+      "service": {
+        "source_intent": "Can I live on crypto and how do I cash out USDT?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_money_crypto.q04_wise",
       "topic_id": "topic.faq_money_crypto",
       "ask_signal": 152,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Работает ли Wise в Уругвае?",
@@ -658,13 +1104,22 @@
           "short": "Ja, Wise wird viel für Überweisungen und Kartenzahlungen genutzt, doch die direkte Gutschrift auf manche lokalen Konten ist begrenzt.",
           "body": "Wise ist bei Umziehenden beliebt: Multiwährungsguthaben, guter Kurs und eine Karte zum Zahlen und Abheben. Praktisch, um Einkommen aus dem Ausland zu erhalten und Geld zwischen Ländern zu bewegen. Die Einschränkung: Nicht jedes uruguayische Bankkonto lässt sich direkt über Wise speisen, daher kombiniert man es oft mit Prex, Krypto oder Bargeldabhebungen. Prüfe vor einer großen Transaktion die aktuellen Limits und unterstützten Routen."
         }
+      },
+      "service": {
+        "source_intent": "Does Wise work in Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_taxes.q01_when_tax_resident",
       "topic_id": "topic.faq_taxes",
       "ask_signal": 2812,
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Когда я становлюсь налоговым резидентом Уругвая?",
@@ -686,13 +1141,22 @@
           "short": "Meist bei über 183 Tagen Aufenthalt im Jahr oder durch Verlagerung des Lebens-/Wirtschaftsmittelpunkts ins Land.",
           "body": "Das Grundkriterium sind mehr als 183 Tage in Uruguay im Kalenderjahr. Es gibt Alternativen: Verlagerung des wirtschaftlichen Interessenmittelpunkts oder der Familie ins Land sowie besondere Investitionsschwellen (in Immobilien oder ein Unternehmen), die die steuerliche Ansässigkeit schneller verleihen. Steuerliche Ansässigkeit ist nicht dasselbe wie der aufenthaltsrechtliche Status — das sind verschiedene Dinge. Konsultiere vor dem Handeln einen contador: Auslegungen und Schwellen sind wichtig und können sich ändern."
         }
+      },
+      "service": {
+        "source_intent": "When do I become a Uruguayan tax resident?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_taxes.q02_tax_holiday",
       "topic_id": "topic.faq_taxes",
       "ask_signal": 200,
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Что такое налоговые каникулы на иностранный доход?",
@@ -714,13 +1178,22 @@
           "short": "Neue Steueransässige erhalten eine Zeit ohne Steuer auf ausländisches Einkommen; danach gilt ein ermäßigter Satz oder das reguläre Regime.",
           "body": "Neue Steueransässige bekommen ein günstiges Regime: Für einen festgelegten Zeitraum ist ausländisches Einkommen (z. B. Dividenden und Zinsen aus dem Ausland) von der uruguayischen Steuer befreit, danach wird es zu einem ermäßigten Satz besteuert (es gibt auch die Option, den ermäßigten Satz von Anfang an unbefristet zu zahlen). Das ist ein Grund für Uruguays Attraktivität für Remote-Arbeiter und Investoren. Bestätige die genauen Jahre, Sätze und Bedingungen mit einem contador, denn die Details sind entscheidend."
         }
+      },
+      "service": {
+        "source_intent": "What is the tax holiday on foreign income?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_taxes.q03_personal_taxes",
       "topic_id": "topic.faq_taxes",
       "ask_signal": 328,
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Какие налоги платит физлицо в Уругвае?",
@@ -742,13 +1215,22 @@
           "short": "Vor allem IRPF-Einkommensteuer nach progressivem Tarif auf lokales Einkommen; ausländisches Einkommen wird begrenzt und begünstigt besteuert.",
           "body": "Auf lokales Einkommen zahlen ansässige Privatpersonen IRPF nach progressivem Tarif (Gehälter, lokale Dienstleistungen usw.); vom Gehalt gehen zudem Beiträge an BPS (Sozialversicherung) und Fonasa (Gesundheit). Ausländisches Einkommen wird begrenzt besteuert — passives Auslandseinkommen fällt unter ein eigenes Regime mit Steuerbefreiung und ermäßigtem Satz. Die Mehrwertsteuer (IVA) ist in den Preisen enthalten. Genaue Sätze und Schwellen mit einem contador und auf der DGI-Website prüfen."
         }
+      },
+      "service": {
+        "source_intent": "What taxes does an individual pay in Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_taxes.q04_empresa_unipersonal",
       "topic_id": "topic.faq_taxes",
       "ask_signal": 150,
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Как оформить empresa unipersonal и нужен ли contador?",
@@ -770,13 +1252,22 @@
           "short": "Die empresa unipersonal ist die einfachste Einzelunternehmerform, angemeldet bei DGI und BPS; ein contador erledigt das fast immer.",
           "body": "Eine empresa unipersonal ist der einfachste Weg, legal Rechnungen zu stellen und selbstständig zu arbeiten: Anmeldung bei DGI (Steuern) und BPS (Beiträge), danach zahlt man monatliche Beiträge und Steuern nach seinem Regime. Für kleinen Umsatz gibt es vereinfachte Regime (z. B. Monotributo/Literal). Fast alle führen Buchhaltung und Meldungen über einen contador — günstig und fehlervermeidend. Bespreche vor der Anmeldung mit einem contador, welches Regime zu deinem Einkommen passt."
         }
+      },
+      "service": {
+        "source_intent": "How do I set up an empresa unipersonal and do I need a contador?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_taxes.q05_worldwide_income",
       "topic_id": "topic.faq_taxes",
       "ask_signal": 120,
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Облагается ли мировой доход в Уругвае?",
@@ -798,13 +1289,21 @@
           "short": "Grundsätzlich besteuert Uruguay territorial; ausländisches Einkommen wird begrenzt besteuert, mit Erleichterungen für Neuansässige.",
           "body": "Uruguay folgt historisch dem Territorialprinzip: Besteuert wird vor allem Einkommen aus inländischen Quellen. Auslandseinkünfte (besonders aktives Einkommen wie Remote-Arbeit für einen ausländischen Arbeitgeber) fallen unter dem Territorialansatz meist nicht unter die lokale Steuer, während bestimmte passive Auslandseinkünfte besteuert werden — jedoch mit dem Steuerbefreiungsregime und einem ermäßigten Satz für Neuansässige. Das hängt stark von der Einkommensart und deiner Lage ab, entscheide daher mit einem contador."
         }
+      },
+      "service": {
+        "source_intent": "Is worldwide income taxed in Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_rent.q01_how_to_rent",
       "topic_id": "topic.faq_rent",
       "ask_signal": 1209,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Как снять квартиру и что обычно просят?",
@@ -826,13 +1325,21 @@
           "short": "Meist braucht man eine Mietgarantie, eine Kaution (in der Regel ein Monat) und einen Einkommensnachweis; der Vertrag ist schriftlich.",
           "body": "Eine normale Langzeitmiete ist ein schriftlicher Vertrag (contrato de alquiler) und braucht fast immer eine Garantie (garantía) — über die staatliche ANDA/Contaduría, eine Versicherungspolice oder einen Eigentümer-Bürgen. Zusätzlich zahlt man eine Kaution (meist ein Monat) und weist Einkommen nach. Ausländern ohne lokale Garantie wird oft eine Miete über eine Versicherungsgarantie oder eine höhere Kaution angeboten. Kurze, möblierte Mieten (monatsweise) sind ohne Garantie leichter, aber teurer."
         }
+      },
+      "service": {
+        "source_intent": "How do I rent an apartment and what's usually required?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_rent.q02_guarantee",
       "topic_id": "topic.faq_rent",
       "ask_signal": 400,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Что такое гарантия аренды и какие есть варианты?",
@@ -854,13 +1361,21 @@
           "short": "Die Garantie ist eine Sicherheit für den Vermieter; Hauptformen sind staatlich (ANDA/Contaduría), Versicherung und ein Eigentümer-Bürge.",
           "body": "Die garantía schützt den Vermieter vor Zahlungsausfall. Übliche Formen: staatliche Garantie (Contaduría General de la Nación für Angestellte oder ANDA), eine Versicherungsgarantie einer Privatfirma (man zahlt einen Prozentsatz für die Einrichtung) und ein Bürge, der in Uruguay Eigentum besitzt. Ausländer ohne lokalen Bürgen nutzen meist die Versicherungsgarantie oder eine höhere Kaution. Kosten und Verfügbarkeit hängen vom Einkommen und einem lokalen Bürgen ab."
         }
+      },
+      "service": {
+        "source_intent": "What is the rental guarantee and what options exist?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_rent.q03_cost_gastos_comunes",
       "topic_id": "topic.faq_rent",
       "ask_signal": 250,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Сколько стоит аренда и что входит в gastos comunes?",
@@ -882,13 +1397,21 @@
           "short": "Zur Miete kommen gastos comunes (Hausunterhalt) und Nebenkosten; die echte Summe liegt deutlich über dem Grundpreis.",
           "body": "Neben der Miete erheben Mehrfamilienhäuser gastos comunes — eine Umlage für den Hausunterhalt (Reinigung, Aufzug, Sicherheit, Pool usw.), die erheblich sein kann. Dazu kommen Nebenkosten: Strom (UTE), Wasser (OSE), Gas (oft Flaschengas supergás) und Internet. Prüfe, ob die gastos comunes im angegebenen Preis enthalten sind. Die Preise variieren stark nach Stadt und barrio; Montevideo und Punta del Este sind teurer, Vororte und andere Städte günstiger."
         }
+      },
+      "service": {
+        "source_intent": "How much is rent and what are gastos comunes?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_rent.q04_no_guarantor",
       "topic_id": "topic.faq_rent",
       "ask_signal": 200,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Можно ли снять без гаранта, будучи иностранцем?",
@@ -910,6 +1433,12 @@
           "short": "Ja — über eine Versicherungsgarantie, eine höhere Kaution oder eine kurze möblierte Miete mit leichteren Anforderungen.",
           "body": "Ein Ausländer ohne lokalen Bürgen hat mehrere Wege: eine Versicherungsgarantie abschließen (eine Privatfirma bürgt gegen Gebühr), eine höhere Kaution statt einer Garantie vereinbaren oder mit einer kurzfristigen möblierten Miete beginnen, bei der meist keine Garantie nötig ist. Mit Cédula und lokalem Einkommen öffnen sich die üblichen Langzeitoptionen. Ein mit Neuankömmlings-Mieten erfahrener Makler (inmobiliaria) hilft."
         }
+      },
+      "service": {
+        "source_intent": "Can I rent without a guarantor as a foreigner?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -938,13 +1467,22 @@
           "short": "Die wichtigsten Seiten sind MercadoLibre, Gallito und InfoCasas, dazu Agenturen (inmobiliarias) und russischsprachige Chats.",
           "body": "Mietanzeigen findet man auf MercadoLibre, Gallito und InfoCasas; viele Objekte laufen über Agenturen (inmobiliarias), die eine Gebühr nehmen, aber bei Vertrag und Garantie helfen. Ein Teil des Angebots, besonders möbliert und für Neuankömmlinge, taucht in russischsprachigen Chats und Gruppen auf. Vergleiche den Preis mit gastos comunes und barrio; besichtige persönlich oder per Video und sei vorsichtig mit Vorauszahlungen an Fremde."
         }
+      },
+      "service": {
+        "source_intent": "Where do I look for a rental?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_realestate_buy.q01_escribano",
       "topic_id": "topic.faq_realestate_buy",
       "ask_signal": 167,
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Как купить недвижимость и зачем нужен escribano?",
@@ -966,13 +1504,21 @@
           "short": "Ein escribano (Notar) muss den Kauf abwickeln: Er prüft den Titel und erstellt die escritura; selbst ein nichtansässiger Ausländer darf kaufen.",
           "body": "Der Immobilienkauf läuft über einen escribano — einen Notar, der den Eigentumstitel, die Schulden- und Lastenfreiheit prüft und die escritura (den Kaufvertrag) erstellt und einträgt. Ein Ausländer darf, auch ohne Aufenthalt, in Uruguay Immobilien kaufen. Üblich ist eine Anzahlung (seña/boleto de reserva) und danach der Abschluss. Plane Zusatzkosten ein: Honorar des escribano, Steuern und Gebühren. Den escribano wählt in der Regel der Käufer."
         }
+      },
+      "service": {
+        "source_intent": "How do I buy property and why do I need an escribano?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_realestate_buy.q02_mortgage",
       "topic_id": "topic.faq_realestate_buy",
       "ask_signal": 40,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Можно ли взять ипотеку иностранцу или резиденту?",
@@ -994,13 +1540,21 @@
           "short": "Hypotheken gibt es (auch über BHU/BROU), doch für Neuankömmlinge sind sie schwer; die meisten kaufen bar.",
           "body": "Hypotheken gibt es in Uruguay — insbesondere über BHU und BROU sowie Privatbanken —, doch die Anforderungen an Einkommen, Bonität und Aufenthaltsdauer sind hoch, sodass Neuankömmlinge sie schwer erhalten. In der Praxis kaufen viele Umziehende bar oder mit aus dem Ausland mitgebrachten Mitteln. Ist eine Hypothek entscheidend, bespreche die Konditionen früh mit Bank und escribano: Zinsen, Kreditwährung und Einkommensnachweise."
         }
+      },
+      "service": {
+        "source_intent": "Can a foreigner or resident get a mortgage?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_realestate_buy.q03_costs",
       "topic_id": "topic.faq_realestate_buy",
       "ask_signal": 30,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Какие расходы и налоги при покупке недвижимости?",
@@ -1022,13 +1576,21 @@
           "short": "Zum Preis kommen Honorar des escribano, Übertragungssteuer (ITP), Eintragung und Maklerprovision — ein spürbarer Aufschlag.",
           "body": "Über den Kaufpreis hinaus entstehen: Honorar des escribano, die Übertragungssteuer (ITP, von beiden Seiten gezahlt), Eintragungs- und Prüfkosten sowie eine Maklerprovision, wenn der Kauf über eine inmobiliaria läuft. Eigentümer zahlen danach eine jährliche Grundsteuer (Contribución Inmobiliaria) und kommunale Abgaben. Die genauen Prozentsätze hängen vom Preis ab und werden vom escribano berechnet — verlange vor dem Abschluss eine Aufstellung aller Kosten."
         }
+      },
+      "service": {
+        "source_intent": "What costs and taxes apply when buying property?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_health.q01_need_insurance",
       "topic_id": "topic.faq_health",
       "ask_signal": 1473,
-      "sensitivity_tags": ["medical"],
+      "sensitivity_tags": [
+        "medical"
+      ],
       "text": {
         "ru": {
           "title": "Нужна ли медстраховка и как устроена медицина?",
@@ -1050,13 +1612,21 @@
           "short": "Das System umfasst die staatliche ASSE, private mutualistas und private Versicherer; Neuankömmlinge brauchen meist private Versicherung oder eine mutualista.",
           "body": "Das uruguayische Gesundheitswesen teilt sich in staatlich (ASSE) und privat über mutualistas — gemeinnützige Ärztegesellschaften, bei denen man einen Monatsbeitrag (cuota) zahlt und Klinik, Krankenhaus und Ärzte erhält. Es gibt auch private Premium-Versicherer/-Kliniken. Bis man über die Arbeit bei Fonasa angemeldet ist, ist es am einfachsten, sich bei einer mutualista anzumelden oder direkt eine private Versicherung abzuschließen. Für den Übergang und kurze Besuche nutzt man internationale Versicherungen. Notfälle werden unabhängig von der Versicherung versorgt."
         }
+      },
+      "service": {
+        "source_intent": "Do I need health insurance and how does healthcare work?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_health.q02_asse_vs_mutualista",
       "topic_id": "topic.faq_health",
       "ask_signal": 400,
-      "sensitivity_tags": ["medical"],
+      "sensitivity_tags": [
+        "medical"
+      ],
       "text": {
         "ru": {
           "title": "Что выбрать: ASSE, mutualista или частную страховку?",
@@ -1078,13 +1648,22 @@
           "short": "ASSE ist staatlich und günstig, aber ausgelastet; eine mutualista ist der Preis-Leistungs-Mittelweg; Privatversicherung ist teurer und komfortabler.",
           "body": "ASSE ist günstig (manchmal kostenlos) verfügbar, hat aber längere Wartezeiten und einfacheren Service. Eine mutualista ist die beliebteste Wahl unter Umziehenden: fester cuota, eigenes Netz aus Kliniken und Krankenhäusern und vertretbare Wartezeiten. Private Premium-Versicherer/-Kliniken (z. B. bekannte Privatkliniken) bieten maximalen Komfort zu höherem Preis. Die Wahl hängt von Budget, Alter und Bedarf ab; bei Fonasa-Anmeldung über die Arbeit wird ein Teil des Beitrags automatisch gedeckt."
         }
+      },
+      "service": {
+        "source_intent": "Which should I pick: ASSE, a mutualista or private insurance?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_health.q03_fonasa",
       "topic_id": "topic.faq_health",
       "ask_signal": 200,
-      "sensitivity_tags": ["medical", "financial"],
+      "sensitivity_tags": [
+        "medical",
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Что такое Fonasa и как к нему подключиться?",
@@ -1106,13 +1685,21 @@
           "short": "Fonasa ist der staatliche Krankenversicherungsfonds; darüber erhalten formell Beschäftigte mutualista-Versorgung, finanziert aus Lohnbeiträgen.",
           "body": "Fonasa ist das nationale Krankenversicherungssystem: Wer formell arbeitet (angestellt oder als registrierte empresa), zahlt einen Teil seiner Beiträge an Fonasa und erhält Anspruch auf Versorgung bei einer mutualista (für sich, teils Ehepartner und Kinder). Der Beitrag hängt von Einkommen und Familiengröße ab. Wer noch nicht bei Fonasa ist, meldet sich direkt bei einer mutualista oder Versicherung an. Beitragsdetails und Familienabdeckung mit einem contador oder bei BPS prüfen."
         }
+      },
+      "service": {
+        "source_intent": "What is Fonasa and how do I join it?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_health.q04_emergency",
       "topic_id": "topic.faq_health",
       "ask_signal": 120,
-      "sensitivity_tags": ["medical"],
+      "sensitivity_tags": [
+        "medical"
+      ],
       "text": {
         "ru": {
           "title": "Куда обращаться при экстренной ситуации?",
@@ -1134,6 +1721,12 @@
           "short": "Rufe 911 für einen Krankenwagen; Notfallversorgung gibt es im Krankenhaus unabhängig von der Versicherung, mutualistas haben einen eigenen mobilen Notdienst.",
           "body": "Im Notfall 911 wählen — die einheitliche Servicenummer. Viele mutualistas und Privatversicherer haben einen eigenen mobilen Notdienst (emergencia móvil), den man über eine spezielle Nummer im Vertrag ruft. In akuten Fällen behandelt die Notaufnahme eines Krankenhauses auch ohne Versicherung, stellt Unversicherten aber eine Rechnung. Es hilft, die Nummer der eigenen emergencia móvil und die Adresse des nächsten Krankenhauses vorab zu notieren."
         }
+      },
+      "service": {
+        "source_intent": "Where do I go in an emergency?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1162,13 +1755,21 @@
           "short": "Der lokale Markt ist klein und ohne Spanisch und Kontakte schwierig; viele leben von Remote-Arbeit oder gründen ein eigenes Geschäft.",
           "body": "Uruguay ist ein kleines Land mit begrenztem Arbeitsmarkt, daher dauert die lokale Jobsuche länger als in großen Volkswirtschaften, besonders ohne fließendes Spanisch und lokales Netzwerk. Am gefragtesten sind IT, Ingenieurwesen, Sprachen und Dienstleistungen. Die Gehälter sind nach lokalem Maßstab niedriger als in den USA/EU. Umziehende behalten oft Remote-Arbeit für einen ausländischen Arbeitgeber oder registrieren eine empresa unipersonal und arbeiten selbstständig. Stellen findet man auf BuscoJobs, LinkedIn, Gallito und in Fachchats."
         }
+      },
+      "service": {
+        "source_intent": "Is it easy to find work in Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_work.q02_remote_for_foreign",
       "topic_id": "topic.faq_work",
       "ask_signal": 500,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Можно ли работать удалённо на иностранную компанию?",
@@ -1190,13 +1791,21 @@
           "short": "Ja, ein sehr verbreitetes Modell; um legal bezahlt zu werden und Steuern zu zahlen, registriert man meist eine empresa unipersonal.",
           "body": "Remote-Arbeit für einen ausländischen Arbeitgeber ist ein typischer Weg für Umziehende in Uruguay. Um Einkommen zu erhalten und legal Beiträge zu zahlen, registrieren die meisten eine empresa unipersonal und stellen Rechnungen oder arbeiten per Dienstleistungsvertrag. Das gibt Zugang zu Fonasa und BPS-Rentenbeiträgen. Die Besteuerung aktiven Auslandseinkommens ist unter dem Territorialprinzip meist gering, doch die Details hängen von deiner Struktur ab — kläre das Modell vor dem Start mit einem contador."
         }
+      },
+      "service": {
+        "source_intent": "Can I work remotely for a foreign company?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_work.q03_labour_contract",
       "topic_id": "topic.faq_work",
       "ask_signal": 200,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Как устроен трудовой договор и минимальная зарплата?",
@@ -1218,13 +1827,21 @@
           "short": "Die Anstellung wird bei BPS registriert; Beschäftigte haben bezahlten Urlaub, den aguinaldo (13. Gehalt) und Beiträge; es gibt einen gesetzlichen Mindestlohn.",
           "body": "Formelle Anstellung wird bei BPS registriert; der Arbeitgeber führt Renten- und Fonasa-Beiträge ab. Beschäftigte haben Anspruch auf bezahlten Urlaub, den aguinaldo (eine Jahresprämie, wie ein 13. Gehalt), Urlaubsgeld (salario vacacional) und arbeitsrechtlichen Schutz. Es gibt einen gesetzlichen Mindestlohn (salario mínimo), die realen Gehälter liegen in den meisten Bereichen darüber. Beträge und Beitragssätze ändern sich — prüfe aktuelle Zahlen."
         }
+      },
+      "service": {
+        "source_intent": "How does the labour contract and minimum wage work?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_work.q04_freelance",
       "topic_id": "topic.faq_work",
       "ask_signal": 150,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Как фрилансеру легально выставлять счета?",
@@ -1246,13 +1863,21 @@
           "short": "Über eine bei DGI und BPS registrierte empresa unipersonal; für kleinen Umsatz eignen sich vereinfachte Regime.",
           "body": "Ein Freelancer wird wie jeder Selbstständige legal: Er registriert eine empresa unipersonal und stellt dann offizielle Rechnungen (facturas) an Kunden, auch ausländische. Für kleinen Umsatz gibt es vereinfachte Regime mit geringeren Beiträgen. Monatlich werden BPS-Beiträge und Steuern nach dem gewählten Regime gezahlt, ein contador erledigt die Meldungen. Das bringt legales Einkommen, Gesundheit über Fonasa und Rentenanrechnung. Wähle vor dem Start das Regime mit einem contador passend zu deinem Volumen."
         }
+      },
+      "service": {
+        "source_intent": "How does a freelancer invoice legally?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_transport.q01_driving_licence",
       "topic_id": "topic.faq_transport",
       "ask_signal": 1741,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Нужны ли местные водительские права и как их получить?",
@@ -1274,13 +1899,21 @@
           "short": "Zum Leben hier braucht man einen uruguayischen Führerschein; ihn stellt die Intendencia der Stadt aus, oft durch Umtausch des ausländischen.",
           "body": "Kurzzeitig darf man mit ausländischem/internationalem Führerschein fahren, doch zum Leben besorgt man den lokalen — ausgestellt von der Stadtverwaltung (Intendencia). Ausländische Führerscheine lassen sich oft umtauschen, teils mit Prüfung oder Gesundheitscheck, teils mit Übersetzung und Legalisierung des Originals. Die Anforderungen variieren je Departement, prüfe daher bei deiner Intendencia. Bring Cédula und Adressnachweis mit."
         }
+      },
+      "service": {
+        "source_intent": "Do I need a local driving licence and how do I get it?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_transport.q02_buy_car",
       "topic_id": "topic.faq_transport",
       "ask_signal": 400,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Как купить машину и что со страховкой?",
@@ -1302,6 +1935,12 @@
           "short": "Autos sind wegen Steuern teuer; die SOA-Police ist Pflicht, die Übertragung läuft oft über escribano/gestor.",
           "body": "Autos sind in Uruguay wegen hoher Importsteuern teurer als in vielen Ländern, und Gebrauchte halten ihren Wert. Anzeigen gibt es auf MercadoLibre und Gallito. Die SOA-Police (Grundhaftpflicht) ist Pflicht; darüber hinaus schließt man freiwillig eine Vollkasko ab. Die Halterübertragung erfolgt bei der Intendencia, oft mit escribano oder gestor, der prüft, dass das Auto keine Schulden oder Strafen hat. Den eigenen Wagen aus dem Ausland einzuführen und zu verzollen lohnt sich wegen der Abgaben meist nicht."
         }
+      },
+      "service": {
+        "source_intent": "How do I buy a car and what about insurance?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1330,13 +1969,21 @@
           "short": "Vor allem Busse (ómnibus); in Montevideo zahlt man mit der STM-Karte, Überlandbusse fahren ab dem Terminal Tres Cruces.",
           "body": "Der Stadtverkehr besteht hauptsächlich aus Bussen (ómnibus). In Montevideo lohnt sich eine STM-Karte zum Aufladen — der Fahrpreis ist damit günstiger. U-Bahn oder Straßenbahn gibt es nicht. Überlandfahrten erfolgen mit Reisebussen verschiedener Firmen, Hauptknoten in Montevideo ist das Terminal Tres Cruces. Taxis und Apps (Uber, Cabify) funktionieren in großen Städten. Fahrpläne und Routen findet man in Apps (z. B. STM/Montevideo) und auf den Websites der Anbieter."
         }
+      },
+      "service": {
+        "source_intent": "How does public transport work?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_transport.q04_import_car",
       "topic_id": "topic.faq_transport",
       "ask_signal": 120,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Стоит ли перегонять или растаможивать своё авто?",
@@ -1358,6 +2005,12 @@
           "short": "Meist nein: hohe Zölle und komplexe Formalitäten machen es teurer und mühsamer als ein Auto vor Ort zu kaufen.",
           "body": "Die Einfuhr eines privaten Autos nach Uruguay ist mit erheblichen Zöllen und Steuern verbunden, und die Verzollung ist komplex; Erleichterungen für Umziehende sind begrenzt und an Bedingungen geknüpft. In der Praxis lohnt sich die Einfuhr selten — einfacher und oft günstiger ist der Kauf eines Autos im Land, auch wenn die Preise höher sind als gewohnt. Bei Sonderfällen (seltenes Modell, Befreiungskategorie) rechne vorab alles mit einem Zollagenten (despachante) durch."
         }
+      },
+      "service": {
+        "source_intent": "Should I import or clear my own car?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1386,6 +2039,12 @@
           "short": "Es gibt kostenlose öffentliche und kostenpflichtige private Schulen; zur Anmeldung braucht es die Dokumente des Kindes (oft apostilliert) und Impfungen.",
           "body": "Die Bildung teilt sich in öffentlich (kostenlos, auf Spanisch) und privat (kostenpflichtig, inkl. zweisprachiger und internationaler Schulen). Zur Anmeldung braucht man meist die Geburtsurkunde (oft apostilliert und übersetzt), Nachweise früherer Schulbildung und einen Impfpass. Plätze an beliebten Privatschulen sucht man besser früh. Den Kindergarten (jardín) gibt es öffentlich und privat. Kinder lernen schnell Spanisch, doch eine Schule mit Sprachförderung hilft am Anfang."
         }
+      },
+      "service": {
+        "source_intent": "How do I enrol my child in school or kindergarten?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1414,6 +2073,12 @@
           "short": "Kurse an Universitäten und Sprachschulen, Privatlehrer und Sprachtandem; das uruguayische Spanisch hat seine Eigenheiten.",
           "body": "Man lernt Spanisch in Universitäts- und Sprachschulkursen, mit Privatlehrern (auch online) und über Sprachtandem (intercambio) mit Einheimischen. Das uruguayische Spanisch (Rioplatense) unterscheidet sich in der Aussprache (ll/y klingt wie „sch\"), im Pronomen vos statt tú und im lokalen Slang, daher hilft das Hören echter Sprache. Grundkenntnisse erleichtern Alltag, Behördengänge und Jobsuche enorm — am besten vor dem Umzug beginnen."
         }
+      },
+      "service": {
+        "source_intent": "Where and how do I learn Spanish?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1442,6 +2107,12 @@
           "short": "Öffentliche sind kostenlos und auf Spanisch; private sind kostenpflichtig, oft mit kleineren Klassen, zweisprachig oder mit internationalem Lehrplan.",
           "body": "Öffentliche Schulen sind kostenlos und unterrichten auf Spanisch — gut, damit ein Kind sich schnell integriert, aber die Klassen sind größer und die Ressourcen knapper. Private Schulen sind kostenpflichtig, können zweisprachig sein oder einem internationalen Lehrplan folgen, mit kleineren Klassen und besserer Ausstattung; Kosten und Niveau variieren stark. Viele russischsprachige Familien wählen im ersten Jahr eine private Schule mit Sprachförderung und bewerten danach nach der Anpassung des Kindes neu. Die Entscheidung hängt von Budget, Alter und Zukunftsplänen ab."
         }
+      },
+      "service": {
+        "source_intent": "Public or private school — which to choose?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1470,6 +2141,12 @@
           "short": "In Montevideo sind die Küstenviertel Pocitos, Punta Carretas und Carrasco beliebt und relativ sicher; es hängt von Budget und Lebensstil ab.",
           "body": "Neuankömmlinge lassen sich meist in Montevideos Küstenvierteln nieder: Pocitos (Leben an der Rambla, Infrastruktur), Punta Carretas (zentral, sicher, teuer), Carrasco (ruhig, grün, gehoben, weit vom Zentrum), während Cordón/Centro günstiger sind, sich aber je nach Tageszeit unterschiedlich sicher anfühlen. Außerhalb der Hauptstadt wählt man Punta del Este, Maldonado, Atlántida, Colonia und Piriápolis. Wäge Nähe zu Arbeit/Schule, Budget und Atmosphäre ab; ausführliche Karten je barrio gibt es im Bereich Stadtviertel & Wohnen."
         }
+      },
+      "service": {
+        "source_intent": "Which neighbourhood is best and which are safe?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1498,6 +2175,12 @@
           "short": "Die meisten Russischsprachigen sind in Montevideos Küstenvierteln und im Raum Punta del Este / Maldonado.",
           "body": "Spürbare russischsprachige Gemeinschaften gibt es in Montevideo (die Küstenviertel Pocitos, Punta Carretas, Carrasco und Umgebung) und im Ferienraum Punta del Este / Maldonado. Das sind keine Enklaven — die Verteilung ist gestreut, aber dort findet man am leichtesten Bekannte, russischsprachige Fachleute und gegenseitige Hilfe. Kontakte und aktuelle Adressen (Ärzte, Schulen, Dienste) findet man gut in russischsprachigen Chats. Wähle das konkrete barrio dennoch nach Budget und Lebensstil, nicht nur nach der Diaspora."
         }
+      },
+      "service": {
+        "source_intent": "Where do Russian-speakers settle?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1526,6 +2209,12 @@
           "short": "Montevideo bietet die meiste Infrastruktur und Jobs; Punta del Este ist ein saisonaler Ferienort; kleinere Städte sind günstiger und ruhiger.",
           "body": "Montevideo eignet sich für alle, die Jobs, Schulen, Gesundheitsversorgung und urbanes Umfeld brauchen — hier lebt der Großteil des Landes. Punta del Este und Maldonado bieten Klima und Meer, doch Punta ist sehr saisonal und teuer; Maldonado ist ganzjähriger und günstiger. Kleinere Städte und die Küste (Atlántida, La Paloma, Colonia, Piriápolis) bieten Ruhe und niedrige Preise auf Kosten von weniger Diensten und Jobs. Die Wahl hängt von den Prioritäten ab: Karriere und Service gegen Ruhe und Budget."
         }
+      },
+      "service": {
+        "source_intent": "Which city should I choose to live in?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1554,6 +2243,12 @@
           "short": "Hauptanbieter ist das staatliche Antel (Glasfaser); es wird pro Adresse eingerichtet, ein Vertrag braucht meist eine Cédula.",
           "body": "Der wichtigste Heim-Internetanbieter ist das staatliche Antel mit breiter Glasfaserabdeckung und geschwindigkeitsbasierten Tarifen; in Städten sind die Geschwindigkeiten gut. Den Antrag stellt man online oder in einem Antel-Büro; der Anschluss ist an die Adresse gebunden, ein Vertrag braucht meist eine Cédula. Es gibt auch mobiles Internet (Antel, Movistar, Claro) über eine SIM-Karte. Preise und Tarife auf der Antel-Website prüfen; in Mietwohnungen ist Internet manchmal bereits angeschlossen und in der Miete enthalten."
         }
+      },
+      "service": {
+        "source_intent": "How do I get internet and how much does it cost?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1582,6 +2277,12 @@
           "short": "Anbieter sind Antel, Movistar und Claro; eine Prepaid-SIM bekommt man sofort, ein Vertragstarif braucht meist eine Cédula.",
           "body": "Mobilfunkanbieter sind das staatliche Antel sowie die privaten Movistar und Claro. Direkt nach der Ankunft ist eine Prepaid-SIM (prepago) praktisch, aufladen bei abitab/redpagos oder in einer App — meist ohne Cédula. Für einen Postpaid-Tarif (plan/contrato) braucht man in der Regel eine Cédula und teils einen Adressnachweis. Die Abdeckung in Städten und entlang der Küste ist gut. Vergleiche die Datenpakete der Anbieter nach deinem Nutzungsprofil."
         }
+      },
+      "service": {
+        "source_intent": "How do I buy a SIM and set up mobile service?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1610,13 +2311,21 @@
           "short": "Strom ist UTE, Wasser OSE, Gas oft in Flaschen (supergás); Rechnungen zahlt man bei Abitab/Redpagos, online oder per Lastschrift.",
           "body": "Strom liefert das staatliche UTE, Wasser OSE; Gas in Wohnungen ist oft Flaschengas (supergás) mit Lieferung, seltener leitungsgebunden. Rechnungen kommen an die Adresse/App und werden bar oder per Karte bei den Netzen Abitab und Redpagos, per Online-Banking oder Lastschrift bezahlt. In Mietwohnungen klären, welche Rechnungen dir gehören und welche zu den gastos comunes zählen. Erinnerungen einzurichten hilft, Schulden zu vermeiden, besonders bei UTE."
         }
+      },
+      "service": {
+        "source_intent": "How do I pay utilities: UTE, OSE, supergás?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_documents.q01_what_to_apostille",
       "topic_id": "topic.faq_documents",
       "ask_signal": 596,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Какие документы апостилировать перед переездом?",
@@ -1638,13 +2347,21 @@
           "short": "Mindestens Geburtsurkunde, Heiratsurkunde und Führungszeugnis; apostilliere sie im Ausstellungsland vor der Abreise.",
           "body": "Für Aufenthalt und Alltag apostilliere vorab: Geburtsurkunde, Heiratsurkunde (falls vorhanden), Führungszeugnis und ggf. Bildungs- und Kinderdokumente. Die Apostille wird im Ausstellungsland angebracht — sie später aus Uruguay zu besorgen ist schwierig und langwierig. Beachte die Gültigkeit: Ein Führungszeugnis wird oft aktuell verlangt. In Uruguay werden die Dokumente zusätzlich von einem vereidigten Übersetzer (traductor público) übersetzt. Die genaue Liste mit den aktuellen Migrationsanforderungen abgleichen."
         }
+      },
+      "service": {
+        "source_intent": "Which documents should I apostille before moving?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_documents.q02_sworn_translation",
       "topic_id": "topic.faq_documents",
       "ask_signal": 200,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Нужен ли присяжный перевод (traductor público)?",
@@ -1666,13 +2383,21 @@
           "short": "Ja: Für offizielle Verfahren übersetzt ein uruguayischer traductor público die Dokumente; gewöhnliche Übersetzungen werden nicht akzeptiert.",
           "body": "Ausländische Dokumente für Migration, Eheregistrierung, Studium usw. müssen von einem in Uruguay zugelassenen vereidigten Übersetzer (traductor público) übersetzt werden. Eine Eigen- oder Auslandsübersetzung wird offiziell nicht anerkannt. Übersetzt wird das bereits apostillierte Dokument — die Apostille ist Teil der Übersetzung. Eine Liste der traductores públicos führt deren Berufsverband; die Kosten richten sich nach dem Umfang. Am einfachsten erfolgt die Übersetzung in Uruguay, nach der Ankunft mit apostillierten Originalen."
         }
+      },
+      "service": {
+        "source_intent": "Do I need a sworn translation (traductor público)?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_documents.q03_apostille_validity",
       "topic_id": "topic.faq_documents",
       "ask_signal": 150,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Какой срок действия у апостиля и справок?",
@@ -1694,13 +2419,21 @@
           "short": "Die Apostille selbst verfällt nicht, aber viele Bescheinigungen (besonders das Führungszeugnis) werden nur aktuell akzeptiert — binnen weniger Monate.",
           "body": "Eine Apostille hat kein Ablaufdatum — sie bestätigt nur die Echtheit der Unterschrift/des Siegels auf dem Dokument. Begrenzt ist die Gültigkeit der Dokumente selbst: Migration verlangt oft ein kürzlich ausgestelltes Führungszeugnis und manche Auszüge (häufig aus den letzten Monaten). Solche Bescheinigungen werden daher nahe an der Einreichung besorgt und apostilliert, nicht lange im Voraus. Geburts-/Heiratsurkunden veralten meist nicht, prüfe aber, ob ein aktueller Auszug verlangt wird. Genaue Fristen mit der annehmenden Behörde bestätigen."
         }
+      },
+      "service": {
+        "source_intent": "How long are the apostille and certificates valid?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_documents.q04_no_criminal_record",
       "topic_id": "topic.faq_documents",
       "ask_signal": 120,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Как получить справку о несудимости для резиденции?",
@@ -1722,6 +2455,12 @@
           "short": "Du brauchst ein Zeugnis aus dem Land des vorherigen Aufenthalts, apostilliert und übersetzt; in Uruguay folgt zusätzlich eine lokale Fingerabdruck-/Prüfung.",
           "body": "Der Aufenthalt verlangt ein Führungszeugnis aus dem Land, in dem du gelebt hast (meist über die letzten Jahre) — im Heimatland besorgt, apostilliert und dann in Uruguay von einem vereidigten Übersetzer übersetzt. Parallel führt Migración vor Ort eine lokale Prüfung durch (z. B. per Fingerabdruck). Da das Zeugnis nur begrenzt gültig ist, plane die Beschaffung nahe an der Einreichung. Genaue Anforderungen und abzudeckende Länder mit Migración klären."
         }
+      },
+      "service": {
+        "source_intent": "How do I get a police-clearance certificate for residency?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1750,6 +2489,12 @@
           "short": "Es gibt ein günstiges Kleinpaket-Regime mit jährlichen Wert- und Mengengrenzen; darüber fallen Zölle und Abfertigung an.",
           "body": "Privatpersonen haben eine vereinfachte Einfuhr für Kleinpakete (régimen de envíos postales) mit Grenzen für Wert, Gewicht und Sendungszahl pro Jahr — innerhalb dieser Grenzen werden Waren mit minimalem Aufwand abgefertigt. Darüber fallen Zölle/Steuern an, und große oder gewerbliche Sendungen brauchen volle Zollabfertigung, teils über einen Broker (despachante). Grenzen und Sätze ändern sich gelegentlich, prüfe daher vor dem Bestellen die aktuellen Regeln, besonders bei Elektronik."
         }
+      },
+      "service": {
+        "source_intent": "How do I order parcels and what about customs?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1778,6 +2523,12 @@
           "short": "Hauptplattform ist MercadoLibre; Elektronik ist in Uruguay wegen Steuern teurer, viele importieren oder nutzen Free Shops.",
           "body": "Der wichtigste Marktplatz ist MercadoLibre (die lokale Alles-Seite), dazu Elektronik-Handelsketten. Wegen hoher Steuern kosten Elektronik und Gadgets mehr als gewohnt, daher bestellen manche aus dem Ausland innerhalb der Paketgrenzen oder bringen Artikel selbst mit. Manchmal lohnt der Kauf in Free-Shop-Zonen (Grenze/Flughafen) innerhalb der Freigrenzen. Vergleiche den Endpreis inkl. Versand und möglicher Zölle — die Ersparnis ist nicht immer offensichtlich."
         }
+      },
+      "service": {
+        "source_intent": "Where do I buy electronics and goods online?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1806,6 +2557,12 @@
           "short": "Am meisten genutzt werden PedidosYa und Rappi für Essen und Waren; auch Supermärkte liefern Lebensmittel nach Hause.",
           "body": "Essens- und Geschäftslieferung decken die Apps PedidosYa und Rappi ab — Restaurants, Lebensmittel, Apotheken, Kleinwaren. Große Supermärkte (Tienda Inglesa, Disco, Devoto) bieten eigene Online-Lebensmittellieferung. Zahlung per Karte oder teils bar an den Kurier. Die Abdeckung ist in Montevideo und großen Städten am besten; in kleinen Orten ist die Auswahl geringer. Trinkgeld für den Kurier ist freiwillig. Prüfe vor dem Bestellen die Lieferzone deiner Adresse."
         }
+      },
+      "service": {
+        "source_intent": "What food and goods delivery services are there?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1834,6 +2591,12 @@
           "short": "Du brauchst Mikrochip, Impfungen (vor allem Tollwut), einen internationalen Heimtierausweis und ein Veterinärzeugnis; kläre den Transport mit der Airline.",
           "body": "Für die Einfuhr eines Hundes oder einer Katze braucht es meist: Mikrochip, gültige Impfungen (vor allem Tollwut), ggf. Tests und ein internationales Veterinärzeugnis, kurz vor Abflug ausgestellt und vom staatlichen Veterinärdienst des Abfluglandes bestätigt. Kläre Transportbedingungen (Kabine/Frachtraum/Cargo) und Boxmaße vorab mit der Airline. Bei Ankunft können Dokumente geprüft werden. Die Anforderungen ändern sich — prüfe die aktuellen Regeln Uruguays (MGAP) und der Airline."
         }
+      },
+      "service": {
+        "source_intent": "How do I bring a pet to Uruguay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1862,6 +2625,12 @@
           "short": "Es gibt reichlich Tierkliniken und Tierapotheken, besonders in Städten; die Preise sind moderat, manche Kliniken rund um die Uhr.",
           "body": "Montevideo und große Städte haben viele Tierkliniken, Tierapotheken und -geschäfte, auch 24-Stunden-Dienste. Die Versorgungsqualität ist generell gut und die Preise moderat im Vergleich zu Europa/USA. Futter und Zubehör gibt es in Tiergeschäften, Supermärkten und auf MercadoLibre. Für konkrete Tierarztempfehlungen frage in lokalen und russischsprachigen Chats. Halte regelmäßige Impfungen und Parasitenbehandlung aufrecht, besonders in der warmen Jahreszeit."
         }
+      },
+      "service": {
+        "source_intent": "What's veterinary care and pet upkeep like?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1890,6 +2659,12 @@
           "short": "Manche Vermieter akzeptieren Haustiere, viele verlangen aber eine Extra-Kaution; suche nach Anzeigen mit acepta mascotas.",
           "body": "Mit Hund oder Katze zu mieten ist machbar, aber die Auswahl ist kleiner: Manche Eigentümer und Gebäude (besonders mit Eigentümerordnung) erlauben keine Haustiere oder verlangen eine höhere Kaution. Achte in Anzeigen auf acepta mascotas und sprich es früh und ehrlich an. Erdgeschosswohnungen oder Häuser mit Hof passen besser für Hunde. Russischsprachige Chats helfen oft, tierfreundliche Optionen und vertrauenswürdige Vermieter zu finden."
         }
+      },
+      "service": {
+        "source_intent": "Is it hard to rent with pets?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -1918,13 +2693,21 @@
           "short": "Nimm apostillierte Dokumente, nötige Medikamente und persönliche Dinge mit; große Geräte und Möbel kauft man oft günstiger vor Ort.",
           "body": "Das Wichtigste: vorab apostillierte Dokumente (Urkunden, Bescheinigungen), ein Vorrat persönlicher Medikamente mit Rezepten, wichtige persönliche Gegenstände und saisonale Kleidung (der Winter ist kühl und feucht). Elektronik nimmt man im persönlichen Gepäck mit. Möbel und große Haushaltsgeräte per Container zu verschiffen ist teuer — oft einfacher, in Uruguay oder gebraucht zu kaufen. Für Haustiere ein eigenes Set Veterinärdokumente. Mache Kopien aller Dokumente (Papier und Cloud) für den Verlustfall."
         }
+      },
+      "service": {
+        "source_intent": "What should I bring when I move?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_moving.q02_return_tickets",
       "topic_id": "topic.faq_moving",
       "ask_signal": 300,
-      "sensitivity_tags": ["legal"],
+      "sensitivity_tags": [
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Нужны ли обратные билеты на въезде?",
@@ -1946,13 +2729,21 @@
           "short": "Touristen können gelegentlich nach einem Weiterreisenachweis gefragt werden; in der Praxis verläuft die Einreise meist reibungslos, ein Ticket/Buchung hilft aber.",
           "body": "Für viele Länder erlaubt Uruguay die visumfreie Einreise als Tourist für einen begrenzten Zeitraum. Formal kann die Grenze einen Weiterreisenachweis (Rück- oder Anschlussticket) und Mittel verlangen, in der Praxis wird das aber nicht immer geprüft. Wenn du den Aufenthalt im Land beantragen willst, ist die Einreise als Tourist üblich; ein Rückflugticket mit flexiblem Datum oder eine Buchung vermeidet Fragen. Kläre vor der Reise die genauen Regeln zum visumfreien Aufenthalt und dessen Verlängerung."
         }
+      },
+      "service": {
+        "source_intent": "Do I need return tickets on entry?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_moving.q03_shipping_container",
       "topic_id": "topic.faq_moving",
       "ask_signal": 150,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Стоит ли везти вещи контейнером (карго)?",
@@ -1974,6 +2765,12 @@
           "short": "Ein Container lohnt nur bei großem Volumen wertvoller Dinge; für die meisten ist es günstiger, daheim zu verkaufen und vor Ort neu zu kaufen.",
           "body": "Seefracht per Container lohnt sich, wenn du viele wirklich benötigte, wertvolle Dinge hast — Möbel, Ausrüstung, eine persönliche Sammlung. Es ist teuer, langsam (Wochen bis Monate) und mit Zollabfertigung verbunden, teils über einen despachante; Umziehende können Erleichterungen für die Einfuhr von Hausrat erhalten, aber mit Bedingungen. Für die meisten ist es einfacher und günstiger, Großes daheim zu verkaufen und sich in Uruguay neu einzurichten. Rechne Fracht und Zölle gegen den Kauf vor Ort, bevor du entscheidest."
         }
+      },
+      "service": {
+        "source_intent": "Is it worth shipping belongings by container?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2002,6 +2799,12 @@
           "short": "Uruguay ist nicht billig: Importiertes und Verarbeitetes ist teuer, aber Fleisch und saisonales Gemüse auf der feria sind günstiger.",
           "body": "Die Lebensmittelpreise in Uruguay sind höher, als viele erwarten, besonders bei Importwaren, Haushaltschemie und verarbeiteten Produkten. Günstiger ist es, lokal zu kaufen: Rind und Hähnchen sind erschwinglich, und saisonales Obst und Gemüse sind auf Straßenmärkten (ferias), die nach Plan in verschiedenen Vierteln stattfinden, deutlich preiswerter. Große Supermärkte sind Tienda Inglesa, Disco und Devoto; zum Sparen Aktionen vergleichen und lokale Marken kaufen. Der Grundwarenkorb hängt stark davon ab, wie viel Importiertes du kaufst."
         }
+      },
+      "service": {
+        "source_intent": "Is food expensive and where do I buy cheaper?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2030,13 +2833,21 @@
           "short": "Das meiste Grundlegende gibt es, doch Nischenartikel (Buchweizen, Roggenbrot, osteuropäische Waren) sucht man in Spezialgeschäften oder bestellt sie.",
           "body": "Die meisten vertrauten Produkte findet man in Uruguay, auch wenn Sortiment und Namen anders sind. Spezielles — Buchweizen, Roggenbrot, manche Gewürze, asiatische und osteuropäische Waren — gibt es in Spezial- und Ethno-Läden, teils auf MercadoLibre. Gutes lokales Fleisch, Milchprodukte, Wein und saisonales Obst gleichen einen Teil des Fehlenden aus. Adressen von Läden mit den gewünschten Artikeln und der Austausch von Fundstücken kommen oft in russischsprachigen Chats auf."
         }
+      },
+      "service": {
+        "source_intent": "Can I find familiar products?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_safety.q01_is_it_safe",
       "topic_id": "topic.faq_safety",
       "ask_signal": 1324,
-      "sensitivity_tags": ["safety"],
+      "sensitivity_tags": [
+        "safety"
+      ],
       "text": {
         "ru": {
           "title": "Безопасно ли в Уругвае?",
@@ -2058,6 +2869,12 @@
           "short": "Uruguay zählt zu den sichersten Ländern der Region, doch einige Gegenden und Situationen meidet man besser; Grundvorsicht ist nötig.",
           "body": "Nach lateinamerikanischen Maßstäben gilt Uruguay als ruhig und stabil, mit relativ geringer schwerer Gewalt. Es gibt Eigentumskriminalität (Diebstahl, teils Raub), konzentriert auf bestimmte Viertel großer Städte und die Dunkelheit. Montevideos Küstenviertel und der Ferienraum sind generell sicherer; Randviertel weniger. Vernünftige Vorsicht hilft: Wertsachen nicht zeigen, sichere Viertel zum Wohnen wählen und mit Bargeld achtsam sein. Details je Viertel im Bereich Stadtviertel & Wohnen."
         }
+      },
+      "service": {
+        "source_intent": "Is Uruguay safe?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2086,13 +2903,22 @@
           "short": "Die meisten Termine laufen über Vorabbuchung (agenda) online auf der Seite der jeweiligen Behörde; Warteschlangen ohne Termin sind selten.",
           "body": "In Uruguay läuft fast jeder Kontakt mit Behörden — Banken, Migration, Intendencia, Gesundheit, BPS, DGI — über eine Vorabbuchung (agenda), die man online auf der Seite der jeweiligen Stelle mit Datum und Uhrzeit macht. Ohne Buchung wird man oft gar nicht vorgelassen. Termine können wochenlang ausgebucht sein, buche daher früh. Bring Originaldokumente und die Cédula mit. Gibt es keinen Termin, prüfe die Seite regelmäßig — neue werden immer wieder freigeschaltet."
         }
+      },
+      "service": {
+        "source_intent": "How do I book public services (agenda)?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_safety.q03_notary_income",
       "topic_id": "topic.faq_safety",
       "ask_signal": 200,
-      "sensitivity_tags": ["legal", "financial"],
+      "sensitivity_tags": [
+        "legal",
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Зачем нужен нотариус (escribano) и сертификат о доходах?",
@@ -2114,6 +2940,12 @@
           "short": "Ein escribano beglaubigt wichtige Dokumente; die Einkommensbescheinigung für Miete und Aufenthalt wird oft von ihm erstellt.",
           "body": "Ein escribano ist ein Notar, der Geschäfte und Dokumente beglaubigt und in Uruguay weitreichende Befugnisse hat. Für Miete, Aufenthalt und diverse Verfahren verlangt man eine Einkommensbescheinigung (certificación de ingresos), die oft ein escribano oder contador anhand deiner Daten erstellt und beglaubigt. Der escribano wickelt auch Immobiliengeschäfte und Vollmachten ab. Die Leistungen sind kostenpflichtig, die Gebühr richtet sich nach dem Dokument. Den Kontakt eines vertrauenswürdigen escribano holt man sich gut per Empfehlung, auch in russischsprachigen Chats."
         }
+      },
+      "service": {
+        "source_intent": "Why do I need a notary (escribano) and an income certificate?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2142,6 +2974,12 @@
           "short": "Konsularangelegenheiten laufen über die Botschaft deines Landes in Montevideo oder einer Nachbarregion; Termine meist per agenda.",
           "body": "Für Pässe, Vollmachten, notarielle und sonstige Konsularangelegenheiten wende dich an die Botschaft/das Konsulat deines Landes; nicht jedes Land hat eines in Uruguay — dann läuft die Betreuung über die Botschaft in einem Nachbarland (z. B. Argentinien) oder aus der Ferne. Termine meist nach Vorabbuchung. Aktuelle Adressen, Telefonnummern und die Leistungsliste auf der offiziellen Website der Botschaft prüfen. Die Community in russischsprachigen Chats kann zu Praxis und Buchungsdetails Hinweise geben."
         }
+      },
+      "service": {
+        "source_intent": "Where do I go for the embassy and consular matters?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2170,6 +3008,12 @@
           "short": "Das meiste spielt sich in themenbasierten Telegram-Chats zu Umzug, Wohnen, Dokumenten und Vierteln ab, dazu Stadtgruppen.",
           "body": "Die russischsprachige Community in Uruguay ist vor allem auf Telegram aktiv: Es gibt allgemeine Umzugs- und Immobilienchats sowie spezielle zu Dokumenten, Gesundheit, Kindern und bestimmten Städten und Vierteln. Dort teilt man Erfahrungen, Kontakte vertrauenswürdiger Fachleute (escribano, contador, Ärzte) und aktuelle Neuigkeiten zu Verfahren. Lies beim Beitritt die angehefteten Nachrichten und Regeln und suche per Stichwort — viele häufige Fragen sind bereits beantwortet. Sei vorsichtig mit Fremden und Vorauszahlungen."
         }
+      },
+      "service": {
+        "source_intent": "Where do I find the Russian-speaking community and chats?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2198,13 +3042,21 @@
           "short": "Frage in Themenchats, suche per Stichwort und wende dich an vertrauenswürdige Fachleute (gestor, escribano, contador).",
           "body": "Am Anfang helfen Community und Fachleute am schnellsten. In Themenchats stellt man Fragen und sucht per Stichwort — die Antwort steht oft schon in den Threads oder im angehefteten Beitrag. Für Verfahren (Aufenthalt, empresa-Registrierung, Miete) spart die Arbeit mit vertrauenswürdigen gestor, escribano und contador Zeit; ihre Kontakte holt man per Empfehlung. Gib Fremden ohne Prüfung kein Geld und keine Originale. Dieser Q&A-Bereich und die Themenkarten decken ebenfalls die meisten ersten Fragen ab."
         }
+      },
+      "service": {
+        "source_intent": "Where can a newcomer get help at the start?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_health.q05_drug_analogs",
       "topic_id": "topic.faq_health",
       "ask_signal": 809,
-      "sensitivity_tags": ["medical"],
+      "sensitivity_tags": [
+        "medical"
+      ],
       "text": {
         "ru": {
           "title": "Как найти местный аналог привычного лекарства?",
@@ -2226,13 +3078,21 @@
           "short": "Suche nach dem Wirkstoff (principio activo) in den Apps Vademecum oder Farmanuario und prüfe dann Bestand und Preis auf den Apothekenseiten.",
           "body": "Die meisten Medikamente haben ein lokales Äquivalent mit demselben Wirkstoff — anderer Markenname, gleiches Molekül. Suche nach Wirkstoff in den Verzeichnissen/Apps Vademecum und Farmanuario uy und prüfe Verfügbarkeit und Preis auf den Seiten der Ketten: farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Viele verschreibungspflichtige Medikamente gibt es unter ihrem internationalen Generikanamen (z. B. sertralina, lamotrigina). Bei Unsicherheit über ein Äquivalent frage den Apotheker oder einen lokalen Arzt, besonders bei Dauermedikation. Verschreibungspflichtige Mittel nicht selbst verordnen."
         }
+      },
+      "service": {
+        "source_intent": "How do I find a local equivalent of my usual medication?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_health.q06_unavailable_meds",
       "topic_id": "topic.faq_health",
       "ask_signal": 300,
-      "sensitivity_tags": ["medical"],
+      "sensitivity_tags": [
+        "medical"
+      ],
       "text": {
         "ru": {
           "title": "Каких лекарств может не быть и чем их заменить?",
@@ -2254,13 +3114,21 @@
           "short": "Manche Vitamin-/Mineralformen und einzelne Präparate sind schwerer zu finden; bring einen kleinen Vorrat mit und ersetze den Rest über den Wirkstoff.",
           "body": "Grundmedikamente gibt es, aber manches Vertraute ist schwerer zu finden: bestimmte Zink-/Magnesiumformen und Nahrungsergänzungen, einzelne Marken, gelegentlich Nischenpräparate. Einiges gibt es nicht in einer normalen Apotheke (farmacia), sondern in einer drogaría, die Rezepturen herstellt, oder in homöopathischen Apotheken (z. B. Aktivkohle — carbón activado). Strategie: Bring für den Anfang einen kleinen Vorrat deiner Medikamente mit Rezepten/Nachweisen mit und besorge vor Ort Äquivalente über den Wirkstoff via Vademecum/Farmanuario und den Apotheker. Bestellungen aus dem Ausland (iHerb usw.) sind möglich, aber langsamer und mit Zoll teurer. Bei Dauermedikation früh einen lokalen Arzt suchen."
         }
+      },
+      "service": {
+        "source_intent": "Which medicines may be missing and how do I replace them?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_health.q07_appointment_vs_emergency",
       "topic_id": "topic.faq_health",
       "ask_signal": 129,
-      "sensitivity_tags": ["medical"],
+      "sensitivity_tags": [
+        "medical"
+      ],
       "text": {
         "ru": {
           "title": "Как записаться к врачу и когда вызывать неотложку?",
@@ -2282,13 +3150,21 @@
           "short": "Routineversorgung läuft per Buchung (agenda) über App/Telefon deiner mutualista oder ASSE; Notaufnahme und mobilen Notdienst nur für akute Fälle.",
           "body": "Ein Routinebesuch wird per Buchung (agenda) vereinbart — über App, Website oder Callcenter deiner mutualista/Versicherung oder von ASSE; Facharzttermine können Tage oder Wochen entfernt sein. Für Nicht-Dringendes geh in deine policlínica. Für akute, aber nicht lebensbedrohliche Lagen gibt es die Notaufnahme (puerta de emergencia) deines sanatorio. Geht es dir zu Hause schlecht, rufe die emergencia móvil (den mobilen Notdienst deiner mutualista, eine eigene Nummer im Vertrag). Bei Lebensgefahr 911 anrufen. Halte den Notdienst für wirklich Dringendes frei — Routine per Termin."
         }
+      },
+      "service": {
+        "source_intent": "How do I book a doctor and when do I call emergency?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_health.q08_prescriptions_pharmacies",
       "topic_id": "topic.faq_health",
       "ask_signal": 200,
-      "sensitivity_tags": ["medical"],
+      "sensitivity_tags": [
+        "medical"
+      ],
       "text": {
         "ru": {
           "title": "Как устроены рецепты и аптеки?",
@@ -2310,6 +3186,12 @@
           "short": "Schmerzmittel und vieles sind rezeptfrei, aber Antibiotika und verschreibungspflichtige Mittel brauchen ein récipe von einem lokalen Arzt; deine mutualista hat eine eigene, günstigere Apotheke.",
           "body": "Rezeptfrei (sin receta) gibt es Schmerzmittel, Fiebersenker und Basismittel; Antibiotika und viele Medikamente (z. B. gegen Bluthochdruck) brauchen ein Rezept (récipe) — ein ausländisches Rezept wird meist nicht akzeptiert, man braucht eines von einem lokalen Arzt. Apothekenketten sind u. a. Farmashop, San Roque, Pigalle, viele mit Online-Bestellung und Lieferung; die Preise variieren, also vergleichen. Deine mutualista hat eine eigene Apotheke, in der Medikamente für Mitglieder oft günstiger sind. Daneben gibt es die drogaría (stellt Rezepturen her). Ein Rezept für Dauermedikation stellt dein behandelnder Arzt aus, manchmal gleich für mehrere Monate."
         }
+      },
+      "service": {
+        "source_intent": "How do prescriptions and pharmacies work?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2338,13 +3220,21 @@
           "short": "In Montevideo die STM-Karte (Aufladen bei Abitab/Kiosken, auch mit Prex) oder ein BROU-Konto als STM Pospago verknüpfen; Überlandbusse fahren ab dem Terminal Tres Cruces.",
           "body": "In Montevideo zahlt man mit der STM-Karte: Aufladen mit Bargeld oder via Prex bei Abitab, Kiosken und STM-Stellen, oder ein BROU-Konto als STM Pospago verknüpfen, sodass Fahrten ohne Aufladen automatisch abgebucht werden. Mit der Prex-Karte selbst kann man im Bus nicht zahlen, nur die STM aufladen. Ein Einzelticket kostet etwa 46–86 Pesos je nach Linie und enthält meist Umstiege innerhalb von 1–2 Stunden. Andere Städte haben eigene Systeme. Zwischen Städten fahren Reisebusse verschiedener Firmen (COT, Agencia Central usw.) — Montevideos Hauptknoten ist das Terminal Tres Cruces; Kauf am Terminal oder online. Nach Buenos Aires per Fähre (Buquebus, Colonia Express) direkt oder über Colonia. Busse fahren strikt nach Fahrplan."
         }
+      },
+      "service": {
+        "source_intent": "How do I pay for transport and travel between cities?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_transport.q06_traffic_rules_customs",
       "topic_id": "topic.faq_transport",
       "ask_signal": 310,
-      "sensitivity_tags": ["safety"],
+      "sensitivity_tags": [
+        "safety"
+      ],
       "text": {
         "ru": {
           "title": "Чем отличаются ПДД и манера вождения?",
@@ -2366,13 +3256,22 @@
           "short": "Rechtsverkehr; an ungeregelten Kreuzungen gilt rechts vor links, aber Einheimische fahren locker — bleib defensiv.",
           "body": "Es herrscht Rechtsverkehr, Gurtpflicht. An Kreuzungen ohne Ampel oder Schild gilt formal rechts-vor-links (prioridad a la derecha), in der Praxis fahren aber viele unberechenbar, und Unfälle an ungeregelten Kreuzungen sind häufig — langsamer fahren und nicht darauf bauen, dass man durchgelassen wird. Fußgängern wird nicht immer Vorrang gewährt, auch nicht an markierten Übergängen; Fußgängerampeln sind selten. Wer abbiegt, muss meist dem Fußgänger Vorrang geben. An Stadtampeln Tasche und Handy von einem offenen Fenster fernhalten — Entreißen kommt vor. Ein ausländischer Führerschein gilt nur kurz, danach besorgt man den lokalen. Der Stil ist insgesamt entspannt, doch an Kreuzungen und Übergängen vorsichtig sein."
         }
+      },
+      "service": {
+        "source_intent": "How do the traffic rules and driving style differ?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_transport.q07_fines",
       "topic_id": "topic.faq_transport",
       "ask_signal": 395,
-      "sensitivity_tags": ["legal", "financial"],
+      "sensitivity_tags": [
+        "legal",
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Какие штрафы самые частые и сколько они стоят?",
@@ -2394,13 +3293,21 @@
           "short": "Geschwindigkeit und Parken sind am häufigsten; Montevideos Bußgelder rechnen in UR (≈1.800 Pesos pro Einheit): Tempo etwa 5–12 UR, teils plus Punkte.",
           "body": "Am häufigsten sind Geschwindigkeits- und Parkverstöße. In Montevideo werden Bußgelder in UR-Einheiten gemessen (Unidad Reajustable, etwa ~1.800 Pesos pro UR, periodisch indexiert): Tempoverstoß etwa 5 UR (bis 20 km/h zu viel), 8 UR (20–30) und 12 UR (über 30); ein Parkverstoß sind mehrere Basiseinheiten. Manche Verstöße addieren Punkte (puntos) zum Fahrerregister. Bußgelder prüft und zahlt man online auf der Seite der Intendencia (montevideo.gub.uy), Fahrzeugschulden über SUCIVE (sucive.gub.uy). Die genauen Beträge in der aktuellen Tabelle der Intendencia-Seite prüfen — die Sätze ändern sich."
         }
+      },
+      "service": {
+        "source_intent": "What fines are most common and how much are they?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_transport.q08_car_taxes",
       "topic_id": "topic.faq_transport",
       "ask_signal": 200,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Сколько стоит налог на машину (patente) и как платить?",
@@ -2422,6 +3329,12 @@
           "short": "Die patente ist eine Jahressteuer über SUCIVE, grob ~5% des Schätzwerts und sinkt mit dem Alter des Autos; es gibt Rabatte für frühe/volle Zahlung.",
           "body": "Die Kfz-Steuer ist die patente de rodados, verwaltet über SUCIVE (sucive.gub.uy), wo man prüfen und zahlen kann. Sie liegt bei grob ~5% des Schätz-/Katalogwerts pro Jahr, und für Autos älter als ~5 Jahre sinkt der steuerliche Schätzwert allmählich — mit ein Grund, warum Uruguay so viele gepflegte Altautos hat. Für ein Mittelklasseauto können das etwa $1.500–1.700 im Jahr sein. Es gibt Rabatte für pünktliche und einmalige Jahreszahlung (good-payer), Ratenzahlung ist möglich. Separat ist die SOA-Police Pflicht (Grundhaftpflicht, ~$200–250/Jahr über BSE), darüber optional eine Vollkasko (rund $1.500/Jahr). E-Autos können Vergünstigungen erhalten. Den genauen Betrag für dein Auto in SUCIVE berechnen."
         }
+      },
+      "service": {
+        "source_intent": "How much is the car tax (patente) and how do I pay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2429,7 +3342,9 @@
       "topic_id": "topic.faq_banking",
       "ask_signal": 3192,
       "staleness_risk": "high",
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Какие банки удобны иммигранту, а какие нет?",
@@ -2451,6 +3366,12 @@
           "short": "Zum Start sind Itaú (Eröffnung mit vorläufiger Cédula) und Prex am einfachsten; BROU ist als Staatsbank nützlich; Santanders Nichtresidenten-Konto ist ohne großes Guthaben teuer.",
           "body": "Für Neuankömmlinge praktisch sind: Itaú — Eröffnung mit vorläufiger Cédula, gute App (das itoken kann aber zickig sein); BROU — staatlich, weites Netz und RedBrou-Automaten, oft nötig für Gehälter/staatliche Zahlungen und für eine empresa unipersonal; Prex — technisch keine Bank, aber am schnellsten und ohne Nachweise zu eröffnen (mit ~9.800 USD Lebenslimit für Nichtansässige). Weniger praktisch am Anfang: Santander — leicht zu eröffnen, aber das Nichtresidenten-Konto (Cuenta Select No Residente) kostet etwa $50/Monat unter einem Schwellenguthaben (~$50.000); HSBC und Scotiabank zielen eher auf Premium/Nichtansässige mit größeren Summen. Die Konditionen ändern sich oft, prüfe daher vor der Eröffnung aktuelle Anforderungen und Gebühren in der Filiale."
         }
+      },
+      "service": {
+        "source_intent": "Which banks suit an immigrant and which don't?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2458,7 +3379,9 @@
       "topic_id": "topic.faq_banking",
       "ask_signal": 400,
       "staleness_risk": "high",
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Сколько стоит обслуживание счёта в разных банках?",
@@ -2480,13 +3403,21 @@
           "short": "Prex ist kostenlos (aber ~6% bei Zahlungen im Ausland); Nichtresidenten-Konten der Privatbanken kosten (Itaú ~$40/Mt., Santander ~$50/Mt. unter einer Guthabengrenze).",
           "body": "Die Kosten hängen von der Bank und davon ab, ob du ansässig bist oder nicht. Prex: kostenlose Führung, aber Kartenzahlungen außerhalb Uruguays kosten etwa 6% pro Transaktion, dazu das ~9.800-USD-Limit für Nichtansässige. Nichtresidenten-Konten der Privatbanken kosten: Itaú — rund $40/Monat (Eröffnung mit vorläufiger Cédula), Santander (Cuenta Select No Residente) — etwa $50/Monat, wenn das Guthaben unter einer Schwelle liegt (~$50.000). Mit dauerhafter Cédula und lokalem Einkommen öffnen sich normale Residenten-Konten mit milderen Bedingungen. Auch Bargeldabhebungen haben Limits und Gebühren (z. B. erheben RedBrou-Automaten eine kleine Gebühr pro Transaktion). Genaue Tarife bei der Bank prüfen — sie ändern sich."
         }
+      },
+      "service": {
+        "source_intent": "How much does it cost to hold an account at each bank?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_banking.q08_optimal_card_setup",
       "topic_id": "topic.faq_banking",
       "ask_signal": 300,
-      "sensitivity_tags": ["financial"],
+      "sensitivity_tags": [
+        "financial"
+      ],
       "text": {
         "ru": {
           "title": "Какой набор карт оптимален, чтобы не держать все банки?",
@@ -2508,6 +3439,12 @@
           "short": "Eine Basis ist Prex (Mastercard) + eine Visa einer lokalen Bank; das deckt Akzeptanz überall, Bargeld und Rabatte, ohne einen Karten-Zoo.",
           "body": "Geschäfte und Dienste akzeptieren Visa und Mastercard unterschiedlich (und MercadoLibre lehnt ausländische Karten manchmal ab), daher ist ein praktisches Minimum eine Mastercard und eine Visa. Ein bewährter Mix: Prex (Mastercard, kostenlos, guter Kurs, keine Abhebegebühr) plus eine Debit-Visa einer lokalen Bank (Itaú oder BROU Maestro/Visa) für Zahlungen, Abhebungen und lokale Vorgänge. Banken geben Supermarkt- und Tankrabatte/Cashback auf ihre eigenen Karten und an bestimmten Tagen (oft 15–20%), wähle also die lohnende Karte nach deinen tatsächlichen Ausgabeorten. Karten aller Banken zu halten lohnt nicht — zwei Emittenten decken meist Akzeptanz, Bargeld und die wichtigsten Rabatte ab."
         }
+      },
+      "service": {
+        "source_intent": "What card setup is optimal so I don't hold every bank?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2515,7 +3452,10 @@
       "topic_id": "topic.faq_taxes",
       "ask_signal": 976,
       "staleness_risk": "high",
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Как выбрать и открыть компанию (с цифрами)?",
@@ -2537,6 +3477,12 @@
           "short": "Monotributo/Literal E passen für kleinen Umsatz (Grenzen ~20k und ~40k USD/Jahr); die empresa unipersonal ist flexibler; eine SAS lohnt meist ab ca. $5.000/Monat.",
           "body": "Eine empresa unipersonal ist ein Einzelunternehmen mit Unterregimen nach Umsatz: Monotributo (minimale Monatszahlungen, ~20.000 USD/Jahr-Grenze, für Dienste an Privatpersonen/Handel — nicht geeignet, um an ausländische Firmen zu fakturieren) und Literal E (etwas höhere Zahlungen, ~40.000 USD/Jahr-Grenze). Über den Grenzen gilt das allgemeine unipersonal-Regime mit progressiver Steuer. Eine unipersonal eröffnet in ~einer Woche und ist günstiger zu führen (rund $130/Monat mit Buchhalter). Eine SAS ist eine vereinfachte Aktiengesellschaft: ~2 Monate Eröffnung, teurere Verwaltung (~$400–500/Monat), aber für exportierte Dienste (besonders IT) 0% Mehrwertsteuer und 0% Gewinnsteuer, sodass vor allem Sozialbeiträge bleiben. Verbreitet ist die Ansicht, dass ab etwa $5.000/Monat eine SAS die unipersonal schlägt. Die Wahl hängt von Umsatz, Kundentyp (Privat/Firmen, Uruguay/Export) und davon ab, ob der Vertrag auf die Firma laufen muss — modelliere deinen Fall mit einem contador vor der Registrierung."
         }
+      },
+      "service": {
+        "source_intent": "How do I choose and open a company (with numbers)?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
@@ -2544,7 +3490,10 @@
       "topic_id": "topic.faq_taxes",
       "ask_signal": 500,
       "staleness_risk": "high",
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Сколько налогов и взносов платят разные типы компаний?",
@@ -2566,13 +3515,22 @@
           "short": "Alle zahlen einen festen BPS-Beitrag (+ Fonasa); exportierte Dienste sind 0% MwSt.; auf Einkommen: IRPF (progressiv) oder IRAE (12–25%), eine SAS bei IT-Export oft 0% Gewinnsteuer.",
           "body": "Die Grundstruktur ist ein monatlicher fester BPS-Beitrag (Sozialversicherung) plus Fonasa (Gesundheit, optional/nach Familiengröße) und eine Einkommensteuer. Auf exportierte Dienste beträgt die MwSt. (IVA) 0%. Auf das Einkommen: Eine unipersonal zahlt entweder IRPF (progressiver Tarif, steigt mit dem Einkommen) oder IRAE (Gewinnsteuer, ~12% für Kleine und bis 25%) — das Regime hängt von Details ab (bei IT ist z. B. umstritten, ob es darauf ankommt, wem der Arbeitscomputer gehört). Eine SAS, die Dienste exportiert (besonders IT), hat den Gewinn oft mit 0% besteuert, sodass vor allem Sozialbeiträge bleiben; innerhalb Uruguays entstehender Gewinn ist 25% (IRAE). Monotributo/Literal E zahlen einen vereinfachten Festbeitrag statt der allgemeinen Steuern. Die genauen BPS-Beträge sind indexiert (das Minimum sind einige tausend Pesos im Monat), und IRPF/IRAE-Auslegungen unterscheiden sich selbst unter Buchhaltern — rechne es immer mit einem contador."
         }
+      },
+      "service": {
+        "source_intent": "How much tax and contributions do the company types pay?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     },
     {
       "card_id": "card.faq_taxes.q08_without_accountant",
       "topic_id": "topic.faq_taxes",
       "ask_signal": 300,
-      "sensitivity_tags": ["financial", "legal"],
+      "sensitivity_tags": [
+        "financial",
+        "legal"
+      ],
       "text": {
         "ru": {
           "title": "Можно ли вести компанию без бухгалтера?",
@@ -2594,6 +3552,12 @@
           "short": "Für Monotributo/Literal E und eine einfache unipersonal ist das selbst machbar: BPS-Beiträge sind fest und Rechnungen werden elektronisch auf der DGI-Seite erstellt; eine SAS braucht meist einen contador.",
           "body": "Für die einfachen Regime ist es realistisch, es selbst zu machen: Die staatlichen Systeme DGI und BPS sind elektronisch und recht transparent. Der BPS-Beitrag ist fest (man kann ihn direkt bei BPS prüfen, z. B. im Büro 18 de Julio), und elektronische Rechnungen werden auf der DGI-Seite mit eingetragenem Betrag erstellt (für exportierte IT-Dienste ist der Steueranteil oft 0). Monotributo/Literal E haben minimale Meldepflichten. Nachteile des Selbermachens sind das Fehlerrisiko (man zahlt ein Bußgeld) und die Zeit, die IRPF/IRAE-Regime zu durchdringen. Für eine SAS und das allgemeine unipersonal-Regime ist die Verwaltung schwieriger, und die meisten nehmen doch einen contador (rund $130/Monat für eine unipersonal, $400–500/Monat für eine SAS) — günstig im Vergleich zu den Fehlerkosten. Sinnvoll: zu Beginn einen contador konsultieren und die Routine dann unter einem einfachen Regime selbst erledigen."
         }
+      },
+      "service": {
+        "source_intent": "Can I run a company without an accountant?",
+        "kind": "faq_answer",
+        "evidence": "telegram_chat_synthesis",
+        "note": "Answer card for the question of the same meaning; see dataset-patches/questions.json for the question + ask_frequency."
       }
     }
   ]

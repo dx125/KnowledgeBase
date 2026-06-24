@@ -96,6 +96,7 @@ Deno.serve(async (req) => {
         me: 'GET /me · PUT /me {default_locale}',
         topics: 'GET /topics?locale&internal',
         topic_cards: 'GET /topics/:topicId/cards?locale&internal&category',
+        questions: 'GET /questions?locale&topic&limit&internal  (ranked by ask_frequency; resolves to answer card)',
         search: 'GET /search?q&locale&topic&category&limit&offset&internal',
         card: 'GET /cards/:cardId?locale',
         version: 'GET /version',
@@ -185,6 +186,22 @@ Deno.serve(async (req) => {
       let cards = (data ?? []) as Array<Record<string, unknown>>;
       if (category) cards = cards.filter((c) => c.content_category === category);
       return json({ locale, topic_id: topicId, category: category ?? null, include_internal: includeInternal, count: cards.length, cards });
+    }
+
+    // GET /questions  — Q&A questions ranked by ask_frequency (global "most asked"),
+    // optionally scoped to one topic. Each row resolves to its answer card.
+    if (segments.length === 1 && segments[0] === 'questions') {
+      const topicId = url.searchParams.get('topic');
+      const limit = clampInt(url.searchParams.get('limit'), 100, 1, 500);
+      const { data, error } = await db.rpc('list_questions', {
+        p_locale: locale,
+        p_topic_id: topicId,
+        p_limit: limit,
+        p_include_internal: includeInternal,
+      });
+      if (error) throw error;
+      const questions = (data ?? []) as Array<Record<string, unknown>>;
+      return json({ locale, topic_id: topicId, include_internal: includeInternal, count: questions.length, questions });
     }
 
     // GET /search   (?category=faq restricts to the Q&A section)

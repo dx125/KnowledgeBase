@@ -3,6 +3,25 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-24 — Normalize Q&A (questions→cards), service metadata, dataset/ folder
+
+Restructured for restore-from-scratch + de-duplication (deployed **v7.3**; raw repointed to
+`kb_dataset_uy v6.6`):
+
+- **Normalized Q&A**: each answer lives once as a card (the `topic.faq_*` answer-cards); questions
+  now live in a separate **`questions.json`** that only references `answer_card_id` (no duplicated
+  answer text), each with a computed **`ask_frequency`**. New `questions` / `question_translations`
+  tables + `list_questions` RPC (`0009_questions.sql`), `GET /questions` endpoint, reworked web Q&A
+  view (global "Most asked" + per-topic). `scripts/build-questions.mjs` regenerates it reproducibly.
+- **Removed the 14 duplicate KB reference cards** added on 2026-06-23 (their content is the FAQ
+  answer-cards; keeping both duplicated answers).
+- **`service` block** on every editorial card + FAQ topic (`source_intent` / `kind` / `evidence`) —
+  the non-localized "how to regenerate this" intent.
+- Added the committed **[`dataset/`](../dataset/)** definition folder: README (pipeline + recreate),
+  SCHEMA, CHANGELOG (upstream + ours), PROVENANCE (mistakes/issues/lessons), MANIFEST.json
+  (`scripts/build-manifest.mjs`) and JSON schemas for every layer.
+- Canonicalized `faq.json` / `new-cards.json` to standard 2-space JSON.
+
 ## 2026-06-23 — Surface Q&A deep-dive into the main KB (+14 reference cards)
 
 The detail- and number-rich info authored for the Q&A deep-dive existed only in the Q&A section

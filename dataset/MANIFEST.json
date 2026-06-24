@@ -1,0 +1,106 @@
+{
+  "dataset": "kb_dataset_uy",
+  "description": "Uruguay relocation knowledge base. Resulting dataset = a read-only raw vendor dataset (DATASET_DIR) replayed through git-owned patch layers by scripts/deploy.mjs into Supabase Postgres. RU is the editorial source of truth; EN/ES/DE are authored alongside.",
+  "generated_at": "2026-06-24T08:21:26.465Z",
+  "built_by": "scripts/deploy.mjs (raw + patch layers -> atomic full-replace into Postgres)",
+  "manifest_generated_by": "scripts/build-manifest.mjs",
+  "pipeline": [
+    "raw vendor dataset (claims/clean_messages -> cards -> locales), read-only",
+    "card-overrides.json  (EN/ES/DE corrections of collapsed vendor text; optional RU formatting)",
+    "new-cards.json       (editorial cards the vendor never produced: tax, places, city overviews)",
+    "faq.json             (Q&A answer-cards in dedicated topic.faq_* topics)",
+    "questions.json       (questions referencing answer-cards + ask_frequency; no duplicated answers)",
+    "deploy.mjs           (build rows, atomic transaction full-replace, kb_data_versions row)"
+  ],
+  "raw_source": {
+    "dir_env": "DATASET_DIR",
+    "present": true,
+    "dataset": "kb_dataset_uy",
+    "version": "6.6.0-decollapsed",
+    "derived_from": "6.5.2-localized-quality",
+    "base_card_count": 271,
+    "import_batches": [
+      {
+        "batch_id": "batch.telegram_export_2026_06_13_messages2",
+        "source_file": "messages(2).jsonl",
+        "imported_at": "2026-06-14T06:37:17.479252+00:00",
+        "message_count_estimate": 145049,
+        "clean_message_count": 58485,
+        "date_min": "2023-02-13T03:41:33+00:00",
+        "date_max": "2026-06-13T01:19:14+00:00",
+        "notes": "v5 built from v4 clean messages and deterministic evidence-first expansion."
+      }
+    ]
+  },
+  "patch_layers": [
+    {
+      "file": "dataset-patches/card-overrides.json",
+      "present": true,
+      "sha256": "42145291f3089ddcbe0f9caa70d0d299aba5ef3cb454cc6e055b82a1e604b6d4",
+      "entries": 265,
+      "kind": "card_overrides"
+    },
+    {
+      "file": "dataset-patches/new-cards.json",
+      "present": true,
+      "sha256": "9d62e111b349fcba9cb69d685bf5bb84f22fcb25f5bd95da75e272f797c9a8ea",
+      "entries": 38,
+      "kind": "new_cards"
+    },
+    {
+      "file": "dataset-patches/faq.json",
+      "present": true,
+      "sha256": "1a751c07763c8df392f16362640339bc1f2b5eafedd6768baa492a5576452961",
+      "topics": 19,
+      "answer_cards": 85,
+      "kind": "faq"
+    },
+    {
+      "file": "dataset-patches/questions.json",
+      "present": true,
+      "sha256": "42fbcbd5ca4398220809941bde1a28ec50fddef778961eec594de4fcd1c7fcdb",
+      "questions": 85,
+      "kind": "questions"
+    }
+  ],
+  "schema_migrations": [
+    {
+      "file": "supabase/migrations/0001_schema.sql",
+      "sha256": "43f89af12c89d93ed7cf7ac60800b8ae8c14052525d0c100bf932485ff701d36"
+    },
+    {
+      "file": "supabase/migrations/0002_functions.sql",
+      "sha256": "7e6ea329453239229cf0a404c8f9938c26289b496949e1ae4ee745e57d77e388"
+    },
+    {
+      "file": "supabase/migrations/0003_data_versions.sql",
+      "sha256": "a335f644beb201d9a53df6689a7cac5710ea1350c4a1d0baae2ed9d1864b2665"
+    },
+    {
+      "file": "supabase/migrations/0004_lock_down_direct_access.sql",
+      "sha256": "2f95b5c55aa99c8b94a361b1369135d0663fbac5b74951ce8965bd9a37643ca9"
+    },
+    {
+      "file": "supabase/migrations/0005_profiles_auth.sql",
+      "sha256": "7f3c6a04b9370363f898f5ded544bf004d233e7611553e491a0d9bd68d65e97a"
+    },
+    {
+      "file": "supabase/migrations/0006_card_version_text.sql",
+      "sha256": "a74b924936f8dc9efeebe6ffabfa9d0ed6bc45d7f0ba63808a5a6eb8cbabd7be"
+    },
+    {
+      "file": "supabase/migrations/0007_app_tokens.sql",
+      "sha256": "f2a9dc36e1b2334fd4b0f22080d0b440a1730072a9ed70f31b74ca577f797a53"
+    },
+    {
+      "file": "supabase/migrations/0008_drop_app_tokens.sql",
+      "sha256": "211cf8cb8639c439cfab1ac9263d8949d67113687ff7a8e9e833f564fff19910"
+    },
+    {
+      "file": "supabase/migrations/0009_questions.sql",
+      "sha256": "046351d39fadb24ac10b4b6f86e27ca30befb91d49de3793e484d864be2528fb"
+    }
+  ],
+  "service_metadata": "Each editorial card/topic carries a `service` block (source_intent + kind + evidence) describing what it answers / how to regenerate it. Vendor cards derive from the raw claims/clean_messages evidence layer.",
+  "notes": "See dataset/README.md (pipeline + recreate), dataset/SCHEMA.md (full schema), dataset/CHANGELOG.md (upstream + our history), dataset/PROVENANCE.md (rationale, mistakes, lessons)."
+}

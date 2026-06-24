@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "resources"
+  ],
+  "properties": {
+    "schema_version": {},
+    "generated_at": {},
+    "resources": {}
+  },
+  "additionalProperties": true
+}

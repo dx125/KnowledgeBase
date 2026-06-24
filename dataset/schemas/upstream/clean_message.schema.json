@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "clean_message_id",
+    "date",
+    "topic_ids",
+    "text"
+  ],
+  "properties": {
+    "clean_message_id": {},
+    "date": {},
+    "topic_ids": {},
+    "text": {}
+  },
+  "additionalProperties": true
+}

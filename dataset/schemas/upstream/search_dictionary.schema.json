@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "keywords",
+    "topics",
+    "entities",
+    "glossary"
+  ],
+  "properties": {
+    "schema_version": {},
+    "generated_at": {},
+    "keywords": {},
+    "topics": {},
+    "entities": {},
+    "glossary": {}
+  },
+  "additionalProperties": true
+}

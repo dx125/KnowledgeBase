@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "document_id",
+    "document_type",
+    "locale",
+    "title",
+    "body",
+    "search_text",
+    "topic_id"
+  ],
+  "properties": {
+    "document_id": {},
+    "document_type": {},
+    "locale": {},
+    "title": {},
+    "body": {},
+    "search_text": {},
+    "topic_id": {},
+    "alignment_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "search_boost": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "confidence_score": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "additionalProperties": true
+}

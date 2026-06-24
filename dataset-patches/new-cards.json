@@ -74,6 +74,11 @@
         "short": "Wann man in Uruguay steuerlich ansässig wird, was als Auslandseinkommen gilt und warum diese Grenze für Remote-Arbeitende wichtig ist.",
         "body": "Steuerliche Ansässigkeit ist nicht dasselbe wie die migrationsrechtliche Residenz oder die cédula. In der Regel wird man steuerlich ansässig, wenn man mehr als 183 Tage im Kalenderjahr in Uruguay verbringt, oder wenn der Mittelpunkt der Lebens- oder wirtschaftlichen Interessen hier liegt (Familie, Hauptwohnsitz, Geschäft), oder über Investitionswege (Immobilienkauf oder Investition in ein Unternehmen oberhalb einer festgelegten Schwelle). Die genauen Kriterien und Schwellen ändern sich — bestätige sie mit einem contador.\n\nUruguay unterscheidet Einkommen uruguayischer Quelle (Arbeit, Dienstleistungen und Vermögenswerte im Land) von Auslandseinkommen (ausländische Kunden, Dividenden, Zinsen, Miete im Ausland). Für neue Ansässige ist genau diese Grenze entscheidend: passives Auslandseinkommen kann unter eine Vorzugsregelung fallen, während Einkommen uruguayischer Quelle normal besteuert wird.\n\nEin besonderer Haken für Remote-Arbeitende: Arbeit, die physisch von uruguayischem Gebiet aus geleistet wird, kann als Einkommen uruguayischer Quelle gelten, selbst wenn der Kunde ausländisch ist. Bespricht deinen Fall daher vor dem Umzug und vor Geldtransfers mit einem contador: Art des Einkommens, Land des Kunden, wo die Arbeit geleistet wird und ob du eine lokale empresa brauchst."
       }
+    },
+    "service": {
+      "source_intent": "Tax residency and foreign income: what to know",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -146,6 +151,11 @@
         "short": "Eine Vergünstigung für neue Ansässige auf Auslandseinkommen: Wahl zwischen einer befristeten Befreiung und einem reduzierten Pauschalsatz. Prüfe die Zahlen stets mit der DGI.",
         "body": "Ein neuer uruguayischer Steueransässiger kann eine Vergünstigung auf ausländisches Kapitaleinkommen nutzen — vor allem ausländische Dividenden und Zinsen. In Chats wird dies „tax holiday“ («nalogovye kanikuly») genannt: Nach dem Umzug bleibt ein Teil des ausländischen passiven Einkommens für eine Zeit in Uruguay steuerfrei.\n\nMeist werden zwei Optionen beschrieben: (1) eine befristete vollständige Befreiung für mehrere Jahre — in Diskussionen werden unterschiedliche Zeiträume genannt (oft 5–10 Jahre, manchmal 11), danach wird das Einkommen steuerpflichtig; oder (2) von Anfang an einen reduzierten Pauschalsatz (genannt werden etwa 7–12%) unbefristet zu zahlen. Die genaue Dauer, der Satz und das Wahlrecht hängen vom Jahr der Ansässigkeit und der Einkommensart ab und haben sich im Lauf der Zeit geändert — prüfe die konkreten Zahlen stets mit einem contador und der DGI.\n\nWichtig: Die Vergünstigung gilt für ausländisches Kapitaleinkommen, nicht für jede Tätigkeit. Einkommen uruguayischer Quelle und aktive Arbeit aus Uruguay sind in der Regel nicht von den Steuerferien gedeckt. Die Regelung wird zu einem bestimmten Zeitpunkt gewählt und muss korrekt deklariert werden — bereite die Entscheidung daher im Voraus vor und nicht erst, nachdem das Geld eingetroffen ist."
       }
+    },
+    "service": {
+      "source_intent": "Tax holiday for new tax residents",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -222,6 +232,11 @@
         "short": "Häufige Irrtümer über „null Steuern“ und wie lokale Tätigkeit und eine empresa die Vergünstigung aushebeln.",
         "body": "Der größte Irrtum ist „ich habe die Steuerferien, also zahle ich gar keine Steuern“. Die Vergünstigung gilt vor allem für ausländisches passives Einkommen (Dividenden, Zinsen). Gehalt, Dienstleistungen und aus Uruguay geleistete Arbeit sowie jedes Einkommen uruguayischer Quelle werden in der Regel normal besteuert — unabhängig von den Steuerferien.\n\nWenn du eine unipersonal, monotributo oder SAS eröffnest und lokal tätig bist, übernimmst du laufende Pflichten gegenüber DGI und BPS (und möglicherweise Fonasa) — die Steuerferien decken das nicht ab. Mit anderen Worten: „eine empresa eröffnen, um Einkommen nachzuweisen“ und „Steuerferien auf Auslandseinkommen haben“ sind zwei verschiedene Dinge, die leicht verwechselt werden.\n\nWeitere Risiken: nicht alle Vermögenswerte qualifizieren (Derivate werden z. B. als Ausnahme genannt); jedes Familienmitglied wird separat beurteilt; die Wahl der Regelung ist an Fristen gebunden und erfordert eine Erklärung. Überweise keine großen Summen und eröffne keine Tätigkeit „vorsichtshalber“, bevor du eine schriftliche Beratung von einem contador hast, der mit Auslandseinkommen arbeitet."
       }
+    },
+    "service": {
+      "source_intent": "Tax holiday vs empresa: the pitfalls",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -302,6 +317,11 @@
         "short": "Welche Garantien ein langfristiger Mietvertrag verlangen kann, wie die Genehmigung läuft und was ohne Garantie zu tun ist.",
         "body": "Für einen langfristigen Mietvertrag verlangt der Eigentümer fast immer eine garantía — den Nachweis, dass die Miete gezahlt wird. Die meistdiskutierten Optionen:\n\n• Mietversicherung (seguro de alquiler): Porto Seguro, SURA, Mapfre und ähnliche. Das Unternehmen prüft Einkommen, Stabilität und Unterlagen und tritt gegen eine Prämie als Garant auf. Die Prämie ist eine separate Zahlung (ein Bruchteil einer Monatsmiete), und der Versicherer kann teilweise genehmigen oder nach eigenem Scoring ablehnen.\n• ANDA und ähnliche Einrichtungen — eine Mitgliedschaftsgarantie über einen Verband.\n• Eigentümergarantie (garantía de propietario): der Eigentümer einer anderen Immobilie in Uruguay bürgt.\n• Eine Kaution oder Vorauszahlung statt einer Garantie: der Eigentümer nimmt eine Kaution von mehreren Monaten. Das funktioniert, aber die Rückzahlungsbedingungen müssen schriftlich festgehalten werden.\n\nDie Genehmigung hängt meist vom Verhältnis Miete zu Einkommen ab: Versicherer wollen ein Einkommen deutlich über der Miete sehen (in Diskussionen wird ein Richtwert von etwa drei Monatsmieten genannt, aber der genaue Faktor und das Scoring unterscheiden sich je Unternehmen — kläre das ab). Bereite im Voraus vor: certificado de ingresos, Kontoauszüge, Vertrag oder Rechnungen, Nachweis einer empresa. Hängt das Geschäft von der Zusage des Versicherers ab, halte separat fest, was mit Reservierung und Provision bei einer Ablehnung passiert."
       }
+    },
+    "service": {
+      "source_intent": "Rental guarantee: types, providers and alternatives",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -376,6 +396,11 @@
         "short": "Woraus die einmaligen Kosten zusätzlich zum Preis bestehen und warum ein escribano Pflicht ist. Die Zahlen sind Richtwerte — pro Geschäft prüfen.",
         "body": "Zusätzlich zum Immobilienpreis löst der Kauf einmalige Kosten aus. Richtwerte aus den Diskussionen (die genauen Beträge mit einem escribano für dein Geschäft bestätigen):\n\n• ITP (impuesto a las transmisiones patrimoniales) — eine Übertragungssteuer von etwa 2% des Katasterwerts je Seite: Käufer und Verkäufer zahlen jeweils ihre 2%.\n• Notarhonorar (escribano) — etwa 3% des Preises plus IVA 22% auf das Honorar; hinzu kommen Pflichtabgaben (Montepío, Caja Notarial/Gremial) und Eintragungskosten.\n• Maklerprovision (inmobiliaria) — etwa 3% plus IVA, wenn der Kauf über einen Makler läuft.\n\nEs gibt eine Vergünstigung: Der Kauf einer ersten Wohnung unterhalb einer festgelegten Schwelle kann eine ITP-Befreiung erhalten — Schwelle und Bedingungen vorab klären. Neubau, Wiederverkauf und Kauf aus dem Rohbau (en pozo, oft über ein fideicomiso) werden getrennt kalkuliert und haben unterschiedliche Kosten und Risiken.\n\nKernpunkt: In Uruguay ist ein escribano Pflicht und schützt den Käufer — er prüft Eigentum, Schulden und Belastungen. Nimm deinen eigenen escribano, nicht nur den vom Verkäufer geschickten, und verlange vorab einen schriftlichen Kostenvoranschlag."
       }
+    },
+    "service": {
+      "source_intent": "Costs of buying property: ITP, escribano and commissions",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -448,6 +473,11 @@
         "short": "Warum ein Kauf und große Überweisungen eine origen-de-fondos-Prüfung auslösen und wie man sich vorbereitet.",
         "body": "Beim Immobilienkauf und bei großen Überweisungen in Uruguay wird fast immer nach der Mittelherkunft (origen de fondos) gefragt. Das betrifft sowohl die Bank, über die das Geld läuft, als auch den Notar, der das Geschäft abschließt. Ohne eine klare Geldspur können die Überweisung oder das Geschäft verzögert werden.\n\nWas man üblicherweise im Voraus vorbereitet: Kontoauszüge, Unterlagen zum Verkauf früherer Vermögenswerte (Immobilien, Anteile, Aktien), Einkommensverträge und Rechnungen, Steuerunterlagen, Sparnachweise. Je größer die Summe und je entfernter die Quelle, desto detaillierter sind die Compliance-Fragen.\n\nPraktische Schritte: Frage die konkrete Bank im Voraus, welche Unterlagen sie akzeptiert und wie schnell du auf Anfragen reagieren musst; bespreche die Struktur vor der Überweisung mit einem escribano und einem contador; stückle oder bewege große Summen nicht blind. Um Einkommen für das Geschäft, die Bank oder die Residenz nachzuweisen, brauchst du manchmal ein certificado de ingresos von einem escribano oder contador."
       }
+    },
+    "service": {
+      "source_intent": "Source of funds and the bank when buying property",
+      "kind": "reference",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -532,6 +562,11 @@
         "short": "Küstennah, lebendig und gut versorgt — das Standardviertel der Russischsprachigen. Sicher bei normaler städtischer Vorsicht.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nPocitos ist das Viertel, das die meisten Zugezogenen wählen — die meisten \"durchschnittlichen\" Inserate der Community stammen von hier. Es liegt am Río de la Plata mit der Rambla-Promenade, dicht bebaut mit Geschäften und Supermärkten, einem beliebten Straßenmarkt (feria), privaten Kindergärten und Schulen, Fitnessstudios und Restaurants. Es gilt tagsüber und in der Regel nachts bei normaler Vorsicht als sicher: Einheimische raten, ein paar Häuserblocks an der Rambla zu bleiben und das Handy nicht offen zu zeigen — gelegentlich werden Handy-Diebstähle vom Moped und Apothekenüberfälle gemeldet. Miete und Immobilien gehören zu den teuersten der Stadt, ein paar Blocks landeinwärts (Pocitos Nuevo) kann es günstiger sein.\n\nSchlagwörter: Strand, Rambla, Expats, Einkaufen, Familien"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.pocitos: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -615,6 +650,11 @@
         "short": "Gepflegt, sicher und fußläufig, neben Pocitos — Shopping, Rambla, Parks. Premiumpreise.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nPunta Carretas gilt als das prestigeträchtigste der zentralen Viertel, direkt neben Pocitos. Es ist gepflegt, sauber und fußläufig: das Einkaufszentrum Punta Carretas Shopping, ein Fresh Market, die Rambla und Parks, der Leuchtturm. Es ist eine der sichersten und gepflegtesten Gegenden — ein Bewohner verglich es in puncto Sicherheit und Ordnung mit Zürich; man kann fast überall nachts spazieren. Eine lokale Eigenheit sind wiederkehrende Konflikte mit den Park-Einweisern (\"parqueros\") auf der Straße. Die Preise sind premium, auf dem Niveau von Pocitos. Gut für alle, die eine gepflegte, zentrale Basis am Meer wollen.\n\nSchlagwörter: gehoben, Rambla, Shopping, Parks, gepflegt"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.punta_carretas: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -698,6 +738,11 @@
         "short": "Grüne, flach bebaute \"clase alta\"-Gegend im Osten — ruhig, abgeschieden, teuerste Immobilien. Meist braucht man ein Auto.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nCarrasco ist \"clase alta\": ein grünes, flach bebautes Viertel mit Villen und Gärten und geschlossenen Wohnanlagen (z. B. Colinas de Carrasco). Es wirkt wie eine Landstadt in der Stadt — ruhig und abgeschieden, passend für alle, die den städtischen Trubel meiden. Hier stehen die teuersten Immobilien Montevideos. Der Nachteil: wenig Alltagsversorgung zu Fuß — meist braucht man ein Auto. Gute Schulen und gehobene Restaurants; nahe dem Flughafen Carrasco, der Rambla und dem Golfplatz. Überwiegend sicher, allerdings wurden einige Ladenüberfälle gemeldet.\n\nSchlagwörter: clase alta, vorstädtisch, ruhig, Flughafen, Auto nötig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.carrasco: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -782,6 +827,11 @@
         "short": "Ruhiges Küstenviertel, beliebt bei Expats: Yachthafen, Fischmarkt, Montevideo Shopping. Ruhig und praktisch.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nBuceo ist ein \"ordentliches\" Wohnviertel, beliebt bei Expats, am Yachthafen Puerto del Buceo. In der Nähe gibt es Fischstände mit frischem Fisch, deutlich günstiger als im Supermarkt, das Montevideo Shopping und das World Trade Center, Strände und die Rambla. Manche nennen hier die teuersten Immobilien nach Carrasco. Ruhig und gut versorgt; es zählt zu den empfohlenen ruhigeren, gehobeneren zentralen Vierteln neben Pocitos und Punta Carretas. Kleindiebstähle kommen vor (z. B. ein Fahrrad vom Balkon), wie überall.\n\nSchlagwörter: Expats, Wohnviertel, Yachthafen, Strand, Fischmarkt"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.buceo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -866,6 +916,11 @@
         "short": "Das küstennahe Malvín ist ruhig, sicher und günstiger als Pocitos. Aber Malvín Norte (landeinwärts) ist ein separates Problemviertel, das man meidet.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nDas küstennahe Malvín (an der Rambla) ist ruhig und sicher, mit guter Busanbindung — ein \"ordentliches, günstigeres Wohnviertel\"; der Strand ist gut. Aber man darf es nicht mit Malvín Norte verwechseln — einer separaten Gegend landeinwärts, die Einheimische ausdrücklich meiden raten: dort wurden bewaffnete Überfälle gemeldet (es zählt zu den \"dunkelroten\" Zonen neben Cerro, Casabó und La Teja). Das küstennahe Malvín selbst passt zu Familien und allen, die das Meer ohne Pocitos-Preise wollen.\n\nSchlagwörter: Strand, Wohnviertel, ruhig, günstiger, Malvín Norte meiden"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.malvin: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -949,6 +1004,11 @@
         "short": "Zentral, lebendig und erschwinglich an der 18 de Julio; Fakultäten, Geschäfte, Bars, deutliche russischsprachige Präsenz. Tagsüber sicher.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: mittel\n\nCordón ist eines der gefragtesten und erschwinglichsten zentralen Viertel (besonders Cordón Sur), für \"Intelligenzija und Feierlustige\". Es hat Universitätsfakultäten (Humanidades), viele kleine Läden an der Av. 18 de Julio und Bars (z. B. Jackson Bar). Es gibt eine deutliche russischsprachige Gemeinschaft — manche Häuser sind fast vollständig russischsprachig. Es gilt als lebendig und \"anständig genug\", tagsüber sicher; nachts die übliche Vorsicht der Innenstadt. Gutes Preis-Zentralitäts-Verhältnis, kein Strand; im Sommer viele Mücken.\n\nSchlagwörter: zentral, Studenten, lebendig, Russischsprachige, günstig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.cordon: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1032,6 +1092,11 @@
         "short": "Innenstadt an der 18 de Julio: Geschäfte, Büros, Kliniken — praktisch und erschwinglich, aber weniger prestigeträchtig. Tagsüber sicher.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: mittel\n\nCentro ist der Innenstadtkern für Geschäfte, Läden und Touristen. Dicht bebaut mit Läden, Büros, Kliniken und Dienstleistungen an und um die Av. 18 de Julio. Lebendig und praktisch, mit erschwinglicher Miete, aber geringerem Prestige; übliche Innenstadtvorsicht, tagsüber unproblematisch. Ein Teil der Russischsprachigen wohnt in und um Centro. Kein Strand in der Nähe (stellenweise ein bis zwei Blocks bis zur Rambla). Gut für alle, die maximale Zentralität und Versorgung über Prestige stellen.\n\nSchlagwörter: Zentrum, Geschäfte, Läden, Touristen, Verkehr"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.centro: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1116,6 +1181,11 @@
         "short": "Grünes zentrales Viertel rund um den Park, an Strand und Rambla; studentisch-kreatives Flair, häufiger Treffpunkt der Russischsprachigen. Auf Kleindiebstähle im Park achten.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: mittel\n\nParque Rodó ist um den gleichnamigen Park herum angelegt (See, Vergnügungspark, Nacht-Feria, Museen, Planetarium), mit Strand und Rambla; ein studentisch-bohemisches Flair und häufiger Picknickplatz der russischsprachigen Community. Zentral und fußläufig. Auf Kleindiebstähle achten — aufgebrochene Autos, eingeschlagene Scheiben und ein gestohlenes Portemonnaie wurden im und um den Park gemeldet. Tagsüber und an belebten Wochenendabenden unproblematisch.\n\nSchlagwörter: Park, Strand, bohemisch, Community, Museen"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.parque_rodo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1200,6 +1270,11 @@
         "short": "Zentrales, günstiges Viertel rund um den Hauptbusbahnhof und sein Einkaufszentrum — der Verkehrsknoten, sehr praktisch. Lauter und weniger sauber nahe dem Terminal.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: niedrig\n\nTres Cruces ist um den Hauptbahnhof Terminal Tres Cruces herum angelegt (alle Überlandbusse, Flughafen, Colonia, Buenos Aires) und sein Einkaufszentrum — der Verkehrsknoten der Stadt, äußerst praktisch zum Reisen. Zentral und erschwinglich. Der Nachteil: lauter, mehr Müll und Obdachlosenpräsenz nahe dem Terminal; bewohnbar, aber Leichtschläfer sollten den Lärm bedenken. Nahe dem Parque Batlle. Kein Strand.\n\nSchlagwörter: Busbahnhof, Verkehr, Einkaufszentrum, zentral, günstig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.tres_cruces: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1283,6 +1358,11 @@
         "short": "Die grünste Gegend im Norden — Prado-Park, Botanischer Garten, Blanes-Museum. Günstiger als die küstennahen \"grünen\" Viertel, aber von zwielichtigeren Gegenden umgeben.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nPrado ist eines der grünsten Viertel: Prado-Park, Botanischer Garten, Blanes-Museum, die jährliche Expo Prado / Feria del Prado. Schön und bei vielen beliebt, günstiger als die küstennahen \"grünen\" Viertel. Der Haken: es ist \"eine Insel, umgeben von Gegenden mit zweifelhaftem Ruf\" — im Park kann man tagsüber (und sogar am frühen Abend) sicher spazieren, aber nachts und auf den Zufahrten ist Vorsicht geboten. Eine gute Wahl für alle, die Grün dem Strand vorziehen.\n\nSchlagwörter: grün, Botanischer Garten, Wohnviertel, günstiger, nachts vorsichtig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.prado: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1366,6 +1446,11 @@
         "short": "Bohemisches Viertel südlich des Zentrums, an der Rambla, Heimat der Candombe-Kultur. Ruhiger und nah am Wasser; gemischter Ruf, übliche Vorsicht. Günstiger.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: niedrig\n\nPalermo ist ein Viertel \"für Kreative\" südlich des Zentrums, an der Rambla, im Herzen der Candombe-Kultur. Es gibt eine Bio-Feria, eine 24-Stunden-Apotheke und Geschäfte; ruhiger und nah am Wasser. Sein Ruf ist gemischt — manche finden es ruhig und sicherheitsmäßig in Ordnung (schwächer bei Dienstleistungen), andere beschreiben Teile als raueres Einwandererviertel; übliche Vorsicht gilt. Günstiger. Passt zu einem bohemischen, fußläufigen Leben am Meer mit kleinem Budget.\n\nSchlagwörter: bohemisch, Candombe, Rambla, kreativ, gemischter Ruf"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.palermo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1449,6 +1534,11 @@
         "short": "Arbeiterviertel auf dem Hügel jenseits der Bucht: eine historische Festung und ein Strand, aber Einheimische stufen es als problematisch ein und raten, es zu meiden (wie Cerrito, Casabó, La Teja). Die günstigsten Wohnungen.",
         "body": "Sicherheit: niedrig · Infrastruktur: niedrig · Preise: niedrig\n\nCerro ist ein Arbeiterviertel auf dem Hügel jenseits der Bucht, mit Geschichte (die Festung mit Leuchtturm, ein Strand), wird aber weithin als problematisch beschrieben: bewaffnete Überfälle und eine Schießerei wurden gemeldet, und man rät ausdrücklich, Cerro, Cerrito, Casabó und La Teja zu meiden, vor allem mit Wertsachen. Manche leben dort problemlos (z. B. ein Münchner Paar) und der Strand wird in der Saison genutzt, aber der Konsens ist erhöhte Vorsicht. Die günstigsten Wohnungen; die Industrie-/Hafenseite der Bucht. Vor allem als \"meiden / vorsichtiger sein\"-Referenz relevant.\n\nSchlagwörter: Arbeiterviertel, meiden, historische Festung, günstig, erhöhte Vorsicht"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.cerro: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1532,6 +1622,11 @@
         "short": "Historischer Kern mit Kolonialarchitektur, Museen und dem Mercado del Puerto. Stimmungsvoll und tagsüber belebt; Teile als \"gelb\" markiert, nachts ruhiger und weniger sicher.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nCiudad Vieja ist der Gründungskern Montevideos: Kolonialarchitektur, Museen (Casa Rivera, der Cabildo), der Hafenmarkt Mercado del Puerto, Restaurants und Büros. Tagsüber lebendig und einen Besuch wert; doch ein Teil ist als \"gelb\" markiert (Vorsicht), und nachts leert es sich und fühlt sich weniger sicher an. Passt zu allen, die historische Zentren lieben und mit dem Rhythmus \"tags belebt, nachts ruhig\" zurechtkommen.\n\nSchlagwörter: Altstadt, historisch, touristisch, Hafen, tags belebt nachts leer"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.ciudad_vieja: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1616,6 +1711,11 @@
         "short": "Die zentrale Halbinsel mit Türmen, Hafen und Casino, wo die beiden Küsten zusammentreffen. Sehr sicher, fußläufig, Premiumpreise, im Sommer belebt.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nDie Península ist der zentrale Kern von Punta del Este, wo die beiden Küsten zusammentreffen: der Hafen, das Casino, Restaurants, Geschäfte und die berühmten Türme; der ruhige Mansa-Strand und die kräftige ozeanische Brava sind fußläufig erreichbar. Sehr sicher (Punta wird insgesamt als Ort beschrieben, an dem man \"aufhören kann, an Sicherheit zu denken\"), fußläufig, Premiumpreise; im Sommer überfüllt, außerhalb der Saison viel ruhiger. Die beste Wahl für alle, die das klassische Zentrum von Punta wollen.\n\nSchlagwörter: Zentrum, Hochhäuser, Hafen, Casino, beide Strände"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.peninsula: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1701,6 +1801,11 @@
         "short": "Ruhiges, wärmeres Wasser auf der Buchtseite — gut für Familien und zum Schwimmen; neue Wohntürme zum Wohnen und Investieren. Sicher, Premiumpreise.",
         "body": "Sicherheit: hoch · Infrastruktur: hoch · Preise: hoch\n\nPlaya Mansa ist die Buchtseite (Río de la Plata): das Wasser ist sanfter, wärmer und ruhiger (wie eine stille Lagune), gut für Familien und zum Schwimmen. An der Küste stehen neue Wohnanlagen (beheizte Pools, Fitnessstudios, Service), beworben zum Wohnen und als Investition. Nahe den Krankenhäusern (Cantegril, Mautone), dem Cantegril-Club und der Rambla. Sicher und gut versorgt; Objekte in erster Reihe sind premium, etwas landeinwärts kann es günstiger sein. Passt zu Familien und Investoren.\n\nSchlagwörter: Bucht, ruhiges Wasser, Familien, Neubautürme, Investition"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.playa_mansa: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1786,6 +1891,11 @@
         "short": "Kräftiger offener Atlantik — Surfen und eindrucksvolle Ausblicke, die berühmte Hand-Skulptur \"La Mano\". Erste Reihe sehr teuer.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nPlaya Brava ist die offene Ozeanseite: starke Wellen (ideal zum Surfen und für Wassersport; La Brava gilt als einer der besten Surfspots der Welt), sauberes Wasser (außer etwa einen Monat im Sommer, wenn Quallen kommen), Temperatur je nach Strömung. Der Kontrast zur ruhigen Mansa ist ein prägendes Merkmal von Punta. Immobilien in erster Reihe an der Brava sind sehr teuer — dort wohnen die Entwickler und Investoren selbst. Sicher, aber elementarer und exponierter als die Mansa. Für Ozean- und Surf-Liebhaber.\n\nSchlagwörter: Ozean, Surfen, La Mano, erste Reihe Premium, eindrucksvoll"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.playa_brava: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1870,6 +1980,11 @@
         "short": "Angesagtes Boho-Chic-Dorf östlich von Punta: Nachtleben, Kunst, Surfstrände. In der Saison teuer, außerhalb verschlafen.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nLa Barra ist ein angesagtes, jüngeres und künstlerisches Dorf direkt östlich von Punta: Galerien, ein Kunstzentrum, Design- und Modeveranstaltungen, gute Surfstrände. Sauberer und fußläufig, und manche kommen ohne Auto aus. In der Saison lebendig und teuer, außerhalb fällt es in den Schlaf. Eine medizinische Zweigstelle (aus dem Netzwerk von Maldonado/Cantegril) versorgt die Gegend. Passt zu allen, die eine stilvolle, strandige, gesellige Szene den Hochhäusern des Zentrums vorziehen.\n\nSchlagwörter: angesagt, Nachtleben, Boho-Chic, Surf, saisonal"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.la_barra: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -1954,6 +2069,11 @@
         "short": "Ein kleines, flach bebautes Dorf im Osten — Leuchtturm-und-Dünen-Glamour, sehr teuer und sehr saisonal. Man braucht ein Auto.",
         "body": "Sicherheit: hoch · Infrastruktur: niedrig · Preise: hoch\n\nJosé Ignacio ist ein kleines, flach bebautes Dorf weiter östlich: Leuchtturm-und-Dünen-Glamour, sehr teuer und sehr saisonal (im Sommer lebendig, im Winter fast leer). Schöne Strände; meist braucht man ein Auto. Die russischsprachige Präsenz wächst in der Hochsaison merklich. Für alle, die Privatsphäre, Prestige und rustikalen Luxus über städtischen Komfort stellen.\n\nSchlagwörter: exklusiv, Prominenz, Rustik-Chic, saisonal, Auto nötig"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for punta_del_este.jose_ignacio: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2038,6 +2158,11 @@
         "short": "Die echte Stadt neben dem Seebad Punta: ganzjährige Dienstleistungen, das Hauptkrankenhaus, Schulen, günstigere Miete. Viele, die in Punta arbeiten, wohnen hier.",
         "body": "Sicherheit: mittel · Infrastruktur: hoch · Preise: mittel\n\nMaldonado ist die echte Stadt (im Gegensatz zum Seebad Punta): ganzjährige Dienstleistungen, das Hauptkrankenhaus und die Poliklinik (das Cantegril-Netzwerk), Schulen, Supermärkte, günstigere Miete und Immobilien als Punta del Este und eine echte lokale (nicht saisonale) Gemeinschaft. Viele, die in Punta arbeiten, wohnen tatsächlich in Maldonado. Übliche Stadtvorsicht — bei normalen Vorkehrungen merklich sicherer als die Großstädte der Region. Die beste Basis für ganzjähriges Küstenleben mit Budget. (Hinweis: \"Maldonado\" ist auch der Name des Departamentos, das Punta, Piriápolis usw. umfasst.)\n\nSchlagwörter: echte Stadt, ganzjährig, Dienstleistungen, Krankenhäuser, günstiger als Punta"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for maldonado.maldonado: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2120,6 +2245,11 @@
         "short": "Ein ruhiges Retro-Küstenstädtchen westlich von Punta — still, sicher und günstig. Familienfreundlich, saisonal, mit Schulen und medizinischer Versorgung.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: niedrig\n\nPiriápolis ist ein kleines, friedliches Seebad mit einer historischen Promenade (Rambla), dem Hotel Argentino, Hügeln (Cerro San Antonio, Cerro del Toro, Pan de Azúcar) und Stränden; es wirkt wie ein ruhiges Provinzdorf, besonders außerhalb der Saison, wenn es halb schließt und das Parken frei ist. Es gilt als sehr sicher (\"man kann aufhören, an Sicherheit zu denken\"; manche fühlten sich dort sicherer als in Montevideo). Das Leben ist günstiger als in Punta oder Maldonado; es gibt Schulen (z. B. Instituto Galileo Galilei) und eine medizinische Zweigstelle. ~30 Minuten mit dem Auto von Punta; einige Überlandbusse fahren durch. Am besten für Familien und alle, die Ruhe und das Meer dem Nachtleben und Dienstleistungen vorziehen.\n\nSchlagwörter: ruhig, Küstenstädtchen, günstig, Familien, saisonal"
       }
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for piriapolis.piriapolis: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the district.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2204,6 +2334,11 @@
         "short": "Eine sehr sichere UNESCO-Stadt im Westen am Río de la Plata, der Haupt-Fährknoten nach Buenos Aires. Ruhig, für manche verschlafen; Land und Wohnen günstiger als die Badeküste.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: mittel\n\nColonia del Sacramento ist eine historische Stadt im Westen am Río de la Plata, mit einer UNESCO-Altstadt; Einheimische sagen, es sei \"absolut sicher\". Es ist der Haupt-Fährknoten nach Buenos Aires (Colonia Express, Buquebus — etwa 1,5 Stunden), was die Verbindung nach Argentinien sehr bequem macht. Der historische Kern wirkt verschlafen und für manche zum Dauerwohnen langweilig, doch die Zone Richtung Carmelo entwickelt sich schnell — geschlossene Wohnanlagen und Weingüter. Land und Immobilien sind günstiger als an der Badeküste (Amerikaner und andere Ausländer kommen hierher und nach Paysandú für günstiges Land und Grenz-Farmen). Passt zu allen, die Ruhe, Geschichte und Nähe zu Buenos Aires wollen.\n\nSchlagwörter: historisch, UNESCO, Fähre nach Buenos Aires, ruhig, am Fluss, Expats"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for colonia.del_sacramento: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2287,6 +2422,11 @@
         "short": "Ein ruhiges Flussstädtchen nahe Colonia. Das Zentrum ist bescheiden, aber drumherum wachsen geschlossene Anlagen und Weingüter; manche wählen es zum Umzug.",
         "body": "Sicherheit: hoch · Infrastruktur: niedrig · Preise: niedrig\n\nCarmelo ist ein ruhiges Flussstädtchen nahe Colonia. Das Zentrum selbst wirkt auf viele unspektakulär und bescheiden, doch der Reiz liegt im Umland: Weingüter und schnell wachsende geschlossene Anlagen (manche Bewohner beschreiben die Stimmung als \"lateinamerikanisches Baltikum\" mit Pinien an der Küste). Manche wägen Carmelo gegen Colonia del Sacramento als Wohnort ab. Ruhig, erschwinglich, näher am Weinbau- und Landleben als an der Stadt. Gut für ein gemächliches Leben außerhalb der Stadt am Fluss.\n\nSchlagwörter: Weingüter, geschlossene Anlagen, am Fluss, Pinien, ruhig, wachsend"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for colonia.carmelo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2371,6 +2511,11 @@
         "short": "Ein Wohn-Küstenstädtchen an der Costa de Oro (Canelones), in Pendeldistanz zu Montevideo; Pinienwälder, Strände, Kurse und Dienstleistungen. Ruhig, familienfreundlich, erschwinglich.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: niedrig\n\nAtlántida ist der Hauptort der Costa de Oro (der Strandgürtel des Departamentos Canelones östlich von Ciudad de la Costa). Es ist ein Wohn-Küstenstädtchen in echter Pendeldistanz zu Montevideo; mehrere russischsprachige Familien wohnen hier. Die Stimmung ist ruhig und familiär organisiert: tägliche Kurse und Aktivitäten mit vollen Plänen, ein Rentnerclub, Pflegeheime, Pinienwälder zum Spazieren, Strände. Grundversorgung ist vorhanden (eine Poliklinik in der Nähe), für manches fährt man in Nachbarorte (z. B. Impfungen in Parque del Plata). Günstiger als die Küste von Maldonado. Gut für alle, die Meer, Ruhe und Familienrhythmus nahe der Hauptstadt wollen.\n\nSchlagwörter: Strand, Wohnort, Pinienwälder, Familien, Pendlerküste"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for costa_de_oro.atlantida: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2454,6 +2599,11 @@
         "short": "Eine echte Stadt nördlich von Maldonado/Punta: ganzjähriges lokales Leben, Kliniken und Dienstleistungen, Miete \"um ein Vielfaches günstiger\" als Punta. Kein Strand, aber Punta ist nah.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: niedrig\n\nSan Carlos ist eine echte arbeitende Stadt nördlich von Maldonado, nahe Punta (manche Bewohner leben zwischen San Carlos und Manantiales). Es hat ganzjähriges lokales Leben, Zweigstellen des Cantegril-Kliniknetzes (man wird dort behandelt, manchmal mit früheren Terminen; auch für ernste Behandlungen fährt man hin) und Alltagsversorgung. Der Hauptreiz: Wohnen und Leben \"um ein Vielfaches günstiger\" als in Punta, während Punta gleich nebenan liegt. Kein eigener Strand; ans Meer und nach Punta gelangt man per Bus/Auto (angeblich kein Direktbus von Piriápolis). Eine gute Budget-Basis für alle, die in Punta arbeiten oder dort sind, aber keine Badeort-Preise wollen.\n\nSchlagwörter: echte Stadt, günstiger als Punta, Dienstleistungen, lokales Leben, nahe Punta"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for maldonado.san_carlos: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2538,6 +2688,11 @@
         "short": "Ein kleines, teures Stranddorf am Punta-Korridor — ein \"Fischerdorf, in dem Millionärs-Fischer wohnen\". Ruhiger Luxus, sehr saisonal.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nManantiales ist ein kleines, teures Stranddorf am Punta-Korridor, zwischen La Barra und José Ignacio. Halb im Scherz wird es ein \"Fischerdorf, in dem Millionärs-Fischer wohnen\" genannt: ein ehemaliges Fischerdorf, das zur Zone des ruhigen Luxus wurde, mit guten Gehwegen und Stränden. Sehr saisonal — im Sommer lebt es auf. Sicher und exklusiv, Premiumpreise; meist braucht man ein Auto. Passt zu allen, die Ruhe und Status an der Küste ohne den Trubel des Zentrums von Punta wollen.\n\nSchlagwörter: gehoben, Strand, Fischerdorf, ruhiger Luxus, saisonal"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for punta_del_este.manantiales: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2623,6 +2778,11 @@
         "short": "Ein malerisches Kap westlich von Punta: Casapueblo, Walbeobachtung, Natur (Laguna del Sauce, Arboretum Lussich). Ruhig, teuer, Neubauten als Investition.",
         "body": "Sicherheit: hoch · Infrastruktur: niedrig · Preise: hoch\n\nPunta Ballena ist ein malerisches Kap westlich von Punta, berühmt für das Haus-Museum Casapueblo. Hier kann man Wale sehen, mit der Laguna del Sauce und dem Park Arboretum Lussich in der Nähe; Bewohner nennen die ganze Zone von Punta Ballena bis La Barra ein Wunder, das man allein deshalb bereisen sollte. Ruhig und naturnah, mit Neubauten in der Touristenzone \"Walkap\", beworben für Investition und Vermietung in der Hochsaison. Die Preise sind hoch und die Alltagsinfrastruktur ist dünn — eher ein landschaftlicher, naturnaher und Investitionsort als eine Stadt mit Dienstleistungen.\n\nSchlagwörter: malerisch, Casapueblo, Wale, Natur, ruhig, Investition"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for punta_del_este.punta_ballena: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2707,6 +2867,11 @@
         "short": "Am ehesten eine \"Stadt\" unter den wilden Rocha-Stränden östlich von Punta: Ozean, Surf, Natur. Günstigere Häuser (≈400–700 USD Miete), sehr saisonal.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: niedrig\n\nLa Paloma ist praktisch der einzige halbwegs städtische Ort an der wilden Ostküste des Departamentos Rocha; alles östlich von Punta sind Schutzgebiete und Fischerdörfer. Es geht um Ozean, Surfen und unberührte Natur. Häuser sind hier günstiger als an der Küste von Maldonado (genannt werden Mieten um 400–700 USD pro Haus). Das Leben ist sehr saisonal — im Sommer lebendig, im Winter leer; die Infrastruktur ist klein und meist braucht man ein Auto. Passt zu allen, die ein ruhiges Küstenstädtchen am wilden Ozean wollen und mit der Saisonalität zurechtkommen.\n\nSchlagwörter: Strand, Surf, Kleinstadt, Natur, günstige Häuser, saisonal"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for rocha.la_paloma: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2791,6 +2956,11 @@
         "short": "Ein kleines bohemisches Fischer- und Surfdorf im äußersten Osten nahe Brasilien: wilder Ozean, günstige Häuser, sehr saisonal. In der Saison lebt es auf.",
         "body": "Sicherheit: mittel · Infrastruktur: niedrig · Preise: niedrig\n\nPunta del Diablo ist ein kleines bohemisches Fischer- und Surfdorf im äußersten Osten von Rocha, näher an der brasilianischen Grenze. Wilder Ozean, ein einfaches Dorfleben, günstige Unterkünfte (Hausmieten um 400–700 USD), beliebt für Übernachtungsmieten und Urlaub. Die Provinz ist hier allgemein sicher, aber Achtung: das Dorf ist nur ~40 km von Chuy entfernt — einer Grenzstadt, die wegen ihrer faktisch offenen Grenze zu Brasilien als die gefährlichste der Kleinstädte beschrieben wird (Punta del Diablo selbst ist interessanter und ruhiger). Sehr saisonal, minimale Infrastruktur, man braucht ein Auto. Für Liebhaber von Surfen, wilder Natur und gemächlichem Dorfrhythmus.\n\nSchlagwörter: Fischerdorf, Surf, bohemisch, günstige Häuser, saisonal, nahe Brasilien"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for rocha.punta_del_diablo: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2874,6 +3044,11 @@
         "short": "Eine Stadt im Landesinneren inmitten der Sierras (Lavalleja): an sich bescheiden, aber umgeben von Wasserfällen, Wegen und Estancias. Ruhig, erschwinglich, zum Leben naturnah ohne Ozean.",
         "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: niedrig\n\nMinas ist die Hauptstadt des Departamentos Lavalleja im hügeligen Landesinneren. Bewohner beschreiben die Stadt selbst als bescheiden (\"in Minas selbst gibt es nichts zu tun\"), doch die Umgebung ist der eigentliche Wert: die Sierras, der Wasserfall Salto del Penitente, der Salus-Park, Villa Serrana, Trekking (z. B. Quebrada de los Cuervos), Estancia-Agrohotels. Uruguay ist hinsichtlich Naturkatastrophen sehr stabil. Minas wird als Option für ein Leben im Landesinneren genannt, wenn das Meer nicht zwingend ist (auch Aiguá wird erwähnt). Ruhig und erschwinglich; für die Natur ringsum braucht man ein Auto. Für alle, die Hügel, Ruhe und Natur über Meer und Stadt stellen.\n\nSchlagwörter: Landesinnere, Sierras, Natur, Wasserfälle, ruhig, erschwinglich"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for lavalleja.minas: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -2956,6 +3131,11 @@
         "short": "Eine größere Binnenstadt am Uruguay-Fluss an der argentinischen Grenze, bekannt für Thermalquellen. Heißes Klima, erschwingliche Preise; manche ziehen sie zum Wohnen in Betracht.",
         "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: niedrig\n\nSalto ist eine der größten Binnenstädte, am Uruguay-Fluss an der argentinischen Grenze (gegenüber von Concordia), bekannt für ihre Thermalquellen (termas) — ihr wichtigstes Kurmerkmal. Das Klima ist heiß. Im Chat taucht sie als echte Wohnoption auf: man fragt, wie es dort \"mit Infrastruktur und Sicherheit\" sei, manche würden sie in Betracht ziehen (\"ich könnte sogar in Salto leben\") und suchen Bewohner dort. Preise und Leben sind erschwinglicher als in der Hauptstadt. Kein Ozean, dafür der Fluss, die Thermalquellen und ein ruhigeres provinzielles Tempo. Passt zu allen, die sich für das Leben in einer Binnenstadt mit Thermaltourismus interessieren und die Hitze vertragen.\n\nSchlagwörter: Binnenstadt, Thermalquellen, heißes Klima, Fluss, erschwinglich"
       }
+    },
+    "service": {
+      "source_intent": "Standalone town living guide for salto.salto: overall feel + safety/infrastructure/price ratings + tags, synthesized from community-chat mentions of the town.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -3057,6 +3237,11 @@
         "short": "Uruguays Hauptstadt und größte Stadt mit der besten Infrastruktur des Landes; ruhig, erstreckt sich entlang der Rambla, stark je nach Viertel verschieden.",
         "body": "Montevideo ist die Hauptstadt und größte Stadt Uruguays; etwa die Hälfte der Landesbevölkerung lebt in der Hauptstadt und ihrem Großraum, und hier lassen sich die meisten Zugezogenen wegen der Infrastruktur nieder — Banken, Ärzte, Schulen, Büros und öffentlicher Verkehr sind hier die besten des Landes. Die Stadt erstreckt sich am Río de la Plata, und ihre Hauptachse ist die Rambla, eine rund 24 km lange Uferpromenade; \"nicht weiter als ein paar Häuserblocks von der Rambla entfernen\" ist ein lokaler Sicherheits-Spruch. Sie wirkt ruhig und gemächlich im Vergleich zu großen Metropolen, variiert aber stark je nach Viertel: der küstennahe Osten (Pocitos, Punta Carretas, Carrasco, Buceo) ist sicher und prestigeträchtig, während einige Gegenden (Cerro, Malvín Norte, Casabó, La Teja) besser gemieden werden. Die meisten Russischsprachigen wohnen in Pocitos, Cordón, Centro und Punta Carretas. Das Klima ist feucht, die Stadtstrände sind zum Schwimmen mittelmäßig, und der Zustand der Wohnungen variiert stark — all das prüft man je nach konkretem Viertel (siehe die Viertel-Karten)."
       }
+    },
+    "service": {
+      "source_intent": "City overview (4-5 sentences) giving the overall feel of Montevideo, synthesized from community chat; links to its district/zone cards.",
+      "kind": "city_overview",
+      "evidence": "telegram_chat_synthesis"
     }
   },
   {
@@ -3150,496 +3335,11 @@
         "short": "Uruguays bedeutendstes Seebad (das \"uruguayische Monaco\"), stark saisonal: zwei Küsten, sicher und teuer; zum Ganzjahresleben wählt man das benachbarte Maldonado.",
         "body": "Punta del Este ist das bedeutendste Seebad Uruguays, mit dem Image eines \"Seebads für Menschen mit Geld und Geschmack\", oft mit Monaco verglichen; im Sommer strömen Argentinier und Brasilianer hierher. Das Leben ist stark saisonal: der Sommer (Dezember–Februar) ist teuer und lebhaft, während der Winter ruhig ist und manche Dienstleistungen anders laufen oder schließen. Die Stadt hat zwei Küsten — die ruhige Mansa auf der Buchtseite und die kräftige ozeanische Brava — mit der zentralen Península aus Türmen, dem Hafen und dem Casino. Punta gilt als sehr sicher (\"man kann aufhören, an Sicherheit zu denken\") und sauber, aber die Preise sind premium, und das Leben entlang des Korridors (La Barra, Manantiales, José Ignacio) erfordert meist ein Auto. Viele, die in Punta arbeiten, lassen sich im benachbarten Maldonado oder in San Carlos nieder, um ganzjährig und günstiger zu wohnen (siehe die Zonen-Karten)."
       }
-    }
-  },
-  {
-    "card_id": "card.health_insurance_medicine.reference.ref_analogi_lekarstv",
-    "topic_id": "topic.health_insurance_medicine",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "medium",
-    "sensitivity_tags": ["medical"],
-    "keyword_ids": ["kw.curated.aptek", "kw.curated.lekar", "kw.curated.medicina"],
-    "related_card_ids": ["card.health_insurance_medicine.reference.ref_lekarstva_i_apteki", "card.faq_health.q05_drug_analogs"],
-    "text": {
-      "ru": {
-        "title": "Аналоги лекарств: как найти местный эквивалент",
-        "short": "Ищите по действующему веществу (principio activo) в Vademecum или Farmanuario, наличие и цену — на сайтах сетей аптек.",
-        "body": "У большинства лекарств есть местный аналог с тем же действующим веществом — другое торговое название, но та же молекула. Искать удобно по действующему веществу в справочниках/приложениях Vademecum и Farmanuario uy, а наличие и цену смотреть на сайтах farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Многие рецептурные препараты есть под международным непатентованным названием (например, sertralina, lamotrigina). Если не уверены в эквиваленте — спросите фармацевта или местного врача, особенно по хроническим препаратам; не занимайтесь самоназначением рецептурных лекарств."
-      },
-      "en": {
-        "title": "Drug equivalents: finding the local match",
-        "short": "Search by active ingredient (principio activo) in Vademecum or Farmanuario; check stock and price on the pharmacy chains' sites.",
-        "body": "Most medicines have a local equivalent with the same active ingredient — a different brand name but the same molecule. Search by active ingredient in the Vademecum and Farmanuario uy directories/apps, and check availability and price on farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Many prescription drugs exist under their international generic name (e.g. sertralina, lamotrigina). If unsure of an equivalent, ask the pharmacist or a local doctor, especially for chronic medication; don't self-prescribe prescription drugs."
-      },
-      "es": {
-        "title": "Equivalentes de medicamentos: cómo encontrar el local",
-        "short": "Busca por principio activo en Vademecum o Farmanuario; verifica stock y precio en los sitios de las cadenas de farmacias.",
-        "body": "La mayoría de los medicamentos tienen un equivalente local con el mismo principio activo — otra marca, la misma molécula. Busca por principio activo en los directorios/apps Vademecum y Farmanuario uy, y verifica disponibilidad y precio en farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Muchos fármacos de receta existen bajo su nombre genérico internacional (por ejemplo, sertralina, lamotrigina). Si dudas del equivalente, pregunta al farmacéutico o a un médico local, sobre todo con medicación crónica; no te automediques con fármacos de receta."
-      },
-      "de": {
-        "title": "Medikamenten-Äquivalente: das lokale Pendant finden",
-        "short": "Suche nach Wirkstoff (principio activo) in Vademecum oder Farmanuario; Bestand und Preis auf den Seiten der Apothekenketten.",
-        "body": "Die meisten Medikamente haben ein lokales Äquivalent mit demselben Wirkstoff — anderer Markenname, gleiches Molekül. Suche nach Wirkstoff in den Verzeichnissen/Apps Vademecum und Farmanuario uy und prüfe Verfügbarkeit und Preis auf farmashop.com.uy, sanroque.com.uy, pigalle.com.uy. Viele verschreibungspflichtige Mittel gibt es unter ihrem internationalen Generikanamen (z. B. sertralina, lamotrigina). Bei Unsicherheit den Apotheker oder einen lokalen Arzt fragen, besonders bei Dauermedikation; verschreibungspflichtige Mittel nicht selbst verordnen."
-      }
-    }
-  },
-  {
-    "card_id": "card.health_insurance_medicine.reference.ref_defitsit_lekarstv",
-    "topic_id": "topic.health_insurance_medicine",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "medium",
-    "sensitivity_tags": ["medical"],
-    "keyword_ids": ["kw.curated.aptek", "kw.curated.lekar", "kw.curated.medicina"],
-    "related_card_ids": ["card.health_insurance_medicine.reference.ref_lekarstva_i_apteki", "card.faq_health.q06_unavailable_meds"],
-    "text": {
-      "ru": {
-        "title": "Чего может не быть в аптеках и чем заменить",
-        "short": "Часть форм витаминов/минералов и отдельные препараты найти труднее; берите небольшой запас, остальное подбирайте по действующему веществу.",
-        "body": "Базовые лекарства есть, но часть привычного найти труднее: некоторые формы цинка/магния и БАДов, отдельные бренды, иногда специфические препараты. Кое-что продаётся не в обычной аптеке (farmacia), а в drogaría, которая готовит препараты по формуле, или в гомеопатических аптеках (например, активированный уголь — carbón activado). На первое время привезите небольшой запас своих лекарств с рецептами/выписками, а на месте подбирайте аналоги по действующему веществу через Vademecum/Farmanuario и фармацевта. Заказ из-за рубежа (iHerb и т.п.) возможен, но дольше и дороже с учётом таможни; по хроническим препаратам сразу найдите местного врача."
-      },
-      "en": {
-        "title": "What may be missing in pharmacies and how to replace it",
-        "short": "Some vitamin/mineral forms and specific drugs are harder to find; bring a small reserve and source the rest by active ingredient.",
-        "body": "Basic medicines are available, but some familiar things are harder to find: certain zinc/magnesium and supplement forms, specific brands, occasionally niche drugs. Some items aren't in a regular pharmacy (farmacia) but in a drogaría that compounds formulas, or in homeopathic pharmacies (e.g. activated charcoal — carbón activado). Bring a small reserve of your medication with prescriptions/records for the start, then source equivalents locally by active ingredient via Vademecum/Farmanuario and the pharmacist. Ordering from abroad (iHerb, etc.) is possible but slower and pricier with customs; for chronic medication, find a local doctor early."
-      },
-      "es": {
-        "title": "Qué puede faltar en las farmacias y con qué reemplazarlo",
-        "short": "Algunas formas de vitaminas/minerales y ciertos fármacos cuestan más de conseguir; trae una reserva y consigue el resto por principio activo.",
-        "body": "Los medicamentos básicos están, pero algunas cosas conocidas cuestan más de conseguir: ciertas formas de zinc/magnesio y suplementos, marcas puntuales, a veces fármacos de nicho. Algunos no están en una farmacia común sino en una drogaría que prepara fórmulas, o en farmacias homeopáticas (por ejemplo, el carbón activado). Trae una pequeña reserva de tu medicación con recetas/constancias para el inicio y luego consigue equivalentes por principio activo con Vademecum/Farmanuario y el farmacéutico. Pedir del exterior (iHerb, etc.) se puede, pero es más lento y caro con la aduana; para medicación crónica, busca pronto un médico local."
-      },
-      "de": {
-        "title": "Was in Apotheken fehlen kann und wie man es ersetzt",
-        "short": "Manche Vitamin-/Mineralformen und einzelne Präparate sind schwerer zu finden; bring einen kleinen Vorrat und besorge den Rest über den Wirkstoff.",
-        "body": "Grundmedikamente gibt es, aber manches Vertraute ist schwerer zu finden: bestimmte Zink-/Magnesiumformen und Nahrungsergänzungen, einzelne Marken, gelegentlich Nischenpräparate. Einiges gibt es nicht in einer normalen Apotheke (farmacia), sondern in einer drogaría, die Rezepturen herstellt, oder in homöopathischen Apotheken (z. B. Aktivkohle — carbón activado). Bring für den Anfang einen kleinen Vorrat deiner Medikamente mit Rezepten/Nachweisen mit und besorge vor Ort Äquivalente über den Wirkstoff via Vademecum/Farmanuario und den Apotheker. Bestellungen aus dem Ausland (iHerb usw.) sind möglich, aber langsamer und mit Zoll teurer; bei Dauermedikation früh einen lokalen Arzt suchen."
-      }
-    }
-  },
-  {
-    "card_id": "card.health_insurance_medicine.reference.ref_zapis_i_neotlozhka",
-    "topic_id": "topic.health_insurance_medicine",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "medium",
-    "sensitivity_tags": ["medical"],
-    "keyword_ids": ["kw.curated.vrach", "kw.curated.ekstrennaya_pomosch", "kw.curated.emergency", "kw.curated.klinika", "kw.curated.mutualista"],
-    "related_card_ids": ["card.health_insurance_medicine.reference.ref_vrachi_i_zapisi", "card.health_insurance_medicine.reference.ref_ekstrennaya_pomosch", "card.faq_health.q07_appointment_vs_emergency"],
-    "text": {
-      "ru": {
-        "title": "Запись к врачу (agenda) и когда нужна неотложка",
-        "short": "Плановый приём — по записи через приложение/телефон mutualista или ASSE; для острого — emergencia móvil или приёмное отделение, при угрозе жизни — 911.",
-        "body": "Плановый визит оформляется записью (agenda) — через приложение, сайт или колл-центр вашей mutualista/страховки или ASSE; к узким специалистам запись может быть на дни-недели вперёд. Для несрочного идите в свою поликлинику (policlínica). Для острых, но не угрожающих жизни состояний есть приёмное отделение (puerta de emergencia) вашего sanatorio. Если плохо дома — вызывайте emergencia móvil (выездная неотложка mutualista, отдельный телефон в договоре). При угрозе жизни звоните 911. Неотложку держите для действительно срочного, рутину закрывайте записью."
-      },
-      "en": {
-        "title": "Booking a doctor (agenda) and when you need emergency care",
-        "short": "Routine care is by booking via your mutualista's or ASSE's app/phone; for acute cases use the mobile emergency or ER, and 911 if life-threatening.",
-        "body": "A routine visit is arranged by booking (agenda) — through your mutualista's/insurer's or ASSE's app, site or call centre; specialist slots can be days or weeks out. For non-urgent needs go to your clinic (policlínica). For acute but not life-threatening situations there's your sanatorio's emergency room (puerta de emergencia). If you're unwell at home, call the emergencia móvil (your mutualista's mobile emergency, a dedicated number in your policy). For life-threatening emergencies call 911. Keep emergency services for the genuinely urgent and handle routine care by appointment."
-      },
-      "es": {
-        "title": "Sacar hora con el médico (agenda) y cuándo necesitas emergencia",
-        "short": "La rutina es con agenda por la app/teléfono de tu mutualista o ASSE; para lo agudo, la emergencia móvil o la puerta de emergencia, y el 911 si es vital.",
-        "body": "La consulta de rutina se gestiona con agenda — por la app, el sitio o el call center de tu mutualista/seguro o de ASSE; los especialistas pueden tener cupo a días o semanas. Para lo no urgente ve a tu policlínica. Para cuadros agudos pero no graves está la puerta de emergencia de tu sanatorio. Si te sientes mal en casa, llama a la emergencia móvil (la emergencia a domicilio de tu mutualista, con un teléfono propio en el contrato). Ante una urgencia vital llama al 911. Reserva la emergencia para lo realmente urgente y la rutina con agenda."
-      },
-      "de": {
-        "title": "Arzttermin (agenda) und wann du den Notdienst brauchst",
-        "short": "Routine läuft per Buchung über App/Telefon der mutualista oder ASSE; für akute Fälle der mobile Notdienst oder die Notaufnahme, bei Lebensgefahr 911.",
-        "body": "Ein Routinebesuch wird per Buchung (agenda) vereinbart — über App, Website oder Callcenter deiner mutualista/Versicherung oder von ASSE; Facharzttermine können Tage oder Wochen entfernt sein. Für Nicht-Dringendes geh in deine policlínica. Für akute, aber nicht lebensbedrohliche Lagen gibt es die Notaufnahme (puerta de emergencia) deines sanatorio. Geht es dir zu Hause schlecht, rufe die emergencia móvil (den mobilen Notdienst deiner mutualista, eine eigene Nummer im Vertrag). Bei Lebensgefahr 911. Halte den Notdienst für wirklich Dringendes frei und erledige Routine per Termin."
-      }
-    }
-  },
-  {
-    "card_id": "card.health_insurance_medicine.reference.ref_recepty_i_apteki",
-    "topic_id": "topic.health_insurance_medicine",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "medium",
-    "sensitivity_tags": ["medical"],
-    "keyword_ids": ["kw.curated.aptek", "kw.curated.lekar", "kw.curated.mutualista"],
-    "related_card_ids": ["card.health_insurance_medicine.reference.ref_lekarstva_i_apteki", "card.faq_health.q08_prescriptions_pharmacies"],
-    "text": {
-      "ru": {
-        "title": "Рецепты (récipe) и аптеки: сети, mutualista, drogaría",
-        "short": "Анальгетики продаются без рецепта, но антибиотики и рецептурные препараты требуют récipe от местного врача; у mutualista своя аптека со скидками.",
-        "body": "Безрецептурно (sin receta) продаются анальгетики, жаропонижающие и базовые средства; антибиотики и многие препараты (например, для давления) требуют рецепта (récipe) — иностранный рецепт обычно не подходит, нужен от местного врача. Сети аптек — Farmashop, San Roque, Pigalle и др., у многих есть онлайн-заказ и доставка; цены различаются, сравнивайте. У вашей mutualista есть собственная аптека, где препараты для участников часто дешевле. Отдельно есть drogaría (готовит препараты по формуле). Рецепт на хронические лекарства выписывает лечащий врач, иногда сразу на несколько месяцев."
-      },
-      "en": {
-        "title": "Prescriptions (récipe) and pharmacies: chains, mutualista, drogaría",
-        "short": "Painkillers are over the counter, but antibiotics and prescription drugs need a récipe from a local doctor; your mutualista has its own discounted pharmacy.",
-        "body": "Painkillers, fever reducers and basics are over the counter (sin receta); antibiotics and many drugs (e.g. for blood pressure) need a prescription (récipe) — a foreign prescription usually isn't accepted, you need one from a local doctor. Pharmacy chains include Farmashop, San Roque, Pigalle and others, many with online ordering and delivery; prices vary, so compare. Your mutualista has its own pharmacy where medicines are often cheaper for members. Separately there's the drogaría (compounds formulas). A prescription for chronic medication is written by your treating doctor, sometimes for several months at once."
-      },
-      "es": {
-        "title": "Recetas (récipe) y farmacias: cadenas, mutualista, drogaría",
-        "short": "Los analgésicos se venden sin receta, pero los antibióticos y fármacos de receta requieren récipe de un médico local; tu mutualista tiene farmacia con descuentos.",
-        "body": "Sin receta se venden analgésicos, antitérmicos y básicos; los antibióticos y muchos fármacos (por ejemplo, para la presión) requieren récipe — una receta extranjera por lo general no sirve, hace falta una de un médico local. Las cadenas de farmacias incluyen Farmashop, San Roque, Pigalle y otras, muchas con pedido en línea y delivery; los precios varían, conviene comparar. Tu mutualista tiene su propia farmacia donde los medicamentos suelen ser más baratos para los socios. Aparte está la drogaría (prepara fórmulas). La receta de medicación crónica la firma tu médico tratante, a veces por varios meses."
-      },
-      "de": {
-        "title": "Rezepte (récipe) und Apotheken: Ketten, mutualista, drogaría",
-        "short": "Schmerzmittel sind rezeptfrei, aber Antibiotika und verschreibungspflichtige Mittel brauchen ein récipe von einem lokalen Arzt; deine mutualista hat eine günstigere Apotheke.",
-        "body": "Rezeptfrei (sin receta) gibt es Schmerzmittel, Fiebersenker und Basismittel; Antibiotika und viele Medikamente (z. B. gegen Bluthochdruck) brauchen ein Rezept (récipe) — ein ausländisches Rezept wird meist nicht akzeptiert, man braucht eines von einem lokalen Arzt. Apothekenketten sind u. a. Farmashop, San Roque, Pigalle, viele mit Online-Bestellung und Lieferung; die Preise variieren, also vergleichen. Deine mutualista hat eine eigene Apotheke, in der Medikamente für Mitglieder oft günstiger sind. Daneben gibt es die drogaría (stellt Rezepturen her). Ein Rezept für Dauermedikation stellt dein behandelnder Arzt aus, manchmal gleich für mehrere Monate."
-      }
-    }
-  },
-  {
-    "card_id": "card.transport_driving_car.reference.ref_oplata_i_mezhgorod",
-    "topic_id": "topic.transport_driving_car",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "medium",
-    "sensitivity_tags": [],
-    "keyword_ids": ["kw.curated.transport", "kw.curated.obschestvennyy_transport"],
-    "related_card_ids": ["card.transport_driving_car.reference.ref_obschestvennyy_transport", "card.faq_transport.q05_public_transport_detail"],
-    "text": {
-      "ru": {
-        "title": "Оплата проезда и поездки между городами",
-        "short": "В Монтевидео — карта STM (пополнение в Abitab/киосках, в т.ч. через Prex) или привязка счёта BROU как STM Pospago; межгород — автобусы с терминала Tres Cruces.",
-        "body": "В Монтевидео проезд оплачивают картой STM: её пополняют наличными или через Prex в Abitab, киосках и точках STM, либо привязывают счёт BROU как STM Pospago — тогда деньги списываются автоматически. Самой картой Prex в автобусе платить нельзя, только пополнять STM. Разовый билет — примерно 46–86 песо в зависимости от линии, обычно с пересадками в течение 1–2 часов. В других городах свои системы оплаты. Между городами ходят рейсовые автобусы (COT, Agencia Central и др.); в Монтевидео главный узел — терминал Tres Cruces, билеты берут на месте или онлайн. В Буэнос-Айрес — паром (Buquebus, Colonia Express) напрямую или через Колонию. Автобусы ходят строго по расписанию."
-      },
-      "en": {
-        "title": "Paying for transport and travelling between cities",
-        "short": "In Montevideo use the STM card (top up at Abitab/kiosks, incl. via Prex) or link a BROU account as STM Pospago; intercity buses leave from Tres Cruces.",
-        "body": "In Montevideo you pay with the STM card: top it up with cash or via Prex at Abitab, kiosks and STM points, or link a BROU account as STM Pospago for automatic debit. You can't pay on the bus with the Prex card itself, only top up the STM. A single fare is roughly 46–86 pesos depending on the line, usually with transfers within 1–2 hours. Other cities have their own fare systems. Between cities, coaches run (COT, Agencia Central, etc.); Montevideo's main hub is the Tres Cruces terminal, with tickets at the terminal or online. To Buenos Aires it's the ferry (Buquebus, Colonia Express) direct or via Colonia. Buses run strictly on schedule."
-      },
-      "es": {
-        "title": "Pagar el transporte y viajar entre ciudades",
-        "short": "En Montevideo, la tarjeta STM (recarga en Abitab/kioscos, también con Prex) o vincular una cuenta BROU como STM Pospago; lo interdepartamental sale de Tres Cruces.",
-        "body": "En Montevideo se paga con la tarjeta STM: se recarga con efectivo o vía Prex en Abitab, kioscos y locales STM, o se vincula una cuenta BROU como STM Pospago para débito automático. Con la tarjeta Prex no se puede pagar en el ómnibus, solo recargar la STM. El boleto simple ronda los 46–86 pesos según la línea, normalmente con trasbordos dentro de 1–2 horas. Otras ciudades tienen su propio sistema. Entre ciudades hay ómnibus (COT, Agencia Central, etc.); el nodo principal de Montevideo es la terminal Tres Cruces, con boletos en la terminal o en línea. A Buenos Aires, el ferry (Buquebus, Colonia Express) directo o vía Colonia. Los ómnibus salen estrictamente por horario."
-      },
-      "de": {
-        "title": "Den Verkehr bezahlen und zwischen Städten reisen",
-        "short": "In Montevideo die STM-Karte (Aufladen bei Abitab/Kiosken, auch via Prex) oder ein BROU-Konto als STM Pospago verknüpfen; Überlandbusse ab Tres Cruces.",
-        "body": "In Montevideo zahlt man mit der STM-Karte: Aufladen mit Bargeld oder via Prex bei Abitab, Kiosken und STM-Stellen, oder ein BROU-Konto als STM Pospago für automatische Abbuchung verknüpfen. Mit der Prex-Karte selbst kann man im Bus nicht zahlen, nur die STM aufladen. Ein Einzelticket liegt je nach Linie bei etwa 46–86 Pesos, meist mit Umstiegen innerhalb von 1–2 Stunden. Andere Städte haben eigene Systeme. Zwischen Städten fahren Reisebusse (COT, Agencia Central usw.); Montevideos Hauptknoten ist das Terminal Tres Cruces, Tickets am Terminal oder online. Nach Buenos Aires per Fähre (Buquebus, Colonia Express) direkt oder über Colonia. Busse fahren strikt nach Fahrplan."
-      }
-    }
-  },
-  {
-    "card_id": "card.transport_driving_car.reference.ref_pdd_i_manera",
-    "topic_id": "topic.transport_driving_car",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "medium",
-    "sensitivity_tags": ["safety"],
-    "keyword_ids": ["kw.curated.voditel", "kw.curated.voditelskie_prava", "kw.curated.transport"],
-    "related_card_ids": ["card.transport_driving_car.reference.ref_voditelskie_prava", "card.faq_transport.q06_traffic_rules_customs"],
-    "text": {
-      "ru": {
-        "title": "ПДД и местная манера вождения",
-        "short": "Движение правостороннее; на нерегулируемых перекрёстках — помеха справа, но местные едут вольно, а пешеходов уступают не всегда. Держитесь оборонительно.",
-        "body": "Движение правостороннее, ремни обязательны. На перекрёстках без светофора и знаков формально действует помеха справа (prioridad a la derecha), но на практике многие едут непредсказуемо, а аварии на нерегулируемых перекрёстках не редкость — снижайте скорость. Пешеходов уступают не всегда, даже на размеченных переходах; пешеходных светофоров мало, а поворачивающий обычно должен уступить пешеходу. На светофорах в городе держите сумки и телефон подальше от открытого окна — бывают выхватывания. Иностранные права действуют недолго, затем оформляют местные. Стиль расслабленный, но к перекрёсткам и переходам относитесь осторожно."
-      },
-      "en": {
-        "title": "Traffic rules and the local driving style",
-        "short": "Drive on the right; at uncontrolled junctions give way to the right, but locals drive loosely and don't always yield to pedestrians. Stay defensive.",
-        "body": "You drive on the right; seatbelts are mandatory. At intersections with no light or sign, the formal rule is give-way-to-the-right (prioridad a la derecha), but in practice many drive unpredictably and crashes at uncontrolled junctions are common — slow down. Drivers don't always yield to pedestrians, even at marked crossings; pedestrian lights are scarce, and a turning vehicle usually must yield to pedestrians. At city traffic lights keep bags and phone away from an open window — snatching happens. A foreign licence is valid only briefly, then you get a local one. The style is relaxed, but treat intersections and crossings with caution."
-      },
-      "es": {
-        "title": "Reglas de tránsito y el estilo de manejo local",
-        "short": "Se maneja por la derecha; en cruces sin señalización rige la prioridad a la derecha, pero los locales manejan suelto y no siempre ceden al peatón. Sé defensivo.",
-        "body": "Se maneja por la derecha y el cinturón es obligatorio. En los cruces sin semáforo ni señal, la regla formal es la prioridad a la derecha, pero en la práctica muchos manejan de forma impredecible y los choques en cruces sin control son comunes — baja la velocidad. No siempre se cede al peatón, ni en sendas marcadas; hay pocos semáforos peatonales, y el que gira suele tener que ceder al peatón. En los semáforos de la ciudad mantén la cartera y el teléfono lejos de la ventanilla abierta — hay arrebatos. La licencia extranjera vale poco tiempo, luego se saca la local. El estilo es relajado, pero toma los cruces y las sendas con precaución."
-      },
-      "de": {
-        "title": "Verkehrsregeln und der lokale Fahrstil",
-        "short": "Rechtsverkehr; an ungeregelten Kreuzungen rechts vor links, aber Einheimische fahren locker und gewähren Fußgängern nicht immer Vorrang. Bleib defensiv.",
-        "body": "Es herrscht Rechtsverkehr, Gurtpflicht. An Kreuzungen ohne Ampel oder Schild gilt formal rechts-vor-links (prioridad a la derecha), in der Praxis fahren aber viele unberechenbar, und Unfälle an ungeregelten Kreuzungen sind häufig — langsamer fahren. Fußgängern wird nicht immer Vorrang gewährt, auch nicht an markierten Übergängen; Fußgängerampeln sind selten, und wer abbiegt, muss meist dem Fußgänger Vorrang geben. An Stadtampeln Tasche und Handy von einem offenen Fenster fernhalten — Entreißen kommt vor. Ein ausländischer Führerschein gilt nur kurz, danach besorgt man den lokalen. Der Stil ist entspannt, doch an Kreuzungen und Übergängen vorsichtig sein."
-      }
-    }
-  },
-  {
-    "card_id": "card.transport_driving_car.reference.ref_shtrafy_summy",
-    "topic_id": "topic.transport_driving_car",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "high",
-    "sensitivity_tags": ["legal", "financial"],
-    "keyword_ids": ["kw.curated.shtraf", "kw.curated.parkovka", "kw.curated.shtrafy_i_parkovka"],
-    "related_card_ids": ["card.transport_driving_car.reference.ref_shtrafy_i_parkovka", "card.faq_transport.q07_fines"],
-    "text": {
-      "ru": {
-        "title": "Самые частые штрафы и суммы",
-        "short": "Превышение и парковка — самые частые; в Монтевидео штрафы считают в UR (≈1800 песо за единицу): за скорость ориентировочно 5–12 UR, иногда плюс баллы.",
-        "body": "Самые частые — превышение скорости и нарушения парковки. В Монтевидео штрафы измеряют в условных единицах UR (Unidad Reajustable, ориентировочно ~1800 песо за 1 UR, индексируется): за превышение ориентировочно 5 UR (до 20 км/ч), 8 UR (20–30) и 12 UR (свыше 30); парковка с нарушением — несколько базовых единиц. Часть нарушений добавляет баллы (puntos) к водительскому досье. Проверить и оплатить штрафы можно онлайн на сайте интендансии (montevideo.gub.uy), а долги по автомобилю — через SUCIVE (sucive.gub.uy). Точные суммы смотрите в актуальной таблице интендансии — тарифы меняются."
-      },
-      "en": {
-        "title": "The most common fines and their amounts",
-        "short": "Speeding and parking are most common; Montevideo fines are in UR (≈1,800 pesos per unit): speeding is roughly 5–12 UR, sometimes plus licence points.",
-        "body": "The most common are speeding and parking violations. In Montevideo fines are measured in UR units (Unidad Reajustable, roughly ~1,800 pesos per UR, indexed): speeding is about 5 UR (up to 20 km/h over), 8 UR (20–30) and 12 UR (over 30); a parking violation is several base units. Some offences add points (puntos) to your driving record. Check and pay fines online on the intendencia site (montevideo.gub.uy), and vehicle debts via SUCIVE (sucive.gub.uy). Check exact amounts in the intendencia's current table — the rates change."
-      },
-      "es": {
-        "title": "Las multas más comunes y sus montos",
-        "short": "Velocidad y estacionamiento son las más comunes; en Montevideo las multas van en UR (≈1.800 pesos por unidad): por velocidad ronda 5–12 UR, a veces con puntos.",
-        "body": "Las más comunes son el exceso de velocidad y las infracciones de estacionamiento. En Montevideo las multas se miden en UR (Unidad Reajustable, alrededor de ~1.800 pesos por UR, se indexa): por velocidad ronda 5 UR (hasta 20 km/h de más), 8 UR (20–30) y 12 UR (más de 30); el estacionamiento mal hecho son varias unidades base. Algunas infracciones suman puntos al legajo del conductor. Puedes consultar y pagar multas en línea en el sitio de la intendencia (montevideo.gub.uy), y las deudas del vehículo por SUCIVE (sucive.gub.uy). Verifica los montos exactos en la tabla vigente de la intendencia — las tarifas cambian."
-      },
-      "de": {
-        "title": "Die häufigsten Bußgelder und ihre Höhe",
-        "short": "Geschwindigkeit und Parken sind am häufigsten; Montevideos Bußgelder rechnen in UR (≈1.800 Pesos pro Einheit): Tempo etwa 5–12 UR, teils plus Punkte.",
-        "body": "Am häufigsten sind Geschwindigkeits- und Parkverstöße. In Montevideo werden Bußgelder in UR-Einheiten gemessen (Unidad Reajustable, etwa ~1.800 Pesos pro UR, indexiert): Tempoverstoß etwa 5 UR (bis 20 km/h zu viel), 8 UR (20–30) und 12 UR (über 30); ein Parkverstoß sind mehrere Basiseinheiten. Manche Verstöße addieren Punkte (puntos) zum Fahrerregister. Bußgelder prüft und zahlt man online auf der Seite der Intendencia (montevideo.gub.uy), Fahrzeugschulden über SUCIVE (sucive.gub.uy). Genaue Beträge in der aktuellen Tabelle der Intendencia prüfen — die Sätze ändern sich."
-      }
-    }
-  },
-  {
-    "card_id": "card.transport_driving_car.reference.ref_patente_nalog",
-    "topic_id": "topic.transport_driving_car",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "high",
-    "sensitivity_tags": ["financial"],
-    "keyword_ids": ["kw.curated.avto", "kw.curated.mashina", "kw.curated.strahovka"],
-    "related_card_ids": ["card.transport_driving_car.reference.ref_pokupka_avto", "card.faq_transport.q08_car_taxes"],
-    "text": {
-      "ru": {
-        "title": "Налог на авто (patente): сколько и как платить",
-        "short": "Patente — годовой налог через SUCIVE, ориентировочно ~5% оценочной стоимости и снижается с возрастом авто; есть скидки за раннюю/полную оплату.",
-        "body": "Налог на авто — patente de rodados, администрируется через SUCIVE (sucive.gub.uy), где можно проверить и оплатить. Ориентировочно это ~5% оценочной (каталожной) стоимости в год, причём для машин старше ~5 лет оценка для налога постепенно снижается — отчасти поэтому в Уругвае много старых авто в хорошем состоянии. Для средней машины это может быть порядка $1500–1700 в год. Есть скидки за своевременную и единовременную годовую оплату, можно платить и частями. Отдельно обязателен полис SOA (базовая ответственность, ~$200–250/год через BSE), сверх него — добровольное КАСКО (порядка $1500/год). У электромобилей бывают льготы. Точную сумму считайте по своей машине в SUCIVE."
-      },
-      "en": {
-        "title": "The car tax (patente): how much and how to pay",
-        "short": "Patente is an annual tax via SUCIVE, roughly ~5% of assessed value and falling with the car's age; there are discounts for early/full payment.",
-        "body": "The car tax is the patente de rodados, administered via SUCIVE (sucive.gub.uy) where you can check and pay. It's roughly ~5% of the assessed (catalogue) value per year, and for cars older than ~5 years the taxable assessment gradually drops — partly why Uruguay has so many well-kept old cars. For a mid-range car it can be around $1,500–1,700 a year. There are discounts for paying on time and in a single annual payment, and you can pay in instalments. Separately, the SOA policy is compulsory (basic liability, ~$200–250/yr via BSE), with optional comprehensive cover on top (around $1,500/yr). Electric cars may get reductions. Compute the exact amount for your car in SUCIVE."
-      },
-      "es": {
-        "title": "La patente del auto: cuánto y cómo se paga",
-        "short": "La patente es un impuesto anual por SUCIVE, en torno al ~5% del valor de aforo y baja con la antigüedad; hay descuentos por pago temprano/total.",
-        "body": "El impuesto del auto es la patente de rodados, administrada por SUCIVE (sucive.gub.uy), donde se consulta y se paga. Ronda el ~5% del valor de aforo (catálogo) por año, y para autos de más de ~5 años el aforo gravable baja gradualmente — en parte por eso Uruguay tiene tantos autos viejos bien cuidados. Para un auto medio puede ser del orden de $1.500–1.700 al año. Hay descuentos por pagar en fecha y en un solo pago anual, y se puede pagar en cuotas. Aparte, el SOA es obligatorio (responsabilidad básica, ~$200–250/año por BSE), con un seguro total opcional encima (del orden de $1.500/año). Los autos eléctricos pueden tener beneficios. Calcula el monto exacto de tu auto en SUCIVE."
-      },
-      "de": {
-        "title": "Die Kfz-Steuer (patente): wie viel und wie zahlen",
-        "short": "Die patente ist eine Jahressteuer über SUCIVE, grob ~5% des Schätzwerts und sinkt mit dem Alter; es gibt Rabatte für frühe/volle Zahlung.",
-        "body": "Die Kfz-Steuer ist die patente de rodados, verwaltet über SUCIVE (sucive.gub.uy), wo man prüfen und zahlen kann. Sie liegt bei grob ~5% des Schätz-/Katalogwerts pro Jahr, und für Autos älter als ~5 Jahre sinkt der steuerliche Schätzwert allmählich — mit ein Grund, warum Uruguay so viele gepflegte Altautos hat. Für ein Mittelklasseauto können das etwa $1.500–1.700 im Jahr sein. Es gibt Rabatte für pünktliche und einmalige Jahreszahlung, Ratenzahlung ist möglich. Separat ist die SOA-Police Pflicht (Grundhaftpflicht, ~$200–250/Jahr über BSE), darüber optional eine Vollkasko (rund $1.500/Jahr). E-Autos können Vergünstigungen erhalten. Den genauen Betrag für dein Auto in SUCIVE berechnen."
-      }
-    }
-  },
-  {
-    "card_id": "card.bank_accounts_cards.reference.ref_banki_dlya_immigranta",
-    "topic_id": "topic.bank_accounts_cards",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "high",
-    "sensitivity_tags": ["financial"],
-    "keyword_ids": ["kw.curated.bank", "kw.curated.brou", "kw.curated.itau", "kw.curated.prex", "kw.curated.otkrytie_scheta"],
-    "related_card_ids": ["card.bank_accounts_cards.reference.ref_otkrytie_scheta", "card.faq_banking.q06_best_banks_immigrant"],
-    "text": {
-      "ru": {
-        "title": "Какие банки удобны иммигранту, а какие нет",
-        "short": "На старте проще всего Itaú (по временной седуле) и Prex; BROU полезен как государственный; счёт нерезидента в Santander дорог без крупного баланса.",
-        "body": "Для недавно приехавшего практичны: Itaú — открывают по временной седуле, удобное приложение (бывает возня с itoken); BROU — государственный, широкая сеть и банкоматы RedBrou, часто нужен для зарплат/госвыплат и для empresa unipersonal; Prex — формально не банк, но открывается быстрее всего и без справок (с лимитом ~9800 USD для нерезидентов за весь срок). Менее удобны на старте: Santander — открыть легко, но счёт нерезидента (Cuenta Select No Residente) берёт около $50/мес при балансе ниже порога (~$50 000); HSBC и Scotiabank больше про премиальных/нерезидентов с крупными суммами. Условия часто меняются — уточняйте актуальные требования и комиссии в отделении перед открытием."
-      },
-      "en": {
-        "title": "Which banks suit an immigrant and which don't",
-        "short": "To start, Itaú (on a temporary cédula) and Prex are easiest; BROU is useful as the state bank; Santander's non-resident account is costly without a large balance.",
-        "body": "For a recent arrival the practical ones are: Itaú — opens on a temporary cédula, nice app (the itoken can be fiddly); BROU — state-owned, wide network and RedBrou ATMs, often needed for salaries/government payments and for an empresa unipersonal; Prex — not technically a bank but the fastest to open and without certificates (with a ~$9,800 USD lifetime cap for non-residents). Less convenient to start: Santander — easy to open, but the non-resident account (Cuenta Select No Residente) charges about $50/month below a threshold balance (~$50,000); HSBC and Scotiabank lean toward premium/non-residents with larger sums. Terms change often — confirm the current requirements and fees at a branch before opening."
-      },
-      "es": {
-        "title": "Qué bancos le convienen a un inmigrante y cuáles no",
-        "short": "Para empezar, Itaú (con cédula provisoria) y Prex son los más fáciles; BROU es útil como banco estatal; la cuenta de no residente de Santander es cara sin saldo grande.",
-        "body": "Para un recién llegado son prácticos: Itaú — abre con cédula provisoria, buena app (el itoken a veces da trabajo); BROU — estatal, amplia red y cajeros RedBrou, a menudo necesario para sueldos/pagos del Estado y para una empresa unipersonal; Prex — no es técnicamente un banco pero es el más rápido de abrir y sin certificados (con un tope de ~9.800 USD de por vida para no residentes). Menos cómodos al inicio: Santander — fácil de abrir, pero la cuenta de no residente (Cuenta Select No Residente) cobra unos $50/mes por debajo de cierto saldo (~$50.000); HSBC y Scotiabank apuntan más a premium/no residentes con sumas mayores. Las condiciones cambian seguido — confirma requisitos y comisiones vigentes en la sucursal antes de abrir."
-      },
-      "de": {
-        "title": "Welche Banken passen einem Einwanderer und welche nicht",
-        "short": "Zum Start sind Itaú (mit vorläufiger Cédula) und Prex am einfachsten; BROU ist als Staatsbank nützlich; Santanders Nichtresidenten-Konto ist ohne großes Guthaben teuer.",
-        "body": "Für Neuankömmlinge praktisch sind: Itaú — Eröffnung mit vorläufiger Cédula, gute App (das itoken kann zicken); BROU — staatlich, weites Netz und RedBrou-Automaten, oft nötig für Gehälter/staatliche Zahlungen und für eine empresa unipersonal; Prex — technisch keine Bank, aber am schnellsten und ohne Nachweise zu eröffnen (mit ~9.800 USD Lebenslimit für Nichtansässige). Weniger praktisch am Anfang: Santander — leicht zu eröffnen, aber das Nichtresidenten-Konto (Cuenta Select No Residente) kostet etwa $50/Monat unter einem Schwellenguthaben (~$50.000); HSBC und Scotiabank zielen eher auf Premium/Nichtansässige mit größeren Summen. Die Konditionen ändern sich oft — prüfe vor der Eröffnung aktuelle Anforderungen und Gebühren in der Filiale."
-      }
-    }
-  },
-  {
-    "card_id": "card.bank_accounts_cards.reference.ref_stoimost_obsluzhivaniya",
-    "topic_id": "topic.bank_accounts_cards",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "high",
-    "sensitivity_tags": ["financial"],
-    "keyword_ids": ["kw.curated.bank", "kw.curated.prex", "kw.curated.itau", "kw.curated.nerezidentskie_ogranicheniya"],
-    "related_card_ids": ["card.bank_accounts_cards.reference.ref_nerezidentskie_ogranicheniya", "card.faq_banking.q07_holding_costs"],
-    "text": {
-      "ru": {
-        "title": "Стоимость обслуживания счёта по банкам",
-        "short": "Prex — бесплатно (но ~6% за платежи за границей); счета нерезидента у частных банков платные (Itaú ~$40/мес, Santander ~$50/мес ниже порога баланса).",
-        "body": "Стоимость зависит от банка и от того, резидент вы или нерезидент. Prex: обслуживание бесплатное, но за оплату картой за пределами Уругвая берут около 6% за операцию, плюс лимит ~9800 USD для нерезидентов. Счета нерезидента в частных банках платные: Itaú — порядка $40/мес (открывают по временной седуле), Santander (Cuenta Select No Residente) — около $50/мес, если баланс ниже порога (~$50 000). После получения постоянной седулы и местного дохода доступны обычные резидентские счета с более мягкими условиями. Снятие наличных тоже имеет лимиты и комиссии (например, в банкоматах RedBrou — небольшая плата за транзакцию). Точные тарифы сверяйте в банке — они меняются."
-      },
-      "en": {
-        "title": "Account-holding costs by bank",
-        "short": "Prex is free (but ~6% on payments abroad); private banks' non-resident accounts are paid (Itaú ~$40/mo, Santander ~$50/mo below a balance threshold).",
-        "body": "The cost depends on the bank and whether you're a resident or non-resident. Prex: free maintenance, but card payments outside Uruguay carry about 6% per transaction, plus the ~$9,800 USD non-resident cap. Private banks' non-resident accounts are paid: Itaú — around $40/month (opens on a temporary cédula), Santander (Cuenta Select No Residente) — about $50/month if the balance is below a threshold (~$50,000). Once you have a permanent cédula and local income, ordinary resident accounts with easier terms open up. Cash withdrawals also have limits and fees (e.g. RedBrou ATMs charge a small per-transaction fee). Confirm exact tariffs at the bank — they change."
-      },
-      "es": {
-        "title": "Costo de mantenimiento de cuenta por banco",
-        "short": "Prex es gratis (pero ~6% en pagos en el exterior); las cuentas de no residente de los privados son pagas (Itaú ~$40/mes, Santander ~$50/mes por debajo de cierto saldo).",
-        "body": "El costo depende del banco y de si eres residente o no. Prex: mantenimiento gratis, pero los pagos con tarjeta fuera de Uruguay tienen cerca de 6% por operación, más el tope de ~9.800 USD para no residentes. Las cuentas de no residente de los bancos privados son pagas: Itaú — unos $40/mes (abre con cédula provisoria), Santander (Cuenta Select No Residente) — unos $50/mes si el saldo está por debajo de un umbral (~$50.000). Con cédula definitiva e ingresos locales se habilitan cuentas de residente comunes, con condiciones más blandas. El retiro de efectivo también tiene límites y comisiones (por ejemplo, los cajeros RedBrou cobran una pequeña tarifa por operación). Confirma las tarifas exactas en el banco — cambian."
-      },
-      "de": {
-        "title": "Kontoführungskosten nach Bank",
-        "short": "Prex ist kostenlos (aber ~6% bei Zahlungen im Ausland); Nichtresidenten-Konten der Privatbanken kosten (Itaú ~$40/Mt., Santander ~$50/Mt. unter einer Guthabengrenze).",
-        "body": "Die Kosten hängen von der Bank und davon ab, ob du ansässig bist oder nicht. Prex: kostenlose Führung, aber Kartenzahlungen außerhalb Uruguays kosten etwa 6% pro Transaktion, dazu das ~9.800-USD-Limit für Nichtansässige. Nichtresidenten-Konten der Privatbanken kosten: Itaú — rund $40/Monat (Eröffnung mit vorläufiger Cédula), Santander (Cuenta Select No Residente) — etwa $50/Monat, wenn das Guthaben unter einer Schwelle liegt (~$50.000). Mit dauerhafter Cédula und lokalem Einkommen öffnen sich normale Residenten-Konten mit milderen Bedingungen. Auch Bargeldabhebungen haben Limits und Gebühren (z. B. erheben RedBrou-Automaten eine kleine Gebühr pro Transaktion). Genaue Tarife bei der Bank prüfen — sie ändern sich."
-      }
-    }
-  },
-  {
-    "card_id": "card.bank_accounts_cards.reference.ref_optimalnyy_nabor_kart",
-    "topic_id": "topic.bank_accounts_cards",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "medium",
-    "sensitivity_tags": ["financial"],
-    "keyword_ids": ["kw.curated.karta", "kw.curated.prex", "kw.curated.bank"],
-    "related_card_ids": ["card.bank_accounts_cards.reference.ref_karty_i_blokirovki", "card.faq_banking.q08_optimal_card_setup"],
-    "text": {
-      "ru": {
-        "title": "Оптимальный набор карт (Mastercard + Visa)",
-        "short": "Базовый микс — Prex (Mastercard) + карта Visa местного банка; хватает для приёма везде, снятия наличных и скидок без зоопарка карт.",
-        "body": "Магазины и сервисы по-разному принимают Visa и Mastercard (а MercadoLibre иногда отвергает иностранные карты), поэтому удобный минимум — одна Mastercard и одна Visa. Частый рабочий микс: Prex (Mastercard, бесплатная, хороший курс, без комиссии за снятие) плюс дебетовая Visa местного банка (Itaú или Maestro/Visa BROU) для платежей, снятия и местных операций. Скидки и кэшбэк в супермаркетах и на заправках банки дают по своим картам и в определённые дни (нередко 15–20%), поэтому выгодную карту выбирают под места, где вы реально тратите. Заводить карты всех банков смысла нет — двух эмитентов обычно достаточно, чтобы закрыть приём, наличные и основные скидки."
-      },
-      "en": {
-        "title": "An optimal card setup (Mastercard + Visa)",
-        "short": "A base mix is Prex (Mastercard) + a local bank's Visa; it covers acceptance everywhere, cash withdrawals and discounts without a zoo of cards.",
-        "body": "Shops and services accept Visa and Mastercard differently (and MercadoLibre sometimes rejects foreign cards), so a handy minimum is one Mastercard and one Visa. A common working mix: Prex (Mastercard, free, good rate, no withdrawal fee) plus a local bank debit Visa (Itaú, or BROU Maestro/Visa) for payments, withdrawals and local operations. Banks give supermarket and fuel discounts/cashback on their own cards and on specific days (often 15–20%), so pick the rewarding card for where you actually spend. There's no point holding cards from every bank — two issuers usually cover acceptance, cash and the main discounts."
-      },
-      "es": {
-        "title": "Un set óptimo de tarjetas (Mastercard + Visa)",
-        "short": "Un mix base es Prex (Mastercard) + una Visa de un banco local; cubre aceptación en todos lados, retiro de efectivo y descuentos sin un zoológico de tarjetas.",
-        "body": "Los comercios aceptan Visa y Mastercard de forma distinta (y MercadoLibre a veces rechaza tarjetas extranjeras), así que un mínimo cómodo es una Mastercard y una Visa. Un mix que funciona: Prex (Mastercard, gratis, buen tipo de cambio, sin comisión por retiro) más una Visa de débito de un banco local (Itaú, o Maestro/Visa de BROU) para pagos, retiros y operaciones locales. Los bancos dan descuentos/cashback en supermercados y combustible con sus propias tarjetas y en días puntuales (a menudo 15–20%), así que elige la tarjeta conveniente según dónde gastas de verdad. No tiene sentido tener tarjetas de todos los bancos — con dos emisores suele alcanzar para cubrir aceptación, efectivo y los descuentos principales."
-      },
-      "de": {
-        "title": "Ein optimales Karten-Setup (Mastercard + Visa)",
-        "short": "Eine Basis ist Prex (Mastercard) + eine Visa einer lokalen Bank; das deckt Akzeptanz überall, Bargeld und Rabatte, ohne einen Karten-Zoo.",
-        "body": "Geschäfte und Dienste akzeptieren Visa und Mastercard unterschiedlich (und MercadoLibre lehnt ausländische Karten manchmal ab), daher ist ein praktisches Minimum eine Mastercard und eine Visa. Ein bewährter Mix: Prex (Mastercard, kostenlos, guter Kurs, keine Abhebegebühr) plus eine Debit-Visa einer lokalen Bank (Itaú oder BROU Maestro/Visa) für Zahlungen, Abhebungen und lokale Vorgänge. Banken geben Supermarkt- und Tankrabatte/Cashback auf ihre eigenen Karten und an bestimmten Tagen (oft 15–20%), wähle also die lohnende Karte nach deinen tatsächlichen Ausgabeorten. Karten aller Banken zu halten lohnt nicht — zwei Emittenten decken meist Akzeptanz, Bargeld und die wichtigsten Rabatte ab."
-      }
-    }
-  },
-  {
-    "card_id": "card.taxes_accounting_empresa.reference.ref_vybor_tipa_kompanii_cifry",
-    "topic_id": "topic.taxes_accounting_empresa",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "high",
-    "sensitivity_tags": ["financial", "legal"],
-    "keyword_ids": ["kw.curated.empresa", "kw.curated.dgi", "kw.curated.bps", "kw.curated.contador", "kw.curated.irae", "kw.curated.irpf"],
-    "related_card_ids": ["card.taxes_accounting_empresa.instruction.kak_vybrat_mezhdu_unipersonal", "card.faq_taxes.q06_choose_company_type"],
-    "text": {
-      "ru": {
-        "title": "Выбор типа компании с цифрами (monotributo / Literal E / unipersonal / SAS)",
-        "short": "Монотрибуто/Literal E — для малого оборота (лимиты ~20k и ~40k USD/год); empresa unipersonal — гибче; SAS обычно выгоднее примерно от $5000/мес.",
-        "body": "Empresa unipersonal — это ИП с подвидами по обороту: Monotributo (минимальные ежемесячные, лимит ~20 000 USD/год, для услуг физлицам/рознице — не подходит для счетов иностранным юрлицам) и Literal E (чуть выше платежи, лимит ~40 000 USD/год). Выше лимитов — общий режим unipersonal с прогрессивным налогом. Unipersonal открывается за ~неделю, администрировать дешевле (около $130/мес с бухгалтером). SAS — упрощённое акционерное общество: открывается ~2 месяца, администрирование дороже (~$400–500/мес), но при экспорте услуг (особенно IT) даёт 0% НДС и 0% налога на прибыль, оставляя в основном соцвзносы. По общему мнению, примерно от $5000/мес дохода SAS выгоднее unipersonal. Выбор зависит от оборота, типа клиентов (физлица/юрлица, Уругвай/экспорт) и того, нужен ли вам контракт на компанию — просчитайте сценарий с contador до регистрации."
-      },
-      "en": {
-        "title": "Choosing a company type with numbers (monotributo / Literal E / unipersonal / SAS)",
-        "short": "Monotributo/Literal E suit small turnover (limits ~$20k and ~$40k/yr); the empresa unipersonal is more flexible; a SAS usually wins from about $5,000/month.",
-        "body": "An empresa unipersonal is a sole trader with sub-regimes by turnover: Monotributo (minimal monthly payments, ~$20,000 USD/yr limit, for services to individuals/retail — not suitable for invoicing foreign companies) and Literal E (slightly higher payments, ~$40,000 USD/yr limit). Above the limits is the general unipersonal regime with progressive tax. A unipersonal opens in ~a week and is cheaper to run (around $130/month with an accountant). A SAS is a simplified joint-stock company: ~2 months to open, pricier admin (~$400–500/month), but for exported services (especially IT) it gives 0% VAT and 0% profit tax, leaving mainly social contributions. The common view is that from roughly $5,000/month a SAS beats a unipersonal. The choice depends on turnover, client type (individuals/companies, Uruguay/export) and whether you need the contract in the company's name — model your case with a contador before registering."
-      },
-      "es": {
-        "title": "Elegir el tipo de empresa con números (monotributo / Literal E / unipersonal / SAS)",
-        "short": "Monotributo/Literal E sirven para facturación chica (topes ~20k y ~40k USD/año); la empresa unipersonal es más flexible; una SAS suele convenir desde ~$5.000/mes.",
-        "body": "Una empresa unipersonal es un unipersonal con subregímenes por facturación: Monotributo (pagos mensuales mínimos, tope ~20.000 USD/año, para servicios a personas/comercio — no sirve para facturar a empresas del exterior) y Literal E (pagos algo mayores, tope ~40.000 USD/año). Por encima de los topes va el régimen general unipersonal con impuesto progresivo. Una unipersonal se abre en ~una semana y es más barata de administrar (alrededor de $130/mes con contador). Una SAS es una sociedad por acciones simplificada: ~2 meses para abrir, administración más cara (~$400–500/mes), pero por servicios exportados (sobre todo IT) da 0% de IVA y 0% de impuesto a la renta, dejando sobre todo los aportes sociales. La idea común es que desde ~$5.000/mes una SAS le gana a la unipersonal. La elección depende de la facturación, el tipo de cliente (personas/empresas, Uruguay/exportación) y de si necesitas el contrato a nombre de la empresa — modela tu caso con un contador antes de registrar."
-      },
-      "de": {
-        "title": "Firmentyp mit Zahlen wählen (monotributo / Literal E / unipersonal / SAS)",
-        "short": "Monotributo/Literal E passen für kleinen Umsatz (Grenzen ~20k und ~40k USD/Jahr); die empresa unipersonal ist flexibler; eine SAS lohnt meist ab ca. $5.000/Monat.",
-        "body": "Eine empresa unipersonal ist ein Einzelunternehmen mit Unterregimen nach Umsatz: Monotributo (minimale Monatszahlungen, ~20.000 USD/Jahr-Grenze, für Dienste an Privatpersonen/Handel — nicht geeignet, um an ausländische Firmen zu fakturieren) und Literal E (etwas höhere Zahlungen, ~40.000 USD/Jahr-Grenze). Über den Grenzen gilt das allgemeine unipersonal-Regime mit progressiver Steuer. Eine unipersonal eröffnet in ~einer Woche und ist günstiger zu führen (rund $130/Monat mit Buchhalter). Eine SAS ist eine vereinfachte Aktiengesellschaft: ~2 Monate Eröffnung, teurere Verwaltung (~$400–500/Monat), aber für exportierte Dienste (besonders IT) 0% Mehrwertsteuer und 0% Gewinnsteuer, sodass vor allem Sozialbeiträge bleiben. Verbreitet ist die Ansicht, dass ab etwa $5.000/Monat eine SAS die unipersonal schlägt. Die Wahl hängt von Umsatz, Kundentyp (Privat/Firmen, Uruguay/Export) und davon ab, ob der Vertrag auf die Firma laufen muss — modelliere deinen Fall mit einem contador vor der Registrierung."
-      }
-    }
-  },
-  {
-    "card_id": "card.taxes_accounting_empresa.reference.ref_nalogi_po_tipam_kompanii",
-    "topic_id": "topic.taxes_accounting_empresa",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "high",
-    "sensitivity_tags": ["financial", "legal"],
-    "keyword_ids": ["kw.curated.nalog", "kw.curated.bps", "kw.curated.irae", "kw.curated.irpf", "kw.curated.dgi", "kw.curated.empresa"],
-    "related_card_ids": ["card.taxes_accounting_empresa.reference.ref_nalogovye_rezhimy", "card.faq_taxes.q07_taxes_per_company_type"],
-    "text": {
-      "ru": {
-        "title": "Налоги и взносы по типам компании",
-        "short": "Везде есть фиксированный взнос в BPS (+ Fonasa); экспорт услуг — 0% НДС; на доход: IRPF (прогрессивно) или IRAE (12–25%), у SAS на IT-экспорт часто 0% на прибыль.",
-        "body": "Общая структура — ежемесячный фиксированный взнос в BPS (соцобеспечение) плюс Fonasa (медицина, опционально/по составу семьи), и налог на доход. На экспорт услуг НДС (IVA) — 0%. По доходу: у unipersonal это либо IRPF (прогрессивная шкала, растёт с дохода), либо IRAE (налог на прибыль, ~12% для малых и до 25%) — режим зависит от деталей (например, для IT обсуждается зависимость от того, чей рабочий компьютер). У SAS при экспорте услуг (особенно IT) прибыль часто облагается 0%, остаются в основном соцвзносы; локальная прибыль внутри Уругвая — 25% (IRAE). Монотрибуто/Literal E платят упрощённый фиксированный взнос вместо общих налогов. Конкретные суммы BPS индексируются (минимум — несколько тысяч песо в месяц), а трактовки IRPF/IRAE расходятся даже у бухгалтеров — обязательно считайте с contador."
-      },
-      "en": {
-        "title": "Taxes and contributions by company type",
-        "short": "All pay a fixed BPS contribution (+ Fonasa); exported services are 0% VAT; on income: IRPF (progressive) or IRAE (12–25%), and a SAS on IT export often 0% profit tax.",
-        "body": "The general structure is a monthly fixed BPS (social security) contribution plus Fonasa (healthcare, optional/by family size) and an income tax. On exported services VAT (IVA) is 0%. On income: a unipersonal pays either IRPF (a progressive scale rising with income) or IRAE (profit tax, ~12% for small and up to 25%) — the regime depends on the details (for IT, for instance, it's debated whether it hinges on whose work computer it is). A SAS exporting services (especially IT) often has profit taxed at 0%, leaving mainly social contributions; profit arising inside Uruguay is 25% (IRAE). Monotributo/Literal E pay a simplified fixed contribution instead of the general taxes. The exact BPS amounts are indexed (the minimum is a few thousand pesos a month), and IRPF/IRAE interpretations differ even among accountants — always compute it with a contador."
-      },
-      "es": {
-        "title": "Impuestos y aportes por tipo de empresa",
-        "short": "Todos pagan un aporte fijo al BPS (+ Fonasa); los servicios exportados son 0% de IVA; sobre la renta: IRPF (progresivo) o IRAE (12–25%), y una SAS por exportar IT suele 0%.",
-        "body": "La estructura general es un aporte mensual fijo al BPS (seguridad social) más Fonasa (salud, opcional/según grupo familiar) y un impuesto a la renta. Sobre servicios exportados el IVA es 0%. Sobre la renta: una unipersonal paga IRPF (escala progresiva que sube con el ingreso) o IRAE (impuesto a la renta empresarial, ~12% para chicos y hasta 25%) — el régimen depende de los detalles (en IT, por ejemplo, se discute si depende de quién es la computadora de trabajo). Una SAS que exporta servicios (sobre todo IT) suele tener la renta gravada al 0%, quedando sobre todo los aportes sociales; la renta generada dentro de Uruguay es 25% (IRAE). Monotributo/Literal E pagan un aporte fijo simplificado en lugar de los impuestos generales. Los montos exactos del BPS se indexan (el mínimo es de unos pocos miles de pesos al mes), y las interpretaciones de IRPF/IRAE difieren incluso entre contadores — siempre calcúlalo con un contador."
-      },
-      "de": {
-        "title": "Steuern und Beiträge nach Firmentyp",
-        "short": "Alle zahlen einen festen BPS-Beitrag (+ Fonasa); exportierte Dienste sind 0% MwSt.; auf Einkommen: IRPF (progressiv) oder IRAE (12–25%), eine SAS bei IT-Export oft 0%.",
-        "body": "Die Grundstruktur ist ein monatlicher fester BPS-Beitrag (Sozialversicherung) plus Fonasa (Gesundheit, optional/nach Familiengröße) und eine Einkommensteuer. Auf exportierte Dienste beträgt die MwSt. (IVA) 0%. Auf das Einkommen: Eine unipersonal zahlt entweder IRPF (progressiver Tarif, steigt mit dem Einkommen) oder IRAE (Gewinnsteuer, ~12% für Kleine und bis 25%) — das Regime hängt von Details ab (bei IT ist z. B. umstritten, ob es darauf ankommt, wem der Arbeitscomputer gehört). Eine SAS, die Dienste exportiert (besonders IT), hat den Gewinn oft mit 0% besteuert, sodass vor allem Sozialbeiträge bleiben; innerhalb Uruguays entstehender Gewinn ist 25% (IRAE). Monotributo/Literal E zahlen einen vereinfachten Festbeitrag statt der allgemeinen Steuern. Die genauen BPS-Beträge sind indexiert (das Minimum sind einige tausend Pesos im Monat), und IRPF/IRAE-Auslegungen unterscheiden sich selbst unter Buchhaltern — rechne es immer mit einem contador."
-      }
-    }
-  },
-  {
-    "card_id": "card.taxes_accounting_empresa.reference.ref_bez_buhgaltera",
-    "topic_id": "topic.taxes_accounting_empresa",
-    "content_category": "reference",
-    "card_type": "summary",
-    "visibility": "public",
-    "status": "active",
-    "needs_review": true,
-    "staleness_risk": "medium",
-    "sensitivity_tags": ["financial", "legal"],
-    "keyword_ids": ["kw.curated.contador", "kw.curated.dgi", "kw.curated.bps", "kw.curated.empresa"],
-    "related_card_ids": ["card.taxes_accounting_empresa.reference.ref_contador", "card.faq_taxes.q08_without_accountant"],
-    "text": {
-      "ru": {
-        "title": "Можно ли вести компанию без contador",
-        "short": "Для монотрибуто/Literal E и простого unipersonal — реально самому: взносы BPS фиксированы, фактуры выставляются электронно на сайте DGI; для SAS обычно нужен contador.",
-        "body": "Для простых режимов вести дела самому реально: государственные системы DGI и BPS электронные и довольно прозрачные. Взнос в BPS фиксированный (его можно уточнить прямо в BPS, например в офисе на 18 de Julio), а электронные фактуры выставляются на сайте DGI с указанием суммы (для экспорта IT-услуг налоговая часть нередко 0). У монотрибуто/Literal E отчётность минимальна. Минусы самостоятельного ведения — риск ошибки (придётся доплатить штраф) и время на разбирательство с режимами IRPF/IRAE. Для SAS и общего режима unipersonal администрирование сложнее, и большинство всё же берёт contador (около $130/мес для unipersonal, $400–500/мес для SAS) — это недорого относительно цены ошибки. Разумный путь: проконсультироваться с contador на старте, а рутину при простом режиме вести самому."
-      },
-      "en": {
-        "title": "Can you run a company without a contador",
-        "short": "For monotributo/Literal E and a simple unipersonal it's doable yourself: BPS contributions are fixed and invoices are issued electronically on the DGI site; a SAS usually needs a contador.",
-        "body": "For the simple regimes, doing it yourself is realistic: the state DGI and BPS systems are electronic and fairly transparent. The BPS contribution is fixed (you can check it directly at BPS, e.g. the 18 de Julio office), and electronic invoices are issued on the DGI site with the amount entered (for exported IT services the tax part is often 0). Monotributo/Literal E have minimal reporting. The downsides of DIY are the risk of a mistake (you'll pay a fine) and time spent untangling the IRPF/IRAE regimes. For a SAS and the general unipersonal regime admin is harder, and most still hire a contador (around $130/month for a unipersonal, $400–500/month for a SAS) — cheap relative to the cost of an error. A sensible path: consult a contador at the start, then handle the routine yourself under a simple regime."
-      },
-      "es": {
-        "title": "¿Se puede llevar una empresa sin contador?",
-        "short": "Para monotributo/Literal E y una unipersonal simple es posible solo: los aportes al BPS son fijos y las facturas se emiten en línea en el sitio de la DGI; una SAS suele necesitar contador.",
-        "body": "Para los regímenes simples, hacerlo solo es realista: los sistemas estatales DGI y BPS son electrónicos y bastante transparentes. El aporte al BPS es fijo (se puede consultar directo en el BPS, por ejemplo en la oficina de 18 de Julio), y las facturas electrónicas se emiten en el sitio de la DGI con el monto ingresado (para servicios de IT exportados la parte impositiva suele ser 0). Monotributo/Literal E tienen reportes mínimos. Las contras de hacerlo solo son el riesgo de error (pagarás una multa) y el tiempo en entender los regímenes IRPF/IRAE. Para una SAS y el régimen general de unipersonal la administración es más compleja, y la mayoría igual contrata un contador (alrededor de $130/mes para una unipersonal, $400–500/mes para una SAS) — barato frente al costo de un error. Un camino sensato: consultar un contador al inicio y luego llevar la rutina tú mismo con un régimen simple."
-      },
-      "de": {
-        "title": "Kann man eine Firma ohne contador führen?",
-        "short": "Für Monotributo/Literal E und eine einfache unipersonal ist das selbst machbar: BPS-Beiträge sind fest und Rechnungen werden elektronisch auf der DGI-Seite erstellt; eine SAS braucht meist einen contador.",
-        "body": "Für die einfachen Regime ist es realistisch, es selbst zu machen: Die staatlichen Systeme DGI und BPS sind elektronisch und recht transparent. Der BPS-Beitrag ist fest (man kann ihn direkt bei BPS prüfen, z. B. im Büro 18 de Julio), und elektronische Rechnungen werden auf der DGI-Seite mit eingetragenem Betrag erstellt (für exportierte IT-Dienste ist der Steueranteil oft 0). Monotributo/Literal E haben minimale Meldepflichten. Nachteile des Selbermachens sind das Fehlerrisiko (man zahlt ein Bußgeld) und die Zeit, die IRPF/IRAE-Regime zu durchdringen. Für eine SAS und das allgemeine unipersonal-Regime ist die Verwaltung schwieriger, und die meisten nehmen doch einen contador (rund $130/Monat für eine unipersonal, $400–500/Monat für eine SAS) — günstig im Vergleich zu den Fehlerkosten. Sinnvoll: zu Beginn einen contador konsultieren und die Routine dann unter einem einfachen Regime selbst erledigen."
-      }
+    },
+    "service": {
+      "source_intent": "City overview (4-5 sentences) giving the overall feel of Punta del Este, synthesized from community chat; links to its district/zone cards.",
+      "kind": "city_overview",
+      "evidence": "telegram_chat_synthesis"
     }
   }
 ]

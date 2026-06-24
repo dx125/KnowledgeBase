@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "faq.json",
+  "type": "object",
+  "required": [
+    "topics",
+    "questions"
+  ],
+  "properties": {
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "topic_id",
+          "text"
+        ],
+        "properties": {
+          "topic_id": {
+            "type": "string",
+            "pattern": "^topic\\.faq_"
+          },
+          "sensitivity": {
+            "type": "string"
+          },
+          "default_staleness_risk": {
+            "type": "string"
+          },
+          "service": {
+            "$ref": "service.schema.json"
+          },
+          "text": {
+            "type": "object",
+            "required": [
+              "ru"
+            ],
+            "properties": {
+              "ru": {
+                "type": "object",
+                "required": [
+                  "title",
+                  "description"
+                ]
+              },
+              "en": {},
+              "es": {},
+              "de": {}
+            }
+          }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "card_id",
+          "topic_id",
+          "text"
+        ],
+        "properties": {
+          "card_id": {
+            "type": "string",
+            "pattern": "^card\\.faq_"
+          },
+          "topic_id": {
+            "type": "string"
+          },
+          "ask_signal": {
+            "type": "number"
+          },
+          "sensitivity_tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "service": {
+            "$ref": "service.schema.json"
+          },
+          "text": {
+            "type": "object",
+            "required": [
+              "ru"
+            ],
+            "properties": {
+              "ru": {
+                "type": "object",
+                "required": [
+                  "title",
+                  "short",
+                  "body"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "short": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  }
+                }
+              },
+              "en": {
+                "type": "object",
+                "required": [
+                  "title",
+                  "short",
+                  "body"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "short": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  }
+                }
+              },
+              "es": {
+                "type": "object",
+                "required": [
+                  "title",
+                  "short",
+                  "body"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "short": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  }
+                }
+              },
+              "de": {
+                "type": "object",
+                "required": [
+                  "title",
+                  "short",
+                  "body"
+                ],
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "short": {
+                    "type": "string"
+                  },
+                  "body": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

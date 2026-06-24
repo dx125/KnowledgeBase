@@ -198,3 +198,31 @@ export async function searchCards(params: {
 /** FAQ (Q&A) content lives in dedicated topic.faq_* topics. */
 export const isFaqTopic = (topicId: string | null | undefined): boolean =>
   !!topicId && topicId.startsWith('topic.faq_');
+
+// --- Q&A questions (ranked by ask_frequency; resolve to an answer card) --------
+export interface QuestionRow {
+  question_id: string;
+  topic_id: string | null;
+  ask_frequency: number;
+  question: string | null;
+  answer_card_id: string;
+  answer_title: string | null;
+  answer_short: string | null;
+  answer_body: string | null;
+  topic_title: string | null;
+}
+
+export async function listQuestions(params: {
+  locale: string;
+  topicId?: string | null;
+  limit?: number;
+  includeInternal?: boolean;
+}): Promise<QuestionRow[]> {
+  const data = await apiGet<{ questions: QuestionRow[] }>('/questions', {
+    locale: params.locale,
+    topic: params.topicId ?? undefined,
+    limit: params.limit ?? 100,
+    internal: internalFlag(params.includeInternal),
+  });
+  return data.questions;
+}
