@@ -120,11 +120,16 @@ user-visible localized text:
 ```json
 "service": {
   "source_intent": "What are the 40 most common practical tips for first-time renters?",
-  "kind": "faq_answer | reference | place_guide | city_overview | faq_topic",
+  "kind": "faq_answer | faq_topic | reference | place_guide | city_overview | service_guide | overview",
   "evidence": "telegram_chat_synthesis",
   "note": "optional — e.g. 'see questions.json for the question + ask_frequency'"
 }
 ```
+
+`kind` legend: `faq_answer` / `faq_topic` (the normalized Q&A pair), `reference` (an editorial
+reference card), `place_guide` / `city_overview` (the neighbourhood/city cards), `service_guide`
+(a how-to profile of one concrete service or institution — e.g. a bank or a crypto card), and
+`overview` (a landscape/index card that maps a domain and links to the per-item cards).
 
 Vendor cards don't need this field: their service info is the upstream **claims → clean_messages**
 evidence chain (each card's `source_stats` + the claim links). Schema:

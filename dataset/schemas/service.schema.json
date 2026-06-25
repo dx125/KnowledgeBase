@@ -18,7 +18,9 @@
         "faq_topic",
         "reference",
         "place_guide",
-        "city_overview"
+        "city_overview",
+        "service_guide",
+        "overview"
       ]
     },
     "evidence": {

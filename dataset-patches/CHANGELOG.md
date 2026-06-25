@@ -3,6 +3,45 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-24 — Crypto-card coverage: hub + 6 fintech cards
+
+Expanded the crypto side of `topic.bank_accounts_cards` (the prior `cards_crypto` card only covered
+Belo/Bybit/Binance). Same RU-source + EN/ES/DE, same five sections, grounded in the export
+(RedotPay 80, Offramp 110, DolarApp 109, Tuyo 93, ether.fi 83, Meru 42 mentions).
+
+- **Rewrote `reference.cards_crypto` into a hub/comparison**: the landscape, how to choose, a fee
+  glossary (FX vs crypto-conversion vs withdrawal), the BIN/acceptance issue (business BIN, shared
+  BIN 454924), the bank↔crypto block risk, and a compact comparison of all players incl. the named
+  ones plus COCA/Wirex/Kolo/CoinZoom/Wise/Revolut/Advcash. Now links to the 6 cards below.
+- **Added 6 individual cards**: `crypto_redotpay` (most universally accepted; postal-shipping +
+  customs-check pattern), `crypto_etherfi` (free open/top-up on Base, ~3% cashback, micro-deposits),
+  `crypto_offramp` (0% ops + 0.5%, Deel payout, HK→US BIN), `crypto_dolarapp` (digital dollars, ~0
+  fees, MX address + UY Cédula + BR CPF), `crypto_tuyo` (named IBAN + ACH, Wise "named IBAN"
+  workaround), `crypto_meru` (USD account, ACH/WIRE from any US individual).
+- Verified `node scripts/deploy.mjs --dry-run` against raw `v6_6`: 46 editorial cards build (was 40),
+  402 cards total, 0 errors.
+
+## 2026-06-24 — Per-bank / payment-method cards (topic.bank_accounts_cards)
+
+Added **8 editorial cards** to `new-cards.json` under `topic.bank_accounts_cards`, closing the
+"which bank/card, how, what it costs" gap (the existing banking cards were generic advice, with no
+per-institution detail). Each is authored in RU (source of truth) + EN/ES/DE with the same five
+sections: **how to open (with web addresses) · discounts and where · requirements & documents ·
+holding/maintenance fees · usage experience**. Grounded in the telegram community export
+(Prex 1001, OCA 514, BROU 830, Itaú 594, Santander 292, Scotiabank 91 mentions) plus public bank
+pages; every card carries a `service` regeneration intent and `needs_review`/`financial` flags.
+
+- `overview.payment_methods_overview` (public_overview) — top-level map of instruments: cash,
+  prepaid cards, bank accounts, Mercado Pago / Abitab / RedPagos, crypto; links to all seven below.
+- `reference.bank_prex` · `reference.bank_oca` · `reference.bank_brou` · `reference.bank_itau` ·
+  `reference.bank_scotiabank` · `reference.bank_santander` — one card per institution.
+- `reference.cards_crypto` — Belo / Bybit Card / Binance: onboarding, fees, the Binance→Prex
+  cash-out path, and the bank↔crypto block risk.
+- Cross-linked: each bank card lists the overview as `prerequisite`; the overview lists all banks
+  as `related`. Glossary/entity/resource ids reuse existing masters (FK-safe; deploy drops any
+  unknown). Verified with `node scripts/deploy.mjs --dry-run` against raw `v6_6`: +8 cards build,
+  0 errors, search_text derived per locale.
+
 ## 2026-06-24 — Normalize Q&A (questions→cards), service metadata, dataset/ folder
 
 Restructured for restore-from-scratch + de-duplication (deployed **v7.3**; raw repointed to

@@ -3341,5 +3341,1042 @@
       "kind": "city_overview",
       "evidence": "telegram_chat_synthesis"
     }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.overview.payment_methods_overview",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "overview",
+    "card_type": "public_overview",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.overview"
+    ],
+    "keyword_ids": [
+      "kw.curated.bank",
+      "kw.curated.karta",
+      "kw.curated.prex",
+      "kw.curated.brou",
+      "kw.curated.itau"
+    ],
+    "glossary_term_ids": [
+      "term.cedula",
+      "term.residencia",
+      "term.certificado_ingresos"
+    ],
+    "entity_ids": [
+      "entity.brou",
+      "entity.itau",
+      "entity.santander",
+      "entity.scotiabank",
+      "entity.prex",
+      "entity.abitab",
+      "entity.redpagos"
+    ],
+    "resource_ids": [
+      "resource.entity.brou",
+      "resource.entity.itau",
+      "resource.entity.santander",
+      "resource.entity.scotiabank",
+      "resource.entity.prex",
+      "resource.entity.abitab",
+      "resource.entity.redpagos"
+    ],
+    "related_card_ids": [
+      "card.bank_accounts_cards.reference.bank_prex",
+      "card.bank_accounts_cards.reference.bank_oca",
+      "card.bank_accounts_cards.reference.bank_brou",
+      "card.bank_accounts_cards.reference.bank_itau",
+      "card.bank_accounts_cards.reference.bank_scotiabank",
+      "card.bank_accounts_cards.reference.bank_santander",
+      "card.bank_accounts_cards.reference.cards_crypto"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Top-level guide to the payment instruments available in Uruguay (cash, bank accounts, fintech prepaid cards, wallets, crypto cards) and which a newcomer can realistically get at each residency stage.",
+      "kind": "overview",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Платёжные методы в Уругвае: обзор",
+        "short": "Чем платят в Уругвае — наличные, банковские счета, местные предоплаченные карты (Prex, OCA Blue), кошельки и крипто-карты — и что реально оформить на каждом этапе резиденции.",
+        "body": "Как открыть\n• Наличные (efectivo): песо UYU повсеместно, доллары США принимают за крупное (аренда, недвижимость, авто).\n• Местные предоплаченные карты — самый быстрый старт: Prex и OCA Blue оформляют без полного банковского профиля, иногда ещё с cédula en trámite или по паспорту.\n• Полноценный счёт (BROU — государственный; Itaú, Santander, Scotiabank, BBVA — частные) обычно требует Cédula Legal или резолюции Migración, либо открывается на компанию (Unipersonal/SAS).\n• Кошельки и сети платежей: Mercado Pago (растёт, почти как банк, но без своей карты), Abitab и RedPagos — агентские сети для оплаты счетов, пополнения карт и приёма переводов.\n\nСкидки и где они действуют\n• Электронная оплата картой даёт автоматическую скидку IVA по Ley de Inclusión Financiera; в ресторанах и кафе скидка больше (около 9 пунктов IVA).\n• У местных карт есть промо: кешбэк в супермаркетах, скидки в такси (Cabify), сезонные акции — промокоды активируют в приложении.\n• Туристам возвращают IVA за проживание.\n\nТребования и документы\n• Минимум для старта — загранпаспорт. Для большинства карт и счетов нужна Cédula (en trámite или Legal).\n• Для банка часто просят certificado de ingresos, подтверждение адреса (счёт за интернет/связь) и документы об источнике средств.\n\nСтоимость обслуживания\n• Предоплаченные карты (Prex, OCA Blue) обычно без абонплаты. Банковские счета берут ежемесячную плату, часто с освобождением при минимальном остатке.\n• Нерезиденты платят дороже — после Cédula Legal/резиденции тарифы снижаются.\n\nОпыт использования\n• Госпошлины и timbres удобнее платить банковской картой (BROU); Prex и Midinero для этого часто не подходят.\n• Счета (facturas) оплачивают по «Referencia de cobro» через Prex, Mercado Pago, Abitab, RedPagos или приложение банка.\n• Крипту (USDT) местные банки не любят — переводы банк↔биржа рискуют блокировкой."
+      },
+      "en": {
+        "title": "Payment methods in Uruguay: overview",
+        "short": "How people pay in Uruguay — cash, bank accounts, local prepaid cards (Prex, OCA Blue), wallets and crypto cards — and which you can realistically get at each residency stage.",
+        "body": "How to open\n• Cash (efectivo): pesos UYU everywhere, US dollars for big-ticket items (rent, property, cars).\n• Local prepaid cards are the fastest start: Prex and OCA Blue are issued without a full banking profile, sometimes with a cédula en trámite or a passport.\n• A full account (BROU — state-owned; Itaú, Santander, Scotiabank, BBVA — private) usually needs a Cédula Legal or a Migración resolution, or is opened in a company name (Unipersonal/SAS).\n• Wallets and payment networks: Mercado Pago (growing, almost a bank but with no card of its own), Abitab and RedPagos — agent networks for bills, card top-ups and receiving transfers.\n\nDiscounts and where they apply\n• Paying electronically by card gives an automatic IVA discount under the Ley de Inclusión Financiera; restaurants and cafés get a bigger cut (about 9 IVA points).\n• Local cards run promos: supermarket cashback, taxi discounts (Cabify), seasonal deals — promo codes are activated in the app.\n• Tourists get an IVA refund on accommodation.\n\nRequirements and documents\n• Bare minimum: a passport. Most cards and accounts need a Cédula (en trámite or Legal).\n• Banks often ask for a certificado de ingresos, proof of address (an internet/mobile bill) and source-of-funds documents.\n\nHolding & maintenance fees\n• Prepaid cards (Prex, OCA Blue) usually have no monthly fee. Bank accounts charge monthly maintenance, often waived if you keep a minimum balance.\n• Non-residents pay more — fees drop once you have a Cédula Legal / residency.\n\nUsage experience\n• Government fees and timbres are easiest with a bank card (BROU); Prex and Midinero often will not work for these.\n• Bills (facturas) are paid by \"Referencia de cobro\" through Prex, Mercado Pago, Abitab, RedPagos or your bank app.\n• Local banks dislike crypto (USDT) — moving money between a bank and an exchange risks a freeze."
+      },
+      "es": {
+        "title": "Medios de pago en Uruguay: panorama",
+        "short": "Cómo se paga en Uruguay — efectivo, cuentas bancarias, tarjetas prepagas locales (Prex, OCA Blue), billeteras y tarjetas cripto — y cuáles podés obtener realmente en cada etapa de residencia.",
+        "body": "Cómo abrir\n• Efectivo: pesos UYU en todos lados, dólares para montos grandes (alquiler, inmuebles, autos).\n• Las prepagas locales son el arranque más rápido: Prex y OCA Blue se emiten sin perfil bancario completo, a veces con cédula en trámite o con pasaporte.\n• Una cuenta completa (BROU — estatal; Itaú, Santander, Scotiabank, BBVA — privados) suele requerir Cédula Legal o resolución de Migración, o se abre a nombre de una empresa (Unipersonal/SAS).\n• Billeteras y redes de cobranza: Mercado Pago (creciendo, casi un banco pero sin tarjeta propia), Abitab y RedPagos — redes de agentes para facturas, cargas y recibir transferencias.\n\nDescuentos y dónde aplican\n• Pagar con tarjeta da un descuento automático de IVA por la Ley de Inclusión Financiera; en restaurantes y cafés el descuento es mayor (unos 9 puntos de IVA).\n• Las tarjetas locales tienen promos: cashback en supermercados, descuentos en taxis (Cabify), promociones de temporada — los códigos se activan en la app.\n• Los turistas reciben devolución de IVA en alojamiento.\n\nRequisitos y documentos\n• Mínimo: pasaporte. La mayoría de tarjetas y cuentas piden Cédula (en trámite o Legal).\n• Los bancos suelen pedir certificado de ingresos, comprobante de domicilio (factura de internet/celular) y documentos del origen de fondos.\n\nCostos de mantenimiento\n• Las prepagas (Prex, OCA Blue) normalmente no tienen costo mensual. Las cuentas bancarias cobran mantenimiento mensual, a menudo exonerado con un saldo mínimo.\n• Los no residentes pagan más — las tarifas bajan con Cédula Legal / residencia.\n\nExperiencia de uso\n• Las tasas estatales y los timbres conviene pagarlos con tarjeta bancaria (BROU); Prex y Midinero muchas veces no sirven.\n• Las facturas se pagan por \"Referencia de cobro\" con Prex, Mercado Pago, Abitab, RedPagos o la app del banco.\n• A los bancos locales no les gusta la cripto (USDT) — mover dinero entre banco y exchange arriesga un bloqueo."
+      },
+      "de": {
+        "title": "Zahlungsmittel in Uruguay: Überblick",
+        "short": "Wie in Uruguay bezahlt wird — Bargeld, Bankkonten, lokale Prepaid-Karten (Prex, OCA Blue), Wallets und Krypto-Karten — und was in welcher Aufenthaltsphase realistisch erreichbar ist.",
+        "body": "Eröffnung\n• Bargeld (efectivo): Pesos UYU überall, US-Dollar für große Posten (Miete, Immobilien, Autos).\n• Lokale Prepaid-Karten sind der schnellste Start: Prex und OCA Blue werden ohne volles Bankprofil ausgegeben, teils mit cédula en trámite oder Reisepass.\n• Ein volles Konto (BROU — staatlich; Itaú, Santander, Scotiabank, BBVA — privat) braucht meist eine Cédula Legal oder eine Migración-Resolution, oder läuft über eine Firma (Unipersonal/SAS).\n• Wallets und Zahlnetze: Mercado Pago (wächst, fast eine Bank, aber ohne eigene Karte), Abitab und RedPagos — Agenturnetze für Rechnungen, Aufladungen und Überweisungsempfang.\n\nRabatte und wo sie gelten\n• Elektronisches Zahlen mit Karte bringt automatischen IVA-Rabatt nach der Ley de Inclusión Financiera; in Restaurants und Cafés ist der Abzug größer (etwa 9 IVA-Punkte).\n• Lokale Karten haben Promos: Supermarkt-Cashback, Taxi-Rabatte (Cabify), Saisonaktionen — Promo-Codes werden in der App aktiviert.\n• Touristen erhalten eine IVA-Rückerstattung auf Unterkünfte.\n\nVoraussetzungen und Dokumente\n• Minimum: ein Reisepass. Die meisten Karten und Konten brauchen eine Cédula (en trámite oder Legal).\n• Banken verlangen oft ein certificado de ingresos, einen Adressnachweis (Internet-/Mobilfunkrechnung) und Herkunftsnachweise.\n\nKontoführungsgebühren\n• Prepaid-Karten (Prex, OCA Blue) haben meist keine Monatsgebühr. Bankkonten erheben monatliche Kontoführung, oft erlassen bei Mindestsaldo.\n• Nichtansässige zahlen mehr — Gebühren sinken mit Cédula Legal / Aufenthalt.\n\nNutzungserfahrung\n• Staatliche Gebühren und Timbres zahlt man am besten mit Bankkarte (BROU); Prex und Midinero funktionieren dafür oft nicht.\n• Rechnungen (facturas) werden per \"Referencia de cobro\" über Prex, Mercado Pago, Abitab, RedPagos oder die Bank-App bezahlt.\n• Lokale Banken mögen Krypto (USDT) nicht — Geld zwischen Bank und Börse zu bewegen riskiert eine Sperre."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.bank_prex",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.prex",
+      "kw.curated.karta",
+      "kw.curated.bank"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [
+      "entity.prex",
+      "entity.abitab"
+    ],
+    "resource_ids": [
+      "resource.entity.prex",
+      "resource.entity.abitab"
+    ],
+    "related_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview",
+      "card.bank_accounts_cards.reference.cards_crypto",
+      "card.bank_accounts_cards.reference.ref_karty_i_blokirovki"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Practical profile of the Prex prepaid Mastercard (issued via Abitab): how to open, discounts, documents, fees and real usage notes from the community.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Prex: предоплаченная карта (через Abitab)",
+        "short": "Предоплаченная Mastercard от Prex — самый простой первый платёжный инструмент в Уругвае: оформляется через Abitab, иногда ещё по паспорту, без банковского счёта.",
+        "body": "Как открыть\n• Скачайте приложение Prex (сайт prexcard.com), зарегистрируйтесь и закажите карту.\n• Заберите пластик в отделении Abitab — с документом, на который оформлен аккаунт. Личный визит с проверкой нужен, чтобы активировать приём переводов и p2p.\n• Карта Prex должна быть оформлена на тот же документ, что и аккаунт Abitab (если Abitab на Cédula, паспорт к Prex не привяжется).\n• Можно начать на паспорт, позже перевыпустить на Cédula и иметь несколько аккаунтов.\n\nСкидки и где они действуют\n• Скидка около 9 пунктов IVA в ресторанах и кафе (как у других местных карт).\n• Ежемесячные промокоды активируются в приложении; скидки в Cabify и других сервисах.\n• Актуальные акции — на prexcard.com/beneficiosprex.\n\nТребования и документы\n• Загранпаспорт (для иностранцев) или Cédula.\n• Документ для Prex обязан совпадать с документом аккаунта Abitab.\n• Для приёма переводов/p2p — личный визит в Abitab с действующим документом.\n\nСтоимость обслуживания\n• Обычно без абонентской платы за выпуск и обслуживание (предоплаченный продукт).\n• Комиссии возникают при пополнении с карты или при p2p — это берут и биржа, и Prex.\n\nОпыт использования\n• Переводы USD до ~500 за операцию; Prex→Prex по номеру cuenta, а не карты.\n• Оплата уругвайских facturas по «Referencia de cobro» — очень удобно.\n• Можно подключить PayPal и Payoneer; вывод с Binance работает.\n• Госпошлины/timbres через Prex часто не оплатить — нужен банк.\n• Активный p2p может привести к блокировке — система видит частые переводы."
+      },
+      "en": {
+        "title": "Prex: prepaid card (issued via Abitab)",
+        "short": "Prex prepaid Mastercard — the simplest first payment tool in Uruguay: issued through Abitab, sometimes still on a passport, with no bank account.",
+        "body": "How to open\n• Download the Prex app (prexcard.com), register and request a card.\n• Pick up the physical card at an Abitab agency — with the document the account is registered to. The in-person check is needed to enable receiving transfers and p2p.\n• The Prex card must match the document of your Abitab account (if Abitab is on a Cédula, a passport will not link to Prex).\n• You can start on a passport, later re-issue on a Cédula, and hold several accounts.\n\nDiscounts and where they apply\n• About 9 IVA points off in restaurants and cafés (like other local cards).\n• Monthly promo codes activated in the app; discounts on Cabify and other services.\n• Current deals at prexcard.com/beneficiosprex.\n\nRequirements and documents\n• Passport (for foreigners) or Cédula.\n• The Prex document must match the Abitab account document.\n• To receive transfers / use p2p — an in-person visit to Abitab with a valid ID.\n\nHolding & maintenance fees\n• Usually no issuance or maintenance fee (it is a prepaid product).\n• Fees appear when topping up from a card or doing p2p — both the exchange and Prex charge.\n\nUsage experience\n• USD transfers up to ~500 per operation; Prex→Prex by cuenta number, not card number.\n• Pay Uruguayan facturas by \"Referencia de cobro\" — very convenient.\n• PayPal and Payoneer can be linked; cash-out from Binance works.\n• Government fees/timbres often cannot be paid via Prex — a bank is needed.\n• Heavy p2p can trigger a block — the system spots frequent transfers."
+      },
+      "es": {
+        "title": "Prex: tarjeta prepaga (emitida por Abitab)",
+        "short": "Mastercard prepaga de Prex — el primer medio de pago más simple en Uruguay: se emite por Abitab, a veces todavía con pasaporte, sin cuenta bancaria.",
+        "body": "Cómo abrir\n• Descargá la app de Prex (prexcard.com), registrate y pedí la tarjeta.\n• Retirá el plástico en una agencia Abitab — con el documento con el que está registrada la cuenta. La verificación presencial habilita recibir transferencias y p2p.\n• La tarjeta Prex debe coincidir con el documento de tu cuenta Abitab (si Abitab está con Cédula, el pasaporte no se vincula a Prex).\n• Podés empezar con pasaporte, reemitir luego con Cédula y tener varias cuentas.\n\nDescuentos y dónde aplican\n• Unos 9 puntos de IVA de descuento en restaurantes y cafés (como otras tarjetas locales).\n• Códigos promo mensuales que se activan en la app; descuentos en Cabify y otros servicios.\n• Promos vigentes en prexcard.com/beneficiosprex.\n\nRequisitos y documentos\n• Pasaporte (extranjeros) o Cédula.\n• El documento de Prex debe coincidir con el de la cuenta Abitab.\n• Para recibir transferencias / p2p — visita presencial a Abitab con documento vigente.\n\nCostos de mantenimiento\n• Normalmente sin costo de emisión ni mantenimiento (es prepaga).\n• Hay comisiones al cargar desde tarjeta o en p2p — cobran el exchange y Prex.\n\nExperiencia de uso\n• Transferencias USD hasta ~500 por operación; Prex→Prex por número de cuenta, no de tarjeta.\n• Pago de facturas uruguayas por \"Referencia de cobro\" — muy cómodo.\n• Se pueden vincular PayPal y Payoneer; el retiro desde Binance funciona.\n• Las tasas estatales/timbres muchas veces no se pagan con Prex — hace falta un banco.\n• El p2p intenso puede provocar un bloqueo — el sistema detecta transferencias frecuentes."
+      },
+      "de": {
+        "title": "Prex: Prepaid-Karte (über Abitab)",
+        "short": "Prex Prepaid-Mastercard — das einfachste erste Zahlungsmittel in Uruguay: über Abitab ausgegeben, teils noch mit Reisepass, ohne Bankkonto.",
+        "body": "Eröffnung\n• Prex-App laden (prexcard.com), registrieren und Karte bestellen.\n• Physische Karte in einer Abitab-Filiale abholen — mit dem Dokument, auf das das Konto läuft. Die Vor-Ort-Prüfung schaltet Überweisungsempfang und p2p frei.\n• Die Prex-Karte muss zum Dokument des Abitab-Kontos passen (läuft Abitab auf Cédula, verbindet sich ein Reisepass nicht mit Prex).\n• Start mit Reisepass möglich, später Neuausgabe auf Cédula, mehrere Konten möglich.\n\nRabatte und wo sie gelten\n• Etwa 9 IVA-Punkte Rabatt in Restaurants und Cafés (wie andere lokale Karten).\n• Monatliche Promo-Codes in der App aktivierbar; Rabatte bei Cabify und anderen Diensten.\n• Aktuelle Aktionen unter prexcard.com/beneficiosprex.\n\nVoraussetzungen und Dokumente\n• Reisepass (für Ausländer) oder Cédula.\n• Das Prex-Dokument muss dem Abitab-Kontodokument entsprechen.\n• Für Überweisungsempfang / p2p — persönlicher Besuch bei Abitab mit gültigem Ausweis.\n\nKontoführungsgebühren\n• Meist keine Ausgabe- oder Kontoführungsgebühr (Prepaid-Produkt).\n• Gebühren bei Aufladung per Karte oder p2p — Börse und Prex berechnen.\n\nNutzungserfahrung\n• USD-Überweisungen bis ~500 pro Vorgang; Prex→Prex per cuenta-Nummer, nicht Kartennummer.\n• Bezahlung uruguayischer facturas per \"Referencia de cobro\" — sehr bequem.\n• PayPal und Payoneer verknüpfbar; Auszahlung von Binance funktioniert.\n• Staatliche Gebühren/Timbres oft nicht mit Prex zahlbar — eine Bank nötig.\n• Intensives p2p kann eine Sperre auslösen — das System erkennt häufige Überweisungen."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.bank_oca",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.karta",
+      "kw.curated.bank"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [],
+    "resource_ids": [],
+    "related_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview",
+      "card.bank_accounts_cards.reference.bank_prex",
+      "card.bank_accounts_cards.reference.ref_karty_i_blokirovki"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Practical profile of OCA / OCA Blue (Itaú-group card issuer): debit-like OCA Blue vs OCA credit card, how to open, the strong discount program, documents, fees and usage notes.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "OCA / OCA Blue: карты и скидки",
+        "short": "OCA — эмитент карт (группа Itaú). OCA Blue — почти дебетовая предоплаченная карта, оформляется только по Cédula; OCA Crédito — кредитка с более строгими условиями. Сильная программа скидок.",
+        "body": "Как открыть\n• Придите в отделение OCA и скажите, что хотите «tarjeta débito» / OCA Blue (иначе предложат кредитный продукт).\n• Управление картой и лимитами — в кабинете micuentanuevo.oca.com.uy (раздел «OCA blue» → «Tarjeta OCA blue»).\n• OCA Crédito можно оформить на Cédula Legal или «en trámite», но с поручителем (клиент OCA, лимит кредитки > 20000 песо, возраст 30–75).\n\nСкидки и где они действуют\n• Большая промо-программа: например, кешбэк 30% в супермаркетах в дни матчей. Лимит $300 за покупку, до $1500 в месяц (отдельно для OCA Blue и кредиток).\n• Скидки в ресторанах/кафе/барах/мороженом по MCC; оплата смартфоном (Google/Apple/Garmin Pay).\n• Промокоды активируются ежемесячно в кабинете.\n\nТребования и документы\n• OCA Blue: достаточно Cédula (паспорт не нужен).\n• OCA Crédito: Cédula Legal либо «en trámite» + поручитель.\n• Имя на карте печатают по Cédula; ошибку исправляют и перепечатывают в отделении.\n\nСтоимость обслуживания\n• OCA Blue — обычно низкая/нулевая абонплата.\n• OCA Crédito — годовая плата за карту.\n\nОпыт использования\n• Отличные локальные скидки, особенно в супермаркетах.\n• Бывают временные блокировки с просьбой обосновать поступления (justificar créditos) — держите чеки.\n• На зарубежных сайтах (кроме Amazon) иногда не проходит 3D Secure — звонок в OCA (1730 / +598 2902 4001)."
+      },
+      "en": {
+        "title": "OCA / OCA Blue: cards and discounts",
+        "short": "OCA is a card issuer (Itaú group). OCA Blue is a near-debit prepaid card, issued on a Cédula only; OCA Crédito is a credit card with stricter terms. Strong discount program.",
+        "body": "How to open\n• Go to an OCA branch and say you want a \"tarjeta débito\" / OCA Blue (otherwise they offer a credit product).\n• Manage the card and limits at micuentanuevo.oca.com.uy (\"OCA blue\" → \"Tarjeta OCA blue\").\n• OCA Crédito can be issued on a Cédula Legal or \"en trámite\", but with a guarantor (an OCA client, credit limit > 20,000 pesos, age 30–75).\n\nDiscounts and where they apply\n• A large promo program: e.g. 30% supermarket cashback on match days. Cap $300 per purchase, up to $1,500/month (separately for OCA Blue and credit cards).\n• Discounts in restaurants/cafés/bars/ice-cream by MCC; pay by phone (Google/Apple/Garmin Pay).\n• Promo codes are activated monthly in the portal.\n\nRequirements and documents\n• OCA Blue: a Cédula is enough (no passport).\n• OCA Crédito: Cédula Legal or \"en trámite\" + a guarantor.\n• The name on the card is printed from the Cédula; errors are fixed and reprinted in branch.\n\nHolding & maintenance fees\n• OCA Blue — usually a low/zero monthly fee.\n• OCA Crédito — an annual card fee.\n\nUsage experience\n• Excellent local discounts, especially in supermarkets.\n• Provisional blocks asking you to justify credits (justificar créditos) happen — keep receipts.\n• On foreign sites (other than Amazon) 3D Secure sometimes fails — call OCA (1730 / +598 2902 4001)."
+      },
+      "es": {
+        "title": "OCA / OCA Blue: tarjetas y descuentos",
+        "short": "OCA es emisor de tarjetas (grupo Itaú). OCA Blue es una prepaga casi débito, se emite solo con Cédula; OCA Crédito es una tarjeta de crédito con condiciones más estrictas. Programa de descuentos fuerte.",
+        "body": "Cómo abrir\n• Andá a una sucursal OCA y decí que querés una \"tarjeta débito\" / OCA Blue (si no, ofrecen un producto de crédito).\n• Gestioná la tarjeta y los límites en micuentanuevo.oca.com.uy (\"OCA blue\" → \"Tarjeta OCA blue\").\n• OCA Crédito se puede emitir con Cédula Legal o \"en trámite\", pero con garante (cliente OCA, límite de crédito > 20.000 pesos, edad 30–75).\n\nDescuentos y dónde aplican\n• Programa de promos amplio: p. ej. 30% de cashback en supermercados en días de partido. Tope $300 por compra, hasta $1.500/mes (separado para OCA Blue y crédito).\n• Descuentos en restaurantes/cafés/bares/heladerías por MCC; pago con celular (Google/Apple/Garmin Pay).\n• Los códigos promo se activan mensualmente en el portal.\n\nRequisitos y documentos\n• OCA Blue: alcanza con Cédula (sin pasaporte).\n• OCA Crédito: Cédula Legal o \"en trámite\" + garante.\n• El nombre en la tarjeta se imprime según la Cédula; los errores se corrigen y reimprimen en sucursal.\n\nCostos de mantenimiento\n• OCA Blue — normalmente costo mensual bajo/nulo.\n• OCA Crédito — costo anual de tarjeta.\n\nExperiencia de uso\n• Excelentes descuentos locales, sobre todo en supermercados.\n• Hay bloqueos provisorios pidiendo justificar créditos — guardá los comprobantes.\n• En sitios del exterior (salvo Amazon) a veces falla el 3D Secure — llamá a OCA (1730 / +598 2902 4001)."
+      },
+      "de": {
+        "title": "OCA / OCA Blue: Karten und Rabatte",
+        "short": "OCA ist ein Kartenherausgeber (Itaú-Gruppe). OCA Blue ist eine fast debit-artige Prepaid-Karte, nur mit Cédula; OCA Crédito ist eine Kreditkarte mit strengeren Bedingungen. Starkes Rabattprogramm.",
+        "body": "Eröffnung\n• In eine OCA-Filiale gehen und eine \"tarjeta débito\" / OCA Blue verlangen (sonst wird ein Kreditprodukt angeboten).\n• Karte und Limits unter micuentanuevo.oca.com.uy verwalten (\"OCA blue\" → \"Tarjeta OCA blue\").\n• OCA Crédito ist mit Cédula Legal oder \"en trámite\" möglich, aber mit Bürgen (OCA-Kunde, Kreditlimit > 20.000 Pesos, Alter 30–75).\n\nRabatte und wo sie gelten\n• Großes Promo-Programm: z. B. 30% Supermarkt-Cashback an Spieltagen. Limit $300 pro Einkauf, bis $1.500/Monat (getrennt für OCA Blue und Kreditkarten).\n• Rabatte in Restaurants/Cafés/Bars/Eisdielen nach MCC; Zahlung per Handy (Google/Apple/Garmin Pay).\n• Promo-Codes werden monatlich im Portal aktiviert.\n\nVoraussetzungen und Dokumente\n• OCA Blue: eine Cédula genügt (kein Reisepass).\n• OCA Crédito: Cédula Legal oder \"en trámite\" + Bürge.\n• Der Name auf der Karte wird aus der Cédula gedruckt; Fehler werden in der Filiale korrigiert und neu gedruckt.\n\nKontoführungsgebühren\n• OCA Blue — meist geringe/keine Monatsgebühr.\n• OCA Crédito — eine jährliche Kartengebühr.\n\nNutzungserfahrung\n• Hervorragende lokale Rabatte, besonders im Supermarkt.\n• Vorläufige Sperren mit Aufforderung, Gutschriften zu belegen (justificar créditos), kommen vor — Belege aufheben.\n• Auf ausländischen Seiten (außer Amazon) scheitert 3D Secure manchmal — OCA anrufen (1730 / +598 2902 4001)."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.bank_brou",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.brou",
+      "kw.curated.bank",
+      "kw.curated.schet"
+    ],
+    "glossary_term_ids": [
+      "term.cedula",
+      "term.brou",
+      "term.certificado_ingresos",
+      "term.residencia"
+    ],
+    "entity_ids": [
+      "entity.brou"
+    ],
+    "resource_ids": [
+      "resource.entity.brou"
+    ],
+    "related_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview",
+      "card.bank_accounts_cards.reference.ref_otkrytie_scheta",
+      "card.bank_accounts_cards.reference.ref_dokumenty_dlya_banka"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Practical profile of BROU (state bank): how to open (personal vs Monotributo micro cuenta), documents incl. DGI forms, the maintenance-fee structure with balance waivers, and why it is the go-to for government payments.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "BROU (Banco República): государственный банк",
+        "short": "BROU — государственный банк, дешевле в обслуживании для резидентов и незаменим для оплаты госпошлин и timbres. Документы и форму счёта смотрите на brou.com.uy.",
+        "body": "Как открыть\n• Сайт и требования: brou.com.uy (раздел requisitos-para-operar-con-el-banco).\n• Личный счёт нерезиденту требует депозита и стоит дороже; дешевле/бесплатно — при наличии Cédula Legal или резолюции Migración и поддержании остатка.\n• С Monotributo открывают micro cuenta — можно с Cédula «en trámite», без залога, лимит депозита ~88000 песо/мес.\n• Для счёта Unipersonal/SAS — список документов на страницах brou.com.uy/clientes-empresa.\n\nСкидки и где они действуют\n• Промокоды и скидки IVA в ресторанах (как у местных карт).\n• Картой BROU можно платить timbres и госпошлины там, где другие карты не принимают.\n\nТребования и документы\n• Cédula «en tramite» + паспорт.\n• Формы DGI 6907 и 6951 (для Monotributo).\n• Подтверждение адреса (фактура за мобильную связь подойдёт) и оригинал certificado de ingresos.\n\nСтоимость обслуживания\n• Caja de ahorro: comisión de administración ~UI 30/мес, освобождение при среднем остатке > $33.400 или USD 1.000.\n• Кредитка Visa: годовая плата (примерно Platino 4026, Oro 2562, Internacional 1098 песо с IVA).\n• Cuenta corriente — абонплата в любом случае. Нерезидентам тарифы выше (см. comisiones-para-clientes-no-residentes-extranjeros).\n\nОпыт использования\n• Главный плюс — оплата государства (timbres, пошлины).\n• Cuenta fija в USD даёт символический процент (~0,05%).\n• Управление кредиткой и история транзакций — на e-sistarbanc.com.uy.\n• Операции с криптой через BROU рискованны — лучше не смешивать."
+      },
+      "en": {
+        "title": "BROU (Banco República): the state bank",
+        "short": "BROU is the state bank — cheaper to run for residents and indispensable for paying government fees and timbres. Check documents and account types at brou.com.uy.",
+        "body": "How to open\n• Site and requirements: brou.com.uy (the requisitos-para-operar-con-el-banco section).\n• A personal account for a non-resident needs a deposit and costs more; cheaper/free with a Cédula Legal or Migración resolution and a maintained balance.\n• With Monotributo they open a micro cuenta — possible with a Cédula \"en trámite\", no collateral, deposit cap ~88,000 pesos/month.\n• For a Unipersonal/SAS account — the document lists are on brou.com.uy/clientes-empresa.\n\nDiscounts and where they apply\n• Promo codes and restaurant IVA discounts (like other local cards).\n• A BROU card pays timbres and government fees where other cards are not accepted.\n\nRequirements and documents\n• Cédula \"en tramite\" + passport.\n• DGI forms 6907 and 6951 (for Monotributo).\n• Proof of address (a mobile bill works) and the original certificado de ingresos.\n\nHolding & maintenance fees\n• Caja de ahorro: administration fee ~UI 30/month, waived with an average balance > $33,400 or USD 1,000.\n• Visa credit card: annual fee (roughly Platino 4,026, Oro 2,562, Internacional 1,098 pesos incl. IVA).\n• Cuenta corriente — a fee applies regardless. Non-residents pay higher tariffs (see comisiones-para-clientes-no-residentes-extranjeros).\n\nUsage experience\n• The main plus — paying the government (timbres, fees).\n• A cuenta fija in USD pays a token rate (~0.05%).\n• Credit-card management and transaction history at e-sistarbanc.com.uy.\n• Crypto operations through BROU are risky — better not to mix."
+      },
+      "es": {
+        "title": "BROU (Banco República): el banco estatal",
+        "short": "BROU es el banco estatal — más barato para residentes e imprescindible para pagar tasas estatales y timbres. Mirá documentos y tipos de cuenta en brou.com.uy.",
+        "body": "Cómo abrir\n• Sitio y requisitos: brou.com.uy (sección requisitos-para-operar-con-el-banco).\n• Una cuenta personal para no residente requiere depósito y cuesta más; más barata/gratis con Cédula Legal o resolución de Migración y manteniendo saldo.\n• Con Monotributo abren una micro cuenta — posible con Cédula \"en trámite\", sin garantía, tope de depósito ~88.000 pesos/mes.\n• Para cuenta Unipersonal/SAS — las listas de documentos están en brou.com.uy/clientes-empresa.\n\nDescuentos y dónde aplican\n• Códigos promo y descuentos de IVA en restaurantes (como otras tarjetas locales).\n• Con tarjeta BROU se pagan timbres y tasas estatales donde otras tarjetas no se aceptan.\n\nRequisitos y documentos\n• Cédula \"en tramite\" + pasaporte.\n• Formularios DGI 6907 y 6951 (para Monotributo).\n• Comprobante de domicilio (sirve una factura de celular) y el certificado de ingresos original.\n\nCostos de mantenimiento\n• Caja de ahorro: comisión de administración ~UI 30/mes, exonerada con saldo promedio > $33.400 o USD 1.000.\n• Tarjeta de crédito Visa: cargo anual (aprox. Platino 4.026, Oro 2.562, Internacional 1.098 pesos con IVA).\n• Cuenta corriente — tiene abono igual. Los no residentes pagan tarifas más altas (ver comisiones-para-clientes-no-residentes-extranjeros).\n\nExperiencia de uso\n• El plus principal — pagar al Estado (timbres, tasas).\n• Una cuenta fija en USD da un interés simbólico (~0,05%).\n• Gestión de la tarjeta e historial en e-sistarbanc.com.uy.\n• Operaciones con cripto vía BROU son riesgosas — mejor no mezclar."
+      },
+      "de": {
+        "title": "BROU (Banco República): die Staatsbank",
+        "short": "BROU ist die Staatsbank — für Ansässige günstiger und unverzichtbar zum Bezahlen staatlicher Gebühren und Timbres. Dokumente und Kontoarten unter brou.com.uy.",
+        "body": "Eröffnung\n• Seite und Anforderungen: brou.com.uy (Abschnitt requisitos-para-operar-con-el-banco).\n• Ein Privatkonto für Nichtansässige braucht eine Einlage und kostet mehr; günstiger/kostenlos mit Cédula Legal oder Migración-Resolution und gehaltenem Saldo.\n• Mit Monotributo wird eine micro cuenta eröffnet — mit Cédula \"en trámite\" möglich, ohne Sicherheit, Einzahlungsgrenze ~88.000 Pesos/Monat.\n• Für ein Unipersonal/SAS-Konto — die Dokumentlisten stehen auf brou.com.uy/clientes-empresa.\n\nRabatte und wo sie gelten\n• Promo-Codes und Restaurant-IVA-Rabatte (wie andere lokale Karten).\n• Mit BROU-Karte zahlt man Timbres und staatliche Gebühren, wo andere Karten nicht akzeptiert werden.\n\nVoraussetzungen und Dokumente\n• Cédula \"en tramite\" + Reisepass.\n• DGI-Formulare 6907 und 6951 (für Monotributo).\n• Adressnachweis (eine Mobilfunkrechnung reicht) und das Original des certificado de ingresos.\n\nKontoführungsgebühren\n• Caja de ahorro: Verwaltungsgebühr ~UI 30/Monat, erlassen bei Durchschnittssaldo > $33.400 oder USD 1.000.\n• Visa-Kreditkarte: Jahresgebühr (etwa Platino 4.026, Oro 2.562, Internacional 1.098 Pesos inkl. IVA).\n• Cuenta corriente — Gebühr fällt ohnehin an. Nichtansässige zahlen höhere Tarife (siehe comisiones-para-clientes-no-residentes-extranjeros).\n\nNutzungserfahrung\n• Hauptvorteil — Zahlungen an den Staat (Timbres, Gebühren).\n• Eine cuenta fija in USD bringt einen symbolischen Zins (~0,05%).\n• Kreditkartenverwaltung und Verlauf unter e-sistarbanc.com.uy.\n• Krypto-Operationen über BROU sind riskant — besser nicht mischen."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.bank_itau",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.itau",
+      "kw.curated.bank",
+      "kw.curated.schet"
+    ],
+    "glossary_term_ids": [
+      "term.cedula",
+      "term.residencia",
+      "term.certificado_ingresos"
+    ],
+    "entity_ids": [
+      "entity.itau"
+    ],
+    "resource_ids": [
+      "resource.entity.itau"
+    ],
+    "related_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview",
+      "card.bank_accounts_cards.reference.ref_otkrytie_scheta",
+      "card.bank_accounts_cards.reference.ref_nerezidentskie_ogranicheniya"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Practical profile of Itaú: Cuenta Pocket / non-resident account / company accounts, residency thresholds, the maintenance fee with balance waiver, and operational limits (branch-only ops on Pocket).",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Itaú: частный банк",
+        "short": "Itaú — крупный частный банк. Cuenta Pocket для резидентов, отдельный счёт для нерезидентов по паспорту, и счета на компанию (Unipersonal/SAS), которые открывают даже с Cédula «en trámite».",
+        "body": "Как открыть\n• Страницы продуктов: itau.com.uy/inst/cuentapocket.html (Cuenta Pocket) и itau.com.uy/inst/cuentaNoResidente.html (нерезиденты по паспорту).\n• Cuenta Pocket по онлайн-заявке часто отправляют в офис; провизорная cédula считается как у иностранца.\n• Личный счёт обычно требует Cédula Legal; счёт на Unipersonal/SAS открывают даже с «en trámite».\n• После замены паспорта на Cédula создают новый кабинет и переносят данные (мили остаются на старом).\n\nСкидки и где они действуют\n• Стандартные карточные промо и скидки IVA по электронной оплате.\n\nТребования и документы\n• Паспорт (для нерезидентского счёта).\n• Cédula Legal — для личного резидентского счёта; для компании достаточно «en trámite».\n• Для перехода на резидентский тариф банк принимает бумагу Migración об одобрении резиденции; иногда нужна именно налоговая резиденция + полгода с первой Cédula.\n\nСтоимость обслуживания\n• Cuenta Pocket: открытие бесплатно, ~10 EUR/мес обслуживание или бесплатно при среднем остатке ≥ 660 EUR.\n• Счёт компании: резидентский тариф ~32 USD против ~60 USD для нерезидента; входящий SWIFT 10 USD против 25 USD.\n• Cuenta corriente в обеих валютах бесплатна (платно только за чековую книжку); онлайн-переводы с Unipersonal ~0,85%.\n\nОпыт использования\n• В приложении видно счёт и баланс, но по Cuenta Pocket операции (включая снятие) — только в отделении, карта не привязывается.\n• Программа Miles.\n• Кредитку иногда дают под обеспечение (например залог ~5000 USD при temporaria)."
+      },
+      "en": {
+        "title": "Itaú: a private bank",
+        "short": "Itaú is a major private bank. Cuenta Pocket for residents, a separate non-resident account on a passport, and company accounts (Unipersonal/SAS) that open even with a Cédula \"en trámite\".",
+        "body": "How to open\n• Product pages: itau.com.uy/inst/cuentapocket.html (Cuenta Pocket) and itau.com.uy/inst/cuentaNoResidente.html (non-residents on a passport).\n• A Cuenta Pocket online application is often redirected to a branch; a provisional cédula is treated as a foreigner.\n• A personal account usually needs a Cédula Legal; a Unipersonal/SAS account opens even with \"en trámite\".\n• After swapping a passport for a Cédula they create a new profile and migrate the data (miles stay on the old one).\n\nDiscounts and where they apply\n• Standard card promos and IVA discounts on electronic payment.\n\nRequirements and documents\n• Passport (for the non-resident account).\n• Cédula Legal — for a personal resident account; a company only needs \"en trámite\".\n• To switch to the resident tariff the bank accepts a Migración residency-approval letter; sometimes specifically tax residency + six months since the first Cédula.\n\nHolding & maintenance fees\n• Cuenta Pocket: free to open, ~10 EUR/month maintenance or free with an average balance ≥ 660 EUR.\n• Company account: resident tariff ~32 USD vs ~60 USD for a non-resident; incoming SWIFT 10 USD vs 25 USD.\n• Cuenta corriente in both currencies is free (you only pay for a chequebook); online transfers from a Unipersonal ~0.85%.\n\nUsage experience\n• The app shows the account and balance, but on a Cuenta Pocket operations (including withdrawals) are branch-only and the card does not link.\n• Miles program.\n• A credit card is sometimes granted against collateral (e.g. ~5,000 USD deposit on a temporaria)."
+      },
+      "es": {
+        "title": "Itaú: banco privado",
+        "short": "Itaú es un gran banco privado. Cuenta Pocket para residentes, una cuenta de no residente con pasaporte, y cuentas de empresa (Unipersonal/SAS) que abren incluso con Cédula \"en trámite\".",
+        "body": "Cómo abrir\n• Páginas de productos: itau.com.uy/inst/cuentapocket.html (Cuenta Pocket) y itau.com.uy/inst/cuentaNoResidente.html (no residentes con pasaporte).\n• La solicitud online de Cuenta Pocket suele derivarse a sucursal; la cédula provisoria cuenta como extranjero.\n• Una cuenta personal suele requerir Cédula Legal; una cuenta Unipersonal/SAS abre incluso con \"en trámite\".\n• Al cambiar pasaporte por Cédula crean un kabinet nuevo y migran los datos (las millas quedan en el viejo).\n\nDescuentos y dónde aplican\n• Promos de tarjeta estándar y descuentos de IVA por pago electrónico.\n\nRequisitos y documentos\n• Pasaporte (para la cuenta de no residente).\n• Cédula Legal — para cuenta personal de residente; para empresa alcanza \"en trámite\".\n• Para pasar a la tarifa de residente el banco acepta una carta de Migración de aprobación de residencia; a veces piden residencia fiscal + seis meses desde la primera Cédula.\n\nCostos de mantenimiento\n• Cuenta Pocket: apertura gratis, ~10 EUR/mes de mantenimiento o gratis con saldo promedio ≥ 660 EUR.\n• Cuenta de empresa: tarifa residente ~32 USD vs ~60 USD para no residente; SWIFT entrante 10 USD vs 25 USD.\n• Cuenta corriente en ambas monedas es gratis (solo se paga por chequera); transferencias online desde Unipersonal ~0,85%.\n\nExperiencia de uso\n• La app muestra cuenta y saldo, pero en Cuenta Pocket las operaciones (incluso retiros) son solo en sucursal y la tarjeta no se vincula.\n• Programa Miles.\n• A veces dan tarjeta de crédito contra garantía (p. ej. depósito ~5.000 USD con temporaria)."
+      },
+      "de": {
+        "title": "Itaú: Privatbank",
+        "short": "Itaú ist eine große Privatbank. Cuenta Pocket für Ansässige, ein eigenes Nichtansässigen-Konto auf Reisepass und Firmenkonten (Unipersonal/SAS), die sogar mit Cédula \"en trámite\" öffnen.",
+        "body": "Eröffnung\n• Produktseiten: itau.com.uy/inst/cuentapocket.html (Cuenta Pocket) und itau.com.uy/inst/cuentaNoResidente.html (Nichtansässige mit Reisepass).\n• Ein Cuenta-Pocket-Online-Antrag wird oft in die Filiale verwiesen; eine vorläufige Cédula gilt als Ausländer.\n• Ein Privatkonto braucht meist eine Cédula Legal; ein Unipersonal/SAS-Konto öffnet sogar mit \"en trámite\".\n• Nach Tausch von Reisepass gegen Cédula wird ein neues Profil erstellt und die Daten migriert (Meilen bleiben im alten).\n\nRabatte und wo sie gelten\n• Übliche Karten-Promos und IVA-Rabatte bei elektronischer Zahlung.\n\nVoraussetzungen und Dokumente\n• Reisepass (für das Nichtansässigen-Konto).\n• Cédula Legal — für ein Privatkonto als Ansässiger; eine Firma braucht nur \"en trámite\".\n• Für den Ansässigen-Tarif akzeptiert die Bank ein Migración-Schreiben zur Aufenthaltsbewilligung; teils ausdrücklich steuerliche Ansässigkeit + sechs Monate seit der ersten Cédula.\n\nKontoführungsgebühren\n• Cuenta Pocket: Eröffnung kostenlos, ~10 EUR/Monat Führung oder kostenlos bei Durchschnittssaldo ≥ 660 EUR.\n• Firmenkonto: Ansässigen-Tarif ~32 USD vs. ~60 USD für Nichtansässige; eingehender SWIFT 10 USD vs. 25 USD.\n• Cuenta corriente in beiden Währungen kostenlos (nur Scheckheft kostet); Online-Überweisungen aus einer Unipersonal ~0,85%.\n\nNutzungserfahrung\n• Die App zeigt Konto und Saldo, aber bei Cuenta Pocket sind Operationen (auch Abhebungen) nur in der Filiale und die Karte verknüpft nicht.\n• Miles-Programm.\n• Eine Kreditkarte wird teils gegen Sicherheit gewährt (z. B. ~5.000 USD Einlage bei temporaria)."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.bank_scotiabank",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.bank",
+      "kw.curated.schet"
+    ],
+    "glossary_term_ids": [
+      "term.cedula",
+      "term.certificado_ingresos"
+    ],
+    "entity_ids": [
+      "entity.scotiabank"
+    ],
+    "resource_ids": [
+      "resource.entity.scotiabank"
+    ],
+    "related_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview",
+      "card.bank_accounts_cards.reference.ref_otkrytie_scheta"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Practical profile of Scotiabank: Cuenta Scotia Zero (free maintenance) and the Cuenta Tienda Inglesa partnership, online card application, income-certificate requirement.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Scotiabank: частный банк",
+        "short": "Scotiabank предлагает Cuenta Scotia Zero (без платы за ведение) и Cuenta Tienda Inglesa в партнёрстве с супермаркетом. Заявку на карту можно подать онлайн.",
+        "body": "Как открыть\n• Сайт: scotiabank.com.uy. Продукт Cuenta Tienda Inglesa — на scotiabank.com.uy/Personas/Cuentas/Productos/cuenta-tienda-inglesa.\n• Карту Visa Scotia Puntos можно запросить через сайт (заявка обрабатывается, результат сообщают позже).\n\nСкидки и где они действуют\n• Партнёрство с Tienda Inglesa — выгоды в супермаркете.\n• Программа баллов Scotia Puntos; скидки IVA при оплате картой.\n\nТребования и документы\n• Cédula; подтверждение дохода — иногда нужен certificado de ingresos, выписанный именно «для Scotiabank» (его забирают физически).\n• Уточняйте у банка, годится ли скан сертификата, выданного для другого банка.\n\nСтоимость обслуживания\n• Cuenta Scotia Zero — обслуживание бесплатное (по условиям контракта при открытии).\n\nОпыт использования\n• Cuenta Tienda Inglesa популярна среди тех, кто часто закупается в этом супермаркете.\n• Сертификат о доходах в Уругвае платный (~75–80 USD) — учитывайте это при выборе банка."
+      },
+      "en": {
+        "title": "Scotiabank: a private bank",
+        "short": "Scotiabank offers Cuenta Scotia Zero (free maintenance) and the Cuenta Tienda Inglesa partnership with the supermarket. A card application can be filed online.",
+        "body": "How to open\n• Site: scotiabank.com.uy. The Cuenta Tienda Inglesa product — at scotiabank.com.uy/Personas/Cuentas/Productos/cuenta-tienda-inglesa.\n• A Visa Scotia Puntos card can be requested via the site (the application is processed and the result comes later).\n\nDiscounts and where they apply\n• Tienda Inglesa partnership — supermarket benefits.\n• Scotia Puntos rewards program; IVA discounts when paying by card.\n\nRequirements and documents\n• Cédula; for income, sometimes a certificado de ingresos issued specifically \"for Scotiabank\" (taken physically).\n• Confirm with the bank whether a scan of a certificate issued for another bank is acceptable.\n\nHolding & maintenance fees\n• Cuenta Scotia Zero — free maintenance (per the contract terms at opening).\n\nUsage experience\n• Cuenta Tienda Inglesa is popular with people who shop a lot at that supermarket.\n• An income certificate in Uruguay is paid (~75–80 USD) — factor this into your bank choice."
+      },
+      "es": {
+        "title": "Scotiabank: banco privado",
+        "short": "Scotiabank ofrece Cuenta Scotia Zero (mantenimiento gratis) y la Cuenta Tienda Inglesa en alianza con el supermercado. La solicitud de tarjeta se puede hacer online.",
+        "body": "Cómo abrir\n• Sitio: scotiabank.com.uy. El producto Cuenta Tienda Inglesa — en scotiabank.com.uy/Personas/Cuentas/Productos/cuenta-tienda-inglesa.\n• La tarjeta Visa Scotia Puntos se puede pedir por el sitio (la solicitud se procesa y el resultado llega después).\n\nDescuentos y dónde aplican\n• Alianza con Tienda Inglesa — beneficios en el supermercado.\n• Programa de puntos Scotia Puntos; descuentos de IVA al pagar con tarjeta.\n\nRequisitos y documentos\n• Cédula; para ingresos, a veces un certificado de ingresos emitido específicamente \"para Scotiabank\" (lo retiran físicamente).\n• Confirmá con el banco si sirve un escaneo de un certificado emitido para otro banco.\n\nCostos de mantenimiento\n• Cuenta Scotia Zero — mantenimiento gratis (según el contrato al abrir).\n\nExperiencia de uso\n• La Cuenta Tienda Inglesa es popular entre quienes compran mucho en ese supermercado.\n• Un certificado de ingresos en Uruguay es pago (~75–80 USD) — tenelo en cuenta al elegir banco."
+      },
+      "de": {
+        "title": "Scotiabank: Privatbank",
+        "short": "Scotiabank bietet Cuenta Scotia Zero (kostenlose Führung) und die Cuenta Tienda Inglesa in Partnerschaft mit dem Supermarkt. Der Kartenantrag ist online möglich.",
+        "body": "Eröffnung\n• Seite: scotiabank.com.uy. Das Produkt Cuenta Tienda Inglesa — unter scotiabank.com.uy/Personas/Cuentas/Productos/cuenta-tienda-inglesa.\n• Eine Visa Scotia Puntos kann über die Seite beantragt werden (der Antrag wird bearbeitet, das Ergebnis kommt später).\n\nRabatte und wo sie gelten\n• Partnerschaft mit Tienda Inglesa — Supermarkt-Vorteile.\n• Scotia-Puntos-Bonusprogramm; IVA-Rabatte bei Kartenzahlung.\n\nVoraussetzungen und Dokumente\n• Cédula; für Einkommen teils ein certificado de ingresos ausdrücklich \"für Scotiabank\" (wird physisch eingezogen).\n• Mit der Bank klären, ob ein Scan eines für eine andere Bank ausgestellten Zertifikats reicht.\n\nKontoführungsgebühren\n• Cuenta Scotia Zero — kostenlose Führung (laut Vertrag bei Eröffnung).\n\nNutzungserfahrung\n• Die Cuenta Tienda Inglesa ist bei häufigen Käufern dieses Supermarkts beliebt.\n• Ein Einkommenszertifikat in Uruguay ist kostenpflichtig (~75–80 USD) — bei der Bankwahl einkalkulieren."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.bank_santander",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.bank",
+      "kw.curated.schet"
+    ],
+    "glossary_term_ids": [
+      "term.cedula",
+      "term.residencia"
+    ],
+    "entity_ids": [
+      "entity.santander"
+    ],
+    "resource_ids": [
+      "resource.entity.santander"
+    ],
+    "related_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview",
+      "card.bank_accounts_cards.reference.ref_otkrytie_scheta"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Practical profile of Santander: relatively strong online onboarding (sometimes any Cédula), the Inclusión Financiera free tier, the monthly maintenance fee in UI, and SWIFT-receiving notes.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Santander: частный банк",
+        "short": "Santander заметен относительно удобным онлайн-открытием — иногда счёт открывают онлайн с любой Cédula. Есть бесплатный тариф Inclusión Financiera; обычное ведение счёта платное.",
+        "body": "Как открыть\n• Онлайн-заявка: misolicitud.santander.com.uy; сайт santander.com.uy.\n• Santander онлайн иногда открывает счёт с любой Cédula (en trámite или Legal) — уточняйте актуальные условия.\n• Бесплатный тариф Inclusión Financiera (SOY) отправляет в офис, но позволяет заполнить заявку: santander.com.uy/todas-las-cuentas/inclusion-financiera.\n\nСкидки и где они действуют\n• Стандартные карточные промо и скидки IVA по электронной оплате.\n\nТребования и документы\n• Cédula (для онлайн-открытия иногда подходит любая).\n• Стандартный пакет: подтверждение дохода и адреса по запросу банка.\n\nСтоимость обслуживания\n• Ведение счёта ~120 UI/мес (порядка 718 песо), одинаково для Cuenta Plus и Cuenta Full.\n\nОпыт использования\n• Хорошее онлайн-онбординг по сравнению с другими.\n• Для входящего SWIFT — реквизиты и routing codes на santander.com.uy/negocio-internacional (номер счёта дополняется до нужной длины по их формату)."
+      },
+      "en": {
+        "title": "Santander: a private bank",
+        "short": "Santander stands out for relatively easy online onboarding — an account is sometimes opened online with any Cédula. There is a free Inclusión Financiera tier; standard account-keeping is paid.",
+        "body": "How to open\n• Online application: misolicitud.santander.com.uy; site santander.com.uy.\n• Santander online sometimes opens an account with any Cédula (en trámite or Legal) — check current terms.\n• The free Inclusión Financiera tier (SOY) routes you to a branch but lets you fill in the application: santander.com.uy/todas-las-cuentas/inclusion-financiera.\n\nDiscounts and where they apply\n• Standard card promos and IVA discounts on electronic payment.\n\nRequirements and documents\n• Cédula (for online opening any one is sometimes enough).\n• Standard pack: proof of income and address on the bank’s request.\n\nHolding & maintenance fees\n• Account-keeping ~120 UI/month (around 718 pesos), the same for Cuenta Plus and Cuenta Full.\n\nUsage experience\n• Good online onboarding compared with others.\n• For incoming SWIFT — details and routing codes at santander.com.uy/negocio-internacional (the account number is padded to the required length per their format)."
+      },
+      "es": {
+        "title": "Santander: banco privado",
+        "short": "Santander se destaca por una apertura online relativamente fácil — a veces abren cuenta online con cualquier Cédula. Hay un plan gratis de Inclusión Financiera; el mantenimiento estándar es pago.",
+        "body": "Cómo abrir\n• Solicitud online: misolicitud.santander.com.uy; sitio santander.com.uy.\n• Santander online a veces abre cuenta con cualquier Cédula (en trámite o Legal) — verificá condiciones vigentes.\n• El plan gratis de Inclusión Financiera (SOY) deriva a sucursal pero permite completar la solicitud: santander.com.uy/todas-las-cuentas/inclusion-financiera.\n\nDescuentos y dónde aplican\n• Promos de tarjeta estándar y descuentos de IVA por pago electrónico.\n\nRequisitos y documentos\n• Cédula (para apertura online a veces sirve cualquiera).\n• Paquete estándar: comprobante de ingresos y domicilio a pedido del banco.\n\nCostos de mantenimiento\n• Mantenimiento ~120 UI/mes (unos 718 pesos), igual para Cuenta Plus y Cuenta Full.\n\nExperiencia de uso\n• Buen onboarding online comparado con otros.\n• Para SWIFT entrante — datos y routing codes en santander.com.uy/negocio-internacional (el número de cuenta se completa al largo requerido según su formato)."
+      },
+      "de": {
+        "title": "Santander: Privatbank",
+        "short": "Santander fällt durch relativ einfache Online-Eröffnung auf — ein Konto wird teils online mit jeder Cédula eröffnet. Es gibt einen kostenlosen Inclusión-Financiera-Tarif; die normale Kontoführung ist kostenpflichtig.",
+        "body": "Eröffnung\n• Online-Antrag: misolicitud.santander.com.uy; Seite santander.com.uy.\n• Santander online eröffnet teils ein Konto mit jeder Cédula (en trámite oder Legal) — aktuelle Bedingungen prüfen.\n• Der kostenlose Inclusión-Financiera-Tarif (SOY) verweist in die Filiale, lässt aber den Antrag ausfüllen: santander.com.uy/todas-las-cuentas/inclusion-financiera.\n\nRabatte und wo sie gelten\n• Übliche Karten-Promos und IVA-Rabatte bei elektronischer Zahlung.\n\nVoraussetzungen und Dokumente\n• Cédula (für die Online-Eröffnung genügt teils jede).\n• Standardpaket: Einkommens- und Adressnachweis auf Anfrage der Bank.\n\nKontoführungsgebühren\n• Kontoführung ~120 UI/Monat (rund 718 Pesos), gleich für Cuenta Plus und Cuenta Full.\n\nNutzungserfahrung\n• Gutes Online-Onboarding im Vergleich zu anderen.\n• Für eingehende SWIFT — Daten und Routing-Codes unter santander.com.uy/negocio-internacional (die Kontonummer wird gemäß ihrem Format auf die nötige Länge ergänzt)."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.cards_crypto",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.karta",
+      "kw.curated.prex"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [
+      "entity.prex"
+    ],
+    "resource_ids": [
+      "resource.entity.prex"
+    ],
+    "related_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview",
+      "card.bank_accounts_cards.reference.bank_prex",
+      "card.bank_accounts_cards.reference.crypto_redotpay",
+      "card.bank_accounts_cards.reference.crypto_etherfi",
+      "card.bank_accounts_cards.reference.crypto_offramp",
+      "card.bank_accounts_cards.reference.crypto_dolarapp",
+      "card.bank_accounts_cards.reference.crypto_tuyo",
+      "card.bank_accounts_cards.reference.crypto_meru",
+      "card.bank_accounts_cards.reference.ref_karty_i_blokirovki"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Hub/comparison of the crypto-linked fintech cards the community actually uses from Uruguay (RedotPay, ether.fi, Offramp, DolarApp, Tuyo, Meru, plus Belo/Bybit/Binance/COCA/Wirex/Kolo/CoinZoom/Wise/Revolut) — how to choose, the fee glossary, the BIN/acceptance issue, and the bank↔crypto block risk.",
+      "kind": "overview",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Крипто-карты и финтех: обзор и сравнение",
+        "short": "Местные банки прохладны к крипте, поэтому многие держат и тратят USDT/USDC через крипто-финтех: RedotPay, ether.fi, Offramp, DolarApp, Tuyo, Meru и др. Как выбрать, на что смотреть в комиссиях и где подвох.",
+        "body": "Как открыть\n• Это не уругвайские банки, а внешние сервисы. Регистрация в приложении, KYC (часто Sumsub), пополнение в USDT/USDC по сети (Base, Polygon, ERC-20 и т.д.), затем виртуальная карта; физический пластик присылают почтой/курьером.\n• Многие открываются по уругвайской Cédula; части сервисов нужен адрес/документ другой страны (PoA Бразилии, CPF, адрес в Мексике).\n• Карты у разных сервисов часто на одном BIN (например 454924 у ether.fi/Tuyo/Kolo) — но «бизнес-BIN» (RedotPay) принимают шире.\n\nКешбэк и скидки\n• Главная выгода — не «скидки IVA», а кешбэк в крипте и хороший курс: ether.fi ~3% (локальный токен), Kolo 5% в BTC, COCA до 8%, RedotPay — переменно.\n• Курс часто выгоднее уругвайских карт за границей (особенно в Бразилии) — поэтому местными картами там платить смысла мало.\n\nТребования и документы\n• Загранпаспорт или Cédula; иногда PoA/CPF другой страны.\n• Для привязки к брокеру/банку США по ACH полезны микродепозиты — их умеет, например, ether.fi.\n\nКомиссии (FX, конвертация, вывод)\n• Смотрите три строки: FX (наценка к курсу Visa/MC, ~1%), Crypto/Stable conversion (~0.9–1%) и вывод/пополнение (часто 0, но c2c бывает 1%).\n• Самые дешёвые по отзывам: DolarApp (комиссии ~0), Offramp (0% операции + 0.5% сервис), ether.fi (~1% + кешбэк). Дороже выходит, когда FX и markup складываются (Kolo: 1% + 1%).\n\nОпыт использования\n• Сравнение (по отзывам сообщества): RedotPay — принимают где угодно (почта, старые POS, паром), но не в Migración; ether.fi — лучший «цена/качество», бридж EUR/USD + PIX; Offramp — низкие комиссии, отличный курс, но бывают отказы; DolarApp — цифровые доллары, ACH; Tuyo — именной IBAN; Meru — счёт USD с ACH/WIRE.\n• Лёгкие/нишевые: COCA (UK-BIN от Wirex, кешбэк/APY), Wirex (работает, но риск банов), Kolo (5% BTC, но 1%+1%), CoinZoom (биржа+карта, мало местных отзывов), Belo/Bybit/Binance (вывод USDT), Advcash (на разовые траты).\n• Wise и Revolut — это не крипто-карты: Wise открывают по Cédula (формально как в другой стране), Revolut из Уругвая оформить сложно; оба умеют приём на BROU/Itaú.\n• Риск: активный p2p (например Binance↔Prex) и прямой приход с биржи система видит — карту/счёт могут заблокировать. Не смешивайте без документов об источнике средств.\n• Это однодневный по природе рынок — держите на карте сумму под траты, не как сбережения."
+      },
+      "en": {
+        "title": "Crypto cards & fintech: overview and comparison",
+        "short": "Local banks are cool toward crypto, so many people hold and spend USDT/USDC via crypto fintech: RedotPay, ether.fi, Offramp, DolarApp, Tuyo, Meru and others. How to choose, what to read in the fees, and where the catch is.",
+        "body": "How to open\n• These are not Uruguayan banks but external services. You register in an app, do KYC (often Sumsub), top up in USDT/USDC over a network (Base, Polygon, ERC-20, etc.), then get a virtual card; a physical card is shipped by post/courier.\n• Many open on a Uruguayan Cédula; some need another country’s address/document (Brazil PoA, CPF, a Mexican address).\n• Cards across services often share a BIN (e.g. 454924 on ether.fi/Tuyo/Kolo) — but a \"business BIN\" (RedotPay) is accepted more widely.\n\nCashback & discounts\n• The real upside is not \"IVA discounts\" but crypto cashback and a good rate: ether.fi ~3% (local token), Kolo 5% in BTC, COCA up to 8%, RedotPay — variable.\n• The rate often beats Uruguayan cards abroad (especially in Brazil) — so paying with local cards there makes little sense.\n\nRequirements and documents\n• Passport or Cédula; sometimes another country’s PoA/CPF.\n• To link a US broker/bank by ACH, micro-deposits help — ether.fi, for instance, can receive them.\n\nFees (FX, conversion, withdrawal)\n• Read three lines: FX (markup over the Visa/MC rate, ~1%), Crypto/Stable conversion (~0.9–1%) and withdrawal/top-up (often 0, but c2c can be 1%).\n• Cheapest by reports: DolarApp (fees ~0), Offramp (0% ops + 0.5% service), ether.fi (~1% + cashback). It gets pricier when FX and markup stack (Kolo: 1% + 1%).\n\nUsage experience\n• Comparison (community reports): RedotPay — accepted almost anywhere (post office, old POS, ferry) but not at Migración; ether.fi — best value, EUR/USD bridge + PIX; Offramp — low fees, great rate, but occasional declines; DolarApp — digital dollars, ACH; Tuyo — a named IBAN; Meru — a USD account with ACH/WIRE.\n• Lighter/niche: COCA (UK BIN from Wirex, cashback/APY), Wirex (works but ban risk), Kolo (5% BTC but 1%+1%), CoinZoom (exchange+card, little local feedback), Belo/Bybit/Binance (USDT cash-out), Advcash (for one-off spend).\n• Wise and Revolut are not crypto cards: Wise opens on a Cédula (formally as if in another country), Revolut is hard to open from Uruguay; both can receive into BROU/Itaú.\n• Risk: heavy p2p (e.g. Binance↔Prex) and a direct exchange inflow are visible — the card/account can be blocked. Do not mix without source-of-funds documents.\n• This is a short-lived market by nature — keep only spending money on the card, not savings."
+      },
+      "es": {
+        "title": "Tarjetas cripto y fintech: panorama y comparación",
+        "short": "A los bancos locales no les gusta la cripto, así que muchos tienen y gastan USDT/USDC vía fintech cripto: RedotPay, ether.fi, Offramp, DolarApp, Tuyo, Meru y otros. Cómo elegir, qué leer en las comisiones y dónde está la trampa.",
+        "body": "Cómo abrir\n• No son bancos uruguayos sino servicios externos. Te registrás en una app, hacés KYC (a menudo Sumsub), cargás en USDT/USDC por una red (Base, Polygon, ERC-20, etc.) y luego tenés una tarjeta virtual; la física llega por correo/courier.\n• Muchos abren con Cédula uruguaya; algunos piden domicilio/documento de otro país (PoA de Brasil, CPF, domicilio en México).\n• Las tarjetas comparten BIN entre servicios (p. ej. 454924 en ether.fi/Tuyo/Kolo) — pero un \"BIN de negocio\" (RedotPay) se acepta más ampliamente.\n\nCashback y descuentos\n• La ventaja real no son \"descuentos de IVA\" sino cashback en cripto y buen tipo de cambio: ether.fi ~3% (token local), Kolo 5% en BTC, COCA hasta 8%, RedotPay — variable.\n• El tipo de cambio suele superar a las tarjetas uruguayas en el exterior (sobre todo en Brasil) — pagar con tarjetas locales allá tiene poco sentido.\n\nRequisitos y documentos\n• Pasaporte o Cédula; a veces PoA/CPF de otro país.\n• Para vincular un broker/banco de EE. UU. por ACH ayudan los microdepósitos — ether.fi, por ejemplo, los recibe.\n\nComisiones (FX, conversión, retiro)\n• Leé tres líneas: FX (markup sobre el tipo Visa/MC, ~1%), conversión Crypto/Stable (~0,9–1%) y retiro/carga (a menudo 0, pero c2c puede ser 1%).\n• Más baratos según reportes: DolarApp (comisiones ~0), Offramp (0% operaciones + 0,5% servicio), ether.fi (~1% + cashback). Sale más caro cuando FX y markup se suman (Kolo: 1% + 1%).\n\nExperiencia de uso\n• Comparación (reportes de la comunidad): RedotPay — aceptada casi en todos lados (correo, POS viejos, ferry) pero no en Migración; ether.fi — mejor relación precio/calidad, bridge EUR/USD + PIX; Offramp — comisiones bajas, gran tipo de cambio, pero rechazos ocasionales; DolarApp — dólares digitales, ACH; Tuyo — IBAN a tu nombre; Meru — cuenta USD con ACH/WIRE.\n• Livianos/nicho: COCA (BIN UK de Wirex, cashback/APY), Wirex (anda pero riesgo de baneos), Kolo (5% BTC pero 1%+1%), CoinZoom (exchange+tarjeta, poco feedback local), Belo/Bybit/Binance (retiro de USDT), Advcash (para gastos puntuales).\n• Wise y Revolut no son tarjetas cripto: Wise abre con Cédula (formalmente como en otro país), Revolut es difícil de abrir desde Uruguay; ambos reciben en BROU/Itaú.\n• Riesgo: el p2p intenso (p. ej. Binance↔Prex) y un ingreso directo de exchange se ven — pueden bloquear la tarjeta/cuenta. No mezcles sin documentos de origen de fondos.\n• Es un mercado efímero por naturaleza — tené en la tarjeta solo plata para gastar, no ahorros."
+      },
+      "de": {
+        "title": "Krypto-Karten & Fintech: Überblick und Vergleich",
+        "short": "Lokale Banken sind kühl gegenüber Krypto, daher halten und nutzen viele USDT/USDC über Krypto-Fintech: RedotPay, ether.fi, Offramp, DolarApp, Tuyo, Meru u. a. Wie man wählt, was man bei den Gebühren liest und wo der Haken ist.",
+        "body": "Eröffnung\n• Das sind keine uruguayischen Banken, sondern externe Dienste. Registrierung in einer App, KYC (oft Sumsub), Aufladung in USDT/USDC über ein Netz (Base, Polygon, ERC-20 usw.), dann eine virtuelle Karte; die physische kommt per Post/Kurier.\n• Viele öffnen mit uruguayischer Cédula; einige brauchen Adresse/Dokument eines anderen Landes (Brasilien-PoA, CPF, mexikanische Adresse).\n• Karten teilen oft einen BIN über Dienste hinweg (z. B. 454924 bei ether.fi/Tuyo/Kolo) — aber ein \"Business-BIN\" (RedotPay) wird breiter akzeptiert.\n\nCashback & Rabatte\n• Der echte Vorteil sind nicht \"IVA-Rabatte\", sondern Krypto-Cashback und ein guter Kurs: ether.fi ~3% (lokaler Token), Kolo 5% in BTC, COCA bis 8%, RedotPay — variabel.\n• Der Kurs schlägt im Ausland oft uruguayische Karten (besonders in Brasilien) — dort mit lokalen Karten zu zahlen lohnt kaum.\n\nVoraussetzungen und Dokumente\n• Reisepass oder Cédula; teils PoA/CPF eines anderen Landes.\n• Zum Verknüpfen eines US-Brokers/-Bankkontos per ACH helfen Mikro-Einzahlungen — ether.fi etwa kann sie empfangen.\n\nGebühren (FX, Umtausch, Auszahlung)\n• Drei Zeilen lesen: FX (Aufschlag auf den Visa/MC-Kurs, ~1%), Crypto/Stable-Umtausch (~0,9–1%) und Auszahlung/Aufladung (oft 0, aber c2c teils 1%).\n• Am günstigsten laut Berichten: DolarApp (Gebühren ~0), Offramp (0% Operationen + 0,5% Service), ether.fi (~1% + Cashback). Teurer, wenn FX und Markup sich addieren (Kolo: 1% + 1%).\n\nNutzungserfahrung\n• Vergleich (Community-Berichte): RedotPay — fast überall akzeptiert (Post, alte POS, Fähre), aber nicht bei Migración; ether.fi — bestes Preis-Leistungs-Verhältnis, EUR/USD-Bridge + PIX; Offramp — niedrige Gebühren, toller Kurs, aber gelegentliche Ablehnungen; DolarApp — digitale Dollar, ACH; Tuyo — ein IBAN auf den eigenen Namen; Meru — ein USD-Konto mit ACH/WIRE.\n• Leichter/Nische: COCA (UK-BIN von Wirex, Cashback/APY), Wirex (funktioniert, aber Sperr-Risiko), Kolo (5% BTC, aber 1%+1%), CoinZoom (Börse+Karte, wenig lokales Feedback), Belo/Bybit/Binance (USDT-Auszahlung), Advcash (für einmalige Ausgaben).\n• Wise und Revolut sind keine Krypto-Karten: Wise öffnet mit Cédula (formal wie in einem anderen Land), Revolut ist aus Uruguay schwer zu eröffnen; beide können auf BROU/Itaú empfangen.\n• Risiko: intensives p2p (z. B. Binance↔Prex) und ein direkter Börsen-Eingang sind sichtbar — Karte/Konto kann gesperrt werden. Nicht ohne Herkunftsnachweise mischen.\n• Das ist ein naturgemäß kurzlebiger Markt — nur Ausgabe-Geld auf der Karte halten, keine Ersparnisse."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.crypto_redotpay",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.karta",
+      "kw.curated.prex"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [],
+    "resource_ids": [],
+    "related_card_ids": [
+      "card.bank_accounts_cards.reference.cards_crypto",
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Profile of RedotPay — the crypto card the community calls the most universally accepted in Uruguay (business BIN), incl. physical-card shipping via postal service and the customs-check pattern.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "RedotPay: крипто-карта",
+        "short": "RedotPay — по отзывам сообщества самая «принимаемая везде» крипто-карта в Уругвае: проходит на почте, в старых POS и там, где другие крипто-карты отказывают (помогает бизнес-BIN).",
+        "body": "Как открыть\n• Регистрация в приложении/на сайте RedotPay, KYC; виртуальную карту выпускают сразу, физическую заказывают отдельно.\n• Физическую карту присылают в Уругвай почтовой службой как посылку (другие сервисы шлют курьером как личные документы).\n\nКешбэк и скидки\n• Кешбэк/скидки переменные — иногда действуют не весь месяц; бывает, что списывается полная сумма без скидки. Уточняйте актуальное в приложении.\n\nТребования и документы\n• Открывается по Cédula (раньше проблем не было); стандартный KYC.\n\nКомиссии (FX, конвертация, вывод)\n• Конкурентный курс; по отзывам особенно выгодный итоговый курс в Бразилии (лучше, чем у Offramp и уругвайских карт).\n\nОпыт использования\n• Главный плюс — принимают почти везде: паром, фруктовая лавка, почта, старые терминалы. «Бизнес-BIN» реально расширяет приём.\n• Не платит в Migración. За границей (например в Турции) местами не проходит и бывают терминалы с обязательным PIN.\n• Закономерность с физкартами: если заказать 3 карты в год на одного получателя, одну из посылок почти наверняка отправят на проверку — забирать лично по записи."
+      },
+      "en": {
+        "title": "RedotPay: a crypto card",
+        "short": "RedotPay is, per the community, the most universally accepted crypto card in Uruguay: it works at the post office, on old POS terminals and where other crypto cards decline (a business BIN helps).",
+        "body": "How to open\n• Register in the RedotPay app/site, do KYC; a virtual card is issued instantly, a physical one is ordered separately.\n• The physical card ships to Uruguay via the postal service as a parcel (other services courier theirs as personal documents).\n\nCashback & discounts\n• Cashback/discounts are variable — sometimes not for the whole month; the full amount can be charged with no discount. Check the current state in the app.\n\nRequirements and documents\n• Opens on a Cédula (no issue reported before); standard KYC.\n\nFees (FX, conversion, withdrawal)\n• Competitive rate; reportedly an especially good final rate in Brazil (better than Offramp and Uruguayan cards).\n\nUsage experience\n• The main plus — accepted almost everywhere: ferry, fruit stall, post office, old terminals. The \"business BIN\" genuinely widens acceptance.\n• Does not pay at Migración. Abroad (e.g. Turkey) it sometimes declines and some terminals force a PIN.\n• Physical-card pattern: order 3 cards a year to one recipient and one parcel will almost certainly be sent for inspection — collected in person by appointment."
+      },
+      "es": {
+        "title": "RedotPay: tarjeta cripto",
+        "short": "RedotPay es, según la comunidad, la tarjeta cripto más aceptada en Uruguay: funciona en el correo, en POS viejos y donde otras tarjetas cripto rechazan (ayuda el BIN de negocio).",
+        "body": "Cómo abrir\n• Registrate en la app/sitio de RedotPay, hacé KYC; la tarjeta virtual se emite al instante, la física se pide aparte.\n• La tarjeta física llega a Uruguay por el correo como paquete (otros servicios la mandan por courier como documentos personales).\n\nCashback y descuentos\n• Cashback/descuentos variables — a veces no todo el mes; puede cobrarse el monto completo sin descuento. Verificá lo vigente en la app.\n\nRequisitos y documentos\n• Abre con Cédula (antes sin problema); KYC estándar.\n\nComisiones (FX, conversión, retiro)\n• Tipo de cambio competitivo; según reportes, un tipo final especialmente bueno en Brasil (mejor que Offramp y tarjetas uruguayas).\n\nExperiencia de uso\n• El plus principal — aceptada casi en todos lados: ferry, puesto de frutas, correo, terminales viejos. El \"BIN de negocio\" amplía la aceptación de verdad.\n• No paga en Migración. En el exterior (p. ej. Turquía) a veces rechaza y hay terminales que exigen PIN.\n• Patrón con tarjetas físicas: si pedís 3 al año a un mismo receptor, un paquete casi seguro irá a revisión — se retira en persona con cita."
+      },
+      "de": {
+        "title": "RedotPay: Krypto-Karte",
+        "short": "RedotPay ist laut Community die am breitesten akzeptierte Krypto-Karte in Uruguay: funktioniert bei der Post, an alten POS-Terminals und wo andere Krypto-Karten ablehnen (ein Business-BIN hilft).",
+        "body": "Eröffnung\n• In der RedotPay-App/-Seite registrieren, KYC; eine virtuelle Karte wird sofort ausgegeben, eine physische separat bestellt.\n• Die physische Karte kommt per Post als Paket nach Uruguay (andere Dienste schicken per Kurier als persönliche Dokumente).\n\nCashback & Rabatte\n• Cashback/Rabatte variabel — teils nicht den ganzen Monat; der volle Betrag kann ohne Rabatt abgebucht werden. Aktuellen Stand in der App prüfen.\n\nVoraussetzungen und Dokumente\n• Öffnet mit Cédula (zuvor kein Problem gemeldet); Standard-KYC.\n\nGebühren (FX, Umtausch, Auszahlung)\n• Wettbewerbsfähiger Kurs; berichtet wird ein besonders guter Endkurs in Brasilien (besser als Offramp und uruguayische Karten).\n\nNutzungserfahrung\n• Hauptvorteil — fast überall akzeptiert: Fähre, Obststand, Post, alte Terminals. Der \"Business-BIN\" erweitert die Akzeptanz wirklich.\n• Zahlt nicht bei Migración. Im Ausland (z. B. Türkei) lehnt sie teils ab und manche Terminals erzwingen eine PIN.\n• Muster bei physischen Karten: 3 Karten pro Jahr an einen Empfänger — ein Paket geht fast sicher zur Prüfung, persönlich mit Termin abzuholen."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.crypto_etherfi",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.karta",
+      "kw.curated.prex"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [],
+    "resource_ids": [],
+    "related_card_ids": [
+      "card.bank_accounts_cards.reference.cards_crypto",
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Profile of ether.fi — frequently called the best value crypto fintech card by the community: free open/top-up, ~3% cashback, EUR/USD bridge + PIX, micro-deposit support for ACH linking.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "ether.fi: крипто-финтех и карта",
+        "short": "ether.fi — один из самых рекомендуемых сервисов: бесплатное открытие и пополнение (USDT/USDC в сети Base), кешбэк ~3% локальным токеном, бридж EUR/USD и PIX для реалов.",
+        "body": "Как открыть\n• Регистрация на ether.fi (бесплатно), пополнение бесплатно в USDT/USDC по сети Base; затем активируйте карту.\n• Виртуальная карта с PIN подходит и для снятия наличных; есть и физическая.\n\nКешбэк и скидки\n• Кешбэк ~3% локальным токеном, который без проблем меняется на стейблкоин.\n\nТребования и документы\n• KYC; принимает микродепозиты — удобно, чтобы подвязать счёт по ACH (например к IBKR) и гонять средства.\n\nКомиссии (FX, конвертация, вывод)\n• Конвертация ~1%; курс примерно +1% к рынку. С учётом кешбэка часто выгоднее многих.\n\nОпыт использования\n• По отзывам — топ за свои деньги (наряду с COCA).\n• Карта на BIN 454924 (тот же, что у Tuyo и Kolo).\n• Есть бридж для евро и долларов и PIX для бразильских реалов."
+      },
+      "en": {
+        "title": "ether.fi: crypto fintech & card",
+        "short": "ether.fi is one of the most recommended services: free to open and top up (USDT/USDC on Base), ~3% cashback in a local token, an EUR/USD bridge and PIX for reais.",
+        "body": "How to open\n• Register at ether.fi (free), top up free in USDT/USDC over the Base network; then activate the card.\n• The virtual card with a PIN also works for cash withdrawal; a physical one exists too.\n\nCashback & discounts\n• ~3% cashback in a local token that swaps to a stablecoin without trouble.\n\nRequirements and documents\n• KYC; it accepts micro-deposits — handy to link an account by ACH (e.g. to IBKR) and move funds back and forth.\n\nFees (FX, conversion, withdrawal)\n• Conversion ~1%; rate about +1% over market. With cashback it often beats many others.\n\nUsage experience\n• Reportedly top value for money (alongside COCA).\n• The card is on BIN 454924 (the same as Tuyo and Kolo).\n• It has a EUR/USD bridge and PIX for Brazilian reais."
+      },
+      "es": {
+        "title": "ether.fi: fintech cripto y tarjeta",
+        "short": "ether.fi es uno de los servicios más recomendados: abrir y cargar gratis (USDT/USDC en red Base), cashback ~3% en token local, bridge EUR/USD y PIX para reales.",
+        "body": "Cómo abrir\n• Registrate en ether.fi (gratis), cargá gratis en USDT/USDC por la red Base; luego activá la tarjeta.\n• La tarjeta virtual con PIN sirve también para retirar efectivo; también hay física.\n\nCashback y descuentos\n• Cashback ~3% en un token local que se cambia a stablecoin sin problema.\n\nRequisitos y documentos\n• KYC; acepta microdepósitos — cómodo para vincular una cuenta por ACH (p. ej. a IBKR) y mover fondos.\n\nComisiones (FX, conversión, retiro)\n• Conversión ~1%; tipo cerca de +1% sobre el mercado. Con cashback suele superar a muchos.\n\nExperiencia de uso\n• Según reportes, top relación precio/calidad (junto con COCA).\n• La tarjeta está en BIN 454924 (el mismo que Tuyo y Kolo).\n• Tiene bridge EUR/USD y PIX para reales brasileños."
+      },
+      "de": {
+        "title": "ether.fi: Krypto-Fintech & Karte",
+        "short": "ether.fi ist einer der meistempfohlenen Dienste: kostenloses Eröffnen und Aufladen (USDT/USDC im Base-Netz), ~3% Cashback im lokalen Token, EUR/USD-Bridge und PIX für Reales.",
+        "body": "Eröffnung\n• Bei ether.fi registrieren (kostenlos), kostenlos in USDT/USDC über das Base-Netz aufladen; dann die Karte aktivieren.\n• Die virtuelle Karte mit PIN eignet sich auch zum Bargeldabheben; eine physische gibt es ebenfalls.\n\nCashback & Rabatte\n• ~3% Cashback in einem lokalen Token, der sich problemlos in einen Stablecoin tauschen lässt.\n\nVoraussetzungen und Dokumente\n• KYC; akzeptiert Mikro-Einzahlungen — praktisch, um ein Konto per ACH (z. B. an IBKR) zu verknüpfen und Gelder hin- und herzubewegen.\n\nGebühren (FX, Umtausch, Auszahlung)\n• Umtausch ~1%; Kurs etwa +1% über Markt. Mit Cashback oft besser als viele andere.\n\nNutzungserfahrung\n• Berichtet als Top-Preis-Leistung (neben COCA).\n• Die Karte läuft auf BIN 454924 (wie Tuyo und Kolo).\n• Hat eine EUR/USD-Bridge und PIX für brasilianische Reales."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.crypto_offramp",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.karta",
+      "kw.curated.prex"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [],
+    "resource_ids": [],
+    "related_card_ids": [
+      "card.bank_accounts_cards.reference.cards_crypto",
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Profile of Offramp — a low-fee crypto card (0% ops + 0.5% service), Deel payout integration, BIN migrating HK→US, great Brazil rate, with the recent decline/Mercado-Pago issues.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Offramp: крипто-карта с низкими комиссиями",
+        "short": "Offramp хвалят за минимальные комиссии: пополнение, покупка и вывод без комиссии платформы, плюс 0.5% сервиса. Можно выводить прямо из Deel; курс особенно хорош в Бразилии.",
+        "body": "Как открыть\n• Регистрация в app.offramp.xyz; сейчас одна виртуальная карта (обещают несколько + физическую).\n• BIN был гонконгский, идёт миграция на BIN США; по заявлению — без изменения комиссий.\n• Можно настроить вывод зарплаты сразу из Deel.\n\nКешбэк и скидки\n• Прямой плюс — не кешбэк, а курс: по отзывам в Бразилии итоговый курс заметно выгоднее уругвайских карт.\n\nТребования и документы\n• Стандартный KYC; открывается по Cédula.\n\nКомиссии (FX, конвертация, вывод)\n• Пополнение/покупка/вывод — без комиссии платформы; 0.5% у самого Offramp. Вывод в крипту сразу при поступлении, без комиссии.\n\nОпыт использования\n• Очень удобно: деньги можно сразу выводить в крипту по мере поступления.\n• Минус последнего времени — карта стала чаще отказывать и перестала работать в Mercado Pago."
+      },
+      "en": {
+        "title": "Offramp: a low-fee crypto card",
+        "short": "Offramp is praised for minimal fees: top-up, buy and withdraw with no platform fee, plus a 0.5% service cut. You can pay out straight from Deel; the rate is especially good in Brazil.",
+        "body": "How to open\n• Register at app.offramp.xyz; currently one virtual card (more + a physical one promised).\n• The BIN was Hong Kong and is migrating to a US BIN; per their notice, with no fee change.\n• You can route a Deel payout straight in.\n\nCashback & discounts\n• The direct upside is the rate, not cashback: reportedly the final rate in Brazil clearly beats Uruguayan cards.\n\nRequirements and documents\n• Standard KYC; opens on a Cédula.\n\nFees (FX, conversion, withdrawal)\n• Top-up/buy/withdraw — no platform fee; 0.5% to Offramp itself. You can withdraw to crypto instantly as funds arrive, free.\n\nUsage experience\n• Very convenient: funds can be withdrawn to crypto as they come in.\n• Recent downside — the card declines more often and stopped working in Mercado Pago."
+      },
+      "es": {
+        "title": "Offramp: tarjeta cripto de bajas comisiones",
+        "short": "Offramp se destaca por comisiones mínimas: carga, compra y retiro sin comisión de plataforma, más 0,5% de servicio. Podés cobrar directo desde Deel; el tipo de cambio es muy bueno en Brasil.",
+        "body": "Cómo abrir\n• Registrate en app.offramp.xyz; por ahora una tarjeta virtual (prometen varias + física).\n• El BIN era de Hong Kong y migra a un BIN de EE. UU.; según su aviso, sin cambio de comisiones.\n• Podés enrutar un pago de Deel directo.\n\nCashback y descuentos\n• La ventaja directa es el tipo de cambio, no el cashback: según reportes, el tipo final en Brasil supera claramente a las tarjetas uruguayas.\n\nRequisitos y documentos\n• KYC estándar; abre con Cédula.\n\nComisiones (FX, conversión, retiro)\n• Carga/compra/retiro — sin comisión de plataforma; 0,5% para Offramp. Podés retirar a cripto al instante a medida que entra, gratis.\n\nExperiencia de uso\n• Muy cómodo: los fondos se pueden retirar a cripto a medida que ingresan.\n• Contra reciente — la tarjeta rechaza más seguido y dejó de funcionar en Mercado Pago."
+      },
+      "de": {
+        "title": "Offramp: Krypto-Karte mit niedrigen Gebühren",
+        "short": "Offramp wird für minimale Gebühren gelobt: Aufladen, Kaufen und Auszahlen ohne Plattformgebühr, plus 0,5% Service. Auszahlung direkt aus Deel möglich; der Kurs ist in Brasilien besonders gut.",
+        "body": "Eröffnung\n• Bei app.offramp.xyz registrieren; derzeit eine virtuelle Karte (mehr + eine physische angekündigt).\n• Der BIN war Hongkong und migriert zu einem US-BIN; laut Mitteilung ohne Gebührenänderung.\n• Eine Deel-Auszahlung lässt sich direkt einleiten.\n\nCashback & Rabatte\n• Der direkte Vorteil ist der Kurs, nicht Cashback: berichtet wird, der Endkurs in Brasilien schlägt uruguayische Karten klar.\n\nVoraussetzungen und Dokumente\n• Standard-KYC; öffnet mit Cédula.\n\nGebühren (FX, Umtausch, Auszahlung)\n• Aufladen/Kaufen/Auszahlen — keine Plattformgebühr; 0,5% an Offramp selbst. Auszahlung in Krypto sofort bei Eingang, kostenlos.\n\nNutzungserfahrung\n• Sehr bequem: Gelder lassen sich bei Eingang sofort in Krypto auszahlen.\n• Jüngerer Nachteil — die Karte lehnt häufiger ab und funktioniert nicht mehr in Mercado Pago."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.crypto_dolarapp",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.karta",
+      "kw.curated.prex"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [],
+    "resource_ids": [],
+    "related_card_ids": [
+      "card.bank_accounts_cards.reference.cards_crypto",
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Profile of DolarApp — digital-dollar fintech (LatAm), ~0 fees, ACH, opened with a Mexican address + Uruguay Cédula + Brazil CPF, with occasional random security holds.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "DolarApp: цифровые доллары",
+        "short": "DolarApp — финтех «цифровых долларов» для Латам с минимальными комиссиями и ACH. Открывают по адресу в Мексике + уругвайской Cédula + бразильскому CPF.",
+        "body": "Как открыть\n• Регистрация на dolarapp.com; покупка/продажа/отправка/трата цифровых долларов.\n• По отзывам открывали на адрес в Мексике, Cédula Уругвая и бразильский CPF.\n\nКешбэк и скидки\n• Кешбэка как такового нет; ценность — нулевые комиссии и хороший курс; на остаток в долларах иногда начисляют процент (условия меняются).\n\nТребования и документы\n• Адрес (Мексика), Cédula, CPF; стандартный KYC.\n\nКомиссии (FX, конвертация, вывод)\n• Комиссии ~0.\n\nОпыт использования\n• Поддерживает ACH; можно вывести средства с PayPal на счёт ACH DolarApp.\n• Иногда срабатывают случайные проверки безопасности с временной заморозкой — доступ восстанавливают."
+      },
+      "en": {
+        "title": "DolarApp: digital dollars",
+        "short": "DolarApp is a LatAm \"digital dollars\" fintech with minimal fees and ACH. Opened with a Mexican address + Uruguay Cédula + Brazil CPF.",
+        "body": "How to open\n• Register at dolarapp.com; buy/sell/send/spend digital dollars.\n• Per reports it was opened with a Mexican address, a Uruguay Cédula and a Brazilian CPF.\n\nCashback & discounts\n• No real cashback; the value is zero fees and a good rate; a USD balance sometimes earns interest (terms change).\n\nRequirements and documents\n• Address (Mexico), Cédula, CPF; standard KYC.\n\nFees (FX, conversion, withdrawal)\n• Fees ~0.\n\nUsage experience\n• Supports ACH; you can withdraw from PayPal to a DolarApp ACH account.\n• Occasional random security checks with a temporary freeze happen — access is restored."
+      },
+      "es": {
+        "title": "DolarApp: dólares digitales",
+        "short": "DolarApp es un fintech de \"dólares digitales\" para Latam con comisiones mínimas y ACH. Se abre con domicilio en México + Cédula uruguaya + CPF brasileño.",
+        "body": "Cómo abrir\n• Registrate en dolarapp.com; comprá/vendé/enviá/gastá dólares digitales.\n• Según reportes se abrió con domicilio en México, Cédula de Uruguay y CPF de Brasil.\n\nCashback y descuentos\n• No hay cashback real; el valor son comisiones cero y buen tipo de cambio; el saldo en USD a veces rinde interés (condiciones cambian).\n\nRequisitos y documentos\n• Domicilio (México), Cédula, CPF; KYC estándar.\n\nComisiones (FX, conversión, retiro)\n• Comisiones ~0.\n\nExperiencia de uso\n• Soporta ACH; podés retirar de PayPal a una cuenta ACH de DolarApp.\n• Hay chequeos de seguridad aleatorios ocasionales con bloqueo temporal — se restablece el acceso."
+      },
+      "de": {
+        "title": "DolarApp: digitale Dollar",
+        "short": "DolarApp ist ein LatAm-Fintech für \"digitale Dollar\" mit minimalen Gebühren und ACH. Eröffnet mit mexikanischer Adresse + uruguayischer Cédula + brasilianischem CPF.",
+        "body": "Eröffnung\n• Bei dolarapp.com registrieren; digitale Dollar kaufen/verkaufen/senden/ausgeben.\n• Berichtet wurde die Eröffnung mit mexikanischer Adresse, Uruguay-Cédula und brasilianischem CPF.\n\nCashback & Rabatte\n• Kein echtes Cashback; der Wert sind Null-Gebühren und ein guter Kurs; ein USD-Saldo bringt teils Zinsen (Bedingungen ändern sich).\n\nVoraussetzungen und Dokumente\n• Adresse (Mexiko), Cédula, CPF; Standard-KYC.\n\nGebühren (FX, Umtausch, Auszahlung)\n• Gebühren ~0.\n\nNutzungserfahrung\n• Unterstützt ACH; von PayPal lässt sich auf ein DolarApp-ACH-Konto auszahlen.\n• Gelegentliche zufällige Sicherheitsprüfungen mit zeitweiser Sperre kommen vor — der Zugang wird wiederhergestellt."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.crypto_tuyo",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.karta",
+      "kw.curated.prex"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [],
+    "resource_ids": [],
+    "related_card_ids": [
+      "card.bank_accounts_cards.reference.cards_crypto",
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Profile of Tuyo — fintech giving a personal/named IBAN + ACH + Mexican account, ~1% FX, loyalty program, free Wise→stablecoin; with the Wise \"named IBAN\" friction.",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Tuyo: именной IBAN и карта",
+        "short": "Tuyo выдаёт персональный IBAN на ваше имя плюс ACH и мексиканский счёт. Дёшево/бесплатно, есть программа лояльности; удобно заводить деньги с Wise сразу в стейблкоины.",
+        "body": "Как открыть\n• Приложение (iOS); дают персональный IBAN на своё имя, ACH и мексиканский счёт.\n• Карты на BIN Пуэрто-Рико. Именной счёт — редкость (есть только у Tuyo и Wallbit).\n\nКешбэк и скидки\n• Программа лояльности (добавили недавно).\n\nТребования и документы\n• Стандартный KYC; именной IBAN на ваше имя.\n\nКомиссии (FX, конвертация, вывод)\n• FX ~1%; в целом недорого/бесплатно. Бесплатный перевод с Wise сразу в стейблкоины.\n\nОпыт использования\n• Перевёл бесплатно с Wise — и сразу можно «высадить» в стейблы ончейн.\n• Нюанс: Wise ругается при отправке на «именные» IBAN (Tuyo, Wallbit). Обходят, указывая в Account holder реквизиты провайдера (например Bridge Building Sp.z.o.o.) вместо своего имени.\n• Микродепозиты от PayPal для подтверждения US-счёта — проверяйте, доходят ли (бывает по-разному)."
+      },
+      "en": {
+        "title": "Tuyo: a named IBAN & card",
+        "short": "Tuyo gives a personal IBAN in your own name plus ACH and a Mexican account. Cheap/free, with a loyalty program; handy to bring money from Wise straight into stablecoins.",
+        "body": "How to open\n• App (iOS); it gives a personal IBAN in your name, ACH and a Mexican account.\n• Cards on a Puerto Rico BIN. A named account is rare (only Tuyo and Wallbit have it).\n\nCashback & discounts\n• A loyalty program (added recently).\n\nRequirements and documents\n• Standard KYC; a named IBAN in your own name.\n\nFees (FX, conversion, withdrawal)\n• FX ~1%; cheap/free overall. A free Wise transfer goes straight into stablecoins.\n\nUsage experience\n• A free Wise transfer in — and you can \"offload\" to stablecoins on-chain right away.\n• Catch: Wise objects to sending to \"named\" IBANs (Tuyo, Wallbit). People work around it by putting the provider’s details (e.g. Bridge Building Sp.z.o.o.) in Account holder instead of their name.\n• PayPal micro-deposits to confirm a US account — check whether they arrive (it varies)."
+      },
+      "es": {
+        "title": "Tuyo: IBAN a tu nombre y tarjeta",
+        "short": "Tuyo da un IBAN personal a tu nombre más ACH y una cuenta mexicana. Barato/gratis, con programa de lealtad; cómodo para traer plata de Wise directo a stablecoins.",
+        "body": "Cómo abrir\n• App (iOS); da un IBAN personal a tu nombre, ACH y una cuenta mexicana.\n• Tarjetas en BIN de Puerto Rico. Una cuenta a nombre propio es rara (solo Tuyo y Wallbit la tienen).\n\nCashback y descuentos\n• Programa de lealtad (agregado hace poco).\n\nRequisitos y documentos\n• KYC estándar; IBAN a tu nombre.\n\nComisiones (FX, conversión, retiro)\n• FX ~1%; barato/gratis en general. Una transferencia gratis de Wise va directo a stablecoins.\n\nExperiencia de uso\n• Transferís gratis desde Wise — y podés \"bajar\" a stablecoins on-chain al toque.\n• Detalle: Wise objeta enviar a IBAN \"a nombre\" (Tuyo, Wallbit). Se sortea poniendo los datos del proveedor (p. ej. Bridge Building Sp.z.o.o.) en Account holder en vez de tu nombre.\n• Microdepósitos de PayPal para confirmar una cuenta de EE. UU. — verificá si llegan (varía)."
+      },
+      "de": {
+        "title": "Tuyo: IBAN auf den eigenen Namen & Karte",
+        "short": "Tuyo gibt einen persönlichen IBAN auf den eigenen Namen plus ACH und ein mexikanisches Konto. Günstig/kostenlos, mit Treueprogramm; praktisch, um Geld von Wise direkt in Stablecoins zu bringen.",
+        "body": "Eröffnung\n• App (iOS); gibt einen persönlichen IBAN auf den eigenen Namen, ACH und ein mexikanisches Konto.\n• Karten auf einem Puerto-Rico-BIN. Ein Konto auf den eigenen Namen ist selten (nur Tuyo und Wallbit).\n\nCashback & Rabatte\n• Ein Treueprogramm (kürzlich hinzugefügt).\n\nVoraussetzungen und Dokumente\n• Standard-KYC; IBAN auf den eigenen Namen.\n\nGebühren (FX, Umtausch, Auszahlung)\n• FX ~1%; insgesamt günstig/kostenlos. Eine kostenlose Wise-Überweisung geht direkt in Stablecoins.\n\nNutzungserfahrung\n• Kostenlose Wise-Überweisung rein — und man kann sofort on-chain in Stablecoins \"ausladen\".\n• Haken: Wise beanstandet das Senden an \"namentliche\" IBANs (Tuyo, Wallbit). Umgangen, indem man die Daten des Anbieters (z. B. Bridge Building Sp.z.o.o.) statt des eigenen Namens im Account holder einträgt.\n• PayPal-Mikro-Einzahlungen zur Bestätigung eines US-Kontos — prüfen, ob sie ankommen (variiert)."
+      }
+    }
+  },
+  {
+    "card_id": "card.bank_accounts_cards.reference.crypto_meru",
+    "topic_id": "topic.bank_accounts_cards",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "high",
+    "sensitivity_level": "high",
+    "sensitivity_tags": [
+      "financial"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.62,
+    "review_reasons": [
+      "financial_topic_verify_before_action",
+      "editorially_authored_card",
+      "rules_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.bank_accounts_cards.reference"
+    ],
+    "keyword_ids": [
+      "kw.curated.karta",
+      "kw.curated.prex"
+    ],
+    "glossary_term_ids": [
+      "term.cedula"
+    ],
+    "entity_ids": [],
+    "resource_ids": [],
+    "related_card_ids": [
+      "card.bank_accounts_cards.reference.cards_crypto",
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "prerequisite_card_ids": [
+      "card.bank_accounts_cards.overview.payment_methods_overview"
+    ],
+    "last_updated_from_message_date": "2026-06-24",
+    "service": {
+      "source_intent": "Profile of Meru — USD bank account fintech with ACH/WIRE receiving from any US individual, outgoing ACH from crypto, $10k/day limit; deposit-and-use model (no easy crypto-out like an exchange).",
+      "kind": "service_guide",
+      "evidence": "telegram_chat_synthesis"
+    },
+    "text": {
+      "ru": {
+        "title": "Meru: счёт в USD с ACH/WIRE",
+        "short": "Meru даёт долларовый счёт с приёмом ACH/WIRE, в том числе от любых физлиц из США, и исходящим ACH из крипты. Лимит ~10 000 USD/день.",
+        "body": "Как открыть\n• Регистрация в приложении; долларовый счёт с реквизитами для ACH/WIRE.\n• Пополнение криптой по сети (например Polygon) — приходит ончейн.\n\nКешбэк и скидки\n• Кешбэка нет; ценность — приём долларов из США и удобный ACH.\n\nТребования и документы\n• Стандартный KYC.\n\nКомиссии (FX, конвертация, вывод)\n• Входящий ACH — бесплатно (по акции), WIRE — 20 USD. Лимит получения ~10 000 USD/день. Исходящий ACH из крипты — комиссии видны при вводе платежа.\n\nОпыт использования\n• Главный плюс — приём ACH/WIRE от любых физлиц из США (раньше было только от себя/семьи).\n• Можно отправить на счёт третьего лица в США.\n• Модель «задепозитил — пользуйся»: в отличие от Bybit, легко вывести крипту обратно не получится — выбирайте под сценарий."
+      },
+      "en": {
+        "title": "Meru: a USD account with ACH/WIRE",
+        "short": "Meru gives a USD account that receives ACH/WIRE, including from any US individual, and sends outgoing ACH from crypto. Limit ~10,000 USD/day.",
+        "body": "How to open\n• Register in the app; a USD account with ACH/WIRE details.\n• Top up with crypto over a network (e.g. Polygon) — it arrives on-chain.\n\nCashback & discounts\n• No cashback; the value is receiving US dollars and convenient ACH.\n\nRequirements and documents\n• Standard KYC.\n\nFees (FX, conversion, withdrawal)\n• Incoming ACH — free (promo), WIRE — 20 USD. Receiving limit ~10,000 USD/day. Outgoing ACH from crypto — fees show when you enter the payment.\n\nUsage experience\n• The main plus — receiving ACH/WIRE from any US individual (previously only from yourself/family).\n• You can send to a third party’s account in the US.\n• A \"deposit-and-use\" model: unlike Bybit, getting crypto back out is not easy — pick it for the right scenario."
+      },
+      "es": {
+        "title": "Meru: cuenta en USD con ACH/WIRE",
+        "short": "Meru da una cuenta en USD que recibe ACH/WIRE, incluso de cualquier persona física de EE. UU., y envía ACH saliente desde cripto. Límite ~10.000 USD/día.",
+        "body": "Cómo abrir\n• Registrate en la app; cuenta en USD con datos para ACH/WIRE.\n• Cargá con cripto por una red (p. ej. Polygon) — llega on-chain.\n\nCashback y descuentos\n• Sin cashback; el valor es recibir dólares de EE. UU. y un ACH cómodo.\n\nRequisitos y documentos\n• KYC estándar.\n\nComisiones (FX, conversión, retiro)\n• ACH entrante — gratis (promo), WIRE — 20 USD. Límite de recepción ~10.000 USD/día. ACH saliente desde cripto — las comisiones se ven al cargar el pago.\n\nExperiencia de uso\n• El plus principal — recibir ACH/WIRE de cualquier persona física de EE. UU. (antes solo de uno mismo/familia).\n• Podés enviar a la cuenta de un tercero en EE. UU.\n• Modelo \"depositá y usá\": a diferencia de Bybit, sacar la cripto de vuelta no es fácil — elegila según el escenario."
+      },
+      "de": {
+        "title": "Meru: USD-Konto mit ACH/WIRE",
+        "short": "Meru gibt ein USD-Konto, das ACH/WIRE empfängt, auch von jeder US-Privatperson, und ausgehendes ACH aus Krypto sendet. Limit ~10.000 USD/Tag.",
+        "body": "Eröffnung\n• In der App registrieren; ein USD-Konto mit ACH/WIRE-Daten.\n• Mit Krypto über ein Netz (z. B. Polygon) aufladen — kommt on-chain an.\n\nCashback & Rabatte\n• Kein Cashback; der Wert ist der Empfang von US-Dollar und bequemes ACH.\n\nVoraussetzungen und Dokumente\n• Standard-KYC.\n\nGebühren (FX, Umtausch, Auszahlung)\n• Eingehendes ACH — kostenlos (Promo), WIRE — 20 USD. Empfangslimit ~10.000 USD/Tag. Ausgehendes ACH aus Krypto — Gebühren zeigen sich bei der Zahlungseingabe.\n\nNutzungserfahrung\n• Hauptvorteil — Empfang von ACH/WIRE von jeder US-Privatperson (zuvor nur von sich selbst/Familie).\n• Man kann an das Konto eines Dritten in den USA senden.\n• Ein \"Einzahlen-und-nutzen\"-Modell: anders als bei Bybit ist das Zurückholen von Krypto nicht einfach — passend zum Szenario wählen."
+      }
+    }
   }
 ]

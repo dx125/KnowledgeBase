@@ -12,6 +12,17 @@ vendor versions are `kb_dataset_uy <semver>`.
 
 ## Our changes (after taking ownership of the dataset)
 
+### Unreleased — Banking & payments cards + `service.kind` extension  · 2026-06-24
+- Added **14 editorial cards** under `topic.bank_accounts_cards`: a payment-methods overview, one
+  per bank (Prex, OCA, BROU, Itaú, Scotiabank, Santander), a crypto-cards hub, and per-provider
+  crypto-fintech cards (RedotPay, ether.fi, Offramp, DolarApp, Tuyo, Meru). RU source + EN/ES/DE,
+  each with a `service` block. Per-card detail in `../dataset-patches/CHANGELOG.md`.
+- **Extended the `service.kind` enum** with `service_guide` (a how-to profile of one concrete
+  service/institution) and `overview` (a domain landscape/index card), to describe this new card
+  family. Updated `schemas/service.schema.json` and §4 of `SCHEMA.md`. Audit: all 156 editorial
+  cards (52 new-cards + 19 FAQ topics + 85 FAQ answer-cards) carry a schema-valid `service` block;
+  vendor cards remain exempt by design.
+
 ### v7.3 — Normalized Q&A (questions → cards) + service metadata + raw→v6.6  · 2026-06-24
 - **Normalized the Q&A model** to match the upstream design and remove duplication: an answer now
   lives **once** as a card (the `topic.faq_*` answer-cards); a **question** is stored separately in
