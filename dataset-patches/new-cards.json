@@ -3183,6 +3183,7 @@
       "card.locations_neighborhoods_living.reference.district_montevideo_pocitos",
       "card.locations_neighborhoods_living.reference.district_montevideo_punta_carretas",
       "card.locations_neighborhoods_living.reference.district_montevideo_carrasco",
+      "card.locations_neighborhoods_living.reference.district_montevideo_carrasco_norte",
       "card.locations_neighborhoods_living.reference.district_montevideo_buceo",
       "card.locations_neighborhoods_living.reference.district_montevideo_malvin",
       "card.locations_neighborhoods_living.reference.district_montevideo_cordon",
@@ -3195,7 +3196,7 @@
       "card.locations_neighborhoods_living.reference.district_montevideo_ciudad_vieja"
     ],
     "prerequisite_card_ids": [],
-    "last_updated_from_message_date": "2026-06-21",
+    "last_updated_from_message_date": "2026-06-24",
     "district_meta": {
       "id": "montevideo",
       "city": "Montevideo",
@@ -3204,6 +3205,7 @@
         "montevideo.pocitos",
         "montevideo.punta_carretas",
         "montevideo.carrasco",
+        "montevideo.carrasco_norte",
         "montevideo.buceo",
         "montevideo.malvin",
         "montevideo.cordon",
@@ -4376,6 +4378,705 @@
         "title": "Meru: USD-Konto mit ACH/WIRE",
         "short": "Meru gibt ein USD-Konto, das ACH/WIRE empfängt, auch von jeder US-Privatperson, und ausgehendes ACH aus Krypto sendet. Limit ~10.000 USD/Tag.",
         "body": "Eröffnung\n• In der App registrieren; ein USD-Konto mit ACH/WIRE-Daten.\n• Mit Krypto über ein Netz (z. B. Polygon) aufladen — kommt on-chain an.\n\nCashback & Rabatte\n• Kein Cashback; der Wert ist der Empfang von US-Dollar und bequemes ACH.\n\nVoraussetzungen und Dokumente\n• Standard-KYC.\n\nGebühren (FX, Umtausch, Auszahlung)\n• Eingehendes ACH — kostenlos (Promo), WIRE — 20 USD. Empfangslimit ~10.000 USD/Tag. Ausgehendes ACH aus Krypto — Gebühren zeigen sich bei der Zahlungseingabe.\n\nNutzungserfahrung\n• Hauptvorteil — Empfang von ACH/WIRE von jeder US-Privatperson (zuvor nur von sich selbst/Familie).\n• Man kann an das Konto eines Dritten in den USA senden.\n• Ein \"Einzahlen-und-nutzen\"-Modell: anders als bei Bybit ist das Zurückholen von Krypto nicht einfach — passend zum Szenario wählen."
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.reference.district_montevideo_carrasco_norte",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective",
+      "conditions_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.reference"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes",
+      "term.itp"
+    ],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre"
+    ],
+    "keyword_ids": [
+      "kw.curated.rayon",
+      "kw.curated.lokac",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn",
+      "kw.curated.montevideo"
+    ],
+    "entity_ids": [],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.reference.ref_montevideo",
+      "card.locations_neighborhoods_living.reference.ref_bezopasnost_i_infrastruktura",
+      "card.locations_neighborhoods_living.reference.district_montevideo_carrasco",
+      "card.locations_neighborhoods_living.overview.city_montevideo"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "district_meta": {
+      "id": "montevideo.carrasco_norte",
+      "city": "Montevideo",
+      "safety_level": "high",
+      "infrastructure_level": "medium",
+      "price_level": "high",
+      "tags": [
+        "clase-alta",
+        "suburban",
+        "quiet",
+        "family",
+        "car-needed"
+      ]
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for montevideo.carrasco_norte: overall feel + safety/infrastructure/price ratings + tags.",
+      "kind": "place_guide",
+      "evidence": "editorial_general_knowledge"
+    },
+    "text": {
+      "ru": {
+        "title": "Карраско-Норте (Carrasco Norte), Монтевидео: тихий жилой район за престижным Карраско",
+        "short": "Зелёное малоэтажное продолжение Карраско к северу от рамблы — тихо, безопасно, чуть доступнее самой набережной. Обычно нужна машина.",
+        "body": "Безопасность: высокая · Инфраструктура: средняя · Цены: высокие\n\nКарраско-Норте — продолжение престижного Карраско в глубь от рамблы: тихий зелёный жилой район особняков и таунхаусов, между авенидой Италия / зоной аэропорта и собственно Карраско. Здесь спокойнее и чуть доступнее, чем у самой набережной, но дух тот же — clase alta, малоэтажная застройка, закрытые посёлки. Повседневных сервисов в пешей доступности немного, обычно нужна машина; рядом аэропорт Карраско, хорошие школы и Carrasco Lawn Tennis. Хороший вариант для семей, которые ценят тишину и безопасность.\n\nТеги: класа-альта, пригородный, тихий, семейный, нужна машина"
+      },
+      "en": {
+        "title": "Carrasco Norte, Montevideo: a quiet residential area behind upscale Carrasco",
+        "short": "A leafy, low-rise extension of Carrasco inland from the rambla — quiet, safe, a touch more affordable than the seafront. A car is usually needed.",
+        "body": "Safety: high · Infrastructure: medium · Prices: high\n\nCarrasco Norte is the inland extension of upscale Carrasco, north of the rambla: a quiet, green residential area of houses and townhouses between Av. Italia / the airport zone and Carrasco proper. It is calmer and a touch more affordable than the seafront strip, but the feel is the same — clase alta, low-rise, gated communities. Few everyday services are within walking distance, so a car is usually needed; near Carrasco airport, good schools and the Carrasco Lawn Tennis club. A good pick for families who value quiet and safety.\n\nTags: clase alta, suburban, quiet, family, car needed"
+      },
+      "es": {
+        "title": "Carrasco Norte, Montevideo: zona residencial tranquila detrás del exclusivo Carrasco",
+        "short": "Una extensión verde y de baja altura de Carrasco hacia el interior — tranquila, segura, algo más accesible que la costa. En general hace falta auto.",
+        "body": "Seguridad: alta · Infraestructura: media · Precios: altos\n\nCarrasco Norte es la extensión hacia el interior del exclusivo Carrasco, al norte de la rambla: una zona residencial verde y tranquila de casas y townhouses, entre Av. Italia / la zona del aeropuerto y el propio Carrasco. Es más tranquila y algo más accesible que la franja costera, pero la onda es la misma — clase alta, baja altura, barrios cerrados. Hay pocos servicios cotidianos a pie, así que en general hace falta auto; cerca del aeropuerto de Carrasco, buenos colegios y el Carrasco Lawn Tennis. Buena opción para familias que valoran la tranquilidad y la seguridad.\n\nEtiquetas: clase alta, residencial, tranquilo, familiar, hace falta auto"
+      },
+      "de": {
+        "title": "Carrasco Norte, Montevideo: ruhiges Wohnviertel hinter dem gehobenen Carrasco",
+        "short": "Eine grüne, flach bebaute Fortsetzung von Carrasco landeinwärts — ruhig, sicher, etwas günstiger als die Küste. Meist braucht man ein Auto.",
+        "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nCarrasco Norte ist die landeinwärts gelegene Fortsetzung des gehobenen Carrasco, nördlich der Rambla: ein ruhiges, grünes Wohngebiet aus Häusern und Townhouses, zwischen Av. Italia / dem Flughafenbereich und Carrasco selbst. Es ist ruhiger und etwas günstiger als der Küstenstreifen, aber das Flair ist dasselbe — clase alta, flache Bebauung, geschlossene Wohnanlagen. Wenige Alltagsdienste zu Fuß, daher braucht man meist ein Auto; nahe dem Flughafen Carrasco, guten Schulen und dem Carrasco Lawn Tennis. Eine gute Wahl für Familien, die Ruhe und Sicherheit schätzen.\n\nSchlagwörter: clase alta, vorstädtisch, ruhig, familienfreundlich, Auto nötig"
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_san_jose_de_carrasco",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective",
+      "conditions_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.reference"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes",
+      "term.itp"
+    ],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre"
+    ],
+    "keyword_ids": [
+      "kw.curated.rayon",
+      "kw.curated.lokac",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn"
+    ],
+    "entity_ids": [],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.overview.city_ciudad_de_la_costa",
+      "card.locations_neighborhoods_living.reference.ref_bezopasnost_i_infrastruktura"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "district_meta": {
+      "id": "ciudad_de_la_costa.san_jose_de_carrasco",
+      "city": "Ciudad de la Costa",
+      "safety_level": "high",
+      "infrastructure_level": "medium",
+      "price_level": "high",
+      "tags": [
+        "clase-media-alta",
+        "suburban",
+        "quiet",
+        "airport",
+        "car-needed"
+      ]
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for ciudad_de_la_costa.san_jose_de_carrasco: overall feel + safety/infrastructure/price ratings + tags.",
+      "kind": "place_guide",
+      "evidence": "editorial_general_knowledge"
+    },
+    "text": {
+      "ru": {
+        "title": "Сан-Хосе-де-Карраско (San José de Carrasco): престижный западный баррио у границы Монтевидео",
+        "short": "Самый западный баррио Сьюдад-де-ла-Косты, сразу за Карраско и аэропортом — зелёный, тихий, дорогой. Нужна машина.",
+        "body": "Безопасность: высокая · Инфраструктура: средняя · Цены: высокие\n\nСан-Хосе-де-Карраско — самый западный и один из самых престижных баррио Сьюдад-де-ла-Косты, сразу за границей Монтевидео рядом с Карраско и аэропортом. Зелёный малоэтажный район с хорошими домами и закрытыми посёлками; по духу — продолжение Карраско, но на стороне Канелонес и чуть доступнее. Пляж рядом, повседневных сервисов немного — нужна машина.\n\nТеги: класа-медиа-альта, пригородный, тихий, аэропорт, нужна машина"
+      },
+      "en": {
+        "title": "San José de Carrasco: the upscale western barrio at the Montevideo line",
+        "short": "The westernmost barrio of Ciudad de la Costa, right past Carrasco and the airport — green, quiet, pricey. A car is needed.",
+        "body": "Safety: high · Infrastructure: medium · Prices: high\n\nSan José de Carrasco is the westernmost and one of the most upscale barrios of Ciudad de la Costa, right across the Montevideo line next to Carrasco and the airport. A green, low-rise area of good houses and gated communities; in feel an extension of Carrasco, but on the Canelones side and a bit more affordable. The beach is close and everyday services are few — a car is needed.\n\nTags: upper-middle class, suburban, quiet, airport, car needed"
+      },
+      "es": {
+        "title": "San José de Carrasco: el barrio exclusivo del oeste, en el límite con Montevideo",
+        "short": "El barrio más al oeste de Ciudad de la Costa, justo pasando Carrasco y el aeropuerto — verde, tranquilo, caro. Hace falta auto.",
+        "body": "Seguridad: alta · Infraestructura: media · Precios: altos\n\nSan José de Carrasco es el barrio más al oeste y uno de los más exclusivos de Ciudad de la Costa, justo cruzando el límite de Montevideo junto a Carrasco y el aeropuerto. Una zona verde y de baja altura, de buenas casas y barrios cerrados; en onda una extensión de Carrasco, pero del lado de Canelones y algo más accesible. La playa está cerca y hay pocos servicios cotidianos — hace falta auto.\n\nEtiquetas: clase media-alta, residencial, tranquilo, aeropuerto, hace falta auto"
+      },
+      "de": {
+        "title": "San José de Carrasco: das gehobene Westviertel an der Grenze zu Montevideo",
+        "short": "Das westlichste Viertel von Ciudad de la Costa, gleich hinter Carrasco und dem Flughafen — grün, ruhig, teuer. Ein Auto ist nötig.",
+        "body": "Sicherheit: hoch · Infrastruktur: mittel · Preise: hoch\n\nSan José de Carrasco ist das westlichste und eines der gehobensten Viertel von Ciudad de la Costa, direkt über der Grenze zu Montevideo neben Carrasco und dem Flughafen. Ein grünes, flach bebautes Gebiet mit guten Häusern und geschlossenen Wohnanlagen; vom Flair her eine Fortsetzung von Carrasco, aber auf der Seite von Canelones und etwas günstiger. Der Strand ist nahe, Alltagsdienste sind rar — ein Auto ist nötig.\n\nSchlagwörter: gehobene Mittelschicht, vorstädtisch, ruhig, Flughafen, Auto nötig"
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_lagomar",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective",
+      "conditions_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.reference"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes",
+      "term.itp"
+    ],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre"
+    ],
+    "keyword_ids": [
+      "kw.curated.rayon",
+      "kw.curated.lokac",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn"
+    ],
+    "entity_ids": [],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.overview.city_ciudad_de_la_costa",
+      "card.locations_neighborhoods_living.reference.ref_bezopasnost_i_infrastruktura"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "district_meta": {
+      "id": "ciudad_de_la_costa.lagomar",
+      "city": "Ciudad de la Costa",
+      "safety_level": "medium",
+      "infrastructure_level": "medium",
+      "price_level": "medium",
+      "tags": [
+        "beach",
+        "family",
+        "suburban",
+        "car-recommended"
+      ]
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for ciudad_de_la_costa.lagomar: overall feel + safety/infrastructure/price ratings + tags.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis + editorial_general_knowledge"
+    },
+    "text": {
+      "ru": {
+        "title": "Лагомар (Lagomar): ближайший к Монтевидео прибрежный баррио",
+        "short": "Первый баррио Сьюдад-де-ла-Косты после ручья Карраско, ближе всего к Монтевидео и аэропорту. Семейный, с пляжем, цены умеренные.",
+        "body": "Безопасность: средняя · Инфраструктура: средняя · Цены: средние\n\nЛагомар — первый прибрежный баррио Сьюдад-де-ла-Косты после ручья Карраско, ближе всего к Монтевидео и аэропорту. Популярен у семей: песчаный пляж, малоэтажная жилая застройка, спокойный ритм. Цены умереннее, чем в Карраско; инфраструктура средняя, удобнее с машиной. Делится на Лагомар-Сур (ближе к морю) и северную часть за авенидой Джаннаттазио.\n\nТеги: пляж, семейный, пригородный, лучше с машиной"
+      },
+      "en": {
+        "title": "Lagomar: the coastal barrio closest to Montevideo",
+        "short": "The first barrio of Ciudad de la Costa past the Carrasco stream, closest to Montevideo and the airport. Family-friendly, with a beach; moderate prices.",
+        "body": "Safety: medium · Infrastructure: medium · Prices: medium\n\nLagomar is the first coastal barrio of Ciudad de la Costa past the Carrasco stream, closest to Montevideo and the airport. Popular with families: a sandy beach, low-rise housing, a calm pace. Prices are more moderate than in Carrasco; infrastructure is medium and a car is handy. It splits into Lagomar Sur (nearer the sea) and the northern part beyond Avenida Giannattasio.\n\nTags: beach, family, suburban, car recommended"
+      },
+      "es": {
+        "title": "Lagomar: el barrio costero más cercano a Montevideo",
+        "short": "El primer barrio de Ciudad de la Costa pasando el arroyo Carrasco, el más cercano a Montevideo y al aeropuerto. Familiar, con playa; precios moderados.",
+        "body": "Seguridad: media · Infraestructura: media · Precios: medios\n\nLagomar es el primer barrio costero de Ciudad de la Costa pasando el arroyo Carrasco, el más cercano a Montevideo y al aeropuerto. Popular entre familias: playa de arena, construcción baja, ritmo tranquilo. Los precios son más moderados que en Carrasco; la infraestructura es media y conviene tener auto. Se divide en Lagomar Sur (más cerca del mar) y la parte norte pasando la Avenida Giannattasio.\n\nEtiquetas: playa, familiar, residencial, conviene auto"
+      },
+      "de": {
+        "title": "Lagomar: das Montevideo am nächsten gelegene Küstenviertel",
+        "short": "Das erste Viertel von Ciudad de la Costa hinter dem Carrasco-Bach, am nächsten zu Montevideo und Flughafen. Familienfreundlich, mit Strand; moderate Preise.",
+        "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nLagomar ist das erste Küstenviertel von Ciudad de la Costa hinter dem Carrasco-Bach, am nächsten zu Montevideo und dem Flughafen. Bei Familien beliebt: Sandstrand, flache Bebauung, ruhiges Tempo. Die Preise sind moderater als in Carrasco; die Infrastruktur ist mittel und ein Auto ist praktisch. Es teilt sich in Lagomar Sur (näher am Meer) und den nördlichen Teil jenseits der Avenida Giannattasio.\n\nSchlagwörter: Strand, familienfreundlich, vorstädtisch, Auto empfohlen"
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_shangrila",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective",
+      "conditions_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.reference"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes",
+      "term.itp"
+    ],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre"
+    ],
+    "keyword_ids": [
+      "kw.curated.rayon",
+      "kw.curated.lokac",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn"
+    ],
+    "entity_ids": [],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.overview.city_ciudad_de_la_costa",
+      "card.locations_neighborhoods_living.reference.ref_bezopasnost_i_infrastruktura"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "district_meta": {
+      "id": "ciudad_de_la_costa.shangrila",
+      "city": "Ciudad de la Costa",
+      "safety_level": "medium",
+      "infrastructure_level": "medium",
+      "price_level": "medium",
+      "tags": [
+        "residential",
+        "shopping",
+        "family",
+        "beach"
+      ]
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for ciudad_de_la_costa.shangrila: overall feel + safety/infrastructure/price ratings + tags.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis + editorial_general_knowledge"
+    },
+    "text": {
+      "ru": {
+        "title": "Шангрила (Shangrilá): жилой баррио с главным торговым центром побережья",
+        "short": "Между Лагомаром и Солимаром; здесь Costa Urbana Shopping — крупнейший ТЦ восточного побережья. Спокойный, семейный, с пляжем.",
+        "body": "Безопасность: средняя · Инфраструктура: средняя · Цены: средние\n\nШангрила — жилой баррио между Лагомаром и Солимаром; здесь же Costa Urbana Shopping, крупнейший торговый центр восточного побережья. Спокойный, семейный, с песчаным пляжем; цены средние. Удобное расположение и торговый центр делают его одним из более развитых баррио, но он всё равно ориентирован на машину.\n\nТеги: жилой, шопинг, семейный, пляж"
+      },
+      "en": {
+        "title": "Shangrilá: a residential barrio with the coast’s main shopping mall",
+        "short": "Between Lagomar and Solymar; home to Costa Urbana Shopping, the east coast’s largest mall. Quiet, family-friendly, with a beach.",
+        "body": "Safety: medium · Infrastructure: medium · Prices: medium\n\nShangrilá is a residential barrio between Lagomar and Solymar, home to Costa Urbana Shopping, the east coast’s largest mall. Quiet and family-friendly, with a sandy beach; prices are medium. Its convenient location and the mall make it one of the more developed barrios, but it is still car-oriented.\n\nTags: residential, shopping, family, beach"
+      },
+      "es": {
+        "title": "Shangrilá: barrio residencial con el principal shopping de la costa",
+        "short": "Entre Lagomar y Solymar; ahí está Costa Urbana Shopping, el mayor centro comercial de la costa este. Tranquilo, familiar, con playa.",
+        "body": "Seguridad: media · Infraestructura: media · Precios: medios\n\nShangrilá es un barrio residencial entre Lagomar y Solymar; ahí está Costa Urbana Shopping, el mayor centro comercial de la costa este. Tranquilo y familiar, con playa de arena; precios medios. Su ubicación cómoda y el shopping lo hacen uno de los barrios más desarrollados, pero igual depende del auto.\n\nEtiquetas: residencial, shopping, familiar, playa"
+      },
+      "de": {
+        "title": "Shangrilá: Wohnviertel mit dem wichtigsten Einkaufszentrum der Küste",
+        "short": "Zwischen Lagomar und Solymar; hier liegt Costa Urbana Shopping, das größte Einkaufszentrum der Ostküste. Ruhig, familienfreundlich, mit Strand.",
+        "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nShangrilá ist ein Wohnviertel zwischen Lagomar und Solymar; hier liegt Costa Urbana Shopping, das größte Einkaufszentrum der Ostküste. Ruhig und familienfreundlich, mit Sandstrand; die Preise sind mittel. Die bequeme Lage und das Einkaufszentrum machen es zu einem der entwickelteren Viertel, aber es bleibt autoorientiert.\n\nSchlagwörter: Wohngebiet, Shopping, familienfreundlich, Strand"
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_solymar",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective",
+      "conditions_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.reference"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes",
+      "term.itp"
+    ],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre"
+    ],
+    "keyword_ids": [
+      "kw.curated.rayon",
+      "kw.curated.lokac",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn"
+    ],
+    "entity_ids": [],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.overview.city_ciudad_de_la_costa",
+      "card.locations_neighborhoods_living.reference.ref_bezopasnost_i_infrastruktura"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "district_meta": {
+      "id": "ciudad_de_la_costa.solymar",
+      "city": "Ciudad de la Costa",
+      "safety_level": "medium",
+      "infrastructure_level": "medium",
+      "price_level": "medium",
+      "tags": [
+        "commercial",
+        "populated",
+        "transport",
+        "beach"
+      ]
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for ciudad_de_la_costa.solymar: overall feel + safety/infrastructure/price ratings + tags.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis + editorial_general_knowledge"
+    },
+    "text": {
+      "ru": {
+        "title": "Солимар (Solymar): оживлённый коммерческий центр побережья",
+        "short": "Один из самых населённых баррио, торговый и транспортный узел вдоль Джаннаттазио: супермаркеты, банки, кафе. Инфраструктура хорошая, тишины меньше.",
+        "body": "Безопасность: средняя · Инфраструктура: средняя · Цены: средние\n\nСолимар — один из самых населённых и оживлённых баррио, торговый узел восточного побережья вдоль авениды Джаннаттазио: супермаркеты, банки, кафе, остановки транспорта. Песчаные пляжи и смешанная застройка. Цены средние, инфраструктура одна из лучших в Сьюдад-де-ла-Косте, но из-за оживлённости и трафика спокойствие ниже, чем в соседних баррио.\n\nТеги: коммерческий, населённый, транспорт, пляж"
+      },
+      "en": {
+        "title": "Solymar: the busy commercial hub of the coast",
+        "short": "One of the most populated barrios and the coast’s commercial/transport hub along Giannattasio: supermarkets, banks, cafés. Good infrastructure, less quiet.",
+        "body": "Safety: medium · Infrastructure: medium · Prices: medium\n\nSolymar is one of the most populated and lively barrios and the east coast’s commercial hub along Avenida Giannattasio: supermarkets, banks, cafés, transport stops. Sandy beaches and mixed housing. Prices are medium and the infrastructure is among the best in Ciudad de la Costa, but the bustle and traffic make it less quiet than neighbouring barrios.\n\nTags: commercial, populated, transport, beach"
+      },
+      "es": {
+        "title": "Solymar: el centro comercial movido de la costa",
+        "short": "Uno de los barrios más poblados y el nudo comercial/de transporte sobre Giannattasio: supermercados, bancos, cafés. Buena infraestructura, menos tranquilo.",
+        "body": "Seguridad: media · Infraestructura: media · Precios: medios\n\nSolymar es uno de los barrios más poblados y movidos, el nudo comercial de la costa este sobre la Avenida Giannattasio: supermercados, bancos, cafés, paradas de transporte. Playas de arena y construcción mixta. Precios medios e infraestructura de las mejores de Ciudad de la Costa, pero el movimiento y el tránsito lo hacen menos tranquilo que los barrios vecinos.\n\nEtiquetas: comercial, poblado, transporte, playa"
+      },
+      "de": {
+        "title": "Solymar: das belebte Handelszentrum der Küste",
+        "short": "Eines der bevölkerungsreichsten Viertel und der Handels-/Verkehrsknoten entlang Giannattasio: Supermärkte, Banken, Cafés. Gute Infrastruktur, weniger ruhig.",
+        "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nSolymar ist eines der bevölkerungsreichsten und lebhaftesten Viertel und der Handelsknoten der Ostküste entlang der Avenida Giannattasio: Supermärkte, Banken, Cafés, Haltestellen. Sandstrände und gemischte Bebauung. Die Preise sind mittel und die Infrastruktur gehört zu den besten in Ciudad de la Costa, doch Trubel und Verkehr machen es weniger ruhig als die Nachbarviertel.\n\nSchlagwörter: kommerziell, bevölkert, Verkehr, Strand"
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_lomas_de_solymar",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective",
+      "conditions_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.reference"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes",
+      "term.itp"
+    ],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre"
+    ],
+    "keyword_ids": [
+      "kw.curated.rayon",
+      "kw.curated.lokac",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn"
+    ],
+    "entity_ids": [],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.overview.city_ciudad_de_la_costa",
+      "card.locations_neighborhoods_living.reference.ref_bezopasnost_i_infrastruktura"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "district_meta": {
+      "id": "ciudad_de_la_costa.lomas_de_solymar",
+      "city": "Ciudad de la Costa",
+      "safety_level": "medium",
+      "infrastructure_level": "low",
+      "price_level": "low",
+      "tags": [
+        "residential",
+        "growing",
+        "inland",
+        "car-needed",
+        "affordable"
+      ]
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for ciudad_de_la_costa.lomas_de_solymar: overall feel + safety/infrastructure/price ratings + tags.",
+      "kind": "place_guide",
+      "evidence": "editorial_general_knowledge"
+    },
+    "text": {
+      "ru": {
+        "title": "Ломас-де-Солимар (Lomas de Solymar): доступный растущий баррио в стороне от моря",
+        "short": "К северу от Солимара, дальше от пляжа; активно застраивается. Дешевле прибрежных зон, тише, но машина почти обязательна.",
+        "body": "Безопасность: средняя · Инфраструктура: низкая · Цены: низкие\n\nЛомас-де-Солимар — баррио к северу от Солимара, в стороне от моря, который активно застраивается новым жильём. Дешевле прибрежных зон и тише, но дальше от пляжа и сервисов — машина практически обязательна. Подходит тем, кто ищет более доступное жильё и не против пригородного формата.\n\nТеги: жилой, растущий, в глубине, нужна машина, доступный"
+      },
+      "en": {
+        "title": "Lomas de Solymar: an affordable, growing inland barrio",
+        "short": "North of Solymar, away from the beach; building up fast. Cheaper than the coastal zones and quieter, but a car is near-essential.",
+        "body": "Safety: medium · Infrastructure: low · Prices: low\n\nLomas de Solymar is a barrio north of Solymar, away from the sea, that is building up fast with new housing. Cheaper than the coastal zones and quieter, but farther from the beach and services — a car is near-essential. It suits people looking for more affordable housing who don’t mind a suburban format.\n\nTags: residential, growing, inland, car needed, affordable"
+      },
+      "es": {
+        "title": "Lomas de Solymar: barrio accesible y en crecimiento, hacia el interior",
+        "short": "Al norte de Solymar, lejos de la playa; se construye rápido. Más barato que la costa y más tranquilo, pero el auto es casi imprescindible.",
+        "body": "Seguridad: media · Infraestructura: baja · Precios: bajos\n\nLomas de Solymar es un barrio al norte de Solymar, lejos del mar, que se construye rápido con vivienda nueva. Más barato que las zonas costeras y más tranquilo, pero más lejos de la playa y los servicios — el auto es casi imprescindible. Conviene a quienes buscan vivienda más accesible y no les molesta el formato suburbano.\n\nEtiquetas: residencial, en crecimiento, interior, hace falta auto, accesible"
+      },
+      "de": {
+        "title": "Lomas de Solymar: günstiges, wachsendes Viertel im Landesinneren",
+        "short": "Nördlich von Solymar, abseits des Strandes; baut sich schnell aus. Günstiger als die Küstenzonen und ruhiger, aber ein Auto ist fast unverzichtbar.",
+        "body": "Sicherheit: mittel · Infrastruktur: niedrig · Preise: niedrig\n\nLomas de Solymar ist ein Viertel nördlich von Solymar, abseits des Meeres, das sich mit Neubauten schnell ausbaut. Günstiger als die Küstenzonen und ruhiger, aber weiter weg von Strand und Diensten — ein Auto ist fast unverzichtbar. Es passt für alle, die günstigeren Wohnraum suchen und mit dem vorstädtischen Format zurechtkommen.\n\nSchlagwörter: Wohngebiet, wachsend, Landesinnere, Auto nötig, günstig"
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_el_pinar",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "reference",
+    "card_type": "summary",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "medium",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.55,
+    "quality_score": 0.6,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective",
+      "conditions_change_over_time"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.reference"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes",
+      "term.itp"
+    ],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre"
+    ],
+    "keyword_ids": [
+      "kw.curated.rayon",
+      "kw.curated.lokac",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn"
+    ],
+    "entity_ids": [],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.overview.city_ciudad_de_la_costa",
+      "card.locations_neighborhoods_living.reference.ref_bezopasnost_i_infrastruktura"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "district_meta": {
+      "id": "ciudad_de_la_costa.el_pinar",
+      "city": "Ciudad de la Costa",
+      "safety_level": "medium",
+      "infrastructure_level": "medium",
+      "price_level": "medium",
+      "tags": [
+        "pine-forest",
+        "quiet",
+        "beach",
+        "car-needed"
+      ]
+    },
+    "service": {
+      "source_intent": "Neighbourhood living guide for ciudad_de_la_costa.el_pinar: overall feel + safety/infrastructure/price ratings + tags.",
+      "kind": "place_guide",
+      "evidence": "telegram_chat_synthesis + editorial_general_knowledge"
+    },
+    "text": {
+      "ru": {
+        "title": "Эль-Пинар (El Pinar): тихий восточный баррио в сосновых лесах",
+        "short": "Самый восточный из крупных баррио, известен соснами и дачным происхождением. Тихий, зелёный, с пляжами; дальше от Монтевидео, нужна машина.",
+        "body": "Безопасность: средняя · Инфраструктура: средняя · Цены: средние\n\nЭль-Пинар — самый восточный из крупных баррио Сьюдад-де-ла-Косты, известный сосновыми лесами и дачным происхождением. Тихий, зелёный, малоэтажный, с песчаными пляжами; популярен у тех, кто хочет уединения у моря. Дальше от Монтевидео, инфраструктура средняя, нужна машина.\n\nТеги: сосновый лес, тихий, пляж, нужна машина"
+      },
+      "en": {
+        "title": "El Pinar: a quiet eastern barrio in the pine woods",
+        "short": "The easternmost of the large barrios, known for pine forests and weekend-home roots. Quiet, green, with beaches; farther from Montevideo, a car is needed.",
+        "body": "Safety: medium · Infrastructure: medium · Prices: medium\n\nEl Pinar is the easternmost of the large barrios of Ciudad de la Costa, known for its pine forests and weekend-home roots. Quiet, green and low-rise, with sandy beaches; popular with those who want seclusion by the sea. It is farther from Montevideo, infrastructure is medium and a car is needed.\n\nTags: pine forest, quiet, beach, car needed"
+      },
+      "es": {
+        "title": "El Pinar: barrio tranquilo del este, entre pinares",
+        "short": "El más al este de los barrios grandes, conocido por los pinares y su origen de casas de fin de semana. Tranquilo, verde, con playas; más lejos de Montevideo, hace falta auto.",
+        "body": "Seguridad: media · Infraestructura: media · Precios: medios\n\nEl Pinar es el más al este de los barrios grandes de Ciudad de la Costa, conocido por sus pinares y su origen de casas de fin de semana. Tranquilo, verde y de baja altura, con playas de arena; popular entre quienes buscan aislamiento junto al mar. Está más lejos de Montevideo, la infraestructura es media y hace falta auto.\n\nEtiquetas: pinares, tranquilo, playa, hace falta auto"
+      },
+      "de": {
+        "title": "El Pinar: ruhiges Ostviertel in den Pinienwäldern",
+        "short": "Das östlichste der großen Viertel, bekannt für Pinienwälder und seinen Ursprung als Wochenendhaus-Gegend. Ruhig, grün, mit Stränden; weiter von Montevideo, Auto nötig.",
+        "body": "Sicherheit: mittel · Infrastruktur: mittel · Preise: mittel\n\nEl Pinar ist das östlichste der großen Viertel von Ciudad de la Costa, bekannt für seine Pinienwälder und seinen Ursprung als Wochenendhaus-Gegend. Ruhig, grün und flach bebaut, mit Sandstränden; beliebt bei allen, die Abgeschiedenheit am Meer suchen. Es liegt weiter von Montevideo entfernt, die Infrastruktur ist mittel und ein Auto ist nötig.\n\nSchlagwörter: Pinienwald, ruhig, Strand, Auto nötig"
+      }
+    }
+  },
+  {
+    "card_id": "card.locations_neighborhoods_living.overview.city_ciudad_de_la_costa",
+    "topic_id": "topic.locations_neighborhoods_living",
+    "content_category": "overview",
+    "card_type": "public_overview",
+    "visibility": "public",
+    "status": "active",
+    "needs_review": true,
+    "staleness_risk": "low",
+    "sensitivity_level": "low",
+    "sensitivity_tags": [
+      "practical"
+    ],
+    "confidence": "medium",
+    "confidence_score": 0.6,
+    "quality_score": 0.64,
+    "review_reasons": [
+      "editorially_authored_card",
+      "community_opinion_subjective"
+    ],
+    "subtopic_ids": [
+      "subtopic.locations_neighborhoods_living.overview"
+    ],
+    "keyword_ids": [
+      "kw.curated.gorod",
+      "kw.curated.rayon",
+      "kw.curated.lokac",
+      "kw.curated.zhit",
+      "kw.curated.bezopasn",
+      "kw.curated.transport"
+    ],
+    "glossary_term_ids": [
+      "term.gastos_comunes"
+    ],
+    "entity_ids": [],
+    "resource_ids": [
+      "resource.entity.infocasas",
+      "resource.entity.mercadolibre",
+      "resource.entity.intendencia"
+    ],
+    "related_card_ids": [
+      "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_san_jose_de_carrasco",
+      "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_lagomar",
+      "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_shangrila",
+      "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_solymar",
+      "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_lomas_de_solymar",
+      "card.locations_neighborhoods_living.reference.district_ciudad_de_la_costa_el_pinar"
+    ],
+    "prerequisite_card_ids": [],
+    "last_updated_from_message_date": "2026-06-24",
+    "district_meta": {
+      "id": "ciudad_de_la_costa",
+      "city": "Ciudad de la Costa",
+      "kind": "city_overview",
+      "districts": [
+        "ciudad_de_la_costa.san_jose_de_carrasco",
+        "ciudad_de_la_costa.lagomar",
+        "ciudad_de_la_costa.shangrila",
+        "ciudad_de_la_costa.solymar",
+        "ciudad_de_la_costa.lomas_de_solymar",
+        "ciudad_de_la_costa.el_pinar"
+      ]
+    },
+    "service": {
+      "source_intent": "City overview giving the overall feel of Ciudad de la Costa, with light community signal + general knowledge; links to its barrio cards.",
+      "kind": "city_overview",
+      "evidence": "telegram_chat_synthesis + editorial_general_knowledge"
+    },
+    "text": {
+      "ru": {
+        "title": "Сьюдад-де-ла-Коста (Ciudad de la Costa): прибрежный восточный пригород Монтевидео",
+        "short": "Самый населённый город Канелонеса — цепочка прибрежных баррио за ручьём Карраско. Спокойнее, зеленее и дешевле востока Монтевидео, но рассчитан на машину.",
+        "body": "Сьюдад-де-ла-Коста — самый населённый город департамента Канелонес и фактический восточный пригород Монтевидео: цепочка прибрежных баррио вдоль авениды Джаннаттазио, начинающаяся сразу за ручьём Карраско, рядом с аэропортом. Это более спокойная, зелёная и обычно более доступная альтернатива востоку Монтевидео — с песчаными пляжами, малоэтажной застройкой и быстрым строительством нового жилья. Инфраструктура растёт (супермаркеты, Costa Urbana Shopping, новое отделение Migración в Сьюдад-де-ла-Косте), но город рассчитан на машину: расстояния большие, а общественный транспорт идёт в основном по Джаннаттазио. Сюда переезжают семьи и те, кто хочет жить у моря дешевле, чем в Поситосе или Карраско. Баррио сильно различаются — смотрите карточки районов (Сан-Хосе-де-Карраско, Лагомар, Шангрила, Солимар, Ломас-де-Солимар, Эль-Пинар)."
+      },
+      "en": {
+        "title": "Ciudad de la Costa: Montevideo’s coastal eastern suburb",
+        "short": "The most populous city in Canelones — a chain of coastal barrios past the Carrasco stream. Calmer, greener and cheaper than Montevideo’s east, but built for cars.",
+        "body": "Ciudad de la Costa is the most populous city in Canelones department and Montevideo’s de facto eastern suburb: a chain of coastal barrios along Avenida Giannattasio that begins just across the Carrasco stream, next to the airport. It is a calmer, greener and usually cheaper alternative to Montevideo’s east — with sandy beaches, low-rise housing and fast new construction. Infrastructure is growing (supermarkets, Costa Urbana Shopping, a new Migración office in Ciudad de la Costa), but the city is built for cars: distances are large and public transport mainly runs along Giannattasio. It draws families and anyone who wants to live by the sea for less than in Pocitos or Carrasco. Barrios differ a lot — see the district cards (San José de Carrasco, Lagomar, Shangrilá, Solymar, Lomas de Solymar, El Pinar)."
+      },
+      "es": {
+        "title": "Ciudad de la Costa: el suburbio costero al este de Montevideo",
+        "short": "La ciudad más poblada de Canelones — una cadena de barrios costeros pasando el arroyo Carrasco. Más tranquila, verde y barata que el este de Montevideo, pero pensada para el auto.",
+        "body": "Ciudad de la Costa es la ciudad más poblada del departamento de Canelones y el suburbio este de facto de Montevideo: una cadena de barrios costeros a lo largo de la Avenida Giannattasio que empieza apenas cruzado el arroyo Carrasco, junto al aeropuerto. Es una alternativa más tranquila, verde y en general más barata que el este de Montevideo — con playas de arena, construcción baja y mucha obra nueva. La infraestructura crece (supermercados, Costa Urbana Shopping, una nueva oficina de Migración en Ciudad de la Costa), pero la ciudad está pensada para el auto: las distancias son grandes y el transporte público va sobre todo por Giannattasio. Atrae a familias y a quienes quieren vivir junto al mar por menos que en Pocitos o Carrasco. Los barrios varían mucho — mirá las fichas de barrio (San José de Carrasco, Lagomar, Shangrilá, Solymar, Lomas de Solymar, El Pinar)."
+      },
+      "de": {
+        "title": "Ciudad de la Costa: der östliche Küstenvorort von Montevideo",
+        "short": "Die bevölkerungsreichste Stadt in Canelones — eine Kette von Küstenvierteln hinter dem Carrasco-Bach. Ruhiger, grüner und günstiger als der Osten Montevideos, aber autoorientiert.",
+        "body": "Ciudad de la Costa ist die bevölkerungsreichste Stadt im Departamento Canelones und der faktische östliche Vorort von Montevideo: eine Kette von Küstenvierteln entlang der Avenida Giannattasio, die gleich hinter dem Carrasco-Bach neben dem Flughafen beginnt. Sie ist eine ruhigere, grünere und meist günstigere Alternative zum Osten Montevideos — mit Sandstränden, flacher Bebauung und viel Neubau. Die Infrastruktur wächst (Supermärkte, Costa Urbana Shopping, ein neues Migración-Büro in Ciudad de la Costa), aber die Stadt ist auf Autos ausgelegt: die Entfernungen sind groß und der öffentliche Verkehr verläuft vor allem entlang Giannattasio. Sie zieht Familien an und alle, die günstiger als in Pocitos oder Carrasco am Meer wohnen wollen. Die Viertel unterscheiden sich stark — siehe die Stadtteilkarten (San José de Carrasco, Lagomar, Shangrilá, Solymar, Lomas de Solymar, El Pinar)."
       }
     }
   }

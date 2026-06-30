@@ -3,6 +3,25 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-06-24 — Ciudad de la Costa + Carrasco Norte location cards
+
+Added **8 place cards** under `topic.locations_neighborhoods_living` (RU source + EN/ES/DE, the
+standard rating-header + prose + tags shape, with `district_meta` + `service`):
+
+- **Ciudad de la Costa** — a new city overview (`overview.city_ciudad_de_la_costa`, kind
+  `city_overview`) for Montevideo's coastal eastern suburb in Canelones, plus **6 barrio cards**
+  (west→east): `san_jose_de_carrasco`, `lagomar`, `shangrila`, `solymar`, `lomas_de_solymar`,
+  `el_pinar`. The overview's `district_meta.districts` + `related_card_ids` link all six.
+- **Carrasco Norte** — a new Montevideo district card (`district_montevideo_carrasco_norte`); the
+  existing `overview.city_montevideo` was updated in place to list it (inserted right after
+  `montevideo.carrasco` in both `district_meta.districts` and `related_card_ids`).
+- Community chat signal for these areas is light (Ciudad de la Costa ~16 mentions; barrios 0–4;
+  Carrasco Norte 0), so each card's `service.evidence` is set honestly — `telegram_chat_synthesis
+  + editorial_general_knowledge` where there was signal, `editorial_general_knowledge` where there
+  was none.
+- Verified `node scripts/deploy.mjs --dry-run` against raw `v6_6`: 54 editorial cards build (was 46),
+  410 cards total, 0 errors; city-overview cross-links resolve.
+
 ## 2026-06-24 — Crypto-card coverage: hub + 6 fintech cards
 
 Expanded the crypto side of `topic.bank_accounts_cards` (the prior `cards_crypto` card only covered
