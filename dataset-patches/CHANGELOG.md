@@ -3,6 +3,23 @@
 Newest first. Each entry: what changed, why, and the raw dataset version it was authored
 against. See `README.md` for the reproducibility model.
 
+## 2026-07-01 — Enrich the "40 practical tips for renting" card
+
+Rewrote every one of the 40 tips in `card.real_estate_rent.advice.40` (a vendor card, patched via
+the `card-overrides.json` layer) from a bare checklist into **genuinely practical tips** — each now
+carries the *why* and the *what to do instead*, not just the imperative. RU source rewritten (in the
+override's `ru` block) + EN/ES/DE re-translated in parallel; all four locales stay at 40 numbered
+lines. `ru_body_hash` left unchanged (the drift guard still hashes the raw upstream RU).
+
+- Grounded the added detail in the community export: agency commission = **1 month rent + 22% IVA**;
+  insurance garantías (**ANDA/Mapfre, Porto Seguro**) often reject applicants whose income is only
+  abroad; the **commission-before-contract scam**; damp/mold in older stock; "heated floors" that
+  "exist but don't work"; 2-year contracts with **yearly indexation**.
+- E.g. tip 20 went from *"Do not rely on the agent alone."* to explaining the agent's incentive and
+  what to verify yourself (neighborhood, debts, contract terms; ask in chats; view in person).
+- Verified `node scripts/deploy.mjs --dry-run` (overrides apply to 265 cards, no RU drift, valid JSON);
+  deployed as **v7.6**; confirmed live that all four locales return 40 expanded lines.
+
 ## 2026-06-24 — Ciudad de la Costa + Carrasco Norte location cards
 
 Added **8 place cards** under `topic.locations_neighborhoods_living` (RU source + EN/ES/DE, the
